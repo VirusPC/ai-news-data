@@ -1,0 +1,56 @@
+{
+  "issue": "2026-11-13",
+  "coverage_window": {
+    "since": "2026-11-06",
+    "until": "2026-11-12",
+    "timezone": "Asia/Shanghai"
+  },
+  "generated_at": "2026-11-13T09:25:05+08:00",
+  "brain_repo_commit": "d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
+  "scripts": {
+    "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
+    "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
+    "feeds_full_note": "仓库 skill 尚无 --out-full；本期全文版用同逻辑本地补丁另存（正文不截 1200 字）。"
+  },
+  "files": {
+    "feeds.json": {
+      "description": "fetch_feeds.py 精简输出（正文截 1200 字）",
+      "feeds": 46,
+      "errors": 0,
+      "items": 218,
+      "thin": 107,
+      "feed_bytes": 24811426
+    },
+    "feeds-full.json": {
+      "description": "同一批条目的全文版（不截断）",
+      "items": 218
+    },
+    "llm-arena.json": {
+      "description": "fetch_llm_arena.py --until 2026-11-12",
+      "leaderboard_publish_date": "2026-11-09",
+      "prior_publish_date": "2026-11-08",
+      "next_publish_date": null,
+      "rows": 421,
+      "items": 20,
+      "dataset": "lmarena-ai/leaderboard-dataset",
+      "config": "text_style_control"
+    },
+    "github-trending.json": {
+      "description": "GitHub Trending daily/all，按 RSS 原始顺序",
+      "snapshot_date": "2026-11-12",
+      "feed_updated": "Thu, 12 Nov 2026 07:55:26 GMT",
+      "items": 10,
+      "top5": [
+        "meta/astryx",
+        "ZhuLinsen/daily_stock_analysis",
+        "GoogleChrome/modern-web-guidance-src",
+        "shadcn/improve",
+        "addyosmani/agent-skills"
+      ]
+    },
+    "aa-language-models.json": {
+      "missing": true,
+      "reason": "运行环境未设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY，未拉取，不落文件。"
+    }
+  }
+}
