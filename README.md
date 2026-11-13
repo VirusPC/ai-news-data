@@ -11,9 +11,13 @@ issues/YYYY-MM-DD/          # 生成日 D，与周报文件名同日
   llm-arena.json            # fetch_llm_arena.py 当期快照
   aa-language-models.json   # Artificial Analysis（有密钥时）
   github-trending.json      # GitHub Trending daily/all 快照（拿得到时）
+  openrouter-rankings-daily.json       # OpenRouter 日用量（含上一周，CC BY 4.0）
+  openrouter-rankings-programming.json # 编程分类，按周抽样
+  openrouter-app-rankings.json         # 应用排行（周报正文用）
+  openrouter-app-rankings-coding.json  # 编程类应用排行旁路快照
   manifest.json             # 覆盖窗口、生成时间、脚本 commit、各文件来源与条数
 ```
 
 - 每期一个目录，只增不改；更正放新提交并在 manifest 记录。
-- 不存密钥；Artificial Analysis 只存公开字段。
+- 不存密钥；Artificial Analysis 只存公开字段。OpenRouter 快照是 Data API 导出（CC BY 4.0），同样不落密钥。
 - 2026-11-13 之前的各期没有留存抓取数据，不补。
