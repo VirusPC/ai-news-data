@@ -10,7 +10,8 @@
   "scripts": {
     "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
     "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
-    "feeds_full_note": "仓库 skill 尚无 --out-full；本期全文版用同逻辑本地补丁另存（正文不截 1200 字）。"
+    "feeds_full_note": "仓库 skill 尚无 --out-full；本期全文版用同逻辑本地补丁另存（正文不截 1200 字）。",
+    "fetch_artificial_analysis.py": "后补：免费接口 /api/v2/language/models/free，4 页，fetched_at 2026-11-13T19:26:31+08:00"
   },
   "files": {
     "feeds.json": {
@@ -49,8 +50,20 @@
       ]
     },
     "aa-language-models.json": {
-      "missing": true,
-      "reason": "运行环境未设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY，未拉取，不落文件。"
+      "description": "GET /api/v2/language/models/free，4 页合并（tier free，Intelligence Index v5）。后补入，未重跑本期其它抓取。",
+      "endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
+      "tier": "free",
+      "intelligence_index_version": 5,
+      "fetched_at": "2026-11-13T19:26:31+08:00",
+      "fetched_pages_at": {
+        "1": "2026-11-13T19:26:14+08:00",
+        "2": "2026-11-13T19:26:28+08:00",
+        "3": "2026-11-13T19:26:29+08:00",
+        "4": "2026-11-13T19:26:31+08:00"
+      },
+      "fetched_models": 739,
+      "models_with_intelligence_index": 126,
+      "window_new_models": 13
     }
   }
 }
