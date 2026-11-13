@@ -11,7 +11,8 @@
     "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
     "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ d28a0bfc9cf079ca86ef221a4fbc6ebd7bb19e50",
     "feeds_full_note": "仓库 skill 尚无 --out-full；本期全文版用同逻辑本地补丁另存（正文不截 1200 字）。",
-    "fetch_artificial_analysis.py": "后补：免费接口 /api/v2/language/models/free，4 页，fetched_at 2026-11-13T19:26:31+08:00"
+    "fetch_artificial_analysis.py": "后补：免费接口 /api/v2/language/models/free，4 页，fetched_at 2026-11-13T19:26:31+08:00",
+    "openrouter_note": "后补：OpenRouter Data API 四份导出（rankings-daily、programming、app-rankings、app-rankings-coding），fetched_at 2026-11-13T22:55+08:00。CC BY 4.0。未重跑本期其它抓取。"
   },
   "files": {
     "feeds.json": {
@@ -64,6 +65,69 @@
       "fetched_models": 739,
       "models_with_intelligence_index": 126,
       "window_new_models": 13
+    },
+    "openrouter-rankings-daily.json": {
+      "description": "OpenRouter Data API 全品类日用量。请求窗口含上一周以便周环比。后补入，未重跑本期其它抓取。CC BY 4.0 导出，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/rankings-daily?start_date=2026-10-30&end_date=2026-11-12",
+      "license": "CC BY 4.0",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-12"
+      },
+      "as_of": "2026-11-13T22:55+08:00",
+      "fetched_at": "2026-11-13T22:55+08:00",
+      "meta_as_of": "2026-11-13T14:55:01.681Z",
+      "rows": 714
+    },
+    "openrouter-rankings-programming.json": {
+      "description": "OpenRouter Data API 编程分类用量。同一日期窗口，category=programming；按周抽样估计，桶日期为周一（2026-10-26、2026-11-02、2026-11-09）。后补入。CC BY 4.0 导出，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/rankings-daily?start_date=2026-10-30&end_date=2026-11-12&category=programming",
+      "license": "CC BY 4.0",
+      "category": "programming",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-12"
+      },
+      "bucket_dates": [
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09"
+      ],
+      "as_of": "2026-11-13T22:55+08:00",
+      "fetched_at": "2026-11-13T22:55+08:00",
+      "meta_as_of": "2026-11-13T14:55:02.941Z",
+      "rows": 153
+    },
+    "openrouter-app-rankings.json": {
+      "description": "OpenRouter Data API 应用排行（全品类，sort=popular，limit=50）。周报正文用这一份。后补入。CC BY 4.0 导出，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings?sort=popular&start_date=2026-11-06&end_date=2026-11-12&limit=50",
+      "license": "CC BY 4.0",
+      "sort": "popular",
+      "limit": 50,
+      "window": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-12"
+      },
+      "as_of": "2026-11-13T22:55+08:00",
+      "fetched_at": "2026-11-13T22:55+08:00",
+      "meta_as_of": "2026-11-13T14:55:04.014Z",
+      "rows": 50
+    },
+    "openrouter-app-rankings-coding.json": {
+      "description": "OpenRouter Data API 编程类应用排行旁路快照（category=coding，sort=popular，limit=50）。周报正文不用这一份，用全品类 app-rankings。后补入。CC BY 4.0 导出，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings?sort=popular&start_date=2026-11-06&end_date=2026-11-12&limit=50&category=coding",
+      "license": "CC BY 4.0",
+      "category": "coding",
+      "sort": "popular",
+      "limit": 50,
+      "window": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-12"
+      },
+      "as_of": "2026-11-13T22:55+08:00",
+      "fetched_at": "2026-11-13T22:55+08:00",
+      "meta_as_of": "2026-11-13T14:55:04.686Z",
+      "rows": 50
     }
   }
 }
