@@ -1,0 +1,107 @@
+{
+  "issue": "2026-11-20",
+  "coverage_window": {
+    "since": "2026-11-13",
+    "until": "2026-11-19",
+    "timezone": "Asia/Shanghai"
+  },
+  "generated_at": "2026-11-20T17:10:52+08:00",
+  "supplement": "2026-11-20 正文生成时缺少密钥，Artificial Analysis 与 OpenRouter 事后补入。本目录目前只有这两类快照；feeds、llm-arena、github-trending 仍未入库。没有再请求这两个接口，也不含密钥。",
+  "brain_repo_commit": "5b8b72c71adbeb147e64f04a29c95deec2b51f39",
+  "scripts": {
+    "fetch_artificial_analysis.py": "后补：已拉取的免费接口快照，fetched_at 2026-11-20T17:10:52+08:00，763 个模型。未再请求接口。",
+    "openrouter_note": "后补：OpenRouter Data API 四份导出，fetched_at 2026-11-20T17:07+08:00。CC BY 4.0。未再请求接口。"
+  },
+  "files": {
+    "aa-language-models.json": {
+      "description": "GET /api/v2/language/models/free 的精简快照（tier free，Intelligence Index v5）。后补入，未重跑本期其它抓取，不含密钥。",
+      "endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
+      "tier": "free",
+      "intelligence_index_version": 5,
+      "fetched_at": "2026-11-20T17:10:52+08:00",
+      "fetched_models": 763,
+      "models_with_intelligence_index": 156,
+      "window_new_models": 17,
+      "window_new_models_note": "release_date 落在 2026-11-13～2026-11-19 的模型数，含 1 个没有 Intelligence Index 的 Astra for Law 6.2。"
+    },
+    "openrouter-rankings-daily.json": {
+      "description": "OpenRouter Data API 全品类日用量，period=day。请求跨度含上一周以便周环比；正文窗口是 2026-11-13～2026-11-19。后补入。CC BY 4.0，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/rankings-daily",
+      "license": "CC BY 4.0",
+      "period": "day",
+      "citation": "Source: OpenRouter (openrouter.ai/rankings), as of 2026-11-20T09:07:22.690Z. Licensed under CC BY 4.0.",
+      "window": {
+        "start_date": "2026-11-13",
+        "end_date": "2026-11-19"
+      },
+      "prior_window": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-12"
+      },
+      "meta_window": {
+        "start_date": "2026-11-06",
+        "end_date": "2026-11-19"
+      },
+      "fetched_at": "2026-11-20T17:07:22+08:00",
+      "meta_as_of": "2026-11-20T09:07:22.690Z",
+      "rows": 714,
+      "items": 15
+    },
+    "openrouter-rankings-programming.json": {
+      "description": "OpenRouter Data API 编程分类用量，category=programming、period=week。采用已结束采样周 2026-11-09～2026-11-15。后补入。CC BY 4.0，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/rankings-daily",
+      "license": "CC BY 4.0",
+      "category": "programming",
+      "period": "week",
+      "citation": "Source: OpenRouter (openrouter.ai/rankings), as of 2026-11-20T09:07:23.293Z. Licensed under CC BY 4.0.",
+      "bucket_date": "2026-11-09",
+      "window": {
+        "start_date": "2026-11-09",
+        "end_date": "2026-11-15"
+      },
+      "prior_window": {
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-08"
+      },
+      "coverage_window": {
+        "start_date": "2026-11-13",
+        "end_date": "2026-11-19"
+      },
+      "fetched_at": "2026-11-20T17:07:23+08:00",
+      "meta_as_of": "2026-11-20T09:07:23.293Z",
+      "rows": 204,
+      "items": 15
+    },
+    "openrouter-app-rankings.json": {
+      "description": "OpenRouter Data API 应用排行（全品类，sort=popular）。周报正文用这一份。本次 limit 为 15。后补入。CC BY 4.0，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
+      "license": "CC BY 4.0",
+      "sort": "popular",
+      "citation": "Source: OpenRouter (openrouter.ai/apps), as of 2026-11-20T09:07:23.803Z. Licensed under CC BY 4.0.",
+      "window": {
+        "start_date": "2026-11-13",
+        "end_date": "2026-11-19"
+      },
+      "fetched_at": "2026-11-20T17:07:23+08:00",
+      "meta_as_of": "2026-11-20T09:07:23.803Z",
+      "rows": 15,
+      "items": 15
+    },
+    "openrouter-app-rankings-coding.json": {
+      "description": "OpenRouter Data API 编程类应用排行旁路快照（category=coding）。周报正文不用这一份。后补入。CC BY 4.0，无密钥。",
+      "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
+      "license": "CC BY 4.0",
+      "category": "coding",
+      "sort": "popular",
+      "citation": "Source: OpenRouter (openrouter.ai/apps), as of 2026-11-20T09:07:24.199Z. Licensed under CC BY 4.0.",
+      "window": {
+        "start_date": "2026-11-13",
+        "end_date": "2026-11-19"
+      },
+      "fetched_at": "2026-11-20T17:07:24+08:00",
+      "meta_as_of": "2026-11-20T09:07:24.199Z",
+      "rows": 15,
+      "items": 15
+    }
+  }
+}
