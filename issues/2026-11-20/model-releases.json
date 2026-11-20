@@ -107,7 +107,13 @@
           },
           "note": "与官方标准价一致。提示超过 272K token 时，OpenRouter / 官网为输入与缓存 2 倍、输出 1.5 倍。",
           "fetched_at": "2026-11-20T12:48:26Z"
-        }
+        },
+        "rank": 123,
+        "rank_of": 142,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": "artificial_analysis",
+        "rank_value": 32,
+        "rank_variant": "GPT-6.2 Astra (Max)"
       },
       "speed": {
         "latency_s": 2.7,
@@ -164,7 +170,11 @@
             "latency_s": null,
             "throughput_tps": null
           }
-        ]
+        ],
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": "openrouter_official_standard"
       },
       "aa": {
         "intelligence_index": 62.1,
@@ -265,7 +275,13 @@
           },
           "note": "与官方标准价一致。提示超过 272K token 时为输入与缓存 2 倍、输出 1.5 倍。",
           "fetched_at": "2026-11-20T12:48:26Z"
-        }
+        },
+        "rank": 87,
+        "rank_of": 142,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": "artificial_analysis",
+        "rank_value": 8,
+        "rank_variant": "GPT-6.2 Sol (Max)"
       },
       "speed": {
         "latency_s": 3.1845,
@@ -322,7 +338,11 @@
             "latency_s": 3.454,
             "throughput_tps": 215
           }
-        ]
+        ],
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": "openrouter_official_standard"
       },
       "aa": {
         "intelligence_index": 57.3,
@@ -412,7 +432,13 @@
           "source": "openrouter_model_page",
           "fetched_at": "2026-11-20T12:47:40Z"
         },
-        "note": "发布原文（Antigravity 博文）只写向付费 Google AI Pro / Ultra 订阅者开放，没有给出每百万 token 单价，故改用 OpenRouter。官方标准档 Google Vertex global 与 Google AI Studio 标价相同，且与模型页标价一致。flex 档约半价，priority 档更高，未采用。"
+        "note": "发布原文（Antigravity 博文）只写向付费 Google AI Pro / Ultra 订阅者开放，没有给出每百万 token 单价，故改用 OpenRouter。官方标准档 Google Vertex global 与 Google AI Studio 标价相同，且与模型页标价一致。flex 档约半价，priority 档更高，未采用。",
+        "rank": 107,
+        "rank_of": 142,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": "artificial_analysis",
+        "rank_value": 12,
+        "rank_variant": "Gemini 4 Neon (Xhigh)"
       },
       "speed": {
         "latency_s": 3.72925,
@@ -469,7 +495,11 @@
             "latency_s": 9.3985,
             "throughput_tps": 74.5
           }
-        ]
+        ],
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": "openrouter_official_standard"
       },
       "aa": {
         "intelligence_index": 61.4,
@@ -564,7 +594,13 @@
             "https://www.qwencloud.com/models/qwen4-max",
             "https://www.alibabacloud.com/help/en/model-studio/qwen4-max"
           ]
-        }
+        },
+        "rank": 69,
+        "rank_of": 142,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": "artificial_analysis",
+        "rank_value": 3.75,
+        "rank_variant": "Qwen4 Max"
       },
       "speed": {
         "latency_s": 2.5875,
@@ -588,7 +624,11 @@
             "request_count": 36237
           }
         ],
-        "other_endpoints_excluded": []
+        "other_endpoints_excluded": [],
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": "openrouter_official_standard"
       },
       "aa": {
         "intelligence_index": 42.9,
