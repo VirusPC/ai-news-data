@@ -1,0 +1,268 @@
+{
+  "skipped": false,
+  "board": "apps",
+  "source": "OpenRouter",
+  "source_url": "https://openrouter.ai/apps",
+  "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
+  "license": "CC BY 4.0",
+  "citation": "Source: OpenRouter (openrouter.ai/apps), as of 2026-11-20T09:07:23.803Z. Licensed under CC BY 4.0.",
+  "meta": {
+    "as_of": "2026-11-20T09:07:23.803Z",
+    "version": "v1",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-19"
+  },
+  "fetched_at": "2026-11-20T17:07:23+08:00",
+  "sort": "popular",
+  "category": null,
+  "unit": "trillion tokens (prompt+completion)",
+  "window": {
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-19"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "model": "Hermes Agent",
+      "organization": "app",
+      "score": 14.65,
+      "total_tokens": "14645514229001",
+      "app_id": 3067167,
+      "total_requests": 119923843
+    },
+    {
+      "rank": 2,
+      "model": "Claude Code",
+      "organization": "app",
+      "score": 11.14,
+      "total_tokens": "11137142781846",
+      "app_id": 2627404,
+      "total_requests": 105517820
+    },
+    {
+      "rank": 3,
+      "model": "Kilo Code",
+      "organization": "app",
+      "score": 8.55,
+      "total_tokens": "8554520433274",
+      "app_id": 2262242,
+      "total_requests": 77394450
+    },
+    {
+      "rank": 4,
+      "model": "pi",
+      "organization": "app",
+      "score": 4.92,
+      "total_tokens": "4917000683049",
+      "app_id": 2853275,
+      "total_requests": 53606541
+    },
+    {
+      "rank": 5,
+      "model": "Strix",
+      "organization": "app",
+      "score": 3.2,
+      "total_tokens": "3203137824462",
+      "app_id": 3003505,
+      "total_requests": 30464482
+    },
+    {
+      "rank": 6,
+      "model": "Codex",
+      "organization": "app",
+      "score": 2.85,
+      "total_tokens": "2845887834752",
+      "app_id": 2668297,
+      "total_requests": 43888648
+    },
+    {
+      "rank": 7,
+      "model": "DeepSeek Harness",
+      "organization": "app",
+      "score": 2.33,
+      "total_tokens": "2331776134363",
+      "app_id": 4706207,
+      "total_requests": 13811456
+    },
+    {
+      "rank": 8,
+      "model": "omp",
+      "organization": "app",
+      "score": 2.14,
+      "total_tokens": "2142642665571",
+      "app_id": 3682314,
+      "total_requests": 17646655
+    },
+    {
+      "rank": 9,
+      "model": "OpenClaw",
+      "organization": "app",
+      "score": 1.75,
+      "total_tokens": "1751623811115",
+      "app_id": 2725608,
+      "total_requests": 18858770
+    },
+    {
+      "rank": 10,
+      "model": "Minds by Authentic Intelligence",
+      "organization": "app",
+      "score": 1.33,
+      "total_tokens": "1326065831387",
+      "app_id": 4913981,
+      "total_requests": 36887594
+    },
+    {
+      "rank": 11,
+      "model": "Portkey AI",
+      "organization": "app",
+      "score": 1.13,
+      "total_tokens": "1128245366136",
+      "app_id": 169295,
+      "total_requests": 89187481
+    },
+    {
+      "rank": 12,
+      "model": "OpenHands",
+      "organization": "app",
+      "score": 1.05,
+      "total_tokens": "1054432281275",
+      "app_id": 189563,
+      "total_requests": 9670216
+    },
+    {
+      "rank": 13,
+      "model": "ISEKAI ZERO",
+      "organization": "app",
+      "score": 0.78,
+      "total_tokens": "777574212433",
+      "app_id": 2699842,
+      "total_requests": 10567280
+    },
+    {
+      "rank": 14,
+      "model": "Freebuff",
+      "organization": "app",
+      "score": 0.55,
+      "total_tokens": "549759936607",
+      "app_id": 4137556,
+      "total_requests": 5565060
+    },
+    {
+      "rank": 15,
+      "model": "Hello Minds, powered by Ethoswarm",
+      "organization": "app",
+      "score": 0.53,
+      "total_tokens": "527113175353",
+      "app_id": 4132065,
+      "total_requests": 7165954
+    }
+  ],
+  "data": [
+    {
+      "rank": 1,
+      "app_id": 3067167,
+      "app_name": "Hermes Agent",
+      "total_tokens": "14645514229001",
+      "total_requests": 119923843
+    },
+    {
+      "rank": 2,
+      "app_id": 2627404,
+      "app_name": "Claude Code",
+      "total_tokens": "11137142781846",
+      "total_requests": 105517820
+    },
+    {
+      "rank": 3,
+      "app_id": 2262242,
+      "app_name": "Kilo Code",
+      "total_tokens": "8554520433274",
+      "total_requests": 77394450
+    },
+    {
+      "rank": 4,
+      "app_id": 2853275,
+      "app_name": "pi",
+      "total_tokens": "4917000683049",
+      "total_requests": 53606541
+    },
+    {
+      "rank": 5,
+      "app_id": 3003505,
+      "app_name": "Strix",
+      "total_tokens": "3203137824462",
+      "total_requests": 30464482
+    },
+    {
+      "rank": 6,
+      "app_id": 2668297,
+      "app_name": "Codex",
+      "total_tokens": "2845887834752",
+      "total_requests": 43888648
+    },
+    {
+      "rank": 7,
+      "app_id": 4706207,
+      "app_name": "DeepSeek Harness",
+      "total_tokens": "2331776134363",
+      "total_requests": 13811456
+    },
+    {
+      "rank": 8,
+      "app_id": 3682314,
+      "app_name": "omp",
+      "total_tokens": "2142642665571",
+      "total_requests": 17646655
+    },
+    {
+      "rank": 9,
+      "app_id": 2725608,
+      "app_name": "OpenClaw",
+      "total_tokens": "1751623811115",
+      "total_requests": 18858770
+    },
+    {
+      "rank": 10,
+      "app_id": 4913981,
+      "app_name": "Minds by Authentic Intelligence",
+      "total_tokens": "1326065831387",
+      "total_requests": 36887594
+    },
+    {
+      "rank": 11,
+      "app_id": 169295,
+      "app_name": "Portkey AI",
+      "total_tokens": "1128245366136",
+      "total_requests": 89187481
+    },
+    {
+      "rank": 12,
+      "app_id": 189563,
+      "app_name": "OpenHands",
+      "total_tokens": "1054432281275",
+      "total_requests": 9670216
+    },
+    {
+      "rank": 13,
+      "app_id": 2699842,
+      "app_name": "ISEKAI ZERO",
+      "total_tokens": "777574212433",
+      "total_requests": 10567280
+    },
+    {
+      "rank": 14,
+      "app_id": 4137556,
+      "app_name": "Freebuff",
+      "total_tokens": "549759936607",
+      "total_requests": 5565060
+    },
+    {
+      "rank": 15,
+      "app_id": 4132065,
+      "app_name": "Hello Minds, powered by Ethoswarm",
+      "total_tokens": "527113175353",
+      "total_requests": 7165954
+    }
+  ],
+  "ok": true
+}
