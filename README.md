@@ -10,7 +10,7 @@ issues/YYYY-MM-DD/          # 生成日 D，与周报文件名同日
   feeds.index.json          # 选文索引：标题、链接、来源、thin、开头约 400 字
   llm-arena.json            # fetch_llm_arena.py 当期快照
   aa-language-models.json   # Artificial Analysis（有密钥时）
-  github-trending.json      # 从 feeds.json 抽出的 daily/all 全文；数组顺序不是榜上名次
+  github-trending.json      # 从 feeds.json 抽出的 Trending all 全文；名次以 XML 原始顺序为准，按标题重排后的数组顺序不是名次
   openrouter-rankings-daily.json       # OpenRouter 日用量（含上一周，CC BY 4.0）
   openrouter-rankings-programming.json # 编程分类，按周抽样
   openrouter-app-rankings.json         # 应用排行（周报正文用）

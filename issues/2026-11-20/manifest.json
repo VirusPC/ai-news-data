@@ -6,7 +6,7 @@
     "timezone": "Asia/Shanghai"
   },
   "generated_at": "2026-11-20T17:10:52+08:00",
-  "supplement": "2026-11-20 补入 feeds.json（全文，不截断）、feeds.index.json，以及从中抽出的 github-trending-daily-all。窗口 2026-11-13～2026-11-19 UTC。不含密钥。AA、OpenRouter、Arena、模型发布仍是此前的快照，这次没有重拉。",
+  "supplement": "2026-11-20 补入 feeds.json（全文，不截断）、feeds.index.json。GitHub Trending 已从 daily 改为 weekly：去掉 github-trending-daily-all / daily-python / daily-typescript，改为 github-trending-weekly-all / weekly-python / weekly-typescript。github-trending.json 是 weekly-all 全文，名次以 XML 原始顺序为准，按标题重排后的数组顺序不是榜上名次。窗口仍是 2026-11-13～2026-11-19 UTC。不含密钥。AA、OpenRouter、Arena、模型发布仍是此前的快照，这次没有重拉。",
   "brain_repo_commit": "5b8b72c71adbeb147e64f04a29c95deec2b51f39",
   "scripts": {
     "fetch_artificial_analysis.py": "后补：已拉取的免费接口快照，fetched_at 2026-11-20T17:10:52+08:00，763 个模型。未再请求接口。",
@@ -153,24 +153,56 @@
       }
     },
     "feeds.json": {
-      "description": "fetch_feeds.py --out 的全文。summary 不截断。一份文件，不再另存截断版。",
+      "description": "fetch_feeds.py --out 的全文。summary 不截断。一份文件，不再另存截断版。GitHub Trending 已从 daily 改为 weekly（weekly-all / weekly-python / weekly-typescript），daily 源已去掉。这三条按各自 XML 的 item 原始顺序写入，没有按标题重排。名次以 XML 原始顺序为准。",
       "since": "2026-11-13",
       "until": "2026-11-19",
       "timezone": "UTC",
       "feeds": 45,
       "items": 219,
       "thin": 94,
-      "bytes": 1710039
+      "bytes": 2050138,
+      "github_trending": {
+        "period": "weekly",
+        "order": "各源按 XML item 原始顺序，不按标题重排。名次以该顺序为准。",
+        "removed": [
+          "github-trending-daily-all",
+          "github-trending-daily-python",
+          "github-trending-daily-typescript"
+        ],
+        "sources": [
+          {
+            "id": "github-trending-weekly-all",
+            "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml",
+            "feed_pubDate": "Fri, 20 Nov 2026 07:56:38 GMT",
+            "items": 13
+          },
+          {
+            "id": "github-trending-weekly-python",
+            "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/python.xml",
+            "feed_pubDate": "Fri, 20 Nov 2026 08:09:38 GMT",
+            "items": 15
+          },
+          {
+            "id": "github-trending-weekly-typescript",
+            "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/typescript.xml",
+            "feed_pubDate": "Fri, 20 Nov 2026 08:14:00 GMT",
+            "items": 17
+          }
+        ]
+      }
     },
     "feeds.index.json": {
-      "description": "选文用的索引：标题、日期、链接、来源、thin 和开头约 400 字。不含全文。",
+      "description": "选文用的索引：标题、日期、链接、来源、thin 和开头约 400 字。不含全文。Trending 条目与 feeds.json 相同，按 weekly XML 原始顺序，不按标题重排。",
       "items": 219,
-      "bytes": 128385
+      "bytes": 128871
     },
     "github-trending.json": {
-      "description": "从 feeds.json 抽出的 github-trending-daily-all 全文。fetch_feeds.py 按日期和标题重排，数组顺序不是榜上名次。其它分类不复制。",
-      "items": 16,
-      "bytes": 430963
+      "description": "从 feeds.json 抽出的 github-trending-weekly-all 全文。条目按 weekly/all.xml 的 item 原始顺序保存，没有按标题重排。名次以该 XML 原始顺序为准。按标题重排后的数组顺序不是榜上名次。其它分类不复制。",
+      "source_id": "github-trending-weekly-all",
+      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml",
+      "feed_pubDate": "Fri, 20 Nov 2026 07:56:38 GMT",
+      "items": 13,
+      "bytes": 351415
     }
   }
 }
