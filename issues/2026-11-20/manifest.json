@@ -114,7 +114,7 @@
       "config": "text_style_control"
     },
     "model-releases.json": {
-      "description": "模型发布四条的生成日快照：价格优先发布原文，否则 OpenRouter 官方提供商；速度为 OpenRouter endpoints 近 30 分钟 p50；智力指数来自 Artificial Analysis 免费接口。不含密钥。",
+      "description": "模型发布四条的生成日快照：价格优先发布原文，否则 OpenRouter 官方提供商；速度为 OpenRouter endpoints 近 30 分钟 p50；智力指数来自 Artificial Analysis 免费接口。后补价格排名，展示价格、速度数字和智力指数名次未改。速度 rank 仍为 null。不含密钥。",
       "models": [
         "GPT-6.2 Astra",
         "GPT-6.2 Sol",
@@ -126,7 +126,31 @@
       "openrouter_endpoints_fetched_at": "2026-11-20T12:48:26Z",
       "artificial_analysis": "https://artificialanalysis.ai/api/v2/language/models/free",
       "aa_fetched_at": "2026-11-20T12:50:05Z",
-      "aa_scored_models": 156
+      "aa_scored_models": 156,
+      "price_rank": {
+        "metric": "blended_input_plus_3_output_over_4",
+        "formula": "(input + 3 * output) / 4",
+        "source": "issues/2026-11-20/aa-language-models.json 的 AA 标价",
+        "cheaper_is_better": true,
+        "rank_method": "competition",
+        "denominator": 142,
+        "denominator_note": "既有 Intelligence Index 又有输入和输出标价。156 个有智力指数，其中 14 个没有标价，不进分母。",
+        "verified_against": "issues/2026-11-20/aa-language-models.json",
+        "ranks": {
+          "GPT-6.2 Astra": "123/142",
+          "Gemini 4 Neon": "107/142",
+          "GPT-6.2 Sol": "87/142",
+          "Qwen4-Max": "69/142"
+        },
+        "qwen_display_price": "OpenRouter $1.425 / $4.275",
+        "qwen_rank_price": "AA $1.5 / $4.5",
+        "brain_pr": "https://github.com/VirusPC/edges-brain-viruspc/pull/538",
+        "brain_merge_commit": "2d64166532b5646c29c8b41de7f102fe22156d40"
+      },
+      "speed_rank": {
+        "status": "not_ranked",
+        "reason": "本期没有 openrouter-official-endpoints.json。没有 OPENROUTER_API_KEY，未抓取、未编造速度名次。四条 speed.rank 都是 null。"
+      }
     },
     "feeds.json": {
       "description": "fetch_feeds.py --out 的全文。summary 不截断。一份文件，不再另存截断版。",
