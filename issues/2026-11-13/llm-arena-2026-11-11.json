@@ -1,0 +1,177 @@
+{
+  "source": "Hugging Face dataset",
+  "dataset": "lmarena-ai/leaderboard-dataset",
+  "config": "text_style_control",
+  "split": "full",
+  "category": "overall",
+  "opml": false,
+  "adopted_publish_date": "2026-11-11",
+  "leaderboard_publish_date": "2026-11-11",
+  "prior_publish_date": "2026-11-09",
+  "next_publish_date": "2026-11-18",
+  "attribution": "LLM Arena rankings from the Hugging Face dataset lmarena-ai/leaderboard-dataset (CC-BY-4.0). Not an RSS/OPML feed. Historical boards are the full parquet (text_style_control/full-00000-of-00001.parquet), not the latest split.",
+  "parquet": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/full-00000-of-00001.parquet",
+  "rows": 421,
+  "items": [
+    {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (High)",
+      "organization": "google",
+      "score": 1526.18,
+      "votes": 4273,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 2,
+      "model": "Gemini 4 Argon (High)",
+      "organization": "google",
+      "score": 1521.69,
+      "votes": 20779,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 3,
+      "model": "Muse Wonder (Max)",
+      "organization": "meta",
+      "score": 1510.86,
+      "votes": 12696,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (High)",
+      "organization": "anthropic",
+      "score": 1506.78,
+      "votes": 15793,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 5,
+      "model": "Claude Fable 5 (High)",
+      "organization": "anthropic",
+      "score": 1503.98,
+      "votes": 45469,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (High)",
+      "organization": "anthropic",
+      "score": 1502.83,
+      "votes": 84375,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 7,
+      "model": "Claude Fable 5.1 (Max)",
+      "organization": "anthropic",
+      "score": 1502.32,
+      "votes": 20511,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 8,
+      "model": "Claude Opus 4.7 (High)",
+      "organization": "anthropic",
+      "score": 1501.13,
+      "votes": 64260,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (High)",
+      "organization": "google",
+      "score": 1496.66,
+      "votes": 62675,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (Max)",
+      "organization": "meta",
+      "score": 1496.5,
+      "votes": 26806,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 11,
+      "model": "Claude Opus 4.6",
+      "organization": "anthropic",
+      "score": 1496.43,
+      "votes": 89177,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 12,
+      "model": "Claude Opus 4.7",
+      "organization": "anthropic",
+      "score": 1493.87,
+      "votes": 65309,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 13,
+      "model": "Muse Spark 1.2 (xHigh)",
+      "organization": "meta",
+      "score": 1492.89,
+      "votes": 15563,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 14,
+      "model": "Muse Spark 1.1",
+      "organization": "meta",
+      "score": 1490.87,
+      "votes": 45519,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 15,
+      "model": "Gemini 4 Hydrogen (High)",
+      "organization": "google",
+      "score": 1490.43,
+      "votes": 4741,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 16,
+      "model": "Claude Opus 5 (High)",
+      "organization": "anthropic",
+      "score": 1489.68,
+      "votes": 73632,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 17,
+      "model": "Gemini 3.7 Flash (High)",
+      "organization": "google",
+      "score": 1489.28,
+      "votes": 33251,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 18,
+      "model": "Muse Spark",
+      "organization": "meta",
+      "score": 1489.19,
+      "votes": 13985,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 19,
+      "model": "Claude Opus 5 (Max)",
+      "organization": "anthropic",
+      "score": 1488.97,
+      "votes": 35670,
+      "leaderboard_publish_date": "2026-11-11"
+    },
+    {
+      "rank": 20,
+      "model": "Kimi K3 (Max)",
+      "organization": "moonshot",
+      "score": 1487.44,
+      "votes": 41402,
+      "leaderboard_publish_date": "2026-11-11"
+    }
+  ]
+}
