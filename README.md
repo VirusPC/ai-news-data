@@ -18,6 +18,7 @@ issues/YYYY-MM-DD/          # 生成日 D，与周报文件名同日
   manifest.json             # 覆盖窗口、生成时间、脚本 commit、各文件来源与条数
 ```
 
+- `feeds.json` 只存 feed 给出的正文。不足 280 字记为 `thin`，不另开文章页补全文。
 - 每期一个目录，只增不改；更正放新提交并在 manifest 记录。
 - 不存密钥；Artificial Analysis 只存公开字段。OpenRouter 快照是 Data API 导出（CC BY 4.0），同样不落密钥。
 - 2026-11-13 之前的各期没有留存抓取数据，不补。
