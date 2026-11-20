@@ -102,6 +102,16 @@
       "meta_as_of": "2026-11-20T09:07:24.199Z",
       "rows": 15,
       "items": 15
+    },
+    "llm-arena-2026-11-18.json": {
+      "description": "正文采用的榜。full parquet 里 leaderboard_publish_date=2026-11-18 的 overall Top 20。",
+      "leaderboard_publish_date": "2026-11-18",
+      "prior_publish_date": "2026-11-11",
+      "next_publish_date": "2026-11-19",
+      "rows": 422,
+      "items": 20,
+      "dataset": "lmarena-ai/leaderboard-dataset",
+      "config": "text_style_control"
     }
   }
 }
