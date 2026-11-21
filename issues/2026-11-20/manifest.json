@@ -7,7 +7,7 @@
   },
   "generated_at": "2026-11-20T17:10:52+08:00",
   "supplement": "2026-11-21 按新订阅重采 feeds。xAI 主源改为 0xSMW feed_xai_news.xml，Olshansk 与 XGo @xai 为备源；Meta 旧博客增加 rsshub.bestblogs.dev 备源，并新增 Engineering at Meta 原生 feed。research.meta.ai/blog 无 RSS，未写入条目。窗口仍是 2026-11-13～2026-11-19 UTC。GitHub Trending 三条仍用 2026-11-20 的 weekly 快照（channel pubDate 见下），没有改成 11-21 的更短名单。AA、OpenRouter、Arena、模型发布没有重拉。不含密钥。",
-  "brain_repo_commit": "2206f9adb542e3be5b7bf6991074403cf7fde803",
+  "brain_repo_commit": "93690ad8631638954aa2769d3fe4a2f7fbe41aad",
   "scripts": {
     "fetch_artificial_analysis.py": "后补：已拉取的免费接口快照，fetched_at 2026-11-20T17:10:52+08:00，763 个模型。未再请求接口。",
     "openrouter_note": "后补：OpenRouter Data API 四份导出，fetched_at 2026-11-20T17:07+08:00。CC BY 4.0。未再请求接口。"
@@ -296,5 +296,5 @@
     }
   },
   "refreshed_at": "2026-11-21T10:50:00Z",
-  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c。订阅与正文在这一提交；本快照按该提交的 OPML 重采。"
+  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c，已变基到 main 16897f4f。xAI 与 Meta 两篇在「国外模型厂」。"
 }
