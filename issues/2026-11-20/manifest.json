@@ -6,8 +6,8 @@
     "timezone": "Asia/Shanghai"
   },
   "generated_at": "2026-11-20T17:10:52+08:00",
-  "supplement": "2026-11-21 按新订阅重采 feeds。xAI 主源改为 0xSMW feed_xai_news.xml，Olshansk 与 XGo @xai 为备源；Meta 旧博客增加 rsshub.bestblogs.dev 备源，并新增 Engineering at Meta 原生 feed。research.meta.ai/blog 无 RSS，未写入条目。窗口仍是 2026-11-13～2026-11-19 UTC。GitHub Trending 三条仍用 2026-11-20 的 weekly 快照（channel pubDate 见下），没有改成 11-21 的更短名单。AA、OpenRouter、Arena、模型发布没有重拉。不含密钥。",
-  "brain_repo_commit": "93690ad8631638954aa2769d3fe4a2f7fbe41aad",
+  "supplement": "2026-11-21 按新订阅重采 feeds。xAI 主源改为 0xSMW feed_xai_news.xml，Olshansk 与 XGo @xai 为备源；Meta 旧博客增加 rsshub.bestblogs.dev 备源，并新增 Engineering at Meta 原生 feed。research.meta.ai/blog 无 RSS，未写入条目。窗口仍是 2026-11-13～2026-11-19 UTC。GitHub Trending 三条仍用 2026-11-20 的 weekly 快照（channel pubDate 见下），没有改成 11-21 的更短名单。AA、OpenRouter、Arena、模型发布没有重拉。不含密钥。 同日再补 MiniMax、Kimi 的官网列表页退路，并新增 GLM、StepFun 微信主源。官网不是第二条 source。这四家在 2026-11-13～11-19 窗口内没有新条目。",
+  "brain_repo_commit": "50d715dbfe770367a5867bbdd928bf9aa3796e25",
   "scripts": {
     "fetch_artificial_analysis.py": "后补：已拉取的免费接口快照，fetched_at 2026-11-20T17:10:52+08:00，763 个模型。未再请求接口。",
     "openrouter_note": "后补：OpenRouter Data API 四份导出，fetched_at 2026-11-20T17:07+08:00。CC BY 4.0。未再请求接口。"
@@ -153,14 +153,14 @@
       }
     },
     "feeds.json": {
-      "description": "2026-11-21 用更新后的 OPML 重跑 fetch_feeds.py --since 2026-11-13 --until 2026-11-19。summary 不截断。49 个 feed，0 报错。GitHub Trending 三条的条目仍是 2026-11-20 那份 weekly，按 XML 原始顺序放在数组前面；11-21 重拉的 python / typescript 名单更短，没有覆盖。名次以 XML 原始顺序为准。",
+      "description": "2026-11-21 再次按窗口重采。新增 GLM、StepFun 两个微信主源；MiniMax、Kimi 仍是微信主源，只改了官网列表页退路。四家官网都没有原生 RSS，主源未停更时不并入列表页。GLM 微信最新 2026-09-18，已停更，研究列表也没有本期窗口内文章。窗口内这四家 0 条。GitHub Trending 仍是 2026-11-20 那份 weekly。49 个 feed 之后这次是 51 个，0 报错。",
       "since": "2026-11-13",
       "until": "2026-11-19",
       "timezone": "UTC",
-      "feeds": 49,
+      "feeds": 51,
       "items": 214,
       "thin": 93,
-      "bytes": 1957152,
+      "bytes": 1960392,
       "github_trending": {
         "period": "weekly",
         "order": "各源按 XML item 原始顺序，不按标题重排。名次以该顺序为准。",
@@ -233,6 +233,13 @@
             "stopped"
           ],
           "newest": "2026-07-20"
+        },
+        {
+          "id": "glm",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-18"
         }
       ],
       "publisherFallback": [
@@ -282,7 +289,7 @@
       ]
     },
     "feeds.index.json": {
-      "description": "选文用的索引，随 2026-11-21 的 feeds.json 重写。Trending 条目仍是 2026-11-20 weekly，顺序与 feeds.json 相同。",
+      "description": "选文索引，随 2026-11-21 增补 GLM / StepFun 后的 feeds.json 重写。这四家窗口内 0 条。Trending 仍是 2026-11-20 weekly。",
       "items": 214,
       "bytes": 125764
     },
@@ -296,5 +303,5 @@
     }
   },
   "refreshed_at": "2026-11-21T10:50:00Z",
-  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c，已变基到 main 16897f4f。xAI 与 Meta 两篇在「国外模型厂」。"
+  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c。含四家国内模型厂：微信主源，官网只作列表页退路。"
 }
