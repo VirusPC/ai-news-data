@@ -6,8 +6,8 @@
     "timezone": "Asia/Shanghai"
   },
   "generated_at": "2026-11-20T17:10:52+08:00",
-  "supplement": "2026-11-20 补入 feeds.json（全文，不截断）、feeds.index.json。GitHub Trending 已从 daily 改为 weekly：去掉 github-trending-daily-all / daily-python / daily-typescript，改为 github-trending-weekly-all / weekly-python / weekly-typescript。github-trending.json 是 weekly-all 全文，名次以 XML 原始顺序为准，按标题重排后的数组顺序不是榜上名次。窗口仍是 2026-11-13～2026-11-19 UTC。不含密钥。AA、OpenRouter、Arena、模型发布仍是此前的快照，这次没有重拉。",
-  "brain_repo_commit": "5b8b72c71adbeb147e64f04a29c95deec2b51f39",
+  "supplement": "2026-11-21 按新订阅重采 feeds。xAI 主源改为 0xSMW feed_xai_news.xml，Olshansk 与 XGo @xai 为备源；Meta 旧博客增加 rsshub.bestblogs.dev 备源，并新增 Engineering at Meta 原生 feed。research.meta.ai/blog 无 RSS，未写入条目。窗口仍是 2026-11-13～2026-11-19 UTC。GitHub Trending 三条仍用 2026-11-20 的 weekly 快照（channel pubDate 见下），没有改成 11-21 的更短名单。AA、OpenRouter、Arena、模型发布没有重拉。不含密钥。",
+  "brain_repo_commit": "2206f9adb542e3be5b7bf6991074403cf7fde803",
   "scripts": {
     "fetch_artificial_analysis.py": "后补：已拉取的免费接口快照，fetched_at 2026-11-20T17:10:52+08:00，763 个模型。未再请求接口。",
     "openrouter_note": "后补：OpenRouter Data API 四份导出，fetched_at 2026-11-20T17:07+08:00。CC BY 4.0。未再请求接口。"
@@ -153,14 +153,14 @@
       }
     },
     "feeds.json": {
-      "description": "fetch_feeds.py --out 的全文。summary 不截断。一份文件，不再另存截断版。GitHub Trending 已从 daily 改为 weekly（weekly-all / weekly-python / weekly-typescript），daily 源已去掉。这三条按各自 XML 的 item 原始顺序写入，没有按标题重排。名次以 XML 原始顺序为准。",
+      "description": "2026-11-21 用更新后的 OPML 重跑 fetch_feeds.py --since 2026-11-13 --until 2026-11-19。summary 不截断。49 个 feed，0 报错。GitHub Trending 三条的条目仍是 2026-11-20 那份 weekly，按 XML 原始顺序放在数组前面；11-21 重拉的 python / typescript 名单更短，没有覆盖。名次以 XML 原始顺序为准。",
       "since": "2026-11-13",
       "until": "2026-11-19",
       "timezone": "UTC",
-      "feeds": 45,
-      "items": 219,
-      "thin": 94,
-      "bytes": 2050138,
+      "feeds": 49,
+      "items": 214,
+      "thin": 93,
+      "bytes": 1957152,
       "github_trending": {
         "period": "weekly",
         "order": "各源按 XML item 原始顺序，不按标题重排。名次以该顺序为准。",
@@ -189,12 +189,102 @@
             "items": 17
           }
         ]
-      }
+      },
+      "health": [
+        {
+          "id": "meta-ai",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-27"
+        },
+        {
+          "id": "meta-ai-rsshub",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-26"
+        },
+        {
+          "id": "xai-news-olshansk",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-28",
+          "included": false
+        },
+        {
+          "id": "zed",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-16"
+        },
+        {
+          "id": "jxnl",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-05"
+        },
+        {
+          "id": "qwen-ai-platform",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-20"
+        }
+      ],
+      "publisherFallback": [
+        {
+          "publisher": "meta-ai",
+          "primaryIssues": [
+            "stopped"
+          ],
+          "usedBackups": [
+            "meta-ai-rsshub"
+          ],
+          "needsListPage": true
+        },
+        {
+          "publisher": "xai",
+          "primaryIssues": [],
+          "usedBackups": [],
+          "needsListPage": false
+        }
+      ],
+      "added_in_window": [
+        "https://x.ai/news/grok-bot-accounting",
+        "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+        "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+        "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/"
+      ],
+      "outside_window": [
+        {
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "date": "2026-11-09",
+          "reason": "列表页与 sitemap lastmod 都是 2026-11-09"
+        },
+        {
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+          "date": "2026-11-06"
+        },
+        {
+          "url": "https://x.ai/news/incident-sweep",
+          "date": "2026-10-20",
+          "reason": "0xSMW feed 没有这条；sitemap lastmod 2026-10-20"
+        },
+        {
+          "url": "https://x.ai/news/grok-bot-1-0",
+          "feedDate": "2026-11-02",
+          "sitemapLastmod": "2026-11-11"
+        }
+      ]
     },
     "feeds.index.json": {
-      "description": "选文用的索引：标题、日期、链接、来源、thin 和开头约 400 字。不含全文。Trending 条目与 feeds.json 相同，按 weekly XML 原始顺序，不按标题重排。",
-      "items": 219,
-      "bytes": 128871
+      "description": "选文用的索引，随 2026-11-21 的 feeds.json 重写。Trending 条目仍是 2026-11-20 weekly，顺序与 feeds.json 相同。",
+      "items": 214,
+      "bytes": 125764
     },
     "github-trending.json": {
       "description": "从 feeds.json 抽出的 github-trending-weekly-all 全文。条目按 weekly/all.xml 的 item 原始顺序保存，没有按标题重排。名次以该 XML 原始顺序为准。按标题重排后的数组顺序不是榜上名次。其它分类不复制。",
@@ -204,5 +294,7 @@
       "items": 13,
       "bytes": 351415
     }
-  }
+  },
+  "refreshed_at": "2026-11-21T10:50:00Z",
+  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c。订阅与正文在这一提交；本快照按该提交的 OPML 重采。"
 }
