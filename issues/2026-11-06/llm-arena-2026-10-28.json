@@ -176,5 +176,12 @@
   ],
   "fetched_at": "2026-11-22T13:58:14+08:00",
   "historical": true,
-  "historical_note": "2026-11-22 读取 Hugging Face full parquet 里仍保存的历史 publish date。选的是 leaderboard_publish_date ≤ 窗口结束日的最近一份，不是 latest 榜，也不是抓取当天的名次。"
+  "historical_note": "2026-11-22 读取 Hugging Face full parquet 里仍保存的历史 publish date。选的是 leaderboard_publish_date ≤ 窗口结束日的最近一份，不是 latest 榜，也不是抓取当天的名次。",
+  "publish_date_inside_coverage_window": false,
+  "coverage_window": {
+    "since": "2026-10-30",
+    "until": "2026-11-05",
+    "timezone": "UTC"
+  },
+  "window_note": "发布日 2026-10-28 早于覆盖窗口起点 2026-10-30。文件记录的下一榜是 2026-11-06，即生成日，不含在窗口内（until 是 2026-11-05）。选择规则仍是 leaderboard_publish_date ≤ until 的最近一份，文件名用发布日。这次没有重新下载 parquet，next_publish_date 沿用 2026-11-22 从 full parquet 读到的值。"
 }

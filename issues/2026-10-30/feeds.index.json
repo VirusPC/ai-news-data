@@ -1,1 +1,1256 @@
-{"window":{"since":"2026-10-23","until":"2026-10-29"},"stats":{"feeds":51,"errors":0,"items":119,"thin":95},"items":[{"title":"7 core components for building a software factory","date":"2026-10-29","link":"https://www.warp.dev/blog/7-ways-to-build-a-software-factory","source":"warp","thin":true,"preview":"Building a software factory? Here are the seven criteria we found table-stakes, from factories as code and benchmarks to computer use verification.","lane":"mixed"},{"title":"An updated Model Spec for more capable and beneficial AI","date":"2026-10-29","link":"https://openai.com/index/updated-model-spec","source":"openai-news","thin":true,"preview":"OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.","lane":"mixed"},{"title":"Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready","date":"2026-10-29","link":"https://huggingface.co/blog/announcing-project-protostar","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale","date":"2026-10-29","link":"https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/","source":"meta-engineering","thin":false,"preview":"Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details our initial deployment and testing with Cat…","lane":"tech"},{"title":"Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot","date":"2026-10-29","link":"https://openai.com/index/credit-saison","source":"openai-news","thin":true,"preview":"Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.","lane":"mixed"},{"title":"Custom Voices With Qwen3-TTS","date":"2026-10-29","link":"https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/","source":"lucumr","thin":false,"preview":"With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over. But we also wanted it to not sound like everyone’s standard AI voices so I looked into what options there are on the table. After some investigation I…","lane":"tech"},{"title":"Granite Switch 4.1.1 — Update models like you update software","date":"2026-10-29","link":"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Hello from Lovable's new London home","date":"2026-10-29","link":"https://lovable.dev/blog/hello-from-lovables-new-london-home","source":"lovable","thin":true,"preview":"We're opening our first London office, our second engineering, product, and design hub after Stockholm. Here's what the London team is building, and what the UK is building with Lovable.","lane":"product"},{"title":"How Ropes & Gray is developing AI for transactional diligence","date":"2026-10-29","link":"https://openai.com/index/ropes-gray-ai-diligence","source":"openai-news","thin":true,"preview":"Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.","lane":"mixed"},{"title":"How We Built LangChain’s Paid Media Agent","date":"2026-10-29","link":"https://www.langchain.com/blog/paid-media-agent","source":"langchain","thin":true,"preview":"How LangChain built a paid media agent to analyze campaign performance, optimize ads, propose changes, and turn marketing data into action.","lane":"mixed"},{"title":"How We Built Our Design Agent","date":"2026-10-29","link":"https://www.langchain.com/blog/design-agent","source":"langchain","thin":true,"preview":"How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it.","lane":"mixed"},{"title":"How we detect frontier model misalignment","date":"2026-10-29","link":"https://openai.com/index/how-we-detect-frontier-model-misalignment","source":"openai-news","thin":true,"preview":"OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.","lane":"mixed"},{"title":"Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms","date":"2026-10-29","link":"https://huggingface.co/blog/anydecisionmodel","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"macOS Satellites","date":"2026-10-29","link":"https://ampcode.com/news/macos-satellites","source":"amp-news","thin":false,"preview":"Amp now has a Mac: ask it to work on your iOS or Mac app and watch it build, test, and run the app. Port to iPhone Duo New Mac App Feature Penny runs on iPhone 17 Pro. Amp has it open in DeviceHub on a Mac next to the thread. Amp checks Penny on the iPhone Duo and fixes the layout for both screens. Then it opens the new build on the Duo, closed. Amp unfolds the Duo, and Penny switches to the side-…","lane":"product"},{"title":"Plugin Marketplace in Antigravity","date":"2026-10-29","link":"https://antigravity.google/blog/plugin-marketplace-in-antigravity","source":"antigravity","thin":true,"preview":"","lane":"product"},{"title":"Read the announcement from @jackhcable and @AshwinRamaswami: https://t.co/0yuCHQGKTH","date":"2026-10-29","link":"https://x.com/cognition/status/2115872969847423238","source":"cognition","thin":true,"preview":"Read the announcement from @jackhcable and @AshwinRamaswami: cognition.com/blog/corridor-… 💬3🔄2❤️35👀12148📊7 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace","date":"2026-10-29","link":"https://cursor.com/blog/claude-code-extension-security-notice","source":"cursor","thin":true,"preview":"","lane":"mixed"},{"title":"The Art of Loop Engineering","date":"2026-10-29","link":"https://www.langchain.com/blog/the-art-of-loop-engineering","source":"langchain","thin":false,"preview":"Agents automate real-world work, but reliable performance requires more than a good model, it requires a carefully designed harness built for specific tasks. This post explores the core agent loop, how stacking and extending loops builds more effective agents, and how to instrument each level with LangChain primitives.","lane":"mixed"},{"title":"Today, Cognition is acquiring @corridor. Securing the world’s software is the most important proble...","date":"2026-10-29","link":"https://x.com/cognition/status/2115872968043864146","source":"cognition","thin":true,"preview":"Today, Cognition is acquiring @corridor. Securing the world’s software is the most important problem in technology today. Let’s get to work! Your browser does not support the video tag. 🔗 View on Twitter 💬80🔄86❤️874👀196394📊208 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Visualize This","date":"2026-10-29","link":"https://ampcode.com/news/visualize-this","source":"amp-news","thin":false,"preview":"You can now ask Amp to visualize or build something for you and it will do it, right in the thread: charts, timelines, diagrams, and mockups you can click through. Here are some examples, from our real threads. Go ahead, hover and click through them: Open the post on ampcode.com to see the chart of last month's commits that Amp drew. Here, for example, is an excerpt from Quinn's thread, where he a…","lane":"product"},{"title":"Welcome Le Chonk: Mistral Large 4 on Hugging Face","date":"2026-10-29","link":"https://huggingface.co/blog/mistral-large4","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界","date":"2026-10-29","link":"https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html","source":"meituan-tech","thin":false,"preview":"AI 能让代码写得更快，但在「不能出错」的分布式存储系统里，如何确保提效不变成风险？本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。希望这些经验能为复杂系统中的 AI 应用提供参考，在享受效率提升的同时，守住质量与稳定性的底线。 1. 背景：为什么分布式存储需要更审慎地使用 AI Coding 今年年初以来，随着Agent的普及，AI Coding 在功能开发、测试生成、脚本编写和执行、问题排查这些场景里都已经用得上了：读代码更快，实现和测试可以先让它写一版，研发之外的一部分杂活也能交给它去跑。 效率上去了，质量上的账也要重新算。同样的人力，一个版本里能交付的功能更多，改动的代码也更多，就算 AI 写的代码千行缺陷率和人写的持平，一个版本累计引…","lane":"tech"},{"title":"AI for Science expands to foundations and research institutions","date":"2026-10-28","link":"https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions","source":"anthropic-news","thin":true,"preview":"We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.","lane":"product"},{"title":"Build your business today: https://t.co/IKBPiiHsta","date":"2026-10-28","link":"https://x.com/ManusAI/status/2115469336660119719","source":"manus","thin":true,"preview":"Build your business today: manus.im 💬4🔄0❤️3👀1842📊4 ⚡ Powered by xgo.ing","lane":"product"},{"title":"Evernote turns AI-driven discovery into paid subscriptions","date":"2026-10-28","link":"https://openai.com/ads/customers/evernote","source":"openai-news","thin":true,"preview":"Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.","lane":"mixed"},{"title":"Founded by three 22-year-olds in 2023, @mercor crossed $2B ARR in June, only 4 months after hitting ...","date":"2026-10-28","link":"https://x.com/cognition/status/2115488769306673267","source":"cognition","thin":false,"preview":"Founded by three 22-year-olds in 2023, @mercor crossed $2B ARR in June, only 4 months after hitting $1B. Today, millions of experts on the platform bring their knowledge of medicine, law, engineering, and beyond to frontier AI - helping models take on increasingly complex and consequential work in the real world. Mercor's engineers move at extraordinary speed. They give Devin long-running tasks be…","lane":"mixed"},{"title":"How to build evidence-grounded agent memory with OpenWiki and Graphs","date":"2026-10-28","link":"https://www.langchain.com/blog/building-agent-memory-openwiki-graphs","source":"langchain","thin":true,"preview":"LangChain used OpenWiki, its open-source wiki compiler, and an evidence graph to build a persistent memory layer that preserves knowledge for agents to reuse across tasks. Learn how.","lane":"mixed"},{"title":"IDC brings Quanta into Claude and adopts Claude across the company","date":"2026-10-28","link":"https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company","source":"claude-articles","thin":true,"preview":"IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business","lane":"product"},{"title":"Introducing artifacts for legal work","date":"2026-10-28","link":"https://claude.com/resources/articles/introducing-artifacts-for-legal-work","source":"claude-articles","thin":true,"preview":"Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.","lane":"product"},{"title":"Kiro for Students expands to 41 more universities","date":"2026-10-28","link":"https://kiro.dev/blog/41-more-universities","source":"kiro","thin":true,"preview":"We are expanding Kiro for Students to 41 more universities worldwide. Students at every eligible school get one free year of Kiro. This includes 1,000 credits each month and paid features like premium models. See the full list of eligible universities.","lane":"mixed"},{"title":"Legora is building the agentic operating system for legal work","date":"2026-10-28","link":"https://openai.com/index/legora","source":"openai-news","thin":true,"preview":"See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.","lane":"mixed"},{"title":"Manus didn't just build the site. it built the whole company. the interactive site. the 3D brick bu...","date":"2026-10-28","link":"https://x.com/ManusAI/status/2115469307555774515","source":"manus","thin":false,"preview":"Manus didn't just build the site. it built the whole company. the interactive site. the 3D brick builds. piece-by-piece build checks. Stripe. domain. email. launch video. social posts. even the ads. Check out bricklane.online! Natalie 🇸🇬@gr00vyfairy Manus is paying me to run my own startup 🧱 I turn real places, or ones from a kid's drawing, into custom LEGO sets. @ManusAI built the whole thing: si…","lane":"product"},{"title":"OpenAI and ServiceNow expand partnership across enterprise workflows","date":"2026-10-28","link":"https://openai.com/index/openai-servicenow-partnership-expansion","source":"openai-news","thin":true,"preview":"OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.","lane":"mixed"},{"title":"Same Brain, Different Bill","date":"2026-10-28","link":"https://goose-docs.ai/blog/2026/10/28/same-brain-different-bill","source":"goose","thin":false,"preview":"Coding benchmarks are mostly about which frontier model solves the most tasks. Now that tokens are no longer free, what it costs to solve them matters just as much. Between the model and the bill sits the harness, which decides what goes into each request and how many requests a task takes. To see how much that layer matters, we gave five open harnesses (goose, Codex CLI, OpenCode, Hermes Agent an…","lane":"mixed"},{"title":"Smart reports, surveys, and pooled group budgets for Claude Enterprise","date":"2026-10-28","link":"https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets","source":"claude-articles","thin":true,"preview":"In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.","lane":"product"},{"title":"The future of the firm","date":"2026-10-28","link":"https://openai.com/index/the-future-of-the-firm","source":"openai-news","thin":true,"preview":"How AI might enter the org chart—beneath, beside, and between us.","lane":"mixed"},{"title":"The Temperate House at Kew Gardens in London where someone got married: 709 pieces, 10 steps, from ...","date":"2026-10-28","link":"https://x.com/ManusAI/status/2115469334030254500","source":"manus","thin":true,"preview":"The Temperate House at Kew Gardens in London where someone got married: 709 pieces, 10 steps, from the lawn base to the flower arch and the glass roof. Your browser does not support the video tag. 🔗 View on Twitter 💬2🔄1❤️6👀1977📊3 ⚡ Powered by xgo.ing","lane":"product"},{"title":"Why it’s time to fight AI with AI","date":"2026-10-28","link":"https://coderabbit.ai/blog/fighting-ai-with-ai","source":"coderabbit","thin":false,"preview":"**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). A service can run for years with passing tests, patched dependencies, and scans on every pull request…","lane":"mixed"},{"title":"Your Own Self-Hosted Orbs","date":"2026-10-28","link":"https://ampcode.com/news/personal-self-hosted-orbs","source":"amp-news","thin":false,"preview":"You no longer need to be in a workspace to self-host orbs. Up until now, only workspace admins could manage self-hosted orb providers. Now, you can add a provider in your personal Settings → Orbs and set it up the same way as a workspace provider. When you create a thread, it shows up under Self-Hosted, marked Personal.","lane":"product"},{"title":"倒计时3天！快手企业 AI 生产力专场见！","date":"2026-10-28","link":"https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501536&idx=1&sn=4bf889e5b48cf42da03bd1af79bd3078","source":"kuaishou-tech","thin":true,"preview":"快手技术 2026-10-28 18:37 北京 工程落地、组织跃迁、范式重构，我们10月31日见！ 活动报名 ⬇️ 预约直播 ⬇️ 👇 点击【阅读原文】，免费报名！ 阅读原文 跳转微信打开","lane":"tech"},{"title":"好看视频鸿蒙端AI研发交付流程的建设思考与实践","date":"2026-10-28","link":"https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607730&idx=1&sn=f7ae4efd3270278f46340fc01e4abab9","source":"baidu-geek","thin":false,"preview":"原创 欢迎关注的 2026-10-28 12:00 上海 用\"完整、正确、可验证、可持续\"四条标准衡量鸿蒙端迁移：行为建模保完整、语义映射保正确、分层测试保可验证、迁移飞轮保可持续，让 AI 编码交付不再依赖个人经验。 。 点击蓝字，关注我们 作者 | 梅花禄 导读 introduction 鸿蒙端存量功能迁移，难就难在\"输入基线不清晰\"：预期行为没有文档，要从源端代码里自己找、自己界定、自己证明。本文将一次迁移拆成\"迁什么、怎么迁、怎么证明迁得对、怎么持续迁移\"四个问题，据此提炼出完整、正确、可验证、可持续四条标准，并在 AI Coding 之上落地为一套研发交付流程：从源码行为建模到需求矩阵对账，从语义映射、多设备适配到分层测试与质量门禁，配合状态落盘和\"迁移飞轮\"实现经验复用。文末以\"随听频道\"真实迁移（52 个行为点、65 条用例）完整验证了这套机制的可行性。 全文 8259 字，…","lane":"tech"},{"title":"2.1.312","date":"2026-10-27","link":"https://code.claude.com/docs/en/changelog#2-1-312","source":"claude-code-changelog","thin":false,"preview":"Added Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub, such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does [Cloud sessions] Added an effort level to the model picker when you create or edit a routine that runs in the cloud [Cloud s…","lane":"product"},{"title":"Amp on Android","date":"2026-10-27","link":"https://ampcode.com/news/amp-on-android","source":"amp-news","thin":true,"preview":"We now have an Android app: Download and install from ampcode.com/app, or scan this QR code:","lane":"product"},{"title":"Build specialized multimodal models with LFM3","date":"2026-10-27","link":"https://huggingface.co/blog/LiquidAI/lfm3","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Claude for Financial Advisors","date":"2026-10-27","link":"https://claude.com/resources/articles/claude-for-financial-advisors","source":"claude-articles","thin":true,"preview":"Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.","lane":"product"},{"title":"CodeRabbit Secure now hunts across repos and beyond the merge","date":"2026-10-27","link":"https://coderabbit.ai/blog/coderabbit-secure-cross-repository-security","source":"coderabbit","thin":false,"preview":"**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). The window between a vulnerability becoming known and someone exploiting it is shrinking. Attackers no…","lane":"mixed"},{"title":"Early progress on accelerating drug development with Claude","date":"2026-10-27","link":"https://www.anthropic.com/research/early-progress-drug-development","source":"anthropic-news","thin":true,"preview":"We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.","lane":"product"},{"title":"Every website you make with Manus can now be installed as a desktop app. No extra setup, no app st...","date":"2026-10-27","link":"https://x.com/ManusAI/status/2115110045977583909","source":"manus","thin":true,"preview":"Every website you make with Manus can now be installed as a desktop app. No extra setup, no app store. Your browser does not support the video tag. 🔗 View on Twitter 💬48🔄34❤️412👀41121📊107 ⚡ Powered by xgo.ing","lane":"product"},{"title":"Expanding our partnership with GSA to bring Claude to all levels of government","date":"2026-10-27","link":"https://www.anthropic.com/news/expanding-partnership-gsa","source":"anthropic-news","thin":true,"preview":"We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.","lane":"product"},{"title":"FrontierCode 2.0 separates model tiers more clearly than FrontierCode 1.1. It also ranks them differ...","date":"2026-10-27","link":"https://x.com/cognition/status/2115132493259321443","source":"cognition","thin":true,"preview":"FrontierCode 2.0 separates model tiers more clearly than FrontierCode 1.1. It also ranks them differently: on DeepSWE v1.1, Muse Wonder 1.0 and Gemini 4 Argon score highest, but on FrontierCode 2.0 they land in the middle of the pack. 💬8🔄3❤️190👀66707📊30 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Here's how: 1. Publish your site in Manus 2. Open it in Chrome 3. Click Install in the address b...","date":"2026-10-27","link":"https://x.com/ManusAI/status/2115110048024420428","source":"manus","thin":true,"preview":"Here's how: 1. Publish your site in Manus 2. Open it in Chrome 3. Click Install in the address bar No extra setup. It works on every site you make with Manus. 💬9🔄1❤️17👀4661📊9 ⚡ Powered by xgo.ing","lane":"product"},{"title":"How Check Point accelerates vulnerability research with Daybreak","date":"2026-10-27","link":"https://openai.com/index/check-point-daybreak","source":"openai-news","thin":true,"preview":"With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.","lane":"mixed"},{"title":"Introducing FrontierCode 2.0: our new coding benchmark that measures a model’s ability to go beyond ...","date":"2026-10-27","link":"https://x.com/cognition/status/2115132488775524793","source":"cognition","thin":false,"preview":"Introducing FrontierCode 2.0: our new coding benchmark that measures a model’s ability to go beyond the spec. Most coding evals measure a model’s ability to write code that meets a spec. With FrontierCode 1.0, we asked a new question: would you actually merge the PR? FrontierCode 2.0 is comprised of more diverse tasks, featuring larger scopes and higher mergeability standards. We are now asking: n…","lane":"mixed"},{"title":"Kiro’s new free trial gives you 500 extra credits","date":"2026-10-27","link":"https://kiro.dev/blog/kiros-new-free-trial-gives-you-500-extra-credits","source":"kiro","thin":false,"preview":"Starting on November 1, we’re changing how the Kiro free trial works. If you upgrade to Pro for the first time, the rest of that month is on us. You also get 500 trial credits that you can use any time in the next 12 months. For example, if you upgrade on the 15th, you pay nothing until the first of next month. You get about half a month of Pro credits plus 500 more.","lane":"mixed"},{"title":"Manage costs and demonstrate ROI for Claude Code on Google Cloud","date":"2026-10-27","link":"https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud","source":"claude-articles","thin":true,"preview":"Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.","lane":"product"},{"title":"OpenAI expands partnership with Oracle to bring its apps to ChatGPT","date":"2026-10-27","link":"https://openai.com/index/oracle-apps-in-chatgpt","source":"openai-news","thin":true,"preview":"OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.","lane":"mixed"},{"title":"Read about the methodology and scoring criteria on our blog, where we also share sample tasks: htt...","date":"2026-10-27","link":"https://x.com/cognition/status/2115132499554959809","source":"cognition","thin":true,"preview":"Read about the methodology and scoring criteria on our blog, where we also share sample tasks: cognition.com/blog/frontier-… 💬2🔄0❤️72👀15316📊10 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Retell uses OpenAI models to help power 100M monthly calls","date":"2026-10-27","link":"https://openai.com/index/retell-ai","source":"openai-news","thin":true,"preview":"GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.","lane":"mixed"},{"title":"See the full leaderboard at: https://t.co/ulU350gmTA","date":"2026-10-27","link":"https://x.com/cognition/status/2115132498439196858","source":"cognition","thin":true,"preview":"See the full leaderboard at: cognition.com/frontiercode 💬3🔄2❤️89👀18249📊13 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Your workspace has undead apps","date":"2026-10-27","link":"https://lovable.dev/blog/your-workspace-has-undead-apps","source":"lovable","thin":true,"preview":"Forgotten projects can stay published, connected to data, and unowned. This Halloween, hunt them down in our free game, and see how Enterprise admins can clean up abandoned projects automatically.","lane":"product"},{"title":"评审结果公示丨2026年度CCF-快手大模型探索者基金","date":"2026-10-27","link":"https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501530&idx=1&sn=12dca9bfea88387dbb2ca605944ed393","source":"kuaishou-tech","thin":false,"preview":"快手技术 2026-10-27 19:08 北京 2026年CCF-快手大模型探索者基金已完成评审，现予以公示。 10月27日，2026年CCF-快手大模型探索者基金完成评审，共18位学者获资助，现予以公示。 2026年，CCF与快手联合发布第三期\"CCF-快手大模型探索者基金\"（以下简称“快手大模型探索者基金”）。本年度基金项目延续聚焦于大模型技术基础研究与应用探索，加速技术成果产业化转化；同时致力于培养该领域科研与工程人才，通过为全球学者搭建产学研合作平台，促进学术界与工业界深度交流合作，助力科技进步与社会发展。 2026年度快手大模型探索者基金围绕\"智能体（Agent）与自主进化\"、\"多模态大模型理解与生成\"、\"大模型安全与可信治理\"、\"大模型训练与推理优化\"、\"数据科学与实验科学\"五大重点研究方向，于2026年9月2日至10月7日开放申请，共发布18项研究课题，收到来自海内外105…","lane":"tech"},{"title":"Anthropic files S-1 with the SEC for proposed initial public offering","date":"2026-10-26","link":"https://www.anthropic.com/news/s1-sec","source":"anthropic-news","thin":true,"preview":"Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.","lane":"product"},{"title":"ChatGPT’s expanding world of work","date":"2026-10-26","link":"https://openai.com/index/chatgpt-expanding-world-of-work","source":"openai-news","thin":true,"preview":"Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.","lane":"mixed"},{"title":"Claude Haiku 5.5 is now available in Kiro","date":"2026-10-26","link":"https://kiro.dev/blog/haiku-5-5","source":"kiro","thin":false,"preview":"Claude Haiku 5.5 is available today across Kiro IDE, CLI, Web, and Crew. It is the fastest model in the Claude 5.5 family, aimed at work that runs in large volumes and needs a quick response, and it is a clear step up from Claude Haiku 4.5. With Haiku 5.5, all three Claude 5.5 models are now in Kiro. Opus 5.5 is there for your hardest problems and Sonnet 5.5 for everyday coding, while Haiku 5.5 st…","lane":"mixed"},{"title":"Devin Security 2.0: Built for the new threat landscape","date":"2026-10-26","link":"https://devin.ai/blog/devin-security-2","source":"devin-blog","thin":true,"preview":"Frontier-model scanning, prioritization grounded in your environment, and autonomous remediation that turns security findings into pull requests.","lane":"product"},{"title":"Expanding Claude for Nonprofits","date":"2026-10-26","link":"https://claude.com/resources/articles/expanding-claude-for-nonprofits","source":"claude-articles","thin":true,"preview":"Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.","lane":"product"},{"title":"GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases","date":"2026-10-26","link":"https://openai.com/index/gpt-6-1-sol-coderabbit-code-security","source":"openai-news","thin":true,"preview":"CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.","lane":"mixed"},{"title":"Greptile takes bug detection beyond code review with GPT-6 Astra","date":"2026-10-26","link":"https://openai.com/index/greptile-code-review-codex-astra","source":"openai-news","thin":true,"preview":"How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.","lane":"mixed"},{"title":"How Fanatics and OpenAI streamline the fan experience","date":"2026-10-26","link":"https://openai.com/index/fanatics-streamline-fan-experience","source":"openai-news","thin":true,"preview":"Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.","lane":"mixed"},{"title":"How Gemini 4 Argon Upleveled Agents on Antigravity: Trillion-Edge Graphs and Custom TPU Kernels","date":"2026-10-26","link":"https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels","source":"antigravity","thin":true,"preview":"","lane":"product"},{"title":"How Ultrafast cut incident investigation from hours to minutes at OpenAI","date":"2026-10-26","link":"https://openai.com/index/openai-cut-incident-investigation","source":"openai-news","thin":true,"preview":"See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.","lane":"mixed"},{"title":"Introducing GPT-6.1 Terra","date":"2026-10-26","link":"https://openai.com/index/introducing-gpt-6-1-terra","source":"openai-news","thin":true,"preview":"Delivering fast and capable computer use at scale","lane":"mixed"},{"title":"Keeping a software factory stable at 1,000 PRs a week","date":"2026-10-26","link":"https://kiro.dev/blog/software-factory-stability","source":"kiro","thin":false,"preview":"In our last post, we described how three engineers and a crew of agents merged 1,000 pull requests in one week. The most common question we got back was how we keep that from breaking everything. But we think there’s a better question to ask. Can a human be responsible for every PR they shipped, which includes code they did not write and did not read line by line? Could you even speak confidently…","lane":"mixed"},{"title":"Manus is now optimized for iPhone Duo. Unfold more room to build and play. Preview your app’s scr...","date":"2026-10-26","link":"https://x.com/ManusAI/status/2114735035089928447","source":"manus","thin":false,"preview":"Manus is now optimized for iPhone Duo. Unfold more room to build and play. Preview your app’s screens side by side. Play the game you just created. Watch your latest video come to life Two screens. One continuous workflow. Your browser does not support the video tag. 🔗 View on Twitter 💬26🔄17❤️261👀24057📊53 ⚡ Powered by xgo.ing","lane":"product"},{"title":"Our newest AI Quest: Mapping the human brain","date":"2026-10-26","link":"https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/","source":"google-ai","thin":true,"preview":"Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”","lane":"mixed"},{"title":"Read more about how Devin Security works, and get started today: https://t.co/MREgJWkkgM","date":"2026-10-26","link":"https://x.com/cognition/status/2114741377372434527","source":"cognition","thin":true,"preview":"Read more about how Devin Security works, and get started today: devin.ai/blog/devin-sec… 💬1🔄2❤️40👀5092📊7 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"We’re committing hundreds of millions of dollars in Devin credits: free deep scans with frontier cyb...","date":"2026-10-26","link":"https://x.com/cognition/status/2114741375786951059","source":"cognition","thin":true,"preview":"We’re committing hundreds of millions of dollars in Devin credits: free deep scans with frontier cyber models for enterprise customers, and remediation credits for new customers to fix what they find. Details: cognition.com/blog/devin-sec… 💬1🔄1❤️43👀4308📊6 ⚡ Powered by xgo.ing","lane":"mixed"},{"title":"Working with academic communities to build scientific understanding","date":"2026-10-26","link":"https://openai.com/index/building-scientific-understanding-with-academic-communities","source":"openai-news","thin":true,"preview":"OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.","lane":"mixed"},{"title":"We’re covering $1 million in security scans and fixes through November 8, 2026","date":"2026-10-24","link":"https://coderabbit.ai/blog/one-million-security-scans-and-fixes","source":"coderabbit","thin":false,"preview":"**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). The original campaign offered up to $5,000 in Deep Scan usage for any organization with two or more me…","lane":"mixed"},{"title":"Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live","date":"2026-10-23","link":"https://openai.com/index/anima","source":"openai-news","thin":true,"preview":"Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.","lane":"mixed"},{"title":"Claude Cowork and chat come together for Enterprise","date":"2026-10-23","link":"https://claude.com/resources/articles/unified-claude-enterprise","source":"claude-articles","thin":true,"preview":"Claude Cowork and chat come together for Enterprise","lane":"product"},{"title":"Claude Duet Safety, Privacy, and Security","date":"2026-10-23","link":"https://claude.com/resources/articles/claude-duet-safety-privacy-and-security","source":"claude-articles","thin":false,"preview":"Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.","lane":"product"},{"title":"Does Your Model Run on AWS Trainium? Look It Up","date":"2026-10-23","link":"https://huggingface.co/blog/torch-neuronx-model-support","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Kimi K3.1 Pro：智能前沿，更进一步","date":"2026-10-23","link":"https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc","source":"kimi","thin":false,"preview":"原创 Kimi K3.1 Pro 2026-10-24 01:16 天津 高速版同步上线 The only way of discovering the limits of the possible is to venture a little way past them into the impossible. 发现「可能」之极限的唯一方法，是向「不可能」的方向多走一小步。 阿瑟·C·克拉克《未来的轮廓》 今天，我们正式推出 Kimi K3.1 Pro，这是 K3.1 系列的第一个模型，也是我们迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。Kimi K3.1 Pro 在代码、3D 创作、金融研究和其他长程 Agent 能力上的提升尤为显著。 我们同步推出高速版模型 Kimi K3.1 Pro Highspeed，同等智能，输出速度约 2~3 倍。 即日起，可通过 kimi.…","lane":"mixed"},{"title":"MiniMax M3.1 Flash开源，上线72小时处理Token超过100万亿","date":"2026-10-23","link":"https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208","source":"minimax","thin":false,"preview":"原创 MiniMax 2026-10-23 08:56 上海 今天，我们开源 MiniMax M3.1 Flash 的模型权重，总参数 428B，激活参数 23B。 相较于上一代 M3 模型，M3.1 Flash 的模型能力实现了全面提升。此外，通过全模型稀疏注意力、量化感知训练和 Power-aware scheduling 等优化工作，M3.1 Flash 进一步提升了推理效率： 全模型稀疏注意力：前三个全注意力层替换为稀疏注意力； QAT：路由 MoE 专家迁移到 W4A4（共享专家除外），稀疏注意力索引器和主分支从 Q8KV8 迁移到 Q8KV4； Power-aware scheduling：通过对计算卡功耗的精细分配，保持计算卡持续维持算力高位，极致压榨硬件效率。 感谢全球开发者的支持和喜爱。M3.1 Flash 上线后，72 小时内真实用户处理超过 100 万亿 Token。…","lane":"mixed"},{"title":"OpenAI and Poland’s NASK partner to advance AI safety and security","date":"2026-10-23","link":"https://openai.com/index/openai-nask-ai-safety-security-partnership","source":"openai-news","thin":true,"preview":"OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.","lane":"mixed"},{"title":"Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)","date":"2026-10-23","link":"https://openai.com/index/scaling-storage-one-billion-users-part-two","source":"openai-news","thin":true,"preview":"Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.","lane":"mixed"},{"title":"Securing our frontier model training environment","date":"2026-10-23","link":"https://openai.com/index/securing-our-frontier-model-training-environment","source":"openai-news","thin":true,"preview":"OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.","lane":"mixed"},{"title":"快手程序员都做啥工作？独家揭秘！","date":"2026-10-23","link":"https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501519&idx=1&sn=d424bc5f510460796f83ed717469f1f8","source":"kuaishou-tech","thin":true,"preview":"祝你节日快乐的 2026-10-23 17:51 北京 以下文章来源于：快手招聘 快手招聘 快手官方求职入口，包括社招、校招、实习生招聘、求职类资讯及相关活动等。期待您的关注哟！ 跳转微信打开","lane":"tech"},{"title":"How the UK Amazon Quick User Group grew in 2026","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Building intent-driven UI testing with Amazon Nova Act","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Build a repeatable PHP-to-Java migration engine with Kiro","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS","date":"2026-10-29","link":"https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Building an Agentic AI Platform on Amazon Bedrock AgentCore","date":"2026-10-28","link":"https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Distributed training with Ray Train DLCs and EFA on EKS","date":"2026-10-28","link":"https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3","date":"2026-10-28","link":"https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service","date":"2026-10-27","link":"https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Announcing SOCI-indexed images for faster SageMaker AI jobs","date":"2026-10-27","link":"https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Fix evaluation bias to unlock better models on Amazon Bedrock","date":"2026-10-27","link":"https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Exowatt beats frontier models on accuracy with SageMaker serverless model customization","date":"2026-10-27","link":"https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3","date":"2026-10-26","link":"https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock","date":"2026-10-26","link":"https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK","date":"2026-10-26","link":"https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/","source":"aws-ml","thin":true,"preview":"","lane":"tech"},{"title":"NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt","date":"2026-10-28","link":"https://huggingface.co/blog/nvidia/nemotron-transcribe-granary","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Can we trust LLMs to judge whether a research idea is novel?","date":"2026-10-27","link":"https://huggingface.co/blog/allenai/novelty-bench","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Mundo: From seeing a place to simulating what happens there","date":"2026-10-23","link":"https://huggingface.co/blog/Luo-Yihang/mundo-world-model","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"LitPivot: Developing research ideas through dynamic contextualization within the literature landscape","date":"2026-10-23","link":"https://huggingface.co/blog/allenai/litpivot","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Introducing A5: Proactive Personal Agent in Your Life-Long Context","date":"2026-10-23","link":"https://huggingface.co/blog/KYLN24/introducing-a5","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Introducing Lumma-Fev-v2","date":"2026-10-29","link":"https://huggingface.co/blog/FrontiersMind/lumma-fev-27b-v2","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"What's new in the hf CLI and huggingface_hub library","date":"2026-10-26","link":"https://huggingface.co/blog/huggingface/whats-new-in-the-hf-cli-and-huggingface-hub-librar","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"DecisionFormer","date":"2026-10-26","link":"https://huggingface.co/blog/FrontiersMind/decisionformer","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Pretraining a 325M Language Model from Zero on an Inference-Only NPU","date":"2026-10-26","link":"https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Two Pure-Vision Pipelines at the Top of ViDoRe V3","date":"2026-10-23","link":"https://huggingface.co/blog/Ryenhails/pure-vision-vidore-v3","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Do LLM Routers Actually Route? Quick answer: Not much!","date":"2026-10-26","link":"https://huggingface.co/blog/PeterKruger/router-benchmark-2026-10","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Try an LLM Router That Actually Routes ($1 free credit)","date":"2026-10-29","link":"https://huggingface.co/blog/PeterKruger/autobench-beta-router","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"Reverse Engineering Anything using small open models","date":"2026-10-26","link":"https://huggingface.co/blog/ybelkada/reverse-engineering-anything-with-small-local-mode","source":"huggingface","thin":true,"preview":"","lane":"mixed"},{"title":"How American Universities Are Using AI Models From Meta to Accelerate Medical and Scientific Breakthroughs","date":"2026-10-28","link":"https://research.meta.ai/blog/supporting-medical-scientific-research","source":"meta-ai-research","thin":true,"preview":"","lane":"product"}]}
+{
+  "window": {
+    "since": "2026-10-23",
+    "until": "2026-10-29"
+  },
+  "stats": {
+    "feeds": 51,
+    "errors": 0,
+    "items": 138,
+    "thin": 13
+  },
+  "items": [
+    {
+      "title": "7 core components for building a software factory",
+      "date": "2026-10-29",
+      "link": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
+      "source": "warp",
+      "thin": false,
+      "preview": "Engineering\n7 core components for building a software factory\nBen Holmes|October 29, 2026\nMore and more engineers seem to be investigating software factories.\nThere are many ways to define “software factory”, and here’s the one we’ve settled on: centralizing your system of agents into one place to build software. This means going from custom coding setups on everyone's machines to a single definit",
+      "lane": "mixed"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/updated-model-spec",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 29, 2026\nSafety\nAn updated Model Spec for more capable and beneficial AI\nRead the updated Spec(opens in a new window)Share\nAs our models get smarter and take more consequential actions in the world, it becomes increasingly important that they go beyond just interpreting the specific instructions they receive. Models also need to understand human intentions and values, so they can ex",
+      "lane": "mixed"
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nAnnouncing Project ProtoStar: Making Publicly Funded Science AI-Ready\nPublished\nOctober 29, 2026 Update on GitHub Upvote 42\n+36\nAvijit Ghosh evijit Follow hfpolicy Sayeed Choudhury sayeedmd Follow CMU-OSPO Greg Tananbaum gtananbaum Follow ORCA-Open Emma Scharfmann EmmaScharfmann Follow hugging-science Georgia Channing cgeorgiaw Follow hugging-science Eunice Mercado-Lara EuniceML F",
+      "lane": "mixed"
+    },
+    {
+      "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+      "date": "2026-10-29",
+      "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+      "source": "meta-engineering",
+      "thin": false,
+      "preview": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details our initial deployment and testing with Cat",
+      "lane": "tech"
+    },
+    {
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/credit-saison",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 29, 2026\nCredit Saison achieves 954% ROI in a ChatGPT Enterprise pilot\nCredit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.\nContact salesCompany size: EnterpriseRegion: Asia-Pacific & OceaniaIndustry: FinanceProducts: ChatGPT\n954%\nReturn on investment (ROI) in the pilot\n14\nhours saved per pilot ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Custom Voices With Qwen3-TTS",
+      "date": "2026-10-29",
+      "link": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+      "source": "lucumr",
+      "thin": false,
+      "preview": "With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over. But we also wanted it to not sound like everyone’s standard AI voices so I looked into what options there are on the table. After some investigation I",
+      "lane": "tech"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nGranite Switch 4.1.1 — Update models like you update software\nEnterprise Article Published\nOctober 29, 2026 Upvote 35\n+29\nKate Soule katesoule Follow ibm-granite Luis A Lastras GrizleeBer Follow ibm-granite Subhajit Chaudhury subhajit1412 Follow ibm-granite Abraham Daniels abedaniels Follow ibm-granite\nJust over a week ago, we released Granite Switch 4.1, showing that our modular ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Hello from Lovable's new London home",
+      "date": "2026-10-29",
+      "link": "https://lovable.dev/blog/hello-from-lovables-new-london-home",
+      "source": "lovable",
+      "thin": false,
+      "preview": "All posts\nPublished October 29, 2026 in Announcements\nHello from Lovable's new London home\nLondon has been part of Lovable from day one. Today, we're officially opening our first office here: our second engineering, product, and design hub after Stockholm, with teams across every function.\nLondon is one of the world's greatest talent hubs, with one of the most ambitious tech ecosystems in Europe. ",
+      "lane": "product"
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 29, 2026\nHow Ropes & Gray is developing AI for transactional diligence\nLaw firm Ropes & Gray is developing a transactional diligence AI tool in partnership with OpenAI.\nContact salesCompany size: EnterpriseRegion: North AmericaIndustry: ServicesProducts: ChatGPTShare\nIn transactional diligence, lawyers need to work through large volumes of documents under tight deadlines. Ropes & Gr",
+      "lane": "mixed"
+    },
+    {
+      "title": "How We Built LangChain’s Paid Media Agent",
+      "date": "2026-10-29",
+      "link": "https://www.langchain.com/blog/paid-media-agent",
+      "source": "langchain",
+      "thin": false,
+      "preview": "Tutorials & How-TosAgent Architecture\nHow we built LangChain's Paid Media Agent\nAmal IrgashevDanny LambertJan GomezSeptember 13, 202619minGo back to blogCreate agentsCreate agentsShare\nKey Takeaways\nTreat agents like knowledge workers. The strongest results came from giving the agent a well-designed workspace with a sandbox, software, business context, and clear operating instructions. The system ",
+      "lane": "mixed"
+    },
+    {
+      "title": "How We Built Our Design Agent",
+      "date": "2026-10-29",
+      "link": "https://www.langchain.com/blog/design-agent",
+      "source": "langchain",
+      "thin": false,
+      "preview": "Agent ArchitectureDeep Agents\nHow We Built Our Design Agent\nAmal IrgashevShreya TalegaonkarOctober 27, 202622minGo back to blogCreate agentsCreate agentsShare\nKey Takeaways\nTaste comes from context. Models already write good code, but they need your designers’ principles, guardrails against AI slop, and the reasoning behind feedback to make work that looks like yours.\nGive the agent a designer’s c",
+      "lane": "mixed"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "date": "2026-10-29",
+      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 29, 2026\nSecuritySafetyPublication\nHow we detect frontier model misalignment\nAs we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended. Agents can misbehave and take unauthorized actions during training, evaluation, or deployment, with potentially serious consequences. In order to detect these failures—and, where ne",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nIntroducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms\nPublished\nOctober 29, 2026 Update on GitHub Upvote 21\n+15\nMattt mattt Follow\nLanguage models can do a lot.\nThey write, summarize, translate, and call tools.\nBut they're only a small part of what machine learning can do.\nSay a customer calls your support line.\nFirst, you wa",
+      "lane": "mixed"
+    },
+    {
+      "title": "macOS Satellites",
+      "date": "2026-10-29",
+      "link": "https://ampcode.com/news/macos-satellites",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "Amp now has a Mac: ask it to work on your iOS or Mac app and watch it build, test, and run the app. Port to iPhone Duo New Mac App Feature Penny runs on iPhone 17 Pro. Amp has it open in DeviceHub on a Mac next to the thread. Amp checks Penny on the iPhone Duo and fixes the layout for both screens. Then it opens the new build on the Duo, closed. Amp unfolds the Duo, and Penny switches to the side-",
+      "lane": "product"
+    },
+    {
+      "title": "Plugin Marketplace in Antigravity",
+      "date": "2026-10-29",
+      "link": "https://antigravity.google/blog/plugin-marketplace-in-antigravity",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "Read the announcement from @jackhcable and @AshwinRamaswami: https://t.co/0yuCHQGKTH",
+      "date": "2026-10-29",
+      "link": "https://x.com/cognition/status/2115872969847423238",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read the announcement from @jackhcable and @AshwinRamaswami: cognition.com/blog/corridor-… 💬3🔄2❤️35👀12148📊7 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace",
+      "date": "2026-10-29",
+      "link": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "source": "cursor",
+      "thin": false,
+      "preview": "Blog / companyOct 29, 2026·company\nSecurity notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace\n5 min read\nToday we identified a security incident involving a specific extension in the Cursor VS Code Extension Marketplace: Anthropic.claude-code version 2.1.312 and 2.1.313 for Windows and MacOS. These malicious versions of",
+      "lane": "mixed"
+    },
+    {
+      "title": "The Art of Loop Engineering",
+      "date": "2026-10-29",
+      "link": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+      "source": "langchain",
+      "thin": false,
+      "preview": "Agents automate real-world work, but reliable performance requires more than a good model, it requires a carefully designed harness built for specific tasks. This post explores the core agent loop, how stacking and extending loops builds more effective agents, and how to instrument each level with LangChain primitives.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Today, Cognition is acquiring @corridor. Securing the world’s software is the most important proble...",
+      "date": "2026-10-29",
+      "link": "https://x.com/cognition/status/2115872968043864146",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Today, Cognition is acquiring @corridor. Securing the world’s software is the most important problem in technology today. Let’s get to work! Your browser does not support the video tag. 🔗 View on Twitter 💬80🔄86❤️874👀196394📊208 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Visualize This",
+      "date": "2026-10-29",
+      "link": "https://ampcode.com/news/visualize-this",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "You can now ask Amp to visualize or build something for you and it will do it, right in the thread: charts, timelines, diagrams, and mockups you can click through. Here are some examples, from our real threads. Go ahead, hover and click through them: Open the post on ampcode.com to see the chart of last month's commits that Amp drew. Here, for example, is an excerpt from Quinn's thread, where he a",
+      "lane": "product"
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/mistral-large4",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nWelcome Le Chonk: Mistral Large 4 on Hugging Face\nPublished\nOctober 29, 2026 Update on GitHub Upvote 92\n+86\nmerve merve Follow Alvaro Bartolome alvarobartt Follow Rémi Ouazan Reboul ror Follow Cyril Vallez cyrilvallez Follow Quentin Gallouédec qgallouedec Follow Enrique Hernández Calabrés ehcalabres Follow Juan Julián juanjucm Follow Xuan-Son Nguyen ngxson Follow Pedro Cuenca pcue",
+      "lane": "mixed"
+    },
+    {
+      "title": "如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界",
+      "date": "2026-10-29",
+      "link": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
+      "source": "meituan-tech",
+      "thin": false,
+      "preview": "AI 能让代码写得更快，但在「不能出错」的分布式存储系统里，如何确保提效不变成风险？本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。希望这些经验能为复杂系统中的 AI 应用提供参考，在享受效率提升的同时，守住质量与稳定性的底线。 1. 背景：为什么分布式存储需要更审慎地使用 AI Coding 今年年初以来，随着Agent的普及，AI Coding 在功能开发、测试生成、脚本编写和执行、问题排查这些场景里都已经用得上了：读代码更快，实现和测试可以先让它写一版，研发之外的一部分杂活也能交给它去跑。 效率上去了，质量上的账也要重新算。同样的人力，一个版本里能交付的功能更多，改动的代码也更多，就算 AI 写的代码千行缺陷率和人写的持平，一个版本累计引",
+      "lane": "tech"
+    },
+    {
+      "title": "AI for Science expands to foundations and research institutions",
+      "date": "2026-10-28",
+      "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source": "anthropic-news",
+      "thin": false,
+      "preview": "01Science funders and societies\nAI for Science expands to foundations and research institutions\nPublishedOct 28, 2026CategoryAnnouncementsTopics\nDiscovery\nResearch programs\nPartnerships\nAccess\nLife sciences\nSee more...Related articles\nScience\nNov 6, 2026\nTeaching AI to build scientific models\nView more\nWe’re highlighting 20 scientific foundations, institutions, and research groups from around the ",
+      "lane": "product"
+    },
+    {
+      "title": "Build your business today: https://t.co/IKBPiiHsta",
+      "date": "2026-10-28",
+      "link": "https://x.com/ManusAI/status/2115469336660119719",
+      "source": "manus",
+      "thin": true,
+      "preview": "Build your business today: manus.im 💬4🔄0❤️3👀1842📊4 ⚡ Powered by xgo.ing",
+      "lane": "product"
+    },
+    {
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "date": "2026-10-28",
+      "link": "https://openai.com/ads/customers/evernote",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 28, 2026\nEvernote turns AI-driven discovery into paid subscriptions\nEvernote used ChatGPT Ads to reach people working with AI and followed new users from free trial to first subscription payment.\nStart now(opens in a new window)Share\n~10–20%\nhigher trial-to-paid conversion for Evernote’s core ChatGPT Ads campaigns, which focused on a single product feature, compared with its histori",
+      "lane": "mixed"
+    },
+    {
+      "title": "Founded by three 22-year-olds in 2023, @mercor crossed $2B ARR in June, only 4 months after hitting ...",
+      "date": "2026-10-28",
+      "link": "https://x.com/cognition/status/2115488769306673267",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Founded by three 22-year-olds in 2023, @mercor crossed $2B ARR in June, only 4 months after hitting $1B. Today, millions of experts on the platform bring their knowledge of medicine, law, engineering, and beyond to frontier AI - helping models take on increasingly complex and consequential work in the real world. Mercor's engineers move at extraordinary speed. They give Devin long-running tasks be",
+      "lane": "mixed"
+    },
+    {
+      "title": "How to build evidence-grounded agent memory with OpenWiki and Graphs",
+      "date": "2026-10-28",
+      "link": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+      "source": "langchain",
+      "thin": false,
+      "preview": "Open Source\nBuilding Evidence-Grounded Agent Memory with OpenWiki and Graphs\nEugene LiuOctober 28, 20268minGo back to blogCreate agentsCreate agentsShare\nKey Takeaways\nA compiled wiki gives agents domain context that retrieval alone must reconstruct. On questions spanning multiple sources, an agent using OpenWiki as a memory layer was 5x more accurate than one using grep tools alone.\nAdding an evi",
+      "lane": "mixed"
+    },
+    {
+      "title": "IDC brings Quanta into Claude and adopts Claude across the company",
+      "date": "2026-10-28",
+      "link": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "IDC brings Quanta into Claude and adopts Claude across the company\nIDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business\nCategoryEnterprise\nProductClaude Cowork, Claude Code, Claude Enterprise\nDateOctober 28, 2026\nReading time6 min\nShareCopy link\nIDC Research (IDC), a global leader in technology intelligence for more than 60 years, worked with A",
+      "lane": "product"
+    },
+    {
+      "title": "Introducing artifacts for legal work",
+      "date": "2026-10-28",
+      "link": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Introducing artifacts for legal work\nClaude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.\nCategoryProduct updates\nProductClaude Enterprise\nDateOctober 28, 2026\nReading time5 min\nShareCopy link\nToday, we’re introducing ready-to-use artifacts that legal professionals can adapt to how their teams wo",
+      "lane": "product"
+    },
+    {
+      "title": "Kiro for Students expands to 41 more universities",
+      "date": "2026-10-28",
+      "link": "https://kiro.dev/blog/41-more-universities",
+      "source": "kiro",
+      "thin": false,
+      "preview": "Back to all postsOctober 28, 2026\nKiro for Students expands to 41 more universities\nSH\nShweta V A\nProduct\nWe are expanding Kiro for Students to 41 more universities worldwide. Students at every eligible school get one free year of Kiro. This includes 1,000 credits each month and paid features like premium models. See the full list of eligible universities.\nHow to sign up\nWe heard your feedback. We",
+      "lane": "mixed"
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/legora",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 28, 2026\nLegora is building the agentic operating system for legal work\nPowered by OpenAI models and coding agents, Legora helps legal teams move faster, broaden analysis and focus on higher-value work.\nContact salesCompany size: Mid-marketRegion: GlobalIndustry: TechnologyProducts: API, Codex, ChatGPT\n95%+\nreduction in Legora legal-team time spent reviewing NDAs\n90%\nfaster contract",
+      "lane": "mixed"
+    },
+    {
+      "title": "Manus didn't just build the site. it built the whole company. the interactive site. the 3D brick bu...",
+      "date": "2026-10-28",
+      "link": "https://x.com/ManusAI/status/2115469307555774515",
+      "source": "manus",
+      "thin": false,
+      "preview": "Manus didn't just build the site. it built the whole company. the interactive site. the 3D brick builds. piece-by-piece build checks. Stripe. domain. email. launch video. social posts. even the ads. Check out bricklane.online! Natalie 🇸🇬@gr00vyfairy Manus is paying me to run my own startup 🧱 I turn real places, or ones from a kid's drawing, into custom LEGO sets. @ManusAI built the whole thing: si",
+      "lane": "product"
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 28, 2026\nCompany\nOpenAI and ServiceNow expand partnership across enterprise workflows\nServiceNow will bring OpenAI models and agents into workflows from development to security, and expand ChatGPT Work and Codex to employees.\nOpenAI and ServiceNow are expanding our partnership to bring more of our models and agents into ServiceNow products and connect ServiceNow workflows with ChatG",
+      "lane": "mixed"
+    },
+    {
+      "title": "Same Brain, Different Bill",
+      "date": "2026-10-28",
+      "link": "https://goose-docs.ai/blog/2026/10/28/same-brain-different-bill",
+      "source": "goose",
+      "thin": false,
+      "preview": "Coding benchmarks are mostly about which frontier model solves the most tasks. Now that tokens are no longer free, what it costs to solve them matters just as much. Between the model and the bill sits the harness, which decides what goes into each request and how many requests a task takes. To see how much that layer matters, we gave five open harnesses (goose, Codex CLI, OpenCode, Hermes Agent an",
+      "lane": "mixed"
+    },
+    {
+      "title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+      "date": "2026-10-28",
+      "link": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Smart reports, surveys, and pooled group budgets for Claude Enterprise\nIn many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.\nCategoryProduct updates\nProductClaude Enterprise\nDateOctober 28, 2026\nReading time3 min\nShareCopy link\nSmart reports show what that work is, and where that work is happening, in-app surveys ",
+      "lane": "product"
+    },
+    {
+      "title": "The future of the firm",
+      "date": "2026-10-28",
+      "link": "https://openai.com/index/the-future-of-the-firm",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nIntelligence Age\nThe future of the firm\nHow AI might enter the org chart—beneath, beside, and between us.\nBy Hemanth Asirvatham and Elliott Mokski\nAuthors’ note: This is the second essay in our series on the next economy, part of a new platform to host independent voices exploring an AGI future. It reflects our views, not those of OpenAI or our colleagues.\nThe two of us were twenty-four whe",
+      "lane": "mixed"
+    },
+    {
+      "title": "The Temperate House at Kew Gardens in London where someone got married: 709 pieces, 10 steps, from ...",
+      "date": "2026-10-28",
+      "link": "https://x.com/ManusAI/status/2115469334030254500",
+      "source": "manus",
+      "thin": true,
+      "preview": "The Temperate House at Kew Gardens in London where someone got married: 709 pieces, 10 steps, from the lawn base to the flower arch and the glass roof. Your browser does not support the video tag. 🔗 View on Twitter 💬2🔄1❤️6👀1977📊3 ⚡ Powered by xgo.ing",
+      "lane": "product"
+    },
+    {
+      "title": "Why it’s time to fight AI with AI",
+      "date": "2026-10-28",
+      "link": "https://coderabbit.ai/blog/fighting-ai-with-ai",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). A service can run for years with passing tests, patched dependencies, and scans on every pull request ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Your Own Self-Hosted Orbs",
+      "date": "2026-10-28",
+      "link": "https://ampcode.com/news/personal-self-hosted-orbs",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "You no longer need to be in a workspace to self-host orbs. Up until now, only workspace admins could manage self-hosted orb providers. Now, you can add a provider in your personal Settings → Orbs and set it up the same way as a workspace provider. When you create a thread, it shows up under Self-Hosted, marked Personal.",
+      "lane": "product"
+    },
+    {
+      "title": "倒计时3天！快手企业 AI 生产力专场见！",
+      "date": "2026-10-28",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501536&idx=1&sn=4bf889e5b48cf42da03bd1af79bd3078",
+      "source": "kuaishou-tech",
+      "thin": true,
+      "preview": "快手技术 2026-10-28 18:37 北京 工程落地、组织跃迁、范式重构，我们10月31日见！ 活动报名 ⬇️ 预约直播 ⬇️ 👇 点击【阅读原文】，免费报名！ 阅读原文 跳转微信打开",
+      "lane": "tech"
+    },
+    {
+      "title": "好看视频鸿蒙端AI研发交付流程的建设思考与实践",
+      "date": "2026-10-28",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607730&idx=1&sn=f7ae4efd3270278f46340fc01e4abab9",
+      "source": "baidu-geek",
+      "thin": false,
+      "preview": "原创 欢迎关注的 2026-10-28 12:00 上海 用\"完整、正确、可验证、可持续\"四条标准衡量鸿蒙端迁移：行为建模保完整、语义映射保正确、分层测试保可验证、迁移飞轮保可持续，让 AI 编码交付不再依赖个人经验。 。 点击蓝字，关注我们 作者 | 梅花禄 导读 introduction 鸿蒙端存量功能迁移，难就难在\"输入基线不清晰\"：预期行为没有文档，要从源端代码里自己找、自己界定、自己证明。本文将一次迁移拆成\"迁什么、怎么迁、怎么证明迁得对、怎么持续迁移\"四个问题，据此提炼出完整、正确、可验证、可持续四条标准，并在 AI Coding 之上落地为一套研发交付流程：从源码行为建模到需求矩阵对账，从语义映射、多设备适配到分层测试与质量门禁，配合状态落盘和\"迁移飞轮\"实现经验复用。文末以\"随听频道\"真实迁移（52 个行为点、65 条用例）完整验证了这套机制的可行性。 全文 8259 字，",
+      "lane": "tech"
+    },
+    {
+      "title": "2.1.312",
+      "date": "2026-10-27",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-312",
+      "source": "claude-code-changelog",
+      "thin": false,
+      "preview": "Added Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub, such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does [Cloud sessions] Added an effort level to the model picker when you create or edit a routine that runs in the cloud [Cloud s",
+      "lane": "product"
+    },
+    {
+      "title": "Amp on Android",
+      "date": "2026-10-27",
+      "link": "https://ampcode.com/news/amp-on-android",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "October 27, 2026\nAmp on Android\nWe now have an Android app:\nThe Amp design talk thread in the Amp Android appThe slide deck in the Portals tab of the Amp Android appThe present.js diff in the Changes tab of the Amp Android app1 / 3\nThe Amp design talk thread in the Amp Android appThe slide deck in the Portals tab of the Amp Android appThe present.js diff in the Changes tab of the Amp Android app1 ",
+      "lane": "product"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "date": "2026-10-27",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nBuild specialized multimodal models with LFM3\nTeam Article Published\nOctober 27, 2026 Upvote 111\n+105\nLeonie Monigatti iamleonie Follow LiquidAI Jimmy T.H. Smith jimmysmith1919 Follow LiquidAI Anthony Maltsev amaltsev Follow LiquidAI Maxime Labonne mlabonne Follow LiquidAI Brandon Brandon3967 Follow LiquidAI Samuel Stevens samuelstevens Follow LiquidAI Ryan Shubert shubeydoo Follo",
+      "lane": "mixed"
+    },
+    {
+      "title": "Claude for Financial Advisors",
+      "date": "2026-10-27",
+      "link": "https://claude.com/resources/articles/claude-for-financial-advisors",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Claude for Financial Advisors\nFinancial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.\nCategoryProduct updates\nDateOctober 27, 2026\nReading time11 min\nShareCopy link\nToday we're releasing Claude for Financial Advisors, a suite of connectors and workflow skills ",
+      "lane": "product"
+    },
+    {
+      "title": "CodeRabbit Secure now hunts across repos and beyond the merge",
+      "date": "2026-10-27",
+      "link": "https://coderabbit.ai/blog/coderabbit-secure-cross-repository-security",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). The window between a vulnerability becoming known and someone exploiting it is shrinking. Attackers no",
+      "lane": "mixed"
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "date": "2026-10-27",
+      "link": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "anthropic-news",
+      "thin": false,
+      "preview": "01Case studies\nEarly progress on accelerating drug development with Claude\nPublishedOct 27, 2026TeamScienceTopics\nLife sciences\nPartnerships\nHealthcare\nDiscovery\nBeneficial Deployments\nSee more...Related articles\nAnnouncements\nJul 20, 2026\nApply for Anthropic’s AI for Science rare disease research grants\nView more\nAnthropic’s life sciences team is working to accelerate curing disease. Over the pas",
+      "lane": "product"
+    },
+    {
+      "title": "Every website you make with Manus can now be installed as a desktop app. No extra setup, no app st...",
+      "date": "2026-10-27",
+      "link": "https://x.com/ManusAI/status/2115110045977583909",
+      "source": "manus",
+      "thin": true,
+      "preview": "Every website you make with Manus can now be installed as a desktop app. No extra setup, no app store. Your browser does not support the video tag. 🔗 View on Twitter 💬48🔄34❤️412👀41121📊107 ⚡ Powered by xgo.ing",
+      "lane": "product"
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "date": "2026-10-27",
+      "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source": "anthropic-news",
+      "thin": false,
+      "preview": "Expanding our partnership with GSA to bring Claude to all levels of government\nPublishedOct 27, 2026CategoryPartnershipsTopics\nGovernment capacity\nPartnerships\nAccess\nClaude for Enterprise\nCybersecurity\nClaude Code\nSee more...Related articles\nPartnerships\nApr 24, 2026\nAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce\nView more\nWe are expanding our partnership with the",
+      "lane": "product"
+    },
+    {
+      "title": "FrontierCode 2.0 separates model tiers more clearly than FrontierCode 1.1. It also ranks them differ...",
+      "date": "2026-10-27",
+      "link": "https://x.com/cognition/status/2115132493259321443",
+      "source": "cognition",
+      "thin": true,
+      "preview": "FrontierCode 2.0 separates model tiers more clearly than FrontierCode 1.1. It also ranks them differently: on DeepSWE v1.1, Muse Wonder 1.0 and Gemini 4 Argon score highest, but on FrontierCode 2.0 they land in the middle of the pack. 💬8🔄3❤️190👀66707📊30 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Here's how: 1. Publish your site in Manus 2. Open it in Chrome 3. Click Install in the address b...",
+      "date": "2026-10-27",
+      "link": "https://x.com/ManusAI/status/2115110048024420428",
+      "source": "manus",
+      "thin": true,
+      "preview": "Here's how: 1. Publish your site in Manus 2. Open it in Chrome 3. Click Install in the address bar No extra setup. It works on every site you make with Manus. 💬9🔄1❤️17👀4661📊9 ⚡ Powered by xgo.ing",
+      "lane": "product"
+    },
+    {
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/check-point-daybreak",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 27, 2026\nHow Check Point accelerates vulnerability research with Daybreak\nWith OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.\nContact salesCompany size: EnterpriseRegion: North AmericaIndustry: TechnologyProducts: Daybreak\nResults\nHours to minutes\nVulnerabili",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing FrontierCode 2.0: our new coding benchmark that measures a model’s ability to go beyond ...",
+      "date": "2026-10-27",
+      "link": "https://x.com/cognition/status/2115132488775524793",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Introducing FrontierCode 2.0: our new coding benchmark that measures a model’s ability to go beyond the spec. Most coding evals measure a model’s ability to write code that meets a spec. With FrontierCode 1.0, we asked a new question: would you actually merge the PR? FrontierCode 2.0 is comprised of more diverse tasks, featuring larger scopes and higher mergeability standards. We are now asking: n",
+      "lane": "mixed"
+    },
+    {
+      "title": "Kiro’s new free trial gives you 500 extra credits",
+      "date": "2026-10-27",
+      "link": "https://kiro.dev/blog/kiros-new-free-trial-gives-you-500-extra-credits",
+      "source": "kiro",
+      "thin": false,
+      "preview": "Starting on November 1, we’re changing how the Kiro free trial works. If you upgrade to Pro for the first time, the rest of that month is on us. You also get 500 trial credits that you can use any time in the next 12 months. For example, if you upgrade on the 15th, you pay nothing until the first of next month. You get about half a month of Pro credits plus 500 more.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
+      "date": "2026-10-27",
+      "link": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Manage costs and demonstrate ROI for Claude Code on Google Cloud\nBest practices for managing costs and measuring return on investment for Claude Code on Google Cloud.\nCategoryBest practices\nProductClaude Code\nDateOctober 27, 2026\nReading time17 min\nShareCopy link\nAs organizations delegate more work to Claude Code, spend grows with it, and platform teams need a way to both control costs and underst",
+      "lane": "product"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 27, 2026\nCompany\nOpenAI expands partnership with Oracle to bring its apps to ChatGPT\nExpanding what businesses can do with Oracle—in ChatGPT and through new offerings powered by OpenAI.\nLearn moreContact salesShare\nOpenAI and Oracle are bringing Oracle applications and data into ChatGPT and powering new Oracle products and services with OpenAI models and products. Together, we aim t",
+      "lane": "mixed"
+    },
+    {
+      "title": "Read about the methodology and scoring criteria on our blog, where we also share sample tasks: htt...",
+      "date": "2026-10-27",
+      "link": "https://x.com/cognition/status/2115132499554959809",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read about the methodology and scoring criteria on our blog, where we also share sample tasks: cognition.com/blog/frontier-… 💬2🔄0❤️72👀15316📊10 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "date": "2026-10-27",
+      "link": "https://openai.com/index/retell-ai",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 27, 2026\nRetell uses OpenAI models to help power 100M monthly calls\nGPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.\nStart building(opens in a new window)Company size: StartupRegion: North AmericaIndustry: TechnologyProducts: API, Codex\n100M+\nMonthly calls handled\n80%+\nCustomer resolution rates\n1 trillion\nOpenA",
+      "lane": "mixed"
+    },
+    {
+      "title": "See the full leaderboard at: https://t.co/ulU350gmTA",
+      "date": "2026-10-27",
+      "link": "https://x.com/cognition/status/2115132498439196858",
+      "source": "cognition",
+      "thin": true,
+      "preview": "See the full leaderboard at: cognition.com/frontiercode 💬3🔄2❤️89👀18249📊13 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Your workspace has undead apps",
+      "date": "2026-10-27",
+      "link": "https://lovable.dev/blog/your-workspace-has-undead-apps",
+      "source": "lovable",
+      "thin": false,
+      "preview": "All posts\nPublished October 27, 2026 in Announcements\nYour workspace has undead apps\nEvery workspace collects projects nobody touches anymore. A prototype from a hackathon. An internal tool built by someone who left in the spring. A landing page for a campaign that ended months ago. Many of them are still published, still connected to data, and mostly forgotten. This happens across all AI tools an",
+      "lane": "product"
+    },
+    {
+      "title": "评审结果公示丨2026年度CCF-快手大模型探索者基金",
+      "date": "2026-10-27",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501530&idx=1&sn=12dca9bfea88387dbb2ca605944ed393",
+      "source": "kuaishou-tech",
+      "thin": false,
+      "preview": "快手技术 2026-10-27 19:08 北京 2026年CCF-快手大模型探索者基金已完成评审，现予以公示。 10月27日，2026年CCF-快手大模型探索者基金完成评审，共18位学者获资助，现予以公示。 2026年，CCF与快手联合发布第三期\"CCF-快手大模型探索者基金\"（以下简称“快手大模型探索者基金”）。本年度基金项目延续聚焦于大模型技术基础研究与应用探索，加速技术成果产业化转化；同时致力于培养该领域科研与工程人才，通过为全球学者搭建产学研合作平台，促进学术界与工业界深度交流合作，助力科技进步与社会发展。 2026年度快手大模型探索者基金围绕\"智能体（Agent）与自主进化\"、\"多模态大模型理解与生成\"、\"大模型安全与可信治理\"、\"大模型训练与推理优化\"、\"数据科学与实验科学\"五大重点研究方向，于2026年9月2日至10月7日开放申请，共发布18项研究课题，收到来自海内外105",
+      "lane": "tech"
+    },
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "date": "2026-10-26",
+      "link": "https://www.anthropic.com/news/s1-sec",
+      "source": "anthropic-news",
+      "thin": false,
+      "preview": "Anthropic files S-1 with the SEC for proposed initial public offering\nPublishedOct 26, 2026CategoryAnnouncementsTopics\nFunding\nRelated articles\nAnnouncements\nNov 20, 2026\nAnthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement\nView more\nToday, Anthropic, PBC filed a registrati",
+      "lane": "product"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nResearchGuides\nChatGPT’s expanding world of work\nOpenAI Economic Research releases data for researchers to explore questions on AI and labor more deeply.\nExplore and download the dataShare\nToday, we are releasing OpenAI Signals data that explores 165 work activities across nearly 100 countries, revealing how consumers use ChatGPT for work. This data gives researchers a new ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available in Kiro",
+      "date": "2026-10-26",
+      "link": "https://kiro.dev/blog/haiku-5-5",
+      "source": "kiro",
+      "thin": false,
+      "preview": "Back to all postsOctober 26, 2026\nClaude Haiku 5.5 is now available in Kiro\nHA\nHardeep Singh\nProduct\nVI\nVipin Mohan\nProduct\nClaude Haiku 5.5 is available today across Kiro IDE, CLI, Web, and Crew. It is the fastest model in the Claude 5.5 family, aimed at work that runs in large volumes and needs a quick response, and it is a clear step up from Claude Haiku 4.5. With Haiku 5.5, all three Claude 5.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Devin Security 2.0: Built for the new threat landscape",
+      "date": "2026-10-26",
+      "link": "https://devin.ai/blog/devin-security-2",
+      "source": "devin-blog",
+      "thin": false,
+      "preview": "AI is making security work faster and cheaper — for attackers and defenders. But finding more vulnerabilities is not the same as reducing risk. Teams need to identify what matters in their environment, get it fixed, and verify that they are protected.\nWe’re launching Devin Security 2.0 to help teams complete that work. It combines frontier-model scanning, prioritization grounded in your code, infr",
+      "lane": "product"
+    },
+    {
+      "title": "Expanding Claude for Nonprofits",
+      "date": "2026-10-26",
+      "link": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Expanding Claude for Nonprofits\nOur new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.\nCategoryProduct updates\nDateOctober 26, 2026\nReading time7 min\nShareCopy link\nToday, we're releasing the Claude for Nonprofits plugin, a set of skills and connectors buil",
+      "lane": "product"
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nSecurity\nGPT‑6.1 Sol helps CodeRabbit strengthen security across complex codebases\nAs AI accelerates software development, engineering and application-security teams need ways to investigate code changes and address vulnerabilities while keeping people in control. CodeRabbit is using GPT‑6.1 Sol as the primary model in its security agent to extend review beyond individual c",
+      "lane": "mixed"
+    },
+    {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nStartup\nGreptile takes bug detection beyond code review with GPT‑6 Astra\nHow Greptile uses GPT‑6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.\nStart building with OpenAICompany size: StartupRegion: North AmericaIndustry: TechnologyProducts: API, CodexShare\nGreptile⁠(opens in a new window) builds AI agents that review and test cod",
+      "lane": "mixed"
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nHow Fanatics and OpenAI streamline the fan experience\nNew “Shop the Look” online commerce feature launches in time for fall sports calendar.\nContact salesLearn moreCompany size: EnterpriseRegion: North AmericaIndustry: RetailProducts: ChatGPT, Codex\nEngagement\n10%\nHigher engagement than the previous Shop the Look experience.\nTesting scale\n~30,000\nMLB products included in re",
+      "lane": "mixed"
+    },
+    {
+      "title": "How Gemini 4 Argon Upleveled Agents on Antigravity: Trillion-Edge Graphs and Custom TPU Kernels",
+      "date": "2026-10-26",
+      "link": "https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nOpenAI on OpenAI\nHow Ultrafast cut incident investigation from hours to minutes at OpenAI\nThis is part of our series sharing internal examples of how OpenAI is using its own technology and APIs. These tools are being used internally, at OpenAI, and are shared here as illustrative examples of how frontier AI is supporting use cases across our teams.\nUltrafast is a high-speed",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing GPT-6.1 Terra",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nGPT-6.1Terra\nDelivering fast and capable computer use at scale\nWe’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting techn",
+      "lane": "mixed"
+    },
+    {
+      "title": "Keeping a software factory stable at 1,000 PRs a week",
+      "date": "2026-10-26",
+      "link": "https://kiro.dev/blog/software-factory-stability",
+      "source": "kiro",
+      "thin": false,
+      "preview": "In our last post, we described how three engineers and a crew of agents merged 1,000 pull requests in one week. The most common question we got back was how we keep that from breaking everything. But we think there’s a better question to ask. Can a human be responsible for every PR they shipped, which includes code they did not write and did not read line by line? Could you even speak confidently ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Manus is now optimized for iPhone Duo. Unfold more room to build and play. Preview your app’s scr...",
+      "date": "2026-10-26",
+      "link": "https://x.com/ManusAI/status/2114735035089928447",
+      "source": "manus",
+      "thin": false,
+      "preview": "Manus is now optimized for iPhone Duo. Unfold more room to build and play. Preview your app’s screens side by side. Play the game you just created. Watch your latest video come to life Two screens. One continuous workflow. Your browser does not support the video tag. 🔗 View on Twitter 💬26🔄17❤️261👀24057📊53 ⚡ Powered by xgo.ing",
+      "lane": "product"
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "date": "2026-10-26",
+      "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "google-ai",
+      "thin": false,
+      "preview": "Our newest AI Quest: Mapping the human brain\nOct 26, 2026\n|\nx.com\nFacebook\nLinkedIn\nMail\nOur third lesson in our AI Quests series, “Polar Peaks,” teaches students key AI literacy skills while delving into neuroscience.\nRonit Levavi Morad\nSenior Director, Google Research\nx.com\nFacebook\nLinkedIn\nMail\nYour browser does not support the audio element.\nListen to article\n[[duration]] minutes\nThis content",
+      "lane": "mixed"
+    },
+    {
+      "title": "Read more about how Devin Security works, and get started today: https://t.co/MREgJWkkgM",
+      "date": "2026-10-26",
+      "link": "https://x.com/cognition/status/2114741377372434527",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read more about how Devin Security works, and get started today: devin.ai/blog/devin-sec… 💬1🔄2❤️40👀5092📊7 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "We’re committing hundreds of millions of dollars in Devin credits: free deep scans with frontier cyb...",
+      "date": "2026-10-26",
+      "link": "https://x.com/cognition/status/2114741375786951059",
+      "source": "cognition",
+      "thin": true,
+      "preview": "We’re committing hundreds of millions of dollars in Devin credits: free deep scans with frontier cyber models for enterprise customers, and remediation credits for new customers to fix what they find. Details: cognition.com/blog/devin-sec… 💬1🔄1❤️43👀4308📊6 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "date": "2026-10-26",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 26, 2026\nResearchPublication\nWorking with academic communities to build scientific understanding\nWe are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.\nOur release process continues to evolve in response to feedback from the associated academic communities. In our view, these manuscr",
+      "lane": "mixed"
+    },
+    {
+      "title": "We’re covering $1 million in security scans and fixes through November 8, 2026",
+      "date": "2026-10-24",
+      "link": "https://coderabbit.ai/blog/one-million-security-scans-and-fixes",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "**Update:** The original $1M Deep Scan campaign has ended. Run your first deep scan for free. First-time users of CodeRabbit Secure with 2+ subscription seats in their organization get up to $1,000 in credits towards their first Deep Scan. [Run Free Deep Scan](https://app.coderabbit.ai/security). The original campaign offered up to $5,000 in Deep Scan usage for any organization with two or more me",
+      "lane": "mixed"
+    },
+    {
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "date": "2026-10-23",
+      "link": "https://openai.com/index/anima",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 23, 2026\nStartup\nAnima helps clinics cut call waits by 75% with GPT‑6 and GPT‑Live\nAnima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.\nStart building with OpenAICompany size: StartupRegion: Europe & UKIndustry: HealthcareProducts: API\n75%+\nReduction in phone wait times\n3.5\nApproximate median case resolution time (hours)\n2–3×\nTyp",
+      "lane": "mixed"
+    },
+    {
+      "title": "Claude Cowork and chat come together for Enterprise",
+      "date": "2026-10-23",
+      "link": "https://claude.com/resources/articles/unified-claude-enterprise",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Claude Cowork and chat come together for Enterprise\nCategoryProduct updates\nProductClaude Enterprise\nDateOctober 23, 2026\nReading time2 min\nShareCopy link\nEditor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.\nChat and Cowork first came together for Pro and Max plans in September. The same unified Claude experience is now generally av",
+      "lane": "product"
+    },
+    {
+      "title": "Claude Duet Safety, Privacy, and Security",
+      "date": "2026-10-23",
+      "link": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+      "source": "claude-articles",
+      "thin": false,
+      "preview": "Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.",
+      "lane": "product"
+    },
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "date": "2026-10-23",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nDoes Your Model Run on AWS Trainium? Look It Up\nPublished\nOctober 23, 2026 Update on GitHub Upvote 33\n+27\nDavid Corvoysier dacorvo Follow\nIn a previous post, we introduced TorchNeuron, the native PyTorch backend for AWS Trainium (the torch-neuronx package). With it, Transformers runs its own modeling code on Trainium, as it does on any other device, so any Transformers model on th",
+      "lane": "mixed"
+    },
+    {
+      "title": "Kimi K3.1 Pro：智能前沿，更进一步",
+      "date": "2026-10-23",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+      "source": "kimi",
+      "thin": false,
+      "preview": "原创 Kimi K3.1 Pro 2026-10-24 01:16 天津 高速版同步上线 The only way of discovering the limits of the possible is to venture a little way past them into the impossible. 发现「可能」之极限的唯一方法，是向「不可能」的方向多走一小步。 阿瑟·C·克拉克《未来的轮廓》 今天，我们正式推出 Kimi K3.1 Pro，这是 K3.1 系列的第一个模型，也是我们迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。Kimi K3.1 Pro 在代码、3D 创作、金融研究和其他长程 Agent 能力上的提升尤为显著。 我们同步推出高速版模型 Kimi K3.1 Pro Highspeed，同等智能，输出速度约 2~3 倍。 即日起，可通过 kimi.",
+      "lane": "mixed"
+    },
+    {
+      "title": "MiniMax M3.1 Flash开源，上线72小时处理Token超过100万亿",
+      "date": "2026-10-23",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+      "source": "minimax",
+      "thin": false,
+      "preview": "原创 MiniMax 2026-10-23 08:56 上海 今天，我们开源 MiniMax M3.1 Flash 的模型权重，总参数 428B，激活参数 23B。 相较于上一代 M3 模型，M3.1 Flash 的模型能力实现了全面提升。此外，通过全模型稀疏注意力、量化感知训练和 Power-aware scheduling 等优化工作，M3.1 Flash 进一步提升了推理效率： 全模型稀疏注意力：前三个全注意力层替换为稀疏注意力； QAT：路由 MoE 专家迁移到 W4A4（共享专家除外），稀疏注意力索引器和主分支从 Q8KV8 迁移到 Q8KV4； Power-aware scheduling：通过对计算卡功耗的精细分配，保持计算卡持续维持算力高位，极致压榨硬件效率。 感谢全球开发者的支持和喜爱。M3.1 Flash 上线后，72 小时内真实用户处理超过 100 万亿 Token。",
+      "lane": "mixed"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "date": "2026-10-23",
+      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 23, 2026\nGlobal Affairs\nOpenAI and Poland’s NASK partner to advance AI safety and security\nOpenAI and Poland’s NASK National Research Institute have signed an agreement to explore collaboration on AI safety, security and technical research. The partnership will bring together expertise from both organizations to better understand emerging risks, strengthen safeguards, and explore ho",
+      "lane": "mixed"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "date": "2026-10-23",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 23, 2026\nEngineering\nRapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)\nHow we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.\nBy Jon Lee, Hrachya Hakobyan, and Chaomin Yu, Members of Technical Staff\nAll OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "date": "2026-10-23",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "openai-news",
+      "thin": false,
+      "preview": "OpenAI\nOctober 23, 2026\nSecurityPublication\nSecuring our frontier model training environment\nWe’ve strengthened containment for internal frontier-model training and evaluation and used our strongest models to red-team the boundaries.\nThis post describes how we secure the environments that we use to train and evaluate frontier models. These research settings differ from those in which customers use",
+      "lane": "mixed"
+    },
+    {
+      "title": "快手程序员都做啥工作？独家揭秘！",
+      "date": "2026-10-23",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501519&idx=1&sn=d424bc5f510460796f83ed717469f1f8",
+      "source": "kuaishou-tech",
+      "thin": true,
+      "preview": "祝你节日快乐的 2026-10-23 17:51 北京 以下文章来源于：快手招聘 快手招聘 快手官方求职入口，包括社招、校招、实习生招聘、求职类资讯及相关活动等。期待您的关注哟！ 跳转微信打开",
+      "lane": "tech"
+    },
+    {
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their experiences using the service. These user groups function as collaborative forums where members learn, connect, and innovate together.\nWhether you’re already using Amazon Quick or j",
+      "lane": "tech"
+    },
+    {
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "To scale intent-driven UI testing across its product teams, Epsilon, a data, technology, and marketing-services company and part of Publicis Groupe, turned to Amazon Nova Act. With hundreds of millions of consumer profiles and thousands of brand relationships, Epsilon needed UI testing that could keep pace with rapid application changes. The solution could not create maintenance overhead for every",
+      "lane": "tech"
+    },
+    {
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "When your team moves a mature PHP application to Java, you gain stronger type safety, broader library support, and more predictable scaling. A PHP codebase built over the years with Laravel, Symfony, or Doctrine carries business rules in places that are not obvious, from Eloquent traits to XML mapping files, so a structurally similar Java port can compile cleanly and still behave differently.\nThis",
+      "lane": "tech"
+    },
+    {
+      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "With the launch of AWS Batch support for Amazon SageMaker Training jobs, customers gained a new fully managed way to queue, schedule, and retry machine learning (ML) training workloads without building their own infrastructure. Instead, they use the queuing and scheduling features of AWS Batch. As organizations scale their artificial intelligence and machine learning (AI/ML) operations and onboard",
+      "lane": "tech"
+    },
+    {
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "This post was co-written with Nikhil Kumar and Shakir Khan from MoEngage.\nWhen engineering teams start building AI agents, the capabilities those agents need usually already exist as internal APIs. Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality. The challenge is making hundreds of private APIs safely reachable by agents without exposing them to t",
+      "lane": "tech"
+    },
+    {
+      "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+      "date": "2026-10-29",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "NVIDIA Nemotron 3.5 Super VL joins the NVIDIA Nemotron 3 Nano, Nano Omni, Super, Ultra, and Nemotron 3.5 Lightning models already available on AWS. It’s a 120B-parameter mixture-of-experts (MoE) model that activates 12B parameters per token. It combines reasoning and tool use with text, image, document, and video understanding, so one model serves both text and visual tasks. This post explores its",
+      "lane": "tech"
+    },
+    {
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "date": "2026-10-28",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "If you’ve tried to get an agent into production, the model and tool use are not the blocker. The main bottleneck is everything around them: how many teams can build within a secure environment, which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary, and how platform, Workstream, and finance teams see cost and health across accounts. For a Platform t",
+      "lane": "tech"
+    },
+    {
+      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+      "date": "2026-10-28",
+      "link": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "What usually stops PyTorch training from scaling out to a cluster is the container, not the model code. Every container needs the same CUDA runtime, a PyTorch build compiled against it, NCCL (NVIDIA Collective Communications Library), the Elastic Fabric Adapter (EFA) userspace libraries, the AWS OFI NCCL plugin that connects NCCL to EFA, and a Ray version the cluster operator agrees with. Building",
+      "lane": "tech"
+    },
+    {
+      "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+      "date": "2026-10-28",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "As quality assurance (QA) automation adoption grows inside an organization, a new problem appears that has nothing to do with writing tests. A platform team stands up test automation, then a second team wants to join, then a dozen more. Soon hundreds of test cases belong to different products and squads, and everyone can see everyone else’s tests. No one can answer a basic question at a glance: is",
+      "lane": "tech"
+    },
+    {
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "date": "2026-10-27",
+      "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "I’m proud to share that Amazon Web Services (AWS) has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for Amazon Connect for the fourth consecutive year. We believe this recognition reflects years of work pushing on what’s possible in customer experience.\nWhen we launched Amazon Connect Customer, we set out to evolve how businesses serve their custome",
+      "lane": "tech"
+    },
+    {
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "date": "2026-10-27",
+      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Every minute your deep learning container image spends downloading is a minute you pay for and a minute your team waits. Container image download is pure overhead: billable job time that produces no model progress. For modern deep learning images, that overhead is several minutes on every single job. Today, we’re excited to announce Seekable OCI (SOCI) indexing for Amazon SageMaker AI Training and",
+      "lane": "tech"
+    },
+    {
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "date": "2026-10-27",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "This post was co-authored with Khaled Thabit, Meriem Boughrara, and Mohamed Desouky from Property Finder.\nThe engineering team at Property Finder, a digital real estate application, discovered that 96.8 percent of their evaluation labels had been inherited directly from a single model’s predictions rather than verified by human experts. Their ground truth was systematically skewed toward the incum",
+      "lane": "tech"
+    },
+    {
+      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+      "date": "2026-10-27",
+      "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Exowatt builds modular, dispatchable solar systems that deliver reliable power for energy-intensive applications such as AI data centers. Its flagship product, the Exowatt P3, captures solar energy through optical lenses, stores it as heat in a long-duration thermal battery, and dispatches electricity on demand through a heat engine. Unlike grid-tied photovoltaic solar systems, P3 powers data cent",
+      "lane": "tech"
+    },
+    {
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "date": "2026-10-26",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Fleet-wide computer vision model lifecycle management is a problem that shows up the moment a quality inspection proof of concept succeeds. One camera and one model work fine. Then the plant asks for the same result on 40 lines, each with several cameras, and every camera sees the world differently. Each has a different angle, different glare off the same stainless surface, and different ambient l",
+      "lane": "tech"
+    },
+    {
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "date": "2026-10-26",
+      "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Every time you spin off your agent, it has to re-read its whole life story before performing an action. Here’s how to make it remember without having to feed it the same context again.\nIn the movie Groundhog Day, Bill Murray’s character re-lives the same February 2 every day. He wakes up to the same song playing on the radio, in the same inn, and the same small town, again and again for what some ",
+      "lane": "tech"
+    },
+    {
+      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+      "date": "2026-10-26",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "This post builds enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS Cloud Development Kit (AWS CDK). To see why that’s worth building, it helps to start with where ordinary Retrieval Augmented Generation (RAG) breaks down. Most RAG systems start the same way: they embed the question, fetch the nearest chunks from one index, hand them to a model, and return the ans",
+      "lane": "tech"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "date": "2026-10-28",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nNVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt\nCommunity Article Published\nOctober 28, 2026 Upvote 97\n+91\nMaryam Motamedi maryameee Follow nvidia Piotr Żelasko piotrzelasko Follow nvidia Kunal Dhawan kunaldhawan Follow nvidia Nikolay Karpov nkarpov Follow nvidia Nune Tadevosyan nunetadevosyan Follow nvidia Meline Mkrt",
+      "lane": "mixed"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "date": "2026-10-27",
+      "link": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nCan we trust LLMs to judge whether a research idea is novel?\nCommunity Article Published\nOctober 27, 2026 Upvote 17\n+11\nKyle Wiggers Ai2Comms Follow allenai\n📄 Paper | 📊 Data | 💻 Code\nToday we’re releasing Old Ideas, Novel Problems, a new study of how reliably large language models can evaluate the novelty of scientific research ideas. Alongside the paper, we’re publishing a benchm",
+      "lane": "mixed"
+    },
+    {
+      "title": "Mundo: From seeing a place to simulating what happens there",
+      "date": "2026-10-23",
+      "link": "https://huggingface.co/blog/Luo-Yihang/mundo-world-model",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nMundo: From seeing a place to simulating what happens there\nCommunity Article Published\nOctober 23, 2026 Upvote 88\n+82\nYihang Luo Luo-Yihang Follow Zunnan Xu kkakkkka Follow Shangchen Zhou sczhou Follow LAN YUSHI yslan Follow Kang Liao KangLiao Follow Gong Zerui zrgong Follow Xiao-Ming Wu DravenALG Follow Tao Qingyi truetqy Follow Zhonghua Wu wu-zhonghua Follow Xingang Pan Xingang",
+      "lane": "mixed"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "date": "2026-10-23",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nLitPivot: Developing research ideas through dynamic contextualization within the literature landscape\nCommunity Article Published\nOctober 23, 2026 Upvote 35\n+29\nKyle Wiggers Ai2Comms Follow allenai\n📄 Paper\nEncountering a new paper can change a research idea's trajectory. The researcher may discover that someone has already addressed their proposed contribution, or find an unresolv",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing A5: Proactive Personal Agent in Your Life-Long Context",
+      "date": "2026-10-23",
+      "link": "https://huggingface.co/blog/KYLN24/introducing-a5",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nIntroducing A5: Proactive Personal Agent in Your Life-Long Context\nCommunity Article Published\nOctober 23, 2026 Upvote 26\n+20\nHonglin Guo KYLN24 Follow Yuhui Wang qzdc Follow Zhijie Liang abibats Follow Yuyang Lu lanzhiaurora44 Follow Huicheng Jiang tangerine6 Follow Tao Gui (SII) guixiaotao Follow\nEnglish version |\n中文版\nEnglish version\nTakeaway: A5 is a proactive personal assistan",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing Lumma-Fev-v2",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b-v2",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nIntroducing Lumma-Fev-v2\nCommunity Article Published\nOctober 29, 2026 Upvote 15\n+9\nRohit rohitsali Follow FrontiersMind Vishesh Tripathi vishesh-t27 Follow FrontiersMind Abhay kumar akanyaani Follow FrontiersMind Ramsha ramshakhann Follow FrontiersMind\nThe second generation of our Lumma-Fev decision models: one family from 0.1B to 27B, one forward pass, nothing to parse.\nf asking ",
+      "lane": "mixed"
+    },
+    {
+      "title": "What's new in the hf CLI and huggingface_hub library",
+      "date": "2026-10-26",
+      "link": "https://huggingface.co/blog/huggingface/whats-new-in-the-hf-cli-and-huggingface-hub-librar",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nWhat's new in the hf CLI and huggingface_hub library\nCommunity Article Published\nOctober 26, 2026 Upvote 20\n+14\nCélina Hanouti celinah Follow huggingface Lucain Pouget Wauplin Follow huggingface\nWe've been shipping a lot of features in huggingface_hub/hf CLI these past few weeks across Hugging Face Jobs, Storage Buckets, Sandboxes, cache optimization, DX improvements for downloadi",
+      "lane": "mixed"
+    },
+    {
+      "title": "DecisionFormer",
+      "date": "2026-10-26",
+      "link": "https://huggingface.co/blog/FrontiersMind/decisionformer",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nDecisionFormer\nCommunity Article Published\nOctober 26, 2026 Upvote 9\n+3\nVishesh Tripathi vishesh-t27 Follow FrontiersMind Abhay kumar akanyaani Follow FrontiersMind Rohit rohitsali Follow FrontiersMind Ramsha ramshakhann Follow FrontiersMind\nFine-tune any Hugging Face model into a calibrated, one-pass decision model, with full fine-tuning, LoRA or QLoRA.\nOur Lumma-Fev models score",
+      "lane": "mixed"
+    },
+    {
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU",
+      "date": "2026-10-26",
+      "link": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nPretraining a 325M Language Model from Zero on an Inference-Only NPU\nCommunity Article Published\nOctober 26, 2026 Upvote 10\n+4\nVIDRAFT_LAB SeaWolf-AI Follow FINAL-Bench\nTL;DR\nWe pretrained VKORE-325M-NPU-Base, a 325.6M parameter decoder-only language model, from random initialization on a commercial inference-only NPU. Every weight was learned on the NPU with backpropagation run o",
+      "lane": "mixed"
+    },
+    {
+      "title": "Two Pure-Vision Pipelines at the Top of ViDoRe V3",
+      "date": "2026-10-23",
+      "link": "https://huggingface.co/blog/Ryenhails/pure-vision-vidore-v3",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nTwo Pure-Vision Pipelines at the Top of ViDoRe V3\nCommunity Article Published\nOctober 23, 2026 Upvote 8\n+2\nZhuchenyang Liu Ryenhails Follow Quentin Macé QuentinJG Follow Antoine EDY antoineedy Follow Victor Xing vxing Follow\nNote: GPUs differ between entries, efficiency comparisons hold only under each entry’s evaluation environment.\nTL;DR\nWe built two retrieval pipelines for the ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Do LLM Routers Actually Route? Quick answer: Not much!",
+      "date": "2026-10-26",
+      "link": "https://huggingface.co/blog/PeterKruger/router-benchmark-2026-10",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nDo LLM Routers Actually Route? Quick answer: Not much!\nCommunity Article Published\nOctober 26, 2026 Upvote 6\nPeter Kruger PeterKruger Follow\nIntroducing the AutoBench Router Benchmark, a pre-registered, cost-aware audit of major LLM routers\nFor the full data, visit autobench.org or our Hugging Face Leaderboard.\nIs your router sending each prompt to the right model, or is it a knob",
+      "lane": "mixed"
+    },
+    {
+      "title": "Try an LLM Router That Actually Routes ($1 free credit)",
+      "date": "2026-10-29",
+      "link": "https://huggingface.co/blog/PeterKruger/autobench-beta-router",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nTry an LLM Router That Actually Routes ($1 free credit)\nCommunity Article Published\nOctober 29, 2026 Upvote 5\nPeter Kruger PeterKruger Follow\nFirst we benchmarked the available routers: They all failed. Then we realized we could build a better one based on the same eval engine. The Autobench Router: three settings, three models, no collapse onto one model, and the top score on the",
+      "lane": "mixed"
+    },
+    {
+      "title": "Reverse Engineering Anything using small open models",
+      "date": "2026-10-26",
+      "link": "https://huggingface.co/blog/ybelkada/reverse-engineering-anything-with-small-local-mode",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nReverse Engineering Anything using small open models\nCommunity Article Published\nOctober 26, 2026 Upvote 6\nYounes B ybelkada Follow Nathan Habib SaylorTwift Follow Lysandre lysandre Follow\nIntroduction\nReverse Engineering modern software has become very popular in recent weeks and months, especially with the exponential rise of the Reverse Engineer Anything (REA) repository, which",
+      "lane": "mixed"
+    },
+    {
+      "title": "How American Universities Are Using AI Models From Meta to Accelerate Medical and Scientific Breakthroughs",
+      "date": "2026-10-28",
+      "link": "https://research.meta.ai/blog/supporting-medical-scientific-research",
+      "source": "meta-ai-research",
+      "thin": false,
+      "preview": "How American Universities Are Using AI Models From Meta to Accelerate Medical and Scientific Breakthroughs\nMeta is supporting research at five universities exploring how AI models perform on real scientific and clinical problems.\nOctober 28, 2026·16 minute read\nToday, we're announcing support for research at five universities across the US: California Institute of Technology, The Ohio State Univer",
+      "lane": "product"
+    },
+    {
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "date": "2026-10-23",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Most fine-tuning teaches a model to produce a better answer to a single prompt. Agentic tasks are different. An agent that files an expense report or triages a support ticket takes a sequence of actions, and each step depends on what came before. There’s rarely one correct sequence to imitate, and the only reliable feedback is whether the whole sequence succeeded. Supervised fine-tuning has no lab",
+      "lane": "tech"
+    },
+    {
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "date": "2026-10-23",
+      "link": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Updating the Amazon Sagemaker AI real-time endpoint configuration (changing the instance type, instance count, or environment variables) causes deployments through AWS CloudFormation or the AWS Cloud Development Kit (AWS CDK) to fail. SageMaker AI requires you to deregister the scalable target before updating the endpoint, but when you deregister it, CloudFormation can’t track the AWS Application ",
+      "lane": "tech"
+    },
+    {
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "date": "2026-10-23",
+      "link": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "With Amazon Quick Sight layer maps, you can now plot points and routes, like store locations across a city or flights leaving an airport. Geospatial maps help businesses spot patterns that are tied to location, like how a region is performing or where customers are concentrated. Amazon Quick Sight supports this with multiple map types, including point maps, filled maps, and layer maps. When layer ",
+      "lane": "tech"
+    },
+    {
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+      "date": "2026-10-23",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Plant breeding decisions depend on data that spans genomics, field trials, imagery, environmental conditions, and model outputs. Bayer Crop Science runs hundreds of machine learning (ML) model configurations against this data across crops, regions, and teams, and each run needs to be repeatable and governed. To meet that requirement, Bayer built the Connected Decision Engine (CDE), a system for de",
+      "lane": "tech"
+    },
+    {
+      "title": "2.1.311",
+      "date": "2026-10-26",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-311",
+      "source": "claude-code-changelog",
+      "thin": false,
+      "preview": "Added\nAdded --hold-idle-file and --max-hold-min to self-hosted-runner, to keep an idle session while your host reports processes it left running\nAdded a tip for the Explanatory output style, shown when you ask Claude for explanations\n[VSCode] Added syntax coloring to code blocks in Claude's replies, in light, dark and high contrast dark themes\n[VSCode] Added a \"Running UserPromptSubmit hooks\" spin",
+      "lane": "product"
+    },
+    {
+      "title": "2.1.310",
+      "date": "2026-10-23",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-310",
+      "source": "claude-code-changelog",
+      "thin": false,
+      "preview": "Added\nAdded the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too\n[Cloud sessions] Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to each by role\n[Cloud sessions] Added a Choose file button to load a cloud",
+      "lane": "product"
+    },
+    {
+      "title": "迎战双十一，如何让智能客服 Agent 经得起真实业务考验？",
+      "date": "2026-10-29",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247523857&idx=1&sn=c63f2fea56a8eb3da19081b5e9564c00",
+      "source": "bytedance-tech",
+      "thin": false,
+      "preview": "AgentKit 2026-10-29 18:14 北京\n导语\n面对双十一，智能客服 Agent 既要答得准确，也要服务可靠。如何打通业务数据、规范工具调用，让 Agent 经得起真实业务考验？影腾智联的售后智能客服实践提供了一个参考。\n影腾智联聚焦智能家居与物联网消费电子，面向家庭用户和小微商户提供智能摄像头、智能门铃、免插卡 4G 随身 WiFi 等产品及服务。这些产品的售后问题涉及设备、网络、账号与套餐等多个环节，对客服的专业诊断与协同处理能力提出了要求。\n为此，影腾智联基于火山引擎 AgentKit 构建售后智能客服“小影”，将其嵌入影腾智联 App，串联知识问答、设备诊断与人工协同，逐步承接真实售后咨询。\n本文聚焦售后智能客服“小影”从问答验证走向生产应用的实践，介绍影腾智联如何借助 AgentKit 打通业务工具、保障服务可靠运行，并通过观测与评测持续优化服务质量。\n01 | ",
+      "lane": "tech"
+    },
+    {
+      "title": "OpenViking 上线原生 3D 内容理解模型",
+      "date": "2026-10-28",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247523852&idx=1&sn=f753b63616a0f85bc2a12fab780e7d5d",
+      "source": "bytedance-tech",
+      "thin": false,
+      "preview": "Viking 2026-10-28 18:34 北京\n🔥10 月 20 日，OpenViking 发布原生支持 3D 数据导入与解析的内容理解模型。\n现在你可以把零件模型、工程图纸和项目资料都交给 OpenViking，在豆包工作/Workbuddy/Codex/Claude 等 Agent 中描述你要找的结构，让 AI 帮你找候选零件、整理 BOM，核对供应变更带来的影响。\nOpenViking ✖️ 3D 内容理解模型\nOpenVIking 是火山引擎推出的 Agent 上下文数据库，支持文档、图片、音视频等多模态数据理解。\n今天迎来重磅升级，上线首个 3D 内容理解模型，支持三维STEP 文件的导入与解析，信息还原率做到 100%。\n导入一个三维 STEP 文件，解析产物会包含其正交六视图、八轴侧视图、信息摘要及模型明细，涵盖几何、PMI、装配、工艺等全部原始信息。\n解析目录\n正交六",
+      "lane": "tech"
+    },
+    {
+      "title": "一份旅行手册，豆包做完，IGA Pages 一句话就分享出去",
+      "date": "2026-10-27",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247523707&idx=1&sn=f81f271c9d8f9b67ad9c2365d6a03a0b",
+      "source": "bytedance-tech",
+      "thin": false,
+      "preview": "视频架构 2026-10-27 18:00 北京\n打开豆包工作，说一句“帮我做一份北京红叶旅行手册”，几分钟后，一份排版清爽、带时间轴、带预算表的网页就躺在你的文件夹里。可朋友想看？你得把 HTML 连同图片文件夹一起发过去，朋友们下载、解压、双击打开 —— 手机上还可能错位。想让一群人一起往里填行程、投票、算 AA？更不可能。\n问题不在做得好不好，而在做完之后那最后一步：怎么让它被看到、被一起用。\nIGA Pages 就是补上这一步的插件——它把豆包工作做出来的页面，一句话变成可以分享、可以共创的在线链接。下面用一次真实的北京红叶行程，看两个 Demo 分别怎么落地。\n个人旅行手册 Demo\n这是最基础的用法 —— 一个人做、所有人看。\n如何做出来它？\n第一步，描述你要什么。\n在豆包工作里打开一个新的工作任务说：\n帮我做一份「北京 5 日秋季红叶」旅行手册网页：\n- 封面用北京秋季主题。",
+      "lane": "tech"
+    },
+    {
+      "title": "Taobao3D 拓扑生成算法开源！让高保真 3D 更轻量",
+      "date": "2026-10-28",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546617&idx=1&sn=70b04510e22050f467b360b1e971db3d",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "原创 Meta 技术团队 2026-10-28 10:20 浙江\n淘宝Taobao3D大模型，轻量化高保真建模赋能电商3D购物\nTaobao3D 是阿里巴巴淘宝 Meta 技术团队研发的 3D 大模型技术，旨在降低高质量 3D 商品的生产成本，推动电商 3D 商品的规模化供给。该技术支持商品的高保真 3D 建模，以及在手机、XR 设备等多终端上的实时渲染与交互，让用户能够更直观地了解商品细节，获得更具沉浸感的购物体验。\n相比传统电商以图片和视频为主的商品表达方式，3D商品在展示形式与交互体验上更具优势。借助3D展示、AR试摆、3D广告等应用场景，3D商品能够帮助用户在线上更直观、真实地感知商品，助力提升转化率、延长停留时长并降低退货率。\n在实际落地中，手淘对3D模型的资产体积、渲染性能与还原度提出了严格要求：为保障流畅的用户体验，3D模型需实现秒级加载，资产体积小于5 MB，渲染帧率高于4",
+      "lane": "tech"
+    },
+    {
+      "title": "天猫数字员工（效能篇）- 多角色场景下的 AI 研发流转效能分析",
+      "date": "2026-10-26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546616&idx=1&sn=6de3cd4134e01fc868640284f93f0eac",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "原创 天猫技术团队 2026-10-26 11:40 浙江\nAI研发提效瓶颈在于轮次交接等待。\n本文分析了天猫技术数字员工在多角色 AI 研发场景下的流转效能。数据表明，尽管 AI 已大幅减少编码环节的人工介入，但交付周期的缩短幅度有限，主要瓶颈在于各轮次交接间的等待耗时。为此，文章提出通过“产物驱动”与“协作调度”双管齐下提升流动效率：一方面推进产物标准化与质量门禁以实现自动接续；另一方面针对仍需人工判断的环节，通过卡点私聊跟进、群内上下文提醒及个人日报聚合等主动推进机制，精准诊断并消除交接缺口，从而将局部执行提速转化为团队整体交付能力的提升。\n前言\n天猫技术正在建设统一的 AI 端到端交付架构：数字员工提供统一入口与运行时，驻进需求群承接交付；各业务域按需装配并持续沉淀自己的知识、技能与子 Agent。它与产品、前端、后端、测试共享上下文，接需求、写方案、调度 Agent、跟进交付，像",
+      "lane": "tech"
+    },
+    {
+      "title": "天猫数字员工（实践篇）- 接管全链路：交付能力与技术拆解",
+      "date": "2026-10-23",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546608&idx=1&sn=cd648c4e0239dac99c2b47563e5f7b43",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "原创 天猫技术团队 2026-10-23 12:37 浙江\n让AI驻群接力交付，重塑研发协作。\n本文介绍了天猫技术统一建设的 AI 端到端交付架构“数字员工”。它以群聊为统一入口，与产品、前端、后端及测试等角色共享需求上下文，实现从 PRD 到发布的全链路接力交付。系统底层采用主子 Agent 结构，结合确定性流程与动态规划，通过独立沙箱隔离运行环境，并建立严格的身份权限委托机制确保安全可控。目前该架构已在所有业务线推广，月均活跃交付超百条。其核心价值不仅在于提升编码速度，更在于将散落的业务认知沉淀为可复用资产，推动研发组织向 AI Native 演进。\n前言\n天猫技术正在建设统一的 AI 端到端交付架构：数字员工提供统一入口与运行时，驻进需求群承接交付；各业务域按需装配并持续沉淀自己的知识、技能与子 Agent。它与产品、前端、后端、测试共享上下文，接需求、写方案、调度 Agent、跟进",
+      "lane": "tech"
+    },
+    {
+      "title": "FrontierCode 2.0",
+      "date": "2026-10-27",
+      "link": "https://cognition.com/blog/frontier-code-2.0",
+      "source": "cognition",
+      "thin": false,
+      "preview": "MenuClose\nFrontierCode 2.0\nBy The Cognition Team2026.10.27FrontierCode LeaderboardEvaluating models against production code standardsView Now →\nRecent progress in AI has made software engineers dramatically more productive. However, our experience building and deploying Devin suggests that agentic software engineering remains far from solved. Models struggle to infer user intent, respect unstated ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Devin Security: Find and fix your most dangerous vulnerabilities",
+      "date": "2026-10-26",
+      "link": "https://cognition.com/blog/devin-security",
+      "source": "cognition",
+      "thin": false,
+      "preview": "MenuClose\nDevin Security: Find and fix your most dangerous vulnerabilities\nBy The Cognition Team2026.10.26\nToday, we’re launching two initiatives to help software teams improve their security posture.\nFirst: we’re introducing a major upgrade to Devin Security, our product for finding, prioritizing, and remediating vulnerabilities end to end. Devin Security now offers deep scans powered by Claude M",
+      "lane": "mixed"
+    },
+    {
+      "title": "Corridor is Joining Cognition",
+      "date": "2026-10-28",
+      "link": "https://cognition.com/blog/corridor-joining-cognition",
+      "source": "cognition",
+      "thin": false,
+      "preview": "MenuClose\nCorridor is Joining Cognition\nBy Corridor Co-founders Jack Cable and Ashwin Ramaswami2026.10.28\nToday, Corridor is joining Cognition, where we’ll be taking Devin Security to the next level.\nWe started Corridor almost two years ago with the mission of accelerating secure and autonomous software development. Since then, Corridor has become the security layer for AI-native teams, and we’ve ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "date": "2026-10-26",
+      "link": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+      "source": "meta-engineering",
+      "thin": false,
+      "preview": "POSTED ON OCTOBER 26, 2026 TO Data Center Engineering, Data Infrastructure, DevInfra, ML Applications, Networking & Traffic, Open Source\nMeta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks\nBy Ravindra Sunkad, Omar Baldonado\nAt the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly ",
+      "lane": "tech"
+    },
+    {
+      "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+      "date": "2026-10-27",
+      "link": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+      "source": "meta-engineering",
+      "thin": false,
+      "preview": "POSTED ON OCTOBER 27, 2026 TO Culture, DevInfra\nPython Typing Survey 2026: AI Tools and the Shifting Checker Landscape\nThe 2026 Python Typing Survey received 1,794 responses.\nType hint use changed little across three years, but checker selection changed sharply.\nAmong respondents who reported which checkers they use, half selected more than one, and missing library type information was the most co",
+      "lane": "tech"
+    },
+    {
+      "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+      "date": "2026-10-27",
+      "link": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+      "source": "meta-engineering",
+      "thin": false,
+      "preview": "POSTED ON OCTOBER 27, 2026 TO AI Research, ML Applications, Security & Privacy\nPrivacyLib: Privacy Controls at the Data Access Boundary\nBy Sai Nagabhairava, Hannes Roth, Na Chen, Peter Prelich, Jonathan Bergeron\nThis latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib.\nA privacy requirement must hold as data moves through Meta’s diverse data and processing sy",
+      "lane": "tech"
+    },
+    {
+      "title": "Your next sales teammate should be a Grok Bot",
+      "date": "2026-10-27",
+      "link": "https://x.ai/news/grok-bot-sales",
+      "source": "xai-news",
+      "thin": false,
+      "preview": "Your next sales teammate should be a Grok Bot | SpaceXSI\nBack to newsOct 27, 2026\nYour next sales teammate should be a Grok Bot\nBy Iris Wang, Joe Robertson, Micheal Sihavong, and Palmi Angelova\nThe SpaceXSI Sales team built Team Bots for prospecting, quoting, and deal review so every rep works from the same up-to-date expertise.\nDownload for macOSContact sales\nWhen the SpaceXSI Sales team first ad",
+      "lane": "product"
+    }
+  ]
+}

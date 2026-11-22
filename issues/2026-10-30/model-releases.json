@@ -1,14 +1,134 @@
 {
-  "skipped": true,
-  "ok": false,
-  "fetched_at": "2026-11-22T13:58:14+08:00",
+  "issue": "2026-10-30",
+  "section": "模型发布",
+  "backfilled_at": "2026-11-22T09:07:48+00:00",
+  "skipped": false,
+  "ok": true,
   "window": {
     "since": "2026-10-23",
-    "until": "2026-10-29"
+    "until": "2026-10-29",
+    "timezone": "UTC"
   },
-  "reason": "没有该期的历史价格、速度和智力指数。2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。 OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
-  "models": [],
-  "price_rank": null,
-  "speed_rank": null,
-  "coding_index_published": false
+  "selection": "只收该期 feeds 里、日期在窗口内、由厂商自己发布的新模型或新版本。客户案例、转载可用性和评测不收。价格只摘公告原文。端点速度和智力指数名次没有历史测量，留空。",
+  "models": [
+    {
+      "name": "GPT-6.1 Terra",
+      "release_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "release_date": "2026-10-26",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": 1,
+        "output": 5,
+        "cache_read": 0.05,
+        "unit": "USD per million tokens",
+        "currency_original": "USD",
+        "source": "release_article",
+        "source_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+        "source_quote": "Standard API pricing is $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens.",
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "release_url": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+      "release_date": "2026-10-23",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": 13,
+        "output": 68,
+        "cache_read": 1.3,
+        "unit": "CNY per million tokens",
+        "currency_original": "CNY",
+        "source": "release_article",
+        "source_url": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+        "source_quote": "价格为每百万 Token 输入：1.3 元（命中缓存）和 13 元（未命中缓存），输出 68 元。",
+        "variant_note": "高速版 kimi-k3.1-pro-highspeed，公告写输出速度约 2～3 倍、价格 2 倍。上面的数字是标准版。",
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "blended_input_plus_3_output_over_4",
+        "rank_source": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    },
+    {
+      "name": "MiniMax M3.1 Flash（开源）",
+      "release_url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+      "release_date": "2026-10-23",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": null,
+        "output": null,
+        "source": null,
+        "source_url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+        "missing_reason": "这是 2026-10-19 已发布模型的开源公告，这篇没有重写 token 单价。单价见上一期 MiniMax M3.1 Flash。",
+        "rank": null,
+        "rank_of": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    }
+  ],
+  "price_rank": {
+    "status": "not_ranked",
+    "reason": "价格排名要用该期 Artificial Analysis 快照里既有智力指数又有标价的模型做分母。这三期没有历史 AA 快照。免费档当前目录不能拿来排名。"
+  },
+  "speed_rank": {
+    "status": "not_ranked",
+    "reason": "速度排名要用该期官方端点目录的 latency p50。openrouter-official-endpoints.json 仍是 skipped。本环境没有 OPENROUTER_API_KEY。"
+  },
+  "scope_note": "models 里没有的名字，不代表那周没有别的发布。"
 }
