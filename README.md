@@ -5,19 +5,32 @@ AI Coding 资讯周报（[VirusPC/edges-brain-viruspc](https://github.com/VirusP
 ## 目录约定
 
 ```
-issues/YYYY-MM-DD/          # 生成日 D，与周报文件名同日
-  feeds.json                # fetch_feeds.py --out 全文，不截断
-  feeds.index.json          # 选文索引：标题、链接、来源、thin、开头约 400 字
-  llm-arena.json            # fetch_llm_arena.py 当期快照
-  aa-language-models.json   # Artificial Analysis（有密钥时）
-  github-trending.json      # 从 feeds.json 抽出的 Trending all 全文；名次以 XML 原始顺序为准，按标题重排后的数组顺序不是名次
-  openrouter-rankings-daily.json       # OpenRouter 日用量（含上一周，CC BY 4.0）
-  openrouter-rankings-programming.json # 编程分类，按周抽样
-  openrouter-app-rankings.json         # 应用排行（周报正文用）
-  openrouter-app-rankings-coding.json  # 编程类应用排行旁路快照
-  manifest.json             # 覆盖窗口、生成时间、脚本 commit、各文件来源与条数
+issues/YYYY-MM-DD/
+  feeds.json
+  feeds.index.json
+  github-trending.json
+  aa-language-models.json
+  llm-arena-<榜单发布日>.json
+  openrouter-rankings-daily.json
+  openrouter-rankings-programming.json
+  openrouter-app-rankings.json
+  openrouter-app-rankings-coding.json
+  openrouter-official-endpoints.json
+  model-releases.json
+  keywords.json
+  manifest.json
+  user-backfill.json          # 仅当用户给了补录清单
+  products/                   # 新跑才写；现有期次没有，本次不回填
+    selection.json
+    summaries.json
+    boards.json
+    page.json
 ```
 
+- 已有的原文、索引、trending、榜单、端点、model-releases、keywords、manifest 仍放在期次目录根上，不搬进 products/，也不在 products/ 里再复制一份。
+- products/ 只放后续节点的表：选文 selection.json、总结 summaries.json、榜图说明 boards.json、最终页面 page.json。每张表记录上游文件的路径和 sha256，以及规则的 commit 与路径。字段以脑仓 `skills/managed/weekly-ai-blogs-digest/references/产物.md` 为准。
+- 现有期次没有 products/。本次不生成、不从旧周报反推。
+- user-backfill.json 只在用户给了补录时出现，不进 feeds、索引和 keywords。
 - `feeds.json` 只存 feed 给出的正文。不足 280 字记为 `thin`，不另开文章页补全文。
 - 每期一个目录，只增不改；更正放新提交并在 manifest 记录。
 - 不存密钥；Artificial Analysis 只存公开字段。OpenRouter 快照是 Data API 导出（CC BY 4.0），同样不落密钥。
