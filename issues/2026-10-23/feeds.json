@@ -3305,7 +3305,7 @@
       "lane": "product",
       "feed_summary": "2026-10-20 · 10 min read ",
       "summary_source": "article_page",
-      "article_retrieved_at": "2026-11-22T12:40:00+00:00"
+      "article_retrieved_at": "2026-11-22T12:24:45.525244701+00:00"
     }
   ],
   "compare": {
@@ -3906,7 +3906,7 @@
     "rejected_extras": [],
     "note": "只在文章页返回了长于 feed 摘要的正文时替换 summary。原 feed 摘要留在 feed_summary。打不开或短于 280 字的不改。x.com 没有请求。",
     "targetedArchiveBackfill": {
-      "retrievedAt": "2026-11-22T12:40:00+00:00",
+      "retrievedAt": "2026-11-22T12:24:45.525244701+00:00",
       "added": [
         {
           "date": "2026-10-20",
@@ -3959,7 +3959,8 @@
           "reason": "no-wayback"
         }
       ],
-      "note": "只补旧精选里快照没有、且官方页署名日期落在 2026-10-16～10-22 的 Qoder Fast Tier。qoder.com/blog/qoder-fasttech 会 301 到这篇。八篇微信没有 Wayback 捕获，不编正文。LangChain 三篇现场页今天仍在改，署名和历史对照日期冲突，不入库。不改已有条目、关键词和榜单。"
+      "note": "只补旧精选里快照没有、且官方页署名日期落在 2026-10-16～10-22 的 Qoder Fast Tier。qoder.com/blog/qoder-fasttech 会 301 到这篇。八篇微信没有 Wayback 捕获，不编正文。LangChain 三篇现场页今天仍在改，署名和历史对照日期冲突，不入库。不改已有条目、关键词和榜单。",
+      "retrievedAtSource": "这个时间是抓取后落盘的 /tmp/recovered/qoder.txt 的 mtime（UTC）。不是事后填写的钟点。先前写成 2026-11-22T12:40:00+00:00，晚于提交 2026-11-22T12:29:48Z，已改掉。"
     }
   }
 }
