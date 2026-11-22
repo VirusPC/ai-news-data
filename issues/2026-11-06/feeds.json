@@ -3314,6 +3314,26 @@
       }
     ],
     "rejected_extras": [],
-    "note": "只在文章页返回了长于 feed 摘要的正文时替换 summary。原 feed 摘要留在 feed_summary。打不开或短于 280 字的不改。x.com 没有请求。"
+    "note": "只在文章页返回了长于 feed 摘要的正文时替换 summary。原 feed 摘要留在 feed_summary。打不开或短于 280 字的不改。x.com 没有请求。",
+    "wechatGapAudit": [
+      {
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512318&idx=1&sn=9969e18a672d01b5c803a20991f2846e",
+        "result": "still-missing-full-text",
+        "checked_urls": [
+          "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml"
+        ],
+        "boundary": "这两份阿里 RSS 没有这条 sn。公开检索只有短新闻，没有可核对的微信全文，不编。"
+      },
+      {
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512313&idx=1&sn=d8564332f58af0201a766cc017da8529",
+        "result": "still-missing-full-text",
+        "checked_urls": [
+          "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml"
+        ],
+        "boundary": "这两份阿里 RSS 没有这条 sn。公开检索只有分数简讯，没有可核对的微信全文，不编。"
+      }
+    ]
   }
 }
