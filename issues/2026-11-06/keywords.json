@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "issue": "2026-11-06",
+  "window": {
+    "since": "2026-10-30",
+    "until": "2026-11-05"
+  },
+  "snapshot": {
+    "repo": "VirusPC/ai-news-data",
+    "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+    "ref": "cursor/backfill-three-weeks-0757"
+  },
+  "prior": [
+    {
+      "issue": "2026-10-23",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-10-30",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    }
+  ],
+  "corpus": {
+    "entries": 109,
+    "excluded_sources": [
+      "linux-do-welfare"
+    ],
+    "text": "同一 link 取 feeds.json 与 feeds-full.json 里更长的 summary；date 须落在 window 内"
+  },
+  "gaps": [
+    "没有该期的历史价格、速度和智力指数。2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysi…"
+  ],
+  "omitted": [],
+  "words": [
+    {
+      "word": "SWE-2 Flash",
+      "kind": "model",
+      "score": 5,
+      "mentions": 3,
+      "sources": 1,
+      "weight": 4.2,
+      "hosts": [
+        "x.com"
+      ],
+      "example": "Introducing SWE-2 Flash, our new fast & efficient coding model. On leading evals, it outperform..."
+    },
+    {
+      "word": "Gemini Omni 1.2 Flash",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "blog.google"
+      ],
+      "example": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+    },
+    {
+      "word": "GPT-6 Cyber",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "coderabbit.ai"
+      ],
+      "example": "GPT-6 Cyber Security Evaluation: CodeRabbit’s Results"
+    },
+    {
+      "word": "Hy4",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "腾讯混元发布 Hy4，首次成为最强开源模型之一"
+    },
+    {
+      "word": "Images 2.6",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "openai.com"
+      ],
+      "example": "Introducing Images 2.6"
+    },
+    {
+      "word": "LongCat-2.5",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "tech.meituan.com"
+      ],
+      "example": "美团正式发布 LongCat-2.5：面向智能体任务的原生多模态模型"
+    },
+    {
+      "word": "Step 5 Preview",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "阶跃Step 5 Preview上线Qoder CN全家桶！"
+    },
+    {
+      "word": "Devin Review 2.0",
+      "kind": "product",
+      "score": 4,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 3.5,
+      "hosts": [
+        "devin.ai",
+        "x.com"
+      ],
+      "example": "Devin Review 2.0"
+    },
+    {
+      "word": "Deep Agents",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.9,
+      "hosts": [
+        "www.langchain.com",
+        "huggingface.co"
+      ],
+      "example": "Managed Deep Agents: the fastest way to ship a production deep agent"
+    }
+  ]
+}
