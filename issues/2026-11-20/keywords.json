@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "issue": "2026-11-20",
+  "window": {
+    "since": "2026-11-13",
+    "until": "2026-11-19"
+  },
+  "snapshot": {
+    "repo": "VirusPC/ai-news-data",
+    "commit": "5e2e06f851fc5317cd3cb845fbec2eb920bbde59",
+    "ref": "main"
+  },
+  "prior": [
+    {
+      "issue": "2026-10-23",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-10-30",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-11-06",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-11-13",
+      "commit": "5e2e06f851fc5317cd3cb845fbec2eb920bbde59",
+      "ref": "main"
+    }
+  ],
+  "corpus": {
+    "entries": 169,
+    "excluded_sources": [
+      "linux-do-welfare"
+    ],
+    "text": "同一 link 取 feeds.json 与 feeds-full.json 里更长的 summary；date 须落在 window 内"
+  },
+  "gaps": [],
+  "omitted": [],
+  "words": [
+    {
+      "word": "Gemini 4 Neon",
+      "kind": "model",
+      "score": 5,
+      "mentions": 3,
+      "sources": 3,
+      "weight": 4.7,
+      "hosts": [
+        "x.com",
+        "antigravity.google",
+        "devin.ai"
+      ],
+      "example": "We’ve evaluated Gemini 4 Neon on FrontierCode 2.0, our benchmark that measures whether you should me..."
+    },
+    {
+      "word": "Devin Bots",
+      "kind": "product",
+      "score": 4,
+      "mentions": 7,
+      "sources": 2,
+      "weight": 4.1,
+      "hosts": [
+        "x.com",
+        "devin.ai"
+      ],
+      "example": "Go for a walk, and let Devin Bots cook. That's how Adriano @ExaAILabs spends the time he's not watc..."
+    },
+    {
+      "word": "Devin Apps",
+      "kind": "product",
+      "score": 4,
+      "mentions": 4,
+      "sources": 2,
+      "weight": 4.1,
+      "hosts": [
+        "x.com",
+        "devin.ai"
+      ],
+      "example": "Devin Apps can be used to extend and customize Devin itself. Read more about how to create, share,..."
+    },
+    {
+      "word": "GPT-6.2 Astra",
+      "kind": "model",
+      "score": 5,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 4.1,
+      "hosts": [
+        "coderabbit.ai",
+        "openai.com"
+      ],
+      "example": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+      "word": "GPT-6.2 Sol",
+      "kind": "model",
+      "score": 5,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 4.1,
+      "hosts": [
+        "coderabbit.ai",
+        "openai.com"
+      ],
+      "example": "GPT-6.2 Sol and Astra review: should you switch?"
+    },
+    {
+      "word": "Rumble-2-Flash",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
+    },
+    {
+      "word": "always-on agents",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 3,
+      "sources": 3,
+      "weight": 3.5,
+      "hosts": [
+        "coderabbit.ai",
+        "www.langchain.com",
+        "claude.com"
+      ],
+      "example": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents"
+    },
+    {
+      "word": "software factory",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 3,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "www.warp.dev"
+      ],
+      "example": "Introducing Warp Learn: Build your first software factory"
+    },
+    {
+      "word": "ChatGPT Wallet",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "openai.com"
+      ],
+      "example": "Introducing ChatGPT Wallet"
+    },
+    {
+      "word": "CodeRabbit Verify",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "coderabbit.ai"
+      ],
+      "example": "Introducing CodeRabbit Verify: Agentic application testing and AI quality assurance"
+    },
+    {
+      "word": "Data Annotation Queues",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "www.langchain.com"
+      ],
+      "example": "Announcing Data Annotation Queues"
+    },
+    {
+      "word": "LoopForge",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "登上GitHub Trending｜腾讯开源 LoopForge"
+    },
+    {
+      "word": "Warp Learn",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "www.warp.dev"
+      ],
+      "example": "Introducing Warp Learn: Build your first software factory"
+    }
+  ]
+}

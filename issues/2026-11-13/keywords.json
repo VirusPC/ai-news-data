@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "issue": "2026-11-13",
+  "window": {
+    "since": "2026-11-06",
+    "until": "2026-11-12"
+  },
+  "snapshot": {
+    "repo": "VirusPC/ai-news-data",
+    "commit": "5e2e06f851fc5317cd3cb845fbec2eb920bbde59",
+    "ref": "main"
+  },
+  "prior": [
+    {
+      "issue": "2026-10-23",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-10-30",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    },
+    {
+      "issue": "2026-11-06",
+      "commit": "dbb90b8fdc48ef7b0c273a3af4b5585fe19db06e",
+      "ref": "cursor/backfill-three-weeks-0757"
+    }
+  ],
+  "corpus": {
+    "entries": 196,
+    "excluded_sources": [
+      "linux-do-welfare"
+    ],
+    "text": "同一 link 取 feeds.json 与 feeds-full.json 里更长的 summary；date 须落在 window 内"
+  },
+  "gaps": [
+    "没有 model-releases.json"
+  ],
+  "omitted": [],
+  "words": [
+    {
+      "word": "Claude Fable 5.2",
+      "kind": "model",
+      "score": 5,
+      "mentions": 8,
+      "sources": 6,
+      "weight": 5,
+      "hosts": [
+        "ampcode.com",
+        "code.claude.com",
+        "devin.ai",
+        "x.com",
+        "www.anthropic.com",
+        "claude.dev"
+      ],
+      "example": "Claude Fable 5.2 is now available in Devin"
+    },
+    {
+      "word": "Gemini 4 Hydrogen",
+      "kind": "model",
+      "score": 5,
+      "mentions": 4,
+      "sources": 4,
+      "weight": 5,
+      "hosts": [
+        "antigravity.google",
+        "x.com",
+        "blog.google",
+        "devin.ai"
+      ],
+      "example": "Gemini 4 Hydrogen and Orchestrator"
+    },
+    {
+      "word": "Claude Mythos 5.2",
+      "kind": "model",
+      "score": 5,
+      "mentions": 3,
+      "sources": 3,
+      "weight": 4.7,
+      "hosts": [
+        "devin.ai",
+        "x.com",
+        "www.anthropic.com"
+      ],
+      "example": "Claude Mythos 5.2 is now available in Devin Security"
+    },
+    {
+      "word": "Qwen4-Max",
+      "kind": "model",
+      "score": 5,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 4.1,
+      "hosts": [
+        "x.com",
+        "mp.weixin.qq.com"
+      ],
+      "example": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布"
+    },
+    {
+      "word": "Agent Memory",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 4,
+      "sources": 4,
+      "weight": 3.8,
+      "hosts": [
+        "mp.weixin.qq.com",
+        "aws.amazon.com",
+        "www.langchain.com",
+        "www.anthropic.com"
+      ],
+      "example": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval"
+    },
+    {
+      "word": "MiniMax H3-Image",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3.6,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代"
+    },
+    {
+      "word": "Deep Agents",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 8,
+      "sources": 1,
+      "weight": 3.3,
+      "hosts": [
+        "www.langchain.com"
+      ],
+      "example": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context"
+    },
+    {
+      "word": "Claude Data",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "claude.com"
+      ],
+      "example": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data"
+    },
+    {
+      "word": "Claude Meetings",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "claude.com"
+      ],
+      "example": "Introducing Claude Meetings"
+    },
+    {
+      "word": "Claude Sheets",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "claude.com"
+      ],
+      "example": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data"
+    },
+    {
+      "word": "Claude Whiteboards",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "claude.com"
+      ],
+      "example": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data"
+    },
+    {
+      "word": "Qwen Code 1.0 Preview",
+      "kind": "product",
+      "score": 4,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 3,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布"
+    },
+    {
+      "word": "Context Engineering",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 2,
+      "sources": 1,
+      "weight": 2.7,
+      "hosts": [
+        "www.langchain.com"
+      ],
+      "example": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval"
+    }
+  ]
+}
