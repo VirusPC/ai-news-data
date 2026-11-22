@@ -31,12 +31,12 @@
       "errors": 0,
       "items_before_trending_removal": 125,
       "trending_removed": 35,
-      "items": 89,
-      "thin": 65,
+      "items": 120,
+      "thin": 96,
       "included_entries_before_dedupe": 135,
       "deduped": 10,
       "date_conflicts": 0,
-      "bytes": 184080,
+      "bytes": 199068,
       "truncated_sources": [
         {
           "id": "claude-code-changelog",
@@ -212,12 +212,23 @@
       "xai_removed_unverified_date": 1,
       "xai_kept": [],
       "xai_date_note": "0xSMW 的 xAI 日期不可靠。2026-11-22 请求 https://x.ai/sitemap.xml 得到 HTTP 403，不能逐条复核 lastmod。同一 pubDate 2026-10-20 上有 44 条，含 Announcing Grok、Series C 这类更早的稿，不能整批算进 2026-10-16～10-22。只保留 incident-sweep：2026-11-20 快照已记下 sitemap lastmod 2026-10-20，和现在的 feed 日期一致。grok-bot-1-0 的 feed 日期是 2026-11-02，同一份快照记下的 sitemap lastmod 是 2026-11-11，不在 2026-10-30～11-05。其余 xAI 条目没有可核验日期，从这三期窗口移除，正文没有改写。",
-      "truncated_sources_note": "这是脚本的 truncated 标记：该源当前 feed 里最旧一条的日期不早于窗口起点，窗口前段或整段可能已经不在 feed 里。不是把正文截断。"
+      "truncated_sources_note": "这是脚本的 truncated 标记：该源当前 feed 里最旧一条的日期不早于窗口起点，窗口前段或整段可能已经不在 feed 里。不是把正文截断。",
+      "archive_supplement": {
+        "retrievedAt": "2026-11-22T14:12:59+08:00",
+        "added": 31,
+        "bySource": {
+          "xai-news": 1,
+          "aws-ml": 16,
+          "huggingface": 13,
+          "meta-ai-research": 1
+        },
+        "note": "列表或 sitemap 存档只提供标题、链接和日期。summary 为空表示没有 feed 正文。xAI 正文来自 feed，日期来自 2026-11-11 的 sitemap 捕获。"
+      }
     },
     "feeds.index.json": {
       "description": "由去掉 Trending 之后的 feeds.json 用脚本的 index_from_payload 生成。",
-      "items": 89,
-      "bytes": 41511
+      "items": 120,
+      "bytes": 49743
     },
     "github-trending.json": {
       "absent": true,
@@ -288,5 +299,14 @@
       "split": "full",
       "fetched_at": "2026-11-22T13:58:14+08:00"
     }
+  },
+  "supplemented_at": "2026-11-22T14:12:59+08:00",
+  "checked_and_empty": {
+    "glm_research_list": "2026-11-22 https://www.zhipuai.cn/zh/research HTTP 200，页面无 2026-10 或 2026-11 日期",
+    "meta_old_blog_list": "2026-11-22 https://ai.meta.com/blog/ HTTP 200，页面无 2026-10 或 2026-11",
+    "openrouter": "2026-11-22 GET /api/v1/datasets/rankings-daily 无密钥返回 HTTP 401 No cookie auth credentials found",
+    "artificial_analysis": "2026-11-22 GET /api/v2/language/models/free 无密钥返回 HTTP 401 API key is required",
+    "github_trending_weekly_xml": "Wayback CDX 2026-10-20～11-08 对 weekly/all.xml 返回空数组",
+    "aws_paged_feed": "2026-11-22 feed 与 ?paged=2/5/8 字节数相同，都是最近约 20 条"
   }
 }
