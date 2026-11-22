@@ -264,5 +264,11 @@
       "total_requests": 5795147
     }
   ],
-  "ok": true
+  "ok": true,
+  "provenance": {
+    "label": "app-rankings 按该期 UTC 7 日窗口请求的前 15",
+    "not_the_public_chart": "不是公开页当前 This Week 的应用图。公开页没有自定义历史榜表或下载。",
+    "request": "GET /api/v1/datasets/app-rankings?sort=popular&start_date&end_date&limit=15",
+    "truncation": "脚本传入 limit=15，保存的是接口按该窗口返回的前 15，不是每日 Top50 再聚合。"
+  }
 }

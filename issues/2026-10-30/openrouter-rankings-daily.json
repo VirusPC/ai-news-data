@@ -3845,5 +3845,15 @@
   ],
   "missing_dates": [],
   "prior_missing_dates": [],
-  "ok": true
+  "ok": true,
+  "provenance": {
+    "label": "官方每日 Top50 历史数据聚合",
+    "not_a_full_weekly_board": "不是官网自定义历史周榜，也不是公开页历史图里的周一桶 Top9+Others。",
+    "public_page": "公开榜只有 Today / This Week / This Month 三个滚动窗。历史图按周一桶，只显示 Top9+Others。页面没有自定义历史榜表，也没有下载。",
+    "api": "GET /api/v1/datasets/rankings-daily?period=day",
+    "official_row_limit": "文档规定每天最多 50 个公开模型，再加一行 other。本文件 data 每天 51 行，原样留着。",
+    "other_handling": "脚本把 model_permaslug=other 排除后再求和。excluded 为 [\"other\"]。",
+    "items_limit": "默认 --limit 15。items 是窗口内各日 Top50（不含 other）的 token 相加后的前 15。每天都在 Top50 之外的用量只在 other 里，进不了这 15 名。不能把 items 说成无损的完整 7 日榜。",
+    "docs": "https://openrouter.ai/docs/cookbook/administration/data-api"
+  }
 }

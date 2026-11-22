@@ -268,7 +268,7 @@
       "historical_as_of": false
     },
     "openrouter-rankings-daily.json": {
-      "description": "OpenRouter Data API 全品类日用量。行上的 date 落在该期 UTC 窗口和上一周。采集时间是 2026-11-22T14:25+08:00，不是生成日当天。",
+      "description": "官方每日 Top50 历史数据聚合。默认 --limit 15。items 是窗口内各日 Top50（不含 other）的 token 相加后的前 15。每天都在 Top50 之外的用量只在 other 里，进不了这 15 名。不能把 items 说成无损的完整 7 日榜。",
       "ok": true,
       "skipped": false,
       "license": "CC BY 4.0",
@@ -284,10 +284,13 @@
       "missing_dates": [],
       "prior_missing_dates": [],
       "rows": 714,
-      "items": 15
+      "items": 15,
+      "official_row_limit": "每天 Top 50 + other",
+      "other_excluded_from_items": true,
+      "items_are_not_a_complete_weekly_board": true
     },
     "openrouter-rankings-programming.json": {
-      "description": "编程分类按周抽样。bucket 是窗口结束日之前最近一个已结束的周一至周日，不等于资讯的 7 日窗口。",
+      "description": "rankings-daily 的 category=programming、period=week 采样周。不是公开页 Programming 按编程语言（例如 Python）画的用量图。",
       "ok": true,
       "skipped": false,
       "license": "CC BY 4.0",
@@ -306,10 +309,11 @@
       },
       "bucket_date": "2026-10-19",
       "items": 15,
-      "not_the_news_window": true
+      "not_the_news_window": true,
+      "not_the_language_chart": true
     },
     "openrouter-app-rankings.json": {
-      "description": "应用排行，sort=popular，日期参数是该期 UTC 7 日窗口。",
+      "description": "app-rankings 按该期 UTC 7 日窗口请求的前 15。不是公开页当前 This Week 的应用图。公开页没有自定义历史榜表或下载。",
       "ok": true,
       "skipped": false,
       "license": "CC BY 4.0",
@@ -321,7 +325,7 @@
       "items": 15
     },
     "openrouter-app-rankings-coding.json": {
-      "description": "编程类应用排行旁路。日期参数是该期 UTC 7 日窗口。",
+      "description": "编程类应用。app-rankings 按该期 UTC 7 日窗口请求的前 15。不是公开页当前 This Week 的应用图。公开页没有自定义历史榜表或下载。",
       "ok": true,
       "skipped": false,
       "license": "CC BY 4.0",

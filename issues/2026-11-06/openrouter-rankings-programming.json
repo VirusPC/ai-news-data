@@ -1327,5 +1327,14 @@
       "model_permaslug": "anthropic/claude-haiku-5.5-20261007"
     }
   ],
-  "ok": true
+  "ok": true,
+  "provenance": {
+    "label": "rankings-daily 的 category=programming、period=week 采样周",
+    "not_the_language_chart": "不是公开页 Programming 按编程语言（例如 Python）画的用量图。",
+    "sampled": true,
+    "quality_ranking": false,
+    "semantics": "date 是周一。脚本选取周日不晚于资讯窗口结束日、且已经结束的最近一个周一至周日。window 是这个采样周，coverage_window 才是资讯 7 日，两者不同。",
+    "rows": "data 里每个周一也是 50 个模型加一行 other。items 丢掉 other 后再截 15，只取被选中的那一个周一。",
+    "docs_note": "rankings-daily 文档正文写的是每日 Top50+other。本文件另记脚本实际请求的 period=week 与 category=programming。"
+  }
 }
