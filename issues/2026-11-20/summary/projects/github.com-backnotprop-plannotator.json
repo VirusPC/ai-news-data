@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/backnotprop/plannotator",
+  "source": "cleaned/projects/github.com-backnotprop-plannotator.json",
+  "purpose": "backnotprop/plannotator",
+  "change": "见本期正文。",
+  "text": "#### [backnotprop/plannotator](https://github.com/backnotprop/plannotator)\n\n跟上 Agent 的工作区：整理计划、批注、审代码，和团队共享，再把<mark>反馈一键发回 Agent</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人和多个 Agent 一起干活时，决定、计划、原型和改动散在各处，审完也不容易把意见送回正在跑的那一个。</p>\n<p><strong>如何解决：</strong>它是本地浏览器里的审阅面，用插件、钩子和命令接上编码 Agent。Agent 给出决定、计划、HTML 或做完一轮，页面打开，人批注计划、规格和消息，或在 diff 和 PR 上评论，再把反馈发回。Inbox 把消息、问题和文件收在一个本地窗口，回复回到提问的那个会话，审的时候不必一直占着会话。代码评审覆盖本地改动和远端 PR，也提到 Git、GitButler、Jujutsu、Perforce、GitHub 和 GitLab。</p>\n<p><strong>效果怎样：</strong>仓库说明没有另报一组使用量。它把批注和评论送回提出那件事的 Agent。</p>\n<p><strong>洞察与启发：</strong>审的时候若占着正在跑的会话，人就只能盯着一个 Agent。本地窗口把批注送回去，回复回到提问的那个会话，Agent 不必等人一直开着它。</p>\n<p><strong>相关工作：</strong>同期的 OpenCodeReview 也在按行写代码评论，这里多了计划和产物的批注。Claude Code 那篇说没有验证闭环时人只能看着一两个 Agent，这是把人的标记送回去的那一层。</p>\n</details>\n\n"
+}

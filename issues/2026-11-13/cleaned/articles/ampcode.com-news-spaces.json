@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/spaces",
+  "title": "Spaces",
+  "date": "2026-11-06",
+  "source": "raw/articles/feeds.json",
+  "text": "Today we're launching spaces, a new way to interact with agents and your team in Amp. A space is a conversation with a single agent whose job is to spawn and coordinate agents for you. You no longer have to create and organize threads yourself; the agent in a space will do it for you. It's a new, higher-level way to work with many agents. After using spaces for the past few weeks, we think this might be the future of interacting with agents. There's something special about this way of working. You operate with a bird's-eye view but can still dive into the weeds when necessary. It's more like sitting in the captain's chair than down in the trenches. We also found that we naturally moved into the space to communicate with each other. Instead of Slack, we found ourselves taking video calls and discussions into the space. Here are some examples of how we've been using spaces at Amp. Collaborate on a New Feature Spaces were built in a space. Tim, Lewis, Nicolay and the rest of the team shared one called \"Spaces v1\", dropped feedback, bugs and new ideas into the chat, and the agent delegated them into threads. When they needed to talk, they used comments to chat and then tagged in Amp…"
+}

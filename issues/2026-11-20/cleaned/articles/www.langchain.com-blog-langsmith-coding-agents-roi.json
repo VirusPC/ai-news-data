@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+  "title": "LangSmith for Coding Agents: Now track spend by outcome",
+  "date": "2026-11-18",
+  "source": "raw/articles/feeds.json",
+  "text": "LangSmith now offers reporting built for coding agents, along with new capabilities that tie their spend to the pull requests they produce."
+}

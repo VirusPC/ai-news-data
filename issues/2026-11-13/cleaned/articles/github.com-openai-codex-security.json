@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/openai/codex-security",
+  "title": "openai/codex-security",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security https://developers.openai.com/codex/security Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK. In Codex: choose a security workflow. In a terminal: install the CLI and scan your repository. In automation: use the TypeScript SDK or GitHub Action. Features Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft SECURITY.md policies and save threat models for later review. Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from source and Git history. Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud. Scanner import guides. Track findings in Linear, Jira, or GitHub, publish completed scans, or export…"
+}

@@ -1,0 +1,32 @@
+name: Validate issues
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data
+        uses: actions/checkout@v4
+      - name: Checkout skill
+        uses: actions/checkout@v4
+        with:
+          repository: VirusPC/edges-brain-viruspc
+          # Skill schema for this migration. After that PR is on main, change this to main.
+          ref: d2eca4eb234f2402790e2e2412483cdc341b03c8
+          path: skill
+      - name: Validate each issue
+        run: |
+          set -euo pipefail
+          script=skill/skills/managed/weekly-ai-blogs-digest/scripts/summarize/check/validate.py
+          found=0
+          for dir in issues/*/; do
+            found=1
+            echo "==== ${dir%/}"
+            python3 "$script" "${dir%/}"
+          done
+          test "$found" = 1

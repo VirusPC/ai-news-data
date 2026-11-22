@@ -1,0 +1,10 @@
+{
+  "id": "https://www.warp.dev/blog/build-production-software-factory",
+  "source": "cleaned/articles/www.warp.dev-blog-build-production-software-factory.json",
+  "title": "Don’t vibe code your software factory",
+  "link": "https://www.warp.dev/blog/build-production-software-factory",
+  "sentence": "&lt;架构&gt;&lt;Warp&gt;  (https://www.warp.dev/blog/build-production-software-factory) 用一串提示把云 Agent 串起来，撑不起要审计、要测、要能改的工厂。 完整总结 解决什么问题： 看起来用提示就能搭起软件工厂，客户做完发现不能扩展。 如何解决： 要求工厂有韧性、可改、低",
+  "category": "架构",
+  "company": "Warp",
+  "text": "#### &lt;架构&gt;&lt;Warp&gt;[Don’t vibe code your software factory](https://www.warp.dev/blog/build-production-software-factory)\n\n用一串提示把云 Agent 串起来，撑不起要审计、要测、要能改的工厂。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>看起来用提示就能搭起软件工厂，客户做完发现不能扩展。</p>\n<p><strong>如何解决：</strong>要求工厂有韧性、可改、低延迟，接进现有工具，并且有配置、测量、审计和安全保证。</p>\n<p><strong>效果怎样：</strong>这是经验判断，没有一张对照表。</p>\n<p><strong>洞察与启发：</strong>工厂要按产品的生产标准来做，而不是按演示标准。</p>\n<p><strong>相关工作：</strong>上一期 Warp 把工厂定义成共享的 Agent 运行约定。这篇是在说这个约定不能靠感觉搭。</p>\n</details>\n\n"
+}

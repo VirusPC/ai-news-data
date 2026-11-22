@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/garrytan/gbrain",
+  "title": "garrytan/gbrain",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Garry's Opinionated OpenClaw/Hermes Agent Brain Give the agent you already use a memory you control. GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting. Tip Need hosted? First time running an agent? Try gbrain.io, hosted GBrain, for the easiest experience: one brain for you and your team, connected to ChatGPT, Claude and Cursor, with nothing to install or keep online. Stuck? Email support@gbrain.io and a person will set it up with you, free. Keep skills beside knowledge. New local brains include memory skills in their content root. Agents can join an authorized catalog; only approved editors can publish. Managed coding-agent installs add an owned native router; restart and real-use verification are separate steps. Staged migration preserves sharing choices and personal edits. See shared brain skills. Choose your setup Add GBrain to my existing agent — recommended. Keep your agent's…"
+}

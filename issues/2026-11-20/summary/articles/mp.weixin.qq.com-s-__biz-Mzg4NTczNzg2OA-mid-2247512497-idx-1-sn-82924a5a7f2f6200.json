@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512497-idx-1-sn-82924a5a7f2f6200.json",
+  "title": "基于本体的 AI 数据研发落地",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2",
+  "sentence": "&lt;实践&gt;&lt;阿里&gt;  (https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2) 本体给 AI 写 SQL 提供精确输入，避免 同名字段各说各话 。 完整总结 解决什么问题： 经营",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### &lt;实践&gt;&lt;阿里&gt;[基于本体的 AI 数据研发落地](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2)\n\n本体给 AI 写 SQL 提供精确输入，避免<mark>同名字段各说各话</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>经营分析要跨很多表。同名字段含义不同，口径多藏在历史 SQL 里。写出来的查询能跑，却可能是错数。</p>\n<p><strong>如何解决：</strong>从核心表和生产 SQL 抽出规则，按问题召回表、口径和值域。召回是确定的程序，用不用由模型判断。人确认后的修改写回本体。</p>\n<p><strong>效果怎样：</strong>文章写在他们的工单评测里，字段对齐变好，人转向审稿。这是这个经营分析场景的结果，不代表任意数仓。</p>\n<p><strong>洞察与启发：</strong>查询能跑，不代表数字是对的。同名字段的含义若还藏在历史 SQL 里，模型就只能猜用哪一个。</p>\n<p><strong>相关工作：</strong>闪购发布已确认的口径。这篇是消费端，用它来写 SQL。</p>\n</details>\n\n"
+}

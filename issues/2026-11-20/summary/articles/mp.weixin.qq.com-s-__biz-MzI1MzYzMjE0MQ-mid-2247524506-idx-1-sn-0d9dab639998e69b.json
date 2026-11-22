@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzI1MzYzMjE0MQ-mid-2247524506-idx-1-sn-0d9dab639998e69b.json",
+  "title": "把 80+ 项音视频能力装进 Claude Code 后，我合上了 FFmpeg 手册",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+  "sentence": "&lt;架构&gt;&lt;火山引擎&gt;  (https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652) 在 Claude Code 里用 skill 调音视频能力 ，文中实测不代表通用表现。 完整总",
+  "category": "架构",
+  "company": "火山引擎",
+  "text": "#### &lt;架构&gt;&lt;火山引擎&gt;[把 80+ 项音视频能力装进 Claude Code 后，我合上了 FFmpeg 手册](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652)\n\n在 Claude Code 里用 skill <mark>调音视频能力</mark>，文中实测不代表通用表现。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>拼接、增强、擦字幕、拆条，查手册太重，在线工具又难批量。缺的是能听懂一句话的音视频执行层。</p>\n<p><strong>如何解决：</strong>原子能力收成命令行，再包成若干 skill。同一套参数，本地走本机处理，云端走异步任务。密钥从环境变量读。</p>\n<p><strong>效果怎样：</strong>作者在自己的素材上试了增强、擦字幕和高光。等待和花费都是这批素材的记录，不代表别的片子。</p>\n<p><strong>洞察与启发：</strong>手册和在线工具都接不住一句话。原子能力收成命令以后，缺密钥就该失败，不该悄悄改走另一条路。</p>\n<p><strong>相关工作：</strong>这篇把一类领域能力做成 skill。同期的本体文章解决的是该按哪条口径理解业务。</p>\n</details>\n\n"
+}

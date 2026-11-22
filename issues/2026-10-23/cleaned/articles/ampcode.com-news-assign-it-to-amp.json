@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/assign-it-to-amp",
+  "title": "Assign It To Amp",
+  "date": "2026-10-19",
+  "source": "raw/articles/feeds.json",
+  "text": "Amp is now an agent in Linear. Assigning an issue to Amp starts a new Agent Session in Linear and spawns a new orb. You can also mention @Amp to kick off a session. Amp sends its response back to the same session and replies to messages sent along the way. The Agent Session also appears in your Amp sidebar and is fully viewable in Amp. Assign Amp an issue in Linear. Follow its progress in the Agent Session. Then open the same conversation in Amp. To get started, install the Amp agent in your Linear workspace and connect your Amp account to the Linear MCP in Settings → MCP & Integrations. Read the docs to learn more."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "OpenRouter 应用用量",
+  "source": "raw/models/openrouter-app-rankings.json",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "Hermes Agent",
+      "value": 12.52
+    },
+    {
+      "name": "Claude Code",
+      "value": 9.86
+    },
+    {
+      "name": "OpenClaw",
+      "value": 5.16
+    },
+    {
+      "name": "Kilo Code",
+      "value": 4.83
+    },
+    {
+      "name": "pi",
+      "value": 4.06
+    },
+    {
+      "name": "Portkey AI",
+      "value": 3.35
+    },
+    {
+      "name": "Codex",
+      "value": 2.8
+    },
+    {
+      "name": "omp",
+      "value": 2.6
+    },
+    {
+      "name": "DeepSeek Harness",
+      "value": 2.13
+    },
+    {
+      "name": "Strix",
+      "value": 1.9
+    },
+    {
+      "name": "Freebuff",
+      "value": 0.9
+    },
+    {
+      "name": "Minds by Authentic Intelligence",
+      "value": 0.89
+    },
+    {
+      "name": "Cline",
+      "value": 0.87
+    },
+    {
+      "name": "OpenHands",
+      "value": 0.71
+    },
+    {
+      "name": "Proto Agent",
+      "value": 0.59
+    }
+  ]
+}

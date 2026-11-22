@@ -1,0 +1,10 @@
+{
+  "id": "https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform",
+  "source": "cleaned/articles/www.warp.dev-blog-warp-now-supports-linked-billing-with-claude-platform.json",
+  "title": "Warp now supports linked billing with Claude Platform",
+  "link": "https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform",
+  "sentence": "&lt;产品&gt;&lt;Warp&gt;  (https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform) 可以把 Claude 组织直接连到 Warp，用支持的 Claude 模型， 不用交出 API 密钥 。 订阅源里只有这些，所以没有写完整总结。",
+  "category": "产品",
+  "company": "Warp",
+  "text": "#### &lt;产品&gt;&lt;Warp&gt;[Warp now supports linked billing with Claude Platform](https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform)\n\n可以把 Claude 组织直接连到 Warp，用支持的 Claude 模型，<mark>不用交出 API 密钥</mark>。\n\n订阅源里只有这些，所以没有写完整总结。\n\n"
+}

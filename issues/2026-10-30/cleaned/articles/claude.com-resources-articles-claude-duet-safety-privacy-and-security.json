@@ -1,0 +1,7 @@
+{
+  "id": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+  "title": "Claude Duet Safety, Privacy, and Security",
+  "date": "2026-10-23",
+  "source": "raw/articles/feeds.json",
+  "text": "Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf."
+}

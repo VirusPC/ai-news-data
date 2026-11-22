@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+  "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
+  "date": "2026-11-10",
+  "source": "raw/articles/feeds.json",
+  "text": "See how Workday used LangGraph and LangSmith to build an internal AI agent platform that cut prototype time from months to less than a day and compliance needs."
+}

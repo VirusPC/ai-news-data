@@ -1,0 +1,42 @@
+{
+  "name": "MiniMax M3.1 Flash",
+  "release_url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489196&idx=1&sn=4c8b969db8bd136f47d7b1a7650790c4",
+  "release_date": "2026-10-19",
+  "date_source": "该期 feeds 的日期，并在公告页核对",
+  "price": {
+    "input": 1,
+    "output": 4,
+    "cache_read": 0.1,
+    "unit": "CNY per million tokens",
+    "currency_original": "CNY",
+    "source": "release_article",
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489196&idx=1&sn=4c8b969db8bd136f47d7b1a7650790c4",
+    "source_quote": "输入价格为每百万 Token 1 元，输出价格为每百万 Token 4 元，缓存读取价格为每百万 Token 0.1 元。",
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": null,
+    "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "source": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "这是公告里的厂商自称速度，不是 OpenRouter 官方端点 p50，没有写入 throughput_tps，也不能排名。2026-11-22 的现时速度没有写入。",
+    "announcement_claim": "日常使用场景下的输出速度可达 200+ TPS，中位数 (P50) 稳定达到 170+ TPS。",
+    "announcement_claim_source": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489196&idx=1&sn=4c8b969db8bd136f47d7b1a7650790c4"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+  },
+  "id": "MiniMax M3.1 Flash",
+  "source": "raw/models/model-releases.json"
+}

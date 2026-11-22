@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+  "title": "The Art of Loop Engineering",
+  "date": "2026-10-29",
+  "source": "raw/articles/feeds.json",
+  "text": "Agents automate real-world work, but reliable performance requires more than a good model, it requires a carefully designed harness built for specific tasks. This post explores the core agent loop, how stacking and extending loops builds more effective agents, and how to instrument each level with LangChain primitives."
+}

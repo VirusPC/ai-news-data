@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/shadcn/improve",
+  "title": "shadcn/improve",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Use your most capable model to audit your codebase and write plans for cheaper models to execute. improve An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. you → /improve (expensive model, advises) plans/ → 001-fix-n-plus-one.md (self-contained specs) other agent → implements, tests, ships (cheap model, executes) Install npx skills add shadcn/improve Works in any agent that supports Agent Skills format. The plans it writes are plain markdown, so any agent (or human) can pick them up. Usage /improve full audit → prioritized findings → plans /improve quick cheap pass: hotspots, top findings only /improve deep exhaustive: every package, every category /improve security focused audit (also: perf, tests, bugs, ...) /improve branch audit only what the current branch changes /improve next feature suggestions — where to take the project /improve plan <description> skip the audit,…"
+}

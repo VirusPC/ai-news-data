@@ -1,0 +1,7 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026",
+  "title": "ICYMI: What landed for AI builders in October 2026",
+  "date": "2026-11-11",
+  "source": "raw/articles/feeds.json",
+  "text": "At AWS, we believe AI builders should be able to choose the right model for every task, trust their agents in production, and see clearly what their AI workloads cost. That belief guides how we invest across our portfolio. Amazon Bedrock gives you access to leading models and the tools to build and scale AI applications securely. We extend this foundation with Amazon Bedrock AgentCore, which provides the platform to build, connect, and optimize agents using any model and any framework. That includes Strands, our open source agent development toolkit. Together, they take you from first prototype to production. As agents move into core business workflows, the bar rises. You need the flexibility to use different models as tasks, budgets, and latency targets change. When a primary model is throttled or unreachable, your agents must keep working. They also must act within limits you set and return output other software can use as is. Their answers must stay grounded in sources you allow, and their cost must hold up at high volume. What we shipped in October addresses each of these needs. New models help you match each task to the right price and speed, from high-volume subagents to…"
+}

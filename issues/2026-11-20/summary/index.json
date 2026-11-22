@@ -1,0 +1,344 @@
+{
+  "skill": "weekly-ai-blogs-digest",
+  "version": "0.2.0",
+  "data": {
+    "commit": "5e2e06f851fc5317cd3cb845fbec2eb920bbde59"
+  },
+  "blocks": [
+    {
+      "kind": "raw",
+      "text": "覆盖窗口：2026-11-13 00:00:00 至 2026-11-19 23:59:59（UTC；生成日 2026-11-20，不含当天）。\n\n<!-- provenance\n{\"rules\":null,\"routineCurrent\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"12133e826f9adad0d9677487a6c56ce7bcdfee42\",\"path\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"name\":\"weekly-ai-blogs-digest\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"5e2e06f851fc5317cd3cb845fbec2eb920bbde59\",\"path\":\"issues/2026-11-20\",\"kind\":\"tree\"}}\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 一、本周关键词\n\n<!-- keywords-cloud\n[\n  {\n    \"word\": \"常驻 Agent\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 3,\n    \"sources\": 3,\n    \"weight\": 4.2,\n    \"theme\": true,\n    \"evidence\": \"always-on agents\"\n  },\n  {\n    \"word\": \"Devin Bots\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 7,\n    \"sources\": 2,\n    \"weight\": 4.4\n  },\n  {\n    \"word\": \"Devin Apps\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 4,\n    \"sources\": 2,\n    \"weight\": 4.4\n  },\n  {\n    \"word\": \"Gemini 4 Neon\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 3,\n    \"sources\": 3,\n    \"weight\": 4.2\n  },\n  {\n    \"word\": \"software factory\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 3,\n    \"sources\": 1,\n    \"weight\": 3\n  },\n  {\n    \"word\": \"GPT-6.2 Astra\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8\n  },\n  {\n    \"word\": \"GPT-6.2 Sol\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8\n  },\n  {\n    \"word\": \"ChatGPT Wallet\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"CodeRabbit Verify\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Data Annotation Queues\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"LoopForge\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Rumble-2-Flash\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Warp Learn\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  }\n]\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 二、模型进展\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### Artificial Analysis\n\n![Artificial Analysis Intelligence Index Top 15，2026-11-20](aa-intelligence-top15-2026-11-20-marked.png)\n\n这张智力指数前 15 里，本周新发布的是 GPT-6.2 Astra、Gemini 4 Neon 和 GPT-6.2 Sol。\n\n<!-- chart-meta\n红圈：GPT-6.2 Astra（Max / Xhigh / High / Medium）、Gemini 4 Neon（Xhigh / High）、GPT-6.2 Sol (Max)。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### LLM Arena\n\n![LLM Arena Top 15，2026-11-18](llm-arena-top15-2026-11-18-marked.png)\n\nGemini 4 Neon (High) 新进第 3。上一期榜末的 Gemini 4 Hydrogen (High) 掉出前 15，Muse Spark 1.1 从第 14 到第 15，Muse Wonder (Max) 从第 3 到第 4。\n\n<!-- chart-meta\n榜单发布日 2026-11-18。红圈：Gemini 4 Neon (High)。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-11-20](openrouter-usage-top15-2026-11-20-marked.png)\n\nHy4 flash 这周用量排到第 1，上一期第 1 的 DeepSeek V4.1 Flash 落到第 2。\n\n<!-- chart-meta\n红圈：Hy4 flash。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-11-20](openrouter-programming-top15-2026-11-20-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。Inkling 2 Small (free) 和 MiMo-V2.6-Flash 新进前 15，图上没有本周才发布的模型。\n\n![OpenRouter 应用用量 Top 15，2026-11-20](openrouter-apps-top15-2026-11-20-marked.png)\n\n公开应用用量的前四仍是 Hermes Agent、Claude Code、Kilo Code 和 pi。\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "GPT-6.2 Astra"
+    },
+    {
+      "kind": "card",
+      "id": "Gemini 4 Neon"
+    },
+    {
+      "kind": "card",
+      "id": "Qwen4-Max"
+    },
+    {
+      "kind": "raw",
+      "text": "## 三、项目开源\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/backnotprop/plannotator"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/google-labs-code/stitch-skills"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "kind": "raw",
+      "text": "## 四、精选文章\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.dev/blog/chaos-loop-claude-docs-launch"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.com/resources/articles/building-always-on-agents"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.com/resources/articles/linked-billing-on-claude-platform"
+    },
+    {
+      "kind": "card",
+      "id": "https://openai.com/index/inside-the-codex-sandbox"
+    },
+    {
+      "kind": "card",
+      "id": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+    },
+    {
+      "kind": "card",
+      "id": "https://x.ai/news/grok-bot-accounting"
+    },
+    {
+      "kind": "card",
+      "id": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652"
+    },
+    {
+      "kind": "card",
+      "id": "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607833&idx=1&sn=46122dcf464df97a601d62e805c5e617"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://cursor.com/blog/security-incident-update"
+    },
+    {
+      "kind": "card",
+      "id": "https://devin.ai/blog/introducing-devin-bots"
+    },
+    {
+      "kind": "card",
+      "id": "https://devin.ai/blog/devin-apps"
+    },
+    {
+      "kind": "card",
+      "id": "https://ampcode.com/news/amp-for-windows"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/goal-engineering"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/context-engineering-challenges-late-2026"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/langsmith-tool-gateway"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.warp.dev/blog/factory-engineering-software-factories"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.warp.dev/blog/warp-learn-software-factory-course"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.warp.dev/blog/software-factory-adoption-challenges"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform"
+    },
+    {
+      "kind": "card",
+      "id": "https://lovable.dev/blog/introducing-drafts"
+    },
+    {
+      "kind": "card",
+      "id": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+    },
+    {
+      "kind": "card",
+      "id": "https://huggingface.co/blog/openrouter"
+    },
+    {
+      "kind": "card",
+      "id": "https://kiro.dev/blog/1m-evals-lessons"
+    },
+    {
+      "kind": "card",
+      "id": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks"
+    },
+    {
+      "kind": "raw",
+      "text": "## 五、精选推文\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 六、精选播客\n\n"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "本周关键词"
+    },
+    {
+      "title": "模型进展",
+      "boards": [
+        "Artificial Analysis",
+        "LLM Arena",
+        "OpenRouter 应用用量",
+        "OpenRouter 编程用量",
+        "OpenRouter 本周用量"
+      ],
+      "cards": [
+        "GPT-6.2 Astra",
+        "Gemini 4 Neon",
+        "Qwen4-Max"
+      ]
+    },
+    {
+      "title": "项目开源",
+      "cards": [
+        "https://github.com/backnotprop/plannotator",
+        "https://github.com/google-labs-code/stitch-skills",
+        "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "https://github.com/alibaba/open-code-review",
+        "https://github.com/mvanhorn/last30days-skill"
+      ]
+    },
+    {
+      "title": "精选文章",
+      "groups": [
+        {
+          "title": "国内模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf"
+          ]
+        },
+        {
+          "title": "国外模型厂",
+          "cards": [
+            "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+            "https://claude.dev/blog/chaos-loop-claude-docs-launch",
+            "https://claude.com/resources/articles/building-always-on-agents",
+            "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+            "https://openai.com/index/inside-the-codex-sandbox",
+            "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+            "https://x.ai/news/grok-bot-accounting",
+            "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models"
+          ]
+        },
+        {
+          "title": "国内非模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773",
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719",
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+            "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html",
+            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607833&idx=1&sn=46122dcf464df97a601d62e805c5e617"
+          ]
+        },
+        {
+          "title": "国外非模型厂",
+          "cards": [
+            "https://cursor.com/blog/security-incident-update",
+            "https://devin.ai/blog/introducing-devin-bots",
+            "https://devin.ai/blog/devin-apps",
+            "https://ampcode.com/news/amp-for-windows",
+            "https://www.langchain.com/blog/goal-engineering",
+            "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+            "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
+            "https://www.langchain.com/blog/langsmith-tool-gateway",
+            "https://www.warp.dev/blog/factory-engineering-software-factories",
+            "https://www.warp.dev/blog/warp-learn-software-factory-course",
+            "https://www.warp.dev/blog/software-factory-adoption-challenges",
+            "https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform",
+            "https://lovable.dev/blog/introducing-drafts",
+            "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+            "https://huggingface.co/blog/openrouter",
+            "https://kiro.dev/blog/1m-evals-lessons",
+            "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "精选推文",
+      "cards": []
+    },
+    {
+      "title": "精选播客",
+      "cards": []
+    }
+  ]
+}

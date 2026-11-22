@@ -1,0 +1,14 @@
+{
+  "id": "美团 LongCat-2.5",
+  "source": "cleaned/models/LongCat-2.5.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "#### [美团 LongCat-2.5](https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 2 日。总参数 1.6 万亿，每个 token 激活约 480 亿。</li>\n<li><strong>定位</strong> 面向长程智能体任务的原生多模态模型，视觉和文本走同一套 token。</li>\n<li><strong>成绩</strong> 文中把提升归到更多长程轨迹和长程强化学习。没有写进智力指数名次。</li>\n<li><strong>可用</strong> 单价和速度名次没有写。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html\">美团 LongCat-2.5</a></p>\n</aside>\n\n"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SWE-2 Flash",
+  "release_url": "https://cognition.com/blog/swe-2-flash",
+  "release_date": "2026-11-04",
+  "date_source": "该期 feeds 的日期，并在公告页核对",
+  "price": {
+    "input": null,
+    "output": null,
+    "source": "release_article",
+    "source_url": "https://cognition.com/blog/swe-2-flash",
+    "source_quote": "It is available today in Devin Desktop and CLI, at one-fifth the price and 3x the speed of its much larger sibling, SWE-2.",
+    "missing_reason": "公告只给了相对 SWE-2 的倍数，没有美元单价。",
+    "rank": null,
+    "rank_of": null,
+    "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "source": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "模拟回放没有写入 throughput_tps。没有该期 OpenRouter 端点测量，也没有写入 2026-11-22 的现时速度。",
+    "announcement_claim": "页面上的 200 tok/s 与 60 tok/s 写明是 simulated replay，不是端点测量。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+  },
+  "id": "SWE-2 Flash",
+  "source": "raw/models/model-releases.json"
+}

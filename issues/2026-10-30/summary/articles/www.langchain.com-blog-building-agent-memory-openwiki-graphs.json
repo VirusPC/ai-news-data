@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+  "source": "cleaned/articles/www.langchain.com-blog-building-agent-memory-openwiki-graphs.json",
+  "title": "Evidence-grounded agent memory with OpenWiki and graphs",
+  "link": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/building-agent-memory-openwiki-graphs) 先给 Agent 一份编译好的 wiki，再让引用变成可以顺着走的图。 完整总结 解决什么问题： 只靠检索，跨来源的问题每次都要重新拼上下文。 如何解决： Op",
+  "category": "架构",
+  "company": "LangChain",
+  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Evidence-grounded agent memory with OpenWiki and graphs](https://www.langchain.com/blog/building-agent-memory-openwiki-graphs)\n\n先给 Agent 一份编译好的 wiki，再让引用变成可以顺着走的图。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只靠检索，跨来源的问题每次都要重新拼上下文。</p>\n<p><strong>如何解决：</strong>OpenWiki 当记忆层，并把引用做成图上的边。</p>\n<p><strong>效果怎样：</strong>文中写跨来源问题上比只用 grep 准确约 5 倍；加上证据图后，同一证据的引用更稳，准确率再高 27%。这是他们自己的对照。</p>\n<p><strong>洞察与启发：</strong>记忆如果不能回到原文，就只是另一段不可核对的摘要。</p>\n<p><strong>相关工作：</strong>Kiro 上一周的记忆记的是个人偏好；这篇记的是可回溯的领域证据。</p>\n</details>\n\n"
+}

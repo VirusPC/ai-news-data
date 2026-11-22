@@ -1,0 +1,7 @@
+{
+  "id": "https://kiro.dev/blog/harness-properties-in-lean",
+  "title": "Kiro proves properties of its own harness in Lean",
+  "date": "2026-11-02",
+  "source": "raw/articles/feeds.json",
+  "text": "We built an automated way for Kiro to model parts of its own code in Lean, prove theorems about those models, and check each model against TypeScript / Rust / Python code. We ran it first on Kiro itself. We analyzed 96 candidate properties and observations across models of 26 functions. Lean proved 70 of them, two received finite bounded checks, 18 were falsified in the model and reproduced against the analyzed code, and six produced partial results or observations. This is a demonstration of how Lean-driven verification workflows can be used in a real production setting to verify properties of the agentic harness and to catch hidden bugs."
+}

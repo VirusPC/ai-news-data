@@ -1,0 +1,10 @@
+{
+  "id": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+  "source": "cleaned/articles/tech.meituan.com-2026-11-02-Meituan-LongCat-2.5.html.json",
+  "title": "美团正式发布 LongCat-2.5",
+  "link": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+  "sentence": "&lt;模型&gt;&lt;美团&gt;  (https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html) 面向长程智能体任务的原生多模态模型，视觉和文本走同一套 token。 完整总结 解决什么问题： 长程代码和完整项目需要视觉理解，又不能把视觉当成外挂编码器。 如何解决： 把视觉压成多层离散 ",
+  "category": "模型",
+  "company": "美团",
+  "text": "#### &lt;模型&gt;&lt;美团&gt;[美团正式发布 LongCat-2.5](https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html)\n\n面向长程智能体任务的原生多模态模型，视觉和文本走同一套 token。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>长程代码和完整项目需要视觉理解，又不能把视觉当成外挂编码器。</p>\n<p><strong>如何解决：</strong>把视觉压成多层离散 token，加长程轨迹和长程强化学习，并把真实 Agent 的失败轨迹做成可复现的训练任务。</p>\n<p><strong>效果怎样：</strong>文中用 GPT-5.5、GPT-5.6-Sol 和 Claude Opus 做对照表。这里不转抄那张表的名次。</p>\n<p><strong>洞察与启发：</strong>失败轨迹被当成训练数据，而不是只留在日志里。</p>\n<p><strong>相关工作：</strong>模型进展里的参数量来自这篇。</p>\n</details>\n\n"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Gemini 4 Hydrogen",
+  "release_url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+  "release_date": "2026-11-12",
+  "date_source": "Antigravity 公告写 Nov 12, 2026。Devin 博客写 November 11, 2026 起可在 Devin 使用。都在窗口 2026-11-06～2026-11-12 内。",
+  "price": {
+    "input": null,
+    "output": null,
+    "source_url": "https://devin.ai/blog/gemini-4-hydrogen",
+    "missing_reason": "Devin 页上的 $2.40 per task 和 Gemini 4 Carbon 的 $4.04 是 FrontierCode 的单任务成本，不是 token 单价。Antigravity 与 Google Search 这篇也没有 token 单价。没有采用第三方日报里的 $1.50/$7.50。",
+    "rank": null,
+    "rank_of": null,
+    "rank_missing_reason": "没有用 2026-11-22 的现价重算。也没有用 11-13 的 AA 快照现算名次，避免和生成日未记录的口径混在一起。price.rank 留空。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "没有 2026-11-13 的 OpenRouter 官方端点测量。本环境没有 OPENROUTER_API_KEY。2026-11-22 的现时速度没有写入。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "11-13 目录里已有当天拉到的 aa-language-models.json，但没有把当前（2026-11-22）榜写进来。这条没有用那份快照现算名次：模型发布排名脚本需要端点目录，且智力指数名次应在生成日就算好。这里不补算。",
+    "announcement_claim": "Antigravity 公告写 scoring 51 on the Artificial Analysis Intelligence Index（Argon 50，最高档 54）。这是公告转述，不是这份快照算出来的名次。"
+  },
+  "id": "Gemini 4 Hydrogen",
+  "source": "raw/models/model-releases.json"
+}

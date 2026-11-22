@@ -1,0 +1,7 @@
+{
+  "id": "https://kiro.dev/blog/memory-in-ide-cli",
+  "title": "Introducing memory in Kiro IDE and CLI",
+  "date": "2026-10-20",
+  "source": "raw/articles/feeds.json",
+  "text": "Today, we’re introducing memory in Kiro IDE and CLI. Kiro can remember how you prefer to work, repository-specific commands and conventions, corrections, debugging insights, and approaches you have already ruled out. When any of that becomes relevant again, Kiro carries your context forward, so you spend less time re-explaining context or repeating corrections, while Kiro can follow your preferences without being reminded and become more useful the longer you work with it."
+}

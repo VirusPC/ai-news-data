@@ -1,0 +1,84 @@
+{
+  "id": "LLM Arena",
+  "source": "cleaned/models/boards/llm-arena.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": "2026-10-22",
+  "items": [
+    {
+      "id": "LLM Arena Gemini 4 Argon (High)",
+      "name": "Gemini 4 Argon (High)",
+      "value": 1517.17
+    },
+    {
+      "id": "LLM Arena Claude Opus 5.5 (High)",
+      "name": "Claude Opus 5.5 (High)",
+      "value": 1508.73
+    },
+    {
+      "id": "LLM Arena Muse Wonder (Max)",
+      "name": "Muse Wonder (Max)",
+      "value": 1508.71
+    },
+    {
+      "id": "LLM Arena Claude Fable 5 (High)",
+      "name": "Claude Fable 5 (High)",
+      "value": 1503.28
+    },
+    {
+      "id": "LLM Arena Claude Fable 5.1 (Max)",
+      "name": "Claude Fable 5.1 (Max)",
+      "value": 1503.19
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.6 (High)",
+      "name": "Claude Opus 4.6 (High)",
+      "value": 1502.89
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.7 (High)",
+      "name": "Claude Opus 4.7 (High)",
+      "value": 1501.05
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.6",
+      "name": "Claude Opus 4.6",
+      "value": 1496.65
+    },
+    {
+      "id": "LLM Arena Gemini 3.8 Flash (High)",
+      "name": "Gemini 3.8 Flash (High)",
+      "value": 1495.7
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.3 (Max)",
+      "name": "Muse Spark 1.3 (Max)",
+      "value": 1495.57
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.7",
+      "name": "Claude Opus 4.7",
+      "value": 1493.68
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.2 (xHigh)",
+      "name": "Muse Spark 1.2 (xHigh)",
+      "value": 1491.36
+    },
+    {
+      "id": "LLM Arena Claude Opus 5 (Max)",
+      "name": "Claude Opus 5 (Max)",
+      "value": 1490.87
+    },
+    {
+      "id": "LLM Arena Claude Opus 5 (High)",
+      "name": "Claude Opus 5 (High)",
+      "value": 1490.72
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.1",
+      "name": "Muse Spark 1.1",
+      "value": 1489.85
+    }
+  ]
+}

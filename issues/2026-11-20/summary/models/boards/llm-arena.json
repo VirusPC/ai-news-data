@@ -1,0 +1,84 @@
+{
+  "id": "LLM Arena",
+  "source": "cleaned/models/boards/llm-arena.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": "2026-11-18",
+  "items": [
+    {
+      "id": "LLM Arena Gemini 4 Carbon (High)",
+      "name": "Gemini 4 Carbon (High)",
+      "value": 1525.95
+    },
+    {
+      "id": "LLM Arena Gemini 4 Argon (High)",
+      "name": "Gemini 4 Argon (High)",
+      "value": 1520.56
+    },
+    {
+      "id": "LLM Arena Gemini 4 Neon (High)",
+      "name": "Gemini 4 Neon (High)",
+      "value": 1518.47
+    },
+    {
+      "id": "LLM Arena Muse Wonder (Max)",
+      "name": "Muse Wonder (Max)",
+      "value": 1510.66
+    },
+    {
+      "id": "LLM Arena Claude Opus 5.5 (High)",
+      "name": "Claude Opus 5.5 (High)",
+      "value": 1507.02
+    },
+    {
+      "id": "LLM Arena Claude Fable 5 (High)",
+      "name": "Claude Fable 5 (High)",
+      "value": 1504.08
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.6 (High)",
+      "name": "Claude Opus 4.6 (High)",
+      "value": 1502.82
+    },
+    {
+      "id": "LLM Arena Claude Fable 5.1 (Max)",
+      "name": "Claude Fable 5.1 (Max)",
+      "value": 1502.13
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.7 (High)",
+      "name": "Claude Opus 4.7 (High)",
+      "value": 1501.07
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.3 (Max)",
+      "name": "Muse Spark 1.3 (Max)",
+      "value": 1497.61
+    },
+    {
+      "id": "LLM Arena Gemini 3.8 Flash (High)",
+      "name": "Gemini 3.8 Flash (High)",
+      "value": 1496.73
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.6",
+      "name": "Claude Opus 4.6",
+      "value": 1496.56
+    },
+    {
+      "id": "LLM Arena Claude Opus 4.7",
+      "name": "Claude Opus 4.7",
+      "value": 1494.1
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.2 (xHigh)",
+      "name": "Muse Spark 1.2 (xHigh)",
+      "value": 1492.97
+    },
+    {
+      "id": "LLM Arena Muse Spark 1.1",
+      "name": "Muse Spark 1.1",
+      "value": 1491.11
+    }
+  ]
+}

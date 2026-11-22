@@ -1,0 +1,14 @@
+{
+  "id": "Claude Fable 5.2",
+  "source": "cleaned/models/Claude-Fable-5.2.json",
+  "price": {
+    "text": "见发布事实"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "#### [Claude Fable 5.2 与 Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 公告写 11 月 9 日。Fable 和 Mythos 同一篇发布。</li>\n<li><strong>定位</strong> 标准档降价。另有更贵的 fast mode。</li>\n<li><strong>成绩</strong> 智力指数这张榜最前面是 Fable 5.2。</li>\n<li><strong>可用</strong> 输入每百万 token <mark class=\"note-card-hl\">8 美元</mark>，输出 40 美元。fast mode 是 16 和 80。价格和速度名次没有写。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Claude Fable 5.2 and Claude Mythos 5.2</a></p>\n</aside>\n\n"
+}

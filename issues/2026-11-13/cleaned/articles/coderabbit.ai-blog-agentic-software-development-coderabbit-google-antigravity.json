@@ -1,0 +1,7 @@
+{
+  "id": "https://coderabbit.ai/blog/agentic-software-development-coderabbit-google-antigravity",
+  "title": "Agentic software development with CodeRabbit and Google Antigravity",
+  "date": "2026-11-11",
+  "source": "raw/articles/feeds.json",
+  "text": "AI agents are accelerating software development, but generating more code only accelerates software delivery when teams can validate it just as quickly as agents can write code. Developers need to understand whether agent-generated changes deliver the intended behavior, fit their architecture, and introduce risks without manually reviewing every line that will otherwise slow down the downstream SDLC stages. CodeRabbit is the governance and control layer for agentic software development: helping teams evaluate agent-generated changes while keeping developers in control of the code they ship. CodeRabbit and Google Antigravity bring together an automated code-gen, review, and fixes agentic loop in the developer’s inner loop. Antigravity writes code, CodeRabbit reviews the changes and provides the necessary context to Antigravity so that it can fix the findings, all within the same agentic loop. Developers can install the CodeRabbit plugin from Antigravity’s Plugin Marketplace Customizations tab or through the Google Antigravity CLI. The plugin equips Antigravity with the necessary skills and agents for using CodeRabbit for code reviews; the separately installed CodeRabbit CLI runs…"
+}

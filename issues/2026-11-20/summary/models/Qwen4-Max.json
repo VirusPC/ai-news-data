@@ -1,0 +1,14 @@
+{
+  "id": "Qwen4-Max",
+  "source": "cleaned/models/Qwen4-Max.json",
+  "price": {
+    "text": "见发布事实"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "42.9"
+  },
+  "text": "#### [Qwen4-Max 正式上线](https://qwen.ai/blog?id=qwen4-max)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 阿里 11 月 16 日发布。中小尺寸会陆续开源。</li>\n<li><strong>定位</strong> <mark class=\"note-card-hl\">2.4 万亿</mark>参数的 MoE，原生视觉，百万 token 上下文。</li>\n<li><strong>成绩</strong> 官方内部评测称比 Qwen3.8-Max 最多少用约 50% token、单任务成本降 <mark class=\"note-card-hl\">60%</mark> 以上。定价每百万 token 输入 1.5 美元、输出 4.5 美元、隐式缓存 0.075 美元。Vals AI 称它是 Vals Index 上最强的中国模型（总榜第 11）。</li>\n<li><strong>可用</strong> 可从千问 AI 平台 API、阿里 Token Plan、Qoder 调用，也已上线 OpenRouter 和 Vercel AI Gateway。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&amp;mid=2247512505&amp;idx=1&amp;sn=1c20deef6f26aaa98b23cfc483c123ca\">Qwen4-Max 正式上线！</a>、<a href=\"https://x.com/Alibaba_Qwen/status/2122171875573068153\">Qwen4-Max is live on @OpenRouter</a>、<a href=\"https://x.com/Alibaba_Qwen/status/2122248112479907848\">Vercel AI Gateway</a>、<a href=\"https://x.com/Alibaba_Qwen/status/2122175103115075709\">Vals Index</a></p>\n</aside>\n\n<br/>\n\n"
+}

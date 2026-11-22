@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/memory-in-ide-cli",
+  "source": "cleaned/articles/kiro.dev-blog-memory-in-ide-cli.json",
+  "title": "Introducing memory in Kiro IDE and CLI",
+  "link": "https://kiro.dev/blog/memory-in-ide-cli",
+  "sentence": "&lt;产品&gt;&lt;AWS&gt;  (https://kiro.dev/blog/memory-in-ide-cli) Kiro 记住你的做法、仓库命令和已经否掉的路，下次 不用再解释一遍 。 完整总结 解决什么问题： 每次会话都要把偏好、命令和已经试过的错路再说一次。 如何解决： IDE 和 CLI 记下工作方式、仓库约定、纠正和调试结论，相关时",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### &lt;产品&gt;&lt;AWS&gt;[Introducing memory in Kiro IDE and CLI](https://kiro.dev/blog/memory-in-ide-cli)\n\nKiro 记住你的做法、仓库命令和已经否掉的路，下次<mark>不用再解释一遍</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>每次会话都要把偏好、命令和已经试过的错路再说一次。</p>\n<p><strong>如何解决：</strong>IDE 和 CLI 记下工作方式、仓库约定、纠正和调试结论，相关时再带出来。</p>\n<p><strong>效果怎样：</strong>文中没有量化少花了多少轮。</p>\n<p><strong>洞察与启发：</strong>记忆写在编码产品里，而不是另做一个笔记应用。</p>\n<p><strong>相关工作：</strong>美团那篇把研究经验写回系统；这里把个人纠正写回 IDE。</p>\n</details>\n\n"
+}

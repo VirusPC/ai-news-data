@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+  "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+  "date": "2026-11-07",
+  "source": "raw/articles/feeds.json",
+  "text": "Managed Deep Agents v0.10 adds browser use, so agents can work on sites with no API and hand you the window to sign in, and async subagents for background work."
+}

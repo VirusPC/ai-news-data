@@ -1,0 +1,10 @@
+{
+  "id": "https://openai.com/index/introducing-gpt-6-cyber",
+  "source": "cleaned/articles/openai.com-index-introducing-gpt-6-cyber.json",
+  "title": "GPT-6 Cyber",
+  "link": "https://openai.com/index/introducing-gpt-6-cyber",
+  "sentence": "&lt;模型&gt;&lt;OpenAI&gt;  (https://openai.com/index/introducing-gpt-6-cyber) 用来在研究人员划定的范围内找漏洞、验证能不能利用，并尽量不越界。 完整总结 解决什么问题： 安全模型变强之后，更要留在委托的范围里。 如何解决： GPT-6 Cyber 针对可利用漏洞的发现和修复训练，并单",
+  "category": "模型",
+  "company": "OpenAI",
+  "text": "#### &lt;模型&gt;&lt;OpenAI&gt;[GPT-6 Cyber](https://openai.com/index/introducing-gpt-6-cyber)\n\n用来在研究人员划定的范围内找漏洞、验证能不能利用，并尽量不越界。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>安全模型变强之后，更要留在委托的范围里。</p>\n<p><strong>如何解决：</strong>GPT-6 Cyber 针对可利用漏洞的发现和修复训练，并单独测是否越出范围。</p>\n<p><strong>效果怎样：</strong>文中写 ExploitGym 相对 GPT-5.6 Cyber 有 51% 的相对提升。</p>\n<p><strong>相关工作：</strong>Devin Security 2.0 用的是另一家的扫描和修复链，不是这个模型本身。</p>\n</details>\n\n"
+}

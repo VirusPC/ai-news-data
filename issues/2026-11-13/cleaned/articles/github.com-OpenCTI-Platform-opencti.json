@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/OpenCTI-Platform/opencti",
+  "title": "OpenCTI-Platform/opencti",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Open Cyber Threat Intelligence Platform https://opencti.io Note: Building connectors, contributing to the platform, or running OpenCTI in production? Join us on the Community Slack to ask questions, talk through a PR before you open it, or compare notes on integrations. Introduction OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats. The structuration of the data is performed using a knowledge schema based on the STIX2 standards. It has been designed as a modern web application including a GraphQL API and a UX-oriented frontend. Also, OpenCTI can be integrated with other tools and applications such as MISP, TheHive, MITRE ATT&CK, etc. Objective The goal is to create a comprehensive tool allowing users to capitalize technical (such as TTPs and observables) and non-technical information (such as suggested attribution, victimology etc.) while linking each piece of information to its primary source (a report, a MISP event, etc.), with features such as links between each…"
+}

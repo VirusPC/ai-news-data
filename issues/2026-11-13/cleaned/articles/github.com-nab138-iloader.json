@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/nab138/iloader",
+  "title": "nab138/iloader",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "User friendly sideloader https://iloader.app iloader Install SideStore (or other apps) and import your pairing file with ease This repository and iloader.app are the only official ways to download iloader. There is also an unofficial Homebrew cask, an unofficial AUR package, and an unofficial Fedora COPR repository maintained by the community. Do not download from any other sources or websites. How to use Install usbmuxd for your platform Windows: iTunes macOS: Included Linux: Potentially included, if not, install via your package manager Install the latest version for your platform from the releases NixOS: Install iloader from nixpkgs-unstable, or use the flake github:nab138/iloader Fedora: Use the .RPM or the unofficial Fedora COPR repository Arch: Use the unofficial AUR package, Plug in your iDevice to your computer Open the app Sign into your Apple ID Select your action (e.g. install SideStore) Features Install SideStore (or LiveContainer + SideStore), import certificate and place rppairing+lockdown pairing files automatically Import any IPA Intelligent error suggestions to help resolve common issues Manage pairing files in apps like StikDebug, SideStore, Protokolle, etc See…"
+}

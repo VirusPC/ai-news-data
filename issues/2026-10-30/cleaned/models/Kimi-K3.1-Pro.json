@@ -1,0 +1,41 @@
+{
+  "name": "Kimi K3.1 Pro",
+  "release_url": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+  "release_date": "2026-10-23",
+  "date_source": "该期 feeds 的日期，并在公告页核对",
+  "price": {
+    "input": 13,
+    "output": 68,
+    "cache_read": 1.3,
+    "unit": "CNY per million tokens",
+    "currency_original": "CNY",
+    "source": "release_article",
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+    "source_quote": "价格为每百万 Token 输入：1.3 元（命中缓存）和 13 元（未命中缓存），输出 68 元。",
+    "variant_note": "高速版 kimi-k3.1-pro-highspeed，公告写输出速度约 2～3 倍、价格 2 倍。上面的数字是标准版。",
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": null,
+    "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "source": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+  },
+  "id": "Kimi K3.1 Pro",
+  "source": "raw/models/model-releases.json"
+}

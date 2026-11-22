@@ -4,21 +4,15 @@ AI Coding 资讯周报（[VirusPC/edges-brain-viruspc](https://github.com/VirusP
 
 ## 目录约定
 
+一期是 `issues/YYYY-MM-DD/`，下面只有 `raw/`、`cleaned/`、`summary/`。契约和校验在 brain 仓 `skills/managed/weekly-ai-blogs-digest`。缺的文件写在对应阶段的 `gaps.json`，不留空文件。
+
 ```
-issues/YYYY-MM-DD/          # 生成日 D，与周报文件名同日
-  feeds.json                # fetch_feeds.py --out 全文，不截断
-  feeds.index.json          # 选文索引：标题、链接、来源、thin、开头约 400 字
-  llm-arena.json            # fetch_llm_arena.py 当期快照
-  aa-language-models.json   # Artificial Analysis（有密钥时）
-  github-trending.json      # 从 feeds.json 抽出的 Trending all 全文；名次以 XML 原始顺序为准，按标题重排后的数组顺序不是名次
-  openrouter-rankings-daily.json       # OpenRouter 日用量（含上一周，CC BY 4.0）
-  openrouter-rankings-programming.json # 编程分类，按周抽样
-  openrouter-app-rankings.json         # 应用排行（周报正文用）
-  openrouter-app-rankings-coding.json  # 编程类应用排行旁路快照
-  manifest.json             # 覆盖窗口、生成时间、脚本 commit、各文件来源与条数
+issues/YYYY-MM-DD/
+  raw/          # 抓取原文：window、articles、projects、models
+  cleaned/      # 去重后的文章、项目、模型，一条一个文件
+  summary/      # 页面数据：index.json、关键词、三路卡片和榜单绘图数据
 ```
 
-- `feeds.json` 只存 feed 给出的正文。不足 280 字记为 `thin`，不另开文章页补全文。
-- 每期一个目录，只增不改；更正放新提交并在 manifest 记录。
-- 不存密钥；Artificial Analysis 只存公开字段。OpenRouter 快照是 Data API 导出（CC BY 4.0），同样不落密钥。
-- 2026-10-23、2026-10-30、2026-11-06 是 2026-11-22 按现行订阅回补的快照。当时的榜、价格和速度补不回来的，写在各期 manifest，不拿抓取日的数字充数。再早的期次仍然没有原始抓取。
+- 2026-10-23、2026-10-30、2026-11-06、2026-11-13、2026-11-20 已从原来的平铺 JSON 和已发布正文转成这个结构。正文没有重写。转不出来的记在 `gaps.json`。原来的根目录文件和 `manifest.json` 已从树上删掉，Git 历史里还在。
+- 不存密钥。OpenRouter 快照仍是 Data API 导出（CC BY 4.0）。
+- 2026-10-23、2026-10-30、2026-11-06 当时补不回的榜、价格和速度仍在 `raw/gaps.json`，不拿后来的数字充数。

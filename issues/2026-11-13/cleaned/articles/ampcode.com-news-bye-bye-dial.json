@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/bye-bye-dial",
+  "title": "Bye Bye, Dial",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Today we're saying goodbye to the Dial and its four modes: low, medium, high, and ultra. A model selector takes its place: You can now pick the model and its effort for each thread. And you can now also switch both in the middle of a thread. The model selector now also shows you which of your subscriptions or API keys will be billed for each model, or whether it uses Amp credits. If you don't want to pick the model yourself, use the Staff Pick, which is the model we would choose. Yes, We Changed Our Mind In January we explained why Amp does not have a model selector. In July we then shipped the Dial so you could focus on how hard a task is instead of thinking about model names and version numbers. And it worked: when we changed the default model behind the Dial, nobody complained. But then we added the ability to Amp to bring your own subscriptions and keys, and Amp became free when you do. That changed what the selected model does. Not only is it what produces the tokens, but it also started to decide who gets billed. medium on the Dial could use your Claude plan, or your ChatGPT plan, or Amp credits, and it became very hard to tell who's paying for which model when. And that's…"
+}

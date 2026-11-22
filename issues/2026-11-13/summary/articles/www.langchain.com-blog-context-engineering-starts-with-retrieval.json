@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+  "source": "cleaned/articles/www.langchain.com-blog-context-engineering-starts-with-retrieval.json",
+  "title": "Context engineering starts with retrieval",
+  "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/context-engineering-starts-with-retrieval) Agent 把时间耗在笨搜索、过大的结果和过期数据上。Deep Agents 的检索是为了把该进上下文的东西找准。 订阅源里只有这些。",
+  "category": "架构",
+  "company": "LangChain",
+  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Context engineering starts with retrieval](https://www.langchain.com/blog/context-engineering-starts-with-retrieval)\n\nAgent 把时间耗在笨搜索、过大的结果和过期数据上。Deep Agents 的检索是为了把该进上下文的东西找准。\n\n订阅源里只有这些。\n\n"
+}

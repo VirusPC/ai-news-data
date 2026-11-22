@@ -1,0 +1,67 @@
+{
+  "id": "Artificial Analysis",
+  "source": "raw/models/aa-language-models.json",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "Claude Fable 5.2 (Max, Default Fallback)",
+      "value": 64.6
+    },
+    {
+      "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+      "value": 62.2
+    },
+    {
+      "name": "Claude Fable 5.2 (High, Default Fallback)",
+      "value": 61.8
+    },
+    {
+      "name": "Gemini 4 Carbon (High)",
+      "value": 60
+    },
+    {
+      "name": "Claude Opus 5.5 (Max, Default Fallback)",
+      "value": 59.1
+    },
+    {
+      "name": "Gemini 4 Carbon (Medium)",
+      "value": 58.3
+    },
+    {
+      "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "value": 57.4
+    },
+    {
+      "name": "GPT-6 Astra (Max)",
+      "value": 56.9
+    },
+    {
+      "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+      "value": 56.4
+    },
+    {
+      "name": "GPT-6 Astra (Xhigh)",
+      "value": 55.3
+    },
+    {
+      "name": "GPT-6 Astra (High)",
+      "value": 54.8
+    },
+    {
+      "name": "GPT-6.1 Sol (Max)",
+      "value": 54.6
+    },
+    {
+      "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "value": 54.5
+    },
+    {
+      "name": "Gemini 4 Carbon (Low)",
+      "value": 54.2
+    },
+    {
+      "name": "Claude Fable 5.2 (Low, Default Fallback)",
+      "value": 53.9
+    }
+  ]
+}

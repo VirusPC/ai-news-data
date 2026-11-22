@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzcwMjM3ODEzOA-mid-2247487748-idx-1-sn-ceec50327d6be7c1.json",
+  "title": "Kimi K3.1 Pro：智能前沿，更进一步",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+  "sentence": "&lt;模型&gt;&lt;Kimi&gt;  (https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc) K3 的后训练版本，高速版输出大约 2 到 3 倍 ，权重还没放出来。 完整总结 解决什么问题",
+  "category": "模型",
+  "company": "Kimi",
+  "text": "#### &lt;模型&gt;&lt;Kimi&gt;[Kimi K3.1 Pro：智能前沿，更进一步](https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc)\n\nK3 的后训练版本，高速版输出大约 <mark>2 到 3 倍</mark>，权重还没放出来。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>长程 Agent、代码和多模态要更强，同时又要一个更快的档。</p>\n<p><strong>如何解决：</strong>加大后训练算力，并改 RL、长上下文、沙箱和调度。高速版保持同一智能、提高输出速度。</p>\n<p><strong>效果怎样：</strong>文中把代码、3D、金融研究和长程 Agent 写成提升最大的几项。完整榜在他们的博客。</p>\n<p><strong>洞察与启发：</strong>先上产品，权重晚几天。</p>\n<p><strong>相关工作：</strong>MiniMax 这一窗口做的是相反的一步：把已经上线的 Flash 权重放开。</p>\n</details>\n\n"
+}

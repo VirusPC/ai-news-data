@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/backnotprop/plannotator",
+  "title": "backnotprop/plannotator",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. https://plannotator.ai Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW: Plannotator Inbox is the missing layer between you and managing multi-agent work. Plannotator is a local, browser-based review surface for AI coding agents: Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, DeepSeek Harness, and Pi. It plugs directly into your agent through its hooks and commands. When the agent proposes a plan, html, or finishes writing code, the work opens in your browser and you mark it up, comment, and send feedback directly to the agent for it to act on it. Review documents, plans, and agent messages Annotate plans, specs, messages, html, then send the feedback to your agent. Demo: Plan review with…"
+}

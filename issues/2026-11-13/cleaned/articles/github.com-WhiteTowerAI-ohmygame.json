@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/WhiteTowerAI/ohmygame",
+  "title": "WhiteTowerAI/ohmygame",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key. https://ohmygame.ai/ The open-source studio for making games with AI. English | 简体中文 | 日本語 Website · Docs · Community games · Changelog Describe a game, and the agent designs it, makes the art, writes the code, plays it to check it works, and publishes it to a link anyone can open. Design docs, images, video, 3D, and audio live on one canvas next to the code, instead of across five different apps. Note OhMyGame is in beta. Expect rough edges, and tell us what breaks. Download Platform Download macOS (Apple silicon) OhMyGame for Mac Windows (x64) OhMyGame for Windows Older builds and release notes are on Releases. The Windows build isn't code-signed yet, so SmartScreen may warn on first install. Intel Mac and Linux are on the roadmap. OhMyGame ships without a model. On first launch, connect a provider or a coding agent you already use: first run. Features Let the agent build the game. The agent drafts the design doc, writes the code, runs the game in a live preview, then plays it and tries a fix when something…"
+}

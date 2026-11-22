@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/AminBlg/SimpleEnglish",
+  "title": "AminBlg/SimpleEnglish",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical ✈️ your AI writes like a LinkedIn post. make it write like a Boeing manual. An agent skill that makes LLMs write plain English with the discipline of ASD-STE100 Simplified Technical English, the controlled language aerospace has used since 1983 so that a tired mechanic cannot misread an instruction. Layman-readable by default, STE-strict on request. Works in every agent that reads the Agent Skills standard: Claude Code, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI, Goose, OpenCode, and about 25 more. One folder, no dependencies, MIT. Install Any agent, with the skills CLI: npx skills add AminBlg/SimpleEnglish This installs the skill only. It does not install the session hook or the output style below, so setting outputStyle to simple-english:simple-english without the plugin does nothing. Use the Claude Code plugin for those. Claude Code plugin, with the session hook and the output style: claude plugin marketplace add AminBlg/SimpleEnglish && claude plugin install simple-english@simple-english The output style is named simple-english:simple-english. The short name does not resolve. Select it with /config…"
+}

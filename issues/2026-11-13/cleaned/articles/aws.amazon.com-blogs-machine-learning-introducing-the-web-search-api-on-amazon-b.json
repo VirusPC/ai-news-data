@@ -1,0 +1,7 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore",
+  "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+  "date": "2026-11-11",
+  "source": "raw/articles/feeds.json",
+  "text": "AI agents and applications that answer questions about recent events, product releases, prices, or regulations need information newer than their model’s training data. Until now, Web Search on Amazon Bedrock AgentCore delivered that information to agents through AgentCore Gateway, a capability of Amazon Bedrock AgentCore. That means creating a gateway and a web search target and calling the tool from an MCP client. The setup fits platform teams that share one search policy across many agents, but it’s more than you need when your own code only requires search results. Today, we’re announcing the Web Search API on Amazon Bedrock AgentCore. With it, your own code can search the web with a single API call. It returns ranked results from a web index that Amazon operates, each with a text extract and, when available, the page title, URL, and publication time. You call it from the AWS SDKs or the AWS Command Line Interface (AWS CLI), signed with the same AWS Identity and Access Management (IAM) credentials you use for your other AWS services. There are no resources to create first. Authenticate, call, and get results. Use it in an application, an agent loop you write yourself, or a data…"
+}

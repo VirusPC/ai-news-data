@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 应用用量",
+  "source": "cleaned/models/boards/openrouter-apps.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 应用用量 Hermes Agent",
+      "name": "Hermes Agent",
+      "value": 12.22
+    },
+    {
+      "id": "OpenRouter 应用用量 Claude Code",
+      "name": "Claude Code",
+      "value": 10.36
+    },
+    {
+      "id": "OpenRouter 应用用量 Kilo Code",
+      "name": "Kilo Code",
+      "value": 5.56
+    },
+    {
+      "id": "OpenRouter 应用用量 pi",
+      "name": "pi",
+      "value": 3.98
+    },
+    {
+      "id": "OpenRouter 应用用量 OpenClaw",
+      "name": "OpenClaw",
+      "value": 3.7
+    },
+    {
+      "id": "OpenRouter 应用用量 Codex",
+      "name": "Codex",
+      "value": 3.59
+    },
+    {
+      "id": "OpenRouter 应用用量 omp",
+      "name": "omp",
+      "value": 2.89
+    },
+    {
+      "id": "OpenRouter 应用用量 DeepSeek Harness",
+      "name": "DeepSeek Harness",
+      "value": 2.29
+    },
+    {
+      "id": "OpenRouter 应用用量 Strix",
+      "name": "Strix",
+      "value": 2.23
+    },
+    {
+      "id": "OpenRouter 应用用量 Minds by Authentic Intelligence",
+      "name": "Minds by Authentic Intelligence",
+      "value": 1.44
+    },
+    {
+      "id": "OpenRouter 应用用量 Portkey AI",
+      "name": "Portkey AI",
+      "value": 0.95
+    },
+    {
+      "id": "OpenRouter 应用用量 OpenHands",
+      "name": "OpenHands",
+      "value": 0.92
+    },
+    {
+      "id": "OpenRouter 应用用量 Freebuff",
+      "name": "Freebuff",
+      "value": 0.72
+    },
+    {
+      "id": "OpenRouter 应用用量 ISEKAI ZERO",
+      "name": "ISEKAI ZERO",
+      "value": 0.67
+    },
+    {
+      "id": "OpenRouter 应用用量 Fleet Dashboard Post Helper",
+      "name": "Fleet Dashboard Post Helper",
+      "value": 0.62
+    }
+  ]
+}

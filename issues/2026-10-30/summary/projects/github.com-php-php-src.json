@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/php/php-src",
+  "source": "cleaned/projects/github.com-php-php-src.json",
+  "purpose": "php/php-src",
+  "change": "见本期正文。",
+  "text": "#### [php/php-src](https://github.com/php/php-src)\n\nPHP 解释器本身。\n\n来源里只有这些。\n\n"
+}

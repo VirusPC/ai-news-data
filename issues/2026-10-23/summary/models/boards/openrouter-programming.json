@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 编程用量",
+  "source": "cleaned/models/boards/openrouter-programming.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash",
+      "value": 8.55
+    },
+    {
+      "id": "OpenRouter 编程用量 MiMo-V2.6-Flash",
+      "name": "MiMo-V2.6-Flash",
+      "value": 6.94
+    },
+    {
+      "id": "OpenRouter 编程用量 Step 5 Preview",
+      "name": "Step 5 Preview",
+      "value": 5.83
+    },
+    {
+      "id": "OpenRouter 编程用量 GLM 5.3 Flash",
+      "name": "GLM 5.3 Flash",
+      "value": 4.24
+    },
+    {
+      "id": "OpenRouter 编程用量 Nemotron 3 Ultra (free)",
+      "name": "Nemotron 3 Ultra (free)",
+      "value": 3.99
+    },
+    {
+      "id": "OpenRouter 编程用量 Muse Spark 1.3 Contributor",
+      "name": "Muse Spark 1.3 Contributor",
+      "value": 2.79
+    },
+    {
+      "id": "OpenRouter 编程用量 GLM 5.3",
+      "name": "GLM 5.3",
+      "value": 2.14
+    },
+    {
+      "id": "OpenRouter 编程用量 GPT-6 Luna",
+      "name": "GPT-6 Luna",
+      "value": 1.87
+    },
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 1.35
+    },
+    {
+      "id": "OpenRouter 编程用量 Claude Opus 5.5",
+      "name": "Claude Opus 5.5",
+      "value": 1.13
+    },
+    {
+      "id": "OpenRouter 编程用量 Hy4 preview",
+      "name": "Hy4 preview",
+      "value": 1.09
+    },
+    {
+      "id": "OpenRouter 编程用量 Kimi K3",
+      "name": "Kimi K3",
+      "value": 0.78
+    },
+    {
+      "id": "OpenRouter 编程用量 Nemotron 3.5 Lightning (free)",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "value": 0.73
+    },
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4 Flash 0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 0.71
+    },
+    {
+      "id": "OpenRouter 编程用量 Solar Pro 4",
+      "name": "Solar Pro 4",
+      "value": 0.66
+    }
+  ]
+}

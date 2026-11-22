@@ -1,0 +1,72 @@
+{
+  "keywords": [
+    {
+      "name": "Deep Agents",
+      "weight": 2.8,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
+        "https://claude.com/resources/articles/message-threads",
+        "https://www.langchain.com/blog/introducing-managed-deep-agents"
+      ],
+      "theme": true
+    },
+    {
+      "name": "SWE-2 Flash",
+      "weight": 3,
+      "targets": [
+        "SWE-2 Flash",
+        "https://devin.ai/blog/devin-review-2"
+      ]
+    },
+    {
+      "name": "Devin Review 2.0",
+      "weight": 2.8,
+      "targets": [
+        "https://devin.ai/blog/devin-review-2"
+      ]
+    },
+    {
+      "name": "Gemini Omni 1.2 Flash",
+      "weight": 1.4,
+      "targets": [
+        "Gemini Omni 1.2 Flash"
+      ]
+    },
+    {
+      "name": "GPT-6 Cyber",
+      "weight": 1.4,
+      "targets": [
+        "GPT-6 Cyber",
+        "https://openai.com/index/introducing-gpt-6-cyber"
+      ]
+    },
+    {
+      "name": "Hy4",
+      "weight": 1.4,
+      "targets": [
+        "腾讯混元 Hy4",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+        "OpenRouter 编程用量 Hy4 preview",
+        "OpenRouter 本周用量 Hy4 preview",
+        "OpenRouter 本周用量 Hy4"
+      ]
+    },
+    {
+      "name": "LongCat-2.5",
+      "weight": 1.4,
+      "targets": [
+        "美团 LongCat-2.5",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+        "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html"
+      ]
+    },
+    {
+      "name": "Step 5 Preview",
+      "weight": 1.4,
+      "targets": [
+        "OpenRouter 编程用量 Step 5 Preview",
+        "OpenRouter 本周用量 Step 5 Preview"
+      ]
+    }
+  ]
+}

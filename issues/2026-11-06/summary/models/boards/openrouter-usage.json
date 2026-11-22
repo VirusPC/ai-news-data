@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 本周用量",
+  "source": "cleaned/models/boards/openrouter-usage.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 56.48
+    },
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash",
+      "value": 16.52
+    },
+    {
+      "id": "OpenRouter 本周用量 GLM 5.3 Flash",
+      "name": "GLM 5.3 Flash",
+      "value": 15.01
+    },
+    {
+      "id": "OpenRouter 本周用量 GPT-6 Luna",
+      "name": "GPT-6 Luna",
+      "value": 7.26
+    },
+    {
+      "id": "OpenRouter 本周用量 Step 5 Preview",
+      "name": "Step 5 Preview",
+      "value": 6.67
+    },
+    {
+      "id": "OpenRouter 本周用量 Hy4 preview",
+      "name": "Hy4 preview",
+      "value": 6.58
+    },
+    {
+      "id": "OpenRouter 本周用量 Claude Opus 5.5",
+      "name": "Claude Opus 5.5",
+      "value": 6.53
+    },
+    {
+      "id": "OpenRouter 本周用量 MiniMax M3.1 Flash",
+      "name": "MiniMax M3.1 Flash",
+      "value": 6.04
+    },
+    {
+      "id": "OpenRouter 本周用量 GPT-5.6 Luna",
+      "name": "GPT-5.6 Luna",
+      "value": 4.99
+    },
+    {
+      "id": "OpenRouter 本周用量 Hy4",
+      "name": "Hy4",
+      "value": 4.01
+    },
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4 Flash 0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 3.69
+    },
+    {
+      "id": "OpenRouter 本周用量 GPT-6.1 Sol",
+      "name": "GPT-6.1 Sol",
+      "value": 3.62
+    },
+    {
+      "id": "OpenRouter 本周用量 GLM 5.3",
+      "name": "GLM 5.3",
+      "value": 3.55
+    },
+    {
+      "id": "OpenRouter 本周用量 Kimi K3.1 Pro",
+      "name": "Kimi K3.1 Pro",
+      "value": 3.53
+    },
+    {
+      "id": "OpenRouter 本周用量 typesafe/jev-1.13-20260917",
+      "name": "typesafe/jev-1.13-20260917",
+      "value": 3.02
+    }
+  ]
+}

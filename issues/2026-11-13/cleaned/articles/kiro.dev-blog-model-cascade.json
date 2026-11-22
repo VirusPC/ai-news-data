@@ -1,0 +1,7 @@
+{
+  "id": "https://kiro.dev/blog/model-cascade",
+  "title": "How Kiro Auto uses model cascading to match the model to the work",
+  "date": "2026-11-06",
+  "source": "raw/articles/feeds.json",
+  "text": "TL;DR. Behind the scenes, Auto uses model cascading. Every session starts on an initial model, an independent check reviews the work in the background, and Auto hands the session to a more capable model when the work calls for it. In an internal evaluation on DeepSWE v1.1, the cascade performed nearly as well as the more capable model on its own, and about four in five tasks finished without a handoff."
+}

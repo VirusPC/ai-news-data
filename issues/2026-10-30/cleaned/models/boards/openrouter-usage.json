@@ -1,0 +1,67 @@
+{
+  "id": "OpenRouter 本周用量",
+  "source": "raw/models/openrouter-rankings-daily.json",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 42.41
+    },
+    {
+      "name": "DeepSeek V4.1 Flash",
+      "value": 15.88
+    },
+    {
+      "name": "GLM 5.3 Flash",
+      "value": 15.61
+    },
+    {
+      "name": "GPT-6 Luna",
+      "value": 11.36
+    },
+    {
+      "name": "Hy4 preview",
+      "value": 9.18
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "value": 7.84
+    },
+    {
+      "name": "Step 5 Preview",
+      "value": 5.93
+    },
+    {
+      "name": "GLM 5.3",
+      "value": 4.9
+    },
+    {
+      "name": "MiniMax M3.1 Flash",
+      "value": 4.12
+    },
+    {
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 3.99
+    },
+    {
+      "name": "Nemotron 3 Ultra (free)",
+      "value": 3.92
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "value": 3.75
+    },
+    {
+      "name": "MiMo-V2.6-Flash",
+      "value": 3.58
+    },
+    {
+      "name": "typesafe/jev-1.13-20260917",
+      "value": 3.2
+    },
+    {
+      "name": "Hy3",
+      "value": 3.05
+    }
+  ]
+}

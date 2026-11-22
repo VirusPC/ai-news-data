@@ -1,0 +1,24 @@
+{
+  "gaps": [
+    {
+      "path": "articles/https://www.langchain.com/blog/langsmith-tool-gateway",
+      "reason": "已发布卡片的 ID 不在清洗候选里，按正文链接补了一条，没有新写摘要"
+    },
+    {
+      "path": "keywords.json#ChatGPT Wallet",
+      "reason": "ChatGPT Wallet 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#CodeRabbit Verify",
+      "reason": "CodeRabbit Verify 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Data Annotation Queues",
+      "reason": "Data Annotation Queues 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Rumble-2-Flash",
+      "reason": "Rumble-2-Flash 在三路卡片里没有对上的 ID"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808189-idx-1-sn-bde97fbc46f8cb2e.json",
+  "title": "用 Super-agent 的理念拆解 Octop 团队模式",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+  "sentence": "&lt;架构&gt;&lt;腾讯&gt;  (https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c) 主持人拆任务，专家并行执行， 人离开后仍可以从云上分派 。 完整总结 解决什么问题： 人同时跟得住",
+  "category": "架构",
+  "company": "腾讯",
+  "text": "#### &lt;架构&gt;&lt;腾讯&gt;[用 Super-agent 的理念拆解 Octop 团队模式](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c)\n\n主持人拆任务，专家并行执行，<mark>人离开后仍可以从云上分派</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人同时跟得住的复杂会话有限。助手若只在本机，合盖就停；整套搬上云又够不到本机仓库和凭据。</p>\n<p><strong>如何解决：</strong>主持人只留分派和看进度，专家各自执行并异步交回。云上负责对话，常开的本地实例读写仓库和凭据。敏感工具停下来等人确认。</p>\n<p><strong>效果怎样：</strong>复合任务可以并行，前台继续接新指令。文章写团队模式仍是测试版：单层团队，没有跨专家共享工作区。</p>\n<p><strong>洞察与启发：</strong>复杂会话跟不住，常常是因为调度和执行挤在同一处。分派留在云上、凭据留在本机，人离开以后任务还能交回。</p>\n<p><strong>相关工作：</strong>它和 DeepSeek 的调度员加执行单元是同一层结构。LoopForge 把验收做成客观门禁；这里把敏感操作的确认留在人手里。</p>\n</details>\n\n"
+}

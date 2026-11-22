@@ -1,0 +1,7 @@
+{
+  "id": "https://x.com/cognition/status/2123553121653944391",
+  "title": "We’ve evaluated Gemini 4 Neon on FrontierCode 2.0, our benchmark that measures whether you should me...",
+  "date": "2026-11-19",
+  "source": "raw/articles/feeds.json",
+  "text": "We’ve evaluated Gemini 4 Neon on FrontierCode 2.0, our benchmark that measures whether you should merge the PR, and found that it scores within one point of Opus 5.5 at about a third of the cost. It is the strongest of the Gemini model series with a score of 46.2% and a cost of $4.38 per task. Gemini 4 Neon is now available to use in Devin Desktop and Devin CLI! 💬82🔄84❤️1119👀115822📊210 ⚡ Powered by xgo.ing"
+}

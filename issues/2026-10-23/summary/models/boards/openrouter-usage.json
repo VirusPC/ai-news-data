@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 本周用量",
+  "source": "cleaned/models/boards/openrouter-usage.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash",
+      "value": 23.4
+    },
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 21.67
+    },
+    {
+      "id": "OpenRouter 本周用量 minimax/minimax-m3.1-flash-20261019:free",
+      "name": "minimax/minimax-m3.1-flash-20261019:free",
+      "value": 13.68
+    },
+    {
+      "id": "OpenRouter 本周用量 GLM 5.3 Flash",
+      "name": "GLM 5.3 Flash",
+      "value": 11.4
+    },
+    {
+      "id": "OpenRouter 本周用量 Hy4 preview",
+      "name": "Hy4 preview",
+      "value": 8.66
+    },
+    {
+      "id": "OpenRouter 本周用量 MiMo-V2.6-Flash",
+      "name": "MiMo-V2.6-Flash",
+      "value": 7.99
+    },
+    {
+      "id": "OpenRouter 本周用量 Claude Opus 5.5",
+      "name": "Claude Opus 5.5",
+      "value": 7.44
+    },
+    {
+      "id": "OpenRouter 本周用量 GPT-6 Luna",
+      "name": "GPT-6 Luna",
+      "value": 6.09
+    },
+    {
+      "id": "OpenRouter 本周用量 GLM 5.3",
+      "name": "GLM 5.3",
+      "value": 5.14
+    },
+    {
+      "id": "OpenRouter 本周用量 Nemotron 3 Ultra (free)",
+      "name": "Nemotron 3 Ultra (free)",
+      "value": 4.63
+    },
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4 Flash 0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 4.18
+    },
+    {
+      "id": "OpenRouter 本周用量 Muse Spark 1.3 Contributor",
+      "name": "Muse Spark 1.3 Contributor",
+      "value": 3.09
+    },
+    {
+      "id": "OpenRouter 本周用量 Hy3",
+      "name": "Hy3",
+      "value": 3.04
+    },
+    {
+      "id": "OpenRouter 本周用量 typesafe/jev-1.13-20260917",
+      "name": "typesafe/jev-1.13-20260917",
+      "value": 2.92
+    },
+    {
+      "id": "OpenRouter 本周用量 DeepSeek V4 Flash 0423",
+      "name": "DeepSeek V4 Flash 0423",
+      "value": 2.78
+    }
+  ]
+}
