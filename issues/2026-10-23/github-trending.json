@@ -1,0 +1,790 @@
+{
+  "ok": true,
+  "written": true,
+  "board": "weekly/all",
+  "order": "gitreposcraper.py 按页面 article 顺序写入，没有按增星重排。名次是这个数组顺序。",
+  "date_range_evidence": "每条 added_stars 都以 stars this week 结尾。",
+  "not_generation_morning": true,
+  "not_the_subscribed_rss": true,
+  "not_in_feeds": true,
+  "title_template_says_daily": true,
+  "source": {
+    "repo": "hanishrao/trending-collection",
+    "commit": "57da356fba17383009e3eb2b820dcf24a87d6751",
+    "commit_at": "2026-10-23T06:56:23Z",
+    "scraper": "该提交的 gitreposcraper.py 对 all 请求 https://github.com/trending?since=weekly，对 python、typescript 请求对应语言页加 since=weekly，并按 article 顺序保存。write_api_json 把 title、description 固定写成 Daily，link 固定写成 https://github.com/trending。模板文字不是榜的区间。"
+  },
+  "generation": "周五 09:00 Asia/Shanghai 是 01:00 UTC。下面的 pubDate 是同一天更晚的抓取，不是生成时刻的榜。",
+  "excluded_wayback": [
+    {
+      "capture": "20261023004122",
+      "url": "https://github.com/trending",
+      "date_range": "Today",
+      "used": false
+    },
+    {
+      "capture": "20261023092524",
+      "url": "https://github.com/trending",
+      "date_range": "Today",
+      "used": false
+    },
+    {
+      "capture": "20261023084011",
+      "url": "https://github.com/trending/python",
+      "date_range": "Today",
+      "used": false
+    },
+    {
+      "calendar": "https://web.archive.org/web/20260000000000*/https://github.com/trending?since=weekly",
+      "note": "2026 年有 168 次保存，10-23、10-30、11-06 没有这条 URL 的 capture。只说明这三条精确 URL 当天没找到，不能推断全站没有历史。"
+    }
+  ],
+  "not_used": [
+    {
+      "repo": "YunhaoDou/github-weekly-trending",
+      "reason": "按周增星重排的 Top 100，是另一种指标，不是 GitHub 周榜原顺序。"
+    },
+    {
+      "repo": "mshibanami/GitHubTrendingRSS",
+      "reason": "在线 weekly XML 的 channel pubDate 是 2026-11-21。仓库不保存历史 XML。没有把今天的榜写入。"
+    }
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "title": "morluto / rea",
+      "link": "https://github.com/morluto/rea",
+      "published": "",
+      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 368217,
+      "forks": 92261,
+      "added_stars": "106,341 stars this week"
+    },
+    {
+      "rank": 2,
+      "title": "anthropics / claude-plugins-official",
+      "link": "https://github.com/anthropics/claude-plugins-official",
+      "published": "",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 43968,
+      "forks": 4627,
+      "added_stars": "5,649 stars this week"
+    },
+    {
+      "rank": 3,
+      "title": "ruvnet / ruflo",
+      "link": "https://github.com/ruvnet/ruflo",
+      "published": "",
+      "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 78560,
+      "forks": 9236,
+      "added_stars": "3,708 stars this week"
+    },
+    {
+      "rank": 4,
+      "title": "android / skills",
+      "link": "https://github.com/android/skills",
+      "published": "",
+      "summary": "",
+      "language": "Kotlin",
+      "stars": 9282,
+      "forks": 593,
+      "added_stars": "1,384 stars this week"
+    },
+    {
+      "rank": 5,
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "published": "",
+      "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 53985,
+      "forks": 4764,
+      "added_stars": "3,967 stars this week"
+    },
+    {
+      "rank": 6,
+      "title": "anomalyco / opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "published": "",
+      "summary": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 220324,
+      "forks": 29456,
+      "added_stars": "6,750 stars this week"
+    },
+    {
+      "rank": 7,
+      "title": "HKUDS / CLI-Anything",
+      "link": "https://github.com/HKUDS/CLI-Anything",
+      "published": "",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 56355,
+      "forks": 5066,
+      "added_stars": "3,275 stars this week"
+    },
+    {
+      "rank": 8,
+      "title": "cursor / plugins",
+      "link": "https://github.com/cursor/plugins",
+      "published": "",
+      "summary": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 13663,
+      "forks": 1353,
+      "added_stars": "2,046 stars this week"
+    },
+    {
+      "rank": 9,
+      "title": "akitaonrails / ai-memory",
+      "link": "https://github.com/akitaonrails/ai-memory",
+      "published": "",
+      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 12852,
+      "forks": 899,
+      "added_stars": "3,322 stars this week"
+    },
+    {
+      "rank": 10,
+      "title": "debpalash / VoiceStudio",
+      "link": "https://github.com/debpalash/VoiceStudio",
+      "published": "",
+      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 82081,
+      "forks": 9062,
+      "added_stars": "13,581 stars this week"
+    },
+    {
+      "rank": 11,
+      "title": "heygen-com / hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "published": "",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 70201,
+      "forks": 6359,
+      "added_stars": "5,669 stars this week"
+    },
+    {
+      "rank": 12,
+      "title": "NationalSecurityAgency / ghidra",
+      "link": "https://github.com/NationalSecurityAgency/ghidra",
+      "published": "",
+      "summary": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 93295,
+      "forks": 10469,
+      "added_stars": "4,892 stars this week"
+    },
+    {
+      "rank": 13,
+      "title": "stablyai / orca",
+      "link": "https://github.com/stablyai/orca",
+      "published": "",
+      "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 103101,
+      "forks": 6509,
+      "added_stars": "9,401 stars this week"
+    },
+    {
+      "rank": 14,
+      "title": "Comfy-Org / ComfyUI",
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "published": "",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "stars": 142108,
+      "forks": 16756,
+      "added_stars": "4,375 stars this week"
+    },
+    {
+      "rank": 15,
+      "title": "mksglu / context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "published": "",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31874,
+      "forks": 2195,
+      "added_stars": "2,271 stars this week"
+    }
+  ],
+  "boards": {
+    "weekly/all": {
+      "path": "api/weekly/all.json",
+      "requested_url": "https://github.com/trending?since=weekly",
+      "json_title": "GitHub Daily Trending",
+      "json_description": "Daily Trending of All Languages in GitHub",
+      "json_link": "https://github.com/trending",
+      "pubDate": "Fri, 23 Oct 2026 06:52:55 GMT",
+      "items": [
+        {
+          "rank": 1,
+          "title": "morluto / rea",
+          "link": "https://github.com/morluto/rea",
+          "published": "",
+          "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "language": "TypeScript",
+          "stars": 368217,
+          "forks": 92261,
+          "added_stars": "106,341 stars this week"
+        },
+        {
+          "rank": 2,
+          "title": "anthropics / claude-plugins-official",
+          "link": "https://github.com/anthropics/claude-plugins-official",
+          "published": "",
+          "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "language": "Python",
+          "stars": 43968,
+          "forks": 4627,
+          "added_stars": "5,649 stars this week"
+        },
+        {
+          "rank": 3,
+          "title": "ruvnet / ruflo",
+          "link": "https://github.com/ruvnet/ruflo",
+          "published": "",
+          "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "language": "TypeScript",
+          "stars": 78560,
+          "forks": 9236,
+          "added_stars": "3,708 stars this week"
+        },
+        {
+          "rank": 4,
+          "title": "android / skills",
+          "link": "https://github.com/android/skills",
+          "published": "",
+          "summary": "",
+          "language": "Kotlin",
+          "stars": 9282,
+          "forks": 593,
+          "added_stars": "1,384 stars this week"
+        },
+        {
+          "rank": 5,
+          "title": "K-Dense-AI / scientific-agent-skills",
+          "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "published": "",
+          "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+          "language": "Python",
+          "stars": 53985,
+          "forks": 4764,
+          "added_stars": "3,967 stars this week"
+        },
+        {
+          "rank": 6,
+          "title": "anomalyco / opencode",
+          "link": "https://github.com/anomalyco/opencode",
+          "published": "",
+          "summary": "The open source coding agent.",
+          "language": "TypeScript",
+          "stars": 220324,
+          "forks": 29456,
+          "added_stars": "6,750 stars this week"
+        },
+        {
+          "rank": 7,
+          "title": "HKUDS / CLI-Anything",
+          "link": "https://github.com/HKUDS/CLI-Anything",
+          "published": "",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "language": "Python",
+          "stars": 56355,
+          "forks": 5066,
+          "added_stars": "3,275 stars this week"
+        },
+        {
+          "rank": 8,
+          "title": "cursor / plugins",
+          "link": "https://github.com/cursor/plugins",
+          "published": "",
+          "summary": "Cursor plugin specification and official plugins",
+          "language": "TypeScript",
+          "stars": 13663,
+          "forks": 1353,
+          "added_stars": "2,046 stars this week"
+        },
+        {
+          "rank": 9,
+          "title": "akitaonrails / ai-memory",
+          "link": "https://github.com/akitaonrails/ai-memory",
+          "published": "",
+          "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+          "language": "Rust",
+          "stars": 12852,
+          "forks": 899,
+          "added_stars": "3,322 stars this week"
+        },
+        {
+          "rank": 10,
+          "title": "debpalash / VoiceStudio",
+          "link": "https://github.com/debpalash/VoiceStudio",
+          "published": "",
+          "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "language": "Python",
+          "stars": 82081,
+          "forks": 9062,
+          "added_stars": "13,581 stars this week"
+        },
+        {
+          "rank": 11,
+          "title": "heygen-com / hyperframes",
+          "link": "https://github.com/heygen-com/hyperframes",
+          "published": "",
+          "summary": "Write HTML. Render video. Built for agents.",
+          "language": "TypeScript",
+          "stars": 70201,
+          "forks": 6359,
+          "added_stars": "5,669 stars this week"
+        },
+        {
+          "rank": 12,
+          "title": "NationalSecurityAgency / ghidra",
+          "link": "https://github.com/NationalSecurityAgency/ghidra",
+          "published": "",
+          "summary": "Ghidra is a software reverse engineering (SRE) framework",
+          "language": "Java",
+          "stars": 93295,
+          "forks": 10469,
+          "added_stars": "4,892 stars this week"
+        },
+        {
+          "rank": 13,
+          "title": "stablyai / orca",
+          "link": "https://github.com/stablyai/orca",
+          "published": "",
+          "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+          "language": "TypeScript",
+          "stars": 103101,
+          "forks": 6509,
+          "added_stars": "9,401 stars this week"
+        },
+        {
+          "rank": 14,
+          "title": "Comfy-Org / ComfyUI",
+          "link": "https://github.com/Comfy-Org/ComfyUI",
+          "published": "",
+          "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+          "language": "Python",
+          "stars": 142108,
+          "forks": 16756,
+          "added_stars": "4,375 stars this week"
+        },
+        {
+          "rank": 15,
+          "title": "mksglu / context-mode",
+          "link": "https://github.com/mksglu/context-mode",
+          "published": "",
+          "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "language": "TypeScript",
+          "stars": 31874,
+          "forks": 2195,
+          "added_stars": "2,271 stars this week"
+        }
+      ]
+    },
+    "weekly/python": {
+      "path": "api/weekly/python.json",
+      "requested_url": "https://github.com/trending/python?since=weekly",
+      "json_title": "GitHub Python Languages Daily Trending",
+      "json_description": "Daily Trending of Python Languages in GitHub",
+      "json_link": "https://github.com/trending",
+      "pubDate": "Fri, 23 Oct 2026 06:52:55 GMT",
+      "items": [
+        {
+          "rank": 1,
+          "title": "anthropics / claude-plugins-official",
+          "link": "https://github.com/anthropics/claude-plugins-official",
+          "published": "",
+          "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "language": "Python",
+          "stars": 43969,
+          "forks": 4627,
+          "added_stars": "5,649 stars this week"
+        },
+        {
+          "rank": 2,
+          "title": "K-Dense-AI / scientific-agent-skills",
+          "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "published": "",
+          "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+          "language": "Python",
+          "stars": 53985,
+          "forks": 4764,
+          "added_stars": "3,967 stars this week"
+        },
+        {
+          "rank": 3,
+          "title": "HKUDS / CLI-Anything",
+          "link": "https://github.com/HKUDS/CLI-Anything",
+          "published": "",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "language": "Python",
+          "stars": 56355,
+          "forks": 5066,
+          "added_stars": "3,275 stars this week"
+        },
+        {
+          "rank": 4,
+          "title": "debpalash / VoiceStudio",
+          "link": "https://github.com/debpalash/VoiceStudio",
+          "published": "",
+          "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "language": "Python",
+          "stars": 82083,
+          "forks": 9062,
+          "added_stars": "13,581 stars this week"
+        },
+        {
+          "rank": 5,
+          "title": "Comfy-Org / ComfyUI",
+          "link": "https://github.com/Comfy-Org/ComfyUI",
+          "published": "",
+          "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+          "language": "Python",
+          "stars": 142109,
+          "forks": 16756,
+          "added_stars": "4,375 stars this week"
+        },
+        {
+          "rank": 6,
+          "title": "wshobson / agents",
+          "link": "https://github.com/wshobson/agents",
+          "published": "",
+          "summary": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+          "language": "Python",
+          "stars": 41586,
+          "forks": 4411,
+          "added_stars": "747 stars this week"
+        },
+        {
+          "rank": 7,
+          "title": "ethanplusai / harvey",
+          "link": "https://github.com/ethanplusai/harvey",
+          "published": "",
+          "summary": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.",
+          "language": "Python",
+          "stars": 2184,
+          "forks": 445,
+          "added_stars": "1,300 stars this week"
+        },
+        {
+          "rank": 8,
+          "title": "Kruk2 / jasna",
+          "link": "https://github.com/Kruk2/jasna",
+          "published": "",
+          "summary": "Video restoration tool",
+          "language": "Python",
+          "stars": 3459,
+          "forks": 265,
+          "added_stars": "1,422 stars this week"
+        },
+        {
+          "rank": 9,
+          "title": "sgl-project / sglang",
+          "link": "https://github.com/sgl-project/sglang",
+          "published": "",
+          "summary": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+          "language": "Python",
+          "stars": 37644,
+          "forks": 9815,
+          "added_stars": "505 stars this week"
+        },
+        {
+          "rank": 10,
+          "title": "luongnv89 / claude-howto",
+          "link": "https://github.com/luongnv89/claude-howto",
+          "published": "",
+          "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+          "language": "Python",
+          "stars": 43518,
+          "forks": 5410,
+          "added_stars": "982 stars this week"
+        },
+        {
+          "rank": 11,
+          "title": "earthtojake / text-to-cad",
+          "link": "https://github.com/earthtojake/text-to-cad",
+          "published": "",
+          "summary": "Give your agent CAD superpowers.",
+          "language": "Python",
+          "stars": 22602,
+          "forks": 2208,
+          "added_stars": "1,917 stars this week"
+        },
+        {
+          "rank": 12,
+          "title": "harry0703 / MoneyPrinterTurbo",
+          "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "published": "",
+          "summary": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+          "language": "Python",
+          "stars": 134354,
+          "forks": 21245,
+          "added_stars": "2,907 stars this week"
+        },
+        {
+          "rank": 13,
+          "title": "shiyu-coder / Kronos",
+          "link": "https://github.com/shiyu-coder/Kronos",
+          "published": "",
+          "summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "language": "Python",
+          "stars": 43257,
+          "forks": 7124,
+          "added_stars": "2,410 stars this week"
+        },
+        {
+          "rank": 14,
+          "title": "vllm-project / vllm",
+          "link": "https://github.com/vllm-project/vllm",
+          "published": "",
+          "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "language": "Python",
+          "stars": 95188,
+          "forks": 23826,
+          "added_stars": "1,341 stars this week"
+        },
+        {
+          "rank": 15,
+          "title": "lightseekorg / tokenspeed",
+          "link": "https://github.com/lightseekorg/tokenspeed",
+          "published": "",
+          "summary": "TokenSpeed is a speed-of-light LLM inference engine.",
+          "language": "Python",
+          "stars": 2769,
+          "forks": 368,
+          "added_stars": "386 stars this week"
+        },
+        {
+          "rank": 16,
+          "title": "yt-dlp / yt-dlp",
+          "link": "https://github.com/yt-dlp/yt-dlp",
+          "published": "",
+          "summary": "A feature-rich command-line audio/video downloader",
+          "language": "Python",
+          "stars": 200541,
+          "forks": 17489,
+          "added_stars": "2,510 stars this week"
+        }
+      ]
+    },
+    "weekly/typescript": {
+      "path": "api/weekly/typescript.json",
+      "requested_url": "https://github.com/trending/typescript?since=weekly",
+      "json_title": "GitHub Typescript Languages Daily Trending",
+      "json_description": "Daily Trending of Typescript Languages in GitHub",
+      "json_link": "https://github.com/trending",
+      "pubDate": "Fri, 23 Oct 2026 06:52:55 GMT",
+      "items": [
+        {
+          "rank": 1,
+          "title": "morluto / rea",
+          "link": "https://github.com/morluto/rea",
+          "published": "",
+          "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "language": "TypeScript",
+          "stars": 368232,
+          "forks": 92267,
+          "added_stars": "106,341 stars this week"
+        },
+        {
+          "rank": 2,
+          "title": "ruvnet / ruflo",
+          "link": "https://github.com/ruvnet/ruflo",
+          "published": "",
+          "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "language": "TypeScript",
+          "stars": 78561,
+          "forks": 9237,
+          "added_stars": "3,708 stars this week"
+        },
+        {
+          "rank": 3,
+          "title": "anomalyco / opencode",
+          "link": "https://github.com/anomalyco/opencode",
+          "published": "",
+          "summary": "The open source coding agent.",
+          "language": "TypeScript",
+          "stars": 220324,
+          "forks": 29456,
+          "added_stars": "6,750 stars this week"
+        },
+        {
+          "rank": 4,
+          "title": "cursor / plugins",
+          "link": "https://github.com/cursor/plugins",
+          "published": "",
+          "summary": "Cursor plugin specification and official plugins",
+          "language": "TypeScript",
+          "stars": 13663,
+          "forks": 1353,
+          "added_stars": "2,046 stars this week"
+        },
+        {
+          "rank": 5,
+          "title": "heygen-com / hyperframes",
+          "link": "https://github.com/heygen-com/hyperframes",
+          "published": "",
+          "summary": "Write HTML. Render video. Built for agents.",
+          "language": "TypeScript",
+          "stars": 70201,
+          "forks": 6359,
+          "added_stars": "5,669 stars this week"
+        },
+        {
+          "rank": 6,
+          "title": "stablyai / orca",
+          "link": "https://github.com/stablyai/orca",
+          "published": "",
+          "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+          "language": "TypeScript",
+          "stars": 103103,
+          "forks": 6509,
+          "added_stars": "9,401 stars this week"
+        },
+        {
+          "rank": 7,
+          "title": "mksglu / context-mode",
+          "link": "https://github.com/mksglu/context-mode",
+          "published": "",
+          "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "language": "TypeScript",
+          "stars": 31875,
+          "forks": 2195,
+          "added_stars": "2,271 stars this week"
+        },
+        {
+          "rank": 8,
+          "title": "elie222 / rakazo",
+          "link": "https://github.com/elie222/rakazo",
+          "published": "",
+          "summary": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+          "language": "TypeScript",
+          "stars": 5286,
+          "forks": 943,
+          "added_stars": "1,166 stars this week"
+        },
+        {
+          "rank": 9,
+          "title": "pingdotgg / t3code",
+          "link": "https://github.com/pingdotgg/t3code",
+          "published": "",
+          "summary": "",
+          "language": "TypeScript",
+          "stars": 29501,
+          "forks": 7915,
+          "added_stars": "1,675 stars this week"
+        },
+        {
+          "rank": 10,
+          "title": "tashfeenahmed / freellmapi",
+          "link": "https://github.com/tashfeenahmed/freellmapi",
+          "published": "",
+          "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+          "language": "TypeScript",
+          "stars": 39742,
+          "forks": 5371,
+          "added_stars": "3,854 stars this week"
+        },
+        {
+          "rank": 11,
+          "title": "LibreSpark / LibreTV",
+          "link": "https://github.com/LibreSpark/LibreTV",
+          "published": "",
+          "summary": "一分钟搭建影视站，支持Docker等部署方式",
+          "language": "TypeScript",
+          "stars": 21224,
+          "forks": 29828,
+          "added_stars": "3,277 stars this week"
+        },
+        {
+          "rank": 12,
+          "title": "PC2005-cloud / dsh-pet",
+          "link": "https://github.com/PC2005-cloud/dsh-pet",
+          "published": "",
+          "summary": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
+          "language": "TypeScript",
+          "stars": 3607,
+          "forks": 258,
+          "added_stars": "2,035 stars this week"
+        },
+        {
+          "rank": 13,
+          "title": "thesysdev / openui",
+          "link": "https://github.com/thesysdev/openui",
+          "published": "",
+          "summary": "The Open Standard for Generative UI",
+          "language": "TypeScript",
+          "stars": 13154,
+          "forks": 876,
+          "added_stars": "2,111 stars this week"
+        },
+        {
+          "rank": 14,
+          "title": "chthollyphile / folia-major",
+          "link": "https://github.com/chthollyphile/folia-major",
+          "published": "",
+          "summary": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+          "language": "TypeScript",
+          "stars": 8920,
+          "forks": 934,
+          "added_stars": "2,373 stars this week"
+        },
+        {
+          "rank": 15,
+          "title": "vercel-labs / skills",
+          "link": "https://github.com/vercel-labs/skills",
+          "published": "",
+          "summary": "The open agent skills tool - npx skills",
+          "language": "TypeScript",
+          "stars": 36194,
+          "forks": 3103,
+          "added_stars": "1,073 stars this week"
+        },
+        {
+          "rank": 16,
+          "title": "ranxianglei / billion-context",
+          "link": "https://github.com/ranxianglei/billion-context",
+          "published": "",
+          "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+          "language": "TypeScript",
+          "stars": 2430,
+          "forks": 209,
+          "added_stars": "1,059 stars this week"
+        },
+        {
+          "rank": 17,
+          "title": "Renhuai123 / ziwei-doushu",
+          "link": "https://github.com/Renhuai123/ziwei-doushu",
+          "published": "",
+          "summary": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+          "language": "TypeScript",
+          "stars": 6442,
+          "forks": 1324,
+          "added_stars": "1,668 stars this week"
+        },
+        {
+          "rank": 18,
+          "title": "iptv-org / iptv",
+          "link": "https://github.com/iptv-org/iptv",
+          "published": "",
+          "summary": "Collection of publicly available IPTV channels from all over the world",
+          "language": "TypeScript",
+          "stars": 142050,
+          "forks": 8347,
+          "added_stars": "1,073 stars this week"
+        }
+      ]
+    }
+  }
+}

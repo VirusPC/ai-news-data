@@ -1,0 +1,376 @@
+{
+  "issue": "2026-11-06",
+  "coverage_window": {
+    "since": "2026-10-30",
+    "until": "2026-11-05",
+    "timezone": "UTC",
+    "note": "生成日 D 的窗口是 D-7 00:00:00 至 D-1 23:59:59（UTC，含两端，不含 D）。与 2026-11-20 起的规则相同。"
+  },
+  "backfilled_at": "2026-11-22T13:58:14+08:00",
+  "generated_at": "2026-11-22T13:58:14+08:00",
+  "generated_at_note": "这是 2026-11-22 的回补采集时间，不是当初周五 09:00 的生成时间。数据仓此前没有这一期的原始快照。",
+  "acquisition": "live-refetch",
+  "brain_repo_commit": "8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+  "skill_path": "skills/managed/weekly-ai-blogs-digest",
+  "routine_path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md",
+  "scripts": {
+    "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+    "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+    "fetch_artificial_analysis.py": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
+    "fetch_openrouter.py": "box 上已有 OPENROUTER_API_KEY，2026-11-22T14:25+08:00 跑现有 fetch_openrouter.py，HTTP 200。云端早先的 401 只是没有这个环境变量。密钥没有进入仓库。",
+    "fetch_openrouter_endpoints.py": "这批没有官方端点文件。端点延迟是近实时测量，不能写成历史速度。OpenRouter Data API 的历史用量已在同目录另四份文件，采集时间 2026-11-22T14:25+08:00。",
+    "model_release_ranks.py": "没有跑。没有可排名的当期价格或速度。"
+  },
+  "files": {
+    "feeds.json": {
+      "description": "2026-11-22 按现行 OPML 与 meta 重拉，只保留 feed 给出的正文。不打开文章页。GitHub Trending 的当日 weekly 已从条目里去掉，见 historicalExclusion。",
+      "since": "2026-10-30",
+      "until": "2026-11-05",
+      "timezone": "UTC",
+      "feeds": 51,
+      "errors": 0,
+      "items_before_trending_removal": 126,
+      "trending_removed": 35,
+      "items": 133,
+      "thin": 6,
+      "included_entries_before_dedupe": 139,
+      "deduped": 13,
+      "date_conflicts": 0,
+      "bytes": 1697549,
+      "truncated_sources": [
+        {
+          "id": "aws-ml",
+          "oldest": "2026-11-19",
+          "newest": "2026-11-22",
+          "entries_total": 20,
+          "entries_in_window": 0
+        },
+        {
+          "id": "bytedance-tech",
+          "oldest": "2026-11-02",
+          "newest": "2026-11-19",
+          "entries_total": 10,
+          "entries_in_window": 4
+        },
+        {
+          "id": "taobao-tech",
+          "oldest": "2026-10-30",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 3
+        },
+        {
+          "id": "alipay-ux",
+          "oldest": "2026-11-07",
+          "newest": "2026-11-18",
+          "entries_total": 10,
+          "entries_in_window": 0
+        },
+        {
+          "id": "tencent-engineering",
+          "oldest": "2026-11-04",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 2
+        },
+        {
+          "id": "alibaba-tech",
+          "oldest": "2026-11-09",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 0
+        }
+      ],
+      "health": [
+        {
+          "id": "meta-ai",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-27",
+          "included": true
+        },
+        {
+          "id": "meta-ai-rsshub",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-26",
+          "included": true
+        },
+        {
+          "id": "xai-news-olshansk",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-28",
+          "included": false
+        },
+        {
+          "id": "zed",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-16",
+          "included": true
+        },
+        {
+          "id": "glm",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-18",
+          "included": true
+        },
+        {
+          "id": "jxnl",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-05",
+          "included": true
+        },
+        {
+          "id": "qwen-ai-platform",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-20",
+          "included": true
+        },
+        {
+          "id": "github-trending-weekly-all",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        },
+        {
+          "id": "github-trending-weekly-python",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        },
+        {
+          "id": "github-trending-weekly-typescript",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        }
+      ],
+      "needs_list_page": [
+        {
+          "publisher": "meta-ai",
+          "primary": "meta-ai",
+          "primaryIssues": [
+            "stopped"
+          ],
+          "usedBackups": [
+            "meta-ai-rsshub"
+          ],
+          "needsListPage": true
+        }
+      ],
+      "old_digest_link_check": {
+        "description": "只拿旧周报里的链接对这次 feed 快照做有无核对，不把旧摘要或旧正文写进快照。",
+        "digest_links": 43,
+        "matched_in_kept_feeds": 27,
+        "matched_only_because_live_trending_removed": 0,
+        "misses": 16,
+        "miss_reasons": {
+          "outside-list": 12,
+          "not-in-feed": 3,
+          "outside-window": 1
+        },
+        "script_matched_including_live_trending": 27
+      },
+      "xai_removed_unverified_date": 3,
+      "xai_date_note": "sitemap lastmod 不是发布时间。incident-sweep、partnernetworkannouncement、grok-bot-sales、data-bot 只有 lastmod，已移出 items。feed 批量 pubDate 2026-10-20 仍不可靠。",
+      "truncated_sources_note": "这是脚本的 truncated 标记：该源当前 feed 里最旧一条的日期不早于窗口起点，窗口前段或整段可能已经不在 feed 里。不是把正文截断。",
+      "archive_supplement": {
+        "retrievedAt": "2026-11-22T14:12:59+08:00",
+        "added": 22,
+        "bySource": {
+          "xai-news": 1,
+          "aws-ml": 10,
+          "huggingface": 11
+        },
+        "note": "列表或 sitemap 存档只提供标题、链接和日期。summary 为空表示没有 feed 正文。xAI 正文来自 feed，日期来自 2026-11-11 的 sitemap 捕获。"
+      },
+      "xai_removed_unqualified": 1,
+      "xai_unqualified": [
+        {
+          "link": "https://x.ai/news/data-bot",
+          "date_from_lastmod": "2026-11-02",
+          "title": "Giving every team a data scientist with Grok Bot",
+          "reason": "只有 sitemap lastmod，没有正文发布日期。lastmod 不是发布时间，移出严格窗口。"
+        }
+      ],
+      "gap_fill": "2026-11-22 用历史 RSS 和文章页补了正文，并放回有正文日期的 xAI。原 feed 摘要在 feed_summary。thin 按补完后的 summary 重算。"
+    },
+    "feeds.index.json": {
+      "description": "随补全文后的 feeds.json 重写。preview 是 summary 开头约 400 字。",
+      "items": 133,
+      "bytes": 108552
+    },
+    "github-trending.json": {
+      "description": "hanishrao/trending-collection 当天较晚的 weekly 页面顺序。added_stars 写明 stars this week。不是周五 09:00 的榜，也不是 mshibanami RSS。",
+      "absent": false,
+      "ok": true,
+      "source_commit": "fa599b95b0895b9316302a66ed489097b9c68494",
+      "source_commit_at": "2026-11-06T08:56:07Z",
+      "pubDate": "Fri, 06 Nov 2026 08:53:39 GMT",
+      "not_generation_morning": true,
+      "counts": {
+        "all": 16,
+        "python": 17,
+        "typescript": 17
+      },
+      "wayback_today_excluded": 3
+    },
+    "aa-language-models.json": {
+      "skipped": true,
+      "written": false,
+      "reason": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
+      "fetched_models_verified": 764,
+      "historical_as_of": false,
+      "coding_index": "不再发布，字段恒为 null，不是采集失败",
+      "leaderboard_as_of": false
+    },
+    "openrouter-rankings-daily.json": {
+      "description": "官方每日 Top50 历史数据聚合。默认 --limit 15。items 是窗口内各日 Top50（不含 other）的 token 相加后的前 15。每天都在 Top50 之外的用量只在 other 里，进不了这 15 名。不能把 items 说成无损的完整 7 日榜。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:07+08:00",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "prior_window": {
+        "start_date": "2026-10-23",
+        "end_date": "2026-10-29"
+      },
+      "missing_dates": [],
+      "prior_missing_dates": [],
+      "rows": 714,
+      "items": 15,
+      "official_row_limit": "每天 Top 50 + other",
+      "other_excluded_from_items": true,
+      "items_are_not_a_complete_weekly_board": true
+    },
+    "openrouter-rankings-programming.json": {
+      "description": "rankings-daily 的 category=programming、period=week 采样周。不是公开页 Programming 按编程语言（例如 Python）画的用量图。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:08+08:00",
+      "coverage_window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "sampled_week": {
+        "start_date": "2026-10-26",
+        "end_date": "2026-11-01"
+      },
+      "prior_sampled_week": {
+        "start_date": "2026-10-19",
+        "end_date": "2026-10-25"
+      },
+      "bucket_date": "2026-10-26",
+      "items": 15,
+      "not_the_news_window": true,
+      "not_the_language_chart": true
+    },
+    "openrouter-app-rankings.json": {
+      "description": "app-rankings 按该期 UTC 7 日窗口请求的前 15。不是公开页当前 This Week 的应用图。公开页没有自定义历史榜表或下载。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:08+08:00",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "items": 15
+    },
+    "openrouter-app-rankings-coding.json": {
+      "description": "编程类应用。app-rankings 按该期 UTC 7 日窗口请求的前 15。不是公开页当前 This Week 的应用图。公开页没有自定义历史榜表或下载。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:09+08:00",
+      "category": "coding",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "items": 15
+    },
+    "openrouter-official-endpoints.json": {
+      "skipped": true,
+      "reason": "这批没有官方端点文件。端点延迟是近实时测量，不能写成历史速度。OpenRouter Data API 的历史用量已在同目录另四份文件，采集时间 2026-11-22T14:25+08:00。"
+    },
+    "model-releases.json": {
+      "skipped": false,
+      "ok": true,
+      "models": 4,
+      "names": [
+        "Gemini Omni 1.2 Flash",
+        "GPT-6 Cyber",
+        "Images 2.6",
+        "SWE-2 Flash"
+      ],
+      "description": "窗口内厂商公告。有原文单价的写了 price，并附 source_quote。price.rank、speed 的端点数字、aa 名次都是 null。",
+      "price_rank": "not_ranked",
+      "speed_rank": "not_ranked",
+      "fetched_at": "2026-11-22T09:07:48+00:00"
+    },
+    "llm-arena-2026-10-28.json": {
+      "description": "full parquet 里 leaderboard_publish_date ≤ 窗口结束日的最近一份 overall Top 20。抓取日读取的是数据集里仍在的历史榜，不是 latest。",
+      "leaderboard_publish_date": "2026-10-28",
+      "prior_publish_date": "2026-10-22",
+      "next_publish_date": "2026-11-06",
+      "rows": 419,
+      "items": 20,
+      "dataset": "lmarena-ai/leaderboard-dataset",
+      "config": "text_style_control",
+      "split": "full",
+      "fetched_at": "2026-11-22T13:58:14+08:00",
+      "publish_date_inside_coverage_window": false,
+      "window_note": "发布日 2026-10-28 在覆盖窗口 2026-10-30～2026-11-05 之外（更早）。next_publish_date 2026-11-06 是生成日，也不在窗口内。文件仍是「publish_date ≤ until」的最近一份，不是窗口内新发布的榜。这次没有重新下载 parquet。"
+    }
+  },
+  "supplemented_at": "2026-11-22T14:12:59+08:00",
+  "checked_and_empty": {
+    "glm_research_list": "2026-11-22 https://www.zhipuai.cn/zh/research HTTP 200，页面无 2026-10 或 2026-11 日期",
+    "meta_old_blog_list": "2026-11-22 https://ai.meta.com/blog/ HTTP 200，页面无 2026-10 或 2026-11",
+    "openrouter": "2026-11-22T14:25+08:00 Data API HTTP 200。usage 窗口 2026-10-30～2026-11-05，missing_dates 为空。programming 采样周 2026-10-26～2026-11-01，不是资讯窗口。",
+    "artificial_analysis": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
+    "github_trending_weekly_xml": "Wayback 精确捕获 20261023004122、20261023092524、20261023084011 打开后 Date range 都是 Today，已排除。since=weekly 日历 2026 年 168 次保存，这三天没有该 URL。不能推断全站无历史。已采用 hanishrao/trending-collection fa599b95b0 的 weekly 页面顺序，pubDate Fri, 06 Nov 2026 08:53:39 GMT，晚于周五 09:00 Asia/Shanghai。",
+    "aws_paged_feed": "2026-11-22 feed 与 ?paged=2/5/8 字节数相同，都是最近约 20 条",
+    "artificial_analysis_this_environment": "本环境没有 AA_API_KEY / ARTIFICIAL_ANALYSIS_API_KEY，没有再请求。当前榜没有写入。",
+    "openrouter_endpoints_this_environment": "本环境没有 OPENROUTER_API_KEY。没有请求端点，没有把现时延迟写成历史速度。",
+    "github_trending_additional_paths": "mshibanami/GitHubTrendingRSS 的 generated-feeds 分支在这三天 00:00–12:00 UTC 没有 weekly/all.xml 的提交。hanishrao/trending-collection 在 2026-10-23T06:52Z 之前没有更早的提交。Wayback 对 github.com/trending?since=weekly 在这三天仍没有可用捕获；2026-10-23 00:00–02:00 UTC 的 CDX 请求超时。没有用 2026-11-22 的 Trending。"
+  },
+  "openrouter_landed_at": "2026-11-22T14:25:09+08:00",
+  "gap_fill_2026_11_22": {
+    "at": "2026-11-22T09:07:48+00:00",
+    "did": "2026-11-22 用 Wayback 上的历史 RSS 补了 AWS、Claude Code changelog、Meta Engineering，并用 2026-11-15 的 wechat2rss 捕获补了仍留在那份 feed 里、pubDate 落在窗口内的国内技术博客。空摘要和偏短条目打开了文章页；打不开的保持原样。x.com 没有请求。xAI 四篇以正文页上的日期放回，没有用 sitemap lastmod。model-releases 只收窗口内厂商公告，价格摘原文；速度名次和智力指数名次留空。本环境没有 OPENROUTER_API_KEY、AA_API_KEY、ARTIFICIAL_ANALYSIS_API_KEY，没有再请求这两个接口，也没有把当天榜、现价或现时速度写进历史。",
+    "items": 133,
+    "thin_remaining": 6,
+    "thin_remaining_why": "剩下的 thin 是 x.com（没有请求）和少数微信短讯（文章页没有比 feed 更长的正文）。Claude Code changelog 里 2.1.308、2.1.303 的 feed 正文本身就只有几十个字。",
+    "still_missing": {
+      "github_trending_at_friday_0900_shanghai": "mshibanami/GitHubTrendingRSS 的 generated-feeds 分支在这三天 00:00–12:00 UTC 没有 weekly/all.xml 的提交。hanishrao/trending-collection 在 2026-10-23T06:52Z 之前没有更早的提交。Wayback 对 github.com/trending?since=weekly 在这三天仍没有可用捕获；2026-10-23 00:00–02:00 UTC 的 CDX 请求超时。没有用 2026-11-22 的 Trending。",
+      "artificial_analysis_historical_board": "本环境没有 AA 密钥，没有再请求。此前免费接口只有当前目录、没有 as-of。当前值仍然不写入。",
+      "openrouter_endpoint_speed": "本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，不能写成这三期的历史速度。openrouter-official-endpoints.json 保持 skipped。",
+      "wechat_before_the_nov_15_capture": "淘宝、快手、支付宝、腾讯、阿里、字节的 wechat2rss 只找到 2026-11-15 这一次 Wayback。10 条左右的 feed 覆盖不到更早、且已经滚出列表的帖子。那些没有 pubDate 落在窗口里的，没有补。",
+      "meta_engineering_after_2026_10_20_feed": "engineering.fb.com/feed 的 Wayback 在 2026-10-20 之后、2026-11-06 之前只有 2026-10-28 的首页。首页上能对上日期的 10-26、10-27 三篇已从文章页补进 10-30。首页没列出的更早帖子没有编造。"
+    }
+  }
+}

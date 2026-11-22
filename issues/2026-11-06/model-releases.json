@@ -1,0 +1,163 @@
+{
+  "issue": "2026-11-06",
+  "section": "模型发布",
+  "backfilled_at": "2026-11-22T09:07:48+00:00",
+  "skipped": false,
+  "ok": true,
+  "window": {
+    "since": "2026-10-30",
+    "until": "2026-11-05",
+    "timezone": "UTC"
+  },
+  "selection": "只收该期 feeds 里、日期在窗口内、由厂商自己发布的新模型或新版本。客户案例、转载可用性和评测不收。价格只摘公告原文。端点速度和智力指数名次没有历史测量，留空。",
+  "models": [
+    {
+      "name": "Gemini Omni 1.2 Flash",
+      "release_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "release_date": "2026-11-05",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": null,
+        "output": null,
+        "video_720p_usd_per_second": 0.07,
+        "unit": "USD per second of 720p video",
+        "currency_original": "USD",
+        "source": "release_article",
+        "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "source_quote": "We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "note": "这是 720p 视频每秒价格，不是文本 token 单价。",
+        "rank": null,
+        "rank_of": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    },
+    {
+      "name": "GPT-6 Cyber",
+      "release_url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "release_date": "2026-11-05",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": null,
+        "output": null,
+        "source": null,
+        "source_url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "missing_reason": "公告没有写出 token 单价。文中 $1 billion 是 Daybreak 补贴计划，不是模型价格。",
+        "rank": null,
+        "rank_of": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    },
+    {
+      "name": "Images 2.6",
+      "release_url": "https://openai.com/index/introducing-images-2-6",
+      "release_date": "2026-11-04",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": null,
+        "output": null,
+        "source": null,
+        "source_url": "https://openai.com/index/introducing-images-2-6",
+        "missing_reason": "公告写 See pricing details here，页面上没有单价。没有再打开外链现价，以免把 2026-11-22 的价格写成历史。",
+        "rank": null,
+        "rank_of": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      },
+      "note": "图像模型。"
+    },
+    {
+      "name": "SWE-2 Flash",
+      "release_url": "https://cognition.com/blog/swe-2-flash",
+      "release_date": "2026-11-04",
+      "date_source": "该期 feeds 的日期，并在公告页核对",
+      "price": {
+        "input": null,
+        "output": null,
+        "source": "release_article",
+        "source_url": "https://cognition.com/blog/swe-2-flash",
+        "source_quote": "It is available today in Devin Desktop and CLI, at one-fifth the price and 3x the speed of its much larger sibling, SWE-2.",
+        "missing_reason": "公告只给了相对 SWE-2 的倍数，没有美元单价。",
+        "rank": null,
+        "rank_of": null,
+        "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+      },
+      "speed": {
+        "latency_s": null,
+        "throughput_tps": null,
+        "source": null,
+        "rank": null,
+        "rank_of": null,
+        "rank_metric": "latency_p50_s",
+        "rank_source": null,
+        "missing_reason": "模拟回放没有写入 throughput_tps。没有该期 OpenRouter 端点测量，也没有写入 2026-11-22 的现时速度。",
+        "announcement_claim": "页面上的 200 tok/s 与 60 tok/s 写明是 simulated replay，不是端点测量。"
+      },
+      "aa": {
+        "intelligence_index": null,
+        "rank": null,
+        "rank_of": null,
+        "coding_index": null,
+        "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+      }
+    }
+  ],
+  "price_rank": {
+    "status": "not_ranked",
+    "reason": "价格排名要用该期 Artificial Analysis 快照里既有智力指数又有标价的模型做分母。这三期没有历史 AA 快照。免费档当前目录不能拿来排名。"
+  },
+  "speed_rank": {
+    "status": "not_ranked",
+    "reason": "速度排名要用该期官方端点目录的 latency p50。openrouter-official-endpoints.json 仍是 skipped。本环境没有 OPENROUTER_API_KEY。"
+  },
+  "scope_note": "models 里没有的名字，不代表那周没有别的发布。"
+}
