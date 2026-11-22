@@ -6,7 +6,7 @@
     "since": "2026-10-23",
     "until": "2026-10-29"
   },
-  "reason": "云端没有 AA_API_KEY / ARTIFICIAL_ANALYSIS_API_KEY，也没有 OPENROUTER_API_KEY。价格、速度、智力指数和名次都没有该期生成日的快照。2026-11-22 的标价、近 30 分钟端点延迟和现行智力指数不能写成这一周，所以不排名、不编模型卡。旧周报里的模型名没有抄进来。",
+  "reason": "没有该期的历史价格、速度和智力指数。AA 免费接口 2026-11-22 能拉到当前 764 个模型，但没有历史 as-of，所以没有写入。OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
   "models": [],
   "price_rank": null,
   "speed_rank": null

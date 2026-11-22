@@ -1,14 +1,268 @@
 {
-  "skipped": true,
-  "ok": false,
+  "skipped": false,
   "board": "apps-coding",
   "source": "OpenRouter",
+  "source_url": "https://openrouter.ai/apps",
+  "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
   "license": "CC BY 4.0",
-  "reason": "未设置 OPENROUTER_API_KEY",
-  "items": [],
-  "fetched_at": "2026-11-22T13:58:14+08:00",
-  "intended_window": {
-    "since": "2026-10-23",
-    "until": "2026-10-29"
-  }
+  "citation": "Source: OpenRouter (openrouter.ai/apps), as of 2026-11-22T06:25:06.949Z. Licensed under CC BY 4.0.",
+  "meta": {
+    "as_of": "2026-11-22T06:25:06.949Z",
+    "version": "v1",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-29"
+  },
+  "fetched_at": "2026-11-22T14:25:06+08:00",
+  "sort": "popular",
+  "category": "coding",
+  "unit": "trillion tokens (prompt+completion)",
+  "window": {
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-29"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "model": "Hermes Agent",
+      "organization": "app",
+      "score": 12.76,
+      "total_tokens": "12759489243998",
+      "app_id": 3067167,
+      "total_requests": 117601562
+    },
+    {
+      "rank": 2,
+      "model": "Claude Code",
+      "organization": "app",
+      "score": 11.22,
+      "total_tokens": "11216085772478",
+      "app_id": 2627404,
+      "total_requests": 105724517
+    },
+    {
+      "rank": 3,
+      "model": "pi",
+      "organization": "app",
+      "score": 5.93,
+      "total_tokens": "5926215958658",
+      "app_id": 2853275,
+      "total_requests": 44762981
+    },
+    {
+      "rank": 4,
+      "model": "Codex",
+      "organization": "app",
+      "score": 5.04,
+      "total_tokens": "5040349167709",
+      "app_id": 2668297,
+      "total_requests": 71316282
+    },
+    {
+      "rank": 5,
+      "model": "Kilo Code",
+      "organization": "app",
+      "score": 4.51,
+      "total_tokens": "4506458367375",
+      "app_id": 2262242,
+      "total_requests": 44047378
+    },
+    {
+      "rank": 6,
+      "model": "OpenClaw",
+      "organization": "app",
+      "score": 2.66,
+      "total_tokens": "2660255721007",
+      "app_id": 2725608,
+      "total_requests": 22492409
+    },
+    {
+      "rank": 7,
+      "model": "omp",
+      "organization": "app",
+      "score": 1.95,
+      "total_tokens": "1953264626539",
+      "app_id": 3682314,
+      "total_requests": 12663924
+    },
+    {
+      "rank": 8,
+      "model": "Strix",
+      "organization": "app",
+      "score": 1.48,
+      "total_tokens": "1480758008148",
+      "app_id": 3003505,
+      "total_requests": 12309985
+    },
+    {
+      "rank": 9,
+      "model": "Cline",
+      "organization": "app",
+      "score": 0.98,
+      "total_tokens": "975651457821",
+      "app_id": 190604,
+      "total_requests": 16649392
+    },
+    {
+      "rank": 10,
+      "model": "Portkey AI",
+      "organization": "app",
+      "score": 0.76,
+      "total_tokens": "762235934099",
+      "app_id": 169295,
+      "total_requests": 95120880
+    },
+    {
+      "rank": 11,
+      "model": "OpenHands",
+      "organization": "app",
+      "score": 0.57,
+      "total_tokens": "573958342077",
+      "app_id": 189563,
+      "total_requests": 6087785
+    },
+    {
+      "rank": 12,
+      "model": "Aura",
+      "organization": "app",
+      "score": 0.44,
+      "total_tokens": "440383515955",
+      "app_id": 4749832,
+      "total_requests": 4064589
+    },
+    {
+      "rank": 13,
+      "model": "CodeGPT",
+      "organization": "app",
+      "score": 0.41,
+      "total_tokens": "411433751805",
+      "app_id": 4780809,
+      "total_requests": 2398731
+    },
+    {
+      "rank": 14,
+      "model": "Proto Agent",
+      "organization": "app",
+      "score": 0.37,
+      "total_tokens": "369254107202",
+      "app_id": 4725308,
+      "total_requests": 4247329
+    },
+    {
+      "rank": 15,
+      "model": "Cursor",
+      "organization": "app",
+      "score": 0.35,
+      "total_tokens": "346021028017",
+      "app_id": 2237546,
+      "total_requests": 3236173
+    }
+  ],
+  "data": [
+    {
+      "rank": 1,
+      "app_id": 3067167,
+      "app_name": "Hermes Agent",
+      "total_tokens": "12759489243998",
+      "total_requests": 117601562
+    },
+    {
+      "rank": 2,
+      "app_id": 2627404,
+      "app_name": "Claude Code",
+      "total_tokens": "11216085772478",
+      "total_requests": 105724517
+    },
+    {
+      "rank": 3,
+      "app_id": 2853275,
+      "app_name": "pi",
+      "total_tokens": "5926215958658",
+      "total_requests": 44762981
+    },
+    {
+      "rank": 4,
+      "app_id": 2668297,
+      "app_name": "Codex",
+      "total_tokens": "5040349167709",
+      "total_requests": 71316282
+    },
+    {
+      "rank": 5,
+      "app_id": 2262242,
+      "app_name": "Kilo Code",
+      "total_tokens": "4506458367375",
+      "total_requests": 44047378
+    },
+    {
+      "rank": 6,
+      "app_id": 2725608,
+      "app_name": "OpenClaw",
+      "total_tokens": "2660255721007",
+      "total_requests": 22492409
+    },
+    {
+      "rank": 7,
+      "app_id": 3682314,
+      "app_name": "omp",
+      "total_tokens": "1953264626539",
+      "total_requests": 12663924
+    },
+    {
+      "rank": 8,
+      "app_id": 3003505,
+      "app_name": "Strix",
+      "total_tokens": "1480758008148",
+      "total_requests": 12309985
+    },
+    {
+      "rank": 9,
+      "app_id": 190604,
+      "app_name": "Cline",
+      "total_tokens": "975651457821",
+      "total_requests": 16649392
+    },
+    {
+      "rank": 10,
+      "app_id": 169295,
+      "app_name": "Portkey AI",
+      "total_tokens": "762235934099",
+      "total_requests": 95120880
+    },
+    {
+      "rank": 11,
+      "app_id": 189563,
+      "app_name": "OpenHands",
+      "total_tokens": "573958342077",
+      "total_requests": 6087785
+    },
+    {
+      "rank": 12,
+      "app_id": 4749832,
+      "app_name": "Aura",
+      "total_tokens": "440383515955",
+      "total_requests": 4064589
+    },
+    {
+      "rank": 13,
+      "app_id": 4780809,
+      "app_name": "CodeGPT",
+      "total_tokens": "411433751805",
+      "total_requests": 2398731
+    },
+    {
+      "rank": 14,
+      "app_id": 4725308,
+      "app_name": "Proto Agent",
+      "total_tokens": "369254107202",
+      "total_requests": 4247329
+    },
+    {
+      "rank": 15,
+      "app_id": 2237546,
+      "app_name": "Cursor",
+      "total_tokens": "346021028017",
+      "total_requests": 3236173
+    }
+  ],
+  "ok": true
 }

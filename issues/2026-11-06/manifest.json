@@ -16,9 +16,9 @@
   "scripts": {
     "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
     "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
-    "fetch_artificial_analysis.py": "未请求。云端没有 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY，脚本写出 skipped。",
-    "fetch_openrouter.py": "未请求。云端没有 OPENROUTER_API_KEY，脚本写出 skipped。",
-    "fetch_openrouter_endpoints.py": "未请求。同上，skipped。",
+    "fetch_artificial_analysis.py": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
+    "fetch_openrouter.py": "box 上已有 OPENROUTER_API_KEY，2026-11-22T14:25+08:00 跑现有 fetch_openrouter.py，HTTP 200。云端早先的 401 只是没有这个环境变量。密钥没有进入仓库。",
+    "fetch_openrouter_endpoints.py": "这批没有官方端点文件。端点延迟是近实时测量，不能写成历史速度。OpenRouter Data API 的历史用量已在同目录另四份文件，采集时间 2026-11-22T14:25+08:00。",
     "model_release_ranks.py": "没有跑。没有可排名的当期价格或速度。"
   },
   "files": {
@@ -31,12 +31,12 @@
       "errors": 0,
       "items_before_trending_removal": 126,
       "trending_removed": 35,
-      "items": 110,
-      "thin": 77,
+      "items": 109,
+      "thin": 76,
       "included_entries_before_dedupe": 139,
       "deduped": 13,
       "date_conflicts": 0,
-      "bytes": 387044,
+      "bytes": 386948,
       "truncated_sources": [
         {
           "id": "aws-ml",
@@ -190,8 +190,7 @@
         "script_matched_including_live_trending": 27
       },
       "xai_removed_unverified_date": 3,
-      "xai_kept": [],
-      "xai_date_note": "0xSMW 的 xAI 日期不可靠。2026-11-22 请求 https://x.ai/sitemap.xml 得到 HTTP 403，不能逐条复核 lastmod。同一 pubDate 2026-10-20 上有 44 条，含 Announcing Grok、Series C 这类更早的稿，不能整批算进 2026-10-16～10-22。只保留 incident-sweep：2026-11-20 快照已记下 sitemap lastmod 2026-10-20，和现在的 feed 日期一致。grok-bot-1-0 的 feed 日期是 2026-11-02，同一份快照记下的 sitemap lastmod 是 2026-11-11，不在 2026-10-30～11-05。其余 xAI 条目没有可核验日期，从这三期窗口移除，正文没有改写。",
+      "xai_date_note": "sitemap lastmod 不是发布时间。incident-sweep、partnernetworkannouncement、grok-bot-sales、data-bot 只有 lastmod，已移出 items。feed 批量 pubDate 2026-10-20 仍不可靠。",
       "truncated_sources_note": "这是脚本的 truncated 标记：该源当前 feed 里最旧一条的日期不早于窗口起点，窗口前段或整段可能已经不在 feed 里。不是把正文截断。",
       "archive_supplement": {
         "retrievedAt": "2026-11-22T14:12:59+08:00",
@@ -202,12 +201,21 @@
           "huggingface": 11
         },
         "note": "列表或 sitemap 存档只提供标题、链接和日期。summary 为空表示没有 feed 正文。xAI 正文来自 feed，日期来自 2026-11-11 的 sitemap 捕获。"
-      }
+      },
+      "xai_removed_unqualified": 1,
+      "xai_unqualified": [
+        {
+          "link": "https://x.ai/news/data-bot",
+          "date_from_lastmod": "2026-11-02",
+          "title": "Giving every team a data scientist with Grok Bot",
+          "reason": "只有 sitemap lastmod，没有正文发布日期。lastmod 不是发布时间，移出严格窗口。"
+        }
+      ]
     },
     "feeds.index.json": {
       "description": "由去掉 Trending 之后的 feeds.json 用脚本的 index_from_payload 生成。",
-      "items": 110,
-      "bytes": 56005
+      "items": 109,
+      "bytes": 55655
     },
     "github-trending.json": {
       "absent": true,
@@ -233,37 +241,84 @@
     },
     "aa-language-models.json": {
       "skipped": true,
-      "reason": "未设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY。未请求接口。文件只记录跳过，不是该期智力指数。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "written": false,
+      "reason": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
+      "fetched_models_verified": 764,
+      "historical_as_of": false
     },
     "openrouter-rankings-daily.json": {
-      "skipped": true,
-      "reason": "未设置 OPENROUTER_API_KEY。未请求 Data API。不能把抓取日的用量写成这一周。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "description": "OpenRouter Data API 全品类日用量。行上的 date 落在该期 UTC 窗口和上一周。采集时间是 2026-11-22T14:25+08:00，不是生成日当天。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:07+08:00",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "prior_window": {
+        "start_date": "2026-10-23",
+        "end_date": "2026-10-29"
+      },
+      "missing_dates": [],
+      "prior_missing_dates": [],
+      "rows": 714,
+      "items": 15
     },
     "openrouter-rankings-programming.json": {
-      "skipped": true,
-      "reason": "同上。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "description": "编程分类按周抽样。bucket 是窗口结束日之前最近一个已结束的周一至周日，不等于资讯的 7 日窗口。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:08+08:00",
+      "coverage_window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "sampled_week": {
+        "start_date": "2026-10-26",
+        "end_date": "2026-11-01"
+      },
+      "prior_sampled_week": {
+        "start_date": "2026-10-19",
+        "end_date": "2026-10-25"
+      },
+      "bucket_date": "2026-10-26",
+      "items": 15,
+      "not_the_news_window": true
     },
     "openrouter-app-rankings.json": {
-      "skipped": true,
-      "reason": "同上。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "description": "应用排行，sort=popular，日期参数是该期 UTC 7 日窗口。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:08+08:00",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "items": 15
     },
     "openrouter-app-rankings-coding.json": {
-      "skipped": true,
-      "reason": "同上。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "description": "编程类应用排行旁路。日期参数是该期 UTC 7 日窗口。",
+      "ok": true,
+      "skipped": false,
+      "license": "CC BY 4.0",
+      "fetched_at": "2026-11-22T14:25:09+08:00",
+      "category": "coding",
+      "window": {
+        "start_date": "2026-10-30",
+        "end_date": "2026-11-05"
+      },
+      "items": 15
     },
     "openrouter-official-endpoints.json": {
       "skipped": true,
-      "reason": "未设置 OPENROUTER_API_KEY。未请求端点。近 30 分钟延迟不是历史速度。",
-      "fetched_at": "2026-11-22T13:58:14+08:00"
+      "reason": "这批没有官方端点文件。端点延迟是近实时测量，不能写成历史速度。OpenRouter Data API 的历史用量已在同目录另四份文件，采集时间 2026-11-22T14:25+08:00。"
     },
     "model-releases.json": {
       "skipped": true,
-      "reason": "没有该期的价格、速度、智力指数快照，也没有跑排名。models 为空不是「这周没有发布」。",
+      "reason": "没有该期的历史价格、速度和智力指数。AA 免费接口 2026-11-22 能拉到当前 764 个模型，但没有历史 as-of，所以没有写入。OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
       "fetched_at": "2026-11-22T13:58:14+08:00"
     },
     "llm-arena-2026-10-28.json": {
@@ -283,9 +338,10 @@
   "checked_and_empty": {
     "glm_research_list": "2026-11-22 https://www.zhipuai.cn/zh/research HTTP 200，页面无 2026-10 或 2026-11 日期",
     "meta_old_blog_list": "2026-11-22 https://ai.meta.com/blog/ HTTP 200，页面无 2026-10 或 2026-11",
-    "openrouter": "2026-11-22 GET /api/v1/datasets/rankings-daily 无密钥返回 HTTP 401 No cookie auth credentials found",
-    "artificial_analysis": "2026-11-22 GET /api/v2/language/models/free 无密钥返回 HTTP 401 API key is required",
+    "openrouter": "2026-11-22T14:25+08:00 Data API HTTP 200。usage 窗口 2026-10-30～2026-11-05，missing_dates 为空。programming 采样周 2026-10-26～2026-11-01，不是资讯窗口。",
+    "artificial_analysis": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
     "github_trending_weekly_xml": "Wayback CDX 2026-10-20～11-08 对 weekly/all.xml 返回空数组",
     "aws_paged_feed": "2026-11-22 feed 与 ?paged=2/5/8 字节数相同，都是最近约 20 条"
-  }
+  },
+  "openrouter_landed_at": "2026-11-22T14:25:09+08:00"
 }

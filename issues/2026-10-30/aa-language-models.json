@@ -1,7 +1,7 @@
 {
   "skipped": true,
   "ok": false,
-  "reason": "未设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY",
+  "reason": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
   "attribution": "Data from Artificial Analysis (https://artificialanalysis.ai/).",
   "mcp": "https://mcp.artificialanalysis.ai/mcp",
   "items": [],
@@ -9,5 +9,9 @@
   "intended_window": {
     "since": "2026-10-23",
     "until": "2026-10-29"
-  }
+  },
+  "historical_as_of": false,
+  "current_catalog_verified_at": "2026-11-22T14:25:29+08:00",
+  "current_catalog_models": 764,
+  "stored_here": false
 }
