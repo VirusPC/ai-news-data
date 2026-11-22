@@ -6,7 +6,7 @@
   "stats": {
     "feeds": 51,
     "errors": 0,
-    "items": 142,
+    "items": 143,
     "thin": 4
   },
   "items": [
@@ -1287,6 +1287,15 @@
       "thin": false,
       "lane": "product",
       "preview": "2026-10-20 · 10 min read \n\n What does a three-second response feel like? Instead of waiting for a reply, you get feedback almost as soon as you finish asking. That is what the recently launched Qoder Fast tier delivers. It brings the time to first response down from 8 seconds to 3 seconds while reducing the Credits consumption multiplier from 1.1× to 0.8×. Many users have asked how we achieved thi"
+    },
+    {
+      "title": "天猫数字员工（协作篇）- 研发的暗物质与 AI Native 组织协作",
+      "date": "2026-10-21",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "前言\n\n天猫技术正在建设统一的 AI 端到端交付架构：数字员工提供统一入口与运行时，驻进需求群承接交付；各业务域按需装配并持续沉淀自己的知识、技能与子 Agent。它与产品、前端、后端、测试共享上下文，接需求、写方案、调度 Agent、跟进交付，像一位全程在场的同事。目前已经在天猫技术的所有业务线进行落地推广，月均活跃需求交付100+。\n\n> 区别于一般 AI 编码工具的两个核心视角——协作：与所有角色共享同一份上下文，让协作重新连起来，而不是被 AI 切碎；资产：把散在人脑与聊天记录里的业务认知，从组织维度沉淀成可复用的资产，越用越厚。\n> \n> 本文为此系列第一篇内容。\n\n数字员工以钉钉为协作入口。每条需求对应一个场景群，产品、设计、开发、测试与它共享同一份需求上下文；从 PRD、设计稿和技术方案，到编码、测试、发布与复盘，产物都回到群里。团队不用更换协作工具，@ 它即可发起任务，私聊",
+      "lane": "tech"
     }
   ]
 }

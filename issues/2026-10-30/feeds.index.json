@@ -6,7 +6,7 @@
   "stats": {
     "feeds": 51,
     "errors": 0,
-    "items": 138,
+    "items": 139,
     "thin": 13
   },
   "items": [
@@ -1251,6 +1251,15 @@
       "thin": false,
       "preview": "Your next sales teammate should be a Grok Bot | SpaceXSI\nBack to newsOct 27, 2026\nYour next sales teammate should be a Grok Bot\nBy Iris Wang, Joe Robertson, Micheal Sihavong, and Palmi Angelova\nThe SpaceXSI Sales team built Team Bots for prospecting, quoting, and deal review so every rep works from the same up-to-date expertise.\nDownload for macOSContact sales\nWhen the SpaceXSI Sales team first ad",
       "lane": "product"
+    },
+    {
+      "title": "你的Personal Agent 如何真正跑起来？Agent实战指南",
+      "date": "2026-10-26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804831&idx=1&sn=bcfae266ff83331edd3f2a72643592d3",
+      "source": "tencent-engineering",
+      "thin": false,
+      "preview": "你的Personal Agent 如何真正跑起来？Agent实战指南\n腾讯技术工程\n2026-10-26 17:33\n作者：spike，腾讯游戏数据团队负责人\n\n今年以来我一直在建设自己的分身，也在工作中用得非常多。前面几篇聊到了context、个人bias和判断带宽，这次想具体讲讲，我平时怎么用，以及这套东西是怎么一点点搭起来的。\n现在已经养成了一个习惯，想到什么，就找一个当时顺手的分身聊一下。如果是在电脑\n前的时候，可以跟它深入讨论、查材料、改文件、跑实验；离开电脑，也可以从手机\n上的企微/Htalk里继续。有些分身在自己的电脑上，有些在云端，我也花了不少时间，把它们能用的资料、近期工作和记忆接起来。\n我经常只有半个想法，还没整理成一个完整问题。或者刚收到一份材料，觉得跟手上的事情有关，但还没想清楚有什么关系。先说给它听，它去找相关背景，我们再一起往下想。需要查的继续查，能试的就动手试",
+      "lane": "tech"
     }
   ]
 }

@@ -3314,6 +3314,26 @@
       }
     ],
     "rejected_extras": [],
-    "note": "只在文章页返回了长于 feed 摘要的正文时替换 summary。原 feed 摘要留在 feed_summary。打不开或短于 280 字的不改。x.com 没有请求。"
+    "note": "只在文章页返回了长于 feed 摘要的正文时替换 summary。原 feed 摘要留在 feed_summary。打不开或短于 280 字的不改。x.com 没有请求。",
+    "wechatGapAudit": [
+      {
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512318&idx=1&sn=9969e18a672d01b5c803a20991f2846e",
+        "result": "still-missing-full-text",
+        "tried": [
+          "article wayback CDX empty",
+          "live and 2026-11-15 alibaba RSS do not contain this sn",
+          "search hits are short news briefs about Apple Intelligence and Qwen, not the WeChat article"
+        ]
+      },
+      {
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512313&idx=1&sn=d8564332f58af0201a766cc017da8529",
+        "result": "still-missing-full-text",
+        "tried": [
+          "article wayback CDX empty",
+          "live and 2026-11-15 alibaba RSS do not contain this sn",
+          "search hits are a short WMT26 score brief, not the WeChat article"
+        ]
+      }
+    ]
   }
 }
