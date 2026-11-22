@@ -1,0 +1,14 @@
+{
+  "skipped": true,
+  "ok": false,
+  "board": "programming",
+  "source": "OpenRouter",
+  "license": "CC BY 4.0",
+  "reason": "未设置 OPENROUTER_API_KEY",
+  "items": [],
+  "fetched_at": "2026-11-22T13:58:14+08:00",
+  "intended_window": {
+    "since": "2026-10-23",
+    "until": "2026-10-29"
+  }
+}

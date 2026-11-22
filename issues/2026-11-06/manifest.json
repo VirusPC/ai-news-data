@@ -1,0 +1,272 @@
+{
+  "issue": "2026-11-06",
+  "coverage_window": {
+    "since": "2026-10-30",
+    "until": "2026-11-05",
+    "timezone": "UTC",
+    "note": "生成日 D 的窗口是 D-7 00:00:00 至 D-1 23:59:59（UTC，含两端，不含 D）。与 2026-11-20 起的规则相同。"
+  },
+  "backfilled_at": "2026-11-22T13:58:14+08:00",
+  "generated_at": "2026-11-22T13:58:14+08:00",
+  "generated_at_note": "这是 2026-11-22 的回补采集时间，不是当初周五 09:00 的生成时间。数据仓此前没有这一期的原始快照。",
+  "acquisition": "live-refetch",
+  "brain_repo_commit": "8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+  "skill_path": "skills/managed/weekly-ai-blogs-digest",
+  "routine_path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md",
+  "scripts": {
+    "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+    "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
+    "fetch_artificial_analysis.py": "未请求。云端没有 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY，脚本写出 skipped。",
+    "fetch_openrouter.py": "未请求。云端没有 OPENROUTER_API_KEY，脚本写出 skipped。",
+    "fetch_openrouter_endpoints.py": "未请求。同上，skipped。",
+    "model_release_ranks.py": "没有跑。没有可排名的当期价格或速度。"
+  },
+  "files": {
+    "feeds.json": {
+      "description": "2026-11-22 按现行 OPML 与 meta 重拉，只保留 feed 给出的正文。不打开文章页。GitHub Trending 的当日 weekly 已从条目里去掉，见 historicalExclusion。",
+      "since": "2026-10-30",
+      "until": "2026-11-05",
+      "timezone": "UTC",
+      "feeds": 51,
+      "errors": 0,
+      "items_before_trending_removal": 126,
+      "trending_removed": 35,
+      "items": 88,
+      "thin": 55,
+      "included_entries_before_dedupe": 139,
+      "deduped": 13,
+      "date_conflicts": 0,
+      "bytes": 376371,
+      "truncated_sources": [
+        {
+          "id": "aws-ml",
+          "oldest": "2026-11-19",
+          "newest": "2026-11-22",
+          "entries_total": 20,
+          "entries_in_window": 0
+        },
+        {
+          "id": "bytedance-tech",
+          "oldest": "2026-11-02",
+          "newest": "2026-11-19",
+          "entries_total": 10,
+          "entries_in_window": 4
+        },
+        {
+          "id": "taobao-tech",
+          "oldest": "2026-10-30",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 3
+        },
+        {
+          "id": "alipay-ux",
+          "oldest": "2026-11-07",
+          "newest": "2026-11-18",
+          "entries_total": 10,
+          "entries_in_window": 0
+        },
+        {
+          "id": "tencent-engineering",
+          "oldest": "2026-11-04",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 2
+        },
+        {
+          "id": "alibaba-tech",
+          "oldest": "2026-11-09",
+          "newest": "2026-11-20",
+          "entries_total": 10,
+          "entries_in_window": 0
+        }
+      ],
+      "health": [
+        {
+          "id": "meta-ai",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-27",
+          "included": true
+        },
+        {
+          "id": "meta-ai-rsshub",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-26",
+          "included": true
+        },
+        {
+          "id": "xai-news-olshansk",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-28",
+          "included": false
+        },
+        {
+          "id": "zed",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-16",
+          "included": true
+        },
+        {
+          "id": "glm",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-09-18",
+          "included": true
+        },
+        {
+          "id": "jxnl",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-05",
+          "included": true
+        },
+        {
+          "id": "qwen-ai-platform",
+          "issues": [
+            "stopped"
+          ],
+          "newest": "2026-07-20",
+          "included": true
+        },
+        {
+          "id": "github-trending-weekly-all",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        },
+        {
+          "id": "github-trending-weekly-python",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        },
+        {
+          "id": "github-trending-weekly-typescript",
+          "issues": [
+            "live-snapshot-not-historical"
+          ],
+          "newest": "2026-11-21",
+          "included": false
+        }
+      ],
+      "needs_list_page": [
+        {
+          "publisher": "meta-ai",
+          "primary": "meta-ai",
+          "primaryIssues": [
+            "stopped"
+          ],
+          "usedBackups": [
+            "meta-ai-rsshub"
+          ],
+          "needsListPage": true
+        }
+      ],
+      "old_digest_link_check": {
+        "description": "只拿旧周报里的链接对这次 feed 快照做有无核对，不把旧摘要或旧正文写进快照。",
+        "digest_links": 43,
+        "matched_in_kept_feeds": 27,
+        "matched_only_because_live_trending_removed": 0,
+        "misses": 16,
+        "miss_reasons": {
+          "outside-list": 12,
+          "not-in-feed": 3,
+          "outside-window": 1
+        },
+        "script_matched_including_live_trending": 27
+      },
+      "xai_removed_unverified_date": 3,
+      "xai_kept": [],
+      "xai_date_note": "0xSMW 的 xAI 日期不可靠。2026-11-22 请求 https://x.ai/sitemap.xml 得到 HTTP 403，不能逐条复核 lastmod。同一 pubDate 2026-10-20 上有 44 条，含 Announcing Grok、Series C 这类更早的稿，不能整批算进 2026-10-16～10-22。只保留 incident-sweep：2026-11-20 快照已记下 sitemap lastmod 2026-10-20，和现在的 feed 日期一致。grok-bot-1-0 的 feed 日期是 2026-11-02，同一份快照记下的 sitemap lastmod 是 2026-11-11，不在 2026-10-30～11-05。其余 xAI 条目没有可核验日期，从这三期窗口移除，正文没有改写。",
+      "truncated_sources_note": "这是脚本的 truncated 标记：该源当前 feed 里最旧一条的日期不早于窗口起点，窗口前段或整段可能已经不在 feed 里。不是把正文截断。"
+    },
+    "feeds.index.json": {
+      "description": "由去掉 Trending 之后的 feeds.json 用脚本的 index_from_payload 生成。",
+      "items": 88,
+      "bytes": 50074
+    },
+    "github-trending.json": {
+      "absent": true,
+      "reason": "在线 weekly 的 channel pubDate 是 2026-11-21，不是这一期。没有可核验的当时 XML。不写空榜，也不用旧周报前五名充数。",
+      "observed_at": "2026-11-22T13:58:14+08:00",
+      "channels": {
+        "github-trending-weekly-all": {
+          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml",
+          "channel_pubDate": "Sat, 21 Nov 2026 07:51:06 GMT",
+          "live_items": 13
+        },
+        "github-trending-weekly-python": {
+          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/python.xml",
+          "channel_pubDate": "Sat, 21 Nov 2026 08:03:52 GMT",
+          "live_items": 15
+        },
+        "github-trending-weekly-typescript": {
+          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/typescript.xml",
+          "channel_pubDate": "Sat, 21 Nov 2026 08:07:53 GMT",
+          "live_items": 17
+        }
+      }
+    },
+    "aa-language-models.json": {
+      "skipped": true,
+      "reason": "未设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY。未请求接口。文件只记录跳过，不是该期智力指数。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "openrouter-rankings-daily.json": {
+      "skipped": true,
+      "reason": "未设置 OPENROUTER_API_KEY。未请求 Data API。不能把抓取日的用量写成这一周。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "openrouter-rankings-programming.json": {
+      "skipped": true,
+      "reason": "同上。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "openrouter-app-rankings.json": {
+      "skipped": true,
+      "reason": "同上。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "openrouter-app-rankings-coding.json": {
+      "skipped": true,
+      "reason": "同上。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "openrouter-official-endpoints.json": {
+      "skipped": true,
+      "reason": "未设置 OPENROUTER_API_KEY。未请求端点。近 30 分钟延迟不是历史速度。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "model-releases.json": {
+      "skipped": true,
+      "reason": "没有该期的价格、速度、智力指数快照，也没有跑排名。models 为空不是「这周没有发布」。",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    },
+    "llm-arena-2026-10-28.json": {
+      "description": "full parquet 里 leaderboard_publish_date ≤ 窗口结束日的最近一份 overall Top 20。抓取日读取的是数据集里仍在的历史榜，不是 latest。",
+      "leaderboard_publish_date": "2026-10-28",
+      "prior_publish_date": "2026-10-22",
+      "next_publish_date": "2026-11-06",
+      "rows": 419,
+      "items": 20,
+      "dataset": "lmarena-ai/leaderboard-dataset",
+      "config": "text_style_control",
+      "split": "full",
+      "fetched_at": "2026-11-22T13:58:14+08:00"
+    }
+  }
+}
