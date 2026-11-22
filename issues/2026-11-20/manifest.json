@@ -300,8 +300,24 @@
       "feed_pubDate": "Fri, 20 Nov 2026 07:56:38 GMT",
       "items": 13,
       "bytes": 351415
+    },
+    "openrouter-official-endpoints.json": {
+      "skipped": true,
+      "reason": "生成日没有留下这份目录。2026-11-22 没有密钥，也没有把当天端点延迟写进来。model-releases.json 里已有的四条速度是 2026-11-20 的测量，没有改。"
     }
   },
   "refreshed_at": "2026-11-21T10:50:00Z",
-  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c。含四家国内模型厂：微信主源，官网只作列表页退路。"
+  "brain_repo_commit_note": "edges-brain-viruspc cursor/weekly-feed-fallback-da6c。含四家国内模型厂：微信主源，官网只作列表页退路。",
+  "gap_fill_2026_11_22": {
+    "added": [
+      "openrouter-official-endpoints.json"
+    ],
+    "unchanged": [
+      "model-releases.json 的价格、速度和智力指数",
+      "aa-language-models.json",
+      "feeds.json",
+      "OpenRouter 用量"
+    ],
+    "still_missing": "官方端点全量目录。速度排名仍是 null。"
+  }
 }

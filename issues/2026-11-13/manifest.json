@@ -21,11 +21,13 @@
       "errors": 0,
       "items": 218,
       "thin": 107,
-      "feed_bytes": 24811426
+      "feed_bytes": 24811426,
+      "gap_fill": "15 条空摘要用文章页补了正文（summary_source=article_page）。其余仍是当初截到 1200 字的 feed 正文。thin 现为 92。"
     },
     "feeds-full.json": {
       "description": "同一批条目的全文版（不截断）",
-      "items": 218
+      "items": 218,
+      "gap_fill": "同样补了这 15 条空摘要。thin 现为 92。feed 本身偏短的条目没有改成网页全文。"
     },
     "llm-arena.json": {
       "description": "fetch_llm_arena.py --until 2026-11-12",
@@ -138,6 +140,46 @@
       "items": 20,
       "dataset": "lmarena-ai/leaderboard-dataset",
       "config": "text_style_control"
+    },
+    "feeds.index.json": {
+      "description": "由 feeds-full.json 生成的选文索引。preview 是正文开头约 400 字。",
+      "items": 218,
+      "thin": 92,
+      "bytes": 153425
+    },
+    "model-releases.json": {
+      "description": "窗口 2026-11-06～2026-11-12 内的厂商公告。Fable 5.2 / Mythos 5.2 的单价来自 2026-11-09 公告原文。Hydrogen 的 $2.40/task 不是 token 单价，没有写成价格。Grok 4.7 的 $2/$6 来自 2026-11-12 的 Kiro 文，并注明是文中的 SpaceXSI data。Qwen 预览和两家开源没有单价。没有回写 2026-11-20 的价格，也没有用 2026-11-22 的榜。",
+      "models": 7,
+      "price_rank": "not_ranked",
+      "speed_rank": "not_ranked"
+    },
+    "openrouter-official-endpoints.json": {
+      "skipped": true,
+      "reason": "本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，没有用 2026-11-22 的测量充当 2026-11-13 的历史速度。"
+    },
+    "github-trending-weekly.json": {
+      "description": "hanishrao/trending-collection 50ae48d7b8，pubDate Fri, 13 Nov 2026 09:01:04 GMT，all/python/typescript 为 11/14/15。added_stars 都是 stars this week。晚于周五 09:00 Asia/Shanghai。不是 mshibanami RSS。github-trending.json 的 daily 原抓取没有覆盖。",
+      "not_generation_morning": true,
+      "counts": {
+        "all": 11,
+        "python": 14,
+        "typescript": 15
+      }
+    }
+  },
+  "gap_fill_2026_11_22": {
+    "added": [
+      "feeds.index.json",
+      "model-releases.json",
+      "openrouter-official-endpoints.json",
+      "github-trending-weekly.json"
+    ],
+    "article_pages_filled": 15,
+    "still_missing": {
+      "friday_0900_weekly": "没有找到周五 09:00 Asia/Shanghai（01:00 UTC）的 weekly。hanishrao 这份是 09:01 GMT。mshibanami generated-feeds 在 2026-11-13 00:00–12:00 UTC 没有 weekly/all.xml 提交。",
+      "endpoint_speed": "没有历史端点测量，也没有密钥。",
+      "hydrogen_token_price": "窗口内打开的 Antigravity、Google Search、Devin 页都没有 token 单价。第三方日报的 $1.50/$7.50 没有写入。",
+      "wechat_article_pages": "Qwen4-Max 预览和 MiniMax H3-Image 的微信页返回未知错误，正文仍是 feed 摘要。"
     }
   }
 }
