@@ -1,0 +1,1975 @@
+{
+  "window": {
+    "since": "2026-11-06",
+    "until": "2026-11-12"
+  },
+  "stats": {
+    "items": 218,
+    "thin": 92
+  },
+  "description": "由 feeds-full.json 生成。preview 是正文开头约 400 字。feeds.json 仍是当初截到 1200 字的那份；空摘要已用文章页补进两份。",
+  "items": [
+    {
+      "title": "11月12日免费薅羊毛合集",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3164597",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "11月12日免费薅羊毛合集 今天刷到的免费福利，整理了一下，都是能直接领的： Epic 免费游戏 2 款：《浮游世界》《Idle Champions of the Forgotten Realms》，今晚 12 点截止，Epic 商城搜名字领 咪咕音乐天籁体验会员，免费领一年 火狐浏览器内置免费 VPN 更新了，无限流量 移动用户今天领 1-9 元话费，移动 App 里找 超算互联网新用户，1 毛钱买 5000 万 DeepSeek tokens 江苏学生买数码产品，最高领 400 元数字人民币红包 众安银行开户额外返 500 港币 双 11 会员价：夸克网盘 SVIP 年卡打折，iCloud+ 85 折 小渔排班宣布永久免费，轮班日历无广告无订阅 小提醒：有些是限时的，看到就先领；领之前看一眼官方规则，别被过期的帖子坑了。 8 个帖子 - 8 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "aaaa批发",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3166515",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "已经领取到抓紧注册，失效不管 今晚请尽情享受。 等待下次再次开启。 各位晚安 61 个帖子 - 51 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "addyosmani/agent-skills",
+      "date": "2026-11-12",
+      "link": "https://github.com/addyosmani/agent-skills",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "Production-grade engineering skills for AI coding agents. https://skills.addy.ie Agent Skills Production-grade engineering skills for AI coding agents. Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌",
+      "lane": "special"
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "date": "2026-11-12",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly) Quick Start · Providers · Clients · Integrations · Manage Independent open-source project. Not affiliated with or ",
+      "lane": "special"
+    },
+    {
+      "title": "AminBlg/SimpleEnglish",
+      "date": "2026-11-12",
+      "link": "https://github.com/AminBlg/SimpleEnglish",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical ✈️ your AI writes like a LinkedIn post. make it write like a Boeing manual. An agent skill that makes LLMs write plain English with the discipline of ASD-STE100 Simplified Technical English, the controlled language aerospace has used since 1983 so that a tired mechanic cannot misread an instruction. Layman-readable by default, ST",
+      "lane": "special"
+    },
+    {
+      "title": "anthropics/claude-quickstarts",
+      "date": "2026-11-12",
+      "link": "https://github.com/anthropics/claude-quickstarts",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API Claude Quickstarts Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific need",
+      "lane": "special"
+    },
+    {
+      "title": "anthropics/skills",
+      "date": "2026-11-12",
+      "link": "https://github.com/anthropics/skills",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whe",
+      "lane": "special"
+    },
+    {
+      "title": "backnotprop/plannotator",
+      "date": "2026-11-12",
+      "link": "https://github.com/backnotprop/plannotator",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. https://plannotator.ai Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send fe",
+      "lane": "special"
+    },
+    {
+      "title": "browser-use/browser-use",
+      "date": "2026-11-12",
+      "link": "https://github.com/browser-use/browser-use",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. https://browser-use.com The open-source browser agent. Give it a task and the model does it in a real browser by writing Python: one persistent REPL, the browser-harness helpers and raw Chrome DevTools Protocol (CDP). Runs on any LLM, locally or on Browser Use Cloud. MIT licensed. ● t",
+      "lane": "special"
+    },
+    {
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Java teams have established JVM tooling, continuous integration and continuous delivery (CI/CD) pipelines, and operational patterns, yet taking AI agents from prototype to production is hard: agent frameworks do not solve scalability, governance, security, and operational concerns by default. Amazon Bedrock and Spring AI close those gaps, so Java teams can build autonomous AI agents that plan, cal",
+      "lane": "tech"
+    },
+    {
+      "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Agents in multi-agent systems that span organizational boundaries often need to collaborate in a composable, interoperable way, with agents that other organizations build and run. They need a way to discover each other, communicate, and exchange tasks without exposing internals or requiring the same framework on both sides. The Agent-to-Agent (A2A) protocol addresses this constraint. Without A2A, ",
+      "lane": "tech"
+    },
+    {
+      "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Developers want AI coding assistants with minimal setup. With a large language model (LLM) gateway and LiteLLM, they can quickly access foundation models (FMs) available on Amazon Bedrock while you gain visibility and usage control. Platform teams need to monitor latency and errors, finance teams need to attribute inference costs to teams and projects, and security teams need consistent access con",
+      "lane": "tech"
+    },
+    {
+      "title": "Bye Bye, Dial",
+      "date": "2026-11-12",
+      "link": "https://ampcode.com/news/bye-bye-dial",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "Today we're saying goodbye to the Dial and its four modes: low, medium, high, and ultra. A model selector takes its place: You can now pick the model and its effort for each thread. And you can now also switch both in the middle of a thread. The model selector now also shows you which of your subscriptions or API keys will be billed for each model, or whether it uses Amp credits. If you don't want",
+      "lane": "product"
+    },
+    {
+      "title": "CodeRabbit Passes $100 million in ARR",
+      "date": "2026-11-12",
+      "link": "https://coderabbit.ai/blog/coderabbit-100-million-arr",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "AI has disrupted the software development lifecycle. Teams now generate code at agentic speed, but the rest of the lifecycle still runs on processes built for human speed. As teams climb the maturity curve of AI adoption, they hit a different bottleneck at each stage: reviewing what the agents wrote, deciding which changes to merge first, understanding what a change actually does, and continuously",
+      "lane": "mixed"
+    },
+    {
+      "title": "Cognition and McKinsey form an alliance to help enterprises prove the value of AI in software engineering",
+      "date": "2026-11-12",
+      "link": "https://devin.ai/blog/cognition-mckinsey-alliance",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "Cognition and McKinsey & Company are pairing Devin with McKinsey's operating model work so enterprises can tie added engineering capacity to measurable business results.",
+      "lane": "product"
+    },
+    {
+      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Today, Amazon announced that SGLang-Neuron is publicly available and can be accessed through an AWS Deep Learning Container, released by RadixArk in collaboration with Annapurna Labs. With SGLang-Neuron, you can serve models and generate reinforcement learning (RL) rollouts with SGLang on AWS Trainium using the same SGLang interface you use today. Trainium is a portfolio of AWS AI chips that deliv",
+      "lane": "tech"
+    },
+    {
+      "title": "Devin's new Teams plan",
+      "date": "2026-11-12",
+      "link": "https://devin.ai/blog/devin-teams-plan",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "The Devin Teams plan now includes Devin Desktop for every user, free sessions powered by SWE-2, SSO, cost controls, and a standard BAA for Teams customers.",
+      "lane": "product"
+    },
+    {
+      "title": "dmunozv04/iSponsorBlockTV",
+      "date": "2026-11-12",
+      "link": "https://github.com/dmunozv04/iSponsorBlockTV",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "SponsorBlock client for all YouTube for TV clients. iSponsorBlockTV iSponsorBlockTV is a self-hosted application that connects to your YouTube for TV app (see compatibility below) and automatically skips segments (like Sponsors or intros) in YouTube videos using the SponsorBlock API. It can also auto mute and press the \"Skip Ad\" button the moment it becomes available on YouTube ads. Installation C",
+      "lane": "special"
+    },
+    {
+      "title": "dream-num/univer",
+      "date": "2026-11-12",
+      "link": "https://github.com/dream-num/univer",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. https://univer.ai Build your own AI office with Univer Office SDK. Start with open-source Sheets and Docs, then connect your own application or agent. 🚀 Quick start · 📚 Documentation · ⚖️ Feature compari",
+      "lane": "special"
+    },
+    {
+      "title": "ever-co/ever-gauzy",
+      "date": "2026-11-12",
+      "link": "https://github.com/ever-co/ever-gauzy",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co https://gauzy.co Ever Gauzy Platform 💡 What's New 🔥🔥🔥 we just released Ever Works - An open agentic runtime that autonomously researches, ships, and maintains entire businesses, 24/7. Please grab it now from https://github.com/ever-works/ever-works and make it ⭐⭐⭐ on GitHub! if you like Gauzy, you should also ",
+      "lane": "special"
+    },
+    {
+      "title": "experientiallabs/experiential",
+      "date": "2026-11-12",
+      "link": "https://github.com/experientiallabs/experiential",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own. https://experientiallabs.ai Experiential Experiential is an open source gateway and router for agent workflows: Use hosted, BYOK, and local models through one OpenAI-compatible API. Control",
+      "lane": "special"
+    },
+    {
+      "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "More enterprises are building AI agents into their daily work, and a common pattern is an agent that searches internal documents to compose its answers. A single organization might soon run hundreds of agents, each connected to many data sources and tools. This raises a question. When an agent searches on behalf of a user, can you make sure that it uses only the information that user is allowed to",
+      "lane": "tech"
+    },
+    {
+      "title": "Firefox火狐浏览器内置免费VPN更新支持无限流量",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3159635",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "原先50GB每月的流量限制，现在临时取消了，目前已支持无限流量，直至2027年1月；原先电脑网页端可选国家为6个，现在已同步手机端，可选国家达到30多个。 29 个帖子 - 21 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "Four Amazon Bedrock inference choices that affect cost",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Your Amazon Bedrock inference bill can keep climbing after you tune prompts and application logic. Request-level choices can still change how many tokens the service processes and the rate applied to them. Cache duration, service tier, reasoning effort, and maxTokens can affect cost without changing your model or prompt. Each choice depends on the model and workload. This post shows how we tested ",
+      "lane": "tech"
+    },
+    {
+      "title": "From prototype to production: Engineering agents with Agent DLC",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Over the past year, AI agents have moved from exploration into engineering. Enterprise teams are shipping large language model (LLM) systems that call tools, orchestrate APIs, and answer questions over internal knowledge. A successful demo can show what an agent is capable of. Before release, the team needs to answer a further question: “Is this agent ready for production?” The person responsible ",
+      "lane": "tech"
+    },
+    {
+      "title": "garrytan/gbrain",
+      "date": "2026-11-12",
+      "link": "https://github.com/garrytan/gbrain",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "Garry's Opinionated OpenClaw/Hermes Agent Brain Give the agent you already use a memory you control. GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and fre",
+      "lane": "special"
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "date": "2026-11-12",
+      "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0, our benchmark th...",
+      "date": "2026-11-12",
+      "link": "https://x.com/cognition/status/2120950876248641588",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0, our benchmark that evaluates models on real-world engineering tasks based on quality and mergeability, Gemini 4 Hydrogen scores 38.2%, just behind GPT-6.1 Sol. 💬22🔄23❤️232👀24182📊51 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "date": "2026-11-12",
+      "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/gondola",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "date": "2026-11-12",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "lane": "mixed"
+    },
+    {
+      "title": "google-labs-code/stitch-skills",
+      "date": "2026-11-12",
+      "link": "https://github.com/google-labs-code/stitch-skills",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. https://stitch.withgoogle.com/docs/mcp/setup Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with cod",
+      "lane": "special"
+    },
+    {
+      "title": "googleads/google-ads-mcp",
+      "date": "2026-11-12",
+      "link": "https://github.com/googleads/google-ads-mcp",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Google Ads MCP Server This repo contains the source code for running an MCP server that interacts with the Google Ads API. Tools The server uses the Google Ads API to provide several Tools and Resources for use with LLMs and AI agents. Tools available search: Retrieves information about the Google Ads account using GAQL. get_resource_metadata: Retrieves metadata about a Google Ads API resource typ",
+      "lane": "special"
+    },
+    {
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "date": "2026-11-12",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "https://goo.gle/modern-web-guidance Modern Web Guidance (Source) This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to",
+      "lane": "special"
+    },
+    {
+      "title": "Grok 4.7 is now available in Kiro",
+      "date": "2026-11-12",
+      "link": "https://kiro.dev/blog/grok-4-7",
+      "source": "kiro",
+      "thin": false,
+      "preview": "Model choice is a core part of how we build Kiro. With Grok 4.7, Kiro now supports models from Anthropic, OpenAI, SpaceXSI, and leading open weight providers, all in one place. A diverse lineup lets you pick for capability, speed, and cost on each task, and keeps your workflow steady as the frontier keeps moving.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "lane": "mixed"
+    },
+    {
+      "title": "homeassistant-ai/ha-mcp",
+      "date": "2026-11-12",
+      "link": "https://github.com/homeassistant-ai/ha-mcp",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. https://homeassistant-ai.github.io/ha-mcp/ Breaking change (v7.3.0): ha_config_set_yaml has been moved to beta. HA-MCP — Manage Home Assistant with AI Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. 🚀 Get Started The recommended way to run ha-mcp is the HA-MCP integration. It i",
+      "lane": "special"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "date": "2026-11-12",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "lane": "mixed"
+    },
+    {
+      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "At Natera, a leader in cell-free DNA (cfDNA) testing, keeping lab instruments up and running is critical, because equipment downtime disrupts sample processing. Natera’s lab engineering team, led by Ariel Jirau worked with AWS to build SWARM (Systematic Workflow Analytics and Resolutions Manager), an agentic AI system for lab operations. This post walks through how the Natera team built an agentic",
+      "lane": "tech"
+    },
+    {
+      "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
+      "date": "2026-11-12",
+      "link": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing Claude for Manufacturing",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/claude-for-manufacturing",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.",
+      "lane": "product"
+    },
+    {
+      "title": "Introducing Claude Meetings",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/claude-meetings",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Add Claude to your video call and get the work started while you talk",
+      "lane": "product"
+    },
+    {
+      "title": "Introducing Kiro for Android",
+      "date": "2026-11-12",
+      "link": "https://kiro.dev/blog/android",
+      "source": "kiro",
+      "thin": true,
+      "preview": "Kiro for Android is now available on Google Play.",
+      "lane": "mixed"
+    },
+    {
+      "title": "J. Crew brings its signature approach to styling to life with Claude",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.",
+      "lane": "product"
+    },
+    {
+      "title": "krahets/hello-algo",
+      "date": "2026-11-12",
+      "link": "https://github.com/krahets/hello-algo",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 https://www.hello-algo.com 动画图解、一键运行的数据结构与算法教程 简体中文 ｜ 繁體中文 ｜ English ｜ 日本語 ｜ Русский ｜ 한국어 关于本书 本项目旨在打造一本开源免费、新手友好的数据结构与算法入门教程。 全书采用动画图解，内容清晰易懂、学习曲线平滑，引导初学者探索数据结构与算法的知识地图。 源代码可一键运行，帮助读者在练习中提升编程技能，了解算法工作原理和数据结构底层实现。 提倡读者互助学习，欢迎大家在评论区提出问题与分享见解，在交流讨论中共同进步。 若本书对您有所帮助，请在页面右上",
+      "lane": "special"
+    },
+    {
+      "title": "LibreSpark/LibreTV",
+      "date": "2026-11-12",
+      "link": "https://github.com/LibreSpark/LibreTV",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "一分钟搭建影视站，支持Docker等部署方式 https://libretv.is-an.org LibreTV LibreTV Next.js 迁移版：免费在线视频聚合搜索与观看平台。基于 Next.js 15（App Router）+ TypeScript + Tailwind CSS，播放内核为 ArtPlayer + hls.js，支持亮暗双主题。 🏠 官网：LibreTV 官网 🌐 演示站：tv.bagiinlink.eu.org（访问密码：libretv） 📖 完整文档：文档首页 · 架构 · 部署 · 配置 · 数据源 · 直播 / IPTV · 首页推荐 · 播放器 · 代理与安全 · FAQ 核心特性 聚合搜索：多采集站服务端并行搜索 跨源同名聚合：同名影片合并为一张卡片，展开即可比较和选择各来源 HLS 播放：ArtPlayer + hls.js，广告分片过滤、跳过片段",
+      "lane": "special"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "date": "2026-11-12",
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nLLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B\nEnterprise Article Published\nNovember 12, 2026 Upvote 36\n+30 Abraham Daniels abedaniels Follow ibm-granite Basel Shbita basels Follow ibm-granite Chad DeLuca delucac Follow ibm-granite Dan Gutfreund Gutfreund Follow ibm-granite Michael Hind mikehind Follow ibm-granite Shub A shubs90 Follow ibm-granite\nLLMs rely on ",
+      "lane": "mixed"
+    },
+    {
+      "title": "meta/astryx",
+      "date": "2026-11-12",
+      "link": "https://github.com/meta/astryx",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "An open source design system that's fully customizable and agent ready http://astryx.atmeta.com Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on React 19+ and StyleX Docs · Storybook · Sandbox · Contributing · Discord Overview Astryx is an open source design system that grew i",
+      "lane": "special"
+    },
+    {
+      "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "With a customer-managed knowledge base on Amazon Bedrock, you provision and scale the vector store, tune the embedding model and index settings, and plan capacity for each new data source. The migration guide in the Agent Toolkit for AWS helps you migrate to Amazon Bedrock Managed Knowledge Base. Managed Knowledge Base takes over that work and adds new retrieval capabilities, and your team keeps c",
+      "lane": "tech"
+    },
+    {
+      "title": "nab138/iloader",
+      "date": "2026-11-12",
+      "link": "https://github.com/nab138/iloader",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "User friendly sideloader https://iloader.app iloader Install SideStore (or other apps) and import your pairing file with ease This repository and iloader.app are the only official ways to download iloader. There is also an unofficial Homebrew cask, an unofficial AUR package, and an unofficial Fedora COPR repository maintained by the community. Do not download from any other sources or websites. Ho",
+      "lane": "special"
+    },
+    {
+      "title": "NapNeko/NapCatQQ",
+      "date": "2026-11-12",
+      "link": "https://github.com/NapNeko/NapCatQQ",
+      "source": "github-trending-daily-typescript",
+      "thin": true,
+      "preview": "Modern protocol-side framework NapCatQQ Ending 到这里告一段落。",
+      "lane": "special"
+    },
+    {
+      "title": "openai/codex-security",
+      "date": "2026-11-12",
+      "link": "https://github.com/openai/codex-security",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security https://developers.openai.com/codex/security Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI a",
+      "lane": "special"
+    },
+    {
+      "title": "OpenCTI-Platform/opencti",
+      "date": "2026-11-12",
+      "link": "https://github.com/OpenCTI-Platform/opencti",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "Open Cyber Threat Intelligence Platform https://opencti.io Note: Building connectors, contributing to the platform, or running OpenCTI in production? Join us on the Community Slack to ask questions, talk through a PR before you open it, or compare notes on integrations. Introduction OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and ob",
+      "lane": "special"
+    },
+    {
+      "title": "opensandbox-group/OpenSandbox",
+      "date": "2026-11-12",
+      "link": "https://github.com/opensandbox-group/OpenSandbox",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Secure, Fast, and Extensible Sandbox runtime for AI agents. https://open-sandbox.ai OpenSandbox An Agentic AI Foundation (AAIF) Project Run AI agents in sandboxes on your own infrastructure. OpenSandbox gives AI applications isolated environments to execute code, run commands, manage files, and operate browsers or desktops. Start locally with Docker and deploy on Kubernetes through a unified sandb",
+      "lane": "special"
+    },
+    {
+      "title": "OpenViking 3D理解模型上线轴测八视图及PMI解析",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524273&idx=1&sn=00864fccfa91a8cf8533d53cf0a3c164",
+      "source": "bytedance-tech",
+      "thin": false,
+      "preview": "原创 OpenViking 2026-11-12 18:00 北京 OpenViking如何理解一个3D模型 OpenViking发布原生3D内容理解模型，支持三维.STEP文件的导入与解析，信息还原率做到 100%。 导入一个3D文件，不仅会提取常规的正交视图、几何信息，还会使用八轴侧视图来补充被遮挡的内部结构和几何特征，同时保留全部的尺寸、公差、装配、工艺（PMI）细节。看得见内部结构，也能读懂规格参数。 解析目录 正交六视图 轴侧八视图 信息摘要（含PMI） 模型明细 左右滑动查看更多精彩内容 二、轴侧视图如何用｜同一类零件，识别细节差异 以两款四方嵌件底座为例：外形完全相同，唯一的区别在内壁盲窝——型号 1 是圆形，型号 2 是六角形。 型号1 嵌件底座 型号2 嵌件底座 这个差异藏在壳体内部，正交六视图里看不到，两款零件的六视图完全一致。同样问 Agent：“帮我找一个内壁有六边",
+      "lane": "tech"
+    },
+    {
+      "title": "Operate Claude Managed Agents inside your security perimeter",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.",
+      "lane": "product"
+    },
+    {
+      "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Part 1 of this series built the operating model that controls Amazon Bedrock spend: attribution with AWS Identity and Access Management (IAM) principal tags and Cost and Usage Report 2.0, observability with model invocation logging, enforcement at three tiers, and a review cadence. That layer answers who spent it, and you can stop them. It can’t tell you whether the spend was well spent. This post",
+      "lane": "tech"
+    },
+    {
+      "title": "Own Your Intelligence: The Key to Lasting AI Advantage",
+      "date": "2026-11-12",
+      "link": "https://www.langchain.com/blog/own-your-intelligence",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Learn why companies must own their agent systems, governance, context, and feedback loops to turn generic AI into lasting business advantage.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Plasma 卡AI返现",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3160535",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "Plasma卡的AI返现好像额度提高了，那plus岂不是几乎免费了 12 个帖子 - 7 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "ranxianglei/billion-context",
+      "date": "2026-11-12",
+      "link": "https://github.com/ranxianglei/billion-context",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need billion-context English | 中文 | 日本語 Context-compression plugin — billion-context is all you need. small context windows (100K is enough) · 5× fewer t",
+      "lane": "special"
+    },
+    {
+      "title": "Read more at https://t.co/ttAHIavSUW",
+      "date": "2026-11-12",
+      "link": "https://x.com/cognition/status/2120950877569839229",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read more at devin.ai/blog/gemini-4-… 💬0🔄0❤️4👀2855📊1 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "AI agents have moved past one-off prompts. They now run multi-step workloads for hours at a time. The length of task that frontier agents can complete on their own doubles about every four months (METR), and 40 percent of large enterprises are scaling AI agents, up from 27 percent a year ago (McKinsey). As agents run longer and with more autonomy, the focus shifts from what agents can do to how se",
+      "lane": "tech"
+    },
+    {
+      "title": "saleor/saleor",
+      "date": "2026-11-12",
+      "link": "https://github.com/saleor/saleor",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Saleor Core: the high performance, composable, headless commerce API. https://saleor.io Commerce that works with your language and stack GraphQL native, API-only platform for scalable composable commerce. Get to know Saleor: Talk to a human | Talk to the API Join our community: Website | Twitter | Discord Blog | Subscribe to newsletter Table of Contents What makes Saleor special? Why API-only Arch",
+      "lane": "special"
+    },
+    {
+      "title": "sgl-project/sglang-omni",
+      "date": "2026-11-12",
+      "link": "https://github.com/sgl-project/sglang-omni",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "High Performance Serving Runtime For Interactive Super Intelligence System https://sgl-project.github.io/sglang-omni/ Blog | Documentation | Quick Start | Cookbook | SGLang | Join Slack ⭐ Star SGLang-Omni to help more builders discover open infrastructure for multimodal and speech serving! News [2026/11] 🎙️ Voxt 2.0 redefines open-source voice interaction on Mac: voice input, any-to-any translatio",
+      "lane": "special"
+    },
+    {
+      "title": "shadcn/improve",
+      "date": "2026-11-12",
+      "link": "https://github.com/shadcn/improve",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "Use your most capable model to audit your codebase and write plans for cheaper models to execute. improve An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models",
+      "lane": "special"
+    },
+    {
+      "title": "sherlock-project/sherlock",
+      "date": "2026-11-12",
+      "link": "https://github.com/sherlock-project/sherlock",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation • Usage • Contributing Installation Warning Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken. Users of these systems should defer to uv/pipx/pip or Docker. Method Notes pipx instal",
+      "lane": "special"
+    },
+    {
+      "title": "shy3130/tick-stock-panel",
+      "date": "2026-11-12",
+      "link": "https://github.com/shy3130/tick-stock-panel",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 https://tsp.shy313.com TSP · A股智能量化工作台 自托管 · 零运维 · 核心能力全部开放成接口的 A 股量化工作台 策略 · 回测 · 监控 · 因子挖掘 · AI 助手 · Polars · React 3.11+ Python 后端 20+ Node 前端 18 React · TypeScript 3000+ 测试全绿 · CI 守护 ms 级 全市场策略扫描 1 容器 零外部数据库 ✨ 核心功能 · 📸 界面预览 · 🏛️ 架构 · ⚡ 性能 · 🌐 开放能力 · 🚀 快速开始 · 📚 完整文档 · 💬 交流群 本项目由 RunningHub 提供支持 · 单一接口直连 400+ ",
+      "lane": "special"
+    },
+    {
+      "title": "soxoj/maigret",
+      "date": "2026-11-12",
+      "link": "https://github.com/soxoj/maigret",
+      "source": "github-trending-daily-python",
+      "thin": false,
+      "preview": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites https://maigret.app/gh Maigret English · 简体中文 · Français 📖 Documentation Maigret collects a dossier on a person by username only, checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required. AI profiling (demo). Sponsors Go beyond account enumeration. WebVetted turn",
+      "lane": "special"
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "date": "2026-11-12",
+      "link": "https://openai.com/index/children-first-declaration",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "lane": "mixed"
+    },
+    {
+      "title": "The Claude Tag guide for startups",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "How leading startups use Claude Tag to ship faster and scale operations",
+      "lane": "product"
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "date": "2026-11-12",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nThe Definitive Fine-Tuning Guide for 3D Generation Models\nPublished\nNovember 12, 2026 Update on GitHub Upvote 47\n+41 Suvaditya Mukherjee suvadityamuk Follow merve merve Follow Pedro Cuenca pcuenq Follow\nTLDR; In this blog, we provide fine-tuning scripts and containers to fine-tune TRELLIS.2, a popular 3D model on your 3D assets, that can run both locally and on Hugging Face Jobs. ",
+      "lane": "mixed"
+    },
+    {
+      "title": "TheAlgorithms/Java",
+      "date": "2026-11-12",
+      "link": "https://github.com/TheAlgorithms/Java",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "All Algorithms implemented in Java The Algorithms - Java You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click. All algorithms are implemented in Java (for educational purposes) These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library. Contribution Gu",
+      "lane": "special"
+    },
+    {
+      "title": "Today we're upgrading the Devin Teams plan with new features, promotions, and controls: ▪️ Everyone...",
+      "date": "2026-11-12",
+      "link": "https://x.com/cognition/status/2121005637371146355",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Today we're upgrading the Devin Teams plan with new features, promotions, and controls: ▪️ Everyone on your team can now use the new and improved Devin Desktop, without having to pay for additional seats ▪️ Every user gets two concurrent Free sessions in our new Free mode, powered by our own model SWE-2 ▪️ Teams Admins can now enable SSO with Okta, Entra ID, or any SAML or OIDC provider ▪️ Admins ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "date": "2026-11-12",
+      "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Generative AI spend is hard to attribute. Before an organization expands AI access, CFOs and CTOs usually want three answers: what do we spend per person or per team, can we cap it, and how much work does it take to get there. In our previous post, Tokenomics at Scale: How Jamf Built Real-Time Spend Enforcement for Amazon Bedrock, we explained a custom enforcement loop built on AWS IAM Identity Ce",
+      "lane": "tech"
+    },
+    {
+      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+      "date": "2026-11-12",
+      "link": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work.",
+      "lane": "product"
+    },
+    {
+      "title": "vercel-labs/agent-browser",
+      "date": "2026-11-12",
+      "link": "https://github.com/vercel-labs/agent-browser",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "Browser automation CLI for AI agents https://agent-browser.dev agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on ",
+      "lane": "special"
+    },
+    {
+      "title": "We're also expanding access to our Devin for Startups program, where eligible teams can apply to for...",
+      "date": "2026-11-12",
+      "link": "https://x.com/cognition/status/2121005638742573415",
+      "source": "cognition",
+      "thin": true,
+      "preview": "We're also expanding access to our Devin for Startups program, where eligible teams can apply to for up to $65k in credits and more. Apply today: devin.ai/startups 💬3🔄0❤️12👀1555📊4 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "we-promise/sure",
+      "date": "2026-11-12",
+      "link": "https://github.com/we-promise/sure",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "The personal finance app for everyone (by everyone) https://sure.am Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues Important This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned re",
+      "lane": "special"
+    },
+    {
+      "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+      "date": "2026-11-12",
+      "link": "https://www.langchain.com/blog/what-is-eval-driven-development",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
+      "lane": "mixed"
+    },
+    {
+      "title": "WhiteTowerAI/ohmygame",
+      "date": "2026-11-12",
+      "link": "https://github.com/WhiteTowerAI/ohmygame",
+      "source": "github-trending-daily-typescript",
+      "thin": false,
+      "preview": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key. https://ohmygame.ai/ The open-source studio for making games with AI. English | 简体中文 | 日本語 Website · Docs · Community games · Changelog Describe a game, and the agent designs it, makes the art, writes the code, plays it to check i",
+      "lane": "special"
+    },
+    {
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "date": "2026-11-12",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source": "github-trending-daily-all",
+      "thin": false,
+      "preview": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. https://dsa.zhulinsen.tech 📈 股票智能分析系统 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览 · 功能特性 · 快速开始 · 推送效果 · 文档中心 · 完整指南 简体中文 | Engli",
+      "lane": "special"
+    },
+    {
+      "title": "【LV中转】双十一福利接着来：充值 8.8 折，GPT（不降智）0.08，免费额度也能领！",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3160301",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "佬友们，昨天双十一，今天疯狂星期四，LV 这边也把福利接上。 从今天开始，充值 8.8 折活动再开一轮，时间是 11 月 12 日—11 月 19 日。 全站充值自动享优惠，不用优惠码，不限充值次数。有用量需求的朋友，可以按需补点额度。 模型这边，GPT（不降智）限时特价 0.08，具体计价口径和模型信息以站内模型目录为准。手头有正在写的项目，欢迎拿实际任务来试试，看看效果和消耗。 新朋友也别漏了免费福利：三项合计送 10 元平台调用额度！ 注册送 3 元 帖子留言送 2 元 进群再送 5 元 今天这帖留言也能领！ 注册后留下你的 LV中转用户名或用户 ID，我们核对后发放留言奖励。 每人每项限领一次，在其他帖子领过留言奖励的，不重复发放。 之前只领了注册那份的，留言和进群两份还可以继续领。 进群领取前，先在站内绑定 Linux DO 账号，再到群里发送用户名，机器人会回复领取结果。配置、",
+      "lane": "special"
+    },
+    {
+      "title": "【RelayRouter】claude Opus 5.5 低至 1 折起、GPT-6 Astra 4 折｜ 旗舰模型价格表，新人留 ID 送 ¥3.5",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3161908",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "各位佬友好，RelayRouter 这两天上架了 Gemini 4 Carbon 和 Kling 4.0 Flash，顺手把站内几款旗舰的价格整理了一下，贴出来给大家参考 RelayRouter 官网 ｜ 模型广场 今日上新：kling-video-v4-flash 快手可灵 Kling 4.0 系列的轻量版视频模型，主打生成速度和性价比 三种玩法：文生视频、图生视频（首帧）、全能参考生视频 多素材参考：单任务最多组合 15 项素材（10 张图片 + 5 段视频），角色、商品外观、动作运镜都能稳定复用，也能对已有视频做局部编辑 输出规格：720p，单次 3–20 秒，支持 21:9 / 16:9 / 1:1 / 9:16 及自适应比例，音画同出 适合场景：短视频批量生产、电商素材、创意快速验证 类型 价格 无参考视频 $0.0893 / 秒 有参考视频 $0.0598 / 秒 有参考视频时",
+      "lane": "special"
+    },
+    {
+      "title": "【s2api】皮皮工艺站，貌似要考虑关闭注册一段时间了，近期服务器压力有点大了。",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3166753",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "从 佬们太强了，貌似又要开新站了 🤣 继续 佬们太强了，觉站现在有点小卡了，要是最近还是一直这个状态真就得考虑关闭注册了！ 等一段时间之后开一个新站吧！ 9 个帖子 - 8 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "【富可敌国】PQH｜CCMAX 0注入现签 1.75x，可蒸馏、可溯源、能给管理｜支持 Fable 5.2｜新用户留 ID 送 $3",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3160850",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "官网：https://pqh.ai/ CCMAX 0注入现签，1.75x。 现签号，可以溯源，管理权限可开。0注入，原版思维链，能蒸馏。 CCMAX 分组： 分组 倍率 CCMAX 0注入现签 1.75x CCMAX 0注入 coding 1.6x CCMAX 有注入可蒸馏 1.4x CCMAX 企业分组 1.25x 起 CCMAX code 无限制 1.2x CCMAX code（限 Claude Code） 1x Claude kiro 0.15x Gemini VT 2.2x Gemini AS 2x Gemini 0.4x 起 GPT Plus / Pro 0.12x / 0.25x Codex Pro 0.4x Azure GPT 2.2x Kimi 自部署 0.24x DeepSeek / Qwen / GLM / MiniMax 0.5x 起 Seedance 视频 0.85",
+      "lane": "special"
+    },
+    {
+      "title": "【富可敌国】VelaMost双十一活动层层加码！佬友专属评论ID送$5，注册自动到账$2，加qq群再送$2！充100送100！快来薅羊毛！",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3159606",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "VelaMost 曾服务超 3w+用户，稳定线路，ccmax,codex 应有尽有。支持大额对公。更有双十一首充活动等你！！ 现在佬友专属活动继续！注册送2刀！评论ID送5刀！加群送2刀！快来薅羊毛呀！ 加群还可参与每日签到，10分换1刀哦～ 更有充50送50，充100送100的首充翻倍活动！ 邀请计划也在继续 10%的返利机制！前所未有！已经有大佬提现超2600了！快来邀请你的好友首充吧！ 商务合作请扫下方二维码！双十一活动超级给力！首充翻倍+10%返利+佬友专属9刀福利！赢麻了！ 75 个帖子 - 71 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "【富可敌国】【流光AI】11/13｜Kling V4 Flash、Gemini 4 Carbon 等上新，留 ID 送 3 元",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3166317",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "最近想做短视频、配图或语音的佬友，可以来流光 AI 挑一个自己的小任务试试。这次把新接入的几组模型整理在一起，也有适合代码、调研和长文档任务的选择。 视频与对话 Kling V4 Flash：支持文生视频、首帧图生视频和参考视频生成，3–20 秒、720p。可以先拿一张自己的图片做个短片段。 Gemini 4 Carbon：支持图片理解与工具调用，可用于复杂代码、数学和多步骤任务。 Claude Fable 5.2（claude-fable-5-2）：面向高难度推理、长周期智能体和多步骤调研任务。 混元 Hy4：支持 100 万 Token 上下文、图片理解、思考与工具调用，可试试长文档或代码任务。 图片创作 Seedream 5.0 Lite / Pro：支持文生图与多参考图创作；Lite 支持最多 14 张参考图、2K / 4K 输出，Pro 支持最多 10 张参考图、1K / 2K ",
+      "lane": "special"
+    },
+    {
+      "title": "【富可敌国】星驰公益-中转站千元兑换码-无任何充值",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3164914",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "星驰公益中转站 双11 狂欢，千元兑换码天天发 千元兑换码每天发一波,下午14点领取。想要的佬友点个关注，每天来领就行。 领兑换码 cdk.linux.do LINUX DO CDK Linux Do 社区 CDK 快速分享平台 - 让分享变得更简单 去哪用 领到之后到这里兑换： xingchiapi.com 星驰API公益站 - AI API Gateway 有问题直接在帖子里留言，看到就回。祝佬友们双11快乐！ 30 个帖子 - 26 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "【方舟公益站二代】关站通知",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3166350",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "由于服务器即将到期加上上游涨价，方舟公益站预计将于20日彻底关站。 后续将会考虑家宽建站的方式供佬友们使用以节省服务器成本。 感谢佬友们一直以来的支持，我们有缘再见。 11 个帖子 - 11 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "【结束等下次】刚才没加公益推广，重新发布一下，公益免费爽蹬GPT",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3165668",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "【Mazal】公益站，Free号大量出没，Free号池 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容 （点击了解更多详细信息） 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的 GitHub 项目无未开源部分： 是 我的站点存在登录，并已接入 LINUX DO Connect(包含青春版)： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以上为项目介绍正文内容，AI生成、润色内容已使用截图方式发出。 刚才没加标签被举报啦，重新发一下 由于外面",
+      "lane": "special"
+    },
+    {
+      "title": "之前买的muse成品号，不知道还活着没，大家需要的自己拿去吧，有成功的可以吱一声",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3160731",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "ethan33718@goaa.me ---- Lấy code : Email Generator - temporary email address emmaaa6d9@viole.cfd ---- Lấy code : Email Generator - temporary email address alexd9d9b@viole.cfd ---- Lấy code : Email Generator - temporary email address jasonccaa7@musiku.studio ---- Lấy code : Email Generator - temporary email address chloef3fbb@viole.cfd ---- Lấy code : Email Generator - temporary email address kevin",
+      "lane": "special"
+    },
+    {
+      "title": "众安银行lv2拼团， anonaddy.com 域名群组认证免费领实体卡",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3161002",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "众安银行lv2拼团，免费领实体卡、股票返现 福利羊毛 佬友们，接着来 这个域名：@anonaddy.com 从 @javie 分享的帖子继续，原帖是 firefox 隐私邮箱，已99人成团，后面 @wearefamily 又开了一个团，但是不太方便拼团，所以单独开一个成团贴 首先访问下面网站注册一个邮箱（群组认证使用），注册时填写的邮箱用来实际接收邮件的，可以用众安绑定的邮箱。 https://addy.io 注册后创建一个 alias 别名，选择 @anonaddy.com 域名。 之后回到众安，左上角头像点开后选择『群组认证』，填写你的邮箱并接收验证码即可加入群组。 目前已有17人加入，还差33人即可免费领取实体卡。 38 个帖子 - 27 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "免费领取一年咪咕音乐天籁体验会员",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3159959",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "薛之谦应援棒上的二维码，扫码进去填手机号输入验证码登录就可以免费领咪咕音乐会员一年，实测所有人都可以 已经有会员的领不到，仅限新用户才行。闲鱼上这玩意最少的卖1元，还有卖40元的 如果出现“抱歉，今日领取名额已满。”那就明天再领，反正离第二天也不久 42 个帖子 - 38 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "建行京东e卡优惠券（最低9元）",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3161305",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "建行生活首页底部“精选推荐”的“月月抽颐养好礼”，优惠金额9/29/39/99/199，我只抽到了最低档39-9，朋友抽到了109-39，付款时还可以使用积分抵扣，我这里是10850积分抵扣了15.5r 用的时候别直接点券的“去使用”，要到首页，“全部”里的“京东专区”，然后点顶部的图，就能找到京东e卡入口了 活动连接： https://syx6.dmsp.ccb.com/ccbact/m30106/DP21122610231625LVA0-act.html#/home 9 个帖子 - 6 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "授人以鱼不如授人以渔：我对企业级 AI 研发提效的思考与实践",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512492&idx=1&sn=2134349b220aff2dc128808e7324f391",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "原创 吴佐衍 2026-11-12 18:01 浙江 关于企业内部 AI 研发提效的、为什么选择做这些事，以及在业务域中实际效果如何，本文或许能够提供一些经验和参考 这是2026年的第 80 篇文章 （ 本文阅读时间：约 20 分钟 ） 导读 过去一段时间，Cursor、Claude Code、Codex 这些 AI 工具已经进入到团队日常研发的过程中，不知道大家是否经常遇到下面这些场景： 你是不是每天都在“人肉给 AI 打工”？ 当你把内网的需求文档或页面链接发给 AI，它反馈说：“这个文档或页面我读不到、或者我不能操作，你能帮我复制下吗？”；当 AI 改完一段代码，它停下来说：“代码写好了，你去手动验证一下，验证完再把异常贴回给我”；当排查线上问题时，AI 又说：“我已经加好日志了，但我读不到日志，你能帮我粘贴下日志吗？”。如果这些对话每天都在发生，你会发现你在不断的给 AI 打零工。",
+      "lane": "tech"
+    },
+    {
+      "title": "新人入站一个月 来给前辈们送几个纯公益emby服注册",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3166247",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "没有啦 不用私信啦 没有啦 不用私信啦 没有啦 不用私信啦 等下次 上次直接发了注册的link，但是好像没有审核通过 先叠个甲 1.emby服完全依赖Claude gpt gemini维护，历经小半年，每个月都开订阅维护emby’已经能做到全自动入库 2.主库是gd盘+移动盘，所以还是需要大佬有稳定的网络环境和充足流量观看 3.注册码或者link我会在评论区发（不知道会不会被限制） 4.需保号（第一个月可能要观看5天，后面会随着等级提升降低保号难度） 所以有观影爱好的再注册吧 本意是拒绝很多集邮党 45 个帖子 - 34 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "早鸟票今天截止，SEE Conf 2026 全部演讲主题及议程来啦！",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521709&idx=1&sn=526b086070daeaaef9c33f702ccb9297",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-12 13:31 浙江 SEE Conf 2026 将于 11 月 28 日在杭州。 SEE Conf 2026 将于 11 月 28 日在杭州·蚂蚁 A 空间举办。以「创造力复兴，探索 AI 时代的用户体验与工程实践」为主题，设置上午主会场，中午乐队演出，下午 4 大专题（AI 创新体验、卓越 AI 工程实践、AI 新交互与多端、SEE Next）平行展开，以及丰富的技术展台。 会议全部议程已确定，早鸟票将于 今天（11 月 12 日）23:59 截止，抢票地址 👉 https://seeconf.antgroup.com 主论坛：创造力复兴 主论坛从“创造力如何涌现”出发，连接模型能力、产品判断、终端体验与开源协作，讨论 AI 如何帮助更多人跨越专业、成本与协作的门槛，把构想变成产品、内容与服务。 「卓越 AI 工程实践」专题 本专题围绕",
+      "lane": "tech"
+    },
+    {
+      "title": "求助gemini ultra 5x低价渠道",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3167052",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "刷x看到有卡网250以下卖gemini ultra 5x，说是独享非家庭组，有佬知道这种是什么渠道吗？不理解，土耳其ios订阅不是都要280多吗？ 3 个帖子 - 2 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "深势科技如何用 Kimi 模型加速生物医学科研",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487947&idx=1&sn=511170a299fbb5f0dde17edd5a508765",
+      "source": "kimi",
+      "thin": false,
+      "preview": "原创 Kimi K3.1 Pro 2026-11-12 17:05 天津 从复现已有工作，到验证新想法。 深势科技是全球 AI for Science（AI4S）领域的开拓者，专注于 AI 科学家的研发与应用。针对生物医学研究场景，深势科技在玻尔科学空间推出了科研智能体 BioMaster，并接入 Kimi K3.1 Pro，支持单细胞分析、基因变异解读和论文分析复现等生物学研究工作。 BioMaster 整合生物学领域知识、专业科研工具链与计算执行能力，将研究问题转化为可执行、可复核的分析流程。通过结合 Kimi K3.1 Pro 的复杂任务理解、推理与代码生成能力，研究人员可以在 BioMaster 中提交问题、数据和分析要求，完成从分析规划、计算执行到结果整理的连续科研任务，并保留代码、参数、图表和运行记录，便于复核结果及开展后续研究。 关键结果： Kimi K3.1 Pro 搭配 ",
+      "lane": "mixed"
+    },
+    {
+      "title": "白嫖咪咕会员1年方法",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3163279",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "应援棒上二维码，扫码进去填手机号输入验证码登录就可以免费领咪咕音乐会员一年，实测所有人都可以已经有会员的领不到，仅限新用户才行。鱼上这玩意有人收费10-40 如果出现“抱歉，今日领取名额已满。”那就明天再领，反正离第二天也不久 注意，需要微扫在登录领取！！ 39 个帖子 - 36 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "码住！WorkBuddy压箱底的7个值得装的Skill",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4",
+      "source": "tencent-engineering",
+      "thin": true,
+      "preview": "腾讯技术工程 2026-11-12 17:33 广东 同样用 WorkBuddy，为什么别人一天干完的活，你要磨三天？说实话，差的不是模型，是这 7 个 skill。想要文档版，一键三连，后台回复【skill】自取～ 1️⃣web-hot，全网热搜雷达 2️⃣agent-browser，让它自己上手操作浏览器 3️⃣一套专治 PPT的组合拳 4️⃣find-skills，专门帮你装技能的技能 5️⃣文档三件套 6️⃣summarize，速读外挂。 7️⃣Agent Memory，让它真正记住你。 跳转微信打开",
+      "lane": "tech"
+    },
+    {
+      "title": "研发Loop的上下文优化与多Agent协作实践",
+      "date": "2026-11-12",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
+      "source": "baidu-geek",
+      "thin": false,
+      "preview": "原创 欢迎关注的 2026-11-12 18:00 上海 当 Loop 每轮都要重装上下文、压缩还会损伤操作规范时，如何让多轮复杂研发又稳又准？ 。 点击蓝字，关注我们 作者 | 李天鹏-资源运营部 导读 introduction 在 Workspace 上做研发时，Loop 每轮都要重装上下文，代码读写与工具结果又不断叠加，触发压缩后还会损伤任务依赖的操作规范。本文从上下文优化、Skill 结构优化、Subagent 任务拆分三方面改造流程，使多轮复杂任务执行更快、结果更准确，以研发测试交付全流程无人工介入的案例演示效果。 全文 4750 字，预计阅读时间 5 分钟 GEEK TALK 01 问题：当前研发流程慢在哪里 1.1 人工参与频次高 一次典型的研发流程 1.2 可用上下文窗口大小逐渐减小，注意力随时间衰减 研发 Loop 指「需求 → 方案 → 实现 → 测试 → 评审 → 验",
+      "lane": "tech"
+    },
+    {
+      "title": "腾讯羊毛，1小时左右100元，18号结束",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3165407",
+      "source": "linux-do-welfare",
+      "thin": true,
+      "preview": "发现了一个腾讯羊毛，注册签约给100元，流程-》上传资料（简历，可以编，只要姓名对）-》学信网认证资料-》等审核-》签合同（平台的一些规定，免责声明，大概类似于用户协议） 地址：https://experthub.tencent.com [/grid] 30 个帖子 - 29 位参与者 阅读完整话题",
+      "lane": "special"
+    },
+    {
+      "title": "链趣公益站注册送20积分 每天签到10积分 L站登录方式在修复",
+      "date": "2026-11-12",
+      "link": "https://linux.do/t/topic/3163653",
+      "source": "linux-do-welfare",
+      "thin": false,
+      "preview": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 / 我的项目无关联的商业项目： 是 / 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 前面被人举报app暂时不开了 后续也会有便宜的gpt 有问题麻烦在评论区说 别叫老板 都是佬友 qulink.cyou AI Platform 129 个帖子 - 82 位参",
+      "lane": "special"
+    },
+    {
+      "title": "Agentic software development with CodeRabbit and Google Antigravity",
+      "date": "2026-11-11",
+      "link": "https://coderabbit.ai/blog/agentic-software-development-coderabbit-google-antigravity",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "AI agents are accelerating software development, but generating more code only accelerates software delivery when teams can validate it just as quickly as agents can write code. Developers need to understand whether agent-generated changes deliver the intended behavior, fit their architecture, and introduce risks without manually reviewing every line that will otherwise slow down the downstream SD",
+      "lane": "mixed"
+    },
+    {
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Every time a Model Context Protocol (MCP) server published in the AWS Agent Registry, a capability of Amazon Bedrock AgentCore, gains a new tool or updates its schema, the registry record must be updated too. Without automated push-based sync, consumers discover stale metadata. For organizations managing multiple MCP servers across accounts, such a sync keeps catalog records current within an exis",
+      "lane": "tech"
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "date": "2026-11-11",
+      "link": "https://huggingface.co/blog/qvac/botpsy",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nBotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model\nTeam Article Published\nNovember 11, 2026 Upvote 31\n+25 Milan Gritta milangritta Follow qvac Jihye Back happy-jihye Follow qvac JinUk, Cho jucho2725 Follow qvac ohjoon kwon joooon Follow qvac Patrik Lambert patrik-lambert Follow qvac Mathias Buus mafintosh Follow qvac Amril Nurman Nurman Follow",
+      "lane": "mixed"
+    },
+    {
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "date": "2026-11-11",
+      "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Claude Mythos 5.2 is now available in Devin Security",
+      "date": "2026-11-11",
+      "link": "https://devin.ai/blog/claude-mythos-5-2-security",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "Claude Mythos 5.2 is now available in Devin Security for customers with frontier cyber model access through Devin.",
+      "lane": "product"
+    },
+    {
+      "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Silent data corruption (SDC) happens when hardware, such as a GPU, returns a wrong but plausible number and raises no error. In distributed training, the wrong number can flow into the gradients and weights of every replica. Loss can still look normal for hours, and by the time a team notices an unexplained divergence or a weaker model, the compute is spent. It happens at scale: during a 54-day pe",
+      "lane": "tech"
+    },
+    {
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "date": "2026-11-11",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "lane": "mixed"
+    },
+    {
+      "title": "For startups interested in building with Devin, we're offering $65k in credits – in addition to dedi...",
+      "date": "2026-11-11",
+      "link": "https://x.com/cognition/status/2120626703546626050",
+      "source": "cognition",
+      "thin": true,
+      "preview": "For startups interested in building with Devin, we're offering $65k in credits – in addition to dedicated support – for select teams. Apply here: devin.ai/startups 💬2🔄0❤️17👀3306📊5 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Gemini 4 Hydrogen is now available in Devin",
+      "date": "2026-11-11",
+      "link": "https://devin.ai/blog/gemini-4-hydrogen",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 38.2%, within a point of GPT-6.1 Sol, at about 40% less per task than Gemini 4 Carbon.",
+      "lane": "product"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "date": "2026-11-11",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "lane": "mixed"
+    },
+    {
+      "title": "HCRS@WWW 2027 征稿｜当推荐系统遇上 AI Agent，如何坚持「以人为本」？",
+      "date": "2026-11-11",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501622&idx=1&sn=108bf2f5e1b73b4c381c083cd216f8fc",
+      "source": "kuaishou-tech",
+      "thin": false,
+      "preview": "原创 快手技术 2026-11-11 19:51 北京 第三届以人为本推荐系统 Workshop（HCRS@WWW 2027）正式征稿！ 从看到一条视频、学习新知识，到做出一次消费决策，推荐系统正在影响人们获取信息与做出选择的方式。随着生成式 AI 与智能体（AI Agent）的发展，推荐系统也在发生变化：Agent 可以理解用户目标、保留交互记忆、调用工具，并通过多步行动协助完成任务；智能体工作流则开始参与推荐模型的修改、评估与部署。 当推荐从一次排序走向持续协作，“以人为本”也有了新的研究命题：Agent 究竟在为谁的目标服务？用户能否理解、检查和纠正它的行为？系统在持续演进的过程中，能否真正创造长期价值？ 围绕这些问题，第三届以人为本推荐系统 Workshop（HCRS@WWW 2027）正式征稿，诚邀推荐系统、信息检索、人机交互、负责任 AI、社会计算等领域的研究者与技术实践者参与",
+      "lane": "tech"
+    },
+    {
+      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "This post is co-written with Nick Tamburro of DXC Technology. When an AI agent can act on a production server at a bank or a hospital, access to a capable foundation model is only the starting point. Recent public incidents, in which autonomous agents took destructive actions their operators never intended, show that the real risk is rarely the model alone. It’s an agent holding more authority tha",
+      "lane": "tech"
+    },
+    {
+      "title": "ICYMI: What landed for AI builders in October 2026",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "At AWS, we believe AI builders should be able to choose the right model for every task, trust their agents in production, and see clearly what their AI workloads cost. That belief guides how we invest across our portfolio. Amazon Bedrock gives you access to leading models and the tools to build and scale AI applications securely. We extend this foundation with Amazon Bedrock AgentCore, which provi",
+      "lane": "tech"
+    },
+    {
+      "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "AI agents and applications that answer questions about recent events, product releases, prices, or regulations need information newer than their model’s training data. Until now, Web Search on Amazon Bedrock AgentCore delivered that information to agents through AgentCore Gateway, a capability of Amazon Bedrock AgentCore. That means creating a gateway and a web search target and calling the tool f",
+      "lane": "tech"
+    },
+    {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "date": "2026-11-11",
+      "link": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "lane": "mixed"
+    },
+    {
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "Developers increasingly use Codex with Amazon Bedrock to explore unfamiliar code, make changes, and handle repetitive engineering work. For platform teams, the challenge is to make those tools available without creating a second model-access, identity, and operations stack. Codex can use Amazon Bedrock for inference with supported OpenAI models. In this post, we show how to fit that path into the ",
+      "lane": "tech"
+    },
+    {
+      "title": "Qwen4 is coming. Deeper knowledge. Richer world understanding. Stronger coding and agentic capabili...",
+      "date": "2026-11-11",
+      "link": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "source": "qwen-research",
+      "thin": false,
+      "preview": "Qwen4 is coming. Deeper knowledge. Richer world understanding. Stronger coding and agentic capabilities. Built for real-world tasks — from complex coding and knowledge work to front-end builds and professional software workflows. Qwen4-Max is now in preview on Alibaba’s Token Plan. You can also get early access to the new model on QwenWork, Qoder, Qwen APP, and QwenStudio. Put it to the test on a ",
+      "lane": "tech"
+    },
+    {
+      "title": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布",
+      "date": "2026-11-11",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "阿里技术 2026-11-11 11:45 浙江 今天，Qwen4-Max 预览版首发上线阿里 Token Plan，Qwen Code 1.0 Preview 同步开源。 Qwen4-Max 预览版首发上线 全新一代千问大模型 Qwen4 即将发布：知识理解更深入，世界感知更立体，Coding 与 Agentic 能力持续进阶。从复杂编程、专业办公，到前端设计、专业软件操作，Qwen4 在实际任务测试中，交出了让我们眼前一亮的成果。 现在，Qwen4-Max 预览版已首发上线阿里 Token Plan。同时，千问办公、Qoder、千问 APP、QwenStudio 等也已第一时间接入新模型。 欢迎大家抢先体验，把真实难题交给 Qwen4 试试看。 Qwen Code 1.0：以事件为语言，连接 Agent 与世界 智能正在走向更持续的理解与行动。围绕一个目标，Agent 理解上下文、制定",
+      "lane": "tech"
+    },
+    {
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "When reviewing code, you start with a diff. You wouldn’t compare two 3,000-line files by eye and hope to spot every change. Formal policies can be even harder to compare because a textual diff often highlights syntactic changes that don’t affect meaning. Reorder two conjuncts, swap the arguments of an equality, or use an equivalent predicate, and much of the file might appear changed. A real chang",
+      "lane": "tech"
+    },
+    {
+      "title": "The attendee’s guide to the AWS re:Invent 2026 AI/ML track",
+      "date": "2026-11-11",
+      "link": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+      "source": "aws-ml",
+      "thin": false,
+      "preview": "From November 30th to December 4th, Amazon Web Services (AWS) will hold its annual premier learning event: re:Invent. At this event, attendees will become stronger and more proficient in various areas of AWS technology through a variety of experiences: keynotes given by AWS leaders, interactive working sessions led by AWS experts, and fun, immersive activities such as live entertainment and games ",
+      "lane": "tech"
+    },
+    {
+      "title": "The best engineering teams are using cloud agents to build, test, and verify work, end-to-end. @try...",
+      "date": "2026-11-11",
+      "link": "https://x.com/cognition/status/2120626702246449362",
+      "source": "cognition",
+      "thin": false,
+      "preview": "The best engineering teams are using cloud agents to build, test, and verify work, end-to-end. @trybasis builds AI agents that cut 20-hour accounting tasks down to 30 minutes. From 20-day agent threads to an office full of microphones, here's how they work with Devin. Your browser does not support the video tag. 🔗 View on Twitter 💬28🔄22❤️228👀43724📊62 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "date": "2026-11-11",
+      "link": "https://huggingface.co/blog/token-pooling",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nToken Pooling-Aware Training for Multi-Vector Embedding Models\nPublished\nNovember 11, 2026 Update on GitHub Upvote 39\n+33 Tom Aarsen tomaarsen Follow\nMulti-vector embedding models give each query token its own opportunity to find a match in a document. This makes them wonderfully expressive for search, but those document vectors add up quickly. A corpus with millions of documents ",
+      "lane": "mixed"
+    },
+    {
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "date": "2026-11-11",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "lane": "mixed"
+    },
+    {
+      "title": "基于本体的AI数据研发落地：淘宝行业经营分析实战",
+      "date": "2026-11-11",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546794&idx=1&sn=4a05c51d28bfb52c31c69c4e5f23a353",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "左文雯 张哲旸 2026-11-11 10:36 浙江 把业务规则变成AI可读、可追溯的结构化知识。为AI SQL Coding提供精确输入。 AI 写 SQL，快不等于能交付。在阿里的业务体系中，一个经营分析需求往往要关联数十甚至上百张表，同名字段在不同场景下含义不同，指标口径还会随业务迭代不断变化。更棘手的是，大量业务规则从没写进文档，只存在于历史生产代码和资深研发的经验里。新人要花几个月才能上手，团队的经验也很难复制。由于缺少对业务知识的了解，当大模型开始帮忙写 SQL时，这个问题就变得突出。 为此，我们引入本体（Ontology），从生产代码中自动抽取隐性的业务规则，把它们变成 AI 可读、可追溯的结构化知识。为 AI SQL Coding 提供精确输入。 AI 生成 SQL 的三类典型错误 当大模型作为辅助开发工具进入数据开发场景，矛盾变得突出：模型的代码生成速度远超人类，但做出",
+      "lane": "tech"
+    },
+    {
+      "title": "开发者实测｜把视频处理交给 Agent：AI MediaKit Skill 深度评测",
+      "date": "2026-11-11",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524166&idx=1&sn=a906ea8e660c7264fd65de893e7c82c2",
+      "source": "bytedance-tech",
+      "thin": false,
+      "preview": "视频架构 2026-11-11 18:00 北京 AI MediaKit Skill 发布以来，我们陆续收到了许多开发者用户的投稿，他们结合真实使用场景，分享了自己从接入到成片的体验和测试记录。我们从中精选了几篇，陆续与大家分享。 ⚠️文中测试结论以及价格、耗时、效果等数据，主要基于作者在特定素材、测试方法和实际环境下的实测结果，具体表现请以实际产品页面、公示价格、账单及使用场景为准。 作者：CSDN 几何心凉 本文为节选转载，内容仅代表作者个人观点；全文可点击【阅读原文】阅读。 一、引言：为什么要把视频处理交给 Agent 视频后处理里有大量“知道该做什么、但不想自己动手”的环节：老素材分辨率不够要增强，搬运或二创素材带着硬字幕要擦除，一小时的长视频要剪出能用的片段。这些活拆开看都不难，但串起来就是一下午的重复劳动——开剪辑软件、导素材、调参数、等导出、再导下一个。 大模型 Agent ",
+      "lane": "tech"
+    },
+    {
+      "title": "来 SEE Conf 看懂 Personal Agent 的能力边界与落地路径！",
+      "date": "2026-11-11",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521665&idx=1&sn=92a7e16e24b57211808baf2532522f46",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-11 08:26 浙江 早鸟票将于今天截止！ SEE Conf 2026 将于 11 月 28 日在杭州举办。早鸟票将于明天（11 月 12 日）23:59:59 截止，抢票地址：https://seeconf.antgroup.com 蚂蚁集团灵光产品经理 杨诚（漠念） 将在「AI 创新体验」专题给大家带来主题为《从工具到伙伴 - 蚂蚁灵光的 AI Agent 实践》的演讲。 浙江大学 APRIL 实验室博士生刘广义 将在 「卓越 AI 工程实践」专题给大家带来主题为《nanoMuse: Personal Agent 的系统架构与算法实践》的演讲。 当 AI 从“工具”走向“伙伴”，一个新物种正在悄然改变我们与数字世界的关系 —— Personal Agent。 它不是又一个聊天机器人，而是一个真正“懂你”的存在：记住你的习惯，理解你的意图",
+      "lane": "tech"
+    },
+    {
+      "title": "AI从Working、Coding到Oncall：腾讯视频如何让知识流动起来？",
+      "date": "2026-11-10",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808124&idx=1&sn=24e1795f9b37a52914a395ced0ec6c7f",
+      "source": "tencent-engineering",
+      "thin": false,
+      "preview": "原创 腾讯程序员 2026-11-10 17:36 广东 让知识流动起来：视频技术部 AI 原生知识沉淀的实践与思考 作者：adawswang 共同作者：seasonzhou 我们常调侃自己讨厌两类人，一类是不写文档的人，另一类是让我写文档的人。文档是知识的一种，在AI生产力爆炸的今天，有了 AI 似乎就能轻松建知识库、快速写文档，好像「既要又要」唾手可得。但是真的是这样吗？ 在视频这个复杂业务体系下，我们有 Working、Coding、OnCall 三类常见的典型工作，分别对应业务、交付、运维支撑业务——知识是它们共同的底座，本文我们将来分享视频技术部在知识方面的一些思考和实践。 一、背景：从个人到组织提效的转变1.1 知识：组织型 AI 的土壤 烟火盛宴 · 个人型 AI 的狂欢：上半年是一个“个人型AI的盛大狂欢”，人人都成了“全栈”、个人效率看似数以十倍在疯涨、个人想法也以指数级",
+      "lane": "tech"
+    },
+    {
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "date": "2026-11-10",
+      "link": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "anthropic-news",
+      "thin": true,
+      "preview": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "lane": "product"
+    },
+    {
+      "title": "Boxes",
+      "date": "2026-11-10",
+      "link": "https://ampcode.com/news/boxes",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "Today, we're introducing something new to Amp: boxes. A box is an always-on computer to which you can deploy the many delightful things you've built with Amp. Boxes are small and cheap (the smallest one is $18 per 30 days). But they're full-on computers. You can run anything you want on them. They come with an agent running on them, too. And agents are great at running on computers. Today, with hy",
+      "lane": "product"
+    },
+    {
+      "title": "Claude Mythos 5.2 is now available in Devin’s managed security scans. We are giving $100M+ in credi...",
+      "date": "2026-11-10",
+      "link": "https://x.com/cognition/status/2120227474223292477",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Claude Mythos 5.2 is now available in Devin’s managed security scans. We are giving $100M+ in credits to help companies find and fix their most critical vulnerabilities with Claude Mythos 5.2. Eligibility criteria and conditions apply. On our internal cyber benchmark, Mythos 5.2 scores 73.5, a substantial step up from Mythos 5.1’s 56.9. 💬22🔄29❤️383👀29123📊72 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/cogent-security",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+      "date": "2026-11-10",
+      "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+      "date": "2026-11-10",
+      "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Cursor Projects is now multiplayer",
+      "date": "2026-11-10",
+      "link": "https://cursor.com/blog/projects-multiplayer",
+      "source": "cursor",
+      "thin": false,
+      "preview": "Blog / productNov 10, 2026·product\nCursor Projects is now multiplayerAryaman Khandelwal · 4 min read\nIn September we introduced Projects, a way for engineers to take on large-scale work by directing a fleet of agents through a single coordinator. Today Projects gets a major upgrade: it's now multiplayer. Invite your teammates into a Project, and you can plan, build and ship together, alongside all",
+      "lane": "mixed"
+    },
+    {
+      "title": "Decision Models in Hugging Face",
+      "date": "2026-11-10",
+      "link": "https://huggingface.co/blog/decision",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nDecision Models in Hugging Face\nPublished\nNovember 10, 2026 Update on GitHub Upvote 109\n+103 Aritra Roy Gosthipaty ariG23498 Follow Lysandre lysandre Follow Pedro Cuenca pcuenq Follow Tom Aarsen tomaarsen Follow\nLarge Language Models (LLMs) are exceptionally good at generating text. We use them to answer questions, write code, reason about problems, and so much more. But not every",
+      "lane": "mixed"
+    },
+    {
+      "title": "Find it, fix it, ship it: building secure apps on Lovable",
+      "date": "2026-11-10",
+      "link": "https://lovable.dev/blog/find-it-fix-it-ship-it",
+      "source": "lovable",
+      "thin": true,
+      "preview": "What Lovable handles, flags, and fixes to keep your app secure, and the one thing we still need you to do.",
+      "lane": "product"
+    },
+    {
+      "title": "Gemini 4 Carbon and /swarm",
+      "date": "2026-11-10",
+      "link": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available in Devin",
+      "date": "2026-11-10",
+      "link": "https://devin.ai/blog/gemini-4-carbon",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "Gemini 4 Carbon is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 40.0%, up from Gemini 4 Argon's 26.3%, at a lower cost per task.",
+      "lane": "product"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available in Devin Desktop and CLI. On FrontierCode 2.0, Carbon scores 40.0%...",
+      "date": "2026-11-10",
+      "link": "https://x.com/cognition/status/2120196422360506385",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Gemini 4 Carbon is now available in Devin Desktop and CLI. On FrontierCode 2.0, Carbon scores 40.0% – a substantial step up from Gemini 4 Argon’s 26.3% – making it the best performing Google model on the benchmark. 💬34🔄38❤️558👀47589📊96 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Gemini Intelligence: New features, on more devices",
+      "date": "2026-11-10",
+      "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "date": "2026-11-10",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "lane": "mixed"
+    },
+    {
+      "title": "How Curative is building a national provider network with agents on Claude",
+      "date": "2026-11-10",
+      "link": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Curative’s deal-making agent negotiates 2,000+ provider contracts a week.",
+      "lane": "product"
+    },
+    {
+      "title": "How Stripe Built Kai on Deep Agents in 1 Week",
+      "date": "2026-11-10",
+      "link": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Learn how Stripe built Kai, a company-wide AI agent on LangChain, LangGraph, and Deep Agents, reaching 5,000 users in roughly 4 weeks.",
+      "lane": "mixed"
+    },
+    {
+      "title": "How we moved our frontend off Firestore and built Lovable Realtime",
+      "date": "2026-11-10",
+      "link": "https://lovable.dev/blog/lovable-realtime-service",
+      "source": "lovable",
+      "thin": true,
+      "preview": "How we replaced frontend Firestore listeners with a Go and NATS realtime service, with reactive authorization, server-shaped payloads, and 2.06 million live subscriptions.",
+      "lane": "product"
+    },
+    {
+      "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith",
+      "date": "2026-11-10",
+      "link": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+      "source": "langchain",
+      "thin": true,
+      "preview": "See how Workday used LangGraph and LangSmith to build an internal AI agent platform that cut prototype time from months to less than a day and compliance needs.",
+      "lane": "mixed"
+    },
+    {
+      "title": "If you're interested in receiving credits for Devin Security scans, please reach out: https://t.co/...",
+      "date": "2026-11-10",
+      "link": "https://x.com/cognition/status/2120229494334341432",
+      "source": "cognition",
+      "thin": true,
+      "preview": "If you're interested in receiving credits for Devin Security scans, please reach out: devin.ai/security/conta… 💬1🔄0❤️10👀2718📊2 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+      "date": "2026-11-10",
+      "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.",
+      "lane": "product"
+    },
+    {
+      "title": "Introducing “Approve for me” in Kiro",
+      "date": "2026-11-10",
+      "link": "https://kiro.dev/blog/introducing-approve-for-me",
+      "source": "kiro",
+      "thin": false,
+      "preview": "Today we’re launching “Approve for me” in Kiro IDE, Kiro CLI, and Kiro Web. You no longer have to choose between approving every action, setting up your own custom permission rules, or turning approvals off. With Approve for me enabled, for actions your rules don’t cover, Kiro runs an LLM review, which currently uses an Anthropic model. Based on the review, Kiro auto-approves the routine ones, blo",
+      "lane": "mixed"
+    },
+    {
+      "title": "MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代",
+      "date": "2026-11-10",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291",
+      "source": "minimax",
+      "thin": false,
+      "preview": "原创 MiniMax 2026-11-10 23:00 上海 今天，我们正式发布 MiniMax H3-Image 并开放权重。这是一款衍生自 H3 的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。它能够在 10 秒内生成一张 4096 x 4096 像素、约 16 MP（4K）的高分辨率图像，同时呈现丰富、真实的细节，并具备优秀的指令遵循和多参考图理解能力。 在 H3 预训练赋予的广泛图像能力基础上，H3-Image 进一步强化了整个后训练链路，在数据、强化学习、步数压缩、PE、部署优化等方面做了许多扎实的工作，这些工作的组合使得 MiniMax H3-image 同时具备了速度、画面质量、指令遵循三个方面的竞争力： 相比于主流的一百万像素或者四百万像素，一千六百万像素（16MP，4096×4096）的图片在细节上具备显著优势。MiniMax H3-Image 可以在 10s",
+      "lane": "mixed"
+    },
+    {
+      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+      "date": "2026-11-10",
+      "link": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Work at the speed of thought",
+      "lane": "product"
+    },
+    {
+      "title": "Multi-Repository Security Analysis with CodeRabbit Secure",
+      "date": "2026-11-10",
+      "link": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",
+      "source": "coderabbit",
+      "thin": false,
+      "preview": "An application can have an authentication check and still expose data if a caller can bypass the service that enforces it. When the services and deployment settings live in separate repositories, spotting that gap requires examining how they work together. In a microservices application, the API gateway and orders service might live in separate repositories. The gateway checks a user's token and p",
+      "lane": "mixed"
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "date": "2026-11-10",
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nPay for Hugging Face Hub with your Google Cloud Account\nPublished\nNovember 10, 2026 Update on GitHub Upvote 13\n+7 Zaïd Alhadad zaid-alhadad Follow Pierric Cistac pierric Follow Simon Pagezy pagezyhf Follow Michelle Habonneau michellehbn Follow\nYou can now link your Hugging Face organization to your Google Cloud account, so that your Hugging Face usage shows up on your Google Cloud",
+      "lane": "mixed"
+    },
+    {
+      "title": "Read more: https://t.co/Xp8KWOyNUj",
+      "date": "2026-11-10",
+      "link": "https://x.com/cognition/status/2120229215643820195",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read more: devin.ai/blog/claude-my… 💬1🔄0❤️11👀3700📊2 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Read more: https://t.co/zzIB6anG3M",
+      "date": "2026-11-10",
+      "link": "https://x.com/cognition/status/2120196424243749118",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read more: devin.ai/blog/gemini-4-… 💬0🔄0❤️12👀4663📊1 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/singapore-airlines-travel-work",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "lane": "mixed"
+    },
+    {
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "date": "2026-11-10",
+      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "google-ai",
+      "thin": true,
+      "preview": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "date": "2026-11-10",
+      "link": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Your apps can now open in Claude, and Claude can work in them",
+      "date": "2026-11-10",
+      "link": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.",
+      "lane": "product"
+    },
+    {
+      "title": "一天一版的工程密码：QoderCLI 如何重塑研发范式",
+      "date": "2026-11-10",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521658&idx=1&sn=49545907d6be76fad6b5fbc2d6ab23dc",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-10 10:17 浙江 SEE Conf 早鸟票将于 11 月 12 日 23:59 截止。 SEE Conf 2026 将于 11 月 28 日在杭州举办，阿里巴巴 · QoderCLI 技术专家姜子玥（安枝）将在「卓越 AI 工程实践」专题给大家带来主题为《一天一版的工程密码：QoderCLI 如何重塑研发范式》的演讲。 本次会议设置上午主会场，中午乐队演出，下午 4 大专场（AI 创新体验、卓越 AI 工程实践、AI 新交互与多端、SEE Next）平行展开，以及丰富的技术展台。 早鸟票将于 11 月 12 日 23:59 截止，抢票地址 👉 https://seeconf.antgroup.com Coding Agent 加速代码产出的同时，也让质量验证、版本交付与持续演进面临更大压力。 本次分享，安枝将结合“用 QoderCLI ",
+      "lane": "tech"
+    },
+    {
+      "title": "从淘小蜜分流模型的实践，聊聊 Jev 与 System One",
+      "date": "2026-11-10",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512476&idx=1&sn=071544b548af1892af197b38f330d562",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "原创 吴双 2026-11-10 18:01 浙江 关于最近大火的 Jev，本文或许能够提供一些技术实践参考 这是2026年的第 79 篇文章 （ 本文阅读时间：约 30 分钟 ） 前言 最近 Jev 很火，技术社区里也出现了不少复现项目。看完相关文档和项目后，我发现团队去年做的淘小蜜客服 Agent 分流模型和 Jev 要解决的问题有一些相似之处，技术方案上也存在可以互相验证的地方。 本文的初稿其实在去年九月份就已经写好了，当时的内容主要是总结淘小蜜分流模型的数据构建、训练和部署经验；最近分流模型又做了一轮优化，在线上部署和评测时踩了四五天坑，再加上 Jev 发布后大家都在猜它的实现方式，所以重新把之前的内容整理了一番。 先说明，Jev 没有公开模型结构和具体训练方法。本文对 Jev 的介绍以 TypeSafe 官方文档为准，对模型结构的讨论主要参考 SemIf、open-bonsai-",
+      "lane": "tech"
+    },
+    {
+      "title": "快手电商智能补贴实践：从经验发券走向目标驱动的智能营销托管",
+      "date": "2026-11-10",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501620&idx=1&sn=b06a10705133ada4aeb06305e104c530",
+      "source": "kuaishou-tech",
+      "thin": false,
+      "preview": "快手技术 2026-11-10 18:10 北京 从“发券”到“经营”：快手电商如何让补贴带来真实增量。 每次电商大促启动前，运营团队都需要回答一连串具体问题：预算怎样分配，消费券发给谁，门槛和面额怎样设置，什么时候放量，效果不及预期时又该调整哪里？ 这些问题看似分散，背后指向的是同一个经营目标：在预算和钱效约束下，让补贴带来更多真实增量。 回看快手电商这几年的营销技术建设，营销补贴的重点也在持续演进：从支撑活动快速上线和大规模覆盖，到基于人群与场景的精细化运营，再到围绕经营目标开展增量预估、预算优化与智能决策，并逐步推进营销托管。 一、从人工经验发券到智能决策：为什么“发得多”不等于“长得好” 1.1 粗放式营销：先把活动感知打出去 先看一组数据：2023年年货节大促，10天活动时间，累计发放优惠券数十亿张，触达近亿用户，平均每位用户发放数十张优惠券。这个数字能够体现当时的券投放规模，统",
+      "lane": "tech"
+    },
+    {
+      "title": "美团 LongCat-2.5 正式开源：从看见，到抵达",
+      "date": "2026-11-10",
+      "link": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
+      "source": "meituan-tech",
+      "thin": false,
+      "preview": "美团正式开源 LongCat-2.5，采用 MIT 协议，支持商用推理部署与二次训练，无需额外授权。 LongCat-2.5是面向长程智能体任务的原生多模态模型，在复杂代码库开发、完整项目构建、Visual Coding 与专业办公场景中，端到端交付能力均有明显提升。模型总参数 1.6 万亿，每个 token 激活约 480 亿参数，支持一百万上下文。针对显存与带宽受限的国产算力芯片，我们在模型架构、芯片适配与部署策略上也进行了深度协同优化。 完整分数与评测条件参见技术博客 01 代码与长程智能体 LongCat-2.5 的长程能力提升，来自一整条训练链路的扩展，而非单点改动。这些设计不改变模型能力的定义，但让能力在长任务中稳定发挥。 第一，更贴近真实长程任务的训练数据。加入更多长程轨迹，并把真实 Agent 的失败轨迹转为可复现、可验证的训练任务。 第二，更适配长任务节奏的强化学习。采用",
+      "lane": "tech"
+    },
+    {
+      "title": "2.1.321",
+      "date": "2026-11-09",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-321",
+      "source": "claude-code-changelog",
+      "thin": false,
+      "preview": "Added Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings <file> to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you restart claude remote-control [VSCode] Added a warning above the prompt box when both an auth token and ",
+      "lane": "product"
+    },
+    {
+      "title": "AI and Irontown",
+      "date": "2026-11-09",
+      "link": "https://lucumr.pocoo.org/2026/11/9/irontown/",
+      "source": "lucumr",
+      "thin": false,
+      "preview": "For our last movie night we watched Princess Mononoke. I remembered loving that movie when I was younger, but watching it as an adult made me once again realize how Miyazaki has a way of expressing diverging sides without picking one. The film shows people, animals and spirits with legitimate and largely incompatible needs, and each faction is further engaged in infighting. A central arc of the st",
+      "lane": "tech"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "date": "2026-11-09",
+      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Claude can design electronic prototypes from start to finish",
+      "date": "2026-11-09",
+      "link": "https://www.anthropic.com/research/claude-electronics-design",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+      "lane": "product"
+    },
+    {
+      "title": "Claude Fable 5.2 is now available in Devin",
+      "date": "2026-11-09",
+      "link": "https://devin.ai/blog/claude-fable-5-2",
+      "source": "devin-blog",
+      "thin": true,
+      "preview": "Claude Fable 5.2 is now live in Devin. It takes the top spot on FrontierCode 2.0 with a score of 49.1%, up from Fable 5.1's 32.4%.",
+      "lane": "product"
+    },
+    {
+      "title": "Claude Fable 5.2 is now available in Devin Desktop and Devin CLI. On FrontierCode 2.0, Fable 5.2 ta...",
+      "date": "2026-11-09",
+      "link": "https://x.com/cognition/status/2119869931135406452",
+      "source": "cognition",
+      "thin": false,
+      "preview": "Claude Fable 5.2 is now available in Devin Desktop and Devin CLI. On FrontierCode 2.0, Fable 5.2 takes the #1 spot at a score of 49.1. Fable 5.2 also introduces a significant price improvement from Fable 5.1: at low reasoning effort, it surpasses its predecessor’s score at a third of the cost. 💬38🔄32❤️474👀51056📊89 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "date": "2026-11-09",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "date": "2026-11-09",
+      "link": "https://openai.com/index/control-room",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Google Antigravity for Knowledge Work",
+      "date": "2026-11-09",
+      "link": "https://antigravity.google/blog/antigravity-for-knowledge-work",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "date": "2026-11-09",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "anthropic-news",
+      "thin": true,
+      "preview": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+      "lane": "product"
+    },
+    {
+      "title": "Iterating Towards LLM Reliability with Evaluation Driven Development",
+      "date": "2026-11-09",
+      "link": "https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Dosu uses evaluation driven development and LangSmith to build reliable LLM products at scale, monitor production performance, and iterate with confidence.",
+      "lane": "mixed"
+    },
+    {
+      "title": "JPMorganChase expands Claude Code to more employees across the firm",
+      "date": "2026-11-09",
+      "link": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "JPMorganChase expands Claude Code to more employees across the firm",
+      "lane": "product"
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "date": "2026-11-09",
+      "link": "https://openai.com/index/kuken",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "lane": "mixed"
+    },
+    {
+      "title": "LangSmith BYOC on AWS is generally available",
+      "date": "2026-11-09",
+      "link": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+      "source": "langchain",
+      "thin": true,
+      "preview": "LangSmith Bring Your Own Cloud is now generally available on AWS, giving Enterprise teams managed observability, evaluation, and deployment inside their own VPC.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "date": "2026-11-09",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nNemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context\nCommunity Article Published\nNovember 9, 2026 Upvote 14\n+8 Atsunori Fujita Atsunori Follow nvidia Masaya Ogushi SnowMasaya Follow nvidia Vincent Gong vg1024 Follow nvidia Kotaro Yamamoto kyamamoto-nv Follow nvidia Yoshi Suhara suhara Follow nvidia Will Jennings WillJenningsDC F",
+      "lane": "mixed"
+    },
+    {
+      "title": "Portals on Your Runner",
+      "date": "2026-11-09",
+      "link": "https://ampcode.com/news/runner-portals",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "Portals, which you know and love from using them in orbs, now work on your local machines too. You can ask Amp to start a dev server or build a website on your machine and open it from the thread's Portal tab, regardless of where you are. Turn on Allow Portals under Settings › Runner in the macOS app, or start your runner with amp --no-tui --remote-control-portals. Portals on your runner are only ",
+      "lane": "product"
+    },
+    {
+      "title": "Promptim: an experimental library for prompt optimization",
+      "date": "2026-11-09",
+      "link": "https://www.langchain.com/blog/promptim",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Automate prompt engineering with Promptim's optimization library. Save time, improve AI performance, and switch models faster.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Read more: https://t.co/GhGFSOFIQp",
+      "date": "2026-11-09",
+      "link": "https://x.com/cognition/status/2119869934977388923",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Read more: devin.ai/blog/claude-fa… 💬0🔄0❤️9👀3784📊1 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "date": "2026-11-09",
+      "link": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.",
+      "lane": "product"
+    },
+    {
+      "title": "SEE Conf 「AI 新交互与多端」专题议程来啦！",
+      "date": "2026-11-09",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521651&idx=1&sn=3e44f6ad46c5545f9c9ddd0898e1b47f",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-09 08:30 浙江 早鸟票即将截止！ SEE Conf 2026 蚂蚁终端体验科技大会将于 11 月 28 日在杭州举办，「AI 新交互与多端」专题由蚂蚁集团高级技术专家李彦男（竹光）、施桢屹（祯逸）联合出品。 竹光长期从事支付宝客户端研发，主要技术领域包括性能优化、渲染引擎、终端智能化。目前主要聚焦 AI 人机新交互框架、端云 agent 协同等能力建设，提供终端智能化运行底座。 祯逸长期从事企业数字化与研发工具建设，实践横跨低代码、跨端应用与 AI 全栈研发。目前聚焦 AI 编程工具、全栈开发框架与智能体协作，既做技术工具与框架，也做面向实际业务的应用开发。 抢购早鸟票：https://seeconf.antgroup.com 当 Agent 开始参与软件的创造与使用，交互方式和终端技术也在发生变化，从用户行为驱动交互往可被 Agen",
+      "lane": "tech"
+    },
+    {
+      "title": "The Radish AI team joins Lovable to scale agentic capabilities for businesses",
+      "date": "2026-11-09",
+      "link": "https://lovable.dev/blog/radish-ai-team-joins-lovable",
+      "source": "lovable",
+      "thin": true,
+      "preview": "Lovable has acquired the team behind Radish AI, an agentic infrastructure platform. Its co-founders join our engineering team in London and Stockholm to build the agent capabilities and infrastructure behind Lovable.",
+      "lane": "product"
+    },
+    {
+      "title": "Try Claude Fable 5.2 in Devin Desktop: https://t.co/R3sAD3AnzH",
+      "date": "2026-11-09",
+      "link": "https://x.com/cognition/status/2119869933295423888",
+      "source": "cognition",
+      "thin": true,
+      "preview": "Try Claude Fable 5.2 in Devin Desktop: devin.ai/desktop 💬2🔄0❤️23👀5588📊4 ⚡ Powered by xgo.ing",
+      "lane": "mixed"
+    },
+    {
+      "title": "Which Claude model should you build with?",
+      "date": "2026-11-09",
+      "link": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.",
+      "lane": "product"
+    },
+    {
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "date": "2026-11-09",
+      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nYour Experts Have Partners. There's HOPE for Keeping Them Together\nEnterprise Article Published\nNovember 9, 2026 Upvote 7\n+1 Alex M Tseng alexmtseng Follow amazon Luca Zancato zancato Follow amazon\nHigher-Order Pruning of Experts in Mixture-of-Experts Language Models\nIntroduction\nMixture-of-Experts (MoE) models have enabled state-of-the-art LLMs to be scaled to hundreds of billion",
+      "lane": "mixed"
+    },
+    {
+      "title": "从进化到泛化，RSI 四大前沿框架如何实现 Agent 自动调优",
+      "date": "2026-11-09",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512471&idx=1&sn=cce98b31a76694181957c85cc6109efb",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "飞樰 2026-11-09 18:08 浙江 本文解析了 Google 提出的四大 RSI 框架，分别从无金标进化、进化机制自优化、正则化防过拟合及面向对象架构解耦四个维度实现了 Agent 的自动调优。 这是2026年的第 78 篇文章 （ 本文阅读时间：约 20 分钟 ） 前言 在上一篇文章《深度解析 RSI：当 AI 开始实现自我迭代提升 》里，作者系统性介绍了 RSI（递归自我改进） 的背景理论和实现架构，并介绍了近几年关于 RSI 各方面的一些优质研究，涵盖 Skill、Context、Memory、Tools、Harness、Model、训练算法、进化机制等层面的探索。 不过整体来看，之前的研究大多偏向于“子模块的局部进化”，甚至严格来说并不能算真正的 RSI，只能说是广义上的自进化，因为有些研究的优化系统本身是无法进化、无法改进的。 然而，就在刚刚过去的 10 月份，Goog",
+      "lane": "tech"
+    },
+    {
+      "title": "数字员工：有关AI Native新流水线的思考",
+      "date": "2026-11-09",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546793&idx=1&sn=9e814b9f097ad6ebde8a9b7998835084",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "原创 天猫技术 2026-11-09 18:18 北京 别再造执行Agent了，先建好协同流水线。 本文探讨了AI Native组织中“数字员工”作为新流水线的核心价值。作者指出，当前多数方案聚焦于让AI自主完成任务的“执行层”，而真正稀缺的是解决人与人、人与AI之间目标对齐和上下文串联的“协同层”。真正的数字员工并非执行具体任务的Agent或面向个人的数字分身，而是以业务单元为边界、随时在线的“PM”角色。它通过IM群、协作板及会议等入口主动感知信息，拉齐上下文并派发任务，沉淀属于组织的资产而非个人效率。短期红利虽在执行层，但长期胜负手在于协同层，构建这条将各角色串联起来的新流水线才是关键。 写在前面： 上篇留下的那个问题 电动机替代蒸汽机的故事，作为AI转型的例子已经被讲了无数遍：工厂把蒸汽机换成电动机，效率三十年没起色，直到有人围绕电机把整条流水线重组了一遍，效率才真正起飞。那么问题",
+      "lane": "tech"
+    },
+    {
+      "title": "说个最近越想越不对劲的事...... 《AI 编程的加速陷阱》 我是maple，目前主要在腾讯做Agent 相关的一些开发业务。 我们...",
+      "date": "2026-11-09",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808120&idx=1&sn=b007fdc7119e2018ef1a0ffda9a41b0a",
+      "source": "tencent-engineering",
+      "thin": false,
+      "preview": "腾讯技术工程 2026-11-09 18:08 广东 说个最近越想越不对劲的事...... 《AI 编程的加速陷阱》 我是maple，目前主要在腾讯做Agent 相关的一些开发业务。 我们团队现在代码提交量大概是以前的几十倍。一开始大家挺兴奋，觉得效率上来了。但慢慢我发现，量上来了，可控性反而下去了，而且是整条链一起往下掉。 需求评审完，产品随口说了句，「这个边界先不用管，实际业务里不会这么用。」程序员点点头，测试也没为这个场景开单。这句话没进 PRD，没进纪要，也没变成用例，但它实实在在把系统复杂度降下来了。 现在换成 AI 编程。这句「先不用管」没人写进需求。AI 很认真地把边界展开成十几个状态、一堆异常路径和兼容分支。代码提交量上去了，测试单也上去了，所有人就被拖进了循环。 问题不是 AI 不努力，是它不知道人类本来会妥协。 传统手工编程时，我们从来没把所有状态全实现过。真正让东西能",
+      "lane": "tech"
+    },
+    {
+      "title": "SEE Conf 「卓越 AI 工程实践」专题议程来啦！",
+      "date": "2026-11-08",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521644&idx=1&sn=a8299a05b420c7c41b0f4a34556f7ddf",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-08 11:57 浙江 本专题所有演讲主题已确定，快来看！ SEE Conf 2026 蚂蚁终端体验科技大会将于 11 月 28 日在杭州举办，「卓越 AI 工程实践」专题由阿里巴巴 Qoder 高级技术专家陈成（云谦）和蚂蚁集团技术专家曹磊（明是）联合出品。 云谦是一位拥有 18 年一线研发经验、从未转向管理岗位的资深 IC。职业轨迹横跨「亿级 PV 的 C 端前端业务 → 前端工具链与框架 → Rust 高性能构建 → AI Code Agent」。作为 dva、umi、Mako、Neovate 等开源项目的作者，长期活跃于技术社区与大会。现于阿里巴巴 Qoder 团队，从事 QoderCLI 研发，聚焦 AI Coding / Code Agent 方向。 明是长期从事数据智能与企业办公领域的应用工具建设，实践横跨数据可视化、低代码、A",
+      "lane": "tech"
+    },
+    {
+      "title": "Agent 支付如何落地？",
+      "date": "2026-11-07",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521634&idx=1&sn=c0e329728af053cc09ec04093cdf94b7",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-07 20:31 浙江 11 月 28 日，来 SEE Conf 一探究竟！ SEE Conf 2026 蚂蚁终端体验科技大会将于 11 月 28 日在杭州举办，蚂蚁集团 AI 支付产品经理黄文林（沐桔）将在「AI 创新体验」专场给大家带来主题为《从“帮你选”到“帮你买”：智能体支付如何落地？》的演讲。 抢购早鸟票：https://seeconf.antgroup.com 当 AI 已能理解需求、推荐商品，如何进一步帮助用户完成下单与支付？智能体支付正在成为连接 AI 服务与商业交易的重要环节。 本次分享中，沐桔将围绕智能体支付的应用场景与接入思路，拆解从用户表达需求、授权委托，到订单创建、支付确认与结果反馈的完整流程。 在此基础上，我们将重点探讨：如何兼顾交易便利与用户对交易的控制，如何做好身份核验、明确授权边界并应对异常情况，以及商户与开",
+      "lane": "tech"
+    },
+    {
+      "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+      "date": "2026-11-07",
+      "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Managed Deep Agents v0.10 adds browser use, so agents can work on sites with no API and hand you the window to sign in, and async subagents for background work.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Agents Are Going Async",
+      "date": "2026-11-06",
+      "link": "https://www.langchain.com/blog/agents-are-going-async",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents.",
+      "lane": "mixed"
+    },
+    {
+      "title": "AI 内容核查怎么做：智能内容 AI 核查系统实践",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607774&idx=1&sn=fe90aff1e78ff6f023dabeb9dcf2ad63",
+      "source": "baidu-geek",
+      "thin": false,
+      "preview": "原创 欢迎关注的 2026-11-06 12:00 上海 把内容拆成最小可验证主张、以权威证据逐条判定、由规则下结论——多阶段小模型流水线让 AIGC 内容核查降本落地五类业务。 。 点击蓝字，关注我们 作者 | 弘远君 导读 introduction AIGC 内容里的事实错误越来越隐蔽：前几段都对，最后一句张冠李戴；检索结果里对的错的都有，模型挑了不权威的那条。我们建设了一套内容 AI 核查系统，核心做法是把内容拆成最小的可验证主张，以权威证据为准逐条判断，让模型只判断证据与主张的关系，由规则给出结论。在此基础上，我们用多阶段小模型流水线把核查成本降下来，覆盖海量批量数据。系统已在知识百科、内容问答等五类业务落地。 全文 4682 字，预计阅读时间 6 分钟 GEEK TALK 01 核查难在哪 先看几个线上真实出现过的错误： 这些错误有个共同点：单看每一句都\"有出处\"，错误藏在局部、",
+      "lane": "tech"
+    },
+    {
+      "title": "Browser Use in Managed Deep Agents",
+      "date": "2026-11-06",
+      "link": "https://www.langchain.com/blog/browser-use-in-managed-deep-agents",
+      "source": "langchain",
+      "thin": true,
+      "preview": "Managed Deep Agents now runs a browser for your agent, with tools tuned for context-efficient browser use and a handoff so you can sign in yourself.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Close the Loop",
+      "date": "2026-11-06",
+      "link": "https://ampcode.com/news/close-the-loop",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "You can now send feedback to Amp directly from your website. Enable the feedback widget in the settings for your project and add one script to your website. Then visit the site with ?amp appended, and the annotation widget is displayed. Click on any part of the page and write instructions for Amp. Once you are done, send the feedback to Amp. The first time, you sign in with Amp. Then Amp starts a ",
+      "lane": "product"
+    },
+    {
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "date": "2026-11-06",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nEgyptian and Nigerian English join the Open ASR Leaderboard\nPublished\nNovember 6, 2026 Update on GitHub Upvote 13\n+7 Eric Bezzam bezzam Follow Ashley Mo ashleymo2025 Follow liva-ai Aoi Otani aonorii Follow liva-ai\nA few months ago, we added private data to the Open ASR Leaderboard: 11 splits from Appen and DataOceanAI covering scripted and conversational speech from five accents (",
+      "lane": "mixed"
+    },
+    {
+      "title": "How Kiro Auto uses model cascading to match the model to the work",
+      "date": "2026-11-06",
+      "link": "https://kiro.dev/blog/model-cascade",
+      "source": "kiro",
+      "thin": false,
+      "preview": "TL;DR. Behind the scenes, Auto uses model cascading. Every session starts on an initial model, an independent check reviews the work in the background, and Auto hands the session to a more capable model when the work calls for it. In an internal evaluation on DeepSWE v1.1, the cascade performed nearly as well as the more capable model on its own, and about four in five tasks finished without a han",
+      "lane": "mixed"
+    },
+    {
+      "title": "How We Optimized Browser Use for Deep Agents",
+      "date": "2026-11-06",
+      "link": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+      "source": "langchain",
+      "thin": true,
+      "preview": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "date": "2026-11-06",
+      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "date": "2026-11-06",
+      "link": "https://openai.com/index/partnering-with-hacktron",
+      "source": "openai-news",
+      "thin": true,
+      "preview": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "lane": "mixed"
+    },
+    {
+      "title": "Spaces",
+      "date": "2026-11-06",
+      "link": "https://ampcode.com/news/spaces",
+      "source": "amp-news",
+      "thin": false,
+      "preview": "Today we're launching spaces, a new way to interact with agents and your team in Amp. A space is a conversation with a single agent whose job is to spawn and coordinate agents for you. You no longer have to create and organize threads yourself; the agent in a space will do it for you. It's a new, higher-level way to work with many agents. After using spaces for the past few weeks, we think this mi",
+      "lane": "product"
+    },
+    {
+      "title": "The becoming begins.",
+      "date": "2026-11-06",
+      "link": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "source": "qwen-research",
+      "thin": true,
+      "preview": "The becoming begins. 💬1729🔄1470❤️18742👀2871458📊3962 ⚡ Powered by xgo.ing",
+      "lane": "tech"
+    },
+    {
+      "title": "The components of agent memory",
+      "date": "2026-11-06",
+      "link": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "claude-articles",
+      "thin": true,
+      "preview": "For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how \"dreaming\" helps it organize memory and correct mistakes.",
+      "lane": "product"
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "date": "2026-11-06",
+      "link": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "huggingface",
+      "thin": false,
+      "preview": "Back to Articles\nToyBlocks: A controlled world for robot learning and evaluation\nCommunity Article Published\nNovember 6, 2026 Upvote 23\n+17 Kyle Wiggers Ai2Comms Follow allenai\n💻 Code | 📊 Data | 🤖 Models | 📖 Documentation\nRobots are learning to fold laundry, sort parts, and handle unfamiliar objects. But those demonstrations are often rather narrow and don't explain what a robot has learned or why",
+      "lane": "mixed"
+    },
+    {
+      "title": "Voice mode in Antigravity",
+      "date": "2026-11-06",
+      "link": "https://antigravity.google/blog/antigravity-voice-mode",
+      "source": "antigravity",
+      "thin": false,
+      "preview": "Copy Logo as SVGCopied!Press GuidelinesOpen web appWeb appDownloadOpen web appWeb appENEnglish (United States)Bahasa Indonesia (Indonesia)Deutsch (Deutschland)English (Canada)English (United Kingdom)Español (España)Español (México)Français (France)Italiano (Italia)Polski (Polska)Português (Brasil)हिन्दी (भारत)ไทย (ประเทศไทย)日本語 (日本)简体中文 (中国)繁體中文 (台灣)한국어 (대한민국)\nExplore our next generation products\n",
+      "lane": "product"
+    },
+    {
+      "title": "《2026 阿里巴巴 AI 向善行动报告》发布！",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512443&idx=1&sn=8d46f57eb04b27d9c172e0371e1677cd",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "阿里技术 2026-11-06 11:09 浙江 今年，是我们连续第二年发布 AI 向善行动报告。 AI 的发展，需要的不只是更强的模型，还有让技术长期为人所用的条件：社会可接受、环境可承载、经济可持续。服务值得信任，资源消耗可承受，创造的价值能够支撑持续投入，向善才不会停留在短期目标。 报告分享了过去一年阿里“AI 向善”的 26 个实践案例，涵盖医疗、教育、环保、科研等领域。 阿里巴巴集团首席技术官、科技伦理治理委员会主席吴泽明表示，AI发展需要满足三个要件：社会可接受、环境可承载、经济可持续。当前行业正处于规则成型期，科技企业应积极创造社会价值，确保AI发展方向符合人类福祉。 阿里巴巴集团公益总裁、阿里巴巴公益基金会理事长孙利军表示，“向善”必须“向众”，Al走向大众才能创造最大价值。 我们想分享的不只是进展，也有经验、机会和没解开的难题。报告记录的只是一个阶段，而回应真实的需求，需",
+      "lane": "tech"
+    },
+    {
+      "title": "决策模型 Jev 可以直接上生产？用实验和公式理解 logit 调优与训练要领（长文干货）",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786",
+      "source": "alibaba-tech",
+      "thin": false,
+      "preview": "原创 陈梓康 2026-11-06 18:00 浙江 本文围绕一个核心工程问题展开：用决策模型替代传统生成式 LLM-as-a-Judge 做自动化评测/决策时，如何避免「直接用默认阈值和原始输出概率」带来的性能折损与误判？ 这是2026年的第 77 篇文章 （ 本文阅读时间：约 30 分钟 ） 前言 Decision Model（jev-like）有一些深层次的潜力可以挖掘。并且，在上线业务前，有一些前置的调教工作要做。 本文的前半部分转载并整理自 Hamel Husain 与 Antaripa Saha 合著的《How To Use Decision Models for Evals》。 我们将围绕一个核心工程问题展开：用决策模型（Decision Models）替代传统生成式 LLM-as-a-Judge 做自动化评测（Automated Evals）/决策时，如何避免「直接用默认阈",
+      "lane": "tech"
+    },
+    {
+      "title": "多Agent协作的下一场竞争，不在模型，而在上下文",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314",
+      "source": "tencent-engineering",
+      "thin": false,
+      "preview": "原创 腾讯程序员 2026-11-06 17:38 广东 Siboot 的协作产品哲学 作者：poppylili AI 时代，人和 Agent 到底怎么协作？ 聊聊产品设计的底层逻辑——上下文如何在群里流动、隔离、接力。 我们做了一个司内工具Siboot ，讲讲我们如何重构 AI 时代的群聊。 一、先问一个被跳过的问题：协作到底在传递什么？ 我们习惯把协作理解成\"发消息\"。 于是过去二十年，所有协作工具都在优化发消息这件事：IM 让消息更快，邮件让消息更正式，在线文档让消息能被多人同时编辑，会议软件让消息能带着表情和语气。 但如果你把镜头拉远一点会发现，消息只是载体，真正在两个人之间流动的，是上下文—— 你为什么做这个决定、你考虑过哪些方案、你排除了什么、你现在卡在哪一步、你手里有哪些材料、这件事的边界在哪。 消息是上下文被压缩、编码、说出口之后的产物。你说出来的，永远比你脑子里的少。听的",
+      "lane": "tech"
+    },
+    {
+      "title": "淘宝MNN团队开源0.3B手机模型，iPhone 18 Pro上离线跑出350 token/s",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546792&idx=1&sn=de39dc3d838f9aeb9cfbf92196d6ca1c",
+      "source": "taobao-tech",
+      "thin": false,
+      "preview": "Meta技术 2026-11-06 11:33 浙江 方寸之间，智能可及 把大模型运行在手机上，已经有了不少探索。 从1B、4B到27B量级的稠密模型，再到总参数约30B、激活参数约3B的MoE模型，不同规模与架构正在拓展端侧部署的可能性。 但对手机应用开发者来说，成功加载模型、完成一次对话，只是起点。 对于淘宝、闲鱼这类日常高频使用的应用，大模型必须与其自带业务共享算力、内存和带宽。同时，还得在持续调用与多任务并发下，兼顾响应时延、功耗和温升。 MNN团队将这一设计方向称为“手机应用原生大模型”。他们发布了MNN-Pocket-0.3B，面向手机应用的任务需求与资源预算，在有限算力、内存和能耗下，兼顾任务能力、响应速度与持续运行体验。 手机应用原生大模型背景介绍 围绕淘宝等综合型手机应用，团队将“手机应用原生大模型”落实为四个维度的设计目标： 速度上，在指定设备与上下文配置下，解码吞吐超",
+      "lane": "tech"
+    },
+    {
+      "title": "百灵大模型多模态代码负责人鹏函邀你参加 SEE Conf 2026",
+      "date": "2026-11-06",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521624&idx=1&sn=12be098dd93a17dafc2c47f59cc7ff65",
+      "source": "alipay-ux",
+      "thin": false,
+      "preview": "原创 SEE Conf 组委会 2026-11-06 13:39 浙江 抢 SEE Conf 2026 早鸟票！ SEE Conf 2026 将于 11 月 28 日在杭州·A 空间举办。 蚂蚁百灵大模型多模态代码负责人彭晗（鹏函） 确认出席本次会议，并将在「卓越 AI 工程实践」专题为大家带来主题为《多模态编程智能体：从看懂界面到完成复杂任务》的演讲。 彭晗（鹏函）是牛津大学物理学博士，曾任牛津大学视觉几何组（VGG）博士后研究员、谷歌资深软件工程师，主要负责计算机视觉与 Agent 技术在工业级场景中的规模化应用。现任蚂蚁集团高级算法专家、百灵大模型多模态代码负责人，并作为核心贡献者参与打造 560B 参数开源大模型 Ling-3.2-flash，在多模态代码领域能力做到业界 SOTA。目前，他主要专注于多模态基础模型的后训练及下一代智能体技术。 购票地址：https://seecon",
+      "lane": "tech"
+    }
+  ]
+}
