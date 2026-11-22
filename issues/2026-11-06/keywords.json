@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "issue": "2026-11-06",
   "window": {
     "since": "2026-10-30",
@@ -35,16 +35,43 @@
   "omitted": [],
   "words": [
     {
+      "word": "Deep Agents",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.8,
+      "hosts": [
+        "www.langchain.com",
+        "huggingface.co"
+      ],
+      "example": "Managed Deep Agents: the fastest way to ship a production deep agent",
+      "theme": true
+    },
+    {
       "word": "SWE-2 Flash",
       "kind": "model",
       "score": 5,
       "mentions": 3,
       "sources": 1,
-      "weight": 4.2,
+      "weight": 3,
       "hosts": [
         "x.com"
       ],
       "example": "Introducing SWE-2 Flash, our new fast & efficient coding model. On leading evals, it outperform..."
+    },
+    {
+      "word": "Devin Review 2.0",
+      "kind": "product",
+      "score": 4,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.8,
+      "hosts": [
+        "devin.ai",
+        "x.com"
+      ],
+      "example": "Devin Review 2.0"
     },
     {
       "word": "Gemini Omni 1.2 Flash",
@@ -52,7 +79,7 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "blog.google"
       ],
@@ -64,7 +91,7 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "coderabbit.ai"
       ],
@@ -76,7 +103,7 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "mp.weixin.qq.com"
       ],
@@ -88,7 +115,7 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "openai.com"
       ],
@@ -100,7 +127,7 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "tech.meituan.com"
       ],
@@ -112,37 +139,11 @@
       "score": 5,
       "mentions": 1,
       "sources": 1,
-      "weight": 3.6,
+      "weight": 1.4,
       "hosts": [
         "mp.weixin.qq.com"
       ],
       "example": "阶跃Step 5 Preview上线Qoder CN全家桶！"
-    },
-    {
-      "word": "Devin Review 2.0",
-      "kind": "product",
-      "score": 4,
-      "mentions": 2,
-      "sources": 2,
-      "weight": 3.5,
-      "hosts": [
-        "devin.ai",
-        "x.com"
-      ],
-      "example": "Devin Review 2.0"
-    },
-    {
-      "word": "Deep Agents",
-      "kind": "concept",
-      "score": 3,
-      "mentions": 2,
-      "sources": 2,
-      "weight": 2.9,
-      "hosts": [
-        "www.langchain.com",
-        "huggingface.co"
-      ],
-      "example": "Managed Deep Agents: the fastest way to ship a production deep agent"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "issue": "2026-11-20",
   "window": {
     "since": "2026-11-13",
@@ -43,18 +43,20 @@
   "omitted": [],
   "words": [
     {
-      "word": "Gemini 4 Neon",
-      "kind": "model",
-      "score": 5,
+      "word": "常驻 Agent",
+      "kind": "concept",
+      "score": 3,
       "mentions": 3,
       "sources": 3,
-      "weight": 4.7,
+      "weight": 4.2,
       "hosts": [
-        "x.com",
-        "antigravity.google",
-        "devin.ai"
+        "coderabbit.ai",
+        "www.langchain.com",
+        "claude.com"
       ],
-      "example": "We’ve evaluated Gemini 4 Neon on FrontierCode 2.0, our benchmark that measures whether you should me..."
+      "example": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
+      "theme": true,
+      "evidence": "always-on agents"
     },
     {
       "word": "Devin Bots",
@@ -62,7 +64,7 @@
       "score": 4,
       "mentions": 7,
       "sources": 2,
-      "weight": 4.1,
+      "weight": 4.4,
       "hosts": [
         "x.com",
         "devin.ai"
@@ -75,7 +77,7 @@
       "score": 4,
       "mentions": 4,
       "sources": 2,
-      "weight": 4.1,
+      "weight": 4.4,
       "hosts": [
         "x.com",
         "devin.ai"
@@ -83,56 +85,18 @@
       "example": "Devin Apps can be used to extend and customize Devin itself. Read more about how to create, share,..."
     },
     {
-      "word": "GPT-6.2 Astra",
+      "word": "Gemini 4 Neon",
       "kind": "model",
       "score": 5,
-      "mentions": 2,
-      "sources": 2,
-      "weight": 4.1,
-      "hosts": [
-        "coderabbit.ai",
-        "openai.com"
-      ],
-      "example": "Introducing GPT-6.2 Astra and Sol"
-    },
-    {
-      "word": "GPT-6.2 Sol",
-      "kind": "model",
-      "score": 5,
-      "mentions": 2,
-      "sources": 2,
-      "weight": 4.1,
-      "hosts": [
-        "coderabbit.ai",
-        "openai.com"
-      ],
-      "example": "GPT-6.2 Sol and Astra review: should you switch?"
-    },
-    {
-      "word": "Rumble-2-Flash",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
-    },
-    {
-      "word": "always-on agents",
-      "kind": "concept",
-      "score": 3,
       "mentions": 3,
       "sources": 3,
-      "weight": 3.5,
+      "weight": 4.2,
       "hosts": [
-        "coderabbit.ai",
-        "www.langchain.com",
-        "claude.com"
+        "x.com",
+        "antigravity.google",
+        "devin.ai"
       ],
-      "example": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents"
+      "example": "We’ve evaluated Gemini 4 Neon on FrontierCode 2.0, our benchmark that measures whether you should me..."
     },
     {
       "word": "software factory",
@@ -147,12 +111,38 @@
       "example": "Introducing Warp Learn: Build your first software factory"
     },
     {
+      "word": "GPT-6.2 Astra",
+      "kind": "model",
+      "score": 5,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.8,
+      "hosts": [
+        "coderabbit.ai",
+        "openai.com"
+      ],
+      "example": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+      "word": "GPT-6.2 Sol",
+      "kind": "model",
+      "score": 5,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.8,
+      "hosts": [
+        "coderabbit.ai",
+        "openai.com"
+      ],
+      "example": "GPT-6.2 Sol and Astra review: should you switch?"
+    },
+    {
       "word": "ChatGPT Wallet",
       "kind": "product",
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "openai.com"
       ],
@@ -164,7 +154,7 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "coderabbit.ai"
       ],
@@ -176,7 +166,7 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "www.langchain.com"
       ],
@@ -188,11 +178,23 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "mp.weixin.qq.com"
       ],
       "example": "登上GitHub Trending｜腾讯开源 LoopForge"
+    },
+    {
+      "word": "Rumble-2-Flash",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
     },
     {
       "word": "Warp Learn",
@@ -200,7 +202,7 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "www.warp.dev"
       ],

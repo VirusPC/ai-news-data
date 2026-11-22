@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "issue": "2026-10-30",
   "window": {
     "since": "2026-10-23",
@@ -30,100 +30,18 @@
   "omitted": [],
   "words": [
     {
-      "word": "GPT-6.1 Terra",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
+      "word": "software factory",
+      "kind": "concept",
+      "score": 3,
+      "mentions": 2,
+      "sources": 2,
+      "weight": 2.8,
       "hosts": [
-        "openai.com"
+        "www.warp.dev",
+        "kiro.dev"
       ],
-      "example": "Introducing GPT-6.1 Terra"
-    },
-    {
-      "word": "Granite Switch 4.1.1",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "Granite Switch 4.1.1 - Update models like you update software"
-    },
-    {
-      "word": "Kimi K3.1 Pro",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "mp.weixin.qq.com"
-      ],
-      "example": "Kimi K3.1 Pro：智能前沿，更进一步"
-    },
-    {
-      "word": "LFM3",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "Build specialized multimodal models with LFM3"
-    },
-    {
-      "word": "Lumma-Fev-v2",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "Introducing Lumma-Fev-v2"
-    },
-    {
-      "word": "Mistral Large 4",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
-    },
-    {
-      "word": "Nemotron 3.5 Transcribe",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "huggingface.co"
-      ],
-      "example": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
-    },
-    {
-      "word": "Qwen3-TTS",
-      "kind": "model",
-      "score": 5,
-      "mentions": 1,
-      "sources": 1,
-      "weight": 3.6,
-      "hosts": [
-        "lucumr.pocoo.org"
-      ],
-      "example": "Custom Voices With Qwen3-TTS"
+      "example": "7 core components for building a software factory",
+      "theme": true
     },
     {
       "word": "FrontierCode 2.0",
@@ -131,7 +49,7 @@
       "score": 4,
       "mentions": 2,
       "sources": 1,
-      "weight": 3.3,
+      "weight": 2.2,
       "hosts": [
         "x.com"
       ],
@@ -143,7 +61,7 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "huggingface.co"
       ],
@@ -155,7 +73,7 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "huggingface.co"
       ],
@@ -167,11 +85,95 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "devin.ai"
       ],
       "example": "Devin Security 2.0: Built for the new threat landscape"
+    },
+    {
+      "word": "GPT-6.1 Terra",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "openai.com"
+      ],
+      "example": "Introducing GPT-6.1 Terra"
+    },
+    {
+      "word": "Granite Switch 4.1.1",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Granite Switch 4.1.1 - Update models like you update software"
+    },
+    {
+      "word": "Kimi K3.1 Pro",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "mp.weixin.qq.com"
+      ],
+      "example": "Kimi K3.1 Pro：智能前沿，更进一步"
+    },
+    {
+      "word": "LFM3",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Build specialized multimodal models with LFM3"
+    },
+    {
+      "word": "Lumma-Fev-v2",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Introducing Lumma-Fev-v2"
+    },
+    {
+      "word": "Mistral Large 4",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+    },
+    {
+      "word": "Nemotron 3.5 Transcribe",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
+      "hosts": [
+        "huggingface.co"
+      ],
+      "example": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
     },
     {
       "word": "Project ProtoStar",
@@ -179,24 +181,23 @@
       "score": 4,
       "mentions": 1,
       "sources": 1,
-      "weight": 3,
+      "weight": 1.4,
       "hosts": [
         "huggingface.co"
       ],
       "example": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready"
     },
     {
-      "word": "software factory",
-      "kind": "concept",
-      "score": 3,
-      "mentions": 2,
-      "sources": 2,
-      "weight": 2.9,
+      "word": "Qwen3-TTS",
+      "kind": "model",
+      "score": 5,
+      "mentions": 1,
+      "sources": 1,
+      "weight": 1.4,
       "hosts": [
-        "www.warp.dev",
-        "kiro.dev"
+        "lucumr.pocoo.org"
       ],
-      "example": "7 core components for building a software factory"
+      "example": "Custom Voices With Qwen3-TTS"
     }
   ]
 }
