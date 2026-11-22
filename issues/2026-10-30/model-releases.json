@@ -6,8 +6,9 @@
     "since": "2026-10-23",
     "until": "2026-10-29"
   },
-  "reason": "没有该期的历史价格、速度和智力指数。AA 免费接口 2026-11-22 能拉到当前 764 个模型，但没有历史 as-of，所以没有写入。OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
+  "reason": "没有该期的历史价格、速度和智力指数。2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。 OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
   "models": [],
   "price_rank": null,
-  "speed_rank": null
+  "speed_rank": null,
+  "coding_index_published": false
 }

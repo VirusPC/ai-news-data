@@ -16,7 +16,7 @@
   "scripts": {
     "fetch_feeds.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_feeds.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
     "fetch_llm_arena.py": "skills/managed/weekly-ai-blogs-digest/scripts/fetch_llm_arena.py @ 8f82ccf8c187fa6cb4f22650194173c141ea5bc1",
-    "fetch_artificial_analysis.py": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
+    "fetch_artificial_analysis.py": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
     "fetch_openrouter.py": "box 上已有 OPENROUTER_API_KEY，2026-11-22T14:25+08:00 跑现有 fetch_openrouter.py，HTTP 200。云端早先的 401 只是没有这个环境变量。密钥没有进入仓库。",
     "fetch_openrouter_endpoints.py": "这批没有官方端点文件。端点延迟是近实时测量，不能写成历史速度。OpenRouter Data API 的历史用量已在同目录另四份文件，采集时间 2026-11-22T14:25+08:00。",
     "model_release_ranks.py": "没有跑。没有可排名的当期价格或速度。"
@@ -239,33 +239,28 @@
       "bytes": 49425
     },
     "github-trending.json": {
-      "absent": true,
-      "reason": "在线 weekly 的 channel pubDate 是 2026-11-21，不是这一期。没有可核验的当时 XML。不写空榜，也不用旧周报前五名充数。",
-      "observed_at": "2026-11-22T13:58:14+08:00",
-      "channels": {
-        "github-trending-weekly-all": {
-          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml",
-          "channel_pubDate": "Sat, 21 Nov 2026 07:51:06 GMT",
-          "live_items": 13
-        },
-        "github-trending-weekly-python": {
-          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/python.xml",
-          "channel_pubDate": "Sat, 21 Nov 2026 08:03:52 GMT",
-          "live_items": 15
-        },
-        "github-trending-weekly-typescript": {
-          "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/typescript.xml",
-          "channel_pubDate": "Sat, 21 Nov 2026 08:07:53 GMT",
-          "live_items": 17
-        }
-      }
+      "description": "hanishrao/trending-collection 当天较晚的 weekly 页面顺序。added_stars 写明 stars this week。不是周五 09:00 的榜，也不是 mshibanami RSS。",
+      "absent": false,
+      "ok": true,
+      "source_commit": "c15fcfbcbdcc78783738187d65aaa02a2fe46661",
+      "source_commit_at": "2026-10-30T08:05:04Z",
+      "pubDate": "Fri, 30 Oct 2026 08:01:39 GMT",
+      "not_generation_morning": true,
+      "counts": {
+        "all": 11,
+        "python": 15,
+        "typescript": 18
+      },
+      "wayback_today_excluded": 3
     },
     "aa-language-models.json": {
       "skipped": true,
       "written": false,
-      "reason": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
+      "reason": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
       "fetched_models_verified": 764,
-      "historical_as_of": false
+      "historical_as_of": false,
+      "coding_index": "不再发布，字段恒为 null，不是采集失败",
+      "leaderboard_as_of": false
     },
     "openrouter-rankings-daily.json": {
       "description": "官方每日 Top50 历史数据聚合。默认 --limit 15。items 是窗口内各日 Top50（不含 other）的 token 相加后的前 15。每天都在 Top50 之外的用量只在 other 里，进不了这 15 名。不能把 items 说成无损的完整 7 日榜。",
@@ -343,7 +338,7 @@
     },
     "model-releases.json": {
       "skipped": true,
-      "reason": "没有该期的历史价格、速度和智力指数。AA 免费接口 2026-11-22 能拉到当前 764 个模型，但没有历史 as-of，所以没有写入。OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
+      "reason": "没有该期的历史价格、速度和智力指数。2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。 OpenRouter 端点延迟是近实时，没有写成历史速度。models 为空不是「这周没有发布」。",
       "fetched_at": "2026-11-22T13:58:14+08:00"
     },
     "llm-arena-2026-10-28.json": {
@@ -364,8 +359,8 @@
     "glm_research_list": "2026-11-22 https://www.zhipuai.cn/zh/research HTTP 200，页面无 2026-10 或 2026-11 日期",
     "meta_old_blog_list": "2026-11-22 https://ai.meta.com/blog/ HTTP 200，页面无 2026-10 或 2026-11",
     "openrouter": "2026-11-22T14:25+08:00 Data API HTTP 200。usage 窗口 2026-10-23～2026-10-29，missing_dates 为空。programming 采样周 2026-10-19～2026-10-25，不是资讯窗口。",
-    "artificial_analysis": "2026-11-22T14:25:29+08:00 在已有 AA_API_KEY 的环境请求免费接口 HTTP 200，当前目录 764 个模型。该接口没有历史 as-of。当前快照没有写入这三期，不能把今天的智力指数、价格或速度当成当时的值。",
-    "github_trending_weekly_xml": "Wayback CDX 2026-10-20～11-08 对 weekly/all.xml 返回空数组",
+    "artificial_analysis": "2026-11-22 浏览器打开 https://artificialanalysis.ai/leaderboards/models ，没有重定向。控件是 Weights、Size、Price、Reasoning、Status:Current，没有 as-of 或历史日期。https://artificialanalysis.ai/data-api/docs#intelligence-index-versioning 写当前 Intelligence Index 为 v5.0.1，版本历史是方法变更，不是历史排名。artificial_analysis_coding_index 恒为 null，因为 AA 不再发布 Coding Index，不是这次采集失败。https://artificialanalysis.ai/data-api/docs#authentication 免费档是当前模型目录、headline indices、performance、pricing；performance-over-time 和原始测量在文档里属于 Commercial。OpenAPI 下载是 schema，不是历史数据。以上只覆盖实际打开的页面和这两处文档，不据此说所有商业产品都没有历史。同一天免费接口 HTTP 200，当前目录 764 个模型，密钥有效。当前值没有写入这三期。",
+    "github_trending_weekly_xml": "Wayback 精确捕获 20261023004122、20261023092524、20261023084011 打开后 Date range 都是 Today，已排除。since=weekly 日历 2026 年 168 次保存，这三天没有该 URL。不能推断全站无历史。已采用 hanishrao/trending-collection c15fcfbcbd 的 weekly 页面顺序，pubDate Fri, 30 Oct 2026 08:01:39 GMT，晚于周五 09:00 Asia/Shanghai。",
     "aws_paged_feed": "2026-11-22 feed 与 ?paged=2/5/8 字节数相同，都是最近约 20 条"
   },
   "openrouter_landed_at": "2026-11-22T14:25:09+08:00"
