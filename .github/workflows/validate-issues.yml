@@ -16,7 +16,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: VirusPC/edges-brain-viruspc
-          ref: cursor/ai-news-three-stage-migrate-5355
+          # Skill schema for this migration. After that PR is on main, change this to main.
+          ref: d2eca4eb234f2402790e2e2412483cdc341b03c8
           path: skill
       - name: Validate each issue
         run: |
