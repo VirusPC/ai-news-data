@@ -6,7 +6,7 @@
   "stats": {
     "feeds": 51,
     "errors": 0,
-    "items": 141,
+    "items": 142,
     "thin": 4
   },
   "items": [
@@ -1278,6 +1278,15 @@
       "thin": false,
       "preview": "Introducing the SpaceX Super Intelligence Partner Network | SpaceXSI\nBack to newsOct 22, 2026\nIntroducing the SpaceX Super Intelligence Partner Network\nOur official program for companies building products, solutions, and services with Grok for our joint prospects and customers.\nLearn more and apply\nToday, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for com",
       "lane": "product"
+    },
+    {
+      "title": "Every Tenth of a Second Counts—A Technical Deep Dive into Fast Tier Performance Optimization",
+      "date": "2026-10-20",
+      "link": "https://blog.qoder.com/qoder-fasttech",
+      "source": "qoder",
+      "thin": false,
+      "lane": "product",
+      "preview": "2026-10-20 · 10 min read \n\n What does a three-second response feel like? Instead of waiting for a reply, you get feedback almost as soon as you finish asking. That is what the recently launched Qoder Fast tier delivers. It brings the time to first response down from 8 seconds to 3 seconds while reducing the Credits consumption multiplier from 1.1× to 0.8×. Many users have asked how we achieved thi"
     }
   ]
 }
