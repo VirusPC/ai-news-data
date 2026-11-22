@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808030-idx-1-sn-b1a1332f38f89c2d.json",
+  "title": "腾讯混元发布 Hy4",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+  "sentence": "&lt;模型&gt;&lt;腾讯&gt;  (https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33) Hy4 加上视觉理解和电脑操作，并写进 WorkBuddy 的办公场景。 完整总结 解决什么问题：",
+  "category": "模型",
+  "company": "腾讯",
+  "text": "#### &lt;模型&gt;&lt;腾讯&gt;[腾讯混元发布 Hy4](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33)\n\nHy4 加上视觉理解和电脑操作，并写进 WorkBuddy 的办公场景。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>预览版之后，办公和长程任务还缺视觉、工具和电脑操作。</p>\n<p><strong>如何解决：</strong>扩大预训练和后训练，加入视觉理解、推理、工具调用，并对 Blender、CAD 这类软件做专项训练。</p>\n<p><strong>效果怎样：</strong>WorkBuddy 自评平均 83.18 分，任务通过率 96.15%，12 个场景里 9 个排国内第一。这是他们自己的表。</p>\n<p><strong>相关工作：</strong>美团同一窗口的 LongCat-2.5 也在做原生视觉和长程 Agent，路线是统一 token，不是办公套件。</p>\n</details>\n\n"
+}

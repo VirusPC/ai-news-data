@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/personal-self-hosted-orbs",
+  "title": "Your Own Self-Hosted Orbs",
+  "date": "2026-10-28",
+  "source": "raw/articles/feeds.json",
+  "text": "You no longer need to be in a workspace to self-host orbs. Up until now, only workspace admins could manage self-hosted orb providers. Now, you can add a provider in your personal Settings → Orbs and set it up the same way as a workspace provider. When you create a thread, it shows up under Self-Hosted, marked Personal."
+}

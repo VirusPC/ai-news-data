@@ -1,0 +1,67 @@
+{
+  "id": "OpenRouter 本周用量",
+  "source": "raw/models/openrouter-rankings-daily.json",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "deepseek-v4.1-flash-20261017",
+      "value": 55.79
+    },
+    {
+      "name": "hy4-20261104",
+      "value": 20.25
+    },
+    {
+      "name": "deepseek-v4.1-flash-20260910",
+      "value": 15.96
+    },
+    {
+      "name": "glm-5.3-flash-20260826",
+      "value": 11.97
+    },
+    {
+      "name": "gpt-6-luna-20260922",
+      "value": 7.43
+    },
+    {
+      "name": "claude-opus-5.5-20260921",
+      "value": 6.79
+    },
+    {
+      "name": "step-5-preview-20261008",
+      "value": 6.73
+    },
+    {
+      "name": "kimi-k3.1-pro-20261023",
+      "value": 4.38
+    },
+    {
+      "name": "gpt-6.1-sol-20260929",
+      "value": 4.23
+    },
+    {
+      "name": "glm-5.3-20260816",
+      "value": 3.88
+    },
+    {
+      "name": "mimo-v2.6-flash-20260921",
+      "value": 3.62
+    },
+    {
+      "name": "minimax-m3.1-flash-20261019",
+      "value": 3.6
+    },
+    {
+      "name": "crouton-alpha",
+      "value": 3.53
+    },
+    {
+      "name": "deepseek-v4-flash-20260731",
+      "value": 3.24
+    },
+    {
+      "name": "nemotron-3-ultra-550b-a55b-20260604:free",
+      "value": 3.19
+    }
+  ]
+}

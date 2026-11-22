@@ -1,0 +1,7 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools",
+  "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "More enterprises are building AI agents into their daily work, and a common pattern is an agent that searches internal documents to compose its answers. A single organization might soon run hundreds of agents, each connected to many data sources and tools. This raises a question. When an agent searches on behalf of a user, can you make sure that it uses only the information that user is allowed to see? Consider AnyCompany, a fictional company that builds an internal assistant shared by all employees. An employee in department A asks, “Compare my department’s business plan with the notice to all departments, and list the initiatives that are behind schedule.” The agent writes its own search queries and keeps searching internal documents until it has enough information. Employees in department B ask the same assistant the same question. If the application doesn’t scope searches to each user, the department B business plan can end up in an answer to an employee in department A. If you replace the departments with customer companies, the same problem occurs in a multi-tenant software as a service (SaaS) architecture where multiple customers share one assistant and knowledge base.…"
+}

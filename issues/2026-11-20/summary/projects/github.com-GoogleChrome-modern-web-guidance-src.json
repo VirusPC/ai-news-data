@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/GoogleChrome/modern-web-guidance-src",
+  "source": "cleaned/projects/github.com-GoogleChrome-modern-web-guidance-src.json",
+  "purpose": "GoogleChrome/modern-web-guidance-src",
+  "change": "见本期正文。",
+  "text": "#### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)\n\n把 Web 最佳实践和<mark>浏览器兼容数据</mark>做成编码 Agent 的 skill。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 容易沿用训练数据里的旧写法，用一大段 JavaScript 去做浏览器已经提供的事。模型就算知道某个接口，也常常缺少能直接用的现代写法。</p>\n<p><strong>如何解决：</strong>这是 Modern Web Guidance 的源码仓库，由 Chrome、Edge、Firefox 和 MDN 一起维护。skill 把 Web 平台经验、最佳实践和浏览器兼容数据放进 Agent 的上下文。命令行可以搜索指南、按编号取出一篇，或扫描代码库里的过时写法。安装向导要求 Node.js 22 或更新。</p>\n<p><strong>效果怎样：</strong>仓库说明没有另给一组对照成绩。它要让 Agent 少用过时模式，改用浏览器自己能优化、也带无障碍能力的接口。</p>\n<p><strong>洞察与启发：</strong>模型知道某个 Web 接口存在，仍可能写出过时的一大段脚本，因为训练数据里旧写法更密。把实践和兼容数据放进上下文，是在补这个密度，不是再教一遍接口名单。</p>\n<p><strong>相关工作：</strong>同期 Gemini 的工具检索解决的是工具太多、上下文装不下。这篇解决的是写 Web 时上下文里缺现代写法。阿里那篇把规矩做成构建失败，这里是用 skill 把写法送进 Agent。</p>\n</details>\n\n"
+}

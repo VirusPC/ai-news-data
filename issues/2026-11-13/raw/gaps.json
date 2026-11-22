@@ -1,0 +1,12 @@
+{
+  "gaps": [
+    {
+      "path": "projects/releases.json",
+      "reason": "这期快照没有单独的仓库发布记录"
+    },
+    {
+      "path": "models/openrouter-official-endpoints.json",
+      "reason": "本环境没有 OPENROUTER_API_KEY，没有请求 /api/v1/models/.../endpoints。端点延迟是近实时，不能用 2026-11-22 的测量充当这一期的历史速度。"
+    }
+  ]
+}

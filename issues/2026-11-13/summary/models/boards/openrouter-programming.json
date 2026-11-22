@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 编程用量",
+  "source": "cleaned/models/boards/openrouter-programming.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 编程用量 deepseek-v4.1-flash-20261017",
+      "name": "deepseek-v4.1-flash-20261017",
+      "value": 6.23
+    },
+    {
+      "id": "OpenRouter 编程用量 deepseek-v4.1-flash-20260910",
+      "name": "deepseek-v4.1-flash-20260910",
+      "value": 1.92
+    },
+    {
+      "id": "OpenRouter 编程用量 step-5-preview-20261008",
+      "name": "step-5-preview-20261008",
+      "value": 1.54
+    },
+    {
+      "id": "OpenRouter 编程用量 glm-5.3-flash-20260826",
+      "name": "glm-5.3-flash-20260826",
+      "value": 1.49
+    },
+    {
+      "id": "OpenRouter 编程用量 muse-spark-1.3-contributor-20260902",
+      "name": "muse-spark-1.3-contributor-20260902",
+      "value": 1.1
+    },
+    {
+      "id": "OpenRouter 编程用量 crouton-alpha",
+      "name": "crouton-alpha",
+      "value": 0.93
+    },
+    {
+      "id": "OpenRouter 编程用量 gpt-6-luna-20260922",
+      "name": "gpt-6-luna-20260922",
+      "value": 0.81
+    },
+    {
+      "id": "OpenRouter 编程用量 kimi-k3.1-pro-20261023",
+      "name": "kimi-k3.1-pro-20261023",
+      "value": 0.77
+    },
+    {
+      "id": "OpenRouter 编程用量 minimax-m3.1-flash-20261019",
+      "name": "minimax-m3.1-flash-20261019",
+      "value": 0.65
+    },
+    {
+      "id": "OpenRouter 编程用量 hy4-20261104",
+      "name": "hy4-20261104",
+      "value": 0.62
+    },
+    {
+      "id": "OpenRouter 编程用量 glm-5.3-20260816",
+      "name": "glm-5.3-20260816",
+      "value": 0.59
+    },
+    {
+      "id": "OpenRouter 编程用量 claude-opus-5.5-20260921",
+      "name": "claude-opus-5.5-20260921",
+      "value": 0.57
+    },
+    {
+      "id": "OpenRouter 编程用量 nemotron-3.5-super-vl-20261015:free",
+      "name": "nemotron-3.5-super-vl-20261015:free",
+      "value": 0.52
+    },
+    {
+      "id": "OpenRouter 编程用量 nemotron-3-ultra-550b-a55b-20260604:free",
+      "name": "nemotron-3-ultra-550b-a55b-20260604:free",
+      "value": 0.52
+    },
+    {
+      "id": "OpenRouter 编程用量 nemotron-3.5-lightning-20260807:free",
+      "name": "nemotron-3.5-lightning-20260807:free",
+      "value": 0.48
+    }
+  ]
+}

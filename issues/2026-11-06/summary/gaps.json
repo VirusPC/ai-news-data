@@ -1,0 +1,16 @@
+{
+  "gaps": [
+    {
+      "path": "models/腾讯混元 Hy4",
+      "reason": "已发布卡片的 ID 不在清洗候选里，按正文链接补了一条，没有新写摘要"
+    },
+    {
+      "path": "models/美团 LongCat-2.5",
+      "reason": "已发布卡片的 ID 不在清洗候选里，按正文链接补了一条，没有新写摘要"
+    },
+    {
+      "path": "keywords.json#Images 2.6",
+      "reason": "Images 2.6 在三路卡片里没有对上的 ID"
+    }
+  ]
+}

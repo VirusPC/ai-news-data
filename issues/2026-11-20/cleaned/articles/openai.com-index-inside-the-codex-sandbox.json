@@ -1,0 +1,7 @@
+{
+  "id": "https://openai.com/index/inside-the-codex-sandbox",
+  "title": "Inside the Codex sandbox",
+  "date": "2026-11-18",
+  "source": "raw/articles/feeds.json",
+  "text": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
+}

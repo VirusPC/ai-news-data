@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/thedotmack/claude-mem",
+  "source": "cleaned/projects/github.com-thedotmack-claude-mem.json",
+  "purpose": "thedotmack/claude-mem",
+  "change": "见本期正文。",
+  "text": "#### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)\n\n把 Agent 每次会话做了什么压成记忆，下次再注回去。\n\n来源里只有这些。\n\n"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "https://kiro.dev/blog/spec-it-safe",
+  "title": "Spec it safe: shift left and harden your specs with security requirements",
+  "date": "2026-10-30",
+  "source": "raw/articles/feeds.json",
+  "text": "Spec-driven development (SDD) is changing how large teams build software. Instead of relying on a prompt alone, you author a specification that guides an AI coding agent through design, tasks, and implementation; a flow we abbreviate here as Specify → Plan → Execute. But most specs describe what the software should do, the features a user can see and exercise, and don’t mention how it should withstand misuse. Functional requirements are naturally self-demonstrating: if login is broken, someone notices. Security requirements are often not; an app can pass every functional check while leaving an injection or authorization flaw wide open, because nothing exercises the failure case. So when a security constraint is missing from the spec, the agent has no security-focused target to build and iterate against. It falls back on whatever the framework defaults happen to do, which may be sufficient or may leave a hole, and nothing in the spec forces the question either way."
+}

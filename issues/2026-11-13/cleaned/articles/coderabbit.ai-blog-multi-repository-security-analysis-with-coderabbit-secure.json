@@ -1,0 +1,7 @@
+{
+  "id": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",
+  "title": "Multi-Repository Security Analysis with CodeRabbit Secure",
+  "date": "2026-11-10",
+  "source": "raw/articles/feeds.json",
+  "text": "An application can have an authentication check and still expose data if a caller can bypass the service that enforces it. When the services and deployment settings live in separate repositories, spotting that gap requires examining how they work together. In a microservices application, the API gateway and orders service might live in separate repositories. The gateway checks a user's token and passes their ID to the orders service, which uses it to return that user's orders. If a caller can reach the orders service directly, they could send someone else's ID and access their orders. Assessing that risk requires looking at both services and the network configuration between them. // gateway repository app.get('/orders', async (req, res) => { const user = await verifyToken(req.headers.authorization); if (!user) return res.sendStatus(401); const response = await fetch('http://orders:3000/orders', { headers: { 'x-user-id': user.id }, }); res.status(response.status).send(await response.text()); }); // orders repository app.get('/orders', async (req, res) => { const userId = req.get('x-user-id'); res.json(await getOrdersForUser(userId)); }); We built multi-repository analysis into…"
+}

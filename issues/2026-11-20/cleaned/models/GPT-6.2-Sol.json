@@ -1,0 +1,170 @@
+{
+  "name": "GPT-6.2 Sol",
+  "release_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "openrouter_slug": "openai/gpt-6.2-sol",
+  "provider_used": "OpenAI",
+  "provider_rule": "official",
+  "provider_note": "取官方 OpenAI 标准档（tag=openai，非 fast/ultrafast；未用 Azure / Amazon Bedrock）。",
+  "price": {
+    "input": 2,
+    "output": 10,
+    "cache_read": 0.1,
+    "unit": "USD per million tokens",
+    "currency_original": "USD",
+    "value_original": {
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "unit": "USD per million tokens"
+    },
+    "source": "release_article",
+    "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "source_quote": "GPT-6.2 Sol carries forward GPT-6.1 Sol’s rates of $2 for input, $0.10 for cached input, and $10 for output per million tokens.",
+    "provider": "official_article",
+    "fetched_at": "2026-11-20T12:49:00Z",
+    "openrouter_reference": {
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "provider": "OpenAI",
+      "model_page": {
+        "input": 2,
+        "output": 10,
+        "cache_read": 0.1
+      },
+      "note": "与官方标准价一致。提示超过 272K token 时为输入与缓存 2 倍、输出 1.5 倍。",
+      "fetched_at": "2026-11-20T12:48:26Z"
+    },
+    "rank": 87,
+    "rank_of": 142,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": "artificial_analysis",
+    "rank_value": 8,
+    "rank_variant": "GPT-6.2 Sol (Max)"
+  },
+  "speed": {
+    "latency_s": 3.1845,
+    "throughput_tps": 47,
+    "source": "openrouter_endpoints",
+    "endpoint": "https://openrouter.ai/api/v1/models/openai/gpt-6.2-sol/endpoints",
+    "unit_latency": "seconds (converted from OpenRouter latency_last_30m.p50 milliseconds)",
+    "unit_throughput": "tokens/s (OpenRouter throughput_last_30m.p50)",
+    "window": "last_30m",
+    "stat": "p50",
+    "workload": "text_generation",
+    "provider": "OpenAI",
+    "fetched_at": "2026-11-20T12:48:26Z",
+    "endpoints_considered": [
+      {
+        "provider_name": "OpenAI",
+        "tag": "openai",
+        "service_tier": null,
+        "latency_s": 3.1845,
+        "throughput_tps": 47,
+        "request_count": 39778
+      }
+    ],
+    "other_endpoints_excluded": [
+      {
+        "provider_name": "Azure",
+        "tag": "azure",
+        "service_tier": null,
+        "reason": "non-standard tier or not official provider",
+        "latency_s": 3.653,
+        "throughput_tps": 84
+      },
+      {
+        "provider_name": "Amazon Bedrock",
+        "tag": "amazon-bedrock/global",
+        "service_tier": null,
+        "reason": "non-standard tier or not official provider",
+        "latency_s": 0.771,
+        "throughput_tps": 93
+      },
+      {
+        "provider_name": "OpenAI",
+        "tag": "openai/fast",
+        "service_tier": "priority",
+        "reason": "non-standard tier or not official provider",
+        "latency_s": 1.48,
+        "throughput_tps": 78.5
+      },
+      {
+        "provider_name": "OpenAI",
+        "tag": "openai/ultrafast",
+        "service_tier": "ultrafast",
+        "reason": "non-standard tier or not official provider",
+        "latency_s": 3.454,
+        "throughput_tps": 215
+      }
+    ],
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": "openrouter_official_standard"
+  },
+  "aa": {
+    "intelligence_index": 57.3,
+    "rank": 13,
+    "rank_of": 156,
+    "variant": "GPT-6.2 Sol (Max)",
+    "aa_slug": "gpt-6-2-sol",
+    "variant_reason": "与 Astra 同一篇博文在 FrontierCode 2.0 对比中写明 both at max，因此综合智力用 AA 的 Max 档（slug gpt-6-2-sol）。",
+    "rank_method": "competition（同分同名次，下一有效名次跳过）",
+    "catalog_size": 763,
+    "scored_models": 156,
+    "intelligence_index_version": 5,
+    "tier": "free",
+    "endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
+    "coding_index": null,
+    "source": "Artificial Analysis",
+    "fetched_at": "2026-11-20T12:50:05Z",
+    "speed_median_aa": {
+      "latency_s": 198.68,
+      "throughput_tps": 90.91,
+      "time_to_first_answer_token_s": 198.68,
+      "source": "aa_free_performance",
+      "note": "Artificial Analysis 全提供商中位数，按该思考档位测量；与 OpenRouter 近 30 分钟路由流量不是同一口径。仅作备选，正文速度以 OpenRouter 为准。"
+    },
+    "other_variants": [
+      {
+        "name": "GPT-6.2 Sol (Xhigh)",
+        "slug": "gpt-6-2-sol-xhigh",
+        "intelligence_index": 55.7,
+        "rank": 17,
+        "rank_of": 156
+      },
+      {
+        "name": "GPT-6.2 Sol (High)",
+        "slug": "gpt-6-2-sol-high",
+        "intelligence_index": 54.9,
+        "rank": 19,
+        "rank_of": 156
+      },
+      {
+        "name": "GPT-6.2 Sol (Medium)",
+        "slug": "gpt-6-2-sol-medium",
+        "intelligence_index": 52.7,
+        "rank": 27,
+        "rank_of": 156
+      },
+      {
+        "name": "GPT-6.2 Sol (Low)",
+        "slug": "gpt-6-2-sol-low",
+        "intelligence_index": 40.6,
+        "rank": 56,
+        "rank_of": 156
+      }
+    ],
+    "note": "排名分母是本次免费接口中有 Intelligence Index 分数的模型数（156 / 763）。Pro 接口 /api/v2/language/models 返回 403（需要 Pro 订阅）；任务写的旧路径 /api/v2/data/llms/models 已于 2026-11-04 退役，返回 410。免费接口的 coding_index / agentic_index 在这些模型上均为 null，无法核验厂商自述的 Coding Agent Index。"
+  },
+  "best_for": {
+    "text": "日常工作的高效率默认模型：适合多步 agent 工作流，以及职场内外的日常任务。",
+    "source": "release_article",
+    "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "source_quote": "GPT-6.2 Sol, our efficient, versatile model for everyday work. ... our go-to model for everyday work. It powers through multistep agentic workflows ... Many employees at OpenAI use it as their default model for both technical and non-technical tasks."
+  },
+  "fetched_at": "2026-11-20T12:55:18Z",
+  "id": "GPT-6.2 Sol",
+  "source": "raw/models/model-releases.json"
+}

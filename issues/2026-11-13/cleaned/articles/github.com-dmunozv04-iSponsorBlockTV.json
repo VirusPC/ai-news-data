@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/dmunozv04/iSponsorBlockTV",
+  "title": "dmunozv04/iSponsorBlockTV",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "SponsorBlock client for all YouTube for TV clients. iSponsorBlockTV iSponsorBlockTV is a self-hosted application that connects to your YouTube for TV app (see compatibility below) and automatically skips segments (like Sponsors or intros) in YouTube videos using the SponsorBlock API. It can also auto mute and press the \"Skip Ad\" button the moment it becomes available on YouTube ads. Installation Check the wiki Compatibility Legend: ✅ = Working, ❌ = Not working, ❔ = Not tested Open an issue/pull request if you have tested a device that isn't listed here. Device Status Apple TV ✅* Samsung TV (Tizen) ✅ LG TV (WebOS) ✅ Android TV ✅ Chromecast ✅ Google TV ✅ Roku ✅ Fire TV ✅ CCwGTV ✅ Nintendo Switch ✅ Xbox One/Series ✅ Playstation 4/5 ✅ *Ad muting won't work when using AirPlay to send the audio to another speaker. ** Shorts aren't fully supported due to limitations on YouTube's side. A single short can be seen by either selecting the \"Disconnect\" option in the warning shown or by long pressing the thumbnail to open the menu and clicking play from there Usage Run iSponsorBlockTV on a computer that has network access. It doesn't need to be on the same network as the device, only access to…"
+}

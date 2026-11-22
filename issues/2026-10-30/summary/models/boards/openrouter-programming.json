@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 编程用量",
+  "source": "cleaned/models/boards/openrouter-programming.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4.1 Flash 1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 7.14
+    },
+    {
+      "id": "OpenRouter 编程用量 minimax/minimax-m3.1-flash-20261019:free",
+      "name": "minimax/minimax-m3.1-flash-20261019:free",
+      "value": 4.06
+    },
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash",
+      "value": 3.41
+    },
+    {
+      "id": "OpenRouter 编程用量 Nemotron 3 Ultra (free)",
+      "name": "Nemotron 3 Ultra (free)",
+      "value": 3.2
+    },
+    {
+      "id": "OpenRouter 编程用量 MiMo-V2.6-Flash",
+      "name": "MiMo-V2.6-Flash",
+      "value": 2.93
+    },
+    {
+      "id": "OpenRouter 编程用量 GLM 5.3 Flash",
+      "name": "GLM 5.3 Flash",
+      "value": 2.71
+    },
+    {
+      "id": "OpenRouter 编程用量 Step 5 Preview",
+      "name": "Step 5 Preview",
+      "value": 2.44
+    },
+    {
+      "id": "OpenRouter 编程用量 GLM 5.3",
+      "name": "GLM 5.3",
+      "value": 1.59
+    },
+    {
+      "id": "OpenRouter 编程用量 Muse Spark 1.3 Contributor",
+      "name": "Muse Spark 1.3 Contributor",
+      "value": 1.57
+    },
+    {
+      "id": "OpenRouter 编程用量 GPT-6 Luna",
+      "name": "GPT-6 Luna",
+      "value": 1.1
+    },
+    {
+      "id": "OpenRouter 编程用量 Hy4 preview",
+      "name": "Hy4 preview",
+      "value": 1.03
+    },
+    {
+      "id": "OpenRouter 编程用量 Claude Opus 5.5",
+      "name": "Claude Opus 5.5",
+      "value": 1
+    },
+    {
+      "id": "OpenRouter 编程用量 Kimi K3",
+      "name": "Kimi K3",
+      "value": 0.59
+    },
+    {
+      "id": "OpenRouter 编程用量 DeepSeek V4 Flash 0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 0.52
+    },
+    {
+      "id": "OpenRouter 编程用量 Claude Haiku 5.5",
+      "name": "Claude Haiku 5.5",
+      "value": 0.51
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "keywords": [
+    {
+      "name": "常驻 Agent",
+      "weight": 4.2,
+      "targets": [
+        "https://claude.com/resources/articles/building-always-on-agents",
+        "https://devin.ai/blog/introducing-devin-bots",
+        "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+        "https://www.langchain.com/blog/context-engineering-challenges-late-2026"
+      ],
+      "theme": true
+    },
+    {
+      "name": "Devin Bots",
+      "weight": 4.4,
+      "targets": [
+        "https://devin.ai/blog/introducing-devin-bots"
+      ]
+    },
+    {
+      "name": "Devin Apps",
+      "weight": 4.4,
+      "targets": [
+        "https://devin.ai/blog/devin-apps",
+        "https://lovable.dev/blog/introducing-drafts"
+      ]
+    },
+    {
+      "name": "Gemini 4 Neon",
+      "weight": 4.2,
+      "targets": [
+        "Gemini 4 Neon",
+        "Artificial Analysis Gemini 4 Neon (Xhigh)",
+        "Artificial Analysis Gemini 4 Neon (High)",
+        "LLM Arena Gemini 4 Neon (High)"
+      ]
+    },
+    {
+      "name": "software factory",
+      "weight": 3,
+      "targets": [
+        "https://www.warp.dev/blog/warp-learn-software-factory-course",
+        "https://www.warp.dev/blog/software-factory-adoption-challenges"
+      ]
+    },
+    {
+      "name": "GPT-6.2 Astra",
+      "weight": 2.8,
+      "targets": [
+        "GPT-6.2 Astra",
+        "Artificial Analysis GPT-6.2 Astra (Max)",
+        "Artificial Analysis GPT-6.2 Astra (Xhigh)",
+        "Artificial Analysis GPT-6.2 Astra (High)",
+        "Artificial Analysis GPT-6.2 Astra (Medium)"
+      ]
+    },
+    {
+      "name": "GPT-6.2 Sol",
+      "weight": 2.8,
+      "targets": [
+        "GPT-6.2 Astra",
+        "Artificial Analysis GPT-6.2 Sol (Max)"
+      ]
+    },
+    {
+      "name": "LoopForge",
+      "weight": 1.4,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c"
+      ]
+    },
+    {
+      "name": "Warp Learn",
+      "weight": 1.4,
+      "targets": [
+        "https://www.warp.dev/blog/factory-engineering-software-factories",
+        "https://www.warp.dev/blog/warp-learn-software-factory-course"
+      ]
+    }
+  ]
+}

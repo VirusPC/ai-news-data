@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/browser-use/browser-use",
+  "title": "browser-use/browser-use",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. https://browser-use.com The open-source browser agent. Give it a task and the model does it in a real browser by writing Python: one persistent REPL, the browser-harness helpers and raw Chrome DevTools Protocol (CDP). Runs on any LLM, locally or on Browser Use Cloud. MIT licensed. ● task: \"book the earliest driving test\" │ ● model writes a cell new_tab(url); bu.click(41); js(...) │ ● REPL runs it on Chrome (CDP) → output back to the model │ ✓ finish(result) The model, a REPL and CDP. That's the whole agent. Navigate the web like a human does. Find an available slot, pick a date and time, handle the CAPTCHA, and book a driving test. Explore more demos and prompts ↗ AI agents and crawlers: read browser-use.com/llms.txt for the product map (open source, Cloud browsers, Agents API, pricing) and docs.browser-use.com/llms.txt for the documentation index. Browser Use is the open-source browser agent (Python and TypeScript), a $0.02 per browser-hour cloud browser with stealth, CAPTCHA solving and residential proxies, and a hosted agent API. When you add browser-use to a…"
+}

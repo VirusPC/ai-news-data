@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzE5MTA3NzcxMQ-mid-2247489204-idx-1-sn-bc21e172929a366e.json",
+  "title": "MiniMax M3.1 Flash 开源",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+  "sentence": "&lt;开源&gt;&lt;MiniMax&gt;  (https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208) 公开 428B 总参数、23B 激活的权重，并用稀疏注意力和量化把推理再压一截。 完整总",
+  "category": "开源",
+  "company": "MiniMax",
+  "text": "#### &lt;开源&gt;&lt;MiniMax&gt;[MiniMax M3.1 Flash 开源](https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208)\n\n公开 428B 总参数、23B 激活的权重，并用稀疏注意力和量化把推理再压一截。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>上一周的能力更新还不能在别人的集群上部署。</p>\n<p><strong>如何解决：</strong>放出权重，把前三层全注意力换成稀疏注意力，专家量化到 W4A4，再按功耗调度算力。</p>\n<p><strong>效果怎样：</strong>文中称 72 小时真实用户处理超过 100 万亿 token。这是他们自己的计数。</p>\n<p><strong>相关工作：</strong>和 Kimi 相反：这边是先有产品，这一窗口补权重。</p>\n</details>\n\n"
+}

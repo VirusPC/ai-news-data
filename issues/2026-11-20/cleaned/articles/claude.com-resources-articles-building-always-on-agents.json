@@ -1,0 +1,7 @@
+{
+  "id": "https://claude.com/resources/articles/building-always-on-agents",
+  "title": "Building always-on agents",
+  "date": "2026-11-13",
+  "source": "raw/articles/feeds.json",
+  "text": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together."
+}

@@ -1,0 +1,214 @@
+{
+  "skill": "weekly-ai-blogs-digest",
+  "version": "0.2.0",
+  "data": {
+    "commit": "ca169d949f7b1b42cd8a9328923b90077e2507fe"
+  },
+  "blocks": [
+    {
+      "kind": "raw",
+      "text": "覆盖窗口：2026-10-30 00:00:00 至 2026-11-05 23:59:59（UTC；生成日 2026-11-06，不含当天）。\n\n<!-- provenance\n{\"rules\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"f800a6055b75ae4a22859d370a1af9d3cd4fdce8\",\"routine\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"skill\":\"skills/managed/weekly-ai-blogs-digest/SKILL.md\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"ca169d949f7b1b42cd8a9328923b90077e2507fe\",\"path\":\"issues/2026-11-06\",\"kind\":\"tree\"}}\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 一、本周关键词\n\n<!-- keywords-cloud\n[\n  {\n    \"word\": \"Deep Agents\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8,\n    \"theme\": true\n  },\n  {\n    \"word\": \"SWE-2 Flash\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 3,\n    \"sources\": 1,\n    \"weight\": 3\n  },\n  {\n    \"word\": \"Devin Review 2.0\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8\n  },\n  {\n    \"word\": \"Gemini Omni 1.2 Flash\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"GPT-6 Cyber\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Hy4\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Images 2.6\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"LongCat-2.5\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Step 5 Preview\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  }\n]\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 二、模型进展\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### LLM Arena\n\n![LLM Arena Top15 2026-10-28](llm-arena-top15-2026-10-28-marked.png)\n\n较上周无新榜。第一仍是 Gemini 4 Carbon (High)。\n\n<!-- chart-meta\n榜单发布日 2026-10-28。图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-11-06](openrouter-usage-top15-2026-11-06-marked.png)\n\n用量第一仍是 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n红圈：Hy4。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-11-06](openrouter-programming-top15-2026-11-06-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。第一仍是 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 应用用量 Top 15，2026-11-06](openrouter-apps-top15-2026-11-06-marked.png)\n\n公开应用用量第一仍是 Hermes Agent。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "SWE-2 Flash"
+    },
+    {
+      "kind": "card",
+      "id": "GPT-6 Cyber"
+    },
+    {
+      "kind": "card",
+      "id": "腾讯混元 Hy4"
+    },
+    {
+      "kind": "card",
+      "id": "美团 LongCat-2.5"
+    },
+    {
+      "kind": "card",
+      "id": "Gemini Omni 1.2 Flash"
+    },
+    {
+      "kind": "raw",
+      "text": "## 三、项目开源\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/anthropics/skills"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "kind": "raw",
+      "text": "## 四、精选文章\n\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.com/resources/articles/message-threads"
+    },
+    {
+      "kind": "card",
+      "id": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33"
+    },
+    {
+      "kind": "card",
+      "id": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://devin.ai/blog/devin-review-2"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/introducing-managed-deep-agents"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.warp.dev/blog/build-production-software-factory"
+    },
+    {
+      "kind": "card",
+      "id": "https://kiro.dev/blog/harness-properties-in-lean"
+    },
+    {
+      "kind": "raw",
+      "text": "## 五、精选推文\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 六、精选播客\n"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "本周关键词"
+    },
+    {
+      "title": "模型进展",
+      "boards": [
+        "LLM Arena",
+        "OpenRouter 应用用量",
+        "OpenRouter 编程用量",
+        "OpenRouter 本周用量"
+      ],
+      "cards": [
+        "SWE-2 Flash",
+        "GPT-6 Cyber",
+        "腾讯混元 Hy4",
+        "美团 LongCat-2.5",
+        "Gemini Omni 1.2 Flash"
+      ]
+    },
+    {
+      "title": "项目开源",
+      "cards": [
+        "https://github.com/thedotmack/claude-mem",
+        "https://github.com/Nutlope/hallmark",
+        "https://github.com/pingdotgg/t3code",
+        "https://github.com/anthropics/skills",
+        "https://github.com/HKUDS/DeepTutor"
+      ]
+    },
+    {
+      "title": "精选文章",
+      "groups": [
+        {
+          "title": "国内模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c"
+          ]
+        },
+        {
+          "title": "国外模型厂",
+          "cards": [
+            "https://claude.com/resources/articles/message-threads",
+            "https://openai.com/index/introducing-gpt-6-cyber"
+          ]
+        },
+        {
+          "title": "国内非模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+            "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html"
+          ]
+        },
+        {
+          "title": "国外非模型厂",
+          "cards": [
+            "https://devin.ai/blog/devin-review-2",
+            "https://www.langchain.com/blog/introducing-managed-deep-agents",
+            "https://www.warp.dev/blog/build-production-software-factory",
+            "https://kiro.dev/blog/harness-properties-in-lean"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "精选推文",
+      "cards": []
+    },
+    {
+      "title": "精选播客",
+      "cards": []
+    }
+  ]
+}

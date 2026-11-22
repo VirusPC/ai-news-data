@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/googleads/google-ads-mcp",
+  "title": "googleads/google-ads-mcp",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Google Ads MCP Server This repo contains the source code for running an MCP server that interacts with the Google Ads API. Tools The server uses the Google Ads API to provide several Tools and Resources for use with LLMs and AI agents. Tools available search: Retrieves information about the Google Ads account using GAQL. get_resource_metadata: Retrieves metadata about a Google Ads API resource type, for example \"campaign\". This is useful to understand the structure of the data and what fields are available for querying. list_accessible_customers: Returns IDs of customers directly accessible by the user authenticating the call. create_asset: Creates Google Ads assets (TEXT, IMAGE, YOUTUBE_VIDEO, SITELINK, CALLOUT, STRUCTURED_SNIPPET, and other asset types via extra_params). Note: image_asset_path is supported in local stdio mode only; use base64 image_asset_data for remote HTTP deployments. upload_video_asset: Uploads a local video file to YouTube via the Google Ads API using a background task so it can be referenced by video assets (supported in local stdio mode only). manage_labels: Creates, updates, and removes account labels. manage_label_associations: Creates and removes label…"
+}

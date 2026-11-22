@@ -1,0 +1,197 @@
+{
+  "skill": "weekly-ai-blogs-digest",
+  "version": "0.2.0",
+  "data": {
+    "commit": "ca169d949f7b1b42cd8a9328923b90077e2507fe"
+  },
+  "blocks": [
+    {
+      "kind": "raw",
+      "text": "覆盖窗口：2026-10-16 00:00:00 至 2026-10-22 23:59:59（UTC；生成日 2026-10-23，不含当天）。\n\n<!-- provenance\n{\"rules\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"f800a6055b75ae4a22859d370a1af9d3cd4fdce8\",\"routine\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"skill\":\"skills/managed/weekly-ai-blogs-digest/SKILL.md\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"ca169d949f7b1b42cd8a9328923b90077e2507fe\",\"path\":\"issues/2026-10-23\",\"kind\":\"tree\"}}\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 二、模型进展\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### LLM Arena\n\n![LLM Arena Top15 2026-10-22](llm-arena-top15-2026-10-22-marked.png)\n\n第一是 Gemini 4 Argon (High)。\n\n<!-- chart-meta\n榜单发布日 2026-10-22。图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-10-23](openrouter-usage-top15-2026-10-23-marked.png)\n\n用量第一是 DeepSeek V4.1 Flash，其次是 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n红圈：minimax/minimax-m3.1-flash-20261019:free。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-10-23](openrouter-programming-top15-2026-10-23-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。第一是 DeepSeek V4.1 Flash。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 应用用量 Top 15，2026-10-23](openrouter-apps-top15-2026-10-23-marked.png)\n\n公开应用用量第一是 Claude Code。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "MiniMax M3.1 Flash"
+    },
+    {
+      "kind": "card",
+      "id": "DeepSeek V4.1 Flash"
+    },
+    {
+      "kind": "card",
+      "id": "Reflection Beam"
+    },
+    {
+      "kind": "raw",
+      "text": "## 三、项目开源\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/morluto/rea"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/android/skills"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "kind": "raw",
+      "text": "## 四、精选文章\n\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.com/resources/articles/claude-duet"
+    },
+    {
+      "kind": "card",
+      "id": "https://claude.dev/blog/solving-code-review-at-anthropic"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://cursor.com/blog/agent-sdk"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents"
+    },
+    {
+      "kind": "card",
+      "id": "https://kiro.dev/blog/memory-in-ide-cli"
+    },
+    {
+      "kind": "raw",
+      "text": "## 五、精选推文\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 六、精选播客\n"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "模型进展",
+      "boards": [
+        "LLM Arena",
+        "OpenRouter 应用用量",
+        "OpenRouter 编程用量",
+        "OpenRouter 本周用量"
+      ],
+      "cards": [
+        "MiniMax M3.1 Flash",
+        "DeepSeek V4.1 Flash",
+        "Reflection Beam"
+      ]
+    },
+    {
+      "title": "项目开源",
+      "cards": [
+        "https://github.com/morluto/rea",
+        "https://github.com/anthropics/claude-plugins-official",
+        "https://github.com/ruvnet/ruflo",
+        "https://github.com/android/skills",
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ]
+    },
+    {
+      "title": "精选文章",
+      "groups": [
+        {
+          "title": "国内模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836"
+          ]
+        },
+        {
+          "title": "国外模型厂",
+          "cards": [
+            "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+            "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+            "https://claude.com/resources/articles/claude-duet",
+            "https://claude.dev/blog/solving-code-review-at-anthropic"
+          ]
+        },
+        {
+          "title": "国内非模型厂",
+          "cards": [
+            "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html"
+          ]
+        },
+        {
+          "title": "国外非模型厂",
+          "cards": [
+            "https://cursor.com/blog/agent-sdk",
+            "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+            "https://kiro.dev/blog/memory-in-ide-cli"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "精选推文",
+      "cards": []
+    },
+    {
+      "title": "精选播客",
+      "cards": []
+    }
+  ]
+}

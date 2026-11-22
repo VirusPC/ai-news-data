@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.com/resources/articles/message-threads",
+  "source": "cleaned/articles/claude.com-resources-articles-message-threads.json",
+  "title": "Make long-running agents faster with message threads",
+  "link": "https://claude.com/resources/articles/message-threads",
+  "sentence": "&lt;架构&gt;&lt;Anthropic&gt;  (https://claude.com/resources/articles/message-threads) 长会话不用每轮重发全部历史，API 只接收这一轮新的部分。 完整总结 解决什么问题： 编码 Agent 一轮会话几百次调用，每次都重发之前的消息和工具结果，上下文一大延迟就上去。 如何解决：",
+  "category": "架构",
+  "company": "Anthropic",
+  "text": "#### &lt;架构&gt;&lt;Anthropic&gt;[Make long-running agents faster with message threads](https://claude.com/resources/articles/message-threads)\n\n长会话不用每轮重发全部历史，API 只接收这一轮新的部分。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 一轮会话几百次调用，每次都重发之前的消息和工具结果，上下文一大延迟就上去。</p>\n<p><strong>如何解决：</strong>Messages API 的 message threads 在公开测试里让对话只发送一次，之后只传增量。</p>\n<p><strong>效果怎样：</strong>文中没有给出统一的延迟降幅。</p>\n<p><strong>相关工作：</strong>同一期 Kimi 把 harness 托管出去，Managed Deep Agents 也在托管运行环境。这篇是在 API 层少重发已经说过的历史。</p>\n</details>\n\n"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+  "title": "How to Choose the Right Sandbox for AI Agents",
+  "date": "2026-11-18",
+  "source": "raw/articles/feeds.json",
+  "text": "Learn how to choose a secure sandbox for AI agents, with guidance on filesystem isolation, network access, resource limits, and microVMs."
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Claude Mythos 5.2",
+  "release_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "release_date": "2026-11-09",
+  "date_source": "公告页写 November 9, 2026。",
+  "price": {
+    "input": 8,
+    "output": 40,
+    "unit": "USD per million tokens",
+    "currency_original": "USD",
+    "source": "release_article",
+    "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "source_quote": "they’re available at a lower price: $8 per million input tokens and $40 per million output tokens.",
+    "rank": null,
+    "rank_of": null,
+    "rank_missing_reason": "没有用 2026-11-22 的现价重算。也没有用 11-13 的 AA 快照现算名次，避免和生成日未记录的口径混在一起。price.rank 留空。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "没有 2026-11-13 的 OpenRouter 官方端点测量。本环境没有 OPENROUTER_API_KEY。2026-11-22 的现时速度没有写入。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "11-13 目录里已有当天拉到的 aa-language-models.json，但没有把当前（2026-11-22）榜写进来。这条没有用那份快照现算名次：模型发布排名脚本需要端点目录，且智力指数名次应在生成日就算好。这里不补算。"
+  },
+  "id": "Claude Mythos 5.2",
+  "source": "raw/models/model-releases.json"
+}

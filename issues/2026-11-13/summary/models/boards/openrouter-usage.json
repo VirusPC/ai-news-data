@@ -1,0 +1,84 @@
+{
+  "id": "OpenRouter 本周用量",
+  "source": "cleaned/models/boards/openrouter-usage.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "OpenRouter 本周用量 deepseek-v4.1-flash-20261017",
+      "name": "deepseek-v4.1-flash-20261017",
+      "value": 55.79
+    },
+    {
+      "id": "OpenRouter 本周用量 hy4-20261104",
+      "name": "hy4-20261104",
+      "value": 20.25
+    },
+    {
+      "id": "OpenRouter 本周用量 deepseek-v4.1-flash-20260910",
+      "name": "deepseek-v4.1-flash-20260910",
+      "value": 15.96
+    },
+    {
+      "id": "OpenRouter 本周用量 glm-5.3-flash-20260826",
+      "name": "glm-5.3-flash-20260826",
+      "value": 11.97
+    },
+    {
+      "id": "OpenRouter 本周用量 gpt-6-luna-20260922",
+      "name": "gpt-6-luna-20260922",
+      "value": 7.43
+    },
+    {
+      "id": "OpenRouter 本周用量 claude-opus-5.5-20260921",
+      "name": "claude-opus-5.5-20260921",
+      "value": 6.79
+    },
+    {
+      "id": "OpenRouter 本周用量 step-5-preview-20261008",
+      "name": "step-5-preview-20261008",
+      "value": 6.73
+    },
+    {
+      "id": "OpenRouter 本周用量 kimi-k3.1-pro-20261023",
+      "name": "kimi-k3.1-pro-20261023",
+      "value": 4.38
+    },
+    {
+      "id": "OpenRouter 本周用量 gpt-6.1-sol-20260929",
+      "name": "gpt-6.1-sol-20260929",
+      "value": 4.23
+    },
+    {
+      "id": "OpenRouter 本周用量 glm-5.3-20260816",
+      "name": "glm-5.3-20260816",
+      "value": 3.88
+    },
+    {
+      "id": "OpenRouter 本周用量 mimo-v2.6-flash-20260921",
+      "name": "mimo-v2.6-flash-20260921",
+      "value": 3.62
+    },
+    {
+      "id": "OpenRouter 本周用量 minimax-m3.1-flash-20261019",
+      "name": "minimax-m3.1-flash-20261019",
+      "value": 3.6
+    },
+    {
+      "id": "OpenRouter 本周用量 crouton-alpha",
+      "name": "crouton-alpha",
+      "value": 3.53
+    },
+    {
+      "id": "OpenRouter 本周用量 deepseek-v4-flash-20260731",
+      "name": "deepseek-v4-flash-20260731",
+      "value": 3.24
+    },
+    {
+      "id": "OpenRouter 本周用量 nemotron-3-ultra-550b-a55b-20260604:free",
+      "name": "nemotron-3-ultra-550b-a55b-20260604:free",
+      "value": 3.19
+    }
+  ]
+}

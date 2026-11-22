@@ -1,0 +1,7 @@
+{
+  "id": "https://x.com/cognition/status/2115983299432820864",
+  "title": "We've evaluated Gemini 4 Carbon and Gemini 4 Argon on FrontierCode 2.0, our coding benchmark that me...",
+  "date": "2026-10-30",
+  "source": "raw/articles/feeds.json",
+  "text": "We've evaluated Gemini 4 Carbon and Gemini 4 Argon on FrontierCode 2.0, our coding benchmark that measure's a model's ability to go beyond the spec. Gemini 4 Carbon scores near SOTA with a score of 40% and a cost of $4.04 per task, behind Claude Opus 5.5, GPT-6 Astra, and Claude Sonnet 5.5. Gemini 4 Argon scores 26.3% with a cost of $6.41 per task, ahead of Muse Wonder 1.0, but behind Claude Haiku 5.5 and Grok 4.7. See the leaderboard with full scores: cognition.com/frontiercode 💬149🔄60❤️1187👀246961📊281 ⚡ Powered by xgo.ing"
+}

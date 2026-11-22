@@ -1,0 +1,7 @@
+{
+  "id": "https://x.com/Alibaba_Qwen/status/2122161519110844686",
+  "title": "Qwen4-Max outperforms Qwen3.8-Max by +7.5% net on Agent Arena, making Alibaba #5 lab overall.",
+  "date": "2026-11-16",
+  "source": "raw/articles/feeds.json",
+  "text": "Qwen4-Max outperforms Qwen3.8-Max by +7.5% net on Agent Arena, making Alibaba #5 lab overall. Arena.ai@arena Qwen4-Max by @Alibaba_Qwen is the #1 Chinese model on the leaderboard making Alibaba now the #1 Chinese lab and #5 lab overall, just behind Anthropic, Google, OpenAI and Meta. It debuts overall at #14 on Agent Arena with +7.5% net improvement across 14.7k real-world agentic sessions from our global community, real traces on real tasks. This is a major leap over Qwen3.8-Max - Rank: #39 → #14 overall The Chinese frontier on Agent Arena: - #14 Qwen4-Max (Alibaba): +7.5% - #19 Hy4 (Tencent): +5.7% - #21 Kimi K3.1 Pro (Max) (Moonshot): +4.0% - #26 MiMo-V2.6-Pro (Xiaomi): +1.5% - #30 DeepSeek-V4.1-Flash (Max) (DeepSeek): +1.1% Breaking down performance across signals: Qwen4-Max improves over Qwen3.8-Max across all four reported signals, with particularly large gains in user satisfaction and steerability. - #15 Praise vs. Complaint: +13% (best Chinese model) - #13 Confirmed Success: +9% (best Chinese model) - #19 Steerability: +8% - #29 Bash Reliability: +3% By category, it is a top-ranked Chinese model across all 3: - #12 in Work: +9% - #14 in Chat: +8% - #16 in Code: +8% Congrats to the @Alibaba_Qwen team on this release! 🔗 View Quoted Tweet 💬48🔄46❤️829👀60312📊102 ⚡ Powered by xgo.ing"
+}

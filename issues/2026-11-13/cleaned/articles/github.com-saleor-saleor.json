@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/saleor/saleor",
+  "title": "saleor/saleor",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Saleor Core: the high performance, composable, headless commerce API. https://saleor.io Commerce that works with your language and stack GraphQL native, API-only platform for scalable composable commerce. Get to know Saleor: Talk to a human | Talk to the API Join our community: Website | Twitter | Discord Blog | Subscribe to newsletter Table of Contents What makes Saleor special? Why API-only Architecture? Features Installation Documentation Saleor Platform Storefront Dashboard Contributing License What makes Saleor special? Technology-agnostic - no monolithic plugin architecture or technology lock-in. GraphQL only - Not afterthought API design or fragmentation across different styles of API. Headless and API only - APIs are the only way to interact, configure, or extend the backend. Open source - a single version of Saleor without feature fragmentation or commercial limitations. Cloud native - battle tested on global brands. Native-multichannel - Per channel control of pricing, currencies, stock, product, and more. Why API-only Architecture? Saleor's API-first extensibility provides powerful tools for developers to extend backend using webhooks, attributes, metadata, apps,…"
+}

@@ -1,0 +1,40 @@
+{
+  "gaps": [
+    {
+      "path": "keywords.json#FrontierCode 2.0",
+      "reason": "FrontierCode 2.0 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#AnyDecisionModel",
+      "reason": "AnyDecisionModel 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#AnySpeechRecognizer",
+      "reason": "AnySpeechRecognizer 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Granite Switch 4.1.1",
+      "reason": "Granite Switch 4.1.1 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#LFM3",
+      "reason": "LFM3 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Lumma-Fev-v2",
+      "reason": "Lumma-Fev-v2 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Mistral Large 4",
+      "reason": "Mistral Large 4 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Nemotron 3.5 Transcribe",
+      "reason": "Nemotron 3.5 Transcribe 在三路卡片里没有对上的 ID"
+    },
+    {
+      "path": "keywords.json#Project ProtoStar",
+      "reason": "Project ProtoStar 在三路卡片里没有对上的 ID"
+    }
+  ]
+}

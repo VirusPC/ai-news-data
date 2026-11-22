@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/experientiallabs/experiential",
+  "title": "experientiallabs/experiential",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own. https://experientiallabs.ai Experiential Experiential is an open source gateway and router for agent workflows: Use hosted, BYOK, and local models through one OpenAI-compatible API. Control which users and agents can use which models, for which use cases, and how much they can spend. Turn production traffic into a custom router or model optimized for quality, speed, and cost. 🌐 Platform | 📚 Docs | Discord Getting Started Start a local OpenAI-compatible gateway. On first run, the setup wizard uses the shared provider, model, and reasoning-effort selectors, persists every selected provider connection, then shows defaults for the public alias, identity, and $50.00 command budget before printing a one-time key: pip install experiential exp Choose a public alias such as opus-5, capture the issued key, and send a request: export EXP_GATEWAY_KEY=... curl http://127.0.0.1:8000/v1/chat/completions \\ -H \"Authorization: Bearer $EXP_GATEWAY_KEY\" \\ -H 'Content-Type: application/json' \\…"
+}

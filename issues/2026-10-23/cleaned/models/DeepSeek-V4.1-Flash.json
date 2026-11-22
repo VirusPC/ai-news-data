@@ -1,0 +1,35 @@
+{
+  "name": "DeepSeek V4.1 Flash",
+  "release_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485876&idx=1&sn=2606d3fa9ac085f94290ddd1d94649cc",
+  "release_date": "2026-10-17",
+  "date_source": "该期 feeds 的日期，并在公告页核对",
+  "price": {
+    "input": null,
+    "output": null,
+    "source": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485876&idx=1&sn=2606d3fa9ac085f94290ddd1d94649cc",
+    "missing_reason": "公告里的「两个接口价格均为 5 元 / 千次」是新开放的 Search 与 Fetch 接口，不是模型 token 单价。正文没有写出模型 token 价格。",
+    "rank": null,
+    "rank_of": null,
+    "rank_missing_reason": "没有该期 Artificial Analysis 历史标价快照，不能做价格排名。没有使用 2026-11-22 的现价。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "source": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "没有该期 OpenRouter 官方端点的历史测量。本环境没有 OPENROUTER_API_KEY。端点延迟是近实时，2026-11-22 的现时速度没有写入。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
+  },
+  "id": "DeepSeek V4.1 Flash",
+  "source": "raw/models/model-releases.json"
+}

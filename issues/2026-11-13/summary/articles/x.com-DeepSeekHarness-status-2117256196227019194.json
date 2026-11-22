@@ -1,0 +1,10 @@
+{
+  "id": "https://x.com/DeepSeekHarness/status/2117256196227019194",
+  "source": "cleaned/articles/x.com-DeepSeekHarness-status-2117256196227019194.json",
+  "title": "Creator Mode：把想法做成可用的插件",
+  "link": "https://x.com/DeepSeekHarness/status/2117256196227019194",
+  "sentence": "&lt;产品&gt;&lt;DeepSeek&gt;  (https://x.com/DeepSeekHarness/status/2117256196227019194) 补录 11 月 2 日。Creator Mode 把想法做成可以拿来用的插件。演示里有设计工作台、沙盒游戏和 3D LLM 可视化。 完整总结 解决什么问题： Harness 要由使用它",
+  "category": "产品",
+  "company": "DeepSeek",
+  "text": "#### &lt;产品&gt;&lt;DeepSeek&gt;[Creator Mode：把想法做成可用的插件](https://x.com/DeepSeekHarness/status/2117256196227019194)\n\n补录 11 月 2 日。Creator Mode 把想法做成可以拿来用的插件。演示里有设计工作台、沙盒游戏和 3D LLM 可视化。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Harness 要由使用它的人来定义，而不是只使用内置的一套。</p>\n<p><strong>如何解决：</strong>Creator Mode 把一个想法做成插件。同日另一条帖子放出视频里这些插件的中英文提示词：<a href=\"https://cdn.deepseek.com/harness/dsh-creator-mode-prompt-collection-en.html\">prompt collection</a>。</p>\n<p><strong>效果怎样：</strong>帖子没有给出使用量或完成率。</p>\n<p><strong>相关工作：</strong>前一天的 Super-agent 文是架构探索。11 月 8 日的插件社区回顾才给出日活和插件数量。</p>\n</details>\n\n"
+}

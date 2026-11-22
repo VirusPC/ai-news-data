@@ -1,0 +1,7 @@
+{
+  "id": "https://coderabbit.ai/blog/coderabbit-100-million-arr",
+  "title": "CodeRabbit Passes $100 million in ARR",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "AI has disrupted the software development lifecycle. Teams now generate code at agentic speed, but the rest of the lifecycle still runs on processes built for human speed. As teams climb the maturity curve of AI adoption, they hit a different bottleneck at each stage: reviewing what the agents wrote, deciding which changes to merge first, understanding what a change actually does, and continuously monitoring the software for risk once it ships. To realize AI’s productivity gains, every step of the lifecycle has to become agentic. CodeRabbit was founded to do exactly that: remove every one of those bottlenecks. We started with code review, simply because it’s the first bottleneck teams hit. That starting point became an entirely new category of AI software validation tools. Today we’re sharing a milestone that shows how far the AI disruption has spread, and how quickly our category is growing: CodeRabbit has grown from $10 million to $100 million in annual recurring revenue in just over a year. More than 20,000 customers and 400,000 monthly active users now use CodeRabbit to review, triage, explain, and secure their codebases, with the average team shipping software at twice the…"
+}

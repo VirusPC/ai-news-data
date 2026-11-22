@@ -1,0 +1,10 @@
+{
+  "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+  "source": "cleaned/articles/tech.meituan.com-2026-10-22-LOOP-AutoResearch.html.json",
+  "title": "从 LOOP 到图探索：算法模型的 AutoResearch",
+  "link": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+  "sentence": "&lt;架构&gt;&lt;美团&gt;  (https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html) 把算法研究从单线程 LOOP 改成能在云端训练平台上跑的 图探索 。 完整总结 解决什么问题： 改代码、等训练、看日志占掉判断时间，一天往往只有两三次实质迭代。 如何解决： 从 Karpathy",
+  "category": "架构",
+  "company": "美团",
+  "text": "#### &lt;架构&gt;&lt;美团&gt;[从 LOOP 到图探索：算法模型的 AutoResearch](https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html)\n\n把算法研究从单线程 LOOP 改成能在云端训练平台上跑的<mark>图探索</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>改代码、等训练、看日志占掉判断时间，一天往往只有两三次实质迭代。</p>\n<p><strong>如何解决：</strong>从 Karpathy 的 AutoResearch 出发，做成 CyclicGraph Engine，用状态机稳住长周期，并把业务知识和失败经验写回系统。</p>\n<p><strong>效果怎样：</strong>文中写两个业务项目的单任务耗时比人工基线少约 85% 和 83%。这是他们自己的回放。</p>\n<p><strong>洞察与启发：</strong>两个项目结构不同，增益被归到同一套架构。</p>\n<p><strong>相关工作：</strong>同期 Anthropic 那篇在减主循环里的子 Agent。这篇把长周期研究放到云端训练平台上跑。</p>\n</details>\n\n"
+}

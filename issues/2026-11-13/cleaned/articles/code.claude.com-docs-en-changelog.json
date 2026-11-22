@@ -1,0 +1,7 @@
+{
+  "id": "https://code.claude.com/docs/en/changelog",
+  "title": "2.1.321",
+  "date": "2026-11-09",
+  "source": "raw/articles/feeds.json",
+  "text": "Added Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings <file> to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you restart claude remote-control [VSCode] Added a warning above the prompt box when both an auth token and an API key are set, matching the terminal's startup warning Changed Updated the session-feedback message and the allowedProviders setting description to name Ultra alongside Pro and Max, and the forceLoginMethod description to cover every paid Claude plan Updated the bundled dataviz skill to suggest a list of meters, one row per item, for several ratios that each have their own limit Updated the \"Upgrade to Max\" options to say \"Upgrade to Max or Ultra\" Changed mods Claude writes to turn on without asking in auto and bypass modes, even with managed allowUnsandboxedCommands: false or allowManagedDomainsOnly, and not to load in dontAsk mode Changed mods' own tool calls ($.tool.call, $.mcp.call) to raise no permission prompt, even under your own ask rules or in dontAsk and -p runs; deny rules…"
+}

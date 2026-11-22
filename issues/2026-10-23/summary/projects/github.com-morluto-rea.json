@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/morluto/rea",
+  "source": "cleaned/projects/github.com-morluto-rea.json",
+  "purpose": "morluto/rea",
+  "change": "见本期正文。",
+  "text": "#### [morluto/rea](https://github.com/morluto/rea)\n\n用 Agent 做逆向，从应用行为一直拆到<mark>原生二进制</mark>。\n\n来源里只有这些。\n\n"
+}

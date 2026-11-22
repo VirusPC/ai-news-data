@@ -1,0 +1,10 @@
+{
+  "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "source": "cleaned/articles/www.anthropic.com-news-donating-agent-skills-to-the-agentic-ai-foundation.json",
+  "title": "Donating Agent Skills to the Agentic AI Foundation",
+  "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "sentence": "&lt;开源&gt;&lt;Anthropic&gt;  (https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) 把 Agent Skills 这套开放标准捐给 Agentic AI Foundation。 完整总结 解决什么问题： Agent 的",
+  "category": "开源",
+  "company": "Anthropic",
+  "text": "#### &lt;开源&gt;&lt;Anthropic&gt;[Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)\n\n把 Agent Skills 这套开放标准捐给 Agentic AI Foundation。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 的专用知识和流程需要一个跨产品的标准。</p>\n<p><strong>如何解决：</strong>Anthropic 把 2025 年 12 月发布的 Agent Skills 捐给基金会。</p>\n<p><strong>效果怎样：</strong>文中称已有 70 多个平台接入，包括 ChatGPT、Cursor、GitHub Copilot 和 VS Code。</p>\n<p><strong>相关工作：</strong>本周 GitHub 周榜上的 skills 仓库，是这套标准的公开目录。</p>\n</details>\n\n"
+}

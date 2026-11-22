@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808188-idx-1-sn-9493b80e2a1e4c6a.json",
+  "title": "不只是 Memory：Ontology 如何让 Coding Agent 越用越懂项目",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+  "sentence": "&lt;架构&gt;&lt;腾讯&gt;  (https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584) 用本体表达项目里的概念和约束，再用 执行反馈 决定哪些经验留下。 完整总结 解决什么问题： Cod",
+  "category": "架构",
+  "company": "腾讯",
+  "text": "#### &lt;架构&gt;&lt;腾讯&gt;[不只是 Memory：Ontology 如何让 Coding Agent 越用越懂项目](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584)\n\n用本体表达项目里的概念和约束，再用<mark>执行反馈</mark>决定哪些经验留下。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Coding Agent 能读代码，却不掌握项目里的概念、约定和历史。这一轮做完，下一轮仍会重犯已经澄清过的错。</p>\n<p><strong>如何解决：</strong>用本体写下概念、关系和适用条件，Memory 留下来源，再用执行结果检验。工程事实、项目语义和历史经验做成三层互索引。失败归到具体概念上再改，改错了可以收紧或撤回。</p>\n<p><strong>效果怎样：</strong>内部定位试验里，加上这套图谱后定位成功率从 58% 提到 65%。文章写明这只说明定位这一步有初步增益，完整交付还要分开验证。</p>\n<p><strong>洞察与启发：</strong>读得懂代码，不等于记得项目里已经澄清过的约定。经验若挂不住具体概念，下一轮仍会重犯同一个错。</p>\n<p><strong>相关工作：</strong>和 Skill 自进化一样，改动留不留看后续结果，这里改的是项目语义。阿里那篇守分层和写法，本体补的是这段代码在业务上的含义。</p>\n</details>\n\n"
+}

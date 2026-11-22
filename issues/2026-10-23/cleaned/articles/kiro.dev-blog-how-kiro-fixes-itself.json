@@ -1,0 +1,7 @@
+{
+  "id": "https://kiro.dev/blog/how-kiro-fixes-itself",
+  "title": "How Kiro fixes itself, and how we keep the fixes honest",
+  "date": "2026-10-20",
+  "source": "raw/articles/feeds.json",
+  "text": "One sentence in Kiro’s file-read and search tool descriptions made a false claim about how the harness behaves, and it reached the model 61,742 times across a few hundred sessions. It did nothing useful, and it’s unlikely anyone would have filed a ticket for it. Problems like that are hard to find, and fixes are just as hard to judge. For example, we nearly shipped one that passed more tasks and used fewer tokens, until we split the results by host and found almost all of the gain came from a single run where the agent happened to escape a loop it usually gets stuck in. Without that host, the fix was slower, more expensive, and less accurate. A loop that grades its own fixes would have shipped it."
+}

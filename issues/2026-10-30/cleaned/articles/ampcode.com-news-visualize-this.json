@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/visualize-this",
+  "title": "Visualize This",
+  "date": "2026-10-29",
+  "source": "raw/articles/feeds.json",
+  "text": "You can now ask Amp to visualize or build something for you and it will do it, right in the thread: charts, timelines, diagrams, and mockups you can click through. Here are some examples, from our real threads. Go ahead, hover and click through them: Open the post on ampcode.com to see the chart of last month's commits that Amp drew. Here, for example, is an excerpt from Quinn's thread, where he asked for ways to fit a diff stat into a small button: Open the post on ampcode.com to try Quinn's sixteen diff stat buttons. And here's what went into building this feature: Open the post on ampcode.com to see the history of this feature that Amp drew."
+}

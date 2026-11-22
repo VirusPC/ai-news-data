@@ -1,0 +1,7 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786",
+  "title": "决策模型 Jev 可以直接上生产？用实验和公式理解 logit 调优与训练要领（长文干货）",
+  "date": "2026-11-06",
+  "source": "raw/articles/feeds.json",
+  "text": "原创 陈梓康 2026-11-06 18:00 浙江 本文围绕一个核心工程问题展开：用决策模型替代传统生成式 LLM-as-a-Judge 做自动化评测/决策时，如何避免「直接用默认阈值和原始输出概率」带来的性能折损与误判？ 这是2026年的第 77 篇文章 （ 本文阅读时间：约 30 分钟 ） 前言 Decision Model（jev-like）有一些深层次的潜力可以挖掘。并且，在上线业务前，有一些前置的调教工作要做。 本文的前半部分转载并整理自 Hamel Husain 与 Antaripa Saha 合著的《How To Use Decision Models for Evals》。 我们将围绕一个核心工程问题展开：用决策模型（Decision Models）替代传统生成式 LLM-as-a-Judge 做自动化评测（Automated Evals）/决策时，如何避免「直接用默认阈值和原始输出概率」带来的性能折损与误判？ 后半部分是作者的一些洞见和见解。 01 Why use decision model to decide 在自动化评测（Automated Evals）中，我们过去习惯直接拿生成式大模型当裁判（LLM-as-a-Judge）。但真正往线上铺开时，传统生成式 LLM Judge 很快就会撞上两个底层瓶颈： 第一是生成开销大。哪怕我们最终只需要一个 Pass 或 Fail 的二元结论，自回归模型也必须逐个 token 把推理过程或 JSON 结构写出来，时延和 API 成本都很难压下来。 第二，也是更容易被忽视的一点：传统 LLM Judge 给不出连续、可信的置信度（Confidence）。 如果让 LLM 直接输出离散的 Pass / Fail 文本，就等于让模型在黑盒内部做了一次不可见的硬截断——我们拿不到任何概率信息，既没法根据业务需求去微调误报（False Positive）与漏报（False Negative）的比例，也没法识别哪些样本处于模棱两可的灰区。 如果改成在 Prompt 里让模型“口头报出置信度”（例如输出 {\"score\": 0.85}），它本质上只是在采样数字字符 token。受预训练语料先验影响，生成的数字会高度扎堆在 0.50、0.80、0.90 等少数离散档位上，既不连续，也不代表真实的错误频率。 即便我们直接去读取生成式 LLM 在答案 token（如 Yes/No）上的 logprobs，由于通用大模型普遍经历了多轮偏好对齐（RLHF）或 0/1 奖励的 GRPO 训练，它的词表 logits 早已被强烈推尖——输出概率动辄坍缩在 0.999 或 0.001，同样失去了灰区样本的校准度。 这正是决策模型（Decision Models）试图解决的问题。从 TypeSafe 的 Jev 开始，随后…"
+}

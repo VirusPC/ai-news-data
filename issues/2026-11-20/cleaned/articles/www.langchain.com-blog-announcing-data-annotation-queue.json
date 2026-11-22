@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/announcing-data-annotation-queue",
+  "title": "Announcing Data Annotation Queues",
+  "date": "2026-11-19",
+  "source": "raw/articles/feeds.json",
+  "text": "Review logs, annotate data, and build datasets with LangSmith's Data Annotation Queues. Improve LLM app performance from prototype to production."
+}

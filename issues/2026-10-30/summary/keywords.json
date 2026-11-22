@@ -1,0 +1,42 @@
+{
+  "keywords": [
+    {
+      "name": "software factory",
+      "weight": 2.8,
+      "targets": [
+        "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
+        "https://kiro.dev/blog/software-factory-stability"
+      ],
+      "theme": true
+    },
+    {
+      "name": "Devin Security 2.0",
+      "weight": 1.4,
+      "targets": [
+        "https://devin.ai/blog/devin-security-2"
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra",
+      "weight": 1.4,
+      "targets": [
+        "GPT-6.1 Terra"
+      ]
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "weight": 1.4,
+      "targets": [
+        "Kimi K3.1 Pro",
+        "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc"
+      ]
+    },
+    {
+      "name": "Qwen3-TTS",
+      "weight": 1.4,
+      "targets": [
+        "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices"
+      ]
+    }
+  ]
+}

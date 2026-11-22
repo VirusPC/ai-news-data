@@ -1,0 +1,67 @@
+{
+  "id": "LLM Arena",
+  "source": "raw/models/llm-arena-2026-11-11.json",
+  "publish_date": "2026-11-11",
+  "items": [
+    {
+      "name": "Gemini 4 Carbon (High)",
+      "value": 1526.18
+    },
+    {
+      "name": "Gemini 4 Argon (High)",
+      "value": 1521.69
+    },
+    {
+      "name": "Muse Wonder (Max)",
+      "value": 1510.86
+    },
+    {
+      "name": "Claude Opus 5.5 (High)",
+      "value": 1506.78
+    },
+    {
+      "name": "Claude Fable 5 (High)",
+      "value": 1503.98
+    },
+    {
+      "name": "Claude Opus 4.6 (High)",
+      "value": 1502.83
+    },
+    {
+      "name": "Claude Fable 5.1 (Max)",
+      "value": 1502.32
+    },
+    {
+      "name": "Claude Opus 4.7 (High)",
+      "value": 1501.13
+    },
+    {
+      "name": "Gemini 3.8 Flash (High)",
+      "value": 1496.66
+    },
+    {
+      "name": "Muse Spark 1.3 (Max)",
+      "value": 1496.5
+    },
+    {
+      "name": "Claude Opus 4.6",
+      "value": 1496.43
+    },
+    {
+      "name": "Claude Opus 4.7",
+      "value": 1493.87
+    },
+    {
+      "name": "Muse Spark 1.2 (xHigh)",
+      "value": 1492.89
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "value": 1490.87
+    },
+    {
+      "name": "Gemini 4 Hydrogen (High)",
+      "value": 1490.43
+    }
+  ]
+}

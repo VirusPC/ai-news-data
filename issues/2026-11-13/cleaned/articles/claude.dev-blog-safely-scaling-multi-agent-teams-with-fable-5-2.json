@@ -1,0 +1,7 @@
+{
+  "id": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2",
+  "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+  "date": "2026-11-09",
+  "source": "raw/articles/feeds.json",
+  "text": "How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls."
+}

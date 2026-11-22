@@ -1,0 +1,67 @@
+{
+  "id": "OpenRouter 编程用量",
+  "source": "raw/models/openrouter-rankings-programming.json",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "DeepSeek V4.1 Flash",
+      "value": 8.55
+    },
+    {
+      "name": "MiMo-V2.6-Flash",
+      "value": 6.94
+    },
+    {
+      "name": "Step 5 Preview",
+      "value": 5.83
+    },
+    {
+      "name": "GLM 5.3 Flash",
+      "value": 4.24
+    },
+    {
+      "name": "Nemotron 3 Ultra (free)",
+      "value": 3.99
+    },
+    {
+      "name": "Muse Spark 1.3 Contributor",
+      "value": 2.79
+    },
+    {
+      "name": "GLM 5.3",
+      "value": 2.14
+    },
+    {
+      "name": "GPT-6 Luna",
+      "value": 1.87
+    },
+    {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "value": 1.35
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "value": 1.13
+    },
+    {
+      "name": "Hy4 preview",
+      "value": 1.09
+    },
+    {
+      "name": "Kimi K3",
+      "value": 0.78
+    },
+    {
+      "name": "Nemotron 3.5 Lightning (free)",
+      "value": 0.73
+    },
+    {
+      "name": "DeepSeek V4 Flash 0731",
+      "value": 0.71
+    },
+    {
+      "name": "Solar Pro 4",
+      "value": 0.66
+    }
+  ]
+}

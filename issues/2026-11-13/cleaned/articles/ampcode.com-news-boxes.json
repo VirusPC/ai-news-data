@@ -1,0 +1,7 @@
+{
+  "id": "https://ampcode.com/news/boxes",
+  "title": "Boxes",
+  "date": "2026-11-10",
+  "source": "raw/articles/feeds.json",
+  "text": "Today, we're introducing something new to Amp: boxes. A box is an always-on computer to which you can deploy the many delightful things you've built with Amp. Boxes are small and cheap (the smallest one is $18 per 30 days). But they're full-on computers. You can run anything you want on them. They come with an agent running on them, too. And agents are great at running on computers. Today, with hyper-individual software being created nearly as fast as someone can dictate a prompt, a small machine goes a long way and can serve most personal or internal software. Software that you build for yourself and people you work with doesn't need to scale to thousands of users. All it needs to be is available for everyone you want to share with and within reach of an agent. That's what boxes are: a home for what you build with your agents. Here's Thorsten showing how he deploys applications to boxes and then modifies their production data using agents: (Note: prices shown in the video refer to Enterprise plan prices. Personal and Team boxes are cheaper. See Pricing.) How It Works You develop your software in orbs. You test and share work in progress in portals. When you're ready, you ask the…"
+}

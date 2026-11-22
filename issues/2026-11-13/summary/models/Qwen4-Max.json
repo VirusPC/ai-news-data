@@ -1,0 +1,14 @@
+{
+  "id": "Qwen4-Max 预览",
+  "source": "cleaned/models/Qwen4-Max-2.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "#### [Qwen4-Max 预览](https://x.com/Alibaba_Qwen/status/2120335993643684315)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 11 日的预览。</li>\n<li><strong>定位</strong> 公告写更深的知识、更强的编程和 Agent，先在 Token Plan、QwenWork、Qoder、Qwen APP 和 QwenStudio 试用。</li>\n<li><strong>可用</strong> 单价没有写出。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://x.com/Alibaba_Qwen/status/2120335993643684315\">Qwen4-Max preview</a></p>\n</aside>\n\n"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "https://www.anthropic.com/research/claude-electronics-design",
+  "title": "Claude can design electronic prototypes from start to finish",
+  "date": "2026-11-09",
+  "source": "raw/articles/feeds.json",
+  "text": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry."
+}

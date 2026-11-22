@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/google-labs-code/stitch-skills",
+  "title": "google-labs-code/stitch-skills",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. https://stitch.withgoogle.com/docs/mcp/setup Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start 1. Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) codex plugin marketplace add google-labs-code/stitch-skills --ref main \\ --sparse .agents/plugins \\ --sparse plugins/stitch-design \\ --sparse plugins/stitch-build \\ --sparse plugins/stitch-utilities Tip The --sparse flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to Settings → Plugin Marketplaces → Add and fill in: Field Value Source…"
+}

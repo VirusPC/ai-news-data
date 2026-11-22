@@ -1,0 +1,84 @@
+{
+  "id": "Artificial Analysis",
+  "source": "cleaned/models/boards/aa.json",
+  "caption": "这一期的榜单。",
+  "highlights": [],
+  "arena_publish_date": null,
+  "items": [
+    {
+      "id": "Artificial Analysis Claude Fable 5.2 (Max, Default Fallback)",
+      "name": "Claude Fable 5.2 (Max, Default Fallback)",
+      "value": 64.6
+    },
+    {
+      "id": "Artificial Analysis Claude Fable 5.2 (Xhigh, Default Fallback)",
+      "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+      "value": 62.2
+    },
+    {
+      "id": "Artificial Analysis Claude Fable 5.2 (High, Default Fallback)",
+      "name": "Claude Fable 5.2 (High, Default Fallback)",
+      "value": 61.8
+    },
+    {
+      "id": "Artificial Analysis Gemini 4 Carbon (High)",
+      "name": "Gemini 4 Carbon (High)",
+      "value": 60
+    },
+    {
+      "id": "Artificial Analysis Claude Opus 5.5 (Max, Default Fallback)",
+      "name": "Claude Opus 5.5 (Max, Default Fallback)",
+      "value": 59.1
+    },
+    {
+      "id": "Artificial Analysis Gemini 4 Carbon (Medium)",
+      "name": "Gemini 4 Carbon (Medium)",
+      "value": 58.3
+    },
+    {
+      "id": "Artificial Analysis Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "value": 57.4
+    },
+    {
+      "id": "Artificial Analysis GPT-6 Astra (Max)",
+      "name": "GPT-6 Astra (Max)",
+      "value": 56.9
+    },
+    {
+      "id": "Artificial Analysis Claude Fable 5.2 (Medium, Default Fallback)",
+      "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+      "value": 56.4
+    },
+    {
+      "id": "Artificial Analysis GPT-6 Astra (Xhigh)",
+      "name": "GPT-6 Astra (Xhigh)",
+      "value": 55.3
+    },
+    {
+      "id": "Artificial Analysis GPT-6 Astra (High)",
+      "name": "GPT-6 Astra (High)",
+      "value": 54.8
+    },
+    {
+      "id": "Artificial Analysis GPT-6.1 Sol (Max)",
+      "name": "GPT-6.1 Sol (Max)",
+      "value": 54.6
+    },
+    {
+      "id": "Artificial Analysis Claude Sonnet 5.5 (Max, Default Fallback)",
+      "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "value": 54.5
+    },
+    {
+      "id": "Artificial Analysis Gemini 4 Carbon (Low)",
+      "name": "Gemini 4 Carbon (Low)",
+      "value": 54.2
+    },
+    {
+      "id": "Artificial Analysis Claude Fable 5.2 (Low, Default Fallback)",
+      "name": "Claude Fable 5.2 (Low, Default Fallback)",
+      "value": 53.9
+    }
+  ]
+}

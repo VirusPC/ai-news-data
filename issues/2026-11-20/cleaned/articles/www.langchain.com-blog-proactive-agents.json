@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/proactive-agents",
+  "title": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
+  "date": "2026-11-17",
+  "source": "raw/articles/feeds.json",
+  "text": "Most proactive agents run on a simple cron. Learn what scheduled runs unlock, from memory to smart triage, and how to add them to Managed Deep Agents."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/opensandbox-group/OpenSandbox",
+  "title": "opensandbox-group/OpenSandbox",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Secure, Fast, and Extensible Sandbox runtime for AI agents. https://open-sandbox.ai OpenSandbox An Agentic AI Foundation (AAIF) Project Run AI agents in sandboxes on your own infrastructure. OpenSandbox gives AI applications isolated environments to execute code, run commands, manage files, and operate browsers or desktops. Start locally with Docker and deploy on Kubernetes through a unified sandbox API. Quick Start · Examples · Documentation · Fast Sandbox Features Feature What it enables Learn more Fast Sandbox runtime Fast, high-density sandboxes on Kubernetes. Firecracker creation: 64 ms P50 (serial) / 125.4 ms P99 (10 concurrent). Firecracker sandboxes support pause/resume with memory and disk state preserved. Integration · Performance · Pause/resume Agent working environments Execute commands, manage files, and run code with built-in APIs. Integration examples show how to run coding agents, browsers, and desktops inside sandboxes. Examples Network access control Route inbound traffic through a unified ingress gateway and control outbound access with per-sandbox egress policies. Ingress · Egress Credential Vault Let agents call external services without exposing real…"
+}

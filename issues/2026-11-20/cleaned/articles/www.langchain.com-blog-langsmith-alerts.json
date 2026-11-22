@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-alerts",
+  "title": "Catch production failures early with LangSmith Alerts",
+  "date": "2026-11-19",
+  "source": "raw/articles/feeds.json",
+  "text": "Set up real‑time notifications on error rates, run latency & feedback scores to spot failures before your customers do."
+}

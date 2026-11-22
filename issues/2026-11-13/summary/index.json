@@ -1,0 +1,209 @@
+{
+  "skill": "weekly-ai-blogs-digest",
+  "version": "0.2.0",
+  "data": {
+    "commit": "ca169d949f7b1b42cd8a9328923b90077e2507fe"
+  },
+  "blocks": [
+    {
+      "kind": "raw",
+      "text": "覆盖窗口：2026-11-06 00:00:00 至 2026-11-12 23:59:59（UTC；生成日 2026-11-13，不含当天）。\n\n<!-- provenance\n{\"rules\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"f800a6055b75ae4a22859d370a1af9d3cd4fdce8\",\"routine\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"skill\":\"skills/managed/weekly-ai-blogs-digest/SKILL.md\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"ca169d949f7b1b42cd8a9328923b90077e2507fe\",\"path\":\"issues/2026-11-13\",\"kind\":\"tree\"}}\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 一、本周关键词\n\n<!-- keywords-cloud\n[\n  {\n    \"word\": \"Agent Memory\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 4,\n    \"sources\": 4,\n    \"weight\": 5,\n    \"theme\": true\n  },\n  {\n    \"word\": \"Claude Fable 5.2\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 8,\n    \"sources\": 6,\n    \"weight\": 5\n  },\n  {\n    \"word\": \"Gemini 4 Hydrogen\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 4,\n    \"sources\": 4,\n    \"weight\": 5\n  },\n  {\n    \"word\": \"Claude Mythos 5.2\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 3,\n    \"sources\": 3,\n    \"weight\": 4.2\n  },\n  {\n    \"word\": \"Deep Agents\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 8,\n    \"sources\": 1,\n    \"weight\": 3.8\n  },\n  {\n    \"word\": \"Qwen4-Max\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8\n  },\n  {\n    \"word\": \"Context Engineering\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 2,\n    \"sources\": 1,\n    \"weight\": 2.2\n  },\n  {\n    \"word\": \"Claude Data\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Claude Meetings\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Claude Sheets\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Claude Whiteboards\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"MiniMax H3-Image\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Qwen Code 1.0 Preview\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  }\n]\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 二、模型进展\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### Artificial Analysis\n\n![Artificial Analysis Intelligence Index Top 15，2026-11-13](aa-intelligence-top15-2026-11-13-marked.png)\n\n这张智力指数最前面的是 11 月 9 日发布的 Claude Fable 5.2。\n\n<!-- chart-meta\n红圈：窗口内新发布且进入前 15 的 Claude Fable 5.2 各档。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### LLM Arena\n\n![LLM Arena Top 15，2026-11-11](llm-arena-top15-2026-11-11-marked.png)\n\n第一仍是 Gemini 4 Carbon (High)。\n\n<!-- chart-meta\n榜单发布日 2026-11-11。图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-11-13](openrouter-usage-top15-2026-11-13-marked.png)\n\n用量第一是 DeepSeek V4.1 Flash，其次是 Hy4。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-11-13](openrouter-programming-top15-2026-11-13-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 应用用量 Top 15，2026-11-13](openrouter-apps-top15-2026-11-13-marked.png)\n\n公开应用用量第一是 Hermes Agent。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "Claude Fable 5.2"
+    },
+    {
+      "kind": "card",
+      "id": "Gemini 4 Hydrogen"
+    },
+    {
+      "kind": "card",
+      "id": "Qwen4-Max 预览"
+    },
+    {
+      "kind": "raw",
+      "text": "## 三、项目开源\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/anthropics/skills"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+      "kind": "card",
+      "id": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "kind": "raw",
+      "text": "## 四、精选文章\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+    },
+    {
+      "kind": "card",
+      "id": "https://x.com/DeepSeekHarness/status/2117256196227019194"
+    },
+    {
+      "kind": "card",
+      "id": "https://x.com/DeepSeekHarness/status/2119431663642153128"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国内非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4"
+    },
+    {
+      "kind": "card",
+      "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a"
+    },
+    {
+      "kind": "raw",
+      "text": "### 国外非模型厂\n\n"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval"
+    },
+    {
+      "kind": "card",
+      "id": "https://www.langchain.com/blog/context-engineering-deep-agents-remember"
+    },
+    {
+      "kind": "raw",
+      "text": "## 五、精选推文\n\n"
+    },
+    {
+      "kind": "raw",
+      "text": "## 六、精选播客\n"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "本周关键词"
+    },
+    {
+      "title": "模型进展",
+      "boards": [
+        "Artificial Analysis",
+        "LLM Arena",
+        "OpenRouter 应用用量",
+        "OpenRouter 编程用量",
+        "OpenRouter 本周用量"
+      ],
+      "cards": [
+        "Claude Fable 5.2",
+        "Gemini 4 Hydrogen",
+        "Qwen4-Max 预览"
+      ]
+    },
+    {
+      "title": "项目开源",
+      "cards": [
+        "https://github.com/anthropics/skills",
+        "https://github.com/milind-soni/OpenMausBot",
+        "https://github.com/vercel-labs/agent-browser",
+        "https://github.com/NVIDIA/auto-ontology",
+        "https://github.com/cloudflare/security-audit-skill"
+      ]
+    },
+    {
+      "title": "精选文章",
+      "groups": [
+        {
+          "title": "国内模型厂",
+          "cards": [
+            "https://x.com/DeepSeekHarness/status/2116857257245987236",
+            "https://x.com/DeepSeekHarness/status/2117256196227019194",
+            "https://x.com/DeepSeekHarness/status/2119431663642153128"
+          ]
+        },
+        {
+          "title": "国外模型厂",
+          "cards": [
+            "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity"
+          ]
+        },
+        {
+          "title": "国内非模型厂",
+          "cards": [
+            "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4",
+            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a"
+          ]
+        },
+        {
+          "title": "国外非模型厂",
+          "cards": [
+            "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+            "https://www.langchain.com/blog/context-engineering-deep-agents-remember"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "精选推文",
+      "cards": []
+    },
+    {
+      "title": "精选播客",
+      "cards": []
+    }
+  ]
+}

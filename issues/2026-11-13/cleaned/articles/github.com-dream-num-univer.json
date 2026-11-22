@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/dream-num/univer",
+  "title": "dream-num/univer",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. https://univer.ai Build your own AI office with Univer Office SDK. Start with open-source Sheets and Docs, then connect your own application or agent. 🚀 Quick start · 📚 Documentation · ⚖️ Feature comparison · 🌐 Website · 🎮 Showcase · 🔧 API Reference · 📝 Blog English · Français · Deutsch · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 Table of contents 💡 What is Univer? Open-source capabilities 🚀 Build on the open-source foundation Quick start: an open-source spreadsheet editor Connect your application to editable content 🏗️ Explore the open-source architecture Give custom features clear boundaries Compose cross-feature edits and undo/redo Connect applications and agents through Facade APIs and events 🧩 Extend your application with Univer Office SDK Scope and licensing 🌐 Application patterns and ecosystem Univer Workspace: an Office SDK reference application CLI, agent integrations, and developer skills 📚 Documentation and contributing Runtime compatibility 💬 Community 🔒 Security ❤️ Sponsors 📄…"
+}

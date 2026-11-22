@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "source": "cleaned/articles/www.langchain.com-blog-langsmith-tool-gateway.json",
+  "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+  "link": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "sentence": "&lt;产品&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/langsmith-tool-gateway) 公测一层网关，统一管 每次工具调用 的凭据、身份、审批和记录。 完整总结 解决什么问题： Agent 开始定时跑、自己往下做。每个 Agent 各自写登录和令牌，工具一多就看不清它用了谁的身",
+  "category": "产品",
+  "company": "LangChain",
+  "text": "#### &lt;产品&gt;&lt;LangChain&gt;[LangSmith Tool Gateway: Secure, governed tool use for agents](https://www.langchain.com/blog/langsmith-tool-gateway)\n\n公测一层网关，统一管<mark>每次工具调用</mark>的凭据、身份、审批和记录。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 开始定时跑、自己往下做。每个 Agent 各自写登录和令牌，工具一多就看不清它用了谁的身份。</p>\n<p><strong>如何解决：</strong>工具在网关登记一次，再打成套件给某个 Agent。调用可以代表用户，或代表 Agent 自己的服务身份。可以拒绝某些工具，或在敏感动作前要求人点头。每次调用记在原来的 trace 里。</p>\n<p><strong>效果怎样：</strong>文章用商店运营和夜间对库存的两个 Agent 说明问题，没有另报上线成绩。公测。</p>\n<p><strong>洞察与启发：</strong>每个 Agent 各自写登录和令牌，工具一多就看不清用了谁的身份。登记一次再按身份调用，敏感动作才有地方停下来等人。</p>\n<p><strong>相关工作：</strong>Gemini 的工具检索解决的是工具太多、上下文装不下；这篇解决的是谁有权调用。</p>\n</details>\n\n"
+}

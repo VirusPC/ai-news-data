@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/vercel-labs/agent-browser",
+  "title": "vercel-labs/agent-browser",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "Browser automation CLI for AI agents https://agent-browser.dev agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) Homebrew: brew install agent-browser, then agent-browser install. Linux: agent-browser install --with-deps also installs the browser's system libraries. No install: npx agent-browser open example.com. Project installs, building from source, upgrade, and doctor are covered in Installation. Quick start agent-browser open example.com agent-browser snapshot -i # interactive elements, each with a ref agent-browser click @e1 # act on a ref from that snapshot agent-browser get url # check the result agent-browser close The snapshot for example.com: -…"
+}

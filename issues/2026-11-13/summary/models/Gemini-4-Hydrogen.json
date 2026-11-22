@@ -1,0 +1,14 @@
+{
+  "id": "Gemini 4 Hydrogen",
+  "source": "cleaned/models/Gemini-4-Hydrogen.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "#### [Gemini 4 Hydrogen](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 12 日进入 Antigravity，并带 Orchestrator。</li>\n<li><strong>定位</strong> 和同一周的 Carbon、/swarm 一起出现在 Antigravity 的产品文里。</li>\n<li><strong>可用</strong> 官方 token 单价没有写出。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity\">Gemini 4 Hydrogen and Orchestrator</a></p>\n</aside>\n\n"
+}

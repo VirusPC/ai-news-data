@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
+  "title": "Why we rebuilt LangSmith around the agent",
+  "date": "2026-11-17",
+  "source": "raw/articles/feeds.json",
+  "text": "We reorganized LangSmith around a single agent record. Build, run, improve, and govern every agent from one place, on any framework or runtime."
+}

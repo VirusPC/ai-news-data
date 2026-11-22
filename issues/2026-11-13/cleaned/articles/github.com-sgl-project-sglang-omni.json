@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/sgl-project/sglang-omni",
+  "title": "sgl-project/sglang-omni",
+  "date": "2026-11-12",
+  "source": "raw/articles/feeds.json",
+  "text": "High Performance Serving Runtime For Interactive Super Intelligence System https://sgl-project.github.io/sglang-omni/ Blog | Documentation | Quick Start | Cookbook | SGLang | Join Slack ⭐ Star SGLang-Omni to help more builders discover open infrastructure for multimodal and speech serving! News [2026/11] 🎙️ Voxt 2.0 redefines open-source voice interaction on Mac: voice input, any-to-any translation, and a local AI assistant, with a 92% shorter wait after long dictation than 1.x. [Download] [Changelog] [2026/11] 🔁 OpenRSI × SGLang-Omni: recursive self-improvement (RSI) scaled to production AI infrastructure, with 14 merged PRs across 8 speech and omni models and +7.6% to +326.5% throughput on H100. [Blog] [2026/10] 🗺️ A unified runtime for interactive intelligence: native full-duplex models, turn-based multimodal models, and cascaded systems, coordinated through composable graphs and persistent sessions. [Blog] [2026/10] 🚀 SGLang-Omni v0.2.0 is on PyPI. Install with uv pip install --prerelease=allow \"sglang-omni==0.2.0\". [Installation] [2026/10] 🐟 Day-0 support for Fish Audio Drama 3: multi-speaker text-to-speech with voice cloning and natural-language control, streamed on…"
+}

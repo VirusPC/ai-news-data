@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512530-idx-1-sn-8b68130297282a0c.json",
+  "title": "AI 写代码越来越快，谁来守住章法？",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
+  "sentence": "&lt;实践&gt;&lt;阿里&gt;  (https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4) AI 写得快，也更容易把代码写乱，要把分层和门禁写成 可执行的规则 。 完整总结 解决什么问题： ",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### &lt;实践&gt;&lt;阿里&gt;[AI 写代码越来越快，谁来守住章法？](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4)\n\nAI 写得快，也更容易把代码写乱，要把分层和门禁写成<mark>可执行的规则</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>AI 写代码很快，缺分层、参数堆叠、注释又长又可能和实现不一致也会一起变多。写在说明文件里的规矩，上下文一长就容易被忘掉。</p>\n<p><strong>如何解决：</strong>把架构分层和代码约束写成编译期可执行规则。违规让构建失败，并在报错里写清下一步怎么改。动手前先读架构规范。</p>\n<p><strong>效果怎样：</strong>文章写在真实 Java 项目里，编译和校验能拦住反向依赖、参数过多、嵌套过深和多余注释，AI 按报错里的步骤改。没有另报一组总成绩。</p>\n<p><strong>洞察与启发：</strong>写在说明文件里的规矩，上下文一长就容易被忘掉。能让构建失败、并在报错里写清下一步的规则，才不会被绕过去。</p>\n<p><strong>相关工作：</strong>本体和 Skill 自进化改的是知识和说明。这篇把规矩做成构建失败。Skill 自进化把安全规则标成只读，和这篇由人定死的阈值是同一侧。</p>\n</details>\n\n"
+}

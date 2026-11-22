@@ -1,0 +1,38 @@
+{
+  "name": "Grok 4.7",
+  "release_url": "https://kiro.dev/blog/grok-4-7",
+  "release_date": "2026-11-12",
+  "date_source": "Kiro 公告写 November 12, 2026，说当日起可在 Kiro 使用。没有找到带正文日期的 x.ai/news 发布页，不用 sitemap lastmod。",
+  "price": {
+    "input": 2,
+    "output": 6,
+    "unit": "USD per million tokens",
+    "currency_original": "USD",
+    "source": "availability_post",
+    "source_url": "https://kiro.dev/blog/grok-4-7",
+    "source_quote": "Long coding tasks 46.3% on CursorBench 4.0, ahead of GPT-5.6 Sol (41.7%), at $2 input / $6 output per million tokens",
+    "note": "这句在 Kiro 文中标为 SpaceXSI data，不是从 x.ai/news 单价表抄的。",
+    "rank": null,
+    "rank_of": null,
+    "rank_missing_reason": "没有用 2026-11-22 的现价重算。也没有用 11-13 的 AA 快照现算名次，避免和生成日未记录的口径混在一起。price.rank 留空。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": null,
+    "missing_reason": "没有 2026-11-13 的 OpenRouter 官方端点测量。本环境没有 OPENROUTER_API_KEY。2026-11-22 的现时速度没有写入。"
+  },
+  "aa": {
+    "intelligence_index": null,
+    "rank": null,
+    "rank_of": null,
+    "coding_index": null,
+    "missing_reason": "11-13 目录里已有当天拉到的 aa-language-models.json，但没有把当前（2026-11-22）榜写进来。这条没有用那份快照现算名次：模型发布排名脚本需要端点目录，且智力指数名次应在生成日就算好。这里不补算。",
+    "announcement_claim": "Kiro 页转述了 Artificial Analysis 的指数变化。那是页面上的转述，不是本仓库用 AA 快照算的名次，没有写入 intelligence_index。"
+  },
+  "id": "Grok 4.7",
+  "source": "raw/models/model-releases.json"
+}

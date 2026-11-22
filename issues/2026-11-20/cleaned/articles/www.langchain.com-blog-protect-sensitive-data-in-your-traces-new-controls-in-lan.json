@@ -1,0 +1,7 @@
+{
+  "id": "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith",
+  "title": "Protect sensitive data in your traces: new controls in LangSmith",
+  "date": "2026-11-17",
+  "source": "raw/articles/feeds.json",
+  "text": "New controls are now in LangSmith to help teams manage access to sensitive trace data. Learn more."
+}

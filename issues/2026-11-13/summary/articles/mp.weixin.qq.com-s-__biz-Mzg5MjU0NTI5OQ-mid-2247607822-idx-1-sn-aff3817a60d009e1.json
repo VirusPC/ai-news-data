@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg5MjU0NTI5OQ-mid-2247607822-idx-1-sn-aff3817a60d009e1.json",
+  "title": "研发 Loop 的上下文优化与多 Agent 协作",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
+  "sentence": "&lt;架构&gt;&lt;百度&gt;  (https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a) Loop 每轮都重装上下文，压缩还会伤到操作规范。他们从上下文、Skill 和子任务三处改。 完整",
+  "category": "架构",
+  "company": "百度",
+  "text": "#### &lt;架构&gt;&lt;百度&gt;[研发 Loop 的上下文优化与多 Agent 协作](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a)\n\nLoop 每轮都重装上下文，压缩还会伤到操作规范。他们从上下文、Skill 和子任务三处改。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>需求到验证的闭环里，每一步都把 PRD、代码、测试和历史思考再装进同一个窗口。</p>\n<p><strong>如何解决：</strong>从上下文、Skill 结构和 Subagent 拆任务三处改。文中写优化前一轮排查要带 84k token，配额是 256k。</p>\n<p><strong>效果怎样：</strong>文中用一条无人介入的研发测试交付做演示，没有给出全体任务的加速比。</p>\n<p><strong>洞察与启发：</strong>固定成本每轮都付，削掉之后每一轮都受益。</p>\n<p><strong>相关工作：</strong>上一期 Anthropic 的 message threads 是在 API 层停止重发历史。这篇是研发流程层还在重装。</p>\n</details>\n\n"
+}

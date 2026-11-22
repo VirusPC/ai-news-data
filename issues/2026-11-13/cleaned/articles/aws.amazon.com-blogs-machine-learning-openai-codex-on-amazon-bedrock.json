@@ -1,0 +1,7 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+  "title": "OpenAI Codex on Amazon Bedrock",
+  "date": "2026-11-11",
+  "source": "raw/articles/feeds.json",
+  "text": "Developers increasingly use Codex with Amazon Bedrock to explore unfamiliar code, make changes, and handle repetitive engineering work. For platform teams, the challenge is to make those tools available without creating a second model-access, identity, and operations stack. Codex can use Amazon Bedrock for inference with supported OpenAI models. In this post, we show how to fit that path into the AWS identity, AWS Identity and Access Management (IAM), Regional, and observability practices your organization already uses. Codex still runs on the developer workstation. The main design choice is how its model requests reach Amazon Bedrock and where your organization applies policy and operational controls. We begin with a small, least-privilege pilot and work through the checks that matter before access expands. The examples use GPT-5.6 Sol. Before starting the pilot, review Supported models by AWS Region in Amazon Bedrock to confirm that Sol, Terra, or Luna is available in the AWS Region and inference path you plan to use. Recommended default: Start with Native AWS Access for a small, least-privilege pilot. Choose AgentCore Gateway, a capability of Amazon Bedrock AgentCore, when you…"
+}
