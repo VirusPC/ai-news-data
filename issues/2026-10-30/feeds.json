@@ -11,8 +11,8 @@
     "items": 139,
     "thin": 13,
     "summary_chars_p50": 8445,
-    "lean_bytes": 160536,
-    "lean_tokens_est": 31507
+    "lean_bytes": 1548189,
+    "lean_tokens_est": 355399
   },
   "sources": [
     {
@@ -3175,12 +3175,13 @@
       "summary_source": "reprint",
       "article_retrieved_at": "2026-11-22T12:50:52.288236+00:00",
       "thin": false,
-      "feed_summary": "你的Personal Agent 如何真正跑起来？Agent实战指南"
+      "feed_summary": "你的Personal Agent 如何真正跑起来？Agent实战指南",
+      "reprint_url": "https://news.qq.com/rain/a/20261026A0B67200"
     }
   ],
   "compare": {
     "digest_items": 42,
-    "matched": 29,
+    "matched": 30,
     "misses": [
       {
         "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
@@ -3209,11 +3210,6 @@
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546616&idx=1&sn=6de3cd4134e01fc868640284f93f0eac",
-        "reason": "outside-list",
-        "detail": "mp.weixin.qq.com"
-      },
-      {
-        "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804831&idx=1&sn=bcfae266ff83331edd3f2a72643592d3",
         "reason": "outside-list",
         "detail": "mp.weixin.qq.com"
       },
@@ -3311,15 +3307,22 @@
   },
   "historicalCoverage": {
     "digest_links": 42,
-    "matched_in_kept_feeds": 29,
+    "matched_in_kept_feeds": 30,
     "matched_only_because_live_trending_removed": 0,
-    "misses": 13,
+    "misses": 12,
     "miss_reasons": {
       "not-in-feed": 3,
-      "outside-list": 7,
+      "outside-list": 6,
       "outside-window": 3
     },
-    "script_matched_including_live_trending": 29
+    "script_matched_including_live_trending": 30,
+    "resolved_after_archive": [
+      {
+        "digest_link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804831&idx=1&sn=bcfae266ff83331edd3f2a72643592d3",
+        "stored_as": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804831&idx=1&sn=bcfae266ff83331edd3f2a72643592d3",
+        "relation": "同一条微信链接已入库，正文来自 reprint_url。"
+      }
+    ]
   },
   "xaiDateExclusion": {
     "removed": 1,
@@ -3416,54 +3419,64 @@
     "wechatGapAudit": [
       {
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512312&idx=1&sn=21231fab634b576f13b966e8a5f44cbd",
-        "result": "still-missing-full-text",
-        "date_seen": "2026-10-29 18:40",
-        "tried": [
-          "article wayback CDX empty",
-          "live and 2026-11-15 alibaba RSS do not contain this sn",
-          "BestBlogs c9c28a6677 contains this sn and date but only a short digest of a claimed 27566-character article",
-          "53ai reprint stops at 登录后查看剩余 30%"
-        ]
+        "result": "incomplete-not-stored",
+        "date_seen": "2026-10-29",
+        "checked_urls": [
+          "https://www.bestblogs.dev/article/c9c28a6677",
+          "https://www.53ai.com/news/AIdianshang/2026102980739.html",
+          "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml"
+        ],
+        "boundary": "bestblogs.dev/article/c9c28a6677 是短摘要，不是自称的 27566 字原文。53ai 同一篇在「登录后查看剩余 30%」处截断。两份都不入库。"
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804990&idx=1&sn=ab7cc44dcb144528b83bc90c81eb6321",
-        "result": "still-missing-full-text",
-        "date_seen": "2026-10-28 17:35",
-        "tried": [
-          "article wayback CDX empty",
-          "live and 2026-11-15 tencent RSS do not contain this sn",
-          "Tencent News 20261028A0B11F00 is the same account and date, extracted text is 7745 characters and ends inside the permission section; the page itself says 1.3万字, so it was not stored as the full article"
-        ]
+        "result": "incomplete-not-stored",
+        "date_seen": "2026-10-28",
+        "checked_urls": [
+          "https://news.qq.com/rain/a/20261028A0B11F00",
+          "https://wechat2rss.bestblogs.dev/feed/1e0ac39f8952b2e7f0807313cf2633d25078a171.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/1e0ac39f8952b2e7f0807313cf2633d25078a171.xml"
+        ],
+        "boundary": "腾讯新闻该页抽出 7745 字，停在权限设置，页面自称 1.3 万字。不把截断稿当全文。"
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804831&idx=1&sn=bcfae266ff83331edd3f2a72643592d3",
         "result": "archived",
         "date": "2026-10-26",
-        "tried": [
-          "article wayback CDX empty",
-          "2026-11-15 tencent RSS does not contain this sn",
-          "Tencent News 20261026A0B67200 full extracted article, account 腾讯技术工程, 2026-10-26 17:33"
-        ]
+        "reprint_url": "https://news.qq.com/rain/a/20261026A0B67200",
+        "checked_urls": [
+          "https://news.qq.com/rain/a/20261026A0B67200",
+          "https://wechat2rss.bestblogs.dev/feed/1e0ac39f8952b2e7f0807313cf2633d25078a171.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/1e0ac39f8952b2e7f0807313cf2633d25078a171.xml"
+        ],
+        "boundary": "腾讯新闻全文已入库。页面没有写出微信 sn，按标题、账号「腾讯技术工程」和 2026-10-26 17:33 对上这条主链。"
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247523707&idx=2&sn=388edfd9218469809125b6916eef3c35",
         "result": "still-missing-full-text",
-        "tried": [
-          "article wayback CDX empty",
-          "live and 2026-11-15 bytedance RSS do not contain this sn",
-          "web search only returned unrelated Doubao headlines, not this enterprise-security article"
-        ]
+        "checked_urls": [
+          "https://wechat2rss.bestblogs.dev/feed/d3a9e4d6f125cc98d1691dbc30cd97fec7ae2d03.xml",
+          "https://web.archive.org/web/20261115163924id_/https://wechat2rss.bestblogs.dev/feed/d3a9e4d6f125cc98d1691dbc30cd97fec7ae2d03.xml"
+        ],
+        "boundary": "这两份字节 RSS 都没有这条 sn。没有找到可核对的全文，不编。"
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521505&idx=1&sn=155d3450df1145c6b01d3e9b77d2c67f",
         "result": "still-missing-full-text",
         "date_seen": "2026-10-29",
-        "tried": [
-          "article wayback CDX empty",
-          "Readance page contains this sn, labels it 支付宝体验科技公众号文章, date 2026-10-29, but the body did not load",
-          "public copies are a SEE Conf 2026 notice; the talk itself is 2026-11-28, outside this window. The notice was not stored as the article."
-        ]
+        "checked_urls": [
+          "https://readance.app/articles/live-art_ac89def5575249289f0f5765648428ca/"
+        ],
+        "boundary": "Readance 页含这条 sn，标成 2026-10-29 的公众号文章，但正文没有加载出来。公开可见的是 SEE Conf 预告，演讲在 2026-11-28，不在本窗口。预告不入库。"
       }
-    ]
+    ],
+    "reprintFieldMeanings": {
+      "link": "原发布主链。转载不替换这条。",
+      "reprint_url": "summary 实际抄录的完整页面。",
+      "date_evidence_url": "用来核对发布日的另一页，不是正文来源。没有这个字段就表示发布日写在 reprint_url 上。",
+      "article_retrieved_at": "转载正文落到本地文件的 UTC mtime，不是文章原发时间。",
+      "date": "文章原发日的 UTC 日历日。"
+    }
   }
 }

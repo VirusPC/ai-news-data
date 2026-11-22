@@ -11,8 +11,8 @@
     "items": 143,
     "thin": 4,
     "summary_chars_p50": 10554,
-    "lean_bytes": 160431,
-    "lean_tokens_est": 35617
+    "lean_bytes": 2077992,
+    "lean_tokens_est": 502339
   },
   "sources": [
     {
@@ -3317,12 +3317,14 @@
       "summary_source": "reprint",
       "article_retrieved_at": "2026-11-22T12:48:14.040640+00:00",
       "thin": false,
-      "feed_summary": "前言"
+      "feed_summary": "前言",
+      "reprint_url": "https://readance.app/articles/live-art_d39cb04d31884923b9e38029ecf521f8/",
+      "date_evidence_url": "https://www.bestblogs.dev/article/c3cea32eb8"
     }
   ],
   "compare": {
     "digest_items": 83,
-    "matched": 35,
+    "matched": 37,
     "misses": [
       {
         "link": "https://qoder.com/blog/qoder-lite",
@@ -3385,19 +3387,9 @@
         "detail": "huggingface"
       },
       {
-        "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c",
-        "reason": "outside-list",
-        "detail": "mp.weixin.qq.com"
-      },
-      {
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501508&idx=1&sn=1cf0c6dfe048cc4a660ee64cdd114c89",
         "reason": "outside-list",
         "detail": "mp.weixin.qq.com"
-      },
-      {
-        "link": "https://qoder.com/blog/qoder-fasttech",
-        "reason": "fallback",
-        "detail": "qoder"
       },
       {
         "link": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
@@ -3621,15 +3613,27 @@
   },
   "historicalCoverage": {
     "digest_links": 83,
-    "matched_in_kept_feeds": 35,
+    "matched_in_kept_feeds": 37,
     "matched_only_because_live_trending_removed": 0,
-    "misses": 48,
+    "misses": 46,
     "miss_reasons": {
-      "fallback": 2,
+      "fallback": 1,
       "not-in-feed": 44,
-      "outside-list": 2
+      "outside-list": 1
     },
-    "script_matched_including_live_trending": 35
+    "script_matched_including_live_trending": 37,
+    "resolved_after_archive": [
+      {
+        "digest_link": "https://qoder.com/blog/qoder-fasttech",
+        "stored_as": "https://blog.qoder.com/qoder-fasttech",
+        "relation": "qoder.com/blog/qoder-fasttech 301 到 blog.qoder.com/qoder-fasttech。normalize_link 不会把这两个主机当成同一个，这里按这次核对过的别名消掉 miss。qoder-lite 不是这篇，仍留在 miss。"
+      },
+      {
+        "digest_link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c",
+        "stored_as": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c",
+        "relation": "同一条微信链接已入库，正文来自 reprint_url。"
+      }
+    ]
   },
   "xaiDateExclusion": {
     "removed": 44,
@@ -3929,23 +3933,34 @@
           "also_known_as": "https://qoder.com/blog/qoder-fasttech"
         }
       ],
-      "note": "只补旧精选里快照没有、且官方页署名日期落在 2026-10-16～10-22 的 Qoder Fast Tier。qoder.com/blog/qoder-fasttech 会 301 到这篇。八篇微信没有 Wayback 捕获，不编正文。LangChain 三篇现场页今天仍在改，署名和历史对照日期冲突，不入库。不改已有条目、关键词和榜单。",
+      "note": "Qoder Fast Tier 已按官方页入库，旧链接 qoder.com/blog/qoder-fasttech 301 到 blog.qoder.com/qoder-fasttech。八篇微信里，这一期的协作篇已有全文；不是八篇都没补。仍缺全文的六篇记在各期 wechatGapAudit，其中 RSI 和灯塔只找到不完整稿，没有把不完整稿写成全文。",
       "retrievedAtSource": "这个时间是抓取后落盘的 /tmp/recovered/qoder.txt 的 mtime（UTC）。不是事后填写的钟点。先前写成 2026-11-22T12:40:00+00:00，晚于提交 2026-11-22T12:29:48Z，已改掉。",
-      "wechatNote": "八篇微信的逐条尝试改记在各期 articlePageSupplement.wechatGapAudit。这一期只补进协作篇。"
+      "wechatNote": "这一期微信缺口只剩协作篇，且已入库。其余六篇不在这一期窗口。"
     },
     "wechatGapAudit": [
       {
         "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c",
         "result": "archived",
         "date": "2026-10-21",
-        "tried": [
-          "article wayback CDX empty",
-          "live taobao wechat2rss 10 items, oldest 2026-10-30, sn absent",
-          "wayback RSS 2026-11-15 has 10 items and does not contain this item; 效能篇正文提到系列第一篇",
-          "BestBlogs page contains this sn and date 2026-10-21 10:18",
-          "Readance reprint used as body"
-        ]
+        "reprint_url": "https://readance.app/articles/live-art_d39cb04d31884923b9e38029ecf521f8/",
+        "date_evidence_url": "https://www.bestblogs.dev/article/c3cea32eb8",
+        "checked_urls": [
+          "http://web.archive.org/cdx/search/cdx?url=https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546508&idx=1&sn=2b2b8c196cc45f7043b59d2c5c3ce81c&output=json&filter=statuscode:200&limit=3",
+          "https://wechat2rss.bestblogs.dev/feed/26fef2307bebc8673703f7e726982d8f56c9a219.xml",
+          "https://web.archive.org/web/20261115163919id_/https://wechat2rss.bestblogs.dev/feed/26fef2307bebc8673703f7e726982d8f56c9a219.xml",
+          "https://www.bestblogs.dev/article/c3cea32eb8",
+          "https://readance.app/articles/live-art_d39cb04d31884923b9e38029ecf521f8/",
+          "https://www.53ai.com/news/shuziyuangong/2026102113247.html"
+        ],
+        "boundary": "53ai 转载在登录后才能看剩余 30%，没有采用。采用的是 Readance 全文。"
       }
-    ]
+    ],
+    "reprintFieldMeanings": {
+      "link": "原发布主链。转载不替换这条。",
+      "reprint_url": "summary 实际抄录的完整页面。",
+      "date_evidence_url": "用来核对发布日的另一页，不是正文来源。没有这个字段就表示发布日写在 reprint_url 上。",
+      "article_retrieved_at": "转载正文落到本地文件的 UTC mtime，不是文章原发时间。",
+      "date": "文章原发日的 UTC 日历日。"
+    }
   }
 }

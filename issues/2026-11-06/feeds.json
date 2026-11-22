@@ -3319,20 +3319,20 @@
       {
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512318&idx=1&sn=9969e18a672d01b5c803a20991f2846e",
         "result": "still-missing-full-text",
-        "tried": [
-          "article wayback CDX empty",
-          "live and 2026-11-15 alibaba RSS do not contain this sn",
-          "search hits are short news briefs about Apple Intelligence and Qwen, not the WeChat article"
-        ]
+        "checked_urls": [
+          "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml"
+        ],
+        "boundary": "这两份阿里 RSS 没有这条 sn。公开检索只有短新闻，没有可核对的微信全文，不编。"
       },
       {
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512313&idx=1&sn=d8564332f58af0201a766cc017da8529",
         "result": "still-missing-full-text",
-        "tried": [
-          "article wayback CDX empty",
-          "live and 2026-11-15 alibaba RSS do not contain this sn",
-          "search hits are a short WMT26 score brief, not the WeChat article"
-        ]
+        "checked_urls": [
+          "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+          "https://web.archive.org/web/20261115163918id_/https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml"
+        ],
+        "boundary": "这两份阿里 RSS 没有这条 sn。公开检索只有分数简讯，没有可核对的微信全文，不编。"
       }
     ]
   }
