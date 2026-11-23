@@ -1,15 +1,15 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.5"
+    "version": "0.1.0"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
-    "commit": "3feed2d6ba9b8a15610748f652fe9ca373e634a4",
+    "commit": "ce3cf1c2329ee28745f949268f644c7a8e5f1916",
     "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
-    "raw": 227,
+    "raw": 191,
     "selected": 42
   },
   "window": {
@@ -42,12 +42,12 @@
       },
       {
         "title": "GitHub Trending",
-        "count": 45,
+        "count": 11,
         "publishers": [
           {
             "name": "GitHub",
             "url": "https://github.com/trending?since=weekly",
-            "count": 45
+            "count": 11
           }
         ]
       },

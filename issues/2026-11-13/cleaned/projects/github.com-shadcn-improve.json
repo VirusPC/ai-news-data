@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/shadcn/improve",
-  "source": "raw/projects/github-trending.json",
-  "publisher": "GitHub",
-  "category": "GitHub Trending",
-  "url": "https://github.com/trending?since=daily"
-}

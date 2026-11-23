@@ -1,8 +1,8 @@
 {
   "id": "https://github.com/anthropics/skills",
-  "source": "raw/projects/github-trending-weekly.json",
+  "source": "raw/projects/github-trending.json",
   "publisher": "GitHub",
   "category": "GitHub Trending",
-  "url": "https://github.com/trending/python?since=daily",
+  "url": "https://github.com/trending?since=weekly",
   "stars": 193865
 }

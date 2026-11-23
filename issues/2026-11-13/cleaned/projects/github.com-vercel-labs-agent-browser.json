@@ -1,8 +1,8 @@
 {
   "id": "https://github.com/vercel-labs/agent-browser",
-  "source": "raw/projects/github-trending-weekly.json",
+  "source": "raw/projects/github-trending.json",
   "publisher": "GitHub",
   "category": "GitHub Trending",
-  "url": "https://github.com/trending?since=daily",
+  "url": "https://github.com/trending?since=weekly",
   "stars": 50463
 }

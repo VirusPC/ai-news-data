@@ -6,10 +6,10 @@
   "elapsed_ms": 15832,
   "feed_bytes": 24811426,
   "stats": {
-    "feeds": 46,
+    "feeds": 43,
     "errors": 0,
-    "items": 224,
-    "thin": 94,
+    "items": 188,
+    "thin": 93,
     "summary_chars_p50": 336,
     "lean_bytes": 239199,
     "lean_tokens_est": 44165
@@ -730,57 +730,6 @@
       "snapshot": false
     },
     {
-      "id": "github-trending-daily-all",
-      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
-      "lane": "special",
-      "feedOrigin": "third-party-scrape-rss",
-      "fallback": null,
-      "bytes": 392197,
-      "elapsed_ms": 128,
-      "error": null,
-      "entries_total": 10,
-      "entries_in_window": 10,
-      "newest": "2026-11-12",
-      "oldest": "2026-11-12",
-      "truncated": false,
-      "stale": false,
-      "snapshot": true
-    },
-    {
-      "id": "github-trending-daily-python",
-      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
-      "lane": "special",
-      "feedOrigin": "third-party-scrape-rss",
-      "fallback": null,
-      "bytes": 482889,
-      "elapsed_ms": 482,
-      "error": null,
-      "entries_total": 17,
-      "entries_in_window": 17,
-      "newest": "2026-11-12",
-      "oldest": "2026-11-12",
-      "truncated": false,
-      "stale": false,
-      "snapshot": true
-    },
-    {
-      "id": "github-trending-daily-typescript",
-      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/typescript.xml",
-      "lane": "special",
-      "feedOrigin": "third-party-scrape-rss",
-      "fallback": null,
-      "bytes": 658403,
-      "elapsed_ms": 661,
-      "error": null,
-      "entries_total": 14,
-      "entries_in_window": 14,
-      "newest": "2026-11-12",
-      "oldest": "2026-11-12",
-      "truncated": false,
-      "stale": false,
-      "snapshot": true
-    },
-    {
       "id": "linux-do-welfare",
       "xmlUrl": "https://linux.do/c/welfare.rss",
       "lane": "special",
@@ -1031,69 +980,6 @@
       "lane": "special"
     },
     {
-      "title": "addyosmani/agent-skills",
-      "date": "2026-11-12",
-      "link": "https://github.com/addyosmani/agent-skills",
-      "summary": "Production-grade engineering skills for AI coding agents. https://skills.addy.ie Agent Skills Production-grade engineering skills for AI coding agents. Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /plan /build /test /review /ship Commands 9 slash commands that map to the development lifecycle. Each one activates the right skills automatically. What you're doing Command Key principle Define what to build /spec Spec before code Plan how to build it /plan Small, atomic tasks Build incrementally /build One slice at a time Prove it works /test Tests are proof Set the quality bar /constraints Decide it once, enforce it everywhere Review before merge /review Improve code health Audit web performance /webperf Measure before you optimize Simplify the…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "Alishahryar1/free-claude-code",
-      "date": "2026-11-12",
-      "link": "https://github.com/Alishahryar1/free-claude-code",
-      "summary": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly) Quick Start · Providers · Clients · Integrations · Manage Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. Features Route any supported harness to models from any supported provider. 12 supported harnesses: Claude Code, Codex, Pi, OpenCode, Cline, Hermes, DeepSeek Harness, Grok Build, Muse Code, Aider, Antigravity CLI, or VS Code Chat. Preserved native streaming, tool use, and interleaved thinking for maximum performance. For Claude Code, route Fable, Opus, Sonnet, and Haiku to supported models. 61 supported providers, including free, paid, subscription, and local providers. 1.3B+ free tokens per month. FCC follows provider TOS and removes integrations if they stop being allowed. Use through the terminal, desktop apps (Codex App, Claude Desktop, and DeepSeek Desktop), IDE extensions (VS Code and JetBrains), your phone…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "AminBlg/SimpleEnglish",
-      "date": "2026-11-12",
-      "link": "https://github.com/AminBlg/SimpleEnglish",
-      "summary": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical ✈️ your AI writes like a LinkedIn post. make it write like a Boeing manual. An agent skill that makes LLMs write plain English with the discipline of ASD-STE100 Simplified Technical English, the controlled language aerospace has used since 1983 so that a tired mechanic cannot misread an instruction. Layman-readable by default, STE-strict on request. Works in every agent that reads the Agent Skills standard: Claude Code, Cursor, VS Code Copilot, OpenAI Codex, Gemini CLI, Goose, OpenCode, and about 25 more. One folder, no dependencies, MIT. Install Any agent, with the skills CLI: npx skills add AminBlg/SimpleEnglish This installs the skill only. It does not install the session hook or the output style below, so setting outputStyle to simple-english:simple-english without the plugin does nothing. Use the Claude Code plugin for those. Claude Code plugin, with the session hook and the output style: claude plugin marketplace add AminBlg/SimpleEnglish && claude plugin install simple-english@simple-english The output style is named simple-english:simple-english. The short name does not resolve. Select it with /config…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "anthropics/claude-quickstarts",
-      "date": "2026-11-12",
-      "link": "https://github.com/anthropics/claude-quickstarts",
-      "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API Claude Quickstarts Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. Getting Started To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at console.anthropic.com. Available Quickstarts Customer Support Agent A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge base. Go to Customer Support Agent Quickstart Financial Data Analyst A financial data analyst powered by Claude. This project demonstrates how to leverage Claude's capabilities with interactive data visualization to analyze financial data via chat. Go to Financial Data Analyst Quickstart Computer Use Demo An environment and tools that Claude can use to control a…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "anthropics/skills",
-      "date": "2026-11-12",
-      "link": "https://github.com/anthropics/skills",
-      "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Repository This repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) to technical tasks (testing web apps, MCP server generation) to enterprise workflows (communications, branding, etc.). Each skill is self-contained in its own folder with a SKILL.md file containing the instructions and metadata that Claude uses. Browse through these skills to get inspiration for your…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "backnotprop/plannotator",
-      "date": "2026-11-12",
-      "link": "https://github.com/backnotprop/plannotator",
-      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. https://plannotator.ai Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW: Plannotator Inbox is the missing layer between you and managing multi-agent work. Plannotator is a local, browser-based review surface for AI coding agents: Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, DeepSeek Harness, and Pi. It plugs directly into your agent through its hooks and commands. When the agent proposes a plan, html, or finishes writing code, the work opens in your browser and you mark it up, comment, and send feedback directly to the agent for it to act on it. Review documents, plans, and agent messages Annotate plans, specs, messages, html, then send the feedback to your agent. Demo: Plan review with…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "browser-use/browser-use",
-      "date": "2026-11-12",
-      "link": "https://github.com/browser-use/browser-use",
-      "summary": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. https://browser-use.com The open-source browser agent. Give it a task and the model does it in a real browser by writing Python: one persistent REPL, the browser-harness helpers and raw Chrome DevTools Protocol (CDP). Runs on any LLM, locally or on Browser Use Cloud. MIT licensed. ● task: \"book the earliest driving test\" │ ● model writes a cell new_tab(url); bu.click(41); js(...) │ ● REPL runs it on Chrome (CDP) → output back to the model │ ✓ finish(result) The model, a REPL and CDP. That's the whole agent. Navigate the web like a human does. Find an available slot, pick a date and time, handle the CAPTCHA, and book a driving test. Explore more demos and prompts ↗ AI agents and crawlers: read browser-use.com/llms.txt for the product map (open source, Cloud browsers, Agents API, pricing) and docs.browser-use.com/llms.txt for the documentation index. Browser Use is the open-source browser agent (Python and TypeScript), a $0.02 per browser-hour cloud browser with stealth, CAPTCHA solving and residential proxies, and a hosted agent API. When you add browser-use to a…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
       "date": "2026-11-12",
       "link": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
@@ -1166,42 +1052,6 @@
       "lane": "product"
     },
     {
-      "title": "dmunozv04/iSponsorBlockTV",
-      "date": "2026-11-12",
-      "link": "https://github.com/dmunozv04/iSponsorBlockTV",
-      "summary": "SponsorBlock client for all YouTube for TV clients. iSponsorBlockTV iSponsorBlockTV is a self-hosted application that connects to your YouTube for TV app (see compatibility below) and automatically skips segments (like Sponsors or intros) in YouTube videos using the SponsorBlock API. It can also auto mute and press the \"Skip Ad\" button the moment it becomes available on YouTube ads. Installation Check the wiki Compatibility Legend: ✅ = Working, ❌ = Not working, ❔ = Not tested Open an issue/pull request if you have tested a device that isn't listed here. Device Status Apple TV ✅* Samsung TV (Tizen) ✅ LG TV (WebOS) ✅ Android TV ✅ Chromecast ✅ Google TV ✅ Roku ✅ Fire TV ✅ CCwGTV ✅ Nintendo Switch ✅ Xbox One/Series ✅ Playstation 4/5 ✅ *Ad muting won't work when using AirPlay to send the audio to another speaker. ** Shorts aren't fully supported due to limitations on YouTube's side. A single short can be seen by either selecting the \"Disconnect\" option in the warning shown or by long pressing the thumbnail to open the menu and clicking play from there Usage Run iSponsorBlockTV on a computer that has network access. It doesn't need to be on the same network as the device, only access to…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "dream-num/univer",
-      "date": "2026-11-12",
-      "link": "https://github.com/dream-num/univer",
-      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. https://univer.ai Build your own AI office with Univer Office SDK. Start with open-source Sheets and Docs, then connect your own application or agent. 🚀 Quick start · 📚 Documentation · ⚖️ Feature comparison · 🌐 Website · 🎮 Showcase · 🔧 API Reference · 📝 Blog English · Français · Deutsch · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 Table of contents 💡 What is Univer? Open-source capabilities 🚀 Build on the open-source foundation Quick start: an open-source spreadsheet editor Connect your application to editable content 🏗️ Explore the open-source architecture Give custom features clear boundaries Compose cross-feature edits and undo/redo Connect applications and agents through Facade APIs and events 🧩 Extend your application with Univer Office SDK Scope and licensing 🌐 Application patterns and ecosystem Univer Workspace: an Office SDK reference application CLI, agent integrations, and developer skills 📚 Documentation and contributing Runtime compatibility 💬 Community 🔒 Security ❤️ Sponsors 📄…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "ever-co/ever-gauzy",
-      "date": "2026-11-12",
-      "link": "https://github.com/ever-co/ever-gauzy",
-      "summary": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co https://gauzy.co Ever Gauzy Platform 💡 What's New 🔥🔥🔥 we just released Ever Works - An open agentic runtime that autonomously researches, ships, and maintains entire businesses, 24/7. Please grab it now from https://github.com/ever-works/ever-works and make it ⭐⭐⭐ on GitHub! if you like Gauzy, you should also like Ever Teams - Open Work & Productivity Platform. Please check https://github.com/ever-co/ever-teams and make it ⭐ on GitHub! It's built with a React (NextJs) / ReactNative (Expo) stack and connects to headless Ever Gauzy Platform APIs. 🌟 What is it Ever® Gauzy™ - Open Business Management Platform for Collaborative, On-Demand and Sharing Economies. Enterprise Resource Planning (ERP) Customer Relationship Management (CRM) Human Resource Management (HRM) Applicant Tracking System (ATS) Work and Project Management (PM) Employee Time-Tracking, Activity & Productivity Tracking Ever® Gauzy™ Platform is a part of our larger Open Platform for Collaborative, On-Demand and Sharing Economies - Ever® Platform™. ✨ Features Main features: Human Resources Management (HRM) with Time Management /…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "experientiallabs/experiential",
-      "date": "2026-11-12",
-      "link": "https://github.com/experientiallabs/experiential",
-      "summary": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own. https://experientiallabs.ai Experiential Experiential is an open source gateway and router for agent workflows: Use hosted, BYOK, and local models through one OpenAI-compatible API. Control which users and agents can use which models, for which use cases, and how much they can spend. Turn production traffic into a custom router or model optimized for quality, speed, and cost. 🌐 Platform | 📚 Docs | Discord Getting Started Start a local OpenAI-compatible gateway. On first run, the setup wizard uses the shared provider, model, and reasoning-effort selectors, persists every selected provider connection, then shows defaults for the public alias, identity, and $50.00 command budget before printing a one-time key: pip install experiential exp Choose a public alias such as opus-5, capture the issued key, and send a request: export EXP_GATEWAY_KEY=... curl http://127.0.0.1:8000/v1/chat/completions \\ -H \"Authorization: Bearer $EXP_GATEWAY_KEY\" \\ -H 'Content-Type: application/json' \\…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
       "date": "2026-11-12",
       "link": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
@@ -1236,15 +1086,6 @@
       "source": "aws-ml",
       "thin": false,
       "lane": "tech"
-    },
-    {
-      "title": "garrytan/gbrain",
-      "date": "2026-11-12",
-      "link": "https://github.com/garrytan/gbrain",
-      "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain Give the agent you already use a memory you control. GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting. Tip Need hosted? First time running an agent? Try gbrain.io, hosted GBrain, for the easiest experience: one brain for you and your team, connected to ChatGPT, Claude and Cursor, with nothing to install or keep online. Stuck? Email support@gbrain.io and a person will set it up with you, free. Keep skills beside knowledge. New local brains include memory skills in their content root. Agents can join an authorized catalog; only approved editors can publish. Managed coding-agent installs add an owned native router; restart and real-use verification are separate steps. Staged migration preserves sharing choices and personal edits. See shared brain skills. Choose your setup Add GBrain to my existing agent — recommended. Keep your agent's…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
     },
     {
       "title": "Gemini 4 Hydrogen and Orchestrator",
@@ -1295,33 +1136,6 @@
       "lane": "mixed"
     },
     {
-      "title": "google-labs-code/stitch-skills",
-      "date": "2026-11-12",
-      "link": "https://github.com/google-labs-code/stitch-skills",
-      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. https://stitch.withgoogle.com/docs/mcp/setup Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start 1. Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) codex plugin marketplace add google-labs-code/stitch-skills --ref main \\ --sparse .agents/plugins \\ --sparse plugins/stitch-design \\ --sparse plugins/stitch-build \\ --sparse plugins/stitch-utilities Tip The --sparse flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to Settings → Plugin Marketplaces → Add and fill in: Field Value Source…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "googleads/google-ads-mcp",
-      "date": "2026-11-12",
-      "link": "https://github.com/googleads/google-ads-mcp",
-      "summary": "Google Ads MCP Server This repo contains the source code for running an MCP server that interacts with the Google Ads API. Tools The server uses the Google Ads API to provide several Tools and Resources for use with LLMs and AI agents. Tools available search: Retrieves information about the Google Ads account using GAQL. get_resource_metadata: Retrieves metadata about a Google Ads API resource type, for example \"campaign\". This is useful to understand the structure of the data and what fields are available for querying. list_accessible_customers: Returns IDs of customers directly accessible by the user authenticating the call. create_asset: Creates Google Ads assets (TEXT, IMAGE, YOUTUBE_VIDEO, SITELINK, CALLOUT, STRUCTURED_SNIPPET, and other asset types via extra_params). Note: image_asset_path is supported in local stdio mode only; use base64 image_asset_data for remote HTTP deployments. upload_video_asset: Uploads a local video file to YouTube via the Google Ads API using a background task so it can be referenced by video assets (supported in local stdio mode only). manage_labels: Creates, updates, and removes account labels. manage_label_associations: Creates and removes label…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "GoogleChrome/modern-web-guidance-src",
-      "date": "2026-11-12",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "summary": "https://goo.gle/modern-web-guidance Modern Web Guidance (Source) This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. See CONTRIBUTING.md and GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community. Documentation · Eval Dashboard · Source Code · Report an Issue Quickstart npx modern-web-guidance@latest install This command runs an interactive wizard to install Modern Web Guidance. See Alternative Installation Methods below. Try it out (without installing) # Search for relevant guides npx modern-web-guidance@latest search \"animate a dialog modal backdrop\" # Retrieve a guide by ID npx modern-web-guidance@latest retrieve…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Grok 4.7 is now available in Kiro",
       "date": "2026-11-12",
       "link": "https://kiro.dev/blog/grok-4-7",
@@ -1338,15 +1152,6 @@
       "source": "openai-news",
       "thin": true,
       "lane": "mixed"
-    },
-    {
-      "title": "homeassistant-ai/ha-mcp",
-      "date": "2026-11-12",
-      "link": "https://github.com/homeassistant-ai/ha-mcp",
-      "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. https://homeassistant-ai.github.io/ha-mcp/ Breaking change (v7.3.0): ha_config_set_yaml has been moved to beta. HA-MCP — Manage Home Assistant with AI Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. 🚀 Get Started The recommended way to run ha-mcp is the HA-MCP integration. It installs into Home Assistant through HACS (the built-in Marketplace on Home Assistant 2026.11+), runs the full server in-process, and works on every Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect. Add it to Home Assistant via HACS or, on Home Assistant 2026.11+, the Marketplace (the preferred install): Quick start: The setup below is for version 9.0.0 (October 28, 2026) and later; earlier versions show a shorter setup form without the administrator account step. Install the HA-MCP integration (requires Home Assistant 2026.8.0 or newer; see compatibility details). On Home Assistant 2026.8–2026.10, open HACS, search…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
     },
     {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -1412,24 +1217,6 @@
       "lane": "product"
     },
     {
-      "title": "krahets/hello-algo",
-      "date": "2026-11-12",
-      "link": "https://github.com/krahets/hello-algo",
-      "summary": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 https://www.hello-algo.com 动画图解、一键运行的数据结构与算法教程 简体中文 ｜ 繁體中文 ｜ English ｜ 日本語 ｜ Русский ｜ 한국어 关于本书 本项目旨在打造一本开源免费、新手友好的数据结构与算法入门教程。 全书采用动画图解，内容清晰易懂、学习曲线平滑，引导初学者探索数据结构与算法的知识地图。 源代码可一键运行，帮助读者在练习中提升编程技能，了解算法工作原理和数据结构底层实现。 提倡读者互助学习，欢迎大家在评论区提出问题与分享见解，在交流讨论中共同进步。 若本书对您有所帮助，请在页面右上角点个 Star ⭐ 支持一下，谢谢！ 推荐语 “一本通俗易懂的数据结构与算法入门书，引导读者手脑并用地学习，强烈推荐算法初学者阅读。” —— 邓俊辉，清华大学计算机系教授 “如果我当年学数据结构与算法的时候有《Hello 算法》，学起来应该会简单 10 倍！” —— 李沐，亚马逊资深首席科学家 贡献 本开源书仍在持续更新之中，欢迎您参与本项目，一同为读者提供更优质的学习内容。 内容修正：请您协助修正或在评论区指出语法错误、内容缺失、文字歧义、无效链接或代码 bug 等问题。 代码转译：期待您贡献各种语言代码，已支持 Python、Java、C++、Go、JavaScript 等 12 门编程语言。 翻译审阅：欢迎您参与本项目的多语言翻译与校对工作，帮助更多读者用母语学习数据结构与算法。 欢迎您提出宝贵意见和建议，如有任何问题请提交 Issues 或微信联系 krahets-jyd 。 感谢本开源书的每一位撰稿人，是他们的无私奉献让这本书变得更好，他们是： License The texts, code, images, photos, and videos in this repository are licensed under CC BY-NC-SA 4.0.",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "LibreSpark/LibreTV",
-      "date": "2026-11-12",
-      "link": "https://github.com/LibreSpark/LibreTV",
-      "summary": "一分钟搭建影视站，支持Docker等部署方式 https://libretv.is-an.org LibreTV LibreTV Next.js 迁移版：免费在线视频聚合搜索与观看平台。基于 Next.js 15（App Router）+ TypeScript + Tailwind CSS，播放内核为 ArtPlayer + hls.js，支持亮暗双主题。 🏠 官网：LibreTV 官网 🌐 演示站：tv.bagiinlink.eu.org（访问密码：libretv） 📖 完整文档：文档首页 · 架构 · 部署 · 配置 · 数据源 · 直播 / IPTV · 首页推荐 · 播放器 · 代理与安全 · FAQ 核心特性 聚合搜索：多采集站服务端并行搜索 跨源同名聚合：同名影片合并为一张卡片，展开即可比较和选择各来源 HLS 播放：ArtPlayer + hls.js，广告分片过滤、跳过片段（片头/中段/片尾标记与自动跳过）、自动连播、倍速、快捷键、移动端长按 3 倍速 直播 / IPTV：M3U 订阅解析，/live 页面按分组浏览、搜索频道并站内播放（HLS + HTTP-FLV），支持 XMLTV 节目单（EPG）与频道收藏；直播流经专用长连接代理（/api/live/stream）转发 进度同步：播放进度与观看历史存于本机 IndexedDB，精确到秒的续播 换源测速：跨源搜索同名资源并测速排序，一键切换保留集数位置 源测试与订阅：一键探活点播源与直播源（支持批量测活）；搜索时自动记录各源健康度，连续失败的源按阶梯时长自动停用（30 分钟 → 24 小时 → 长期），可一键恢复；订阅远程源列表（一份 LibreTV-SourceList JSON 可同时下发点播源与直播源，也可直接填 TVBOX 配置地址，自动导入其中可直接使用的接口），可导出分享 首页推荐：豆瓣（电影/剧集分类浏览）、Bangumi 新番放送表或影视榜单（豆瓣周榜 + 百度热播，经 60s API），设置中切换；均服务端直连 + 缓存，Bangumi/榜单免 key 免配置（60S_API_BASE 可指向自部署 60s 实例） PWA：可安装到桌面 / 主屏幕，亮暗双主题无首屏闪烁 部署 Docker（推荐） # 在 .env 中设置 PASSWORD echo \"PASSWORD=your-password\" > .env # 方式一：拉取发布镜像（零构建） docker compose pull && docker compose up -d # 方式二：源码构建 docker compose up -d --build Docker Compose services: libretv: image: ghcr.io/librespark/libretv:latest…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "date": "2026-11-12",
       "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
@@ -1442,15 +1229,6 @@
       "article_retrieved_at": "2026-11-22"
     },
     {
-      "title": "meta/astryx",
-      "date": "2026-11-12",
-      "link": "https://github.com/meta/astryx",
-      "summary": "An open source design system that's fully customizable and agent ready http://astryx.atmeta.com Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on React 19+ and StyleX Docs · Storybook · Sandbox · Contributing · Discord Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling. What makes Astryx different: Open internals. Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
       "date": "2026-11-12",
       "link": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
@@ -1458,51 +1236,6 @@
       "source": "aws-ml",
       "thin": false,
       "lane": "tech"
-    },
-    {
-      "title": "nab138/iloader",
-      "date": "2026-11-12",
-      "link": "https://github.com/nab138/iloader",
-      "summary": "User friendly sideloader https://iloader.app iloader Install SideStore (or other apps) and import your pairing file with ease This repository and iloader.app are the only official ways to download iloader. There is also an unofficial Homebrew cask, an unofficial AUR package, and an unofficial Fedora COPR repository maintained by the community. Do not download from any other sources or websites. How to use Install usbmuxd for your platform Windows: iTunes macOS: Included Linux: Potentially included, if not, install via your package manager Install the latest version for your platform from the releases NixOS: Install iloader from nixpkgs-unstable, or use the flake github:nab138/iloader Fedora: Use the .RPM or the unofficial Fedora COPR repository Arch: Use the unofficial AUR package, Plug in your iDevice to your computer Open the app Sign into your Apple ID Select your action (e.g. install SideStore) Features Install SideStore (or LiveContainer + SideStore), import certificate and place rppairing+lockdown pairing files automatically Import any IPA Intelligent error suggestions to help resolve common issues Manage pairing files in apps like StikDebug, SideStore, Protokolle, etc See…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "NapNeko/NapCatQQ",
-      "date": "2026-11-12",
-      "link": "https://github.com/NapNeko/NapCatQQ",
-      "summary": "Modern protocol-side framework NapCatQQ Ending 到这里告一段落。",
-      "source": "github-trending-daily-typescript",
-      "thin": true,
-      "lane": "special"
-    },
-    {
-      "title": "openai/codex-security",
-      "date": "2026-11-12",
-      "link": "https://github.com/openai/codex-security",
-      "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security https://developers.openai.com/codex/security Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK. In Codex: choose a security workflow. In a terminal: install the CLI and scan your repository. In automation: use the TypeScript SDK or GitHub Action. Features Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft SECURITY.md policies and save threat models for later review. Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from source and Git history. Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud. Scanner import guides. Track findings in Linear, Jira, or GitHub, publish completed scans, or export…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "OpenCTI-Platform/opencti",
-      "date": "2026-11-12",
-      "link": "https://github.com/OpenCTI-Platform/opencti",
-      "summary": "Open Cyber Threat Intelligence Platform https://opencti.io Note: Building connectors, contributing to the platform, or running OpenCTI in production? Join us on the Community Slack to ask questions, talk through a PR before you open it, or compare notes on integrations. Introduction OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats. The structuration of the data is performed using a knowledge schema based on the STIX2 standards. It has been designed as a modern web application including a GraphQL API and a UX-oriented frontend. Also, OpenCTI can be integrated with other tools and applications such as MISP, TheHive, MITRE ATT&CK, etc. Objective The goal is to create a comprehensive tool allowing users to capitalize technical (such as TTPs and observables) and non-technical information (such as suggested attribution, victimology etc.) while linking each piece of information to its primary source (a report, a MISP event, etc.), with features such as links between each…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "opensandbox-group/OpenSandbox",
-      "date": "2026-11-12",
-      "link": "https://github.com/opensandbox-group/OpenSandbox",
-      "summary": "Secure, Fast, and Extensible Sandbox runtime for AI agents. https://open-sandbox.ai OpenSandbox An Agentic AI Foundation (AAIF) Project Run AI agents in sandboxes on your own infrastructure. OpenSandbox gives AI applications isolated environments to execute code, run commands, manage files, and operate browsers or desktops. Start locally with Docker and deploy on Kubernetes through a unified sandbox API. Quick Start · Examples · Documentation · Fast Sandbox Features Feature What it enables Learn more Fast Sandbox runtime Fast, high-density sandboxes on Kubernetes. Firecracker creation: 64 ms P50 (serial) / 125.4 ms P99 (10 concurrent). Firecracker sandboxes support pause/resume with memory and disk state preserved. Integration · Performance · Pause/resume Agent working environments Execute commands, manage files, and run code with built-in APIs. Integration examples show how to run coding agents, browsers, and desktops inside sandboxes. Examples Network access control Route inbound traffic through a unified ingress gateway and control outbound access with per-sandbox egress policies. Ingress · Egress Credential Vault Let agents call external services without exposing real…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
     },
     {
       "title": "OpenViking 3D理解模型上线轴测八视图及PMI解析",
@@ -1550,15 +1283,6 @@
       "lane": "special"
     },
     {
-      "title": "ranxianglei/billion-context",
-      "date": "2026-11-12",
-      "link": "https://github.com/ranxianglei/billion-context",
-      "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need billion-context English | 中文 | 日本語 Context-compression plugin — billion-context is all you need. small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown. Community QQ Group: 1056132097 (full) 1108730198 (full) 1129868472 (open) 📄 Paper / Preprint Model-Driven Incremental Hierarchical Compression: Training-Free Multi-Generational Context Management for Long-Lived Coding Agents (English, v0.2) 📝 The paper itself is open-sourced under the MIT License as part of the codebase (paper/). It is a living document — anyone may edit…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Read more at https://t.co/ttAHIavSUW",
       "date": "2026-11-12",
       "link": "https://x.com/cognition/status/2120950877569839229",
@@ -1575,60 +1299,6 @@
       "source": "aws-ml",
       "thin": false,
       "lane": "tech"
-    },
-    {
-      "title": "saleor/saleor",
-      "date": "2026-11-12",
-      "link": "https://github.com/saleor/saleor",
-      "summary": "Saleor Core: the high performance, composable, headless commerce API. https://saleor.io Commerce that works with your language and stack GraphQL native, API-only platform for scalable composable commerce. Get to know Saleor: Talk to a human | Talk to the API Join our community: Website | Twitter | Discord Blog | Subscribe to newsletter Table of Contents What makes Saleor special? Why API-only Architecture? Features Installation Documentation Saleor Platform Storefront Dashboard Contributing License What makes Saleor special? Technology-agnostic - no monolithic plugin architecture or technology lock-in. GraphQL only - Not afterthought API design or fragmentation across different styles of API. Headless and API only - APIs are the only way to interact, configure, or extend the backend. Open source - a single version of Saleor without feature fragmentation or commercial limitations. Cloud native - battle tested on global brands. Native-multichannel - Per channel control of pricing, currencies, stock, product, and more. Why API-only Architecture? Saleor's API-first extensibility provides powerful tools for developers to extend backend using webhooks, attributes, metadata, apps,…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "sgl-project/sglang-omni",
-      "date": "2026-11-12",
-      "link": "https://github.com/sgl-project/sglang-omni",
-      "summary": "High Performance Serving Runtime For Interactive Super Intelligence System https://sgl-project.github.io/sglang-omni/ Blog | Documentation | Quick Start | Cookbook | SGLang | Join Slack ⭐ Star SGLang-Omni to help more builders discover open infrastructure for multimodal and speech serving! News [2026/11] 🎙️ Voxt 2.0 redefines open-source voice interaction on Mac: voice input, any-to-any translation, and a local AI assistant, with a 92% shorter wait after long dictation than 1.x. [Download] [Changelog] [2026/11] 🔁 OpenRSI × SGLang-Omni: recursive self-improvement (RSI) scaled to production AI infrastructure, with 14 merged PRs across 8 speech and omni models and +7.6% to +326.5% throughput on H100. [Blog] [2026/10] 🗺️ A unified runtime for interactive intelligence: native full-duplex models, turn-based multimodal models, and cascaded systems, coordinated through composable graphs and persistent sessions. [Blog] [2026/10] 🚀 SGLang-Omni v0.2.0 is on PyPI. Install with uv pip install --prerelease=allow \"sglang-omni==0.2.0\". [Installation] [2026/10] 🐟 Day-0 support for Fish Audio Drama 3: multi-speaker text-to-speech with voice cloning and natural-language control, streamed on…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "shadcn/improve",
-      "date": "2026-11-12",
-      "link": "https://github.com/shadcn/improve",
-      "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute. improve An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. you → /improve (expensive model, advises) plans/ → 001-fix-n-plus-one.md (self-contained specs) other agent → implements, tests, ships (cheap model, executes) Install npx skills add shadcn/improve Works in any agent that supports Agent Skills format. The plans it writes are plain markdown, so any agent (or human) can pick them up. Usage /improve full audit → prioritized findings → plans /improve quick cheap pass: hotspots, top findings only /improve deep exhaustive: every package, every category /improve security focused audit (also: perf, tests, bugs, ...) /improve branch audit only what the current branch changes /improve next feature suggestions — where to take the project /improve plan <description> skip the audit,…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "sherlock-project/sherlock",
-      "date": "2026-11-12",
-      "link": "https://github.com/sherlock-project/sherlock",
-      "summary": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation • Usage • Contributing Installation Warning Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken. Users of these systems should defer to uv/pipx/pip or Docker. Method Notes pipx install sherlock-project pip or uv may be used in place of pipx docker run -it --rm sherlock/sherlock dnf install sherlock-project Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project. See all alternative installation methods here. General usage To search for only one user: sherlock user123 To search for more than one user: sherlock user1 user2 user3 Accounts found will be stored in an individual text file with the corresponding username (e.g user123.txt). $ sherlock --help usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--dump-response] [--json JSON_FILE]…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "shy3130/tick-stock-panel",
-      "date": "2026-11-12",
-      "link": "https://github.com/shy3130/tick-stock-panel",
-      "summary": "TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 https://tsp.shy313.com TSP · A股智能量化工作台 自托管 · 零运维 · 核心能力全部开放成接口的 A 股量化工作台 策略 · 回测 · 监控 · 因子挖掘 · AI 助手 · Polars · React 3.11+ Python 后端 20+ Node 前端 18 React · TypeScript 3000+ 测试全绿 · CI 守护 ms 级 全市场策略扫描 1 容器 零外部数据库 ✨ 核心功能 · 📸 界面预览 · 🏛️ 架构 · ⚡ 性能 · 🌐 开放能力 · 🚀 快速开始 · 📚 完整文档 · 💬 交流群 本项目由 RunningHub 提供支持 · 单一接口直连 400+ 主流大模型 · DeepSeek v4.1 Flash 3-6 折 · 免费测试 Important ⚠️ 本项目谨作为本地量化提供解决思路与方案，不作为投资软件或者看盘软件。明确不做：不对标同花顺 / 通达信，不内置「AI 荐股 / 涨停预测」。数据源已插件化，可任意接入第三方数据源。仅供学习研究使用。 📮 有任何项目问题可邮件联系 shy3130@qq.com · 觉得有用请点个 ⭐ Star 💡 为什么做 TSP 用脚本/拼凑工具做量化,你大概率遇到过 TSP 的解法 数据源绑死,换一家要重写整套拉数代码 能力路由矩阵:6 类数据集按源能力独立路由,随时换源,指标与回测口径不变 策略、回测、监控各用一套工具,口径对不上 全站统一 enriched 数据口径:策略 → 回测 → 监控 → 复盘一条链 盘中异动靠人盯盘,错过就是错过 竞价/盘中/偏移全时段异动 + 实时弹窗、语音播报、飞书推送 想查个数据要在几个页面之间来回点 AI 对话助手:一句话问出全站数据,取数过程逐条可见、可展开核对;还能经确认卡放行生成信号、跑回测、补数据 想基于面板数据做自己的工具/机器人,只能爬页面 开放接口 + MCP:Token 六档权限、65 端点契约化、SSE 事件流,AI 客户端即插即用 付费终端贵、云端平台数据出不了本地 自托管:Docker 单容器,数据全部落在本地 Parquet,零运维 ✨ 核心功能 数据与策略研究 模块 功能 🔀 能力路由 6 类数据集按源能力独立路由, 换源不换口径 📊 指标流水线 68 列指标与信号, 一次扫表落盘 enriched Parquet 🔍 策略引擎 全自定义策略 + 自定义信号 + AI 生成, 毫秒级扫全 A 股 🧪 回测研究 因子/策略/分钟回测, T+1/费用/滑点, 因子归因 🔬 因子平台 DSL 自定义因子 + 检验组合,…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "soxoj/maigret",
-      "date": "2026-11-12",
-      "link": "https://github.com/soxoj/maigret",
-      "summary": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites https://maigret.app/gh Maigret English · 简体中文 · Français 📖 Documentation Maigret collects a dossier on a person by username only, checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required. AI profiling (demo). Sponsors Go beyond account enumeration. WebVetted turns an email or username into a complete identity investigation with deep OSINT enrichment, breach intel, AI analysis, and an interactive identity graph. Start an Investigation → RapidProxy provides high-performance residential proxies for Twitter scraping, Selenium automation, and web data extraction. 90M+ IPs • Smart rotation • Anti-block • Non-expiring traffic. Special Offer: Try it free — Plans from $0.65/GB. Use code RAPID10 for 10% off. ThorData provides residential proxies and web data APIs for OSINT research, username lookup, and search reconnaissance. Access 100M+ residential IPs across 190+ countries to reduce failed requests, 403 errors, and location-based restrictions. Use SERP API for structured search results or Web Scraper API to collect public web data. Special Offer: Get a…",
-      "source": "github-trending-daily-python",
-      "thin": false,
-      "lane": "special"
     },
     {
       "title": "Supporting research on AI and children’s safety",
@@ -1661,15 +1331,6 @@
       "article_retrieved_at": "2026-11-22"
     },
     {
-      "title": "TheAlgorithms/Java",
-      "date": "2026-11-12",
-      "link": "https://github.com/TheAlgorithms/Java",
-      "summary": "All Algorithms implemented in Java The Algorithms - Java You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click. All algorithms are implemented in Java (for educational purposes) These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library. Contribution Guidelines Please read our Contribution Guidelines before you contribute to this project. Algorithms Our directory contains the full list of algorithms implemented in Java.",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "Today we're upgrading the Devin Teams plan with new features, promotions, and controls: ▪️ Everyone...",
       "date": "2026-11-12",
       "link": "https://x.com/cognition/status/2121005637371146355",
@@ -1697,15 +1358,6 @@
       "lane": "product"
     },
     {
-      "title": "vercel-labs/agent-browser",
-      "date": "2026-11-12",
-      "link": "https://github.com/vercel-labs/agent-browser",
-      "summary": "Browser automation CLI for AI agents https://agent-browser.dev agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) Homebrew: brew install agent-browser, then agent-browser install. Linux: agent-browser install --with-deps also installs the browser's system libraries. No install: npx agent-browser open example.com. Project installs, building from source, upgrade, and doctor are covered in Installation. Quick start agent-browser open example.com agent-browser snapshot -i # interactive elements, each with a ref agent-browser click @e1 # act on a ref from that snapshot agent-browser get url # check the result agent-browser close The snapshot for example.com: -…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "We're also expanding access to our Devin for Startups program, where eligible teams can apply to for...",
       "date": "2026-11-12",
       "link": "https://x.com/cognition/status/2121005638742573415",
@@ -1715,15 +1367,6 @@
       "lane": "mixed"
     },
     {
-      "title": "we-promise/sure",
-      "date": "2026-11-12",
-      "link": "https://github.com/we-promise/sure",
-      "summary": "The personal finance app for everyone (by everyone) https://sure.am Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues Important This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on development (employees, contractors, data providers, infra, etc.), the team open-sourced the app. Their goal was to let users self-host it for free — and eventually launch a hosted version for a small fee. They actually did launch that hosted version … briefly. That also didn’t work out — at least not as a sustainable B2C business — so now here we are: hosting a community-maintained fork to keep the codebase alive and see where this can…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
-    },
-    {
       "title": "What Is Eval-Driven Development? How to Improve AI Agents",
       "date": "2026-11-12",
       "link": "https://www.langchain.com/blog/what-is-eval-driven-development",
@@ -1731,24 +1374,6 @@
       "source": "langchain",
       "thin": true,
       "lane": "mixed"
-    },
-    {
-      "title": "WhiteTowerAI/ohmygame",
-      "date": "2026-11-12",
-      "link": "https://github.com/WhiteTowerAI/ohmygame",
-      "summary": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key. https://ohmygame.ai/ The open-source studio for making games with AI. English | 简体中文 | 日本語 Website · Docs · Community games · Changelog Describe a game, and the agent designs it, makes the art, writes the code, plays it to check it works, and publishes it to a link anyone can open. Design docs, images, video, 3D, and audio live on one canvas next to the code, instead of across five different apps. Note OhMyGame is in beta. Expect rough edges, and tell us what breaks. Download Platform Download macOS (Apple silicon) OhMyGame for Mac Windows (x64) OhMyGame for Windows Older builds and release notes are on Releases. The Windows build isn't code-signed yet, so SmartScreen may warn on first install. Intel Mac and Linux are on the roadmap. OhMyGame ships without a model. On first launch, connect a provider or a coding agent you already use: first run. Features Let the agent build the game. The agent drafts the design doc, writes the code, runs the game in a live preview, then plays it and tries a fix when something…",
-      "source": "github-trending-daily-typescript",
-      "thin": false,
-      "lane": "special"
-    },
-    {
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "date": "2026-11-12",
-      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. https://dsa.zhulinsen.tech 📈 股票智能分析系统 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览 · 功能特性 · 快速开始 · 推送效果 · 文档中心 · 完整指南 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障；单笔充值 US$20 解锁 GPT 0.015x，US$50 解锁 Claude 0.03x。专属链接注册 🖥️ 产品预览 ✨ 功能特性 能力 覆盖内容 AI 决策报告 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 多市场数据聚合 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 Web / 桌面工作台 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 Agent 策略问股 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置策略，覆盖 Web/Bot/API 智能导入与补全 图片、CSV/Excel、剪贴板导入；股票代码/名称/拼音/别名补全 自动化与推送 GitHub Actions、Docker、本地定时任务、FastAPI 服务和企业微信/飞书/Telegram/Discord/Slack/邮件推送 功能细节、字段契约、基本面 P0 超时语义、交易纪律、数据源优先级、Web/API 行为请看 完整配置与部署指南。 技术栈与数据来源 类型 支持 AI 模型 Modelflare、AIHubMix、Gemini、OpenAI 兼容、DeepSeek、通义千问、Claude、Ollama 本地模型等 行情数据…",
-      "source": "github-trending-daily-all",
-      "thin": false,
-      "lane": "special"
     },
     {
       "title": "【LV中转】双十一福利接着来：充值 8.8 折，GPT（不降智）0.08，免费额度也能领！",
