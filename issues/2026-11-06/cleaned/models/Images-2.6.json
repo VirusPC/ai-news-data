@@ -32,5 +32,8 @@
   },
   "note": "图像模型。",
   "id": "Images 2.6",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/"
 }

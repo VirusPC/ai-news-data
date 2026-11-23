@@ -3,5 +3,8 @@
   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot."
 }

@@ -3,5 +3,8 @@
   "title": "JPMorganChase expands Claude Code to more employees across the firm",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "JPMorganChase expands Claude Code to more employees across the firm"
 }

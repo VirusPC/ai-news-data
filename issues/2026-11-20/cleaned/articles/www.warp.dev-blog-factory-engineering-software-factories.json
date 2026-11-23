@@ -3,5 +3,8 @@
   "title": "Becoming a factory engineer",
   "date": "2026-11-19",
   "source": "raw/articles/feeds.json",
+  "publisher": "Warp",
+  "category": "博客",
+  "url": "https://www.warp.dev/blog",
   "text": "Software engineering is becoming factory engineering. Learn what a software factory is, what factory engineers optimize, and which metrics matter."
 }

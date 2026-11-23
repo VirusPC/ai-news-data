@@ -1,135 +1,270 @@
 {
-  "skill": "weekly-ai-blogs-digest",
-  "version": "0.2.0",
-  "data": {
-    "commit": "ca169d949f7b1b42cd8a9328923b90077e2507fe"
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.5"
+  },
+  "routine": {
+    "repo": "VirusPC/edges-brain-viruspc",
+    "commit": "3feed2d6ba9b8a15610748f652fe9ca373e634a4",
+    "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
     "raw": 136,
     "selected": 9
   },
-  "blocks": [
-    {
-      "kind": "raw",
-      "text": "覆盖窗口：2026-10-16 00:00:00 至 2026-10-22 23:59:59（UTC；生成日 2026-10-23，不含当天）。\n\n<!-- provenance\n{\"rules\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"f800a6055b75ae4a22859d370a1af9d3cd4fdce8\",\"routine\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"skill\":\"skills/managed/weekly-ai-blogs-digest/SKILL.md\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"ca169d949f7b1b42cd8a9328923b90077e2507fe\",\"path\":\"issues/2026-10-23\",\"kind\":\"tree\"}}\n-->\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "## 二、模型进展\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### LLM Arena\n\n![LLM Arena Top15 2026-10-22](llm-arena-top15-2026-10-22-marked.png)\n\n第一是 Gemini 4 Argon (High)。\n\n<!-- chart-meta\n榜单发布日 2026-10-22。图中无红圈。\n-->\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-10-23](openrouter-usage-top15-2026-10-23-marked.png)\n\n用量第一是 DeepSeek V4.1 Flash，其次是 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n红圈：minimax/minimax-m3.1-flash-20261019:free。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-10-23](openrouter-programming-top15-2026-10-23-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。第一是 DeepSeek V4.1 Flash。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 应用用量 Top 15，2026-10-23](openrouter-apps-top15-2026-10-23-marked.png)\n\n公开应用用量第一是 Claude Code。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "MiniMax M3.1 Flash"
-    },
-    {
-      "kind": "card",
-      "id": "DeepSeek V4.1 Flash"
-    },
-    {
-      "kind": "card",
-      "id": "Reflection Beam"
-    },
-    {
-      "kind": "raw",
-      "text": "## 三、项目开源\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/morluto/rea"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/anthropics/claude-plugins-official"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/ruvnet/ruflo"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/android/skills"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/K-Dense-AI/scientific-agent-skills"
-    },
-    {
-      "kind": "raw",
-      "text": "## 四、精选文章\n\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国内模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国外模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
-    },
-    {
-      "kind": "card",
-      "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
-    },
-    {
-      "kind": "card",
-      "id": "https://claude.com/resources/articles/claude-duet"
-    },
-    {
-      "kind": "card",
-      "id": "https://claude.dev/blog/solving-code-review-at-anthropic"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国内非模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国外非模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://cursor.com/blog/agent-sdk"
-    },
-    {
-      "kind": "card",
-      "id": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents"
-    },
-    {
-      "kind": "card",
-      "id": "https://kiro.dev/blog/memory-in-ide-cli"
-    },
-    {
-      "kind": "raw",
-      "text": "## 五、精选推文\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "## 六、精选播客\n"
-    }
-  ],
+  "window": {
+    "issue": "2026-10-23",
+    "since": "2026-10-16",
+    "until": "2026-10-22"
+  },
+  "sources": {
+    "categories": [
+      {
+        "title": "模型榜单",
+        "count": 65,
+        "publishers": [
+          {
+            "name": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/leaderboards/models",
+            "count": null
+          },
+          {
+            "name": "LLM Arena",
+            "url": "https://arena.ai/",
+            "count": 20
+          },
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/rankings",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "title": "GitHub Trending",
+        "count": 37,
+        "publishers": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/trending?since=weekly",
+            "count": 37
+          }
+        ]
+      },
+      {
+        "title": "博客",
+        "count": 131,
+        "publishers": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news",
+            "count": 14
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/news/",
+            "count": 21
+          },
+          {
+            "name": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/",
+            "count": 1
+          },
+          {
+            "name": "Meta",
+            "url": "https://ai.meta.com/blog/",
+            "count": 3
+          },
+          {
+            "name": "xAI",
+            "url": "https://x.ai/news",
+            "count": 2
+          },
+          {
+            "name": "Manus",
+            "url": "https://manus.im/blog",
+            "count": 6
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog",
+            "count": 2
+          },
+          {
+            "name": "Cognition",
+            "url": "https://cognition.com/blog",
+            "count": 4
+          },
+          {
+            "name": "DeepSeek",
+            "url": "https://www.deepseek.com/",
+            "count": 2
+          },
+          {
+            "name": "LangChain",
+            "url": "https://www.langchain.com/blog",
+            "count": 2
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 0
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog",
+            "count": 25
+          },
+          {
+            "name": "AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/",
+            "count": 35
+          },
+          {
+            "name": "sankalp",
+            "url": "https://sankalp.bearblog.dev/",
+            "count": 1
+          },
+          {
+            "name": "Amp",
+            "url": "https://ampcode.com/chronicle",
+            "count": 3
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev/blog",
+            "count": 2
+          },
+          {
+            "name": "Kiro",
+            "url": "https://kiro.dev/blog/",
+            "count": 2
+          },
+          {
+            "name": "philschmid",
+            "url": "https://www.philschmid.de/",
+            "count": 0
+          },
+          {
+            "name": "goose",
+            "url": "https://goose-docs.ai/blog/",
+            "count": 0
+          },
+          {
+            "name": "Zed",
+            "url": "https://zed.dev/blog",
+            "count": 0
+          },
+          {
+            "name": "CodeRabbit",
+            "url": "https://www.coderabbit.ai/blog",
+            "count": 2
+          },
+          {
+            "name": "Warp",
+            "url": "https://www.warp.dev/blog",
+            "count": 0
+          },
+          {
+            "name": "月之暗面",
+            "url": "https://www.kimi.com/blog/",
+            "count": 0
+          },
+          {
+            "name": "智谱",
+            "url": "https://www.zhipuai.cn/zh/research",
+            "count": 0
+          },
+          {
+            "name": "StepFun",
+            "url": "https://www.stepfun.com/news",
+            "count": 1
+          },
+          {
+            "name": "Massively Parallel Procrastination",
+            "url": "https://blog.fsck.com/",
+            "count": 0
+          },
+          {
+            "name": "宝玉",
+            "url": "https://baoyu.io/",
+            "count": 1
+          },
+          {
+            "name": "Jason Liu",
+            "url": "https://jxnl.co/writing/",
+            "count": 0
+          },
+          {
+            "name": "Armin Ronacher",
+            "url": "https://lucumr.pocoo.org/",
+            "count": 0
+          },
+          {
+            "name": "MiniMax",
+            "url": "https://www.minimax.io/blog",
+            "count": 1
+          },
+          {
+            "name": "Qoder",
+            "url": "https://qoder.com/blog",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "title": "国内互联网",
+        "count": 5,
+        "publishers": [
+          {
+            "name": "字节跳动",
+            "url": "https://www.bytedance.com/",
+            "count": 0
+          },
+          {
+            "name": "百度",
+            "url": "https://cloud.baidu.com/",
+            "count": 0
+          },
+          {
+            "name": "大淘宝",
+            "url": "https://developer.alibaba.com/",
+            "count": 1
+          },
+          {
+            "name": "快手",
+            "url": "https://developer.kuaishou.com/",
+            "count": 3
+          },
+          {
+            "name": "支付宝",
+            "url": "https://open.alipay.com/",
+            "count": 0
+          },
+          {
+            "name": "美团",
+            "url": "https://tech.meituan.com/",
+            "count": 1
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 0
+          },
+          {
+            "name": "腾讯",
+            "url": "https://cloud.tencent.com/developer",
+            "count": 0
+          },
+          {
+            "name": "阿里",
+            "url": "https://developer.aliyun.com/",
+            "count": 0
+          }
+        ]
+      }
+    ]
+  },
   "chapters": [
     {
       "title": "模型进展",

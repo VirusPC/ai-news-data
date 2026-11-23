@@ -3,5 +3,8 @@
   "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work."
 }

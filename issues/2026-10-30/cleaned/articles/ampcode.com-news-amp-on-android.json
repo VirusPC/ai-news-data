@@ -3,5 +3,8 @@
   "title": "Amp on Android",
   "date": "2026-10-27",
   "source": "raw/articles/feeds.json",
+  "publisher": "Amp",
+  "category": "博客",
+  "url": "https://ampcode.com/chronicle",
   "text": "October 27, 2026\nAmp on Android\nWe now have an Android app:\nThe Amp design talk thread in the Amp Android appThe slide deck in the Portals tab of the Amp Android appThe present.js diff in the Changes tab of the Amp Android app1 / 3\nThe Amp design talk thread in the Amp Android appThe slide deck in the Portals tab of the Amp Android appThe present.js diff in the Changes tab of the Amp Android app1 / 3\nDownload and install from ampcode.com/app, or scan this QR code:"
 }

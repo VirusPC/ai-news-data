@@ -3,5 +3,8 @@
   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
   "text": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
 }

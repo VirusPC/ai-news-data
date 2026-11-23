@@ -3,5 +3,8 @@
   "title": "Your coding agent bill doubled. Here’s how to fix it.",
   "date": "2026-11-19",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Learn why coding agent bills spiral out of control — and how to trace, compare, and govern spend across Claude Code, Cursor, Copilot, and more in one place."
 }

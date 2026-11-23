@@ -3,5 +3,8 @@
   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "Google",
+  "category": "博客",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/",
   "text": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses."
 }

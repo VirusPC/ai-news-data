@@ -3,5 +3,8 @@
   "title": "Claude can design electronic prototypes from start to finish",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry."
 }

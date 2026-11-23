@@ -3,5 +3,8 @@
   "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context."
 }

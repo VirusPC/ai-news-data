@@ -3,5 +3,8 @@
   "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude."
 }

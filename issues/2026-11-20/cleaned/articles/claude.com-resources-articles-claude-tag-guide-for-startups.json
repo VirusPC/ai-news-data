@@ -3,5 +3,8 @@
   "title": "The Claude Tag guide for startups",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "How leading startups use Claude Tag to ship faster and scale operations"
 }

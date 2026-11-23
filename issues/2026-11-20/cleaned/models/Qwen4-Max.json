@@ -105,5 +105,8 @@
   },
   "fetched_at": "2026-11-20T12:55:18Z",
   "id": "Qwen4-Max",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "千问",
+  "category": "国内互联网",
+  "url": "https://qwen.ai/"
 }

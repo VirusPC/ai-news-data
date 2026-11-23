@@ -3,5 +3,8 @@
   "title": "Work at the Frontier: AI’s effect on freelance work",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects."
 }

@@ -3,5 +3,8 @@
   "title": "New context engineering challenges in late 2026",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "LangChain CEO Harrison Chase shares insights into the biggest harness engineering challenges with the emergence of proactive agents."
 }

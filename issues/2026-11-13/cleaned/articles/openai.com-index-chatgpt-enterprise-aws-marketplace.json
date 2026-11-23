@@ -3,5 +3,8 @@
   "title": "ChatGPT Enterprise now available in AWS Marketplace",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
 }

@@ -29,5 +29,8 @@
   },
   "note": "正式上线帖在 2026-11-16，属于 2026-11-20 那期，不写进这里。",
   "id": "Qwen4-Max 预览版",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "阿里",
+  "category": "国内互联网",
+  "url": "https://developer.aliyun.com/"
 }

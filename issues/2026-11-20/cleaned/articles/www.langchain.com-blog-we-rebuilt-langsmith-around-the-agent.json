@@ -3,5 +3,8 @@
   "title": "Why we rebuilt LangSmith around the agent",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "We reorganized LangSmith around a single agent record. Build, run, improve, and govern every agent from one place, on any framework or runtime."
 }

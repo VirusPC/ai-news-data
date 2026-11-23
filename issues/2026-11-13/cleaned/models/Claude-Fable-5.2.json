@@ -39,5 +39,8 @@
   },
   "note": "同一篇公告也发布 Claude Mythos 5.2，标准档和 fast mode 单价相同。",
   "id": "Claude Fable 5.2",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://www.anthropic.com/news"
 }

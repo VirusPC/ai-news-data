@@ -3,5 +3,8 @@
   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused."
 }

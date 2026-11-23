@@ -3,5 +3,8 @@
   "title": "At Holiday Extras, dots get to work before anyone asks",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
 }

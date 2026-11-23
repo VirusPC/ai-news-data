@@ -3,5 +3,8 @@
   "title": "How we moved our frontend off Firestore and built Lovable Realtime",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Lovable",
+  "category": "博客",
+  "url": "https://lovable.dev/blog",
   "text": "How we replaced frontend Firestore listeners with a Go and NATS realtime service, with reactive authorization, server-shaped payloads, and 2.06 million live subscriptions."
 }

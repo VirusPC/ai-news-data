@@ -3,5 +3,8 @@
   "title": "How Curative is building a national provider network with agents on Claude",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Curative’s deal-making agent negotiates 2,000+ provider contracts a week."
 }

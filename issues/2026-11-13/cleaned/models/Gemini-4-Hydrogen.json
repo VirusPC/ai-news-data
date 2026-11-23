@@ -30,5 +30,8 @@
     "announcement_claim": "Antigravity 公告写 scoring 51 on the Artificial Analysis Intelligence Index（Argon 50，最高档 54）。这是公告转述，不是这份快照算出来的名次。"
   },
   "id": "Gemini 4 Hydrogen",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "Google",
+  "category": "博客",
+  "url": "https://antigravity.google/blog"
 }

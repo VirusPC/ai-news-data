@@ -3,5 +3,8 @@
   "title": "Goal Engineering",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more."
 }

@@ -3,5 +3,8 @@
   "title": "Gemini 4 Neon is now available in Devin",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Gemini 4 Neon is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 46.2%, the best result from a Google model, about a point behind Claude Opus 5.5 at about a third of the cost."
 }

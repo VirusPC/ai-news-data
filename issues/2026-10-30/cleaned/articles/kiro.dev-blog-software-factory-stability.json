@@ -3,5 +3,8 @@
   "title": "Keeping a software factory stable at 1,000 PRs a week",
   "date": "2026-10-26",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "In our last post, we described how three engineers and a crew of agents merged 1,000 pull requests in one week. The most common question we got back was how we keep that from breaking everything. But we think there’s a better question to ask. Can a human be responsible for every PR they shipped, which includes code they did not write and did not read line by line? Could you even speak confidently about any one of those PRs if a tech leader asked you about it?"
 }

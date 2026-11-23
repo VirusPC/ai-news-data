@@ -3,5 +3,8 @@
   "title": "GitLab Integration",
   "date": "2026-11-05",
   "source": "raw/articles/feeds.json",
+  "publisher": "Amp",
+  "category": "博客",
+  "url": "https://ampcode.com/chronicle",
   "text": "Amp now integrates with GitLab, on gitlab.com and on self-managed instances. Connect your GitLab account and you can start projects from your GitLab repositories. Orbs clone and push as you and come with glab signed in, so the agent can open merge requests, comment on them, and read issues and pipelines. Amp can also subscribe to comments and CI for a merge request it opens. A reviewer's request or a failed pipeline lands in the thread that wrote the code, so Amp already has the context. A New Orb for Every New Merge Request or Issue Ask Amp to start a new orb for every new merge request or issue in a project. You don't need to keep the thread where you set it up. See Create an Orb Spawner. Each new merge request or issue gets its own orb, which reads it and has a summary ready when you open the thread. Later comments go to that same thread. Workspace admins can also run a spawner as a service account. You manage all of these in Settings → Integrations & MCP → GitLab under Event Subscriptions, where you can pause or delete them, edit a spawner, and see the orbs each spawner started. Set It Up Each person connects GitLab in Settings → Integrations & MCP. Then a group Owner installs Push Updates once for the workspace, with one button in Workspace Settings → Integrations & MCP. Amp also supports self-managed GitLab. See Self-Managed Instances. Connect GitLab to get started."
 }

@@ -3,5 +3,8 @@
   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories."
 }

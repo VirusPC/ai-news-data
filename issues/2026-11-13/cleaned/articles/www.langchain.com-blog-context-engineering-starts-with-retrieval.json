@@ -3,5 +3,8 @@
   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in."
 }

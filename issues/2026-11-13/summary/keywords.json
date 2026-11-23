@@ -1,350 +1,66 @@
 {
   "keywords": [
     {
-      "name": "Boxes",
-      "weight": 1,
-      "targets": [
-        "https://ampcode.com/news/boxes"
-      ]
-    },
-    {
-      "name": "Spaces",
-      "weight": 1,
-      "targets": [
-        "https://ampcode.com/news/spaces"
-      ]
-    },
-    {
-      "name": "Google Antigravity for Knowledge Work",
-      "weight": 1,
-      "targets": [
-        "https://antigravity.google/blog/antigravity-for-knowledge-work"
-      ]
-    },
-    {
-      "name": "Voice mode in Antigravity",
-      "weight": 1,
-      "targets": [
-        "https://antigravity.google/blog/antigravity-voice-mode"
-      ]
-    },
-    {
-      "name": "Gemini 4 Carbon and /swarm",
-      "weight": 1,
-      "targets": [
-        "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity"
-      ]
-    },
-    {
-      "name": "Gemini 4 Hydrogen and Orchestrator",
-      "weight": 1,
-      "targets": [
-        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
-        "Gemini 4 Hydrogen"
-      ]
-    },
-    {
-      "name": "Build composable, interoperable multi-agent systems with A2A on AWS",
-      "weight": 1,
-      "targets": [
-        "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
-      ]
-    },
-    {
-      "name": "Introducing the Web Search API on Amazon Bedrock AgentCore",
-      "weight": 1,
-      "targets": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "name": "Run agents securely and efficiently with the next generation AgentCore runtime",
-      "weight": 1,
-      "targets": [
-        "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/"
-      ]
-    },
-    {
-      "name": "Introducing Claude for Manufacturing",
-      "weight": 1,
-      "targets": [
-        "https://claude.com/resources/articles/claude-for-manufacturing"
-      ]
-    },
-    {
-      "name": "Introducing Claude Meetings",
-      "weight": 1,
-      "targets": [
-        "https://claude.com/resources/articles/claude-meetings"
-      ]
-    },
-    {
-      "name": "Your apps can now open in Claude, and Claude can work in them",
-      "weight": 1,
-      "targets": [
-        "https://claude.com/resources/articles/interactive-connectors-full-tool"
-      ]
-    },
-    {
-      "name": "Operate Claude Managed Agents inside your security perimeter",
-      "weight": 1,
-      "targets": [
-        "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
-      ]
-    },
-    {
-      "name": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
-      "weight": 1,
-      "targets": [
-        "https://claude.com/resources/articles/sheets-whiteboards-data"
-      ]
-    },
-    {
-      "name": "Safely scaling multi-agent teams with Claude Fable 5.2",
-      "weight": 1,
-      "targets": [
-        "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/"
-      ]
-    },
-    {
-      "name": "Which Claude model should you build with?",
-      "weight": 1,
-      "targets": [
-        "https://claude.dev/blog/which-claude-model-should-you-build-with/"
-      ]
-    },
-    {
-      "name": "2.1.321",
-      "weight": 1,
-      "targets": [
-        "https://code.claude.com/docs/en/changelog#2-1-321"
-      ]
-    },
-    {
-      "name": "Multi-Repository Security Analysis with CodeRabbit Secure",
-      "weight": 1,
-      "targets": [
-        "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure"
-      ]
-    },
-    {
-      "name": "Cursor Projects is now multiplayer",
-      "weight": 1,
-      "targets": [
-        "https://cursor.com/blog/projects-multiplayer"
-      ]
-    },
-    {
-      "name": "Decision Models in Hugging Face",
-      "weight": 1,
-      "targets": [
-        "https://huggingface.co/blog/decision"
-      ]
-    },
-    {
-      "name": "How Kiro Auto uses model cascading to match the model to the work",
-      "weight": 1,
-      "targets": [
-        "https://kiro.dev/blog/model-cascade"
-      ]
-    },
-    {
-      "name": "多Agent协作的下一场竞争，不在模型，而在上下文",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314"
-      ]
-    },
-    {
-      "name": "码住！WorkBuddy压箱底的7个值得装的Skill",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4"
-      ]
-    },
-    {
-      "name": "数字员工：有关AI Native新流水线的思考",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546793&idx=1&sn=9e814b9f097ad6ebde8a9b7998835084"
-      ]
-    },
-    {
-      "name": "MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291"
-      ]
-    },
-    {
-      "name": "从进化到泛化，RSI 四大前沿框架如何实现 Agent 自动调优",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512471&idx=1&sn=cce98b31a76694181957c85cc6109efb"
-      ]
-    },
-    {
-      "name": "从淘小蜜分流模型的实践，聊聊 Jev 与 System One",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512476&idx=1&sn=071544b548af1892af197b38f330d562"
-      ]
-    },
-    {
-      "name": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58"
-      ]
-    },
-    {
-      "name": "研发Loop的上下文优化与多Agent协作实践",
-      "weight": 1,
-      "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a"
-      ]
-    },
-    {
-      "name": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "weight": 1,
-      "targets": [
-        "https://openai.com/index/control-room"
-      ]
-    },
-    {
-      "name": "美团 LongCat-2.5 正式开源：从看见，到抵达",
-      "weight": 1,
-      "targets": [
-        "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html"
-      ]
-    },
-    {
-      "name": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-      "weight": 1,
-      "targets": [
-        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-      ]
-    },
-    {
-      "name": "The components of agent memory",
-      "weight": 1,
-      "targets": [
-        "https://www.anthropic.com/research/components-of-agent-memory"
-      ]
-    },
-    {
-      "name": "Agents Are Going Async",
-      "weight": 1,
-      "targets": [
-        "https://www.langchain.com/blog/agents-are-going-async"
-      ]
-    },
-    {
-      "name": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
-      "weight": 1,
-      "targets": [
-        "https://www.langchain.com/blog/context-engineering-deep-agents-remember"
-      ]
-    },
-    {
-      "name": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
-      "weight": 1,
-      "targets": [
-        "https://www.langchain.com/blog/context-engineering-starts-with-retrieval"
-      ]
-    },
-    {
-      "name": "How We Optimized Browser Use for Deep Agents",
-      "weight": 1,
-      "targets": [
-        "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
-      ]
-    },
-    {
-      "name": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
-      "weight": 1,
-      "targets": [
-        "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents"
-      ]
-    },
-    {
-      "name": "Qwen4 is coming. Deeper knowledge. Richer world understanding. Stronger coding and agentic capabili...",
-      "weight": 1,
-      "targets": [
-        "https://x.com/Alibaba_Qwen/status/2120335993643684315"
-      ]
-    },
-    {
-      "name": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
-      "weight": 1,
-      "targets": [
-        "https://x.com/DeepSeekHarness/status/2116857257245987236"
-      ]
-    },
-    {
-      "name": "Your Harness. You Define It. Meet Creator Mode in DeepSeek Harness. Turn ideas i…",
-      "weight": 1,
-      "targets": [
-        "https://x.com/DeepSeekHarness/status/2117256196227019194"
-      ]
-    },
-    {
-      "name": "Growing Together with Our Plugin Community",
-      "weight": 1,
-      "targets": [
-        "https://x.com/DeepSeekHarness/status/2119431663642153128"
-      ]
-    },
-    {
-      "name": "https://github.com/NVIDIA/auto-ontology",
-      "weight": 1,
-      "targets": [
-        "https://github.com/NVIDIA/auto-ontology"
-      ]
-    },
-    {
-      "name": "https://github.com/anthropics/skills",
-      "weight": 1,
-      "targets": [
-        "https://github.com/anthropics/skills"
-      ]
-    },
-    {
-      "name": "https://github.com/cloudflare/security-audit-skill",
-      "weight": 1,
-      "targets": [
-        "https://github.com/cloudflare/security-audit-skill"
-      ]
-    },
-    {
-      "name": "https://github.com/milind-soni/OpenMausBot",
-      "weight": 1,
-      "targets": [
-        "https://github.com/milind-soni/OpenMausBot"
-      ]
-    },
-    {
-      "name": "https://github.com/vercel-labs/agent-browser",
-      "weight": 1,
-      "targets": [
-        "https://github.com/vercel-labs/agent-browser"
-      ]
-    },
-    {
-      "name": "Claude Fable 5.2",
-      "weight": 1,
+      "name": "Claude Fable",
+      "weight": 5,
       "targets": [
         "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
         "https://claude.dev/blog/which-claude-model-should-you-build-with/",
         "https://code.claude.com/docs/en/changelog#2-1-321",
         "https://www.anthropic.com/claude-fable-and-mythos-5-2",
         "Claude Fable 5.2",
-        "Claude Mythos 5.2"
+        "Claude Mythos 5.2",
+        "Artificial Analysis Claude Fable 5.2 (Max, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Xhigh, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (High, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Medium, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Low, Default Fallback)",
+        "LLM Arena Claude Fable 5 (High)",
+        "LLM Arena Claude Fable 5.1 (Max)"
+      ],
+      "theme": true
+    },
+    {
+      "name": "Claude Fable 5.2",
+      "weight": 5,
+      "targets": [
+        "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+        "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+        "https://code.claude.com/docs/en/changelog#2-1-321",
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2",
+        "Artificial Analysis Claude Fable 5.2 (Max, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Xhigh, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (High, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Medium, Default Fallback)",
+        "Artificial Analysis Claude Fable 5.2 (Low, Default Fallback)"
+      ]
+    },
+    {
+      "name": "Gemini 4 Carbon",
+      "weight": 3.8,
+      "targets": [
+        "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
+        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+        "Artificial Analysis Gemini 4 Carbon (High)",
+        "Artificial Analysis Gemini 4 Carbon (Medium)",
+        "Artificial Analysis Gemini 4 Carbon (Low)",
+        "LLM Arena Gemini 4 Carbon (High)"
+      ]
+    },
+    {
+      "name": "Qwen4-Max",
+      "weight": 3.6,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
+        "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+        "Qwen4-Max 预览版"
       ]
     },
     {
       "name": "Claude Mythos 5.2",
-      "weight": 1,
+      "weight": 3,
       "targets": [
         "https://www.anthropic.com/claude-fable-and-mythos-5-2",
         "Claude Fable 5.2",
@@ -353,30 +69,24 @@
     },
     {
       "name": "Gemini 4 Hydrogen",
-      "weight": 1,
+      "weight": 3,
       "targets": [
         "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
-        "Gemini 4 Hydrogen"
+        "Gemini 4 Hydrogen",
+        "LLM Arena Gemini 4 Hydrogen (High)"
       ]
     },
     {
-      "name": "Grok 4.7",
-      "weight": 1,
+      "name": "Context Engineering",
+      "weight": 2.2,
       "targets": [
-        "Grok 4.7"
-      ]
-    },
-    {
-      "name": "LongCat-2.5",
-      "weight": 1,
-      "targets": [
-        "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
-        "LongCat-2.5"
+        "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+        "https://www.langchain.com/blog/context-engineering-starts-with-retrieval"
       ]
     },
     {
       "name": "MiniMax H3-Image",
-      "weight": 1,
+      "weight": 2.2,
       "targets": [
         "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291",
         "MiniMax H3-Image"
@@ -384,10 +94,52 @@
     },
     {
       "name": "Qwen4-Max 预览版",
-      "weight": 1,
+      "weight": 2.2,
       "targets": [
         "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
         "Qwen4-Max 预览版"
+      ]
+    },
+    {
+      "name": "Claude Data",
+      "weight": 1.4,
+      "targets": [
+        "https://claude.com/resources/articles/sheets-whiteboards-data"
+      ]
+    },
+    {
+      "name": "Claude Meetings",
+      "weight": 1.4,
+      "targets": [
+        "https://claude.com/resources/articles/claude-meetings"
+      ]
+    },
+    {
+      "name": "Claude Sheets",
+      "weight": 1.4,
+      "targets": [
+        "https://claude.com/resources/articles/sheets-whiteboards-data"
+      ]
+    },
+    {
+      "name": "Claude Whiteboards",
+      "weight": 1.4,
+      "targets": [
+        "https://claude.com/resources/articles/sheets-whiteboards-data"
+      ]
+    },
+    {
+      "name": "Grok 4.7",
+      "weight": 1.4,
+      "targets": [
+        "Grok 4.7"
+      ]
+    },
+    {
+      "name": "Qwen Code 1.0 Preview",
+      "weight": 1.4,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58"
       ]
     }
   ]

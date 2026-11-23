@@ -3,5 +3,8 @@
   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
   "date": "2026-11-06",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
 }

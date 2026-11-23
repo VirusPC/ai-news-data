@@ -1,5 +1,8 @@
 {
   "id": "腾讯混元 Hy4",
   "name": "腾讯混元 Hy4",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "腾讯",
+  "category": "国内互联网",
+  "url": "https://cloud.tencent.com/developer"
 }

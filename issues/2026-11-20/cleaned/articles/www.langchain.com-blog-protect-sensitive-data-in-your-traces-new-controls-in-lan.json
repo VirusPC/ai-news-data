@@ -3,5 +3,8 @@
   "title": "Protect sensitive data in your traces: new controls in LangSmith",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "New controls are now in LangSmith to help teams manage access to sensitive trace data. Learn more."
 }

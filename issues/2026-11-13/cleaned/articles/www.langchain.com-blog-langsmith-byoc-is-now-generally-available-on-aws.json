@@ -3,5 +3,8 @@
   "title": "LangSmith BYOC on AWS is generally available",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "LangSmith Bring Your Own Cloud is now generally available on AWS, giving Enterprise teams managed observability, evaluation, and deployment inside their own VPC."
 }

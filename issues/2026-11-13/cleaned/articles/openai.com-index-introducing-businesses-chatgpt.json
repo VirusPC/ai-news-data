@@ -3,5 +3,8 @@
   "title": "Introducing Businesses in ChatGPT",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT."
 }

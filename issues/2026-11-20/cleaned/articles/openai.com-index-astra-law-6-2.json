@@ -3,5 +3,8 @@
   "title": "Astra for Law leads in legal intelligence",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
 }

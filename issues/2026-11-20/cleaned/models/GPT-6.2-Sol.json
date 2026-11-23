@@ -166,5 +166,8 @@
   },
   "fetched_at": "2026-11-20T12:55:18Z",
   "id": "GPT-6.2 Sol",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/"
 }

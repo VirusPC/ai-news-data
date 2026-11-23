@@ -3,5 +3,8 @@
   "title": "Claude Fable 5.2 is now available in Devin",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Claude Fable 5.2 is now live in Devin. It takes the top spot on FrontierCode 2.0 with a score of 49.1%, up from Fable 5.1's 32.4%."
 }

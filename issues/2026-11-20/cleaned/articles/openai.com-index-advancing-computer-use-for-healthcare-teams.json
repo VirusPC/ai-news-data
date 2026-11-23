@@ -3,5 +3,8 @@
   "title": "Advancing computer-use agents for healthcare teams",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Advancing computer-use agents for healthcare teams"
 }

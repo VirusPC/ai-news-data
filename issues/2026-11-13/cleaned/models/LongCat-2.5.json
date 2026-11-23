@@ -28,5 +28,8 @@
     "missing_reason": "11-13 目录里已有当天拉到的 aa-language-models.json，但没有把当前（2026-11-22）榜写进来。这条没有用那份快照现算名次：模型发布排名脚本需要端点目录，且智力指数名次应在生成日就算好。这里不补算。"
   },
   "id": "LongCat-2.5",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "美团",
+  "category": "国内互联网",
+  "url": "https://tech.meituan.com/"
 }

@@ -3,5 +3,8 @@
   "title": "Warp now supports linked billing with Claude Platform",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "Warp",
+  "category": "博客",
+  "url": "https://www.warp.dev/blog",
   "text": "You can now link your Claude Platform organization directly to Warp with linked billing from Anthropic. This integration lets you use supported Claude models in Warp without sharing an API key."
 }

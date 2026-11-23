@@ -1,6 +1,9 @@
 {
   "id": "Artificial Analysis",
   "source": "raw/models/aa-language-models.json",
+  "publisher": "Artificial Analysis",
+  "category": "模型榜单",
+  "url": "https://artificialanalysis.ai/leaderboards/models",
   "publish_date": null,
   "items": [
     {

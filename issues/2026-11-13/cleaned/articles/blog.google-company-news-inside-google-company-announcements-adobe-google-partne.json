@@ -3,5 +3,8 @@
   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Google",
+  "category": "博客",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/",
   "text": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership."
 }
