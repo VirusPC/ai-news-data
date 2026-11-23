@@ -27,14 +27,19 @@
         "count": 65,
         "publishers": [
           {
-            "name": "OpenRouter",
-            "url": "https://openrouter.ai/rankings",
-            "count": 45
+            "name": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/leaderboards/models",
+            "count": null
           },
           {
             "name": "LLM Arena",
             "url": "https://arena.ai/",
             "count": 20
+          },
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/rankings",
+            "count": 45
           }
         ]
       },
@@ -54,44 +59,14 @@
         "count": 113,
         "publishers": [
           {
-            "name": "OpenAI",
-            "url": "https://openai.com/news/",
-            "count": 26
-          },
-          {
-            "name": "AWS",
-            "url": "https://aws.amazon.com/blogs/machine-learning/",
-            "count": 21
-          },
-          {
-            "name": "Hugging Face",
-            "url": "https://huggingface.co/blog",
-            "count": 16
-          },
-          {
-            "name": "Cognition",
-            "url": "https://cognition.com/blog",
-            "count": 14
-          },
-          {
             "name": "Anthropic",
             "url": "https://www.anthropic.com/news",
             "count": 5
           },
           {
-            "name": "Kiro",
-            "url": "https://kiro.dev/blog/",
-            "count": 4
-          },
-          {
-            "name": "月之暗面",
-            "url": "https://www.kimi.com/blog/",
-            "count": 4
-          },
-          {
-            "name": "Amp",
-            "url": "https://ampcode.com/chronicle",
-            "count": 3
+            "name": "OpenAI",
+            "url": "https://openai.com/news/",
+            "count": 26
           },
           {
             "name": "Google",
@@ -99,24 +74,14 @@
             "count": 3
           },
           {
-            "name": "LangChain",
-            "url": "https://www.langchain.com/blog",
-            "count": 3
+            "name": "Meta",
+            "url": "https://ai.meta.com/blog/",
+            "count": 1
           },
           {
-            "name": "Warp",
-            "url": "https://www.warp.dev/blog",
-            "count": 3
-          },
-          {
-            "name": "CodeRabbit",
-            "url": "https://www.coderabbit.ai/blog",
-            "count": 2
-          },
-          {
-            "name": "DeepSeek",
-            "url": "https://www.deepseek.com/",
-            "count": 2
+            "name": "xAI",
+            "url": "https://x.ai/news",
+            "count": 1
           },
           {
             "name": "Manus",
@@ -124,19 +89,59 @@
             "count": 2
           },
           {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog",
+            "count": 0
+          },
+          {
+            "name": "Cognition",
+            "url": "https://cognition.com/blog",
+            "count": 14
+          },
+          {
+            "name": "DeepSeek",
+            "url": "https://www.deepseek.com/",
+            "count": 2
+          },
+          {
+            "name": "LangChain",
+            "url": "https://www.langchain.com/blog",
+            "count": 3
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 0
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog",
+            "count": 16
+          },
+          {
+            "name": "AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/",
+            "count": 21
+          },
+          {
+            "name": "sankalp",
+            "url": "https://sankalp.bearblog.dev/",
+            "count": 0
+          },
+          {
+            "name": "Amp",
+            "url": "https://ampcode.com/chronicle",
+            "count": 3
+          },
+          {
             "name": "Lovable",
             "url": "https://lovable.dev/blog",
             "count": 1
           },
           {
-            "name": "Meta",
-            "url": "https://ai.meta.com/blog/",
-            "count": 1
-          },
-          {
-            "name": "StepFun",
-            "url": "https://www.stepfun.com/news",
-            "count": 1
+            "name": "Kiro",
+            "url": "https://kiro.dev/blog/",
+            "count": 4
           },
           {
             "name": "philschmid",
@@ -144,9 +149,64 @@
             "count": 1
           },
           {
-            "name": "xAI",
-            "url": "https://x.ai/news",
+            "name": "goose",
+            "url": "https://goose-docs.ai/blog/",
+            "count": 0
+          },
+          {
+            "name": "Zed",
+            "url": "https://zed.dev/blog",
+            "count": 0
+          },
+          {
+            "name": "CodeRabbit",
+            "url": "https://www.coderabbit.ai/blog",
+            "count": 2
+          },
+          {
+            "name": "Warp",
+            "url": "https://www.warp.dev/blog",
+            "count": 3
+          },
+          {
+            "name": "月之暗面",
+            "url": "https://www.kimi.com/blog/",
+            "count": 4
+          },
+          {
+            "name": "智谱",
+            "url": "https://www.zhipuai.cn/zh/research",
+            "count": 0
+          },
+          {
+            "name": "StepFun",
+            "url": "https://www.stepfun.com/news",
             "count": 1
+          },
+          {
+            "name": "Massively Parallel Procrastination",
+            "url": "https://blog.fsck.com/",
+            "count": 0
+          },
+          {
+            "name": "宝玉",
+            "url": "https://baoyu.io/",
+            "count": 0
+          },
+          {
+            "name": "Jason Liu",
+            "url": "https://jxnl.co/writing/",
+            "count": 0
+          },
+          {
+            "name": "Armin Ronacher",
+            "url": "https://lucumr.pocoo.org/",
+            "count": 0
+          },
+          {
+            "name": "MiniMax",
+            "url": "https://www.minimax.io/blog",
+            "count": 0
           }
         ]
       },
@@ -160,24 +220,14 @@
             "count": 5
           },
           {
-            "name": "腾讯",
-            "url": "https://cloud.tencent.com/developer",
-            "count": 5
+            "name": "百度",
+            "url": "https://cloud.baidu.com/",
+            "count": 1
           },
           {
-            "name": "淘宝",
+            "name": "大淘宝",
             "url": "https://developer.alibaba.com/",
             "count": 3
-          },
-          {
-            "name": "阿里",
-            "url": "https://developer.aliyun.com/",
-            "count": 3
-          },
-          {
-            "name": "支付宝",
-            "url": "https://open.alipay.com/",
-            "count": 2
           },
           {
             "name": "快手",
@@ -185,14 +235,29 @@
             "count": 1
           },
           {
-            "name": "百度",
-            "url": "https://cloud.baidu.com/",
-            "count": 1
+            "name": "支付宝",
+            "url": "https://open.alipay.com/",
+            "count": 2
           },
           {
             "name": "美团",
             "url": "https://tech.meituan.com/",
             "count": 1
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 0
+          },
+          {
+            "name": "腾讯",
+            "url": "https://cloud.tencent.com/developer",
+            "count": 5
+          },
+          {
+            "name": "阿里",
+            "url": "https://developer.aliyun.com/",
+            "count": 3
           }
         ]
       }
