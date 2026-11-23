@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "MiniMax M3.1 Flash 把推理速度提到约 3 倍、成本降低 70%，DeepSeek V4.1 Flash 切进网页、App 和 API。",
+      "text": "MiniMax M3.1 Flash 面向 Agent、编程和 Computer Use，线上推理速度大约到原来的 3 倍，使用成本降低 70%。同一窗口 DeepSeek V4.1 Flash 切进网页、App 和 API，文中把它放在性能和费用的帕累托前沿，并建议把 Harness 升到 0.2.1-rc.1。Reflection Beam 以 Apache 2.0 放出，运行和部署由使用方自己管，价格和智力指数都没有数字。",
       "refs": [
         {
           "id": "MiniMax M3.1 Flash",
@@ -15,36 +15,52 @@
         {
           "id": "DeepSeek V4.1 Flash",
           "label": "DeepSeek V4.1 Flash"
+        },
+        {
+          "id": "Reflection Beam",
+          "label": "Reflection Beam"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Anthropic 把 Agent Skills 这套开放标准捐给 Agentic AI Foundation。",
+      "text": "Anthropic 把 Agent Skills 这套开放标准捐给 Agentic AI Foundation。同周开源项目里的 claude-plugins-official 仍是他们维护的 Claude Code 插件目录，简介只有这一句。捐赠公告没有列出目录里现在有哪些插件。标准交到基金会，目录还留在官方仓库：一篇在交规范，一个仓库在交现成插件，两边都没有写新的模型。",
       "refs": [
         {
           "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "label": "Agent Skills"
+        },
+        {
+          "id": "https://github.com/anthropics/claude-plugins-official",
+          "label": "claude-plugins-official"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Claude Duet 在研究预览里让人离开之后还接着做，动手前先问你。",
+      "text": "Claude Duet 还在研究预览里：人离开之后它接着做，动手前先问你。材料没有写定价，也没有写它和哪一个模型绑在一起。Cursor 的 Agent SDK 用他们做 Bugbot 的那套框架，把按事件干活的 Agent 定义成代码，评审和合规可以贴着自己的仓库写。前者是助手来找人，后者是人把触发条件写成程序。两篇都没有回到 MiniMax、DeepSeek 或 Reflection 的价格和速度。",
       "refs": [
         {
           "id": "https://claude.com/resources/articles/claude-duet",
           "label": "Claude Duet"
+        },
+        {
+          "id": "https://cursor.com/blog/agent-sdk",
+          "label": "Agent SDK"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Cursor 的 Agent SDK 把按事件干活的 Agent 定义成代码。",
+      "text": "美团把算法研究从单线程 LOOP 改成能在云端训练平台上跑的图探索。原文把时间花在改代码、等训练、看日志上，一天往往只有两三次实质迭代。ruflo 在开源项目里做的是另一头，简介称它是协调多 Agent 工作流的 harness，也是最早的那一版。研究流程要并行的是训练，编码流程要并行的是仓库里的 Agent，两边都还没写到对方的平台上。这个仓库的来源里只有简介，没有写它怎么接训练。",
       "refs": [
         {
-          "id": "https://cursor.com/blog/agent-sdk",
-          "label": "Agent SDK"
+          "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+          "label": "图探索"
+        },
+        {
+          "id": "https://github.com/ruvnet/ruflo",
+          "label": "ruflo"
         }
       ]
     }

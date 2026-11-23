@@ -6,28 +6,26 @@
   "themes": [
     {
       "kind": "model",
-      "text": "SWE-2 Flash 进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍。",
+      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍，基座被写成 Thinking Machines 的 Inkling-Small。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，文中写 ExploitGym 相对上一代有 51% 的相对提升。一个把编码模型做便宜，一个要求安全模型留在委托的范围里。",
       "refs": [
         {
           "id": "SWE-2 Flash",
           "label": "SWE-2 Flash"
+        },
+        {
+          "id": "GPT-6 Cyber",
+          "label": "GPT-6 Cyber"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑，平台负责生产环境。",
+      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。Devin Review 2.0 则把和 Devin 一起写代码时的评审设成默认，单次费用被压到几毛美元。原文要解决的是代码写得越快，评审越成为瓶颈。两篇都在把「跑起来之后谁管」从个人电脑里拿出去，一个管运行环境，一个管评审落在哪一次 PR。",
       "refs": [
         {
           "id": "https://www.langchain.com/blog/introducing-managed-deep-agents",
           "label": "Deep Agents"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "Devin Review 2.0 成为和 Devin 协作时的默认评审，单次费用被压到几毛美元。",
-      "refs": [
+        },
         {
           "id": "https://devin.ai/blog/devin-review-2",
           "label": "Devin Review 2.0"
@@ -36,11 +34,21 @@
     },
     {
       "kind": "other",
-      "text": "Kimi 把 Harness 做成云上的服务，企业不用自己养一套运行环境。",
+      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。这和 Deep Agents 上到 LangSmith 是同一类托管，入口在 Kimi 的这篇产品说明里。读的时候把它当成「harness 即服务」的一次落地，而不是另一条模型发布；模型主线里的 SWE-2 Flash 和 GPT-6 Cyber 都没有写这个托管。",
       "refs": [
         {
           "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
-          "label": "Kimi"
+          "label": "Kimi Hosted Agents"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。简介没有写它压进记忆的字段。上面的托管文章在讲运行环境交给谁，这个仓库在讲下一次会话还记不记得上一次。记忆如果只留在个人配置里，换一台机器就断；仓库把它做成可以装回去的东西，和 SWE-2 Flash 的价格、速度无关。简介也没有写这些记忆存在哪。它和托管文章讲的运行环境不是同一件事。",
+      "refs": [
+        {
+          "id": "https://github.com/thedotmack/claude-mem",
+          "label": "claude-mem"
         }
       ]
     }

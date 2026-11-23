@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "Gemini 4 Neon 写进 Antigravity，位于长程与日常之间；GPT-6.2 Astra 进入 ChatGPT Work、Codex 和 API。",
+      "text": "Gemini 4 Neon 写进 Antigravity，放在 Carbon 的长程和 Hydrogen 的日常之间，向付费的 AI Pro 和 Ultra 订阅者开放桌面、CLI 和 IDE。GPT-6.2 Astra 进入 ChatGPT Work、Codex 和 API；CodeRabbit 复测里 Astra 6.2 在 83 个已知问题中抓到 58 个，评论也从 331 条涨到 847 条，精度下降。Qwen4-Max 同周正式上线，2.4 万亿参数的 MoE，官方称比 Qwen3.8-Max 更省 token。",
       "refs": [
         {
           "id": "Gemini 4 Neon",
@@ -15,12 +15,16 @@
         {
           "id": "GPT-6.2 Astra",
           "label": "GPT-6.2 Astra"
+        },
+        {
+          "id": "Qwen4-Max",
+          "label": "Qwen4-Max"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "常驻 Agent 大部分时间在睡，被事件叫醒；Devin Bots 带记忆值守，只把要人判断的决定交回来。",
+      "text": "常驻 Agent 被写成大部分时间在睡，被事件或计时器叫醒后再干活。原文要避开的是真的不关机：事件会丢，两次运行会打架。Devin Bots 已经做成带记忆的产品，自己调查、派活、验收，只把要人判断的决定交回来。一篇在讲怎么醒，一篇在讲醒了以后谁值守仓库，都还不是上面三张模型卡里的发布说明。两篇也没有改写 Neon、Astra 或 Qwen4-Max 的发布事实。",
       "refs": [
         {
           "id": "https://claude.com/resources/articles/building-always-on-agents",
@@ -34,7 +38,7 @@
     },
     {
       "kind": "other",
-      "text": "Warp Learn 教人做自己的 software factory，工程重心转到让 Agent 写实现的那套系统。",
+      "text": "Warp Learn 把 software factory 做成一门免费的动手课，教人用 Warp 做、量、改自己的工厂。订阅源里只有这些，没有写课程一共几节。另一篇把工程重心从写实现，转到做那套让 Agent 写实现的系统。课程回答第一套怎么搭，后一篇回答搭完以后人还留下什么。两篇都还是文章，不是这周的开源仓库。这个说法来自文章标题和正文，不是来自某个仓库名。",
       "refs": [
         {
           "id": "https://www.warp.dev/blog/warp-learn-software-factory-course",
@@ -48,11 +52,21 @@
     },
     {
       "kind": "other",
-      "text": "腾讯开源 LoopForge，共享工作区里跑带门禁的流程，日常单可以无人值守。",
+      "text": "腾讯开源 LoopForge，在共享工作区里跑带门禁的流程，日常单可以无人值守。原文要解决的是人离开以后，云上还能不能按门禁把单子分下去。它和常驻 Agent、software factory 是同一类搬迁：把 Agent 从个人电脑挪到一套可以交接的流程里。差别是门禁写在开源平台上，而不是写在某一门课程里。原文没有写它和 Warp 共用同一套门禁，分派仍从云上进行。",
       "refs": [
         {
           "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
           "label": "LoopForge"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "open-code-review 用确定的流程加上 LLM Agent 做按行评论，规则覆盖空指针、线程安全、XSS 和 SQL 注入，接口兼容 OpenAI 和 Anthropic。模型卡里 CodeRabbit 复测写 Astra 6.2 评论变多、精度下降。这个仓库把评论落在具体的行上。评审变吵的时候，先看评论落点，而不是只看抓到了多少条。仓库简介没有再引那组评论数字，数字在 Astra 的模型卡里。",
+      "refs": [
+        {
+          "id": "https://github.com/alibaba/open-code-review",
+          "label": "open-code-review"
         }
       ]
     }

@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 同日发布，面向艰难的技术工作。",
+      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日的同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity 和 Devin，清洗记录里没有 token 单价。Qwen4-Max 预览版登上阿里 Token Plan，正式上线不在这期窗口。",
       "refs": [
         {
           "id": "Claude Fable 5.2",
@@ -15,12 +15,20 @@
         {
           "id": "Claude Mythos 5.2",
           "label": "Claude Mythos 5.2"
+        },
+        {
+          "id": "Gemini 4 Hydrogen",
+          "label": "Gemini 4 Hydrogen"
+        },
+        {
+          "id": "Qwen4-Max 预览版",
+          "label": "Qwen4-Max 预览版"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "一支约 1000 个 Agent 的队伍用 Claude Fable 5.2 复现了费马大定理的形式化证明。",
+      "text": "一支约 1000 个 Agent 的队伍用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。订阅源里只有这些，没有写那一千个 Agent 各自的分工。模型卡只写了定位和价格，8 美元和 40 美元没有出现在这篇里。它把同一模型放进一支队伍，看证明能不能做完。不要把这篇读成又一张价格卡。证明做到哪一步，订阅源也没有写。",
       "refs": [
         {
           "id": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
@@ -30,7 +38,7 @@
     },
     {
       "kind": "other",
-      "text": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent。",
+      "text": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent。Gemini 4 Carbon 被写成适合当协调和对抗验证的那一档，Terminal-Bench 的数字在另一篇 Hydrogen 的文章里，不要和这条混在一起。这和费马那篇是两种并行：一个在做证明，一个在拆软件任务。消息板是给编码流程用的。Carbon 这次没有单独的模型卡，只出现在产品说明里。",
       "refs": [
         {
           "id": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
@@ -40,11 +48,25 @@
     },
     {
       "kind": "other",
-      "text": "长跑的 Agent 会因上下文堆满变差，Deep Agents 用卸载、摘要和记忆把窗口留给还在用的东西。",
+      "text": "agent-browser 是给 AI Agent 用的浏览器自动化命令行，这周的周榜快照写着 4,601 stars this week。LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Stagehand，再用轨迹和评测去调。仓库提供一条命令，文章在七套工具里做选择。两边都还没取代模型卡上的 Claude Fable 5.2 或 Gemini 4 Hydrogen。",
+      "refs": [
+        {
+          "id": "https://github.com/vercel-labs/agent-browser",
+          "label": "agent-browser"
+        },
+        {
+          "id": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+          "label": "Stagehand"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。原文没有给这些手段排一个通用名次。它和 Claude Fable 5.2 的发布说明互补：模型卡写价格和定位，这篇写窗口里堆什么会让长任务做不完。skill 和子 Agent 在这里是窗口手段，不是新开源的仓库名，也不要读成项目开源那一章的复述。",
       "refs": [
         {
           "id": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
-          "label": "Deep Agents"
+          "label": "上下文堆满"
         }
       ]
     }
