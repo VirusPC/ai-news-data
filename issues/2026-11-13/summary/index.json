@@ -6,7 +6,7 @@
   },
   "articles_coverage": {
     "raw": 221,
-    "cleaned": 221
+    "selected": 9
   },
   "blocks": [
     {
