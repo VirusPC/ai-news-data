@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity，也从 11 月 11 日起可在 Devin 里使用。Qwen4-Max 预览版登上阿里 Token Plan，正式上线还在后面。LongCat-2.5 于 11 月 10 日以 MIT 开源，总参数 1.6 万亿，上下文一百万。",
+      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity，也从 11 月 11 日起可在 Devin 里使用。Qwen4-Max 预览版登上阿里 Token Plan，正式上线还在后面。美团 LongCat-2.5 于 11 月 10 日以 MIT 开源，总参数 1.6 万亿，上下文一百万。",
       "refs": [
         {
           "id": "Claude Fable 5.2",
