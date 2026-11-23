@@ -1,0 +1,52 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 同日发布，面向艰难的技术工作。",
+      "refs": [
+        {
+          "id": "Claude Fable 5.2",
+          "label": "Claude Fable 5.2"
+        },
+        {
+          "id": "Claude Mythos 5.2",
+          "label": "Claude Mythos 5.2"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "一支约 1000 个 Agent 的队伍用 Claude Fable 5.2 复现了费马大定理的形式化证明。",
+      "refs": [
+        {
+          "id": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "label": "1000 个 Agent"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent。",
+      "refs": [
+        {
+          "id": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
+          "label": "/swarm"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "长跑的 Agent 会因上下文堆满变差，Deep Agents 用卸载、摘要和记忆把窗口留给还在用的东西。",
+      "refs": [
+        {
+          "id": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+          "label": "Deep Agents"
+        }
+      ]
+    }
+  ]
+}

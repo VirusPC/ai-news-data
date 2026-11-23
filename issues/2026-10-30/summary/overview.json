@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "GPT-6.1 Terra 发布，API 输入每百万 token 1 美元；Kimi K3.1 Pro 已在 kimi.com 和 API 可用。",
+      "refs": [
+        {
+          "id": "GPT-6.1 Terra",
+          "label": "GPT-6.1 Terra"
+        },
+        {
+          "id": "Kimi K3.1 Pro",
+          "label": "Kimi K3.1 Pro"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "software factory 被 Warp 收成团队共用的一套；Kiro 要让它在每周大约一千个 PR 上还稳。",
+      "refs": [
+        {
+          "id": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
+          "label": "software factory"
+        },
+        {
+          "id": "https://kiro.dev/blog/software-factory-stability",
+          "label": "Kiro"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Devin Security 2.0 扫描之后按风险排序，并把修复开成可以审的 PR。",
+      "refs": [
+        {
+          "id": "https://devin.ai/blog/devin-security-2",
+          "label": "Devin Security 2.0"
+        }
+      ]
+    }
+  ]
+}

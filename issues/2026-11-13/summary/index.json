@@ -1,7 +1,7 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.6"
+    "version": "0.0.8"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
@@ -267,7 +267,7 @@
   },
   "chapters": [
     {
-      "title": "本周关键词"
+      "title": "本周概览"
     },
     {
       "title": "模型进展",

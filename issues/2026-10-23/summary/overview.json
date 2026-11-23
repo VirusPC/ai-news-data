@@ -1,0 +1,52 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "MiniMax M3.1 Flash 把推理速度提到约 3 倍、成本降低 70%，DeepSeek V4.1 Flash 切进网页、App 和 API。",
+      "refs": [
+        {
+          "id": "MiniMax M3.1 Flash",
+          "label": "MiniMax M3.1 Flash"
+        },
+        {
+          "id": "DeepSeek V4.1 Flash",
+          "label": "DeepSeek V4.1 Flash"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Anthropic 把 Agent Skills 这套开放标准捐给 Agentic AI Foundation。",
+      "refs": [
+        {
+          "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "label": "Agent Skills"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Claude Duet 在研究预览里让人离开之后还接着做，动手前先问你。",
+      "refs": [
+        {
+          "id": "https://claude.com/resources/articles/claude-duet",
+          "label": "Claude Duet"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Cursor 的 Agent SDK 把按事件干活的 Agent 定义成代码。",
+      "refs": [
+        {
+          "id": "https://cursor.com/blog/agent-sdk",
+          "label": "Agent SDK"
+        }
+      ]
+    }
+  ]
+}

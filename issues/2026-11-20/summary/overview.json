@@ -1,0 +1,60 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "Gemini 4 Neon 写进 Antigravity，位于长程与日常之间；GPT-6.2 Astra 进入 ChatGPT Work、Codex 和 API。",
+      "refs": [
+        {
+          "id": "Gemini 4 Neon",
+          "label": "Gemini 4 Neon"
+        },
+        {
+          "id": "GPT-6.2 Astra",
+          "label": "GPT-6.2 Astra"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "常驻 Agent 大部分时间在睡，被事件叫醒；Devin Bots 带记忆值守，只把要人判断的决定交回来。",
+      "refs": [
+        {
+          "id": "https://claude.com/resources/articles/building-always-on-agents",
+          "label": "常驻 Agent"
+        },
+        {
+          "id": "https://devin.ai/blog/introducing-devin-bots",
+          "label": "Devin Bots"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Warp Learn 教人做自己的 software factory，工程重心转到让 Agent 写实现的那套系统。",
+      "refs": [
+        {
+          "id": "https://www.warp.dev/blog/warp-learn-software-factory-course",
+          "label": "Warp Learn"
+        },
+        {
+          "id": "https://www.warp.dev/blog/factory-engineering-software-factories",
+          "label": "让 Agent 写实现"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "腾讯开源 LoopForge，共享工作区里跑带门禁的流程，日常单可以无人值守。",
+      "refs": [
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+          "label": "LoopForge"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "SWE-2 Flash 进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍。",
+      "refs": [
+        {
+          "id": "SWE-2 Flash",
+          "label": "SWE-2 Flash"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑，平台负责生产环境。",
+      "refs": [
+        {
+          "id": "https://www.langchain.com/blog/introducing-managed-deep-agents",
+          "label": "Deep Agents"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Devin Review 2.0 成为和 Devin 协作时的默认评审，单次费用被压到几毛美元。",
+      "refs": [
+        {
+          "id": "https://devin.ai/blog/devin-review-2",
+          "label": "Devin Review 2.0"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Kimi 把 Harness 做成云上的服务，企业不用自己养一套运行环境。",
+      "refs": [
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
+          "label": "Kimi"
+        }
+      ]
+    }
+  ]
+}
