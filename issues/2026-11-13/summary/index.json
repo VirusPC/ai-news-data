@@ -1,11 +1,11 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.1.0"
+    "version": "0.0.6"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
-    "commit": "ce3cf1c2329ee28745f949268f644c7a8e5f1916",
+    "commit": "81ece17787f000c2ef823279ebe78832afdfd28d",
     "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
