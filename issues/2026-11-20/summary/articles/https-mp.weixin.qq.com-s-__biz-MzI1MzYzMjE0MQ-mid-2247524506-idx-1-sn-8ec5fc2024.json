@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MzI1MzYzMjE0MQ-mid-2247524506-idx-1-sn-8ec5fc2024.json",
+  "title": "把 80+ 项音视频能力装进 Claude Code 后，我合上了 FFmpeg 手册",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+  "sentence": "火山引擎的 <mark>AI MediaKit</mark> 把 80 多项音视频能力包成 CLI 和五个 Agent Skill，同一条命令可以走本机或云端。",
+  "category": "产品",
+  "company": "字节",
+  "sections": {
+    "解决什么问题": "拼接、字幕擦除和画质修复要么写很长的 FFmpeg，要么打开重型剪辑软件。",
+    "如何解决": "mediakit-cli 把能力收成终端命令，再按 Claude Code 的 Skill 规范分成 video、editing、image、audio 和 shared。--local 用本机 FFmpeg，--cloud 处理本机做不了的步骤。",
+    "洞察与启发": "文首写明测试数字来自特定素材和作者实测，不能当成公示价格。订阅正文在双模架构处截断。"
+  }
+}

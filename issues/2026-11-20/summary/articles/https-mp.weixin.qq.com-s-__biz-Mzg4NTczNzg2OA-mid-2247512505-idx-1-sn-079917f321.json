@@ -1,0 +1,15 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512505&idx=1&sn=1c20deef6f26aaa98b23cfc483c123ca",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512505-idx-1-sn-079917f321.json",
+  "title": "Qwen4-Max 正式上线！",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512505&idx=1&sn=1c20deef6f26aaa98b23cfc483c123ca",
+  "sentence": "<mark>Qwen4-Max</mark> 于 11 月 16 日上线，2.4 万亿参数、原生视觉，并提供百万 token 上下文。",
+  "category": "模型",
+  "company": "阿里",
+  "sections": {
+    "解决什么问题": "团队需要一个能使用专业工具、把长任务做到交付、并且比 Qwen3.8-Max 更省 token 的模型。",
+    "如何解决": "稀疏 MoE 里每四层有三层 Gated DeltaNet 和一层 Qwen Sparse Attention，残差扩成四条带门控的分支，第二层再用 N-gram Embedding。每个 token 激活 71B 参数。",
+    "效果怎样": "原文写 Work360 上 Xhigh 和 High 的 token 消耗大约少 24% 和 35%，Terminal-Bench 4.0 上大约少 48% 和 49%；同一评测里单任务平均费用从 26.58 元降到 11.16 元。",
+    "相关工作": "API 已在千问 AI 平台开放，也可走阿里 Token Plan，或在千问办公、Qoder、千问 App 和 Qwen Studio 里用。中小尺寸模型原文说会陆续开源。"
+  }
+}

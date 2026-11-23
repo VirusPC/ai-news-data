@@ -1,0 +1,9 @@
+{
+  "id": "https://www.langchain.com/blog/announcing-data-annotation-queue",
+  "source": "cleaned/articles/https-www.langchain.com-blog-announcing-data-annotation-queue-335c172adf.json",
+  "title": "Announcing Data Annotation Queues",
+  "link": "https://www.langchain.com/blog/announcing-data-annotation-queue",
+  "sentence": "LangSmith 的 <mark>Data Annotation Queues</mark> 用来复查日志、标注并做成数据集。订阅源里只有这一句。",
+  "category": "产品",
+  "company": "LangChain"
+}

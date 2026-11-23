@@ -1,0 +1,9 @@
+{
+  "id": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+  "source": "cleaned/articles/https-www.langchain.com-blog-how-to-choose-the-right-sandbox-for-your-47f85eb437.json",
+  "title": "How to Choose the Right Sandbox for AI Agents",
+  "link": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+  "sentence": "这篇用文件系统隔离、网络、资源限额和 microVM 来选智能体 <mark>沙箱</mark>。订阅源里只有这一句。",
+  "category": "实践",
+  "company": "LangChain"
+}

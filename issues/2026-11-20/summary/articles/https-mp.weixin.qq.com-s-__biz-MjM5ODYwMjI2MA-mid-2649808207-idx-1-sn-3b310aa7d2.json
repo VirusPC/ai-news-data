@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808207-idx-1-sn-3b310aa7d2.json",
+  "title": "登上GitHub Trending｜腾讯开源 LoopForge",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+  "sentence": "腾讯开源云端研发平台 <mark>LoopForge</mark>，用共享工作区和带门禁的 SOP 把需求送到可合并的变更。",
+  "category": "开源",
+  "company": "腾讯",
+  "sections": {
+    "解决什么问题": "单机编程智能体合上电脑就停，多人上下文也接不上，同类问题会反复出现。",
+    "如何解决": "工作区放到云上 7×24 运行；产品、设计和研发进同一会话；复杂需求走可暂停、可接管的 SOP；定时和事件触发无人值守；跑完再复盘并改写 SOP。",
+    "效果怎样": "原文说它服务内部 20 多个业务，单月自动完成 200 多项需求和日常单据。仓库写的是 github.com/Tencent/LoopForge。"
+  }
+}

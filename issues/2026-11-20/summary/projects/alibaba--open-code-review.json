@@ -1,0 +1,6 @@
+{
+  "id": "https://github.com/alibaba/open-code-review",
+  "source": "cleaned/projects/alibaba--open-code-review.json",
+  "purpose": "阿里开源的代码评审 CLI，把确定性流水线和 LLM 智能体放在一起，做行级评论，并带多语言规则。",
+  "change": "本周每周总榜 XML 顺序第 4。原文没有星标、许可和仓库发布时间。"
+}

@@ -1,16 +1,16 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.6"
+    "version": "0.0.7"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
-    "commit": "81ece17787f000c2ef823279ebe78832afdfd28d",
+    "commit": "892148f4a79d9f948cd56dd23cf2537cacedc6f8",
     "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
-    "raw": 183,
-    "selected": 36
+    "raw": 168,
+    "selected": 39
   },
   "window": {
     "issue": "2026-11-20",
@@ -53,7 +53,7 @@
       },
       {
         "title": "博客",
-        "count": 144,
+        "count": 142,
         "publishers": [
           {
             "name": "Anthropic",
@@ -103,7 +103,7 @@
           {
             "name": "LangChain",
             "url": "https://www.langchain.com/blog",
-            "count": 14
+            "count": 13
           },
           {
             "name": "千问",
@@ -118,7 +118,7 @@
           {
             "name": "AWS",
             "url": "https://aws.amazon.com/blogs/machine-learning/",
-            "count": 11
+            "count": 10
           },
           {
             "name": "sankalp",
@@ -269,14 +269,16 @@
       "boards": [
         "Artificial Analysis",
         "LLM Arena",
-        "OpenRouter 应用用量",
+        "OpenRouter 本周用量",
         "OpenRouter 编程用量",
-        "OpenRouter 本周用量"
+        "OpenRouter 应用用量"
       ],
       "cards": [
         "GPT-6.2 Astra",
+        "GPT-6.2 Sol",
         "Gemini 4 Neon",
-        "Qwen4-Max"
+        "Qwen4 Max",
+        "Astra for Law 6.2"
       ]
     },
     {
@@ -301,62 +303,63 @@
         {
           "title": "国外模型厂",
           "cards": [
-            "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
-            "https://claude.dev/blog/chaos-loop-claude-docs-launch",
+            "https://code.claude.com/docs/en/changelog#2-1-323",
             "https://claude.com/resources/articles/building-always-on-agents",
-            "https://claude.com/resources/articles/linked-billing-on-claude-platform",
-            "https://openai.com/index/inside-the-codex-sandbox",
-            "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-            "https://x.ai/news/grok-bot-accounting",
-            "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models"
+            "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+            "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+            "https://openai.com/index/astra-law-6-2",
+            "https://openai.com/index/introducing-chatgpt-wallet",
+            "https://openai.com/index/introducing-chatgpt-for-sales",
+            "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+            "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity"
           ]
         },
         {
           "title": "国内非模型厂",
           "cards": [
-            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
-            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773",
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512505&idx=1&sn=1c20deef6f26aaa98b23cfc483c123ca",
             "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719",
-            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512497&idx=1&sn=82924a5a7f2f62006617c12080a83fc2",
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
             "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
-            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
             "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524531&idx=1&sn=389bd912508d0b689da757928f16a91e",
             "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524506&idx=1&sn=0d9dab639998e69bde48db3e1dadf652",
+            "https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501680&idx=1&sn=9152a4231d470590dd686c0a15369014",
             "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html",
-            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607833&idx=1&sn=46122dcf464df97a601d62e805c5e617"
+            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607833&idx=1&sn=46122dcf464df97a601d62e805c5e617",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547136&idx=1&sn=4f8cce99ec2730b9ecda294f3e2c604e",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773"
           ]
         },
         {
           "title": "国外非模型厂",
           "cards": [
-            "https://cursor.com/blog/security-incident-update",
+            "https://devin.ai/blog/gemini-4-neon",
             "https://devin.ai/blog/introducing-devin-bots",
             "https://devin.ai/blog/devin-apps",
+            "https://devin.ai/blog/nginx2root-java4shell-threats",
             "https://ampcode.com/news/amp-for-windows",
-            "https://www.langchain.com/blog/goal-engineering",
-            "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
-            "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
-            "https://www.langchain.com/blog/langsmith-tool-gateway",
-            "https://www.warp.dev/blog/factory-engineering-software-factories",
-            "https://www.warp.dev/blog/warp-learn-software-factory-course",
-            "https://www.warp.dev/blog/software-factory-adoption-challenges",
-            "https://www.warp.dev/blog/warp-now-supports-linked-billing-with-claude-platform",
+            "https://www.langchain.com/blog/announcing-data-annotation-queue",
+            "https://www.langchain.com/blog/langsmith-alerts",
+            "https://www.langchain.com/blog/proactive-agents",
+            "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+            "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
             "https://lovable.dev/blog/introducing-drafts",
             "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
             "https://huggingface.co/blog/openrouter",
-            "https://kiro.dev/blog/1m-evals-lessons",
-            "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks"
+            "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+            "https://coderabbit.ai/blog/introducing-coderabbit-verify",
+            "https://www.philschmid.de/google-deepmind-roundup-nov-2026"
           ]
         }
       ]
     },
     {
-      "title": "精选推文",
-      "cards": []
+      "title": "精选推文"
     },
     {
-      "title": "精选播客",
-      "cards": []
+      "title": "精选播客"
     }
   ]
 }

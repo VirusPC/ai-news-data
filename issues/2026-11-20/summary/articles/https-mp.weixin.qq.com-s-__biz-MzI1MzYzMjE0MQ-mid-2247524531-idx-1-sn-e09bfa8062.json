@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524531&idx=1&sn=389bd912508d0b689da757928f16a91e",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MzI1MzYzMjE0MQ-mid-2247524531-idx-1-sn-e09bfa8062.json",
+  "title": "OpenViking 3D 理解模型 X 汽车行业 Benchmark 数据库",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524531&idx=1&sn=389bd912508d0b689da757928f16a91e",
+  "sentence": "<mark>OpenViking</mark> 解析整车 STEP/DWG，按装配关系拆零件，再把几何和清单交给 Agent 检索。",
+  "category": "产品",
+  "company": "字节",
+  "sections": {
+    "解决什么问题": "工程师要在多层目录和三维模型里找参考件、估成本和合并重复标准件，人工对不完。",
+    "如何解决": "导入后先拆成整车结构目录，再抽出几何、尺寸、公差和工艺，并保留装配关系，供接上的 Agent 按自然语言检索。",
+    "效果怎样": "文中一个后悬架例子给出约 73 kg、加上差速器和半轴后 95.71 kg；变速箱例子统计 42 种零件、净重 48 kg、总成本 2348.61 元/套。这些是文内示例，不是独立榜单。"
+  }
+}

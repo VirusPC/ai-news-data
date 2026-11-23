@@ -1,70 +1,70 @@
 {
   "id": "LLM Arena",
-  "source": "raw/models/llm-arena-2026-11-18.json",
+  "source": "raw/models/llm-arena-2026-11-19.json",
   "publisher": "LLM Arena",
   "category": "模型榜单",
   "url": "https://arena.ai/",
-  "publish_date": "2026-11-18",
   "items": [
     {
       "name": "Gemini 4 Carbon (High)",
-      "value": 1525.95
+      "value": 1526.97
     },
     {
       "name": "Gemini 4 Argon (High)",
-      "value": 1520.56
+      "value": 1519.62
     },
     {
       "name": "Gemini 4 Neon (High)",
-      "value": 1518.47
+      "value": 1512.94
     },
     {
       "name": "Muse Wonder (Max)",
-      "value": 1510.66
+      "value": 1511.44
     },
     {
       "name": "Claude Opus 5.5 (High)",
-      "value": 1507.02
+      "value": 1505.96
     },
     {
       "name": "Claude Fable 5 (High)",
-      "value": 1504.08
+      "value": 1504.14
+    },
+    {
+      "name": "Claude Fable 5.2 (Max)",
+      "value": 1503.06
     },
     {
       "name": "Claude Opus 4.6 (High)",
-      "value": 1502.82
+      "value": 1502.83
     },
     {
       "name": "Claude Fable 5.1 (Max)",
-      "value": 1502.13
+      "value": 1502.77
     },
     {
       "name": "Claude Opus 4.7 (High)",
-      "value": 1501.07
+      "value": 1501.24
     },
     {
       "name": "Muse Spark 1.3 (Max)",
-      "value": 1497.61
+      "value": 1498.37
     },
     {
       "name": "Gemini 3.8 Flash (High)",
-      "value": 1496.73
+      "value": 1497.28
     },
     {
       "name": "Claude Opus 4.6",
-      "value": 1496.56
+      "value": 1496.4
     },
     {
       "name": "Claude Opus 4.7",
-      "value": 1494.1
+      "value": 1494.04
     },
     {
       "name": "Muse Spark 1.2 (xHigh)",
-      "value": 1492.97
-    },
-    {
-      "name": "Muse Spark 1.1",
-      "value": 1491.11
+      "value": 1493.25
     }
-  ]
+  ],
+  "publish_date": "2026-11-19"
 }

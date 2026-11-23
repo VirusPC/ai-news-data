@@ -1,0 +1,28 @@
+{
+  "id": "Astra for Law 6.2",
+  "name": "Astra for Law 6.2",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
+  "release_url": "https://openai.com/index/astra-law-6-2",
+  "released": "2026-11-17",
+  "price": {
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": "artificial_analysis"
+  },
+  "speed": {
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": "openrouter_official_standard"
+  },
+  "intelligence": {
+    "index": null,
+    "variant": "Astra for Law 6.2 (Max)",
+    "source": "Artificial Analysis",
+    "version": 5
+  }
+}

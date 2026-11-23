@@ -1,0 +1,14 @@
+{
+  "id": "https://code.claude.com/docs/en/changelog#2-1-323",
+  "source": "cleaned/articles/https-code.claude.com-docs-en-changelog-2-1-323-39a4ab61fd.json",
+  "title": "Claude Code 2.1.323",
+  "link": "https://code.claude.com/docs/en/changelog#2-1-323",
+  "sentence": "Claude Code 2.1.323 加入实验性的 <mark>Code Mode</mark>，让 Claude 写 JavaScript 来调用工具。",
+  "category": "产品",
+  "company": "Anthropic",
+  "sections": {
+    "解决什么问题": "工具调用和插件安装都需要更明确的边界，长任务也不能被宿主误判成挂起。",
+    "如何解决": "Code Mode 需显式打开；plugin.json 增加 engines[\"claude-code\"]，版本不符就不安装或加载；claude -p 和 SDK 在 hook 跑得久时每 30 秒打一次心跳。",
+    "相关工作": "同一版还加上插件 TypeScript hook 的类型检查、Artifact 的 docx 上传，以及托管设置里的 CLAUDE_CODE_AUTO_MODE_MODEL。"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html",
+  "source": "cleaned/articles/https-tech.meituan.com-2026-11-17-Agent-Evaluation-White-Paper-02.html-5c4574dad8.json",
+  "title": "《Agent评测白皮书》系列02：商家 AI 助手的评测与优化闭环实践",
+  "link": "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html",
+  "sentence": "美团用商家广告助手的巡检任务说明怎样把业务 SOP 拆成可判定的 <mark>Task</mark>，而不是只看回答像不像对的。",
+  "category": "实践",
+  "company": "美团",
+  "sections": {
+    "解决什么问题": "这个 Agent 要读变化中的账户、调用工具并可能改投放计划，公开榜的成绩不能直接当上线依据。",
+    "如何解决": "一条路径从 SOP 拆出状态、数据依赖、分支和停止点，另一条用线上和离线的失败案例补边界。成功标准要覆盖意图、工具、规则和最终账户状态。",
+    "相关工作": "订阅正文在到店 KA 的每日场景处截断，没有写出某一版模型的通过率。"
+  }
+}

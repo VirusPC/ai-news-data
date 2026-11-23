@@ -4,7 +4,6 @@
   "publisher": "Artificial Analysis",
   "category": "模型榜单",
   "url": "https://artificialanalysis.ai/leaderboards/models",
-  "publish_date": null,
   "items": [
     {
       "name": "Claude Fable 5.2 (Max, Default Fallback)",

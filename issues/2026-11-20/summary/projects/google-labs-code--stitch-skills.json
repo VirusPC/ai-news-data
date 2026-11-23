@@ -1,0 +1,6 @@
+{
+  "id": "https://github.com/google-labs-code/stitch-skills",
+  "source": "cleaned/projects/google-labs-code--stitch-skills.json",
+  "purpose": "配合 Stitch MCP 的 Agent Skills 库，按开放的技能标准写，供多种编程智能体安装。",
+  "change": "本周每周总榜 XML 顺序第 2。原文没有星标、许可和仓库发布时间。"
+}

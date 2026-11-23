@@ -1,0 +1,9 @@
+{
+  "id": "https://claude.com/resources/articles/building-always-on-agents",
+  "source": "cleaned/articles/https-claude.com-resources-articles-building-always-on-agents-984d08da3c.json",
+  "title": "Building always-on agents",
+  "link": "https://claude.com/resources/articles/building-always-on-agents",
+  "sentence": "这篇讲 <mark>always-on agents</mark> 如何跨会话自己决定何时行动，订阅源里只有这句引导。",
+  "category": "架构",
+  "company": "Anthropic"
+}

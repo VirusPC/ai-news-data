@@ -1,0 +1,6 @@
+{
+  "id": "https://github.com/mvanhorn/last30days-skill",
+  "source": "cleaned/projects/mvanhorn--last30days-skill.json",
+  "purpose": "一个智能体技能：从 Reddit、X、YouTube、HN、Polymarket 和网页收集近况，再合成有来源的摘要。",
+  "change": "本周每周总榜 XML 顺序第 5。原文没有星标、许可和仓库发布时间。"
+}

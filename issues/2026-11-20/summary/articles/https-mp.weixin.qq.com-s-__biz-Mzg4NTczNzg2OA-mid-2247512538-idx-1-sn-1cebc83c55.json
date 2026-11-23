@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512538-idx-1-sn-1cebc83c55.json",
+  "title": "淘宝闪购本体平台：让人与 AI Agent 共用一份实时可信的业务知识",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719",
+  "sentence": "淘宝闪购把口径、关系和约束收成可审批的 <mark>本体</mark>，人和 Agent 读同一份已确认的版本。",
+  "category": "架构",
+  "company": "阿里",
+  "sections": {
+    "解决什么问题": "同一指标可以按支付时间或下单时间计算，人能问同事，Agent 只能猜。",
+    "如何解决": "元模型分成实体、单一关系和策略三层，公理只划边界。MySQL 存生效版本，读模型从它派生，经 Web、OpenAPI、HSF 和 MCP 提供。挖掘只出候选，质量模块再退回不合格草稿。",
+    "效果怎样": "原文说这份事实源已经到万级节点和关系。订阅正文在业界方案对比处截断，没有给出线上查询的耗时数字。"
+  }
+}

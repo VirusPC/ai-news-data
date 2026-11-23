@@ -1,0 +1,10 @@
+{
+  "id": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+  "title": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery! Qwen4-Max is built on ...",
+  "date": "2026-11-16",
+  "source": "raw/articles/feeds.json",
+  "publisher": "千问",
+  "category": "博客",
+  "url": "https://qwen.ai/research",
+  "text": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery! Qwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window. Highlights: - Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over 60% in our internal evaluation. - Advances real-world productivity through greater proficiency with professional tools, stronger long-horizon execution, and higher-quality deliverables. - Handles real tasks, including 3D modeling, game development, manufacturing, finance, law, healthcare, and frontier scientific discovery. - $1.5/M tokens for input, $4.5/M tokens for output, and $0.075/M tokens for implicit caching — all lower than Qwen3.8-Max, with implicit caching down by 70%. The API is live on QwenCloud. You can also try Qwen4-Max on Qwen Studio, QwenWork and Qoder. Start building today! 🚀 - Blogqwen.ai/blog?id=qwen4-…E6 - APIqwencloud.com/models/qwen4-m…nu - Token Planqwencloud.com/pricing/token-…Bv More to come! The open weights of smaller Qwen4 models will be released. Stay tuned. 👀 💬846🔄1612❤️14900👀2560577📊3226 ⚡ Powered by xgo.ing"
+}

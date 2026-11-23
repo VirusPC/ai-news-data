@@ -1,0 +1,37 @@
+{
+  "id": "GPT-6.2 Sol",
+  "name": "GPT-6.2 Sol",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
+  "release_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "released": "2026-11-17",
+  "price": {
+    "input": 2,
+    "output": 10,
+    "cache_read": 0.1,
+    "unit": "USD per 1M tokens",
+    "source": "openai-announcement",
+    "rank": 87,
+    "rank_of": 142,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": "artificial_analysis",
+    "rank_value": 8,
+    "rank_variant": "GPT-6.2 Sol (Max)"
+  },
+  "speed": {
+    "rank": null,
+    "rank_of": null,
+    "rank_metric": "latency_p50_s",
+    "rank_source": "openrouter_official_standard"
+  },
+  "intelligence": {
+    "index": 57.3,
+    "variant": "GPT-6.2 Sol (Max)",
+    "source": "Artificial Analysis",
+    "version": 5,
+    "rank": 13,
+    "rank_of": 156
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547136&idx=1&sn=4f8cce99ec2730b9ecda294f3e2c604e",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MzAxNDEwNjk5OQ-mid-2650547136-idx-1-sn-09731a128a.json",
+  "title": "动线Agent：AI驱动的全链路用户转化引导",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547136&idx=1&sn=4f8cce99ec2730b9ecda294f3e2c604e",
+  "sentence": "淘特按进端、在端、离端拆了三个 <mark>动线 Agent</mark>，分别做人群网格、实时热情指数和离端长链归因。",
+  "category": "产品",
+  "company": "大淘宝",
+  "sections": {
+    "解决什么问题": "购物 App 的访购率大约是百分之十几，大多数到端用户没有完成购买，路径也不是一条直线。",
+    "如何解决": "TensorLiftAgent 在后台按天寻优、进端时毫秒命中；PeiAgent 用购买热情指数决定是否立刻干预；DeepFlowAgent 在离端后做长链推理再召回。",
+    "效果怎样": "原文写进端增益 ROI 提升约三成，在端和离端的增量 ROI 都超过目标十个百分点以上，token 成本降低 60% 以上。三端目前只回流数据，还没有共享决策状态。"
+  }
+}

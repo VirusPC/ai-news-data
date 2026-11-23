@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808188-idx-1-sn-fa0fbb2396.json",
+  "title": "不只是Memory：Ontology如何让Coding Agent越用越懂项目？",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808188&idx=1&sn=9493b80e2a1e4c6ab409e77f2ac57584",
+  "sentence": "文章把 <mark>本体</mark> 和执行反馈分开：前者写清项目概念何时成立，后者让后续任务少犯已经查清的错。",
+  "category": "架构",
+  "company": "腾讯",
+  "sections": {
+    "解决什么问题": "通用模型会写代码，但不知道这家公司的「订单完成」是以支付、出库还是签收为准。",
+    "如何解决": "用可核对的概念、关系和成立条件表达项目约定，Memory 负责保存，RSI 负责把执行反馈送回后续任务。写下规则不等于数据已经满足规则。",
+    "相关工作": "订阅正文在 Schema、知识图谱和 RAG 的对照表处截断，Loop 里的具体文件布局没有出现在已读部分。"
+  }
+}

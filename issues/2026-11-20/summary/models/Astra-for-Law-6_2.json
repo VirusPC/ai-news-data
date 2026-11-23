@@ -1,0 +1,14 @@
+{
+  "id": "Astra for Law 6.2",
+  "source": "cleaned/models/Astra-for-Law-6_2.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 2026-11-17，OpenAI 发布 Astra for Law，并写明它是 GPT-6.2 Astra 面向律师的配置。</li>\n<li><strong>定位</strong> 法律工作配置。发布文说它在覆盖 24 个法律领域的发布评测里排第一，ChatGPT Enterprise 客户可以申请。</li>\n<li><strong>可用</strong> 没有单独的 token 列表价，Artificial Analysis 这一条没有智力指数，速度暂无。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://openai.com/index/astra-law-6-2\">Astra for Law leads in legal intelligence</a></p>\n</aside>"
+}

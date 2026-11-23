@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/google-labs-code/stitch-skills",
-  "source": "cleaned/projects/github.com-google-labs-code-stitch-skills.json",
-  "purpose": "google-labs-code/stitch-skills",
-  "change": "见本期正文。",
-  "text": "#### [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)\n\n给 Stitch MCP 用的 <mark>Agent Skill 库</mark>，按开放标准写，兼容 Antigravity、Gemini CLI、Claude Code 和 Cursor。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 要接上 Google Stitch，缺一套能装进现有 Agent 的 skill。</p>\n<p><strong>如何解决：</strong>按 Agent Skills 开放标准提供 skill 和插件，给 Stitch 的 MCP 用。插件分成设计、构建和工具三类。说明里写兼容 Codex、Antigravity、Gemini CLI、Claude Code、Cursor，OpenCode 需手动安装。Codex、Claude Code、Cursor 可以走插件市场或 npx；OpenCode 要把 skill 目录拷进它能发现的路径，并自己接上 MCP。</p>\n<p><strong>效果怎样：</strong>仓库说明没有另报一组使用成绩。装上之后，这些 Agent 可以按同一套 skill 调用 Stitch。</p>\n<p><strong>洞察与启发：</strong>设计能力要进编码 Agent，卡在每家的安装方式不一样，不在 skill 正文本身。同一套开放标准，Codex、Claude Code、Cursor 能走插件，OpenCode 仍要手动拷目录并自己接上 MCP。</p>\n<p><strong>相关工作：</strong>这和本期把一类领域能力收成 skill 是同一侧，例如火山那篇把音视频收成命令。这里多了一层：标准统一了，安装仍按 Agent 分开。</p>\n</details>\n\n"
-}

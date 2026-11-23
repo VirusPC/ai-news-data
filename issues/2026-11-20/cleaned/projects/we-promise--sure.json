@@ -1,0 +1,10 @@
+{
+  "id": "https://github.com/we-promise/sure",
+  "source": "raw/projects/github-trending.json",
+  "publisher": "GitHub",
+  "category": "GitHub Trending",
+  "url": "https://github.com/trending?since=weekly",
+  "released": null,
+  "license": null,
+  "stars": null
+}

@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 本周用量",
   "source": "cleaned/models/boards/openrouter-usage.json",
-  "caption": "这一期的榜单。",
+  "caption": "这是 token 用量。第一换成 Hy4 flash，上一期第一的 DeepSeek V4.1 Flash（20261017）本周排第二。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

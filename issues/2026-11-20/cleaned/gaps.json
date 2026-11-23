@@ -1,3 +1,28 @@
 {
-  "gaps": []
+  "gaps": [
+    {
+      "path": "projects/stars-license-released",
+      "reason": "github-trending.json 的原文没有星标、许可和仓库发布时间。没有用事后的 GitHub API 回填，cleaned 项目的 stars、license、released 均为 null。"
+    },
+    {
+      "path": "models/JoyAI-VL-Preview",
+      "reason": "AA 快照有 JoyAI-VL-Preview，release_date 2026-11-17，智力指数 28。订阅原文里没有官方发布页，官方名也对不上 OPML 发布方。不把 Artificial Analysis 写成它的发布方，因此不单列模型文件。"
+    },
+    {
+      "path": "models/speed",
+      "reason": "没有 openrouter-official-endpoints.json。model_release_ranks.py 未传 --endpoints，速度排名为 null。AA 交接快照的条目里没有 performance 中位数或 performance_v3 均值，速度数字写暂无。"
+    },
+    {
+      "path": "models/Gemini 4 Neon/price",
+      "reason": "窗口内的 Gemini 4 Neon 材料（Antigravity 博文、Devin 可用性说明）没有给出每百万 token 的输入/输出价。没有 OpenRouter 官方端点报价，价格不拿 AA 列表价填充。"
+    },
+    {
+      "path": "models/Qwen4 Max/price",
+      "reason": "阿里技术原文写了 Work360 单任务费用从 26.58 元降到 11.16 元，以及缓存命中价下调，但没有每百万 token 的输入/输出列表价。qwen.ai 博客页这次没有取到正文。没有 OpenRouter 官方端点报价，列表价不拿 AA 的 1.5/4.5 填充。"
+    },
+    {
+      "path": "models/Astra for Law 6.2/price-intelligence",
+      "reason": "发布文把它写成 GPT-6.2 Astra 的法律配置，没有单独的 token 列表价。AA 该条目没有智力指数，效果不编成名次。"
+    }
+  ]
 }
