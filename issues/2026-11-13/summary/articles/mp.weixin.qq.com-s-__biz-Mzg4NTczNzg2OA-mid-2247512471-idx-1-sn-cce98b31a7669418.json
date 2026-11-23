@@ -1,0 +1,16 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512471&idx=1&sn=cce98b31a76694181957c85cc6109efb",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512471-idx-1-sn-cce98b31a7669418.json",
+  "title": "从进化到泛化，RSI 四大前沿框架如何实现 Agent 自动调优",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512471&idx=1&sn=cce98b31a76694181957c85cc6109efb",
+  "sentence": "这篇把 Google 一个月里的四篇 RSI 论文串起来，重点是没有金标时怎么改 <mark>Harness</mark>，以及改进机制本身怎么变好。",
+  "category": "架构",
+  "company": "阿里",
+  "text": "#### &lt;架构&gt;&lt;阿里&gt;[从进化到泛化，RSI 四大前沿框架如何实现 Agent 自动调优](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512471&idx=1&sn=cce98b31a76694181957c85cc6109efb)\n\n这篇把 Google 一个月里的四篇 RSI 论文串起来，重点是没有金标时怎么改 <mark>Harness</mark>，以及改进机制本身怎么变好。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多自进化只改 skill、上下文或工具，优化系统自己不会进化。落地时又经常没有金标答案。</p>\n<p><strong>如何解决：</strong>Harness² 冻结模型，只改 Harness：先跑基线轨迹，再把通用做法和领域知识分开改、分开测，然后合并复跑，并把经验存下来。Evo² 则把「这次改好了没有、为什么」收成教材，用来训练那个负责提修改的模型；没有训练环境时，也可以把这些经验记在改进 Harness 里。文中把另外两篇分别放在正则化防过拟合和面向对象拆分上。</p>\n<p><strong>效果怎样：</strong>这是论文解读，没有给作者自己的线上成绩。</p>\n<p><strong>洞察与启发：</strong>单条轨迹可以提建议，接不接受要由全局来判，免得一个角落案例把整套 Harness 带偏。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "很多自进化只改 skill、上下文或工具，优化系统自己不会进化。落地时又经常没有金标答案。",
+    "如何解决": "Harness² 冻结模型，只改 Harness：先跑基线轨迹，再把通用做法和领域知识分开改、分开测，然后合并复跑，并把经验存下来。Evo² 则把「这次改好了没有、为什么」收成教材，用来训练那个负责提修改的模型；没有训练环境时，也可以把这些经验记在改进 Harness 里。文中把另外两篇分别放在正则化防过拟合和面向对象拆分上。",
+    "效果怎样": "这是论文解读，没有给作者自己的线上成绩。",
+    "洞察与启发": "单条轨迹可以提建议，接不接受要由全局来判，免得一个角落案例把整套 Harness 带偏。"
+  }
+}

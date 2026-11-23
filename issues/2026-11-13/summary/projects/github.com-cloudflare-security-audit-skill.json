@@ -1,7 +1,7 @@
 {
   "id": "https://github.com/cloudflare/security-audit-skill",
   "source": "cleaned/projects/github.com-cloudflare-security-audit-skill.json",
-  "purpose": "cloudflare/security-audit-skill",
-  "change": "见本期正文。",
-  "text": "#### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)\n\n给编码 Agent 用的分阶段安全审计。上一周它也在周榜上。\n\n来源里只有这些。\n\n"
+  "purpose": "给编程 Agent 用的安全审计 skill，分阶段产出可机器读取、并经独立核验的发现。",
+  "change": "当时的 weekly 快照写着 10,700 stars this week，星标 71435。",
+  "text": "#### [cloudflare / security-audit-skill](https://github.com/cloudflare/security-audit-skill)\n\n给编程 Agent 用的安全审计 skill，分阶段产出可机器读取、并经独立核验的发现。\n\n当时的 weekly 快照写着 10,700 stars this week，星标 71435。\n"
 }

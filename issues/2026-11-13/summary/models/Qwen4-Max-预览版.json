@@ -1,0 +1,14 @@
+{
+  "id": "Qwen4-Max 预览版",
+  "source": "cleaned/models/Qwen4-Max.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> <mark class=\"note-card-hl\">11 月 11 日</mark> 预览版登上阿里 Token Plan。正式上线不在这期窗口。</li>\n<li><strong>价格</strong> 暂无。没有把后来的报价回写到这里。</li>\n<li><strong>速度</strong> 暂无。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&amp;mid=2247512488&amp;idx=1&amp;sn=8a921e6683912e7b07038d4b16e25f58\">Qwen4-Max 预览版上线</a></p>\n</aside>\n"
+}

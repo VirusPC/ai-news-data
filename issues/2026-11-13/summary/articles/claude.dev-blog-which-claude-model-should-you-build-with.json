@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+  "source": "cleaned/articles/claude.dev-blog-which-claude-model-should-you-build-with.json",
+  "title": "Which Claude model should you build with?",
+  "link": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+  "sentence": "做产品时要在 Claude Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间，按任务、成本和 <mark>effort</mark> 来选。 订阅源里只有这些。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Which Claude model should you build with?](https://claude.dev/blog/which-claude-model-should-you-build-with/)\n\n做产品时要在 Claude Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间，按任务、成本和 <mark>effort</mark> 来选。 订阅源里只有这些。\n"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512476&idx=1&sn=071544b548af1892af197b38f330d562",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512476-idx-1-sn-071544b548af1892.json",
+  "title": "从淘小蜜分流模型的实践，聊聊 Jev 与 System One",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512476&idx=1&sn=071544b548af1892af197b38f330d562",
+  "sentence": "淘小蜜的分流最后改成只读候选字母的 logits，作者拿它和 Jev 的 <mark>Choice</mark> 对照，并写明 Jev 的结构并没有公开。",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### &lt;实践&gt;&lt;阿里&gt;[从淘小蜜分流模型的实践，聊聊 Jev 与 System One](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512476&idx=1&sn=071544b548af1892af197b38f330d562)\n\n淘小蜜的分流最后改成只读候选字母的 logits，作者拿它和 Jev 的 <mark>Choice</mark> 对照，并写明 Jev 的结构并没有公开。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>客服要先判断售前、售后、其他还是意图不清。这些边界是业务划的，和通用常识会打架。生成式模型又贵又慢，标签直出还容易记住捷径。</p>\n<p><strong>如何解决：</strong>他们从 few-shot，到用约 2.1 万条数据对 7B 做 SFT，再到把标签随机映射成选项字母，线上只做一次前向，取候选字母 logits 的最大值。文中按 TypeSafe 文档介绍 Jev 的 Choice、Score 和 Noul，并对比 SemIf、open-bonsai-jev 这类读 logits 的社区实现和接分类头的另一条路。</p>\n<p><strong>效果怎样：</strong>官方文档里的端到端响应是 70ms 到 500ms，并称在 System One 任务上可比同等 LLM 快 40 到 200 倍；作者提醒 193.6 倍和 444.6 倍来自收益较高的一组工作流，不能当成所有任务的结果。</p>\n<p><strong>洞察与启发：</strong>「不产生幻觉」在这里指不会返回候选之外的值，不表示判断一定对。社区项目只能说明一条路走得通，不能证明 Jev 内部就是这么做的。</p>\n<p><strong>相关工作：</strong>Hugging Face 同一周的 Decision Models 也在讲不必为这类判断生成 JSON。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "客服要先判断售前、售后、其他还是意图不清。这些边界是业务划的，和通用常识会打架。生成式模型又贵又慢，标签直出还容易记住捷径。",
+    "如何解决": "他们从 few-shot，到用约 2.1 万条数据对 7B 做 SFT，再到把标签随机映射成选项字母，线上只做一次前向，取候选字母 logits 的最大值。文中按 TypeSafe 文档介绍 Jev 的 Choice、Score 和 Noul，并对比 SemIf、open-bonsai-jev 这类读 logits 的社区实现和接分类头的另一条路。",
+    "效果怎样": "官方文档里的端到端响应是 70ms 到 500ms，并称在 System One 任务上可比同等 LLM 快 40 到 200 倍；作者提醒 193.6 倍和 444.6 倍来自收益较高的一组工作流，不能当成所有任务的结果。",
+    "洞察与启发": "「不产生幻觉」在这里指不会返回候选之外的值，不表示判断一定对。社区项目只能说明一条路走得通，不能证明 Jev 内部就是这么做的。",
+    "相关工作": "Hugging Face 同一周的 Decision Models 也在讲不必为这类判断生成 JSON。"
+  }
+}

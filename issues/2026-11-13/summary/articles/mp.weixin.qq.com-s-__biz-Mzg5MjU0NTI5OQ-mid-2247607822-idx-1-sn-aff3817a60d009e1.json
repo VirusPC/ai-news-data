@@ -1,10 +1,16 @@
 {
   "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg5MjU0NTI5OQ-mid-2247607822-idx-1-sn-aff3817a60d009e1.json",
-  "title": "研发 Loop 的上下文优化与多 Agent 协作",
+  "title": "研发Loop的上下文优化与多Agent协作实践",
   "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
-  "sentence": "&lt;架构&gt;&lt;百度&gt;  (https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a) Loop 每轮都重装上下文，压缩还会伤到操作规范。他们从上下文、Skill 和子任务三处改。 完整",
-  "category": "架构",
+  "sentence": "百度把研发 Loop 每轮上下文从约 84k token 削到 <mark>28k</mark>，办法是拆开常驻指令，并把读文件移出主会话。",
+  "category": "实践",
   "company": "百度",
-  "text": "#### &lt;架构&gt;&lt;百度&gt;[研发 Loop 的上下文优化与多 Agent 协作](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a)\n\nLoop 每轮都重装上下文，压缩还会伤到操作规范。他们从上下文、Skill 和子任务三处改。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>需求到验证的闭环里，每一步都把 PRD、代码、测试和历史思考再装进同一个窗口。</p>\n<p><strong>如何解决：</strong>从上下文、Skill 结构和 Subagent 拆任务三处改。文中写优化前一轮排查要带 84k token，配额是 256k。</p>\n<p><strong>效果怎样：</strong>文中用一条无人介入的研发测试交付做演示，没有给出全体任务的加速比。</p>\n<p><strong>洞察与启发：</strong>固定成本每轮都付，削掉之后每一轮都受益。</p>\n<p><strong>相关工作：</strong>上一期 Anthropic 的 message threads 是在 API 层停止重发历史。这篇是研发流程层还在重装。</p>\n</details>\n\n"
+  "text": "#### &lt;实践&gt;&lt;百度&gt;[研发Loop的上下文优化与多Agent协作实践](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a)\n\n百度把研发 Loop 每轮上下文从约 84k token 削到 <mark>28k</mark>，办法是拆开常驻指令，并把读文件移出主会话。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>需求到验证的六步本身不慢，慢在每步都重装历史。压缩会把操作规范压掉：一份 6.7k 的 SKILL.md 被收成 0.2k 摘要，后续按摘要执行，重新摸索又花了 74k token。另一次验证在 8 分钟里抓了 74 次 DOM 快照。</p>\n<p><strong>如何解决：</strong>常驻只留主路径，细则按需读取。读文件放到子任务里，主会话只收回自包含结论。权限写在工具层，不靠提示词。一条 Loop 拆成协调者和若干专职 Agent，状态码决定下一步。简单需求走 lean，人只在提需求、PRD 评审、方案确认和验收出现。</p>\n<p><strong>效果怎样：</strong>文中给出的合计数是每轮 84k 到 28k，约少 67%。子任务把约 40k 的原文收成约 1k 的结论。</p>\n<p><strong>洞察与启发：</strong>该不该进上下文，看它是不是这一轮决策的直接依赖，不是看它将来有没有用。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "需求到验证的六步本身不慢，慢在每步都重装历史。压缩会把操作规范压掉：一份 6.7k 的 SKILL.md 被收成 0.2k 摘要，后续按摘要执行，重新摸索又花了 74k token。另一次验证在 8 分钟里抓了 74 次 DOM 快照。",
+    "如何解决": "常驻只留主路径，细则按需读取。读文件放到子任务里，主会话只收回自包含结论。权限写在工具层，不靠提示词。一条 Loop 拆成协调者和若干专职 Agent，状态码决定下一步。简单需求走 lean，人只在提需求、PRD 评审、方案确认和验收出现。",
+    "效果怎样": "文中给出的合计数是每轮 84k 到 28k，约少 67%。子任务把约 40k 的原文收成约 1k 的结论。",
+    "洞察与启发": "该不该进上下文，看它是不是这一轮决策的直接依赖，不是看它将来有没有用。"
+  }
 }

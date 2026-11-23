@@ -1,0 +1,16 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzE5MTA3NzcxMQ-mid-2247489228-idx-1-sn-7611a433102ca910.json",
+  "title": "MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291",
+  "sentence": "MiniMax 开放 H3-Image 权重，10 秒内能出一张 <mark>4096×4096</mark> 的图，并最多吃 16 张参考图。",
+  "category": "模型",
+  "company": "MiniMax",
+  "text": "#### &lt;模型&gt;&lt;MiniMax&gt;[MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代](https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489228&idx=1&sn=7611a433102ca91044ef5e71f19ee291)\n\nMiniMax 开放 H3-Image 权重，10 秒内能出一张 <mark>4096×4096</mark> 的图，并最多吃 16 张参考图。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>百万像素或四百万像素的图在细节上不够，而 16MP 以往又太慢，日常创作用不上。</p>\n<p><strong>如何解决：</strong>它从 H3 衍生，做文本生成图像、参考图和编辑，并加强了后训练、步数压缩和部署。权重开放，也能走开放平台、MiniMax Code 和海螺。</p>\n<p><strong>效果怎样：</strong>文中说 10 秒内生成约 16MP，速度可达市面主流的 5 倍；标准模式约 1.5 到 2 倍，Highspeed 模式约 3 到 4 倍。</p>\n<p><strong>洞察与启发：</strong>指令遵循决定创作者能不能把意图做出来，不只有画面好不好看。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "百万像素或四百万像素的图在细节上不够，而 16MP 以往又太慢，日常创作用不上。",
+    "如何解决": "它从 H3 衍生，做文本生成图像、参考图和编辑，并加强了后训练、步数压缩和部署。权重开放，也能走开放平台、MiniMax Code 和海螺。",
+    "效果怎样": "文中说 10 秒内生成约 16MP，速度可达市面主流的 5 倍；标准模式约 1.5 到 2 倍，Highspeed 模式约 3 到 4 倍。",
+    "洞察与启发": "指令遵循决定创作者能不能把意图做出来，不只有画面好不好看。"
+  }
+}

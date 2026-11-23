@@ -1,3 +1,12 @@
 {
-  "gaps": []
+  "gaps": [
+    {
+      "path": "models/Qwen4-Max 预览",
+      "reason": "迁移时另写的官方名和 raw/models/model-releases.json 里的「Qwen4-Max 预览版」重复。清洗只保留快照里的官方名。"
+    },
+    {
+      "path": "models/price-rank",
+      "reason": "历史 model-releases.json 没有 aa_slug，不能把同一期 AA 快照的价格名次安到官方名上。没有 openrouter-official-endpoints.json，速度排名也不写。"
+    }
+  ]
 }

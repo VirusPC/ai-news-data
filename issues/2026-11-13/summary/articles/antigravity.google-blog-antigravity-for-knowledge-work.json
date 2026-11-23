@@ -1,0 +1,16 @@
+{
+  "id": "https://antigravity.google/blog/antigravity-for-knowledge-work",
+  "source": "cleaned/articles/antigravity.google-blog-antigravity-for-knowledge-work.json",
+  "title": "Google Antigravity for Knowledge Work",
+  "link": "https://antigravity.google/blog/antigravity-for-knowledge-work",
+  "sentence": "Antigravity 新增 Knowledge Work 界面，和软件工程界面跑的是同一个 Agent，只是把 Git 和 diff 从眼前拿开。",
+  "category": "产品",
+  "company": "Google",
+  "text": "#### &lt;产品&gt;&lt;Google&gt;[Google Antigravity for Knowledge Work](https://antigravity.google/blog/antigravity-for-knowledge-work)\n\nAntigravity 新增 Knowledge Work 界面，和软件工程界面跑的是同一个 Agent，只是把 Git 和 diff 从眼前拿开。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>越来越多会话不是在写代码，而是研究、分析、写文档和做设计。把非工程角色赶去一套缩水产品，或者逼他们看 worktree 和逐行 diff，都不合适。</p>\n<p><strong>如何解决：</strong>App 里可以在 Knowledge Work 和 Software Engineering 两种布局之间切换，立刻生效。知识工作布局隐藏 Git 分支和 IDE 交接，工具调用和 diff 收成一行进度，权限提示改成白话，文件树改叫文件夹，开发者开关收进高级设置。模型、本地文件、插件、skill、规则和 MCP 仍在。</p>\n<p><strong>效果怎样：</strong>文中说 Google 内部每周有数以万计的非工程岗位在和工程师一起用 Antigravity。没有另报一组任务成功率。</p>\n<p><strong>洞察与启发：</strong>布局可以换，底下的 Agent 不该换一套更弱的。软件工程仍然是这个产品的核心。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "越来越多会话不是在写代码，而是研究、分析、写文档和做设计。把非工程角色赶去一套缩水产品，或者逼他们看 worktree 和逐行 diff，都不合适。",
+    "如何解决": "App 里可以在 Knowledge Work 和 Software Engineering 两种布局之间切换，立刻生效。知识工作布局隐藏 Git 分支和 IDE 交接，工具调用和 diff 收成一行进度，权限提示改成白话，文件树改叫文件夹，开发者开关收进高级设置。模型、本地文件、插件、skill、规则和 MCP 仍在。",
+    "效果怎样": "文中说 Google 内部每周有数以万计的非工程岗位在和工程师一起用 Antigravity。没有另报一组任务成功率。",
+    "洞察与启发": "布局可以换，底下的 Agent 不该换一套更弱的。软件工程仍然是这个产品的核心。"
+  }
+}

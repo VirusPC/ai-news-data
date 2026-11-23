@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 编程用量",
   "source": "cleaned/models/boards/openrouter-programming.json",
-  "caption": "这一期的榜单。",
+  "caption": "这是编程场景的 token 用量，不是质量排名。第一仍是 DeepSeek V4.1 Flash（20261017）。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

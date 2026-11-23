@@ -1,0 +1,16 @@
+{
+  "id": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
+  "source": "cleaned/articles/tech.meituan.com-2026-11-10-Meituan-LongCat-2.5-Open-Source.html.json",
+  "title": "美团 LongCat-2.5 正式开源：从看见，到抵达",
+  "link": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
+  "sentence": "美团以 MIT 协议开源 LongCat-2.5，总参数 <mark>1.6 万亿</mark>，每个 token 激活约 480 亿，上下文一百万，面向长程 Agent。",
+  "category": "模型",
+  "company": "美团",
+  "text": "#### &lt;模型&gt;&lt;美团&gt;[美团 LongCat-2.5 正式开源：从看见，到抵达](https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html)\n\n美团以 MIT 协议开源 LongCat-2.5，总参数 <mark>1.6 万亿</mark>，每个 token 激活约 480 亿，上下文一百万，面向长程 Agent。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>长任务上的能力要在真实轨迹里稳住，万亿 MoE 还得在单卡显存不足 80GB 的国产加速器上训得动、推得动。</p>\n<p><strong>如何解决：</strong>训练加入长程轨迹和失败轨迹，强化学习用 partial rollout，并约束重复思考和重复调工具。视觉走多层级离散 token，和文本共用主干。推理用 W4A4，专家权重和激活都量化到 4 bit。训练侧用 FSDP 双重分片、混合词表并行，把通信尽量留在超节点内。</p>\n<p><strong>效果怎样：</strong>公告写长序列 SFT 上，该 FSDP 配置的单卡吞吐量比 DDP 基线高 86%。已评测的下游任务在 W4A4 之后与量化前相当。完整分数放在技术博客，这篇没有逐项列出。</p>\n<p><strong>洞察与启发：</strong>协议选 MIT，是为了商用推理、二次训练和再分发都不必再要授权。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "长任务上的能力要在真实轨迹里稳住，万亿 MoE 还得在单卡显存不足 80GB 的国产加速器上训得动、推得动。",
+    "如何解决": "训练加入长程轨迹和失败轨迹，强化学习用 partial rollout，并约束重复思考和重复调工具。视觉走多层级离散 token，和文本共用主干。推理用 W4A4，专家权重和激活都量化到 4 bit。训练侧用 FSDP 双重分片、混合词表并行，把通信尽量留在超节点内。",
+    "效果怎样": "公告写长序列 SFT 上，该 FSDP 配置的单卡吞吐量比 DDP 基线高 86%。已评测的下游任务在 W4A4 之后与量化前相当。完整分数放在技术博客，这篇没有逐项列出。",
+    "洞察与启发": "协议选 MIT，是为了商用推理、二次训练和再分发都不必再要授权。"
+  }
+}

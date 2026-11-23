@@ -1,10 +1,17 @@
 {
   "id": "https://x.com/DeepSeekHarness/status/2116857257245987236",
   "source": "cleaned/articles/x.com-DeepSeekHarness-status-2116857257245987236.json",
-  "title": "Super-agent 设计探索：迈向更自主的 Agent 系统",
+  "title": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
   "link": "https://x.com/DeepSeekHarness/status/2116857257245987236",
-  "sentence": "&lt;架构&gt;&lt;DeepSeek&gt;  (https://x.com/DeepSeekHarness/status/2116857257245987236) 补录 11 月 1 日。这是工程架构探索，不是 DeepSeek Harness 已有功能的介绍。Super-agent 要同时做到 连续、高效、主动、持久 。 完整总结 解决什么问题：",
+  "sentence": "补录。DeepSeek 把持续在线、能并行做多件复杂事的 Agent 叫做 <mark>Super-agent</mark>，靠系统架构而不是一轮 ReAct 凑齐连续、高产、主动和常驻。 这是补录，日期仍是原发日。",
   "category": "架构",
   "company": "DeepSeek",
-  "text": "#### &lt;架构&gt;&lt;DeepSeek&gt;[Super-agent 设计探索：迈向更自主的 Agent 系统](https://x.com/DeepSeekHarness/status/2116857257245987236)\n\n补录 11 月 1 日。这是工程架构探索，不是 DeepSeek Harness 已有功能的介绍。Super-agent 要同时做到<mark>连续、高效、主动、持久</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>现有 Agent 以单次会话为工作单位，会话彼此隔离。一个人同时跟的活跃会话通常只有 3 到 5 个。多任务的上限变成了人的注意力，而不是模型。</p>\n<p><strong>如何解决：</strong>文中把 Super-agent 拆成五个模块：长期存在的 Router 和上下文隔离的 Worker、环境事件 Trigger、面向人的全双工多信道、计算 / 状态 / 执行环境分开，以及系统外面的 Watchdog。Router 不自己执行任务。英文帖写明原文是中文，这篇是机翻：<a href=\"https://www.bilibili.com/opus/1265361021143351318\">中文专栏</a>。</p>\n<p><strong>效果怎样：</strong>文中的对照是合成负载，只说明调度，作者也写了结果只作参考。Super-agent 完成任务的中位数是 12.4 分钟，p95 是 15.7 分钟。去掉事件直达之后，Router 的决策大约多 30%，缓存读 token 从 2320 万升到 3180 万。</p>\n<p><strong>洞察与启发：</strong>单次 ReAct 循环给不出这四个特征，它们来自循环外面的系统。会话该是实现细节，不该是用户要自己切换的单位。</p>\n<p><strong>相关工作：</strong>文中写部分设计做在 <a href=\"https://github.com/deepseek-ai/dsh-superagent-prototype\">dsh-superagent-prototype</a>。仓库 README 写明这是研究原型，不是 DeepSeek 正式产品，也和文中的内部实现不完全相同。同一期补录的 Creator Mode，以及 11 月 8 日的插件社区回顾，讲的是现有 Harness 上的插件。</p>\n</details>\n\n"
+  "text": "#### &lt;架构&gt;&lt;DeepSeek&gt;[Exploring Super-agent Design: Towards a More Autonomous Agent System](https://x.com/DeepSeekHarness/status/2116857257245987236)\n\n补录。DeepSeek 把持续在线、能并行做多件复杂事的 Agent 叫做 <mark>Super-agent</mark>，靠系统架构而不是一轮 ReAct 凑齐连续、高产、主动和常驻。 这是补录，日期仍是原发日。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>单会话 Agent 做完一件事还行，人要同时盯多件事时，注意力先到顶；本地会话一离线，任务也停。</p>\n<p><strong>如何解决：</strong>Router 层只负责对人说话和派发，Worker 层用隔离上下文执行；事件先过滤再订阅直达，上下文按 Inline 与 Spill 按需召回，长时间工具改成异步 start，计算和状态放进云端，执行环境留在原来的机器上，外面再加一个 Watchdog。</p>\n<p><strong>效果怎样：</strong>文中的合成实验里，Super-agent 的任务完成时间 p50 是 12.4 分钟、p95 是 15.7 分钟；Router 在决策到达率从约 1 次到约 40 次每分钟时，摊到每次决策的推理时间从 6.4 秒降到 1.6 秒。作者写明这是指示性结果。</p>\n<p><strong>洞察与启发：</strong>会话不该再是用户要自己管理的单位。模型和系统要一起设计，安全上还不能让端上的凭证进模型上下文。</p>\n<p><strong>相关工作：</strong>文中点了 Anthropic 把大脑和手拆开的做法，以及原型仓库 dsh-superagent-prototype。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "单会话 Agent 做完一件事还行，人要同时盯多件事时，注意力先到顶；本地会话一离线，任务也停。",
+    "如何解决": "Router 层只负责对人说话和派发，Worker 层用隔离上下文执行；事件先过滤再订阅直达，上下文按 Inline 与 Spill 按需召回，长时间工具改成异步 start，计算和状态放进云端，执行环境留在原来的机器上，外面再加一个 Watchdog。",
+    "效果怎样": "文中的合成实验里，Super-agent 的任务完成时间 p50 是 12.4 分钟、p95 是 15.7 分钟；Router 在决策到达率从约 1 次到约 40 次每分钟时，摊到每次决策的推理时间从 6.4 秒降到 1.6 秒。作者写明这是指示性结果。",
+    "洞察与启发": "会话不该再是用户要自己管理的单位。模型和系统要一起设计，安全上还不能让端上的凭证进模型上下文。",
+    "相关工作": "文中点了 Anthropic 把大脑和手拆开的做法，以及原型仓库 dsh-superagent-prototype。"
+  }
 }

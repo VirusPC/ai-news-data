@@ -1,8 +1,14 @@
 {
   "id": "Artificial Analysis",
   "source": "cleaned/models/boards/aa.json",
-  "caption": "这一期的榜单。",
-  "highlights": [],
+  "caption": "这张智力指数最前面是 11 月 9 日发布的 Claude Fable 5.2。上一期 summary 没有这张榜，这里不写和上一期的名次变化。",
+  "highlights": [
+    "Claude Fable 5.2 (Max, Default Fallback)",
+    "Claude Fable 5.2 (Xhigh, Default Fallback)",
+    "Claude Fable 5.2 (High, Default Fallback)",
+    "Claude Fable 5.2 (Medium, Default Fallback)",
+    "Claude Fable 5.2 (Low, Default Fallback)"
+  ],
   "arena_publish_date": null,
   "items": [
     {

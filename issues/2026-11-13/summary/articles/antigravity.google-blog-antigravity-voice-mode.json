@@ -1,0 +1,15 @@
+{
+  "id": "https://antigravity.google/blog/antigravity-voice-mode",
+  "source": "cleaned/articles/antigravity.google-blog-antigravity-voice-mode.json",
+  "title": "Voice mode in Antigravity",
+  "link": "https://antigravity.google/blog/antigravity-voice-mode",
+  "sentence": "Antigravity 的语音模式在 App 和 1.5.0 及以后的 CLI 里都能开，CLI 用 <mark>/voice live</mark> 或 F6。",
+  "category": "产品",
+  "company": "Google",
+  "text": "#### &lt;产品&gt;&lt;Google&gt;[Voice mode in Antigravity](https://antigravity.google/blog/antigravity-voice-mode)\n\nAntigravity 的语音模式在 App 和 1.5.0 及以后的 CLI 里都能开，CLI 用 <mark>/voice live</mark> 或 F6。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人和人排障常常是说出来的，和 Agent 一起干活却还是打一句、等一轮、再打一句。</p>\n<p><strong>如何解决：</strong>App 里在空的输入框点 Start Voice mode，允许麦克风后选一种声音。CLI 在项目里运行 /voice live，或按 F6。</p>\n<p><strong>效果怎样：</strong>这篇是用法说明，没有报一组识别率或任务成绩。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "人和人排障常常是说出来的，和 Agent 一起干活却还是打一句、等一轮、再打一句。",
+    "如何解决": "App 里在空的输入框点 Start Voice mode，允许麦克风后选一种声音。CLI 在项目里运行 /voice live，或按 F6。",
+    "效果怎样": "这篇是用法说明，没有报一组识别率或任务成绩。"
+  }
+}

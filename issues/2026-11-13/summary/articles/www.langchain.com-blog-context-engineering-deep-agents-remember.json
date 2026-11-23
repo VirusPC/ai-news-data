@@ -1,10 +1,10 @@
 {
   "id": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
   "source": "cleaned/articles/www.langchain.com-blog-context-engineering-deep-agents-remember.json",
-  "title": "How to remember without keeping everything in context",
+  "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
   "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
-  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/context-engineering-deep-agents-remember) 长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、技能、子 Agent 和记忆用来把窗口留住。 订阅源里只有这些。",
+  "sentence": "长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。 订阅源里只有这些。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[How to remember without keeping everything in context](https://www.langchain.com/blog/context-engineering-deep-agents-remember)\n\n长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、技能、子 Agent 和记忆用来把窗口留住。\n\n订阅源里只有这些。\n\n"
+  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context](https://www.langchain.com/blog/context-engineering-deep-agents-remember)\n\n长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。 订阅源里只有这些。\n"
 }

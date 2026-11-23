@@ -1,0 +1,10 @@
+{
+  "id": "https://openai.com/index/control-room",
+  "source": "cleaned/articles/openai.com-index-control-room.json",
+  "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+  "link": "https://openai.com/index/control-room",
+  "sentence": "OpenAI 的 Control Room 用来跟踪研究基础设施上的模型负载，出现安全或安保问题时可以迅速停掉。 订阅源里只有这些。",
+  "category": "实践",
+  "company": "OpenAI",
+  "text": "#### &lt;实践&gt;&lt;OpenAI&gt;[Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)\n\nOpenAI 的 Control Room 用来跟踪研究基础设施上的模型负载，出现安全或安保问题时可以迅速停掉。 订阅源里只有这些。\n"
+}

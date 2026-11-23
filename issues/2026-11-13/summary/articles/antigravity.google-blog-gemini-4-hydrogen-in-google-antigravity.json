@@ -3,8 +3,15 @@
   "source": "cleaned/articles/antigravity.google-blog-gemini-4-hydrogen-in-google-antigravity.json",
   "title": "Gemini 4 Hydrogen and Orchestrator",
   "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
-  "sentence": "&lt;产品&gt;&lt;Google&gt;  (https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity) Hydrogen 进入 Antigravity，并带上 Orchestrator。同一周还有 Carbon 和 /swarm。 订阅源里只有这些。",
+  "sentence": "Antigravity 里的 Orchestrator 让 Gemini 4 Carbon 和 Gemini 4 Hydrogen 在同一条轨迹上交接，Terminal-Bench 4.1 上少用 <mark>24%</mark> 的额度、快 19%。",
   "category": "产品",
   "company": "Google",
-  "text": "#### &lt;产品&gt;&lt;Google&gt;[Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity)\n\nHydrogen 进入 Antigravity，并带上 Orchestrator。同一周还有 Carbon 和 /swarm。\n\n订阅源里只有这些。\n\n"
+  "text": "#### &lt;产品&gt;&lt;Google&gt;[Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity)\n\nAntigravity 里的 Orchestrator 让 Gemini 4 Carbon 和 Gemini 4 Hydrogen 在同一条轨迹上交接，Terminal-Bench 4.1 上少用 <mark>24%</mark> 的额度、快 19%。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>日常功能和调试如果每一步都上前沿模型和并行 Agent，循环变慢，前沿额度也烧得快。按第一句提示词静态分流，长任务中途难度变了就接不住。</p>\n<p><strong>如何解决：</strong>Orchestrator 在一条轨迹里双向交接：Carbon 先只读、理清依赖和计划，Hydrogen 再改代码、跑测试；Hydrogen 卡住再交回 Carbon。也可以用 Antigravity SDK 把两个模型按角色接在一起。Hydrogen 单独用时有 low、medium、high 和新增的 xhigh 四档。</p>\n<p><strong>效果怎样：</strong>文中写 Terminal-Bench 4.1 上，Orchestrator 的任务成功率接近 Carbon，平均少用 24% 额度、快 19%。Hydrogen 单独在 Artificial Analysis 智力指数上是 51，最高档 54；Terminal-Bench 4.1 是 57%，文中用来和 3.8 Flash 的 18.2% 对比。</p>\n<p><strong>洞察与启发：</strong>难度是跑起来才发现的，路由不该在第一句提示词上定死。</p>\n<p><strong>相关工作：</strong>同一周更早的 Gemini 4 Carbon 与 /swarm 负责跨 worktree 的大任务，这篇把日常回路交给 Hydrogen。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "日常功能和调试如果每一步都上前沿模型和并行 Agent，循环变慢，前沿额度也烧得快。按第一句提示词静态分流，长任务中途难度变了就接不住。",
+    "如何解决": "Orchestrator 在一条轨迹里双向交接：Carbon 先只读、理清依赖和计划，Hydrogen 再改代码、跑测试；Hydrogen 卡住再交回 Carbon。也可以用 Antigravity SDK 把两个模型按角色接在一起。Hydrogen 单独用时有 low、medium、high 和新增的 xhigh 四档。",
+    "效果怎样": "文中写 Terminal-Bench 4.1 上，Orchestrator 的任务成功率接近 Carbon，平均少用 24% 额度、快 19%。Hydrogen 单独在 Artificial Analysis 智力指数上是 51，最高档 54；Terminal-Bench 4.1 是 57%，文中用来和 3.8 Flash 的 18.2% 对比。",
+    "洞察与启发": "难度是跑起来才发现的，路由不该在第一句提示词上定死。",
+    "相关工作": "同一周更早的 Gemini 4 Carbon 与 /swarm 负责跨 worktree 的大任务，这篇把日常回路交给 Hydrogen。"
+  }
 }
