@@ -1,7 +1,7 @@
 {
   "id": "https://x.com/DeepSeekHarness/status/2116857257245987236",
   "title": "Super-agent 设计探索：迈向更自主的 Agent 系统",
-  "date": "1970-01-01",
-  "source": "raw/articles/feeds.json",
+  "date": "2026-11-01",
+  "source": "raw/articles/backfill.json",
   "text": "&lt;架构&gt;&lt;DeepSeek&gt;  (https://x.com/DeepSeekHarness/status/2116857257245987236) 补录 11 月 1 日。这是工程架构探索，不是 DeepSeek Harness 已有功能的介绍。Super-agent 要同时做到 连续、高效、主动、持久 。 完整总结 解决什么问题："
 }

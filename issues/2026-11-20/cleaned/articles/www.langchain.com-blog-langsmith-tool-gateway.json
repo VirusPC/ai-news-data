@@ -1,7 +1,7 @@
 {
   "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
   "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
-  "date": "1970-01-01",
-  "source": "raw/articles/feeds.json",
+  "date": "2026-11-19",
+  "source": "raw/articles/backfill.json",
   "text": "&lt;产品&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/langsmith-tool-gateway) 公测一层网关，统一管 每次工具调用 的凭据、身份、审批和记录。 完整总结 解决什么问题： Agent 开始定时跑、自己往下做。每个 Agent 各自写登录和令牌，工具一多就看不清它用了谁的身"
 }
