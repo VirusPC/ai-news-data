@@ -1,0 +1,70 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.8"
+  },
+  "themes": [
+    {
+      "kind": "model",
+      "text": "GPT-6.1 Terra 在 10 月 26 日发布，标准 API 是每百万 token 输入 1 美元、缓存输入 0.05 美元、输出 5 美元。Kimi K3.1 Pro 从 10 月 23 日起在 kimi.com、App、Work、Code 和 API 可用，文中称约 3 万亿参数、100 万上下文，权重将在 11 月 4 日前公开。MiniMax M3.1 Flash（开源）同日公开可部署权重，总参数 428B、激活 23B，文中称上线 72 小时处理超过 100 万亿 token。",
+      "refs": [
+        {
+          "id": "GPT-6.1 Terra",
+          "label": "GPT-6.1 Terra"
+        },
+        {
+          "id": "Kimi K3.1 Pro",
+          "label": "Kimi K3.1 Pro"
+        },
+        {
+          "id": "MiniMax M3.1 Flash（开源）",
+          "label": "MiniMax M3.1 Flash（开源）"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Warp 把 software factory 写成把大家的 Agent 收成同一套，而不是每人一份本机配置。跑法若停在个人电脑上，安全和效果都没法当团队系统来改。Kiro 写同一套工厂要在每周大约一千个 PR 上还稳得住。Devin Security 2.0 扫描之后按代码、基础设施和威胁模型排序，再把修复开成可以审的 PR。security-audit-skill 则把审计拆成阶段，发现要能被机器再核一遍。",
+      "refs": [
+        {
+          "id": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
+          "label": "software factory"
+        },
+        {
+          "id": "https://kiro.dev/blog/software-factory-stability",
+          "label": "Kiro"
+        },
+        {
+          "id": "https://devin.ai/blog/devin-security-2",
+          "label": "Devin Security 2.0"
+        },
+        {
+          "id": "https://github.com/cloudflare/security-audit-skill",
+          "label": "security-audit-skill"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "OpenWiki 先给 Agent 一份编译好的 wiki，再把引用做成可以顺着走的图。文中写跨来源问题上比只用 grep 准确约 5 倍，加上证据图后准确率再高 27%。设计 Agent 拿到的是这个团队的原则、反 AI 味的约束和反馈理由，每条 Slack 线程有自己的沙箱。impeccable 用设计词表在合入前抓住 AI 味的界面，andrej-karpathy-skills 把对 LLM 写代码的观察整理成一份 CLAUDE.md。",
+      "refs": [
+        {
+          "id": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+          "label": "OpenWiki"
+        },
+        {
+          "id": "https://www.langchain.com/blog/design-agent",
+          "label": "设计 Agent"
+        },
+        {
+          "id": "https://github.com/pbakaus/impeccable",
+          "label": "impeccable"
+        },
+        {
+          "id": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "label": "andrej-karpathy-skills"
+        }
+      ]
+    }
+  ]
+}

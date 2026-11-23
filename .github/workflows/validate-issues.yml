@@ -16,7 +16,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: VirusPC/edges-brain-viruspc
-          ref: main
+          # 版本门槛写在技能分支上，main 还没有。这个数据分支的 CI 先读那一支。
+          # 推到 data main 时改回技能仓库 main，并且要等技能 PR 597 已经合进 main。
+          ref: ${{ github.head_ref == 'cursor/weekly-overview-8a36' && 'cursor/weekly-overview-8a36' || 'main' }}
           path: skill
       - name: Validate each issue
         run: |
