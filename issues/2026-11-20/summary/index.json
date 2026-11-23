@@ -4,6 +4,10 @@
   "data": {
     "commit": "5e2e06f851fc5317cd3cb845fbec2eb920bbde59"
   },
+  "articles_coverage": {
+    "raw": 204,
+    "cleaned": 205
+  },
   "blocks": [
     {
       "kind": "raw",
