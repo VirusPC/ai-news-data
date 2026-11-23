@@ -1,0 +1,16 @@
+{
+  "id": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",
+  "source": "cleaned/articles/coderabbit.ai-blog-multi-repository-security-analysis-with-coderabbit-secure.json",
+  "title": "Multi-Repository Security Analysis with CodeRabbit Secure",
+  "link": "https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure",
+  "sentence": "CodeRabbit Secure 的 Deep Scan 可以读关联仓库，用来看网关和订单服务是不是分在两个仓库里、调用方能不能绕过鉴权。",
+  "category": "产品",
+  "company": "CodeRabbit",
+  "text": "#### &lt;产品&gt;&lt;CodeRabbit&gt;[Multi-Repository Security Analysis with CodeRabbit Secure](https://coderabbit.ai/blog/multi-repository-security-analysis-with-coderabbit-secure)\n\nCodeRabbit Secure 的 Deep Scan 可以读关联仓库，用来看网关和订单服务是不是分在两个仓库里、调用方能不能绕过鉴权。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>鉴权在一个仓库、真正读数据在另一个仓库时，只扫一个仓库看不到绕过。基础设施配置又常常在第三个仓库。</p>\n<p><strong>如何解决：</strong>扫描前用架构摘要和自动链接找出相关仓库，扫描中的侦察、追查和验证可以去读这些仓库。关联仓库是只读上下文，不会在同一次扫描里得到自己的发现。链接钉在默认分支的某个提交上，不一定是正在运行的版本。</p>\n<p><strong>效果怎样：</strong>文中的开源试验里，一张 chart 里的默认管理员口令被追到容器启动命令，说明它用在全新安装；没有关联仓库时，这个问题只回答了一部分。改启动环境变量并不会轮换已经装好的实例口令。</p>\n<p><strong>洞察与启发：</strong>把仓库链进来，不等于每个文件都会被看过。要评估那个仓库自己，得另开一次扫描。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "鉴权在一个仓库、真正读数据在另一个仓库时，只扫一个仓库看不到绕过。基础设施配置又常常在第三个仓库。",
+    "如何解决": "扫描前用架构摘要和自动链接找出相关仓库，扫描中的侦察、追查和验证可以去读这些仓库。关联仓库是只读上下文，不会在同一次扫描里得到自己的发现。链接钉在默认分支的某个提交上，不一定是正在运行的版本。",
+    "效果怎样": "文中的开源试验里，一张 chart 里的默认管理员口令被追到容器启动命令，说明它用在全新安装；没有关联仓库时，这个问题只回答了一部分。改启动环境变量并不会轮换已经装好的实例口令。",
+    "洞察与启发": "把仓库链进来，不等于每个文件都会被看过。要评估那个仓库自己，得另开一次扫描。"
+  }
+}

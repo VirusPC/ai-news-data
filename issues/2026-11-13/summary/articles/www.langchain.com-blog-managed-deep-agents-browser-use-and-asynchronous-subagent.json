@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+  "source": "cleaned/articles/www.langchain.com-blog-managed-deep-agents-browser-use-and-asynchronous-subagent.json",
+  "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+  "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+  "sentence": "Managed Deep Agents v0.10 加上浏览器，让 Agent 能上没有 API 的网站，并在要登录时把窗口交给人；同时加上异步子 Agent。 订阅源里只有这些。",
+  "category": "产品",
+  "company": "LangChain",
+  "text": "#### &lt;产品&gt;&lt;LangChain&gt;[Managed Deep Agents v0.10: Browser Use and Async Subagents](https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents)\n\nManaged Deep Agents v0.10 加上浏览器，让 Agent 能上没有 API 的网站，并在要登录时把窗口交给人；同时加上异步子 Agent。 订阅源里只有这些。\n"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+  "source": "cleaned/articles/aws.amazon.com-blogs-machine-learning-run-agents-securely-and-efficiently-with-t.json",
+  "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+  "link": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+  "sentence": "新一代 AgentCore Runtime 仍是每个会话一台 Firecracker microVM，启动最多快 <mark>15 倍</mark>，算力最多到原来的 4 倍。",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### &lt;产品&gt;&lt;AWS&gt;[Run agents securely and efficiently with the next generation AgentCore runtime](https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/)\n\n新一代 AgentCore Runtime 仍是每个会话一台 Firecracker microVM，启动最多快 <mark>15 倍</mark>，算力最多到原来的 4 倍。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 会跑几小时、会执行代码和浏览网页。预先备好的环境空转也花钱，现要现开又有冷启动。隔离、速度和费用不能三选一。</p>\n<p><strong>如何解决：</strong>每个会话仍有自己的硬件隔离微虚拟机、身份、策略和审计。这版把会话扩到最多 8 个 vCPU 和 32 GB，容器镜像最大 10 GB，启动不到 2 秒，并且不随镜像大小和并发变。空等模型、工具或人的时间，按新的用量方式计，而不是一直为闲置付钱。</p>\n<p><strong>效果怎样：</strong>文中的产品数字是启动最多快 15 倍、算力 4 倍、效率最多高 68%。引用的客户对比是另一组环境里的测量，不是这三项的复现。</p>\n<p><strong>洞察与启发：</strong>会话变长以后，运行时要按 Agent 真实的等待方式计费，而不是按一台始终开着的沙箱。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "Agent 会跑几小时、会执行代码和浏览网页。预先备好的环境空转也花钱，现要现开又有冷启动。隔离、速度和费用不能三选一。",
+    "如何解决": "每个会话仍有自己的硬件隔离微虚拟机、身份、策略和审计。这版把会话扩到最多 8 个 vCPU 和 32 GB，容器镜像最大 10 GB，启动不到 2 秒，并且不随镜像大小和并发变。空等模型、工具或人的时间，按新的用量方式计，而不是一直为闲置付钱。",
+    "效果怎样": "文中的产品数字是启动最多快 15 倍、算力 4 倍、效率最多高 68%。引用的客户对比是另一组环境里的测量，不是这三项的复现。",
+    "洞察与启发": "会话变长以后，运行时要按 Agent 真实的等待方式计费，而不是按一台始终开着的沙箱。"
+  }
+}

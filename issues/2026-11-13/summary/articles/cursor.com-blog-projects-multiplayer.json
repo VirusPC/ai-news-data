@@ -1,0 +1,16 @@
+{
+  "id": "https://cursor.com/blog/projects-multiplayer",
+  "source": "cleaned/articles/cursor.com-blog-projects-multiplayer.json",
+  "title": "Cursor Projects is now multiplayer",
+  "link": "https://cursor.com/blog/projects-multiplayer",
+  "sentence": "Cursor Projects 变成多人的了：队友和各自的 Agent 共用一份上下文，值班交接时协调者能接着未完成的工作。",
+  "category": "产品",
+  "company": "Cursor",
+  "text": "#### &lt;产品&gt;&lt;Cursor&gt;[Cursor Projects is now multiplayer](https://cursor.com/blog/projects-multiplayer)\n\nCursor Projects 变成多人的了：队友和各自的 Agent 共用一份上下文，值班交接时协调者能接着未完成的工作。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>多 Agent 系统此前服务一个人。新人要把上下文重新养一遍，才能让 Agent 开工。</p>\n<p><strong>如何解决：</strong>每个人仍有自己和协调者、工人的一对一会话。上面加一层共享上下文，放需求、图、技术说明和设计稿。一个会话里的决定，项目里的其他 Agent 也能用到。不同队友的 Agent 会在重叠的改动上提前对齐。</p>\n<p><strong>效果怎样：</strong>文中用内部值班交接说明：接班的协调者已经知道哪些事在进行、哪些事故还没人看。没有报一组效率数字。即日起向所有用户做 beta。</p>\n<p><strong>洞察与启发：</strong>共享的是现场，不是把一个人的聊天记录再转述一遍。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "多 Agent 系统此前服务一个人。新人要把上下文重新养一遍，才能让 Agent 开工。",
+    "如何解决": "每个人仍有自己和协调者、工人的一对一会话。上面加一层共享上下文，放需求、图、技术说明和设计稿。一个会话里的决定，项目里的其他 Agent 也能用到。不同队友的 Agent 会在重叠的改动上提前对齐。",
+    "效果怎样": "文中用内部值班交接说明：接班的协调者已经知道哪些事在进行、哪些事故还没人看。没有报一组效率数字。即日起向所有用户做 beta。",
+    "洞察与启发": "共享的是现场，不是把一个人的聊天记录再转述一遍。"
+  }
+}

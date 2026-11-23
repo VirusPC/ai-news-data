@@ -1,18 +1,24 @@
 {
   "ids": [
+    "https://github.com/anthropics/skills",
+    "https://github.com/milind-soni/OpenMausBot",
+    "https://github.com/vercel-labs/agent-browser",
+    "https://github.com/NVIDIA/auto-ontology",
+    "https://github.com/cloudflare/security-audit-skill",
+    "https://github.com/vercel-labs/agent-desktop",
+    "https://github.com/mattpocock/skills",
+    "https://github.com/zed-industries/zed",
+    "https://github.com/google-deepmind/mujoco",
+    "https://github.com/google/skills",
+    "https://github.com/D4Vinci/Scrapling",
     "https://github.com/meta/astryx",
     "https://github.com/ZhuLinsen/daily_stock_analysis",
     "https://github.com/GoogleChrome/modern-web-guidance-src",
     "https://github.com/shadcn/improve",
     "https://github.com/addyosmani/agent-skills",
-    "https://github.com/vercel-labs/agent-browser",
     "https://github.com/we-promise/sure",
     "https://github.com/homeassistant-ai/ha-mcp",
     "https://github.com/openai/codex-security",
-    "https://github.com/TheAlgorithms/Java",
-    "https://github.com/anthropics/skills",
-    "https://github.com/milind-soni/OpenMausBot",
-    "https://github.com/NVIDIA/auto-ontology",
-    "https://github.com/cloudflare/security-audit-skill"
+    "https://github.com/TheAlgorithms/Java"
   ]
 }

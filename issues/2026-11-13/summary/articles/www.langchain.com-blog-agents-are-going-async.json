@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/agents-are-going-async",
+  "source": "cleaned/articles/www.langchain.com-blog-agents-are-going-async.json",
+  "title": "Agents Are Going Async",
+  "link": "https://www.langchain.com/blog/agents-are-going-async",
+  "sentence": "异步子 Agent 让主 Agent 在后台工人跑长任务时仍然能响应，Deep Agents 里还要处理通知和批准。 订阅源里只有这些。",
+  "category": "架构",
+  "company": "LangChain",
+  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Agents Are Going Async](https://www.langchain.com/blog/agents-are-going-async)\n\n异步子 Agent 让主 Agent 在后台工人跑长任务时仍然能响应，Deep Agents 里还要处理通知和批准。 订阅源里只有这些。\n"
+}

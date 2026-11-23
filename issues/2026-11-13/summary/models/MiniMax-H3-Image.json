@@ -1,0 +1,14 @@
+{
+  "id": "MiniMax H3-Image",
+  "source": "cleaned/models/MiniMax-H3-Image.json",
+  "price": {
+    "text": "暂无"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "暂无"
+  },
+  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 10 日开放权重，是图像模型。</li>\n<li><strong>成绩</strong> 公告写 10 秒内生成 <mark class=\"note-card-hl\">4096×4096</mark>。</li>\n<li><strong>价格</strong> 暂无 token 单价。速度暂无。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&amp;mid=2247489228&amp;idx=1&amp;sn=7611a433102ca91044ef5e71f19ee291\">MiniMax H3-Image</a></p>\n</aside>\n"
+}

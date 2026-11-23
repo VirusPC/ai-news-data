@@ -1,8 +1,10 @@
 {
   "id": "LLM Arena",
   "source": "cleaned/models/boards/llm-arena.json",
-  "caption": "这一期的榜单。",
-  "highlights": [],
+  "caption": "榜从上一期采用的 2026-10-28 换成 2026-11-11。第一仍是 Gemini 4 Carbon (High)。新出现在前 15 的是 Muse Spark 1.1 和 Gemini 4 Hydrogen (High)，Hydrogen 排第 15。上一期在榜的 Claude Opus 5 (High) 和 Claude Opus 5 (Max) 不在这 15 个里。",
+  "highlights": [
+    "Gemini 4 Hydrogen (High)"
+  ],
   "arena_publish_date": "2026-11-11",
   "items": [
     {

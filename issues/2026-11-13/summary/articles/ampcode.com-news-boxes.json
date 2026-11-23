@@ -1,0 +1,16 @@
+{
+  "id": "https://ampcode.com/news/boxes",
+  "source": "cleaned/articles/ampcode.com-news-boxes.json",
+  "title": "Boxes",
+  "link": "https://ampcode.com/news/boxes",
+  "sentence": "Amp 的 Box 是一台默认常开的小机器，上面也跑着 Agent，用来放你和 Agent 一起做出来的东西。",
+  "category": "产品",
+  "company": "Amp",
+  "text": "#### &lt;产品&gt;&lt;Amp&gt;[Boxes](https://ampcode.com/news/boxes)\n\nAmp 的 Box 是一台默认常开的小机器，上面也跑着 Agent，用来放你和 Agent 一起做出来的东西。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>给自己和同事用的软件不需要扩到成千上万用户，但要一直在，并且 Agent 够得着。</p>\n<p><strong>如何解决：</strong>在 orb 里开发，用 portal 看进行中的版本，再让 Agent 拉起一台 Box。一台机器上可以部署多个应用，每个应用有自己的 URL。机器默认不关机，也可以按时间表开关。规格从 0.5 vCPU、2 GB 往上。</p>\n<p><strong>效果怎样：</strong>这篇是产品说明，没有报一组部署成功率。</p>\n<p><strong>洞察与启发：</strong>做出来的东西要有一个家，而不是停在对话里。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "给自己和同事用的软件不需要扩到成千上万用户，但要一直在，并且 Agent 够得着。",
+    "如何解决": "在 orb 里开发，用 portal 看进行中的版本，再让 Agent 拉起一台 Box。一台机器上可以部署多个应用，每个应用有自己的 URL。机器默认不关机，也可以按时间表开关。规格从 0.5 vCPU、2 GB 往上。",
+    "效果怎样": "这篇是产品说明，没有报一组部署成功率。",
+    "洞察与启发": "做出来的东西要有一个家，而不是停在对话里。"
+  }
+}

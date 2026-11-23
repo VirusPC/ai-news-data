@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 应用用量",
   "source": "cleaned/models/boards/openrouter-apps.json",
-  "caption": "这一期的榜单。",
+  "caption": "公开应用用量第一仍是 Hermes Agent，第二仍是 Claude Code。Kilo Code 从上一期的第 4 到第 3，pi 从第 5 到第 4，OpenClaw 从第 3 到第 5。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

@@ -1,0 +1,16 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546793&idx=1&sn=9e814b9f097ad6ebde8a9b7998835084",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzAxNDEwNjk5OQ-mid-2650546793-idx-1-sn-9e814b9f097ad6eb.json",
+  "title": "数字员工：有关AI Native新流水线的思考",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546793&idx=1&sn=9e814b9f097ad6ebde8a9b7998835084",
+  "sentence": "这篇把数字员工定义成业务单元里随时在线的 <mark>PM</mark>，负责对齐目标和上下文，而不是再造一个执行 Agent。",
+  "category": "架构",
+  "company": "阿里",
+  "text": "#### &lt;架构&gt;&lt;阿里&gt;[数字员工：有关AI Native新流水线的思考](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546793&idx=1&sn=9e814b9f097ad6ebde8a9b7998835084)\n\n这篇把数字员工定义成业务单元里随时在线的 <mark>PM</mark>，负责对齐目标和上下文，而不是再造一个执行 Agent。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>执行层已经有很多方案，缺的是把人、Agent 和知识串起来的协同层。个人分身走了，经验也跟着走。</p>\n<p><strong>如何解决：</strong>协同者按业务单元常驻，从钉钉群、协作板和会议里感知，拉齐上下文再派活。执行 Agent 按需创建，做完可以销毁。平台要轻、能开箱、能改、和执行层交接时少丢上下文，并且跑在云上。</p>\n<p><strong>效果怎样：</strong>这是架构判断，没有报一组上线指标。作者也写了，现有分工下很多人短期内只会觉得再绕一层很别扭。</p>\n<p><strong>洞察与启发：</strong>个人效率高不等于组织效率高。协同层沉的是业务上下文和目标，执行层沉的是 SOP。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "执行层已经有很多方案，缺的是把人、Agent 和知识串起来的协同层。个人分身走了，经验也跟着走。",
+    "如何解决": "协同者按业务单元常驻，从钉钉群、协作板和会议里感知，拉齐上下文再派活。执行 Agent 按需创建，做完可以销毁。平台要轻、能开箱、能改、和执行层交接时少丢上下文，并且跑在云上。",
+    "效果怎样": "这是架构判断，没有报一组上线指标。作者也写了，现有分工下很多人短期内只会觉得再绕一层很别扭。",
+    "洞察与启发": "个人效率高不等于组织效率高。协同层沉的是业务上下文和目标，执行层沉的是 SOP。"
+  }
+}

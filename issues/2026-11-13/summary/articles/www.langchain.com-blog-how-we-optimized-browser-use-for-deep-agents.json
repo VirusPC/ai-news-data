@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+  "source": "cleaned/articles/www.langchain.com-blog-how-we-optimized-browser-use-for-deep-agents.json",
+  "title": "How We Optimized Browser Use for Deep Agents",
+  "link": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+  "sentence": "LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 <mark>Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。 订阅源里只有这些。",
+  "category": "实践",
+  "company": "LangChain",
+  "text": "#### &lt;实践&gt;&lt;LangChain&gt;[How We Optimized Browser Use for Deep Agents](https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents)\n\nLangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 <mark>Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。 订阅源里只有这些。\n"
+}

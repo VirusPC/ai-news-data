@@ -1,7 +1,7 @@
 {
   "id": "https://github.com/vercel-labs/agent-browser",
   "source": "cleaned/projects/github.com-vercel-labs-agent-browser.json",
-  "purpose": "vercel-labs/agent-browser",
-  "change": "见本期正文。",
-  "text": "#### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)\n\n给 AI Agent 用的浏览器自动化命令行。\n\n来源里只有这些。\n\n"
+  "purpose": "给 AI Agent 用的浏览器自动化命令行。",
+  "change": "当时的 weekly 快照写着 4,601 stars this week，星标 50463。",
+  "text": "#### [vercel-labs / agent-browser](https://github.com/vercel-labs/agent-browser)\n\n给 AI Agent 用的浏览器自动化命令行。\n\n当时的 weekly 快照写着 4,601 stars this week，星标 50463。\n"
 }

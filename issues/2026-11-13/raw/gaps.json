@@ -2,11 +2,39 @@
   "gaps": [
     {
       "path": "projects/releases.json",
-      "reason": "这期快照没有单独的仓库发布记录"
+      "reason": "这期快照没有单独的仓库发布记录。2026-11-23 没有用现在的发布接口回填。"
     },
     {
       "path": "models/openrouter-official-endpoints.json",
-      "reason": "本环境没有 OPENROUTER_API_KEY，没有请求 /api/v1/models/.../endpoints。端点延迟是近实时，不能用 2026-11-22 的测量充当这一期的历史速度。"
+      "reason": "本环境没有 OPENROUTER_API_KEY，没有请求 /api/v1/models/.../endpoints。端点延迟是近实时，不能用 2026-11-23 的测量充当这一期的历史速度。"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai",
+      "reason": "2026-11-23 按窗口复查订阅：meta-ai（primary）stopped，最新条目 2026-07-27。 同一发文方的备源 meta-ai-rsshub 也停更。脚本不抓列表页，这一期没有改 OPML。"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai-rsshub",
+      "reason": "2026-11-23 按窗口复查订阅：meta-ai-rsshub（backup）stopped，最新条目 2026-07-26。"
+    },
+    {
+      "path": "articles/feeds.json#xai-news-olshansk",
+      "reason": "2026-11-23 按窗口复查订阅：xai-news-olshansk（backup）stopped，最新条目 2026-09-28。 主源仍可用，这条备源没有并进条目。"
+    },
+    {
+      "path": "articles/feeds.json#zed",
+      "reason": "2026-11-23 按窗口复查订阅：zed（未标角色）stopped，最新条目 2026-09-16。"
+    },
+    {
+      "path": "articles/feeds.json#glm",
+      "reason": "2026-11-23 按窗口复查订阅：glm（未标角色）stopped，最新条目 2026-09-18。"
+    },
+    {
+      "path": "articles/feeds.json#jxnl",
+      "reason": "2026-11-23 按窗口复查订阅：jxnl（未标角色）stopped，最新条目 2026-07-05。"
+    },
+    {
+      "path": "articles/feeds.json#qwen-ai-platform",
+      "reason": "2026-11-23 按窗口复查订阅：qwen-ai-platform（未标角色）stopped，最新条目 2026-07-20。"
     }
   ]
 }

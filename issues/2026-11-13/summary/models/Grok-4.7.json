@@ -1,0 +1,14 @@
+{
+  "id": "Grok 4.7",
+  "source": "cleaned/models/Grok-4.7.json",
+  "price": {
+    "text": "输入每百万 token 2 美元，输出 6 美元。"
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "Kiro 页转述长编程任务在 CursorBench 4.0 上是 46.3%。这不是用本期 AA 快照算的智力指数。"
+  },
+  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> Kiro 公告写 11 月 12 日起可在 Kiro 使用。</li>\n<li><strong>成绩</strong> 同一句写着 CursorBench 4.0 长编程任务 <mark class=\"note-card-hl\">46.3%</mark>。</li>\n<li><strong>可用</strong> 输入每百万 token 2 美元，输出 6 美元。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://kiro.dev/blog/grok-4-7\">Grok 4.7 is now available in Kiro</a></p>\n</aside>\n"
+}

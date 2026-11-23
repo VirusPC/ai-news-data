@@ -1,0 +1,16 @@
+{
+  "id": "https://code.claude.com/docs/en/changelog#2-1-321",
+  "source": "cleaned/articles/code.claude.com-docs-en-changelog.json",
+  "title": "2.1.321",
+  "link": "https://code.claude.com/docs/en/changelog#2-1-321",
+  "sentence": "Claude Code 2.1.321 把 Claude Fable 5.2 设成默认的 Fable 模型，上下文 <mark>1M</mark>。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[2.1.321](https://code.claude.com/docs/en/changelog#2-1-321)\n\nClaude Code 2.1.321 把 Claude Fable 5.2 设成默认的 Fable 模型，上下文 <mark>1M</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>新模型进了产品，远程控制和插件的权限行为也要跟着改，不然默认档和实际跑起来的不是同一套。</p>\n<p><strong>如何解决：</strong>这版加入 claude-fable-5-2。claude remote-control 可以用 --settings 给每个新会话套同一份设置。auto 和 bypass 模式下，Claude 写的 mods 不再每次询问；mods 自己的工具调用也不再弹权限，deny 和组织策略仍然生效。已保存的 Fable 5.1 选择会迁到 fable。超过 1000 字的后台命令，通知里只留开头和结尾。</p>\n<p><strong>效果怎样：</strong>更新说明没有单列一项上线成绩，列的是默认模型和这些行为变化。</p>\n<p><strong>洞察与启发：</strong>权限默认放宽的是 Claude 自己写的 mods，组织策略和 deny 规则还在。价格写在同一条模型说明里，不是一篇定价稿。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "新模型进了产品，远程控制和插件的权限行为也要跟着改，不然默认档和实际跑起来的不是同一套。",
+    "如何解决": "这版加入 claude-fable-5-2。claude remote-control 可以用 --settings 给每个新会话套同一份设置。auto 和 bypass 模式下，Claude 写的 mods 不再每次询问；mods 自己的工具调用也不再弹权限，deny 和组织策略仍然生效。已保存的 Fable 5.1 选择会迁到 fable。超过 1000 字的后台命令，通知里只留开头和结尾。",
+    "效果怎样": "更新说明没有单列一项上线成绩，列的是默认模型和这些行为变化。",
+    "洞察与启发": "权限默认放宽的是 Claude 自己写的 mods，组织策略和 deny 规则还在。价格写在同一条模型说明里，不是一篇定价稿。"
+  }
+}

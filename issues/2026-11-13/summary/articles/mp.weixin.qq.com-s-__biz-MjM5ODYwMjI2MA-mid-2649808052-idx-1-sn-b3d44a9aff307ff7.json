@@ -1,0 +1,16 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808052-idx-1-sn-b3d44a9aff307ff7.json",
+  "title": "多Agent协作的下一场竞争，不在模型，而在上下文",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314",
+  "sentence": "Siboot 把群当成共享现场，用 Topic 把上下文切开，再用 @ 接力，避免人在 Agent 之间当<mark>传声筒</mark>。",
+  "category": "架构",
+  "company": "腾讯",
+  "text": "#### &lt;架构&gt;&lt;腾讯&gt;[多Agent协作的下一场竞争，不在模型，而在上下文](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314)\n\nSiboot 把群当成共享现场，用 Topic 把上下文切开，再用 @ 接力，避免人在 Agent 之间当<mark>传声筒</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人和人协作时，上下文每传一手就丢一点。Agent 加入后，转述变成乘法，人被卡在中间。</p>\n<p><strong>如何解决：</strong>群里的话、文件和任务对人和 Agent 都可见。Topic 把不同议题隔开，Agent 的注意力和 token 都只花在这一件事上。@ 只是叫下一棒进来，不把前因后果再打包一遍。冷上下文进 Agent 自己的文件：收件区、决策记录、需求和缺陷档案，并由定时任务整理。</p>\n<p><strong>效果怎样：</strong>文中用产品、研发、验收三个 Agent 把一条需求跑完的场景说明流程，没有另给一组线上数字。</p>\n<p><strong>洞察与启发：</strong>能直接读的状态，不该先压成一段聊天再让下一个 Agent 猜。人从搬运上下文回到最后拍板。</p>\n</details>\n",
+  "sections": {
+    "解决什么问题": "人和人协作时，上下文每传一手就丢一点。Agent 加入后，转述变成乘法，人被卡在中间。",
+    "如何解决": "群里的话、文件和任务对人和 Agent 都可见。Topic 把不同议题隔开，Agent 的注意力和 token 都只花在这一件事上。@ 只是叫下一棒进来，不把前因后果再打包一遍。冷上下文进 Agent 自己的文件：收件区、决策记录、需求和缺陷档案，并由定时任务整理。",
+    "效果怎样": "文中用产品、研发、验收三个 Agent 把一条需求跑完的场景说明流程，没有另给一组线上数字。",
+    "洞察与启发": "能直接读的状态，不该先压成一段聊天再让下一个 Agent 猜。人从搬运上下文回到最后拍板。"
+  }
+}

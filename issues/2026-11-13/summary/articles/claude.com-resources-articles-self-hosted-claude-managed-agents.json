@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+  "source": "cleaned/articles/claude.com-resources-articles-self-hosted-claude-managed-agents.json",
+  "title": "Operate Claude Managed Agents inside your security perimeter",
+  "link": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+  "sentence": "自托管的 Claude Managed Agents 让 Agent、凭证和会话历史留在你自己的云或机房里，请求发到哪里也由你定。 订阅源里只有这些。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Operate Claude Managed Agents inside your security perimeter](https://claude.com/resources/articles/self-hosted-claude-managed-agents)\n\n自托管的 Claude Managed Agents 让 Agent、凭证和会话历史留在你自己的云或机房里，请求发到哪里也由你定。 订阅源里只有这些。\n"
+}

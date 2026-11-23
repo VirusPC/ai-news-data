@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+  "source": "cleaned/articles/claude.dev-blog-safely-scaling-multi-agent-teams-with-fable-5-2.json",
+  "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+  "link": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+  "sentence": "一支约 <mark>1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。 订阅源里只有这些。",
+  "category": "架构",
+  "company": "Anthropic",
+  "text": "#### &lt;架构&gt;&lt;Anthropic&gt;[Safely scaling multi-agent teams with Claude Fable 5.2](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)\n\n一支约 <mark>1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。 订阅源里只有这些。\n"
+}
