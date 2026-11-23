@@ -4,6 +4,10 @@
   "data": {
     "commit": "0bb7201ef0254528641150429e3a05b8e210679c"
   },
+  "articles_coverage": {
+    "raw": 227,
+    "selected": 42
+  },
   "chapters": [
     {
       "title": "本周关键词"
