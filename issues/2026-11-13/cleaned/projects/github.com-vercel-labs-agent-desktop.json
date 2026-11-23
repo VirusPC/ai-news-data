@@ -1,6 +1,6 @@
 {
   "id": "https://github.com/vercel-labs/agent-desktop",
-  "source": "raw/projects/github-trending-weekly.json",
+  "source": "raw/projects/github-trending.json",
   "publisher": "GitHub",
   "category": "GitHub Trending",
   "url": "https://github.com/trending?since=weekly",

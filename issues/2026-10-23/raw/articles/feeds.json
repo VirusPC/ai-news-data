@@ -6,7 +6,7 @@
   "elapsed_ms": 9755,
   "feed_bytes": 25149358,
   "stats": {
-    "feeds": 51,
+    "feeds": 49,
     "errors": 0,
     "items": 143,
     "thin": 4,
@@ -1057,52 +1057,6 @@
         "live-snapshot-not-historical"
       ],
       "included": false
-    },
-    {
-      "id": "github-trending-weekly-python",
-      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/python.xml",
-      "lane": "special",
-      "publisher": null,
-      "role": null,
-      "feedOrigin": "third-party-scrape-rss",
-      "fallback": null,
-      "bytes": 845803,
-      "elapsed_ms": 175,
-      "error": null,
-      "entries_total": 15,
-      "entries_in_window": 15,
-      "newest": "2026-11-21",
-      "oldest": "2026-11-21",
-      "truncated": false,
-      "stale": false,
-      "snapshot": true,
-      "issues": [
-        "live-snapshot-not-historical"
-      ],
-      "included": false
-    },
-    {
-      "id": "github-trending-weekly-typescript",
-      "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/typescript.xml",
-      "lane": "special",
-      "publisher": null,
-      "role": null,
-      "feedOrigin": "third-party-scrape-rss",
-      "fallback": null,
-      "bytes": 830610,
-      "elapsed_ms": 222,
-      "error": null,
-      "entries_total": 17,
-      "entries_in_window": 17,
-      "newest": "2026-11-21",
-      "oldest": "2026-11-21",
-      "truncated": false,
-      "stale": false,
-      "snapshot": true,
-      "issues": [
-        "live-snapshot-not-historical"
-      ],
-      "included": false
     }
   ],
   "health": [
@@ -1187,30 +1141,6 @@
       ],
       "newest": "2026-11-21",
       "entries_total": 13,
-      "error": null,
-      "included": false
-    },
-    {
-      "id": "github-trending-weekly-python",
-      "publisher": null,
-      "role": null,
-      "issues": [
-        "live-snapshot-not-historical"
-      ],
-      "newest": "2026-11-21",
-      "entries_total": 15,
-      "error": null,
-      "included": false
-    },
-    {
-      "id": "github-trending-weekly-typescript",
-      "publisher": null,
-      "role": null,
-      "issues": [
-        "live-snapshot-not-historical"
-      ],
-      "newest": "2026-11-21",
-      "entries_total": 17,
       "error": null,
       "included": false
     }
@@ -3584,25 +3514,13 @@
     "observed_at": "2026-11-22T13:58:14+08:00",
     "removed_items": 35,
     "removed_by_source": {
-      "github-trending-weekly-typescript": 10,
-      "github-trending-weekly-all": 13,
-      "github-trending-weekly-python": 12
+      "github-trending-weekly-all": 13
     },
     "channels": {
       "github-trending-weekly-all": {
         "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml",
         "channel_pubDate": "Sat, 21 Nov 2026 07:51:06 GMT",
         "live_items": 13
-      },
-      "github-trending-weekly-python": {
-        "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/python.xml",
-        "channel_pubDate": "Sat, 21 Nov 2026 08:03:52 GMT",
-        "live_items": 15
-      },
-      "github-trending-weekly-typescript": {
-        "xmlUrl": "https://mshibanami.github.io/GitHubTrendingRSS/weekly/typescript.xml",
-        "channel_pubDate": "Sat, 21 Nov 2026 08:07:53 GMT",
-        "live_items": 17
       }
     }
   },
