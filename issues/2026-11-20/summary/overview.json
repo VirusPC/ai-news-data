@@ -24,7 +24,7 @@
     },
     {
       "kind": "other",
-      "text": "常驻 Agent 大部分时间在睡，被事件或计时器叫醒后再干活。一直开着时，事件会丢，两次运行会打架。Devin Bots 把值守做成带记忆的产品，自己调查、派活、验收，只把要人判断的决定交回来。睡是常态，叫醒靠事件或计时器，调查、派活和验收做完，人只在那个决定上被叫回来，不必一直守着仓库，调查和验收在人被叫回来之前已经做完，人不用整段时间都守在这个仓库里面。",
+      "text": "常驻 Agent 大部分时间在睡，零件是事件收件箱、计时器、记忆、权限和发件箱。记忆只存别处查不到的东西，高风险动作先挂起，等回复变成新的事件。Devin Bots 持有要守住的结果，并行带着多个 Devin，用测试、录屏和每日报告决定下一步；文中的内部例子是 Android 应用、页面跳动和游戏工作室。主动 Agent 的触发可以是外部事件、人定的日程，或它自己定的跟进，复核放进 Slack。",
       "refs": [
         {
           "id": "https://claude.com/resources/articles/building-always-on-agents",
@@ -33,12 +33,38 @@
         {
           "id": "https://devin.ai/blog/introducing-devin-bots",
           "label": "Devin Bots"
+        },
+        {
+          "id": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+          "label": "主动 Agent"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Warp Learn 是一门免费动手课，教人用 Warp 做、量、改自己的 software factory。另一篇把工程重心从写实现转到做那套让 Agent 写实现的系统：Agent 拿走大部分实现之后，人如果只剩下开会和收尾，工程就像被换掉了。做、量、改是课上的三步，搭完第一套以后，工程还留在改那套让实现发生的系统上，而不是退回去自己写每一行实现的代码。",
+      "text": "Claude Code 团队把验证写成端到端、性质和差分测试，改动不能改判定自己的检查。Kiro 从一百万次评测里看到，固定题集加二元通过率会饱和，工具用错、变慢或变贵都可以不影响通过率。LoopForge 把验收放进云上的共享工作区，小改动直接提合并请求，大需求走客观门禁。open-code-review 用确定流程加 LLM 按行评论，同一模型下用掉的 token 大约是通用 Agent 的九分之一。",
+      "refs": [
+        {
+          "id": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+          "label": "端到端"
+        },
+        {
+          "id": "https://kiro.dev/blog/1m-evals-lessons",
+          "label": "固定题集"
+        },
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+          "label": "LoopForge"
+        },
+        {
+          "id": "https://github.com/alibaba/open-code-review",
+          "label": "open-code-review"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Warp Learn 是一门免费动手课，教人用 Warp 做、量、改自己的 software factory。工程重心从写实现转到那套让 Agent 写实现的系统：何时找人、能碰哪些密钥和 skill、怎样在找人之前自己验证。人和 Agent 共用一套云端配置。推广时的两头阻力是这个词像流水线，以及每人自选的模型和 skill 到了账单和安全上就不可控。迁移会暂时变慢，长期则不必维持上百套个人环境。",
       "refs": [
         {
           "id": "https://www.warp.dev/blog/warp-learn-software-factory-course",
@@ -47,26 +73,10 @@
         {
           "id": "https://www.warp.dev/blog/factory-engineering-software-factories",
           "label": "让 Agent 写实现"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "腾讯开源 LoopForge，在共享工作区里跑带门禁的流程，日常单可以无人值守。人离开以后，云上仍按门禁把单子分下去。常驻 Agent 定的是被事件叫醒，software factory 定的是团队共用一套环境，门禁留在共享工作区里，人离开后单子仍按这个门禁继续被分下去，不必有人一直盯着队列，单子会按门禁自己继续往下分，人可以离开这段还在继续往下走的这条队列。",
-      "refs": [
+        },
         {
-          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
-          "label": "LoopForge"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "open-code-review 用确定的流程加上 LLM Agent 做按行评论，规则覆盖空指针、线程安全、XSS 和 SQL 注入，接口兼容 OpenAI 和 Anthropic。Astra 6.2 的复测抓到更多已知问题，评论从 331 条涨到 847 条，精度降到 12.2%。精度掉下去的时候，空指针、线程安全和注入这些规则把评论钉在具体的行上，读者先看那一行，而不是在变多的评论里再找一遍。",
-      "refs": [
-        {
-          "id": "https://github.com/alibaba/open-code-review",
-          "label": "open-code-review"
+          "id": "https://www.warp.dev/blog/software-factory-adoption-challenges",
+          "label": "流水线"
         }
       ]
     }

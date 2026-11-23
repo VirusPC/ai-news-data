@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity，也从 11 月 11 日起可在 Devin 里使用。Qwen4-Max 预览版登上阿里 Token Plan，正式上线还在后面。",
+      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity，也从 11 月 11 日起可在 Devin 里使用。Qwen4-Max 预览版登上阿里 Token Plan，正式上线还在后面。LongCat-2.5 于 11 月 10 日以 MIT 开源，总参数 1.6 万亿，上下文一百万。",
       "refs": [
         {
           "id": "Claude Fable 5.2",
@@ -23,32 +23,52 @@
         {
           "id": "Qwen4-Max 预览版",
           "label": "Qwen4-Max 预览版"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "约 1000 个 Agent 用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。公告里的模型面向艰难的技术工作，价格是每百万 token 输入 8 美元、输出 40 美元。共享数据库让队伍看见同一份证明，分层控制把不该继续的步骤停住，证明才做得到底，队伍看见的是同一份证明而不是各写各的、对不上的片段。",
-      "refs": [
+        },
         {
-          "id": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "label": "1000 个 Agent"
+          "id": "LongCat-2.5",
+          "label": "LongCat-2.5"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent，Gemini 4 Carbon 适合当协调和对抗验证的那一档。费马那支队伍是很多 Agent 一起做证明，这里是把一个软件任务拆给规划、实现和验证。规划、实现和验证不用等同一个 Agent 从头做到尾，消息板把这三步拆开同时走，规划不必等到验证结束才开始重新动手做。",
+      "text": "/swarm 用只追加的共享消息板，把规划、实现和验证拆到互相隔离的 git worktree，空闲的工人不耗 token。Orchestrator 让 Gemini 4 Carbon 和 Gemini 4 Hydrogen 在同一条轨迹上交接，Terminal-Bench 4.1 上成功率接近 Carbon，平均少用 24% 额度、快 19%。百度把研发 Loop 每轮上下文从约 84k token 削到 28k，读文件放到子任务，主会话只收回结论。",
       "refs": [
         {
           "id": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
           "label": "/swarm"
+        },
+        {
+          "id": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+          "label": "Orchestrator"
+        },
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
+          "label": "研发 Loop"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "agent-browser 给 AI Agent 一条浏览器自动化命令行，这周周榜写着 4,601 stars this week。LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Stagehand，再用轨迹和评测去调。Agent 要打开没有现成 API 的网页时，一边是可以装上的命令行，一边是已经选定并拿轨迹调过的那一套。网页这一步因此有了两条能用的路。",
+      "text": "AgentCore 的 Web Search API 用一次 InvokeWebSearch 返回 Amazon 自己索引里的结果，查询留在 AWS 里。新一代 Runtime 仍是每个会话一台 Firecracker microVM，启动最多快 15 倍，算力最多到原来的 4 倍，空等不再按始终开着的沙箱计费。A2A 把企业账号里的 LangChain 编排器和另一账号的 Strands Agent 接起来，两边不共享密钥。",
+      "refs": [
+        {
+          "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+          "label": "Web Search API"
+        },
+        {
+          "id": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+          "label": "Firecracker"
+        },
+        {
+          "id": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+          "label": "A2A"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "agent-browser 给 AI Agent 一条浏览器自动化命令行，这周周榜写着 4,601 stars this week。LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 Stagehand，再用轨迹和评测去调。Managed Deep Agents v0.10 也加上浏览器，没有 API 的网站可以打开，要登录时把窗口交给人。",
       "refs": [
         {
           "id": "https://github.com/vercel-labs/agent-browser",
@@ -57,16 +77,10 @@
         {
           "id": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
           "label": "Stagehand"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。那支约 1000 个 Agent 的证明队伍如果每个窗口都堆满历史，分层安全控制也看不清当前步骤。旧步骤被卸掉或收成摘要之后，当前步骤才留在窗口里，安全控制才看得清现在做到哪，旧的历史不再把当前步骤淹没掉，当前步骤因此还留在这个窗口里面。",
-      "refs": [
+        },
         {
-          "id": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
-          "label": "上下文堆满"
+          "id": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+          "label": "Managed Deep Agents v0.10"
         }
       ]
     }

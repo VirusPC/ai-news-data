@@ -24,7 +24,7 @@
     },
     {
       "kind": "other",
-      "text": "Warp 把 software factory 写成把大家的 Agent 收成同一套，而不是每人一份本机配置。跑法停在个人电脑上时，安全和效果都没法当团队系统来改。Kiro 接着看同一套工厂怎样在每周大约一千个 PR 的量级上还稳得住。个人电脑上的跑法带不走团队要一起改的安全和效果，收成同一套之后，这个每周的量才有地方稳住，团队要改的安全和效果也才真正改得动。",
+      "text": "Warp 把 software factory 写成把大家的 Agent 收成同一套，而不是每人一份本机配置。跑法若停在个人电脑上，安全和效果都没法当团队系统来改。Kiro 写同一套工厂要在每周大约一千个 PR 上还稳得住。Devin Security 2.0 扫描之后按代码、基础设施和威胁模型排序，再把修复开成可以审的 PR。security-audit-skill 则把审计拆成阶段，发现要能被机器再核一遍。",
       "refs": [
         {
           "id": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
@@ -33,13 +33,7 @@
         {
           "id": "https://kiro.dev/blog/software-factory-stability",
           "label": "Kiro"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "Devin Security 2.0 扫描之后按代码、基础设施和威胁模型排出该修什么，再把修复开成可以审的 PR。漏洞发现变快，并不等于风险下降。security-audit-skill 给编码 Agent 做分阶段安全审计，发现要能被机器再核一遍。人审的是开出来的修复，机器再核的是审计留下的发现，两遍都过，风险才往下降，发现和修复不会停在同一个人手里才算数。",
-      "refs": [
+        },
         {
           "id": "https://devin.ai/blog/devin-security-2",
           "label": "Devin Security 2.0"
@@ -52,11 +46,23 @@
     },
     {
       "kind": "other",
-      "text": "Qwen3-TTS 的声纹向量被拿来做游戏旁白，避开每家都一样的默认音色。带 voice embedding 的接口可以换掉那套合成声。声纹按角色分开以后，旁白不必再和别人共用同一个合成声，音色跟着角色走。Terra 和 Kimi 这周改的是能调用的权重与单价，这篇把能调的音色用在具体的旁白上，每个角色可以有自己的声音，角色之间不必再共用同一个音色就可以了。",
+      "text": "OpenWiki 先给 Agent 一份编译好的 wiki，再把引用做成可以顺着走的图。文中写跨来源问题上比只用 grep 准确约 5 倍，加上证据图后准确率再高 27%。设计 Agent 拿到的是这个团队的原则、反 AI 味的约束和反馈理由，每条 Slack 线程有自己的沙箱。impeccable 用设计词表在合入前抓住 AI 味的界面，andrej-karpathy-skills 把对 LLM 写代码的观察整理成一份 CLAUDE.md。",
       "refs": [
         {
-          "id": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices",
-          "label": "Qwen3-TTS"
+          "id": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+          "label": "OpenWiki"
+        },
+        {
+          "id": "https://www.langchain.com/blog/design-agent",
+          "label": "设计 Agent"
+        },
+        {
+          "id": "https://github.com/pbakaus/impeccable",
+          "label": "impeccable"
+        },
+        {
+          "id": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "label": "andrej-karpathy-skills"
         }
       ]
     }

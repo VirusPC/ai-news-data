@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，基座被写成 Thinking Machines 的 Inkling-Small。价格是更大 SWE-2 的五分之一，速度是 3 倍，当月内对 Devin 的 Pro、Max、Teams 免费。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，ExploitGym 相对上一代有 51% 的相对提升。编码模型被做得更便宜，安全模型被留在委托范围内。",
+      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，ExploitGym 相对上一代有 51% 的相对提升。美团 LongCat-2.5 总参数 1.6 万亿，每个 token 激活约 480 亿，视觉和文本走同一套 token。腾讯混元 Hy4 同在 11 月 4 日发布，WorkBuddy 自评任务通过率 96.15%。",
       "refs": [
         {
           "id": "SWE-2 Flash",
@@ -15,37 +15,47 @@
         {
           "id": "GPT-6 Cyber",
           "label": "GPT-6 Cyber"
+        },
+        {
+          "id": "美团 LongCat-2.5",
+          "label": "美团 LongCat-2.5"
+        },
+        {
+          "id": "腾讯混元 Hy4",
+          "label": "腾讯混元 Hy4"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。Devin Review 2.0 把和 Devin 一起写代码时的评审设成默认，单次费用被压到几毛美元，因为代码写得越快，评审越成为瓶颈。环境谁来跑、评审落在哪一次一起写出来的代码上，是写得越快越要同时接上的两件事，少一件，下一次 PR 就会卡住。",
+      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，执行环境、会话、工具、权限和中断恢复不用先花几个月自建。Deep Agents 这套开源 harness 放到 LangSmith 上跑，人写 Agent 做什么，平台负责生产环境。Kiro 把一部分自己的代码做成 Lean 模型，96 个候选性质里证明了 70 个，18 个在模型里被证伪并能在代码里复现。",
       "refs": [
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
+          "label": "Kimi Hosted Agents"
+        },
         {
           "id": "https://www.langchain.com/blog/introducing-managed-deep-agents",
           "label": "Deep Agents"
         },
         {
-          "id": "https://devin.ai/blog/devin-review-2",
-          "label": "Devin Review 2.0"
+          "id": "https://kiro.dev/blog/harness-properties-in-lean",
+          "label": "Kiro"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。Deep Agents 上到 LangSmith 时，同样是人写 Agent 做什么、平台负责把它跑在生产里。企业自己的机器不再养这套运行环境，云上的服务和生产平台各自把 harness 接走，运行就不停在企业自己的机器上再单独养着一套环境。",
+      "text": "Devin Review 2.0 把和 Devin 一起写代码时的 PR 评审设成默认。文中称自 8 月以来单次评审成本降了 82%，一次大约 0.25 到 0.75 美元，修掉一个 bug 的客户平均成本约 2.25 美元。message threads 让长会话不必每轮重发全部历史，公开测试里对话只发送一次，之后只传增量。claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。",
       "refs": [
         {
-          "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
-          "label": "Kimi Hosted Agents"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。托管决定这轮跑在谁的环境里，记忆决定下一轮还认不认上一轮的仓库、纠正和结论。会话里做过的事留下来，下一次注入时仓库里的纠正和结论都还在，换机器也不必从头把刚才的操作再讲一遍，仓库里的纠正和结论会跟着进入下一次。换一台机器也不会把这些纠正弄丢，下一次进来还认得出上次那个仓库和结论了。",
-      "refs": [
+          "id": "https://devin.ai/blog/devin-review-2",
+          "label": "Devin Review 2.0"
+        },
+        {
+          "id": "https://claude.com/resources/articles/message-threads",
+          "label": "message threads"
+        },
         {
           "id": "https://github.com/thedotmack/claude-mem",
           "label": "claude-mem"

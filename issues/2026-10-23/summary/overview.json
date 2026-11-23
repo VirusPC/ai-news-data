@@ -24,43 +24,37 @@
     },
     {
       "kind": "other",
-      "text": "Anthropic 把 Agent Skills 捐给 Agentic AI Foundation，这套开放标准可以离开单一厂商继续被人采用。同一周，claude-plugins-official 作为 Anthropic 维护的 Claude Code 插件目录出现在开源项目里。标准进了基金会，能直接装上的插件仍从官方目录发出，别人接 Claude Code 时会同时用到这两处。",
+      "text": "主循环里堆太多子 Agent，成本和延迟上去，质量却不一定更好。Anthropic 给了一份流程，判断哪些该折回主循环。代码评审面对的是人已经逐行看不完的变更量，所以先把覆盖和深度做够，再把人还要看多久压到不增加回滚和事故的下限。Claude Duet 在研究预览里接着做离开期间的任务，需要人看的事送过来，动手之前先问。Duet 先对美国的 Pro、Max、Ultra 开候补。评审这边缺的是人的注意力，不是再接一个评审模型。",
+      "refs": [
+        {
+          "id": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+          "label": "子 Agent"
+        },
+        {
+          "id": "https://claude.dev/blog/solving-code-review-at-anthropic",
+          "label": "代码评审"
+        },
+        {
+          "id": "https://claude.com/resources/articles/claude-duet",
+          "label": "Claude Duet"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "Anthropic 把 Agent Skills 捐给 Agentic AI Foundation，文中称已有 70 多个平台接入，包括 ChatGPT、Cursor、GitHub Copilot 和 VS Code。scientific-agent-skills 给 Agent 准备了 177 个可直接用的科学技能，claude-plugins-official 是 Anthropic 维护的 Claude Code 插件目录。",
       "refs": [
         {
           "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "label": "Agent Skills"
         },
         {
+          "id": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "label": "scientific-agent-skills"
+        },
+        {
           "id": "https://github.com/anthropics/claude-plugins-official",
           "label": "claude-plugins-official"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "Claude Duet 在研究预览里试一种人离开之后还接着做的 Agent，需要人看的事会送过来，动手之前先问你。Cursor 的 Agent SDK 用他们做 Bugbot 的那套框架，把按事件干活的 Agent 定义成代码，评审、合规和事故调查可以贴着团队自己的流程。一个在你不在时把事情送回来，一个让触发条件跟着仓库走。Duet 仍是研究预览，SDK 已经能把这些流程写进仓库。",
-      "refs": [
-        {
-          "id": "https://claude.com/resources/articles/claude-duet",
-          "label": "Claude Duet"
-        },
-        {
-          "id": "https://cursor.com/blog/agent-sdk",
-          "label": "Agent SDK"
-        }
-      ]
-    },
-    {
-      "kind": "other",
-      "text": "美团把算法研究从单线程 LOOP 改成能在云端训练平台上跑的图探索。改代码、等训练、看日志占掉判断时间，一天往往只有两三次实质迭代。ruflo 协调多 Agent 工作流，简介称它是最早的那一版 harness。研究侧把训练拆开并行，编码侧把仓库里的 Agent 拆开并行，两边都不必再等上一步完全结束，训练和仓库里的 Agent 可以接着往前走，下一步也能开始。",
-      "refs": [
-        {
-          "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
-          "label": "图探索"
-        },
-        {
-          "id": "https://github.com/ruvnet/ruflo",
-          "label": "ruflo"
         }
       ]
     }
