@@ -3,5 +3,8 @@
   "title": "J. Crew brings its signature approach to styling to life with Claude",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products."
 }

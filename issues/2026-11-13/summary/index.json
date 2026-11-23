@@ -1,12 +1,202 @@
 {
-  "skill": "weekly-ai-blogs-digest",
-  "version": "0.0.3",
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.5"
+  },
+  "routine": {
+    "repo": "VirusPC/edges-brain-viruspc",
+    "commit": "725d78568c3b8ff15b88f7b16bfe15b6906bc086",
+    "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
+  },
   "data": {
     "commit": "0bb7201ef0254528641150429e3a05b8e210679c"
   },
   "articles_coverage": {
     "raw": 227,
     "selected": 42
+  },
+  "window": {
+    "issue": "2026-11-13",
+    "since": "2026-11-06",
+    "until": "2026-11-12"
+  },
+  "sources": {
+    "categories": [
+      {
+        "title": "模型榜单",
+        "count": 759,
+        "publishers": [
+          {
+            "name": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/leaderboards/models",
+            "count": 739
+          },
+          {
+            "name": "LLM Arena",
+            "url": "https://arena.ai/",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "title": "GitHub Trending",
+        "count": 45,
+        "publishers": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/trending?since=weekly",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "title": "博客",
+        "count": 164,
+        "publishers": [
+          {
+            "name": "linux.do",
+            "url": "https://linux.do/",
+            "count": 22
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/news/",
+            "count": 21
+          },
+          {
+            "name": "AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/",
+            "count": 20
+          },
+          {
+            "name": "Cognition",
+            "url": "https://cognition.com/blog",
+            "count": 20
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news",
+            "count": 18
+          },
+          {
+            "name": "LangChain",
+            "url": "https://www.langchain.com/blog",
+            "count": 14
+          },
+          {
+            "name": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/",
+            "count": 11
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog",
+            "count": 10
+          },
+          {
+            "name": "Amp",
+            "url": "https://ampcode.com/chronicle",
+            "count": 5
+          },
+          {
+            "name": "Kiro",
+            "url": "https://kiro.dev/blog/",
+            "count": 4
+          },
+          {
+            "name": "Meta",
+            "url": "https://ai.meta.com/blog/",
+            "count": 4
+          },
+          {
+            "name": "CodeRabbit",
+            "url": "https://www.coderabbit.ai/blog",
+            "count": 3
+          },
+          {
+            "name": "DeepSeek",
+            "url": "https://www.deepseek.com/",
+            "count": 3
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev/blog",
+            "count": 3
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 2
+          },
+          {
+            "name": "Armin Ronacher",
+            "url": "https://lucumr.pocoo.org/",
+            "count": 1
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog",
+            "count": 1
+          },
+          {
+            "name": "MiniMax",
+            "url": "https://www.minimax.io/blog",
+            "count": 1
+          },
+          {
+            "name": "月之暗面",
+            "url": "https://www.kimi.com/blog/",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "title": "国内互联网",
+        "count": 27,
+        "publishers": [
+          {
+            "name": "支付宝",
+            "url": "https://open.alipay.com/",
+            "count": 7
+          },
+          {
+            "name": "阿里",
+            "url": "https://developer.aliyun.com/",
+            "count": 6
+          },
+          {
+            "name": "腾讯",
+            "url": "https://cloud.tencent.com/developer",
+            "count": 4
+          },
+          {
+            "name": "淘宝",
+            "url": "https://developer.alibaba.com/",
+            "count": 3
+          },
+          {
+            "name": "字节跳动",
+            "url": "https://www.bytedance.com/",
+            "count": 2
+          },
+          {
+            "name": "快手",
+            "url": "https://developer.kuaishou.com/",
+            "count": 2
+          },
+          {
+            "name": "百度",
+            "url": "https://cloud.baidu.com/",
+            "count": 2
+          },
+          {
+            "name": "美团",
+            "url": "https://tech.meituan.com/",
+            "count": 1
+          }
+        ]
+      }
+    ]
   },
   "chapters": [
     {

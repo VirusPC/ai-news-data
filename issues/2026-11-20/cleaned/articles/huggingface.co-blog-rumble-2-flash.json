@@ -3,5 +3,8 @@
   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
   "text": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
 }

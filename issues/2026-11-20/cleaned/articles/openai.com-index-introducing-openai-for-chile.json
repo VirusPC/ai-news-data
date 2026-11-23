@@ -3,5 +3,8 @@
   "title": "Introducing OpenAI for Chile",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
 }

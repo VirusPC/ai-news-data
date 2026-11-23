@@ -3,5 +3,8 @@
   "title": "The components of agent memory",
   "date": "2026-11-06",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how \"dreaming\" helps it organize memory and correct mistakes."
 }

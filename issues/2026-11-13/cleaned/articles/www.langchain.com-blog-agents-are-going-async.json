@@ -3,5 +3,8 @@
   "title": "Agents Are Going Async",
   "date": "2026-11-06",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents."
 }

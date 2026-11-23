@@ -3,5 +3,8 @@
   "title": "Overcoming challenges in software factory adoption",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "Warp",
+  "category": "博客",
+  "url": "https://www.warp.dev/blog",
   "text": "Software factory adoption is a people problem too. Learn how to get engineers excited and move agent setups from private laptops to shared team infrastructure."
 }

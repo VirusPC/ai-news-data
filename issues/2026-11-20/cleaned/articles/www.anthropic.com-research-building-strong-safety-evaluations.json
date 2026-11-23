@@ -3,5 +3,8 @@
   "title": "Building strong safety evaluations",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://www.anthropic.com/engineering",
   "text": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences."
 }

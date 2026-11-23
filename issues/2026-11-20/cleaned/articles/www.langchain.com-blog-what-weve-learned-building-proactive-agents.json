@@ -3,5 +3,8 @@
   "title": "What We’ve Learned Building Proactive Agents",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Proactive agents work toward goals in the background and check in when they need you. What we've learned about memory and UX from building GTM Agent and Robin."
 }

@@ -3,5 +3,8 @@
   "title": "From tasks to goals",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "LangChain CEO and Co-founder Harrison Chase shares how we're moving from task-specific agents to goal-focused agents. Learn more."
 }

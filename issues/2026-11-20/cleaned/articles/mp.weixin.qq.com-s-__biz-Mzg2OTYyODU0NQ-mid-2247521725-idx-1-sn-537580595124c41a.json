@@ -3,5 +3,8 @@
   "title": "萧恺：从 Harness 到 Loop，阿福 Agent 小队如何处理持续涌入的线上 Badcase？",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "支付宝",
+  "category": "国内互联网",
+  "url": "https://open.alipay.com/",
   "text": "原创 SEE Conf 组委会 2026-11-16 16:52 浙江 距离 SEE Conf 2026 还有 12 天。 蚂蚁阿福 Harness 架构组负责人将在 SEE Conf 2026「卓越 AI 工程实践」专题给大家带来主题为《从 Harness 到 Loop：阿福 Agent 小队如何处理持续涌入的线上 Badcase》的演讲。 SEE Conf 2026 将于 11 月 28 日在杭州举办，抢票地址：https://seeconf.antgroup.com 肖汉松(萧恺)是蚂蚁阿福 Harness 架构组负责人，参与了阿福从 0 到 1 的建设。长期从事 Agent Harness相关工作，实践方向包括 Agent 强化学习和 Harness Engineering，带领团队研发并开源了 MedResearcher-R1 模型。 蚂蚁阿福上线后，随着用户量增长，线上 badcase 持续增加，依赖人工串联全链路的处理模式已难以应对。为此，蚂蚁阿福团队分两阶段推进：先通过 Harness Engineering 为 Agent 接入开发、部署和评测工具，结合执行与评测约束实现自主修复与验证；再通过 Loop Engineering 将流程组织为“内循环（修复、验证）”与“外循环（发现、归因、分派、回流）”，仅保留异常改派和上线由人工把关。 本次分享，萧恺将结合真实案例，完整展示 badcase 入池、分派、修复与验证的演进实践及人机边界。 「卓越 AI 工程实践」专题介绍 当下 AI 基础模型能力持续提升，考验在于工程落地。模型调优、推理部署、稳定上线、成本管控，每一环都考验硬功夫。 本专题聚焦一线难题，抛开纸面理论，探讨研发范式、复杂 Agent 架构与线上 Badcase，覆盖工具链和客户端工程实践。汇聚蚂蚁、阿里、字节与高校专家的经验，拆解 AI 业务闭环，帮从业者把 Demo 推向高质量上线，让 AI 真正跑起来、用起来、创造价值。 点击下方小程序抢票！ 让我们一起相约 SEE Conf 2026， 创造力复兴， 从你我开始。 阅读原文 跳转微信打开"
 }

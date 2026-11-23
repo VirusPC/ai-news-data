@@ -3,5 +3,8 @@
   "title": "Lessons learned from one million evaluations",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "Evals for a coding agent usually start as a fixed set of tasks scored with a binary pass rate and selected based on what is publicly available. That can work in some cases, but several issues can arise that make this evaluation approach unhelpful. First, as agents and models improve, the pass rate on the fixed set rises, and often the remaining pass rate gaps are due to noise in the benchmark as much as agent and model performance. We call this saturation of a benchmark, and when it happens, the benchmark no longer measures the intended signal. We saw this recently when we added a new model to Kiro. On Terminal Bench 2.1, the pass rate matched our expectations. We knew that Terminal Bench 2.1 was approaching saturation, but assumed that its pass rate would still measure large regression risks. Then we started to hear anecdotes from internal test users that the experience with the new model was worse than with other models. When we took a closer look, we saw that despite the reasonable pass rate, there were tools failing on 40% of their calls because the tool description that had worked for other models caused the new model to call the tools with invalid inputs."
 }

@@ -3,5 +3,8 @@
   "title": "Grok 4.7 is now available in Kiro",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "Model choice is a core part of how we build Kiro. With Grok 4.7, Kiro now supports models from Anthropic, OpenAI, SpaceXSI, and leading open weight providers, all in one place. A diverse lineup lets you pick for capability, speed, and cost on each task, and keeps your workflow steady as the frontier keeps moving."
 }

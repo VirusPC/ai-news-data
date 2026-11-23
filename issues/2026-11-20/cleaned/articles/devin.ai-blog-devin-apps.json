@@ -3,5 +3,8 @@
   "title": "Introducing Devin Apps",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Devin Apps are live, private web applications hosted directly on Devin's cloud computer. Here is how to create, share, and update one."
 }

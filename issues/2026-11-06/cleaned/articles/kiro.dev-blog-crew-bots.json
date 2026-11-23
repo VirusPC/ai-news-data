@@ -3,5 +3,8 @@
   "title": "Introducing bots in Kiro Crew",
   "date": "2026-11-05",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "You’re starting your Tuesday morning by kicking off some agent sessions. One is refactoring your auth module, another is chasing a flaky test, a third is starting to draft out a plan for a database migration required for a new feature launch, and you have one finishing up an oncall summary for your handoff later today. For fun, you decide to start another to research an idea you’ve had for a while, semantic search over your own codebase, and any strong industry examples. You set these in motion before heading to your first call of the day. These should help you get a solid jumpstart on your work when you come back."
 }

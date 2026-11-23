@@ -3,5 +3,8 @@
   "title": "Gemini 4 Carbon is now available in Devin",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Gemini 4 Carbon is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 40.0%, up from Gemini 4 Argon's 26.3%, at a lower cost per task."
 }

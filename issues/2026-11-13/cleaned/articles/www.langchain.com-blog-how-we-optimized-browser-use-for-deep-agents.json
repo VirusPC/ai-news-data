@@ -3,5 +3,8 @@
   "title": "How We Optimized Browser Use for Deep Agents",
   "date": "2026-11-06",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned."
 }

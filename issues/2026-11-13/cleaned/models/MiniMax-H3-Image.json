@@ -29,5 +29,8 @@
   },
   "note": "图像模型。",
   "id": "MiniMax H3-Image",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "MiniMax",
+  "category": "博客",
+  "url": "https://www.minimax.io/blog"
 }

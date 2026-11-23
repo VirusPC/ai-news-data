@@ -148,5 +148,8 @@
   },
   "fetched_at": "2026-11-20T12:55:18Z",
   "id": "Gemini 4 Neon",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "Google",
+  "category": "博客",
+  "url": "https://antigravity.google/blog"
 }

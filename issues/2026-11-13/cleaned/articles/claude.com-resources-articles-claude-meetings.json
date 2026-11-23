@@ -3,5 +3,8 @@
   "title": "Introducing Claude Meetings",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Add Claude to your video call and get the work started while you talk"
 }

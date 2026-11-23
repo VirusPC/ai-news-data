@@ -1,6 +1,9 @@
 {
   "id": "OpenRouter 应用用量",
   "source": "raw/models/openrouter-app-rankings.json",
+  "publisher": "OpenRouter",
+  "category": "模型榜单",
+  "url": "https://openrouter.ai/rankings",
   "publish_date": null,
   "items": [
     {

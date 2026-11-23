@@ -3,5 +3,8 @@
   "title": "An update on our recent security incident",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cursor",
+  "category": "博客",
+  "url": "https://cursor.com/blog",
   "text": "An update on our recent security incident"
 }

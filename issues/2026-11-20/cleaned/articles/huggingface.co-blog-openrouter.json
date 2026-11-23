@@ -3,5 +3,8 @@
   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
   "text": "Hugging Face and OpenRouter join forces to make open-weight models easy to run"
 }

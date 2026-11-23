@@ -3,5 +3,8 @@
   "title": "Gemini 4 Hydrogen is now available in Devin",
   "date": "2026-11-11",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 38.2%, within a point of GPT-6.1 Sol, at about 40% less per task than Gemini 4 Carbon."
 }

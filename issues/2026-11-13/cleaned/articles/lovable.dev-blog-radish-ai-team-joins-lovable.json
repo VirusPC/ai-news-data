@@ -3,5 +3,8 @@
   "title": "The Radish AI team joins Lovable to scale agentic capabilities for businesses",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Lovable",
+  "category": "博客",
+  "url": "https://lovable.dev/blog",
   "text": "Lovable has acquired the team behind Radish AI, an agentic infrastructure platform. Its co-founders join our engineering team in London and Stockholm to build the agent capabilities and infrastructure behind Lovable."
 }

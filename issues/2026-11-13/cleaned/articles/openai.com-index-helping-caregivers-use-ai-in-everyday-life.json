@@ -3,5 +3,8 @@
   "title": "Helping caregivers use AI in everyday life",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
 }

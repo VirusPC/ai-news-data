@@ -3,5 +3,8 @@
   "title": "Managing frontier AI risk: From training to deployment",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
 }

@@ -3,5 +3,8 @@
   "title": "Building always-on agents",
   "date": "2026-11-13",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together."
 }

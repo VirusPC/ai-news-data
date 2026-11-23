@@ -3,5 +3,8 @@
   "title": "Which Claude model should you build with?",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level."
 }

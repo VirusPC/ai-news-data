@@ -3,5 +3,8 @@
   "title": "Building an accounting team with Grok Bot",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "xAI",
+  "category": "博客",
+  "url": "https://x.ai/news",
   "text": "Five Grok Bots at SpaceXSI each own an accounting job end to end, from provisioning a customer account to collecting payment. They only involve a person when the work needs judgment."
 }

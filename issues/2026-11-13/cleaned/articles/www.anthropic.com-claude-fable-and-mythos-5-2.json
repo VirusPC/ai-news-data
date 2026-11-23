@@ -3,5 +3,8 @@
   "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://www.anthropic.com/news",
   "text": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences."
 }

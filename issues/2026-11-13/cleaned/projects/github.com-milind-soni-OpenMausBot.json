@@ -1,5 +1,8 @@
 {
   "id": "https://github.com/milind-soni/OpenMausBot",
   "source": "raw/projects/github-trending-weekly.json",
+  "publisher": "GitHub",
+  "category": "GitHub Trending",
+  "url": "https://github.com/trending?since=weekly",
   "stars": 21900
 }

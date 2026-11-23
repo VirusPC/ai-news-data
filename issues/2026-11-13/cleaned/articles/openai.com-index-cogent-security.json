@@ -3,5 +3,8 @@
   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents."
 }

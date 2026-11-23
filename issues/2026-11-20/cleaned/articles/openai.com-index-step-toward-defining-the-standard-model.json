@@ -3,5 +3,8 @@
   "title": "A step toward defining the Standard Model on a lattice",
   "date": "2026-11-15",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
 }

@@ -3,5 +3,8 @@
   "title": "What Is Eval-Driven Development? How to Improve AI Agents",
   "date": "2026-11-12",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments."
 }

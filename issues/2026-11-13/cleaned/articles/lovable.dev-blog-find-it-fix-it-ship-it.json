@@ -3,5 +3,8 @@
   "title": "Find it, fix it, ship it: building secure apps on Lovable",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Lovable",
+  "category": "博客",
+  "url": "https://lovable.dev/blog",
   "text": "What Lovable handles, flags, and fixes to keep your app secure, and the one thing we still need you to do."
 }

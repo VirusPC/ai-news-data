@@ -1,5 +1,8 @@
 {
   "id": "https://github.com/google-deepmind/mujoco",
   "source": "raw/projects/github-trending-weekly.json",
+  "publisher": "GitHub",
+  "category": "GitHub Trending",
+  "url": "https://github.com/trending?since=weekly",
   "stars": 17808
 }

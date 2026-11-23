@@ -3,5 +3,8 @@
   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
   "text": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases"
 }

@@ -3,5 +3,8 @@
   "title": "Introducing Devin Bots: from tasks to outcomes",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://devin.ai/blog",
   "text": "Introducing Devin Bots: engineering teammates that own your goals and lead teams of Devins to deliver them."
 }

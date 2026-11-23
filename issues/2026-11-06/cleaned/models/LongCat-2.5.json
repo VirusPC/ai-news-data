@@ -1,5 +1,8 @@
 {
   "id": "美团 LongCat-2.5",
   "name": "美团 LongCat-2.5",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "美团",
+  "category": "国内互联网",
+  "url": "https://tech.meituan.com/"
 }

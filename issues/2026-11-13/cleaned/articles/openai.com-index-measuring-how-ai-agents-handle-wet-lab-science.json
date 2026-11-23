@@ -3,5 +3,8 @@
   "title": "Measuring how AI agents handle everyday wet-lab science",
   "date": "2026-11-06",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
 }

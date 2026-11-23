@@ -3,5 +3,8 @@
   "title": "Gemini 4 Carbon, Hydrogen, Decisions API, self-hosted agent sandboxes and more",
   "date": "2026-11-16",
   "source": "raw/articles/feeds.json",
+  "publisher": "philschmid",
+  "category": "博客",
+  "url": "https://www.philschmid.de/",
   "text": "Last week we shipped 7 launches across models, agent infrastructure, benchmarks, and science: two Gemini 4 models, our first Decision Model and API, self-hosted agent sandboxes, a new visual knowledge benchmark, and new robotics and genomics models."
 }

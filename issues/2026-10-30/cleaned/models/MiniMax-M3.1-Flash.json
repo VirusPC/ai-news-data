@@ -31,5 +31,8 @@
     "missing_reason": "没有该期 Artificial Analysis 历史快照。免费档看不到历史排名，本环境也没有 AA_API_KEY。当前目录没有写入。"
   },
   "id": "MiniMax M3.1 Flash（开源）",
-  "source": "raw/models/model-releases.json"
+  "source": "raw/models/model-releases.json",
+  "publisher": "MiniMax",
+  "category": "博客",
+  "url": "https://www.minimax.io/blog"
 }

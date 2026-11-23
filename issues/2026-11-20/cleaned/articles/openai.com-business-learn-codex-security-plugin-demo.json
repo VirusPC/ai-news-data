@@ -3,5 +3,8 @@
   "title": "Explore the Codex Security Plugin",
   "date": "2026-11-19",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
 }

@@ -3,5 +3,8 @@
   "title": "Amp for Windows",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "Amp",
+  "category": "博客",
+  "url": "https://ampcode.com/chronicle",
   "text": "We now have a Windows app: Read the docs, or see all Amp native apps."
 }

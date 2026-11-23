@@ -3,5 +3,8 @@
   "title": "Introducing “Approve for me” in Kiro",
   "date": "2026-11-10",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "Today we’re launching “Approve for me” in Kiro IDE, Kiro CLI, and Kiro Web. You no longer have to choose between approving every action, setting up your own custom permission rules, or turning approvals off. With Approve for me enabled, for actions your rules don’t cover, Kiro runs an LLM review, which currently uses an Anthropic model. Based on the review, Kiro auto-approves the routine ones, blocks ones it judges unsafe, and asks you when it isn’t sure."
 }

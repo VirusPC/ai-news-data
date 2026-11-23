@@ -3,5 +3,8 @@
   "title": "Kiro’s new free trial gives you 500 extra credits",
   "date": "2026-10-27",
   "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
   "text": "Starting on November 1, we’re changing how the Kiro free trial works. If you upgrade to Pro for the first time, the rest of that month is on us. You also get 500 trial credits that you can use any time in the next 12 months. For example, if you upgrade on the 15th, you pay nothing until the first of next month. You get about half a month of Pro credits plus 500 more."
 }

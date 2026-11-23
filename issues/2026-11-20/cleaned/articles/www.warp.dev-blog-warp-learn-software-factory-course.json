@@ -3,5 +3,8 @@
   "title": "Introducing Warp Learn: Build your first software factory",
   "date": "2026-11-19",
   "source": "raw/articles/feeds.json",
+  "publisher": "Warp",
+  "category": "博客",
+  "url": "https://www.warp.dev/blog",
   "text": "Warp Learn is a free, hands-on course that teaches factory engineering: build, measure, and improve your own self-improving software factory with Warp Factories."
 }

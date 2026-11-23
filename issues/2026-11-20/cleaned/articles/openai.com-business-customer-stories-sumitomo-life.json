@@ -3,5 +3,8 @@
   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
   "date": "2026-11-18",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
 }

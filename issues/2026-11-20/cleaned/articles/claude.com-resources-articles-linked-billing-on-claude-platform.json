@@ -3,5 +3,8 @@
   "title": "Linked billing on the Claude Platform",
   "date": "2026-11-17",
   "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
   "text": "Linked billing on the Claude Platform"
 }

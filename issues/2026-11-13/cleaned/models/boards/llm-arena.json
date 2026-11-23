@@ -1,6 +1,9 @@
 {
   "id": "LLM Arena",
   "source": "raw/models/llm-arena-2026-11-11.json",
+  "publisher": "LLM Arena",
+  "category": "模型榜单",
+  "url": "https://arena.ai/",
   "publish_date": "2026-11-11",
   "items": [
     {

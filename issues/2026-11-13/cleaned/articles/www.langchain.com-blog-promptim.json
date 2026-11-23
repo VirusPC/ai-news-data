@@ -3,5 +3,8 @@
   "title": "Promptim: an experimental library for prompt optimization",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
   "text": "Automate prompt engineering with Promptim's optimization library. Save time, improve AI performance, and switch models faster."
 }

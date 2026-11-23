@@ -3,5 +3,8 @@
   "title": "SWE-2 Flash is based on @thinkymachines Inkling-Small, an American model with 276B total and 12B act...",
   "date": "2026-11-04",
   "source": "raw/articles/feeds.json",
+  "publisher": "Cognition",
+  "category": "博客",
+  "url": "https://cognition.com/blog",
   "text": "SWE-2 Flash is based on @thinkymachines Inkling-Small, an American model with 276B total and 12B active parameters. The small size, combined with our highly optimized inference stack allows us to offer it at a 5x lower cost and 3x higher speed than SWE-2. 💬7🔄6❤️232👀42624📊33 ⚡ Powered by xgo.ing"
 }

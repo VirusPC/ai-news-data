@@ -1,6 +1,13 @@
 {
-  "skill": "weekly-ai-blogs-digest",
-  "version": "0.2.0",
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.5"
+  },
+  "routine": {
+    "repo": "VirusPC/edges-brain-viruspc",
+    "commit": "725d78568c3b8ff15b88f7b16bfe15b6906bc086",
+    "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
+  },
   "data": {
     "commit": "ca169d949f7b1b42cd8a9328923b90077e2507fe"
   },
@@ -8,128 +15,184 @@
     "raw": 137,
     "selected": 9
   },
-  "blocks": [
-    {
-      "kind": "raw",
-      "text": "覆盖窗口：2026-10-23 00:00:00 至 2026-10-29 23:59:59（UTC；生成日 2026-10-30，不含当天）。\n\n<!-- provenance\n{\"rules\":{\"repo\":\"VirusPC/edges-brain-viruspc\",\"commit\":\"f800a6055b75ae4a22859d370a1af9d3cd4fdce8\",\"routine\":\".edges/routines/weekly-ai-blogs-digest/INDEX.md\",\"skill\":\"skills/managed/weekly-ai-blogs-digest/SKILL.md\"},\"data\":{\"repo\":\"VirusPC/ai-news-data\",\"commit\":\"ca169d949f7b1b42cd8a9328923b90077e2507fe\",\"path\":\"issues/2026-10-30\",\"kind\":\"tree\"}}\n-->\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "## 一、本周关键词\n\n<!-- keywords-cloud\n[\n  {\n    \"word\": \"software factory\",\n    \"kind\": \"concept\",\n    \"score\": 3,\n    \"mentions\": 2,\n    \"sources\": 2,\n    \"weight\": 2.8,\n    \"theme\": true\n  },\n  {\n    \"word\": \"FrontierCode 2.0\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 2,\n    \"sources\": 1,\n    \"weight\": 2.2\n  },\n  {\n    \"word\": \"AnyDecisionModel\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"AnySpeechRecognizer\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Devin Security 2.0\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"GPT-6.1 Terra\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Granite Switch 4.1.1\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Kimi K3.1 Pro\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"LFM3\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Lumma-Fev-v2\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Mistral Large 4\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Nemotron 3.5 Transcribe\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Project ProtoStar\",\n    \"kind\": \"product\",\n    \"score\": 4,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  },\n  {\n    \"word\": \"Qwen3-TTS\",\n    \"kind\": \"model\",\n    \"score\": 5,\n    \"mentions\": 1,\n    \"sources\": 1,\n    \"weight\": 1.4\n  }\n]\n-->\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "## 二、模型进展\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### LLM Arena\n\n![LLM Arena Top15 2026-10-28](llm-arena-top15-2026-10-28-marked.png)\n\n第一换成 Gemini 4 Carbon (High)。\n\n<!-- chart-meta\n榜单发布日 2026-10-28。红圈：Gemini 4 Carbon (High)。\n-->\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### OpenRouter\n\n![OpenRouter 本周用量 Top 15，2026-10-30](openrouter-usage-top15-2026-10-30-marked.png)\n\n用量第一换成 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 编程用量 Top 15，2026-10-30](openrouter-programming-top15-2026-10-30-marked.png)\n\n这是编程场景的 token 用量，不是质量排名。第一换成 DeepSeek V4.1 Flash 1017。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n![OpenRouter 应用用量 Top 15，2026-10-30](openrouter-apps-top15-2026-10-30-marked.png)\n\n公开应用用量第一换成 Hermes Agent。\n\n<!-- chart-meta\n图中无红圈。\n-->\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "GPT-6.1 Terra"
-    },
-    {
-      "kind": "card",
-      "id": "Kimi K3.1 Pro"
-    },
-    {
-      "kind": "card",
-      "id": "MiniMax M3.1 Flash（开源）"
-    },
-    {
-      "kind": "raw",
-      "text": "## 三、项目开源\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "#### GitHub Trending（weekly / all 前 5）\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/cloudflare/security-audit-skill"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/php/php-src"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/AgriciDaniel/claude-seo"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/pbakaus/impeccable"
-    },
-    {
-      "kind": "card",
-      "id": "https://github.com/multica-ai/andrej-karpathy-skills"
-    },
-    {
-      "kind": "raw",
-      "text": "## 四、精选文章\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国内模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc"
-    },
-    {
-      "kind": "card",
-      "id": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国外模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels"
-    },
-    {
-      "kind": "raw",
-      "text": "### 国外非模型厂\n\n"
-    },
-    {
-      "kind": "card",
-      "id": "https://devin.ai/blog/devin-security-2"
-    },
-    {
-      "kind": "card",
-      "id": "https://www.langchain.com/blog/design-agent"
-    },
-    {
-      "kind": "card",
-      "id": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs"
-    },
-    {
-      "kind": "card",
-      "id": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory"
-    },
-    {
-      "kind": "card",
-      "id": "https://kiro.dev/blog/software-factory-stability"
-    },
-    {
-      "kind": "card",
-      "id": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices"
-    },
-    {
-      "kind": "raw",
-      "text": "## 五、精选推文\n\n"
-    },
-    {
-      "kind": "raw",
-      "text": "## 六、精选播客\n"
-    }
-  ],
+  "window": {
+    "issue": "2026-10-30",
+    "since": "2026-10-23",
+    "until": "2026-10-29"
+  },
+  "sources": {
+    "categories": [
+      {
+        "title": "模型榜单",
+        "count": 65,
+        "publishers": [
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/rankings",
+            "count": 45
+          },
+          {
+            "name": "LLM Arena",
+            "url": "https://arena.ai/",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "title": "GitHub Trending",
+        "count": 40,
+        "publishers": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/trending?since=weekly",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "title": "博客",
+        "count": 125,
+        "publishers": [
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/news/",
+            "count": 22
+          },
+          {
+            "name": "AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/",
+            "count": 20
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog",
+            "count": 19
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news",
+            "count": 13
+          },
+          {
+            "name": "Cognition",
+            "url": "https://cognition.com/blog",
+            "count": 13
+          },
+          {
+            "name": "Manus",
+            "url": "https://manus.im/blog",
+            "count": 6
+          },
+          {
+            "name": "Meta",
+            "url": "https://ai.meta.com/blog/",
+            "count": 5
+          },
+          {
+            "name": "Amp",
+            "url": "https://ampcode.com/chronicle",
+            "count": 4
+          },
+          {
+            "name": "Kiro",
+            "url": "https://kiro.dev/blog/",
+            "count": 4
+          },
+          {
+            "name": "LangChain",
+            "url": "https://www.langchain.com/blog",
+            "count": 4
+          },
+          {
+            "name": "CodeRabbit",
+            "url": "https://www.coderabbit.ai/blog",
+            "count": 3
+          },
+          {
+            "name": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/",
+            "count": 3
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev/blog",
+            "count": 2
+          },
+          {
+            "name": "Armin Ronacher",
+            "url": "https://lucumr.pocoo.org/",
+            "count": 1
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog",
+            "count": 1
+          },
+          {
+            "name": "MiniMax",
+            "url": "https://www.minimax.io/blog",
+            "count": 1
+          },
+          {
+            "name": "Warp",
+            "url": "https://www.warp.dev/blog",
+            "count": 1
+          },
+          {
+            "name": "goose",
+            "url": "https://goose-docs.ai/blog/",
+            "count": 1
+          },
+          {
+            "name": "xAI",
+            "url": "https://x.ai/news",
+            "count": 1
+          },
+          {
+            "name": "月之暗面",
+            "url": "https://www.kimi.com/blog/",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "title": "国内互联网",
+        "count": 12,
+        "publishers": [
+          {
+            "name": "字节跳动",
+            "url": "https://www.bytedance.com/",
+            "count": 3
+          },
+          {
+            "name": "快手",
+            "url": "https://developer.kuaishou.com/",
+            "count": 3
+          },
+          {
+            "name": "淘宝",
+            "url": "https://developer.alibaba.com/",
+            "count": 3
+          },
+          {
+            "name": "百度",
+            "url": "https://cloud.baidu.com/",
+            "count": 1
+          },
+          {
+            "name": "美团",
+            "url": "https://tech.meituan.com/",
+            "count": 1
+          },
+          {
+            "name": "腾讯",
+            "url": "https://cloud.tencent.com/developer",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
   "chapters": [
     {
       "title": "本周关键词"

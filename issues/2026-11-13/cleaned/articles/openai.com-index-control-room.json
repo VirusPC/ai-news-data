@@ -3,5 +3,8 @@
   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
   "date": "2026-11-09",
   "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
   "text": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
 }
