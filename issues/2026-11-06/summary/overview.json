@@ -6,7 +6,7 @@
   "themes": [
     {
       "kind": "model",
-      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍，基座被写成 Thinking Machines 的 Inkling-Small。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，文中写 ExploitGym 相对上一代有 51% 的相对提升。一个把编码模型做便宜，一个要求安全模型留在委托的范围里。",
+      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，基座被写成 Thinking Machines 的 Inkling-Small。价格是更大 SWE-2 的五分之一，速度是 3 倍，当月内对 Devin 的 Pro、Max、Teams 免费。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，ExploitGym 相对上一代有 51% 的相对提升。编码模型被做得更便宜，安全模型被留在委托范围内。",
       "refs": [
         {
           "id": "SWE-2 Flash",
@@ -20,7 +20,7 @@
     },
     {
       "kind": "other",
-      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。Devin Review 2.0 则把和 Devin 一起写代码时的评审设成默认，单次费用被压到几毛美元。原文要解决的是代码写得越快，评审越成为瓶颈。两篇都在把「跑起来之后谁管」从个人电脑里拿出去，一个管运行环境，一个管评审落在哪一次 PR。",
+      "text": "Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。Devin Review 2.0 把和 Devin 一起写代码时的评审设成默认，单次费用被压到几毛美元，因为代码写得越快，评审越成为瓶颈。环境谁来跑、评审落在哪一次一起写出来的代码上，是写得越快越要同时接上的两件事，少一件，下一次 PR 就会卡住。",
       "refs": [
         {
           "id": "https://www.langchain.com/blog/introducing-managed-deep-agents",
@@ -34,7 +34,7 @@
     },
     {
       "kind": "other",
-      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。这和 Deep Agents 上到 LangSmith 是同一类托管，入口在 Kimi 的这篇产品说明里。读的时候把它当成「harness 即服务」的一次落地，而不是另一条模型发布；模型主线里的 SWE-2 Flash 和 GPT-6 Cyber 都没有写这个托管。",
+      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。Deep Agents 上到 LangSmith 时，同样是人写 Agent 做什么、平台负责把它跑在生产里。企业自己的机器不再养这套运行环境，云上的服务和生产平台各自把 harness 接走，运行就不停在企业自己的机器上再单独养着一套环境。",
       "refs": [
         {
           "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
@@ -44,7 +44,7 @@
     },
     {
       "kind": "other",
-      "text": "claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。简介没有写它压进记忆的字段。上面的托管文章在讲运行环境交给谁，这个仓库在讲下一次会话还记不记得上一次。记忆如果只留在个人配置里，换一台机器就断；仓库把它做成可以装回去的东西，和 SWE-2 Flash 的价格、速度无关。简介也没有写这些记忆存在哪。它和托管文章讲的运行环境不是同一件事。",
+      "text": "claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。托管决定这轮跑在谁的环境里，记忆决定下一轮还认不认上一轮的仓库、纠正和结论。会话里做过的事留下来，下一次注入时仓库里的纠正和结论都还在，换机器也不必从头把刚才的操作再讲一遍，仓库里的纠正和结论会跟着进入下一次。换一台机器也不会把这些纠正弄丢，下一次进来还认得出上次那个仓库和结论了。",
       "refs": [
         {
           "id": "https://github.com/thedotmack/claude-mem",
