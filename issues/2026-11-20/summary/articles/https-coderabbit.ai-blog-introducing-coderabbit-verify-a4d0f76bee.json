@@ -1,0 +1,14 @@
+{
+  "id": "https://coderabbit.ai/blog/introducing-coderabbit-verify",
+  "source": "cleaned/articles/https-coderabbit.ai-blog-introducing-coderabbit-verify-a4d0f76bee.json",
+  "title": "Introducing CodeRabbit Verify: Agentic application testing and AI quality assurance",
+  "link": "https://coderabbit.ai/blog/introducing-coderabbit-verify",
+  "sentence": "<mark>CodeRabbit Verify</mark> 进入公开测试，用来检查运行中的应用，而不是只看 diff。",
+  "category": "产品",
+  "company": "CodeRabbit",
+  "sections": {
+    "解决什么问题": "编程智能体提高了改动数量，人工点流程会拖住发布，不测又不知道行为有没有坏。",
+    "如何解决": "Verify 针对一次 PR 或整个代码库检查行为变化，发现功能错误后可以交给 CodeRabbit Agent 或团队自己的编程智能体。",
+    "效果怎样": "文中的演示用优惠券改动跑了三个场景：两处模拟扣款报错，无效券和移除券的场景通过。这是演示应用，没有真实支付。订阅正文在此之后截断。"
+  }
+}

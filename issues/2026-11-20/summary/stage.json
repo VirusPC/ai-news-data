@@ -1,6 +1,6 @@
 {
   "name": "summary",
   "skill": "weekly-ai-blogs-digest",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "path": "skills/managed/weekly-ai-blogs-digest/references/summarize/summarize.md"
 }

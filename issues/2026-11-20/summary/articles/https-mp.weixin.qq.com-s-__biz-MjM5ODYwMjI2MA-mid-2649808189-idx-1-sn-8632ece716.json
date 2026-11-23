@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808189-idx-1-sn-8632ece716.json",
+  "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+  "sentence": "腾讯云开源的 <mark>Octop</mark> 用一名主持人 Agent 拆任务，多名专家 Agent 并行做，用来对照 DeepSeek 的 Super-agent。",
+  "category": "开源",
+  "company": "腾讯",
+  "sections": {
+    "解决什么问题": "一个人通常只能同时盯住三到五个复杂会话，多任务的进度仍压在人的记忆上。",
+    "如何解决": "Super-agent 用 Router 分发、Worker 并行，长任务转后台。Octop 1.0.2 的团队模式则由主持人梳理并分派，专家各自执行。仓库是 github.com/TencentCloud/Octop。",
+    "相关工作": "订阅正文在持久性目标处截断，没有给出 Octop 的并发或耗时数字。"
+  }
+}

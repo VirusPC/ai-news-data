@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/ag-ui-protocol/ag-ui",
-  "source": "raw/projects/github-trending.json",
-  "publisher": "GitHub",
-  "category": "GitHub Trending",
-  "url": "https://github.com/trending?since=weekly"
-}

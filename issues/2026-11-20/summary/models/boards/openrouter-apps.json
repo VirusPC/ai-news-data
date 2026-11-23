@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 应用用量",
   "source": "cleaned/models/boards/openrouter-apps.json",
-  "caption": "这一期的榜单。",
+  "caption": "第一仍是 Hermes Agent，第二仍是 Claude Code，第三仍是 Kilo Code，第四仍是 pi。Strix 从上一期第 9 到第 5，OpenClaw 从第 5 到第 9。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

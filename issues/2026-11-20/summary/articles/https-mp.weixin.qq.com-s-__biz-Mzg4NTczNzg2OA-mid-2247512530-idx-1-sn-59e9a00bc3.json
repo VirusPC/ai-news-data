@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512530-idx-1-sn-59e9a00bc3.json",
+  "title": "AI 写代码越来越快，谁来守住章法？",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512530&idx=1&sn=8b68130297282a0c27a8648c649b22e4",
+  "sentence": "文章用 <mark>Architect.md</mark> 把分层和依赖写成硬约束，并要求编码前先读它。",
+  "category": "实践",
+  "company": "阿里",
+  "sections": {
+    "解决什么问题": "生成变快之后，补丁参数、过长注释和忘了先审查的情况也变多。",
+    "如何解决": "Architect.md 规定基础层和业务层的依赖方向；项目级 CLAUDE.md 要求任何编码任务开始前先读它。报错信息则要写明下一步。",
+    "洞察与启发": "规则要能被检查，不能只留在提示词里。订阅正文在空指针例子处截断，没有给出违规拦截的比例。"
+  }
+}

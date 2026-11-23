@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/mvanhorn/last30days-skill",
-  "source": "cleaned/projects/github.com-mvanhorn-last30days-skill.json",
-  "purpose": "mvanhorn/last30days-skill",
-  "change": "见本期正文。",
-  "text": "#### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)\n\nAgent skill，跨 Reddit、X、YouTube、HN、Polymarket 和网页<mark>调研一个主题并汇总</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>单个模型碰不到 Reddit 评论、X、YouTube 这些各自隔开的来源，搜一个主题时看不到别人正在讨论什么。</p>\n<p><strong>如何解决：</strong>这是一个 Agent skill。Reddit、HN、Polymarket 和 GitHub 不用额外配置就能查；跑一次设置向导后再打开 X、YouTube、TikTok、arXiv 等。它并行去搜，按点赞、投票和 Polymarket 上的真实仓位打分，再收成一份简报。</p>\n<p><strong>效果怎样：</strong>仓库说明没有另报一组准确率。它给出的是按这些平台上的互动收成的一份简报。</p>\n<p><strong>洞察与启发：</strong>单个模型搜不到的，往往不是网页，而是各平台自己的互动：点赞、投票和真实仓位。把这些隔开的来源收成一份简报，比再换一个搜索引擎更靠近别人正在怎么看。</p>\n<p><strong>相关工作：</strong>同期的目标工程说最难补的上下文没写在文档里。这篇是从 Reddit、X 和预测市场把那段还没写进文档的讨论找出来。</p>\n</details>\n\n<br/>\n\n"
-}

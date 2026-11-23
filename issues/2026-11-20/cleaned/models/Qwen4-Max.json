@@ -1,41 +1,13 @@
 {
-  "name": "Qwen4-Max",
+  "id": "Qwen4 Max",
+  "name": "Qwen4 Max",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "千问",
+  "category": "国内互联网",
+  "url": "https://qwen.ai/",
   "release_url": "https://qwen.ai/blog?id=qwen4-max",
-  "openrouter_slug": "qwen/qwen4-max",
-  "provider_used": "Alibaba",
-  "provider_rule": "official",
-  "provider_note": "OpenRouter 上只有官方 Alibaba 一家提供商。",
+  "released": "2026-11-16",
   "price": {
-    "input": 1.425,
-    "output": 4.275,
-    "cache_read": 0.07125,
-    "unit": "USD per million tokens",
-    "source": "openrouter",
-    "provider": "Alibaba",
-    "provider_rule": "official",
-    "discount": 0.05,
-    "fetched_at": "2026-11-20T12:48:26Z",
-    "openrouter_model_page": {
-      "input": 1.425,
-      "output": 4.275,
-      "cache_read": 0.07125,
-      "unit": "USD per million tokens",
-      "source": "openrouter_model_page",
-      "fetched_at": "2026-11-20T12:47:40Z"
-    },
-    "note": "发布原文（https://qwen.ai/blog?id=qwen4-max ，中英正文均已拉取）只写全面下调了 API 定价、并给出单任务均费（中文 26.58 元→11.16 元；英文 $4.43→$1.67），没有给出每百万 token 的输入 / 输出 / 缓存单价，故改用 OpenRouter 官方 Alibaba 端点价。该端点标注 discount=0.05。QwenCloud / 阿里云 Model Studio 文档中的新加坡国际区目录价是输入 $1.5、输出 $4.5、缓存读取 $0.075（每百万 token），与 5% 折扣后的 OpenRouter 价（$1.425 / $4.275 / $0.07125）能对上，但目录价不在发布博文正文里，不作为主字段来源。",
-    "official_list_price_reference": {
-      "input": 1.5,
-      "output": 4.5,
-      "cache_read": 0.075,
-      "unit": "USD per million tokens",
-      "region": "Singapore / International",
-      "source": "QwenCloud and Alibaba Cloud Model Studio docs, not the launch blog body",
-      "urls": [
-        "https://www.qwencloud.com/models/qwen4-max",
-        "https://www.alibabacloud.com/help/en/model-studio/qwen4-max"
-      ]
-    },
     "rank": 69,
     "rank_of": 142,
     "rank_metric": "blended_input_plus_3_output_over_4",
@@ -44,69 +16,17 @@
     "rank_variant": "Qwen4 Max"
   },
   "speed": {
-    "latency_s": 2.5875,
-    "throughput_tps": 42,
-    "source": "openrouter_endpoints",
-    "endpoint": "https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints",
-    "unit_latency": "seconds (converted from OpenRouter latency_last_30m.p50 milliseconds)",
-    "unit_throughput": "tokens/s (OpenRouter throughput_last_30m.p50)",
-    "window": "last_30m",
-    "stat": "p50",
-    "workload": "text_generation",
-    "provider": "Alibaba",
-    "fetched_at": "2026-11-20T12:48:26Z",
-    "endpoints_considered": [
-      {
-        "provider_name": "Alibaba",
-        "tag": "alibaba",
-        "service_tier": null,
-        "latency_s": 2.5875,
-        "throughput_tps": 42,
-        "request_count": 36237
-      }
-    ],
-    "other_endpoints_excluded": [],
     "rank": null,
     "rank_of": null,
     "rank_metric": "latency_p50_s",
     "rank_source": "openrouter_official_standard"
   },
-  "aa": {
-    "intelligence_index": 42.9,
-    "rank": 52,
-    "rank_of": 156,
+  "intelligence": {
+    "index": 42.9,
     "variant": "Qwen4 Max",
-    "aa_slug": "qwen4-max",
-    "variant_reason": "AA 目录中仅有 Qwen4 Max 这一档（slug qwen4-max）。",
-    "rank_method": "competition（同分同名次，下一有效名次跳过）",
-    "catalog_size": 763,
-    "scored_models": 156,
-    "intelligence_index_version": 5,
-    "tier": "free",
-    "endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
-    "coding_index": null,
     "source": "Artificial Analysis",
-    "fetched_at": "2026-11-20T12:50:05Z",
-    "speed_median_aa": {
-      "latency_s": 3.4,
-      "throughput_tps": 58.45,
-      "time_to_first_answer_token_s": 37.62,
-      "source": "aa_free_performance",
-      "note": "Artificial Analysis 全提供商中位数，按该思考档位测量；与 OpenRouter 近 30 分钟路由流量不是同一口径。仅作备选，正文速度以 OpenRouter 为准。"
-    },
-    "other_variants": [],
-    "note": "排名分母是本次免费接口中有 Intelligence Index 分数的模型数（156 / 763）。Pro 接口 /api/v2/language/models 返回 403（需要 Pro 订阅）；任务写的旧路径 /api/v2/data/llms/models 已于 2026-11-04 退役，返回 410。免费接口的 coding_index / agentic_index 在这些模型上均为 null，无法核验厂商自述的 Coding Agent Index。"
-  },
-  "best_for": {
-    "text": "全天候 AI 新同事：适合编程、办公、创作、长程任务执行与成果交付；具备原生视觉和百万 token 上下文。",
-    "source": "release_article",
-    "source_url": "https://qwen.ai/blog?id=qwen4-max",
-    "source_quote": "我们正式发布 Qwen4-Max——与你并肩工作、创作和探索的全天候 AI 新同事。Qwen4-Max 基于 Qwen4 系列全新结构，拥有 2.4 万亿主干参数，具备原生视觉能力，支持百万 token 上下文窗口。Qwen4-Max 以更强的专业工具运用、长程任务执行与成果交付能力，推动真实世界生产力的提升。"
-  },
-  "fetched_at": "2026-11-20T12:55:18Z",
-  "id": "Qwen4-Max",
-  "source": "raw/models/model-releases.json",
-  "publisher": "千问",
-  "category": "国内互联网",
-  "url": "https://qwen.ai/"
+    "version": 5,
+    "rank": 52,
+    "rank_of": 156
+  }
 }

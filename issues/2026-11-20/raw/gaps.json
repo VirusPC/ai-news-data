@@ -1,12 +1,64 @@
 {
   "gaps": [
     {
+      "path": "articles/feeds.json#meta-ai",
+      "reason": "主源 meta-ai 体检为 stopped，最新条目 2026-07-27。备源 meta-ai-rsshub 也是 stopped，最新条目 2026-07-26。列表页 https://ai.meta.com/blog/ 打开后，可见文章日期在 2026-03 至 2026-07，窗口 2026-11-13 至 2026-11-19 内没有可补的条目。上一期同一发文方主源和备源都失败，建议换源。运行时没有改 OPML。"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai-rsshub",
+      "reason": "备源 meta-ai-rsshub 体检为 stopped，最新条目 2026-07-26。主源已失败，这条备源没有并进 feeds.json。"
+    },
+    {
+      "path": "articles/feeds.json#zed",
+      "reason": "主源 zed 体检为 stopped，最新条目 2026-09-16。没有备源。列表页 https://zed.dev/blog 最新一篇是 2026-09-16，窗口内没有可补条目。上一期也失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#jxnl",
+      "reason": "主源 jxnl 体检为 stopped，最新条目 2026-07-05。没有备源。列表页 https://jxnl.co/writing/ 最新一篇是 2026-07-05，窗口内没有可补条目。上一期也失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#qwen-ai-platform",
+      "reason": "主源 qwen-ai-platform 体检为 stopped，最新条目 2026-07-20。没有备源，listUrls 为空。上一期也失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai-research",
+      "reason": "没有 xmlUrl，不是主源抓取对象。列表页 https://research.meta.ai/blog 在窗口 2026-11-13 至 2026-11-19 内没有文章（邻近日期是 2026-11-09 与 2026-11-06，都在窗口之前）。notes 里的 sitemap 只写在 notes 中，没有拉取。"
+    },
+    {
+      "path": "articles/feeds.json#trae",
+      "reason": "没有 xmlUrl。列表页 https://www.trae.ai/blog 返回空列表（Client fetch required，list 为空），窗口内补不到文章。"
+    },
+    {
+      "path": "articles/feeds.json#qoder",
+      "reason": "没有 xmlUrl。列表页 https://qoder.com/blog 能看到标题，但页面没有发布日期，无法判断哪些落在窗口内，不编造日期。"
+    },
+    {
+      "path": "articles/feeds.json#codebuddy",
+      "reason": "没有 xmlUrl。列表页 https://www.codebuddy.ai/blog 读取超时（504 / 连接 30 秒超时），打不开，窗口内补不到文章。"
+    },
+    {
+      "path": "articles/feeds.json#datacamp",
+      "reason": "没有 xmlUrl。直接请求列表页返回 Cloudflare 403。可读渲染里能看到 2026-11-18 与 2026-11-19 的标题，但没有文章 URL，不编造链接，因此没有写入 feeds.json。"
+    },
+    {
+      "path": "articles/feeds.json#latitude",
+      "reason": "没有 xmlUrl。列表页 https://latitude.so/blog 最新可见日期是 2026-09-04，窗口 2026-11-13 至 2026-11-19 内没有文章。"
+    },
+    {
+      "path": "articles/feeds.json#roocode",
+      "reason": "没有 xmlUrl。listUrls 的 https://roocode.com/blog 打开后是 roomote.dev 产品首页，不是带日期的文章列表，窗口内补不到博客条目。"
+    },
+    {
+      "path": "articles/feeds.json#chroma-research",
+      "reason": "没有 xmlUrl。列表页 https://www.trychroma.com/research 最新一篇是 2026-03，窗口内没有文章。"
+    },
+    {
       "path": "projects/releases.json",
-      "reason": "这期快照没有单独的仓库发布记录"
+      "reason": "OPML 和 meta 没有单独的仓库发布记录来源。不编一份空发布列表。"
     },
     {
       "path": "models/openrouter-official-endpoints.json",
-      "reason": "生成日没有留下官方端点目录。本环境没有 OPENROUTER_API_KEY，也没有用 2026-11-22 的端点延迟回填。model-releases.json 里 2026-11-20 已经写上的四条速度是当天的测量，这次没有改。"
+      "reason": "环境变量 OPENROUTER_API_KEY 未设置。按说明不请求端点，也不写 skipped 文件。routine 交接目录里没有这份文件。AA 快照已从交接目录读入，但没有密钥就不拉端点。"
     }
   ]
 }

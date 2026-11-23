@@ -1,0 +1,9 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+  "source": "cleaned/articles/https-www.langchain.com-blog-langsmith-coding-agents-roi-6985c741cc.json",
+  "title": "LangSmith for Coding Agents: Now track spend by outcome",
+  "link": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+  "sentence": "LangSmith 开始把编程智能体的花费记到它们产出的 <mark>pull request</mark> 上。订阅源里只有这一句。",
+  "category": "产品",
+  "company": "LangChain"
+}

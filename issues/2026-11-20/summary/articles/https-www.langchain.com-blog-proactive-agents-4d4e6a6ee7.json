@@ -1,0 +1,9 @@
+{
+  "id": "https://www.langchain.com/blog/proactive-agents",
+  "source": "cleaned/articles/https-www.langchain.com-blog-proactive-agents-4d4e6a6ee7.json",
+  "title": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
+  "link": "https://www.langchain.com/blog/proactive-agents",
+  "sentence": "Managed Deep Agents 的 <mark>Schedules SDK</mark> 把定时运行从单纯的 cron 扩到记忆和分诊。订阅源里只有这一句。",
+  "category": "产品",
+  "company": "LangChain"
+}

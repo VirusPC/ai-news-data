@@ -1,0 +1,9 @@
+{
+  "id": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+  "source": "cleaned/articles/https-claude.dev-blog-how-the-claude-code-team-thinks-about-verificati-567d2c83df.json",
+  "title": "How the Claude Code team thinks about verification",
+  "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+  "sentence": "Claude Code 团队用端到端、属性和差分测试给编程智能体留下可核对的 <mark>证据</mark>，订阅源里只有这一句。",
+  "category": "实践",
+  "company": "Anthropic"
+}

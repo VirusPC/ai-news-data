@@ -1,0 +1,9 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-alerts",
+  "source": "cleaned/articles/https-www.langchain.com-blog-langsmith-alerts-48b8cce7f5.json",
+  "title": "Catch production failures early with LangSmith Alerts",
+  "link": "https://www.langchain.com/blog/langsmith-alerts",
+  "sentence": "LangSmith Alerts 按错误率、运行延迟和反馈分发实时通知。订阅源里只有这一句。",
+  "category": "产品",
+  "company": "LangChain"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "https://devin.ai/blog/nginx2root-java4shell-threats",
+  "source": "cleaned/articles/https-devin.ai-blog-nginx2root-java4shell-threats-7ff45e0686.json",
+  "title": "Checking for NGINX2Root and Java4Shell with Threats in Devin Security",
+  "link": "https://devin.ai/blog/nginx2root-java4shell-threats",
+  "sentence": "Devin Security 的 Threats 用来扫描并修补新披露的 <mark>NGINX2Root</mark> 和 Java4Shell。订阅源里只有这一句，没有漏洞利用步骤。",
+  "category": "产品",
+  "company": "Cognition"
+}

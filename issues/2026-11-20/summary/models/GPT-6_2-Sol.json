@@ -1,0 +1,16 @@
+{
+  "id": "GPT-6.2 Sol",
+  "source": "cleaned/models/GPT-6_2-Sol.json",
+  "price": {
+    "text": "API 每百万 token 输入 2 美元、缓存输入 0.10 美元、输出 10 美元，沿用 GPT-6.1 Sol 的价格。价格排名第 87，共 142 个。",
+    "rank": 87
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "Artificial Analysis 智力指数 57.3，变体是 GPT-6.2 Sol (Max)，156 个有指数的模型里排第 13。",
+    "rank": 13
+  },
+  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 2026-11-17，与 Astra 同一天进入 ChatGPT Work、Codex 和 API。</li>\n<li><strong>定位</strong> 日常工作和多步智能体流程的默认模型，强调同样套餐里能完成更多任务。</li>\n<li><strong>成绩</strong> 标准 API 价格是每百万 token 输入 <mark class=\"note-card-hl\">2</mark> 美元、输出 10 美元，缓存输入 0.10 美元。</li>\n<li><strong>可用</strong> 开发者调用 gpt-6.2-sol。没有第三方速度实测。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">Introducing GPT-6.2 Astra and Sol</a></p>\n</aside>"
+}

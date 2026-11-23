@@ -1,35 +1,20 @@
 {
   "keywords": [
     {
-      "name": "常驻 Agent",
-      "weight": 4.2,
+      "name": "Always-On Agents",
+      "weight": 2.8,
       "targets": [
         "https://claude.com/resources/articles/building-always-on-agents",
-        "https://devin.ai/blog/introducing-devin-bots",
-        "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
-        "https://www.langchain.com/blog/context-engineering-challenges-late-2026"
+        "https://www.langchain.com/blog/proactive-agents"
       ],
       "theme": true
     },
     {
-      "name": "Devin Bots",
-      "weight": 4.4,
-      "targets": [
-        "https://devin.ai/blog/introducing-devin-bots"
-      ]
-    },
-    {
-      "name": "Devin Apps",
-      "weight": 4.4,
-      "targets": [
-        "https://devin.ai/blog/devin-apps",
-        "https://lovable.dev/blog/introducing-drafts"
-      ]
-    },
-    {
       "name": "Gemini 4 Neon",
-      "weight": 4.2,
+      "weight": 4.4,
       "targets": [
+        "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity",
+        "https://devin.ai/blog/gemini-4-neon",
         "Gemini 4 Neon",
         "Artificial Analysis Gemini 4 Neon (Xhigh)",
         "Artificial Analysis Gemini 4 Neon (High)",
@@ -37,18 +22,13 @@
       ]
     },
     {
-      "name": "software factory",
-      "weight": 3,
-      "targets": [
-        "https://www.warp.dev/blog/warp-learn-software-factory-course",
-        "https://www.warp.dev/blog/software-factory-adoption-challenges"
-      ]
-    },
-    {
       "name": "GPT-6.2 Astra",
-      "weight": 2.8,
+      "weight": 3.8,
       "targets": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "Astra for Law 6.2",
         "GPT-6.2 Astra",
+        "GPT-6.2 Sol",
         "Artificial Analysis GPT-6.2 Astra (Max)",
         "Artificial Analysis GPT-6.2 Astra (Xhigh)",
         "Artificial Analysis GPT-6.2 Astra (High)",
@@ -57,27 +37,73 @@
     },
     {
       "name": "GPT-6.2 Sol",
-      "weight": 2.8,
+      "weight": 2.2,
       "targets": [
-        "GPT-6.2 Astra",
+        "GPT-6.2 Sol",
         "Artificial Analysis GPT-6.2 Sol (Max)"
+      ]
+    },
+    {
+      "name": "Astra for Law 6.2",
+      "weight": 1.4,
+      "targets": [
+        "Astra for Law 6.2"
+      ]
+    },
+    {
+      "name": "ChatGPT Wallet",
+      "weight": 1.4,
+      "targets": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ]
+    },
+    {
+      "name": "Claude Code 2.1.323",
+      "weight": 1.4,
+      "targets": [
+        "https://code.claude.com/docs/en/changelog#2-1-323"
+      ]
+    },
+    {
+      "name": "CodeRabbit Verify",
+      "weight": 1.4,
+      "targets": [
+        "https://coderabbit.ai/blog/introducing-coderabbit-verify"
+      ]
+    },
+    {
+      "name": "Data Annotation Queues",
+      "weight": 1.4,
+      "targets": [
+        "https://www.langchain.com/blog/announcing-data-annotation-queue"
+      ]
+    },
+    {
+      "name": "Devin Apps",
+      "weight": 1.4,
+      "targets": [
+        "https://devin.ai/blog/devin-apps"
+      ]
+    },
+    {
+      "name": "Devin Bots",
+      "weight": 1.4,
+      "targets": [
+        "https://devin.ai/blog/introducing-devin-bots"
       ]
     },
     {
       "name": "LoopForge",
       "weight": 1.4,
       "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf",
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c"
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4"
       ]
     },
     {
-      "name": "Warp Learn",
+      "name": "Qwen4 Max",
       "weight": 1.4,
       "targets": [
-        "https://www.warp.dev/blog/factory-engineering-software-factories",
-        "https://www.warp.dev/blog/warp-learn-software-factory-course"
+        "Qwen4 Max"
       ]
     }
   ]

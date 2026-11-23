@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-MzAxNDEwNjk5OQ-mid-2650547008-idx-1-sn-76d9284ddd.json",
+  "title": "Skill 自进化：基于执行轨迹与评测反馈的多代优化实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547008&idx=1&sn=88ed890da980cee1caa6c9c21b90e773",
+  "sentence": "业务 Skill 用黄金评测集和执行轨迹做多代搜索，模型只提出候选，程序决定留不留。",
+  "category": "实践",
+  "company": "大淘宝",
+  "sections": {
+    "解决什么问题": "按失败案例改 SKILL.md，修好一个场景可能伤到另一个，几次修改后也分不清收益来自哪条规则。",
+    "如何解决": "沿 GEPA 的反思搜索，用轨迹和标准答案生成反馈，模型提出受控修改，每个候选做全量评测后才入池。人守业务边界。",
+    "洞察与启发": "文中写明这是结合业务约束的 GEPA 式实现，并不等于原论文的全部规则。订阅正文在全局流程处截断，没有单独的业务收益数字。"
+  }
+}

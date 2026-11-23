@@ -1,0 +1,6 @@
+{
+  "id": "https://github.com/backnotprop/plannotator",
+  "source": "cleaned/projects/backnotprop--plannotator.json",
+  "purpose": "给智能体的计划、产物和 diff 做标注，并把意见一次送回智能体的工作台。",
+  "change": "本周每周总榜 XML 顺序第 1。原文没有星标、许可和仓库发布时间。"
+}

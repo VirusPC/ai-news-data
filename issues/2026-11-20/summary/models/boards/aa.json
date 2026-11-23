@@ -1,8 +1,16 @@
 {
   "id": "Artificial Analysis",
   "source": "cleaned/models/boards/aa.json",
-  "caption": "这一期的榜单。",
-  "highlights": [],
+  "caption": "第一仍是 11 月 9 日发布的 Claude Fable 5.2（Max）。窗口内新进入这张前 15 的是 GPT-6.2 Astra 的 Max、Xhigh、High 和 Medium，Gemini 4 Neon 的 Xhigh 和 High，以及 GPT-6.2 Sol（Max）。上一期在这 15 个里、这一期不在的有 GPT-6 Astra（Xhigh）、GPT-6 Astra（High）、GPT-6.1 Sol（Max）、Claude Sonnet 5.5（Max, Default Fallback）、Gemini 4 Carbon（Low）、Claude Fable 5.2（Medium, Default Fallback）和 Claude Fable 5.2（Low, Default Fallback）。",
+  "highlights": [
+    "GPT-6.2 Astra (Max)",
+    "GPT-6.2 Astra (Xhigh)",
+    "Gemini 4 Neon (Xhigh)",
+    "GPT-6.2 Astra (High)",
+    "Gemini 4 Neon (High)",
+    "GPT-6.2 Sol (Max)",
+    "GPT-6.2 Astra (Medium)"
+  ],
   "arena_publish_date": null,
   "items": [
     {

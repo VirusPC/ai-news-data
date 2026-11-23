@@ -1,29 +1,13 @@
 {
+  "id": "Gemini 4 Neon",
   "name": "Gemini 4 Neon",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "Google",
+  "category": "博客",
+  "url": "https://antigravity.google/blog",
   "release_url": "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity",
-  "openrouter_slug": "google/gemini-4-neon",
-  "provider_used": "Google AI Studio / Google",
-  "provider_rule": "official",
-  "provider_note": "官方提供商有多个标准档端点，速度取这些官方标准档的中位数；未计入 flex / priority / fast / ultrafast。",
+  "released": "2026-11-18",
   "price": {
-    "input": 3,
-    "output": 15,
-    "cache_read": 0.15,
-    "unit": "USD per million tokens",
-    "source": "openrouter",
-    "provider": "Google AI Studio / Google",
-    "provider_rule": "official",
-    "discount": 0,
-    "fetched_at": "2026-11-20T12:48:26Z",
-    "openrouter_model_page": {
-      "input": 3,
-      "output": 15,
-      "cache_read": 0.15,
-      "unit": "USD per million tokens",
-      "source": "openrouter_model_page",
-      "fetched_at": "2026-11-20T12:47:40Z"
-    },
-    "note": "发布原文（Antigravity 博文）只写向付费 Google AI Pro / Ultra 订阅者开放，没有给出每百万 token 单价，故改用 OpenRouter。官方标准档 Google Vertex global 与 Google AI Studio 标价相同，且与模型页标价一致。flex 档约半价，priority 档更高，未采用。",
     "rank": 107,
     "rank_of": 142,
     "rank_metric": "blended_input_plus_3_output_over_4",
@@ -32,124 +16,17 @@
     "rank_variant": "Gemini 4 Neon (Xhigh)"
   },
   "speed": {
-    "latency_s": 3.72925,
-    "throughput_tps": 81.5,
-    "source": "openrouter_endpoints",
-    "endpoint": "https://openrouter.ai/api/v1/models/google/gemini-4-neon/endpoints",
-    "unit_latency": "seconds (converted from OpenRouter latency_last_30m.p50 milliseconds)",
-    "unit_throughput": "tokens/s (OpenRouter throughput_last_30m.p50)",
-    "window": "last_30m",
-    "stat": "p50",
-    "workload": "text_generation",
-    "provider": "Google AI Studio / Google",
-    "fetched_at": "2026-11-20T12:48:26Z",
-    "endpoints_considered": [
-      {
-        "provider_name": "Google AI Studio",
-        "tag": "google-ai-studio",
-        "service_tier": null,
-        "latency_s": 4.396,
-        "throughput_tps": 80,
-        "request_count": 2616
-      },
-      {
-        "provider_name": "Google",
-        "tag": "google-vertex/global",
-        "service_tier": null,
-        "latency_s": 3.0625,
-        "throughput_tps": 83,
-        "request_count": 28367
-      }
-    ],
-    "other_endpoints_excluded": [
-      {
-        "provider_name": "Google AI Studio",
-        "tag": "google-ai-studio/flex",
-        "service_tier": "flex",
-        "reason": "non-standard tier or not official provider",
-        "latency_s": 5.901,
-        "throughput_tps": 74
-      },
-      {
-        "provider_name": "Google",
-        "tag": "google-vertex/global/priority",
-        "service_tier": "priority",
-        "reason": "non-standard tier or not official provider",
-        "latency_s": 2.3475,
-        "throughput_tps": 66
-      },
-      {
-        "provider_name": "Google AI Studio",
-        "tag": "google-ai-studio/priority",
-        "service_tier": "priority",
-        "reason": "non-standard tier or not official provider",
-        "latency_s": 9.3985,
-        "throughput_tps": 74.5
-      }
-    ],
     "rank": null,
     "rank_of": null,
     "rank_metric": "latency_p50_s",
     "rank_source": "openrouter_official_standard"
   },
-  "aa": {
-    "intelligence_index": 61.4,
-    "rank": 6,
-    "rank_of": 156,
+  "intelligence": {
+    "index": 61.4,
     "variant": "Gemini 4 Neon (Xhigh)",
-    "aa_slug": "gemini-4-neon",
-    "variant_reason": "发布原文引用的是 Extra High 思考档的 Intelligence Index，对应 AA 的 Gemini 4 Neon (Xhigh)，slug 为 gemini-4-neon。官方同时写默认思考档是 High。",
-    "rank_method": "competition（同分同名次，下一有效名次跳过）",
-    "catalog_size": 763,
-    "scored_models": 156,
-    "intelligence_index_version": 5,
-    "tier": "free",
-    "endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
-    "coding_index": null,
     "source": "Artificial Analysis",
-    "fetched_at": "2026-11-20T12:50:05Z",
-    "speed_median_aa": {
-      "latency_s": 124.9,
-      "throughput_tps": 136.38,
-      "time_to_first_answer_token_s": 124.9,
-      "source": "aa_free_performance",
-      "note": "Artificial Analysis 全提供商中位数，按该思考档位测量；与 OpenRouter 近 30 分钟路由流量不是同一口径。仅作备选，正文速度以 OpenRouter 为准。"
-    },
-    "other_variants": [
-      {
-        "name": "Gemini 4 Neon (High)",
-        "slug": "gemini-4-neon-high",
-        "intelligence_index": 59.6,
-        "rank": 9,
-        "rank_of": 156
-      },
-      {
-        "name": "Gemini 4 Neon (Medium)",
-        "slug": "gemini-4-neon-medium",
-        "intelligence_index": 54.9,
-        "rank": 19,
-        "rank_of": 156
-      },
-      {
-        "name": "Gemini 4 Neon (Low)",
-        "slug": "gemini-4-neon-low",
-        "intelligence_index": 44.1,
-        "rank": 48,
-        "rank_of": 156
-      }
-    ],
-    "note": "排名分母是本次免费接口中有 Intelligence Index 分数的模型数（156 / 763）。Pro 接口 /api/v2/language/models 返回 403（需要 Pro 订阅）；任务写的旧路径 /api/v2/data/llms/models 已于 2026-11-04 退役，返回 410。免费接口的 coding_index / agentic_index 在这些模型上均为 null，无法核验厂商自述的 Coding Agent Index。"
-  },
-  "best_for": {
-    "text": "介于 Carbon（长程深度）与 Hydrogen（日常快速）之间，适合需要前沿推理又要全天保持速度的编程和 agent 工作流；也可作为规划者，与 Hydrogen 执行者搭配。",
-    "source": "release_article",
-    "source_url": "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity",
-    "source_quote": "Neon hits the sweet spot between Gemini 4 Carbon for your deepest long-horizon projects and Gemini 4 Hydrogen for rapid everyday execution. ... engineered for real-world AI coding and agent harnesses ... Orchestrator uses Neon for upfront planning, architecture, and complex reasoning while handing off routine code edits ... to Hydrogen."
-  },
-  "fetched_at": "2026-11-20T12:55:18Z",
-  "id": "Gemini 4 Neon",
-  "source": "raw/models/model-releases.json",
-  "publisher": "Google",
-  "category": "博客",
-  "url": "https://antigravity.google/blog"
+    "version": 5,
+    "rank": 6,
+    "rank_of": 156
+  }
 }

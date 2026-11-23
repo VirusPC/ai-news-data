@@ -1,0 +1,14 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf",
+  "source": "cleaned/articles/https-mp.weixin.qq.com-s-__biz-Mzk0OTYwNzc3NQ-mid-2247485910-idx-1-sn-3d4dacfc69.json",
+  "title": "DeepSeek 发布全家桶应用 API",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf",
+  "sentence": "DeepSeek 把联网搜索、文件、语音和安全校验收进同一套 <mark>应用 API</mark>，V4.1-Flash 上打开参数就能用。",
+  "category": "产品",
+  "company": "DeepSeek",
+  "sections": {
+    "解决什么问题": "开发者若要复刻 App 里的搜索、读文件和语音，过去得在模型 API 之外再对接一批工具。",
+    "如何解决": "在 Messages、Responses 和 Chat Completions 上打开 deepseek_web_search、deepseek_read_url 等参数，由服务端完成工具调用和上下文拼接；Search、Fetch、OCR、ASR、TTS 也可以单独调用。",
+    "效果怎样": "官方用新 API 做了一份可导入历史对话的前端 Demo，并开源在 deepseek-ai/chat-demo。工具调用另计费，原文说价格见表，但表没有出现在订阅正文里。"
+  }
+}
