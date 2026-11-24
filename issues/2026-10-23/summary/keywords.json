@@ -1,0 +1,66 @@
+{
+  "keywords": [
+    {
+      "name": "何时交给人",
+      "weight": 5,
+      "targets": [
+        "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "https://claude.dev/blog/solving-code-review-at-anthropic",
+        "https://claude.com/resources/articles/claude-duet",
+        "https://cursor.com/blog/agent-sdk"
+      ]
+    },
+    {
+      "name": "技能成标准",
+      "weight": 5,
+      "targets": [
+        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "https://github.com/anthropics/claude-plugins-official",
+        "https://kiro.dev/blog/memory-in-ide-cli",
+        "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents"
+      ]
+    },
+    {
+      "name": "面向 Agent",
+      "weight": 5,
+      "targets": [
+        "MiniMax M3.1 Flash",
+        "DeepSeek V4.1 Flash",
+        "Reflection Beam"
+      ]
+    },
+    {
+      "name": "DeepSeek V4.1 Flash",
+      "weight": 3.8,
+      "targets": [
+        "DeepSeek V4.1 Flash",
+        "OpenRouter 编程用量 DeepSeek V4.1 Flash",
+        "OpenRouter 编程用量 DeepSeek V4.1 Flash 1017",
+        "OpenRouter 本周用量 DeepSeek V4.1 Flash",
+        "OpenRouter 本周用量 DeepSeek V4.1 Flash 1017"
+      ]
+    },
+    {
+      "name": "Claude Duet",
+      "weight": 1.4,
+      "targets": [
+        "https://claude.com/resources/articles/claude-duet"
+      ]
+    },
+    {
+      "name": "MiniMax M3.1 Flash",
+      "weight": 1.4,
+      "targets": [
+        "MiniMax M3.1 Flash"
+      ]
+    },
+    {
+      "name": "Reflection Beam",
+      "weight": 1.4,
+      "targets": [
+        "Reflection Beam"
+      ]
+    }
+  ]
+}

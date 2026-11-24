@@ -1,13 +1,22 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   "themes": [
     {
       "kind": "model",
-      "text": "SWE-2 Flash 在 11 月 4 日进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍。GPT-6 Cyber 面向研究人员划定范围内的漏洞发现和验证，ExploitGym 相对上一代有 51% 的相对提升。美团 LongCat-2.5 总参数 1.6 万亿，每个 token 激活约 480 亿，视觉和文本走同一套 token。腾讯混元 Hy4 同在 11 月 4 日发布，WorkBuddy 自评任务通过率 96.15%。",
+      "tag": "长程操作",
+      "text": "这周模型往长程任务上加眼睛和手，编码则拆出更快的一档。美团 LongCat-2.5 面向长程智能体，视觉和文本走同一套 token，1.6 万亿参数、激活约 480 亿。腾讯混元 Hy4 加上电脑操作并写进 WorkBuddy，任务通过率 96.15%。SWE-2 Flash 进入 Devin Desktop 和 CLI，价格是更大 SWE-2 的五分之一，速度是 3 倍。GPT-6 Cyber 把漏洞发现留在划定范围内，ExploitGym 提升 51%。Gemini Omni 1.2 Flash 的 720p 视频是每秒 0.07 美元。",
       "refs": [
+        {
+          "id": "美团 LongCat-2.5",
+          "label": "美团 LongCat-2.5"
+        },
+        {
+          "id": "腾讯混元 Hy4",
+          "label": "腾讯混元 Hy4"
+        },
         {
           "id": "SWE-2 Flash",
           "label": "SWE-2 Flash"
@@ -17,18 +26,15 @@
           "label": "GPT-6 Cyber"
         },
         {
-          "id": "美团 LongCat-2.5",
-          "label": "美团 LongCat-2.5"
-        },
-        {
-          "id": "腾讯混元 Hy4",
-          "label": "腾讯混元 Hy4"
+          "id": "Gemini Omni 1.2 Flash",
+          "label": "Gemini Omni 1.2 Flash"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Kimi Hosted Agents 把跑 Agent 的 Harness 做成云上的服务，执行环境、会话、工具、权限和中断恢复不用先花几个月自建。Deep Agents 这套开源 harness 放到 LangSmith 上跑，人写 Agent 做什么，平台负责生产环境。Kiro 把一部分自己的代码做成 Lean 模型，96 个候选性质里证明了 70 个，18 个在模型里被证伪并能在代码里复现。",
+      "tag": "生产 Harness",
+      "text": "跑 Agent 的一层这周被收成可以托管、也可以证明的 Harness。Kimi Hosted Agents 把执行环境、会话、工具、权限和中断恢复做成云上的服务，不用先花几个月自建。Deep Agents 这套开源 harness 放到 LangSmith 上跑，人写 Agent 做什么，平台负责生产环境。Kiro 把一部分自己的代码做成 Lean 模型，96 个候选性质里证明了 70 个，18 个在模型里被证伪并能在代码里复现。Warp 写明用一串提示把云 Agent 串起来，撑不起要审计、要测、要能改的工厂。",
       "refs": [
         {
           "id": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
@@ -41,24 +47,33 @@
         {
           "id": "https://kiro.dev/blog/harness-properties-in-lean",
           "label": "Kiro"
+        },
+        {
+          "id": "https://www.warp.dev/blog/build-production-software-factory",
+          "label": "Warp"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Devin Review 2.0 把和 Devin 一起写代码时的 PR 评审设成默认。文中称自 8 月以来单次评审成本降了 82%，一次大约 0.25 到 0.75 美元，修掉一个 bug 的客户平均成本约 2.25 美元。message threads 让长会话不必每轮重发全部历史，公开测试里对话只发送一次，之后只传增量。claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。",
+      "tag": "会话可续",
+      "text": "长会话和评审都在把每次从头来拿掉。message threads 让长会话不必每轮重发全部历史，公开测试里对话只发送一次，之后只传增量。Devin Review 2.0 把和 Devin 一起写代码时的 PR 评审设成默认，文中称自 8 月以来单次评审成本降了 82%，一次大约 0.25 到 0.75 美元。claude-mem 把 Agent 每次会话做了什么压成记忆，下次再注回去。hallmark 则把反 AI 味的设计约束做成技能，带进 Claude Code、Cursor 和 Codex 的下一轮。",
       "refs": [
-        {
-          "id": "https://devin.ai/blog/devin-review-2",
-          "label": "Devin Review 2.0"
-        },
         {
           "id": "https://claude.com/resources/articles/message-threads",
           "label": "message threads"
         },
         {
+          "id": "https://devin.ai/blog/devin-review-2",
+          "label": "Devin Review 2.0"
+        },
+        {
           "id": "https://github.com/thedotmack/claude-mem",
           "label": "claude-mem"
+        },
+        {
+          "id": "https://github.com/Nutlope/hallmark",
+          "label": "hallmark"
         }
       ]
     }

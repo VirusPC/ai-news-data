@@ -2,33 +2,45 @@
   "keywords": [
     {
       "name": "常驻 Agent",
-      "weight": 4.2,
+      "weight": 5,
       "targets": [
         "https://claude.com/resources/articles/building-always-on-agents",
         "https://devin.ai/blog/introducing-devin-bots",
         "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
         "https://www.langchain.com/blog/context-engineering-challenges-late-2026"
-      ],
-      "theme": true
-    },
-    {
-      "name": "Devin Bots",
-      "weight": 4.4,
-      "targets": [
-        "https://devin.ai/blog/introducing-devin-bots"
       ]
     },
     {
-      "name": "Devin Apps",
-      "weight": 4.4,
+      "name": "进入工作流",
+      "weight": 5,
       "targets": [
-        "https://devin.ai/blog/devin-apps",
-        "https://lovable.dev/blog/introducing-drafts"
+        "Gemini 4 Neon",
+        "GPT-6.2 Astra",
+        "Qwen4-Max"
+      ]
+    },
+    {
+      "name": "软件工厂",
+      "weight": 5,
+      "targets": [
+        "https://www.warp.dev/blog/factory-engineering-software-factories",
+        "https://www.warp.dev/blog/warp-learn-software-factory-course",
+        "https://www.warp.dev/blog/software-factory-adoption-challenges"
+      ]
+    },
+    {
+      "name": "验证评测",
+      "weight": 5,
+      "targets": [
+        "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+        "https://kiro.dev/blog/1m-evals-lessons",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+        "https://github.com/alibaba/open-code-review"
       ]
     },
     {
       "name": "Gemini 4 Neon",
-      "weight": 4.2,
+      "weight": 3.8,
       "targets": [
         "Gemini 4 Neon",
         "Artificial Analysis Gemini 4 Neon (Xhigh)",
@@ -37,16 +49,8 @@
       ]
     },
     {
-      "name": "software factory",
-      "weight": 3,
-      "targets": [
-        "https://www.warp.dev/blog/warp-learn-software-factory-course",
-        "https://www.warp.dev/blog/software-factory-adoption-challenges"
-      ]
-    },
-    {
       "name": "GPT-6.2 Astra",
-      "weight": 2.8,
+      "weight": 3.8,
       "targets": [
         "GPT-6.2 Astra",
         "Artificial Analysis GPT-6.2 Astra (Max)",
@@ -56,28 +60,35 @@
       ]
     },
     {
-      "name": "GPT-6.2 Sol",
-      "weight": 2.8,
+      "name": "LoopForge",
+      "weight": 3,
       "targets": [
-        "GPT-6.2 Astra",
-        "Artificial Analysis GPT-6.2 Sol (Max)"
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
+        "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf"
       ]
     },
     {
-      "name": "LoopForge",
-      "weight": 1.4,
+      "name": "Devin Apps",
+      "weight": 2.8,
       "targets": [
-        "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485910&idx=1&sn=529f50ba3b37e39319dad1faf7a122cf",
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808189&idx=1&sn=bde97fbc46f8cb2e118267dce763042c"
+        "https://devin.ai/blog/devin-apps",
+        "https://lovable.dev/blog/introducing-drafts"
       ]
     },
     {
       "name": "Warp Learn",
-      "weight": 1.4,
+      "weight": 2.2,
       "targets": [
         "https://www.warp.dev/blog/factory-engineering-software-factories",
         "https://www.warp.dev/blog/warp-learn-software-factory-course"
+      ]
+    },
+    {
+      "name": "Devin Bots",
+      "weight": 1.4,
+      "targets": [
+        "https://devin.ai/blog/introducing-devin-bots"
       ]
     }
   ]
