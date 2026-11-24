@@ -21,6 +21,47 @@
       "theme": true
     },
     {
+      "name": "按任务分档",
+      "weight": 5,
+      "targets": [
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2",
+        "Gemini 4 Hydrogen",
+        "Grok 4.7",
+        "Qwen4-Max 预览版",
+        "LongCat-2.5",
+        "MiniMax H3-Image"
+      ]
+    },
+    {
+      "name": "并行交接",
+      "weight": 5,
+      "targets": [
+        "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
+        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+        "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
+        "https://kiro.dev/blog/model-cascade"
+      ]
+    },
+    {
+      "name": "浏览器上手",
+      "weight": 5,
+      "targets": [
+        "https://github.com/vercel-labs/agent-browser",
+        "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+        "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents"
+      ]
+    },
+    {
+      "name": "账号隔离",
+      "weight": 5,
+      "targets": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+        "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
+      ]
+    },
+    {
       "name": "Claude Fable 5.2",
       "weight": 5,
       "targets": [

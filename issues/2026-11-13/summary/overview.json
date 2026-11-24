@@ -1,12 +1,13 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   "themes": [
     {
       "kind": "model",
-      "text": "Claude Fable 5.2 与 Claude Mythos 5.2 在 11 月 9 日同一篇公告里面向艰难的技术工作，输入每百万 token 8 美元，输出 40 美元，另有更贵的 fast mode。Gemini 4 Hydrogen 这周进入 Antigravity，也从 11 月 11 日起可在 Devin 里使用。Qwen4-Max 预览版登上阿里 Token Plan，正式上线还在后面。美团 LongCat-2.5 于 11 月 10 日以 MIT 开源，总参数 1.6 万亿，上下文一百万。",
+      "tag": "按任务分档",
+      "text": "这周模型按任务分档，并放进已经在跑的 Agent。Claude Fable 5.2 与 Claude Mythos 5.2 面向艰难的技术工作，输入每百万 token 8 美元、输出 40 美元。Gemini 4 Hydrogen 进入 Antigravity，也可在 Devin 里使用。Grok 4.7 可在 Kiro 使用。Qwen4-Max 预览版先登上阿里 Token Plan。LongCat-2.5 以 MIT 开源，面向长程 Agent，上下文一百万。MiniMax H3-Image 开放权重，10 秒内生成 4096×4096。",
       "refs": [
         {
           "id": "Claude Fable 5.2",
@@ -21,18 +22,27 @@
           "label": "Gemini 4 Hydrogen"
         },
         {
+          "id": "Grok 4.7",
+          "label": "Grok 4.7"
+        },
+        {
           "id": "Qwen4-Max 预览版",
           "label": "Qwen4-Max 预览版"
         },
         {
           "id": "LongCat-2.5",
           "label": "LongCat-2.5"
+        },
+        {
+          "id": "MiniMax H3-Image",
+          "label": "MiniMax H3-Image"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "/swarm 用只追加的共享消息板，把规划、实现和验证拆到互相隔离的 git worktree，空闲的工人不耗 token。Orchestrator 让 Gemini 4 Carbon 和 Gemini 4 Hydrogen 在同一条轨迹上交接，Terminal-Bench 4.1 上成功率接近 Carbon，平均少用 24% 额度、快 19%。百度把研发 Loop 每轮上下文从约 84k token 削到 28k，读文件放到子任务，主会话只收回结论。",
+      "tag": "并行交接",
+      "text": "人不再当调度员，难易不同的活在同一条轨迹上交接。/swarm 用只追加的共享消息板，把规划、实现和验证拆到互相隔离的 git worktree，空闲的工人不耗 token。Orchestrator 让 Gemini 4 Carbon 和 Gemini 4 Hydrogen 交接，Terminal-Bench 4.1 上成功率接近 Carbon，平均少用 24% 额度、快 19%。百度把研发 Loop 每轮上下文从约 84k token 削到 28k，读文件放到子任务，主会话只收回结论。Kiro Auto 用模型级联，内部评测里约五分之四的任务没有交接。",
       "refs": [
         {
           "id": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
@@ -45,12 +55,17 @@
         {
           "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607822&idx=1&sn=aff3817a60d009e1427b8ea14823c07a",
           "label": "研发 Loop"
+        },
+        {
+          "id": "https://kiro.dev/blog/model-cascade",
+          "label": "Kiro Auto"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "AgentCore 的 Web Search API 用一次 InvokeWebSearch 返回 Amazon 自己索引里的结果，查询留在 AWS 里。新一代 Runtime 仍是每个会话一台 Firecracker microVM，启动最多快 15 倍，算力最多到原来的 4 倍，空等不再按始终开着的沙箱计费。A2A 把企业账号里的 LangChain 编排器和另一账号的 Strands Agent 接起来，两边不共享密钥。",
+      "tag": "账号隔离",
+      "text": "跨账号跑 Agent，密钥和查询不再混在一处。Web Search API 用一次 InvokeWebSearch 返回 Amazon 自己索引里的结果，查询留在 AWS 里。新一代 Runtime 仍是每个会话一台 Firecracker microVM，启动最多快 15 倍，算力最多到原来的 4 倍，空等不再按始终开着的沙箱计费。A2A 把企业账号里的 LangChain 编排器和另一账号的 Strands Agent 接起来，两边不共享密钥。",
       "refs": [
         {
           "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
@@ -68,7 +83,8 @@
     },
     {
       "kind": "other",
-      "text": "agent-browser 给 AI Agent 一条浏览器自动化命令行，这周周榜写着 4,601 stars this week。LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 Stagehand，再用轨迹和评测去调。Managed Deep Agents v0.10 也加上浏览器，没有 API 的网站可以打开，要登录时把窗口交给人。",
+      "tag": "浏览器上手",
+      "text": "没有 API 的网站，Agent 开始自己打开浏览器。agent-browser 给 AI Agent 一条浏览器自动化命令行，这周周榜写着 4,601 stars this week。LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Stagehand，再用轨迹和评测去调。Managed Deep Agents v0.10 也加上浏览器，要登录时把窗口交给人，并让子 Agent 可以异步跑。",
       "refs": [
         {
           "id": "https://github.com/vercel-labs/agent-browser",

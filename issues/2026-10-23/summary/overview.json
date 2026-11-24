@@ -1,12 +1,13 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   "themes": [
     {
       "kind": "model",
-      "text": "MiniMax M3.1 Flash 面向 Agent 任务、编程、Computer Use 和网络安全。10 月 19 日这次更新把线上推理速度提到大约原来的 3 倍，使用成本降低 70%，输入每百万 token 1 元、输出 4 元。DeepSeek V4.1 Flash 从 10 月 17 日起切进网页、App 和 API，缩短任务时间和输出长度，并开放自研搜索 API。Reflection Beam 以 Apache 2.0 放出，给要自己管部署的 Agent 编码用。",
+      "tag": "面向 Agent",
+      "text": "这周模型往 Agent 循环里收：更快、输出更短，或把权重交给自己部署。MiniMax M3.1 Flash 面向 Agent 任务、编程、Computer Use 和网络安全，10 月 19 日把线上推理速度提到大约原来的 3 倍，使用成本降低 70%，输入每百万 token 1 元、输出 4 元。DeepSeek V4.1 Flash 从 10 月 17 日起切进网页、App 和 API，缩短任务时间和输出长度，并开放自研搜索 API。Reflection Beam 以 Apache 2.0 放出，部署由使用方自己管，供 Agent 编码用。",
       "refs": [
         {
           "id": "MiniMax M3.1 Flash",
@@ -24,7 +25,8 @@
     },
     {
       "kind": "other",
-      "text": "主循环里堆太多子 Agent，成本和延迟上去，质量却不一定更好。Anthropic 给了一份流程，判断哪些该折回主循环。代码评审面对的是人已经逐行看不完的变更量，所以先把覆盖和深度做够，再把人还要看多久压到不增加回滚和事故的下限。Claude Duet 在研究预览里接着做离开期间的任务，需要人看的事送过来，动手之前先问。Duet 先对美国的 Pro、Max、Ultra 开候补。评审这边缺的是人的注意力，不是再接一个评审模型。",
+      "tag": "何时交给人",
+      "text": "子 Agent 不是越多越好。Anthropic 写了一份判断：哪些该折回主循环，把上下文和工具逐步展开，质量和延迟可以一起好。代码评审面对的是人已经逐行看不完的变更量，先把覆盖和深度做够，再把人还要看多久压下去，同时不让回滚和事故变多。Claude Duet 在研究预览里接着做离开期间的任务，需要人看的事送过来，动手之前先问。Cursor 的 Agent SDK 把评审、合规和事故调查定义成按事件干活的代码，好贴团队自己的流程，而不是别人的产品流程。",
       "refs": [
         {
           "id": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
@@ -37,12 +39,17 @@
         {
           "id": "https://claude.com/resources/articles/claude-duet",
           "label": "Claude Duet"
+        },
+        {
+          "id": "https://cursor.com/blog/agent-sdk",
+          "label": "Agent SDK"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Anthropic 把 Agent Skills 捐给 Agentic AI Foundation，文中称已有 70 多个平台接入，包括 ChatGPT、Cursor、GitHub Copilot 和 VS Code。scientific-agent-skills 给 Agent 准备了 177 个可直接用的科学技能，claude-plugins-official 是 Anthropic 维护的 Claude Code 插件目录。",
+      "tag": "技能成标准",
+      "text": "专用流程这周在变成可以跨产品带走的标准。Anthropic 把 Agent Skills 捐给 Agentic AI Foundation，已有 70 多个平台接入，包括 ChatGPT、Cursor 和 VS Code。scientific-agent-skills 准备了 177 个科学技能，claude-plugins-official 是 Claude Code 的插件目录。Kiro 在 IDE 和 CLI 里记下做法和已经否掉的路。LangSmith LLM Gateway 在运行时限花费、做回退，并把敏感字段挡在模型外面。",
       "refs": [
         {
           "id": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
@@ -55,6 +62,14 @@
         {
           "id": "https://github.com/anthropics/claude-plugins-official",
           "label": "claude-plugins-official"
+        },
+        {
+          "id": "https://kiro.dev/blog/memory-in-ide-cli",
+          "label": "Kiro"
+        },
+        {
+          "id": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+          "label": "LangSmith LLM Gateway"
         }
       ]
     }

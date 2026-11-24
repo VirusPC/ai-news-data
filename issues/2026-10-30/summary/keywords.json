@@ -4,10 +4,47 @@
       "name": "software factory",
       "weight": 2.8,
       "targets": [
-        "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
-        "https://kiro.dev/blog/software-factory-stability"
+        "https://kiro.dev/blog/software-factory-stability",
+        "https://www.warp.dev/blog/7-ways-to-build-a-software-factory"
       ],
       "theme": true
+    },
+    {
+      "name": "共用一套",
+      "weight": 5,
+      "targets": [
+        "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
+        "https://kiro.dev/blog/software-factory-stability",
+        "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+        "https://www.langchain.com/blog/design-agent"
+      ]
+    },
+    {
+      "name": "可复核发现",
+      "weight": 5,
+      "targets": [
+        "https://devin.ai/blog/devin-security-2",
+        "https://github.com/cloudflare/security-audit-skill",
+        "https://github.com/pbakaus/impeccable",
+        "https://github.com/multica-ai/andrej-karpathy-skills"
+      ]
+    },
+    {
+      "name": "长程可部署",
+      "weight": 5,
+      "targets": [
+        "Kimi K3.1 Pro",
+        "MiniMax M3.1 Flash（开源）",
+        "GPT-6.1 Terra"
+      ]
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "weight": 2.2,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc",
+        "Kimi K3.1 Pro"
+      ]
     },
     {
       "name": "Devin Security 2.0",
@@ -24,11 +61,10 @@
       ]
     },
     {
-      "name": "Kimi K3.1 Pro",
+      "name": "MiniMax M3.1 Flash（开源）",
       "weight": 1.4,
       "targets": [
-        "Kimi K3.1 Pro",
-        "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487748&idx=1&sn=ceec50327d6be7c1e07203c9306c9ebc"
+        "MiniMax M3.1 Flash（开源）"
       ]
     },
     {

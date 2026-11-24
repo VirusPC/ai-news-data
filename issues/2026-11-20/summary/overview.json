@@ -1,12 +1,13 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   "themes": [
     {
       "kind": "model",
-      "text": "Gemini 4 Neon 写进 Antigravity，放在 Carbon 的长程和 Hydrogen 的日常之间，向付费的 AI Pro 和 Ultra 开放桌面、CLI 和 IDE。GPT-6.2 Astra 进入 ChatGPT Work、Codex 和 API。CodeRabbit 复测里它在 83 个已知问题中抓到 58 个，评论从 331 条涨到 847 条，精度从 21.7% 降到 12.2%。Qwen4-Max 正式上线，2.4 万亿参数的 MoE，官方称比 Qwen3.8-Max 最多少用约 50% token。",
+      "tag": "进入工作流",
+      "text": "模型这周往已经在用的工作流里走，不是只多一个聊天入口。Gemini 4 Neon 放在 Carbon 的长程和 Hydrogen 的日常之间，向 AI Pro 和 Ultra 开放桌面、CLI 和 IDE，编排里可以做规划。GPT-6.2 Astra 进入 ChatGPT Work、Codex 和 API。CodeRabbit 复测里 83 个已知问题抓到 58 个，评论从 331 条涨到 847 条，精度从 21.7% 降到 12.2%。Qwen4-Max 正式上线，2.4 万亿参数，官方称比 Qwen3.8-Max 少用约 50% token。",
       "refs": [
         {
           "id": "Gemini 4 Neon",
@@ -24,11 +25,12 @@
     },
     {
       "kind": "other",
-      "text": "常驻 Agent 大部分时间在睡，零件是事件收件箱、计时器、记忆、权限和发件箱。记忆只存别处查不到的东西，高风险动作先挂起，等回复变成新的事件。Devin Bots 持有要守住的结果，并行带着多个 Devin，用测试、录屏和每日报告决定下一步；文中的内部例子是 Android 应用、页面跳动和游戏工作室。主动 Agent 的触发可以是外部事件、人定的日程，或它自己定的跟进，复核放进 Slack。",
+      "tag": "常驻 Agent",
+      "text": "常驻靠事件叫醒，不是把进程挂着。Building always-on agents 把零件写成事件收件箱、计时器、记忆、权限和发件箱：大部分时间在睡，记忆只存别处查不到的东西，高风险动作先挂起，等回复变成新的事件。Devin Bots 持有要守住的结果，并行带着多个 Devin，用测试、录屏和每日报告决定下一步。主动 Agent 的触发可以是外部事件、人定的日程，或它自己定的跟进，复核放进 Slack。context engineering 还列出记什么、异步完成怎么通知这些没有通用解法的难处。",
       "refs": [
         {
           "id": "https://claude.com/resources/articles/building-always-on-agents",
-          "label": "常驻 Agent"
+          "label": "Building always-on agents"
         },
         {
           "id": "https://devin.ai/blog/introducing-devin-bots",
@@ -37,20 +39,25 @@
         {
           "id": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
           "label": "主动 Agent"
+        },
+        {
+          "id": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
+          "label": "context engineering"
         }
       ]
     },
     {
       "kind": "other",
-      "text": "Claude Code 团队把验证写成端到端、性质和差分测试，改动不能改判定自己的检查。Kiro 从一百万次评测里看到，固定题集加二元通过率会饱和，工具用错、变慢或变贵都可以不影响通过率。LoopForge 把验收放进云上的共享工作区，小改动直接提合并请求，大需求走客观门禁。open-code-review 用确定流程加 LLM 按行评论，同一模型下用掉的 token 大约是通用 Agent 的九分之一。",
+      "tag": "验证评测",
+      "text": "验证从改动能否自证，扩到评测会不会把变慢和变贵当成通过。Claude Code 团队把验证写成端到端、性质和差分测试，改动不能改判定自己的检查。Kiro 从一百万次评测里看到，固定题集加二元通过率会饱和，工具用错、变慢或变贵都可以不影响通过率。LoopForge 把验收放进云上的共享工作区，小改动直接提合并请求，大需求走客观门禁。open-code-review 用确定流程加 LLM 按行评论，同一模型下用掉的 token 大约是通用 Agent 的九分之一。",
       "refs": [
         {
           "id": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
-          "label": "端到端"
+          "label": "Claude Code"
         },
         {
           "id": "https://kiro.dev/blog/1m-evals-lessons",
-          "label": "固定题集"
+          "label": "Kiro"
         },
         {
           "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808207&idx=1&sn=2e8dc64891bdc8488ea11e48c33711b4",
@@ -64,15 +71,16 @@
     },
     {
       "kind": "other",
-      "text": "Warp Learn 是一门免费动手课，教人用 Warp 做、量、改自己的 software factory。工程重心从写实现转到那套让 Agent 写实现的系统：何时找人、能碰哪些密钥和 skill、怎样在找人之前自己验证。人和 Agent 共用一套云端配置。推广时的两头阻力是这个词像流水线，以及每人自选的模型和 skill 到了账单和安全上就不可控。迁移会暂时变慢，长期则不必维持上百套个人环境。",
+      "tag": "软件工厂",
+      "text": "工程重心从写实现转到那套让 Agent 写实现的系统。factory engineer 要设计的是何时找人、能碰哪些密钥和 skill、怎样在找人之前自己验证，人和 Agent 共用一套云端配置。Warp Learn 是一门免费动手课，教人用 Warp 做、量、改自己的 software factory。推广时的两头阻力是这个词像流水线，以及每人自选的模型和 skill 到了账单和安全上就不可控。迁移会暂时变慢，长期则不必维持上百套个人环境。",
       "refs": [
+        {
+          "id": "https://www.warp.dev/blog/factory-engineering-software-factories",
+          "label": "factory engineer"
+        },
         {
           "id": "https://www.warp.dev/blog/warp-learn-software-factory-course",
           "label": "Warp Learn"
-        },
-        {
-          "id": "https://www.warp.dev/blog/factory-engineering-software-factories",
-          "label": "让 Agent 写实现"
         },
         {
           "id": "https://www.warp.dev/blog/software-factory-adoption-challenges",
