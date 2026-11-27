@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MjM5ODYwMjI2MA-mid-2649808160-idx-1-sn-330f5030d5f14f0a.json",
   "title": "码住！WorkBuddy压箱底的7个值得装的Skill",
   "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4",
-  "sentence": "WorkBuddy 这篇点了 7 个 skill，其中有让 Agent 自己操作浏览器的 agent-browser，也有 <mark>Agent Memory</mark>。 订阅源里只有这些。",
+  "lede": "WorkBuddy 这篇点了 7 个 skill，其中有让 Agent 自己操作浏览器的 agent-browser，也有 <mark class=\"note-card-hl\">Agent Memory</mark>。 订阅源里只有这些。",
   "category": "产品",
   "company": "腾讯",
-  "text": "#### &lt;产品&gt;&lt;腾讯&gt;[码住！WorkBuddy压箱底的7个值得装的Skill](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808160&idx=1&sn=330f5030d5f14f0a2676f9e681fd5bc4)\n\nWorkBuddy 这篇点了 7 个 skill，其中有让 Agent 自己操作浏览器的 agent-browser，也有 <mark>Agent Memory</mark>。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "WorkBuddy 用户需要知道哪些 skill 值得装。",
+    "如何解决": "这篇点了 7 个 skill，包括让 Agent 自己操作浏览器的 agent-browser，也有 <mark class=\"note-card-hl\">Agent Memory</mark>。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "值得装的 skill 里，既有操作浏览器的 agent-browser，也有 Agent Memory 这类记忆能力。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

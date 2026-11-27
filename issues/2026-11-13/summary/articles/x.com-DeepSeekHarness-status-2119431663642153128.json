@@ -3,14 +3,14 @@
   "source": "cleaned/articles/x.com-DeepSeekHarness-status-2119431663642153128.json",
   "title": "Growing Together with Our Plugin Community",
   "link": "https://x.com/DeepSeekHarness/status/2119431663642153128",
-  "sentence": "补录。DeepSeek Harness 用插件把产品交给社区扩展，截至 11 月 4 日官方 API 日活 <mark>154 万</mark>。 这是补录，日期仍是原发日。",
+  "lede": "补录。DeepSeek Harness 用插件把产品交给社区扩展，截至 11 月 4 日官方 API 日活 <mark class=\"note-card-hl\">154 万</mark>。 这是补录，日期仍是原发日。",
   "category": "产品",
   "company": "DeepSeek",
-  "text": "#### &lt;产品&gt;&lt;DeepSeek&gt;[Growing Together with Our Plugin Community](https://x.com/DeepSeekHarness/status/2119431663642153128)\n\n补录。DeepSeek Harness 用插件把产品交给社区扩展，截至 11 月 4 日官方 API 日活 <mark>154 万</mark>。 这是补录，日期仍是原发日。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>通用能力留在 Harness 里，行业和个人的工作流需要别人按自己的经验做成插件。</p>\n<p><strong>如何解决：</strong>内置功能也可以被第三方插件换掉。文中举了创作工作台、设计、上下文观察和论文阅读四类插件，并准备官方插件市场。</p>\n<p><strong>效果怎样：</strong>截至 11 月 4 日，官方 API 口径的日活约 154 万，日 token 约 92 万亿；第三方插件约 3.5 万个，约 60% 的活跃用户做过或装过至少一个。</p>\n<p><strong>洞察与启发：</strong>插件还参差不齐。作者支持计划的具体规则要等正式发布，这里不把尚未落地的额度写成已经可以领。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "通用能力留在 Harness 里，行业和个人的工作流需要别人按自己的经验做成插件。",
     "如何解决": "内置功能也可以被第三方插件换掉。文中举了创作工作台、设计、上下文观察和论文阅读四类插件，并准备官方插件市场。",
     "效果怎样": "截至 11 月 4 日，官方 API 口径的日活约 154 万，日 token 约 92 万亿；第三方插件约 3.5 万个，约 60% 的活跃用户做过或装过至少一个。",
-    "洞察与启发": "插件还参差不齐。作者支持计划的具体规则要等正式发布，这里不把尚未落地的额度写成已经可以领。"
+    "洞察与启发": "插件还参差不齐。作者支持计划的具体规则要等正式发布，这里不把尚未落地的额度写成已经可以领。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

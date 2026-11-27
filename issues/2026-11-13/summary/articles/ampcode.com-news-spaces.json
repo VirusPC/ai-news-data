@@ -3,14 +3,14 @@
   "source": "cleaned/articles/ampcode.com-news-spaces.json",
   "title": "Spaces",
   "link": "https://ampcode.com/news/spaces",
-  "sentence": "Amp 的 Space 是和一个 Agent 的对话，这个 Agent 负责拉起并协调其他 Agent，人不用再自己管一堆线程。",
+  "lede": "Amp 的 Space 是和一个 Agent 的对话，这个 Agent 负责拉起并协调其他 Agent，人不用再自己管一堆线程。",
   "category": "产品",
   "company": "Amp",
-  "text": "#### &lt;产品&gt;&lt;Amp&gt;[Spaces](https://ampcode.com/news/spaces)\n\nAmp 的 Space 是和一个 Agent 的对话，这个 Agent 负责拉起并协调其他 Agent，人不用再自己管一堆线程。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>线程一多，人就回到自己当调度员的位置，既要看全局，又要能钻进某一条。</p>\n<p><strong>如何解决：</strong>一个 Space 里有一个负责派发的 Agent。团队把反馈、缺陷和想法丢进同一个 Space，需要说话时用评论，准备好了再叫 Amp。发布也可以留在一个 Space 里滚动、看外部反馈并修问题。</p>\n<p><strong>效果怎样：</strong>文中写的是团队自己用来做 Spaces 和发 service accounts 的用法，没有一组对外指标。</p>\n<p><strong>洞察与启发：</strong>人站在更高一层看许多 Agent，而不是每个线程都亲手打开。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "线程一多，人就回到自己当调度员的位置，既要看全局，又要能钻进某一条。",
     "如何解决": "一个 Space 里有一个负责派发的 Agent。团队把反馈、缺陷和想法丢进同一个 Space，需要说话时用评论，准备好了再叫 Amp。发布也可以留在一个 Space 里滚动、看外部反馈并修问题。",
     "效果怎样": "文中写的是团队自己用来做 Spaces 和发 service accounts 的用法，没有一组对外指标。",
-    "洞察与启发": "人站在更高一层看许多 Agent，而不是每个线程都亲手打开。"
+    "洞察与启发": "人站在更高一层看许多 Agent，而不是每个线程都亲手打开。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

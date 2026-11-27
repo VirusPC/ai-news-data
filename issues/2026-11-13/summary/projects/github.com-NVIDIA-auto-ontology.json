@@ -1,7 +1,19 @@
 {
   "id": "https://github.com/NVIDIA/auto-ontology",
   "source": "cleaned/projects/github.com-NVIDIA-auto-ontology.json",
+  "title": "NVIDIA / auto-ontology",
+  "link": "https://github.com/NVIDIA/auto-ontology",
+  "lede": "在数据上建语义图和推理层的 Python 框架，用来做可解释的查询和检索。 当时的 weekly 快照写着 5,802 stars this week，星标 12376。",
+  "category": "开源",
+  "company": "NVIDIA",
   "purpose": "在数据上建语义图和推理层的 Python 框架，用来做可解释的查询和检索。",
   "change": "当时的 weekly 快照写着 5,802 stars this week，星标 12376。",
-  "text": "#### [NVIDIA / auto-ontology](https://github.com/NVIDIA/auto-ontology)\n\n在数据上建语义图和推理层的 Python 框架，用来做可解释的查询和检索。\n\n当时的 weekly 快照写着 5,802 stars this week，星标 12376。\n"
+  "sections": {
+    "解决什么问题": "要在数据上做可解释的查询和检索。",
+    "如何解决": "auto-ontology 是一个 Python 框架，在数据上建语义图和推理层。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "可解释性被放在架构层：语义图加推理层，查询和检索都建立在这上面。",
+    "相关工作": "本期正文没有列出相关工作。"
+  },
+  "stars": 12376
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro-dev-blog-private-networks.json",
   "title": "Kiro cloud sessions now reach private networks",
   "link": "https://kiro.dev/blog/private-networks",
-  "sentence": "Kiro 云会话现在可以接入管理员配置的 VPC，从而访问私有网络里的仓库、测试和构建服务。",
+  "lede": "Kiro 云会话现在可以挂到管理员预先配置的 <mark class=\"note-card-hl\">VPC</mark> 上，从而够到私有网络里的包源、数据库和构建服务器。",
   "category": "产品",
   "company": "Kiro",
-  "text": "#### [Kiro cloud sessions now reach private networks](https://kiro.dev/blog/private-networks)\n\nKiro 云会话现在可以挂到管理员预先配置的 <mark class=\"note-card-hl\">VPC</mark> 上，从而够到私有网络里的包源、数据库和构建服务器。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>以前云会话只能访问公网和 Kiro 自己的服务，Agent 没法从内网镜像装依赖、对没有公网地址的数据库跑集成测试，或调用只在边界内响应的构建服务器。</p>\n<p><strong>如何解决：</strong>管理员注册一次 VPC 后，之后创建的云会话会自动加入。除了 Kiro 自身流量以外，Agent 的上网也从这条 VPC 出去，由企业网络决定它能访问什么。该能力面向使用 IAM Identity Center 配置的 Enterprise 方案。</p>\n<p><strong>效果怎样：</strong>这是能力开通说明，没有公布延迟或采用数字。能确认的是：私网访问和出网路径都改由企业自己的 VPC 控制，而不再依赖 Kiro 一侧的例外名单。</p>\n<p><strong>洞察与启发：</strong>云端编码 Agent 要进入企业，先要解决的不是模型更强，而是它能不能站在公司现有网络边界里面工作。</p>\n<p><strong>相关工作：</strong>同一周 Amazon Bedrock 发布 Trusted Access API，从模型调用的企业保障一侧补安全边界；Kiro 这篇则补的是运行环境如何进入私网。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "以前云会话只能访问公网和 Kiro 自己的服务，Agent 没法从内网镜像装依赖、对没有公网地址的数据库跑集成测试，或调用只在边界内响应的构建服务器。",
+    "如何解决": "管理员注册一次 VPC 后，之后创建的云会话会自动加入。除了 Kiro 自身流量以外，Agent 的上网也从这条 VPC 出去，由企业网络决定它能访问什么。该能力面向使用 IAM Identity Center 配置的 Enterprise 方案。",
+    "效果怎样": "这是能力开通说明，没有公布延迟或采用数字。能确认的是：私网访问和出网路径都改由企业自己的 VPC 控制，而不再依赖 Kiro 一侧的例外名单。",
+    "洞察与启发": "云端编码 Agent 要进入企业，先要解决的不是模型更强，而是它能不能站在公司现有网络边界里面工作。",
+    "相关工作": "同一周 Amazon Bedrock 发布 Trusted Access API，从模型调用的企业保障一侧补安全边界；Kiro 这篇则补的是运行环境如何进入私网。"
+  }
 }

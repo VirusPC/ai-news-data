@@ -3,10 +3,9 @@
   "source": "cleaned/articles/x.com-DeepSeekHarness-status-2116857257245987236.json",
   "title": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
   "link": "https://x.com/DeepSeekHarness/status/2116857257245987236",
-  "sentence": "补录。DeepSeek 把持续在线、能并行做多件复杂事的 Agent 叫做 <mark>Super-agent</mark>，靠系统架构而不是一轮 ReAct 凑齐连续、高产、主动和常驻。 这是补录，日期仍是原发日。",
+  "lede": "补录。DeepSeek 把持续在线、能并行做多件复杂事的 Agent 叫做 <mark class=\"note-card-hl\">Super-agent</mark>，靠系统架构而不是一轮 ReAct 凑齐连续、高产、主动和常驻。 这是补录，日期仍是原发日。",
   "category": "架构",
   "company": "DeepSeek",
-  "text": "#### &lt;架构&gt;&lt;DeepSeek&gt;[Exploring Super-agent Design: Towards a More Autonomous Agent System](https://x.com/DeepSeekHarness/status/2116857257245987236)\n\n补录。DeepSeek 把持续在线、能并行做多件复杂事的 Agent 叫做 <mark>Super-agent</mark>，靠系统架构而不是一轮 ReAct 凑齐连续、高产、主动和常驻。 这是补录，日期仍是原发日。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>单会话 Agent 做完一件事还行，人要同时盯多件事时，注意力先到顶；本地会话一离线，任务也停。</p>\n<p><strong>如何解决：</strong>Router 层只负责对人说话和派发，Worker 层用隔离上下文执行；事件先过滤再订阅直达，上下文按 Inline 与 Spill 按需召回，长时间工具改成异步 start，计算和状态放进云端，执行环境留在原来的机器上，外面再加一个 Watchdog。</p>\n<p><strong>效果怎样：</strong>文中的合成实验里，Super-agent 的任务完成时间 p50 是 12.4 分钟、p95 是 15.7 分钟；Router 在决策到达率从约 1 次到约 40 次每分钟时，摊到每次决策的推理时间从 6.4 秒降到 1.6 秒。作者写明这是指示性结果。</p>\n<p><strong>洞察与启发：</strong>会话不该再是用户要自己管理的单位。模型和系统要一起设计，安全上还不能让端上的凭证进模型上下文。</p>\n<p><strong>相关工作：</strong>文中点了 Anthropic 把大脑和手拆开的做法，以及原型仓库 dsh-superagent-prototype。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "单会话 Agent 做完一件事还行，人要同时盯多件事时，注意力先到顶；本地会话一离线，任务也停。",
     "如何解决": "Router 层只负责对人说话和派发，Worker 层用隔离上下文执行；事件先过滤再订阅直达，上下文按 Inline 与 Spill 按需召回，长时间工具改成异步 start，计算和状态放进云端，执行环境留在原来的机器上，外面再加一个 Watchdog。",

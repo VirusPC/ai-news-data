@@ -3,8 +3,14 @@
   "source": "cleaned/articles/langchain-com-blog-langsmith-tool-gateway.json",
   "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
   "link": "https://www.langchain.com/blog/langsmith-tool-gateway",
-  "sentence": "LangSmith Tool Gateway 把工具的发现、身份和策略收成一处，避免每个 Agent 重复配置。",
+  "lede": "LangSmith 推出 <mark class=\"note-card-hl\">Tool Gateway</mark>：工具只需注册一次，再按工具包和策略把访问范围发给不同 Agent。",
   "category": "产品",
   "company": "LangChain",
-  "text": "#### [LangSmith Tool Gateway: Secure, governed tool use for agents](https://www.langchain.com/blog/langsmith-tool-gateway)\n\nLangSmith 推出 <mark class=\"note-card-hl\">Tool Gateway</mark>：工具只需注册一次，再按工具包和策略把访问范围发给不同 Agent。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>每个新 Agent 都要单独接工具、单独做身份和权限，安全侧很难看清谁能调用什么，Agent 一多就会重复劳动。</p>\n<p><strong>如何解决：</strong>Tool Gateway 作为工具发现和访问的统一入口：可用 URL 注册任意 MCP 服务器，或打开 Google、Salesforce、GitHub 等内置服务器。工具包把一组工具发布在单个 URL 上，Agent 只能看到其中的工具；工具很多时可用搜索模式按任务加载。每次调用映射为“以用户身份”或“以 Agent 身份”，前者走用户在身份提供商中的凭证，后者走管理员配置的 agent auth 或共享 profile。管理员还可以为工具使用和审批设置策略。</p>\n<p><strong>效果怎样：</strong>这是产品发布说明，强调新 Agent 可以更快接入、安全侧也能看清访问范围。官方没有给出延迟或采用量的统一数字，但把身份解析和按需加载写成减少重复开发的主要收益。</p>\n<p><strong>洞察与启发：</strong>工具治理一旦离开单个 Agent，就需要一个真正的网关：注册、范围、身份和审批都要能被看见，而不能再靠每个项目自己写胶水。</p>\n<p><strong>相关工作：</strong>Anthropic 同期的 Skills over MCP 让服务器携带技能和长任务能力；阿里的智能体身份与授权文章则从生态底座讨论同类问题。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "每个新 Agent 都要单独接工具、单独做身份和权限，安全侧很难看清谁能调用什么，Agent 一多就会重复劳动。",
+    "如何解决": "Tool Gateway 作为工具发现和访问的统一入口：可用 URL 注册任意 MCP 服务器，或打开 Google、Salesforce、GitHub 等内置服务器。工具包把一组工具发布在单个 URL 上，Agent 只能看到其中的工具；工具很多时可用搜索模式按任务加载。每次调用映射为“以用户身份”或“以 Agent 身份”，前者走用户在身份提供商中的凭证，后者走管理员配置的 agent auth 或共享 profile。管理员还可以为工具使用和审批设置策略。",
+    "效果怎样": "这是产品发布说明，强调新 Agent 可以更快接入、安全侧也能看清访问范围。官方没有给出延迟或采用量的统一数字，但把身份解析和按需加载写成减少重复开发的主要收益。",
+    "洞察与启发": "工具治理一旦离开单个 Agent，就需要一个真正的网关：注册、范围、身份和审批都要能被看见，而不能再靠每个项目自己写胶水。",
+    "相关工作": "Anthropic 同期的 Skills over MCP 让服务器携带技能和长任务能力；阿里的智能体身份与授权文章则从生态底座讨论同类问题。"
+  }
 }

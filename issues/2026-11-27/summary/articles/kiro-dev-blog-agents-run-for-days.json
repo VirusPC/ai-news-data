@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro-dev-blog-agents-run-for-days.json",
   "title": "Your agents run for days: now Kiro CLI keeps up",
   "link": "https://kiro.dev/blog/agents-run-for-days",
-  "sentence": "Kiro CLI 把长会话的内存增长压住，并让提示符在长时间运行后仍跟得上打字。",
+  "lede": "Kiro CLI 针对可以连续跑上好几天的 Agent 会话，重做了内存和提示符性能，避免再用重启来换内存。",
   "category": "产品",
   "company": "Kiro",
-  "text": "#### [Your agents run for days: now Kiro CLI keeps up](https://kiro.dev/blog/agents-run-for-days)\n\nKiro CLI 针对可以连续跑上好几天的 Agent 会话，重做了内存和提示符性能，避免再用重启来换内存。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>会话已经可以连续进行数小时甚至数天，再并开多个会话时，CLI 自己的内存和打字延迟会先撑不住。作者曾看到 kiro-cli 的 Bun 进程在长会话里到约 3 GB，输入也会在长回复后落后。</p>\n<p><strong>如何解决：</strong>近期轮次仍留在内存里，更早的已完成轮次归档到磁盘，需要时再取回。这样既能保留完整对话，又不必一直占着全部上下文。同时他们缩小了安装包，并修了启动时对大型可执行文件做哈希带来的等待。</p>\n<p><strong>效果怎样：</strong>在模拟 21 天使用的工作负载里，第 21 天内存是 <mark class=\"note-card-hl\">193.5 MB</mark>，而不是原来的 370.5 MB，而且不再继续增长。更重的四周运行峰值为 270.0 MB，结束时 174.9 MB。提示符重绘的 p95 从 276.9 毫秒降到 35.4 毫秒，约快 7.8 倍。作者还在 24 GB 的 MacBook Pro 上同时开着 15 个长会话。macOS 安装包下载从约 960 MB 降到 358.2 MB，安装体积从约 1.8 GB 降到 654.6 MB。</p>\n<p><strong>洞察与启发：</strong>当 Agent 会话开始按天计算，CLI 就不再只是一个启动器，它的内存曲线和输入延迟会直接决定你能并开多少个有用的会话。</p>\n<p><strong>相关工作：</strong>同一周腾讯 EROX 从沙箱和镜像分发一侧解决“工作区如何快速恢复”，Kiro 则从本机 CLI 一侧解决“会话如何长期开着”。两边都在处理长任务的状态成本。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "会话已经可以连续进行数小时甚至数天，再并开多个会话时，CLI 自己的内存和打字延迟会先撑不住。作者曾看到 kiro-cli 的 Bun 进程在长会话里到约 3 GB，输入也会在长回复后落后。",
+    "如何解决": "近期轮次仍留在内存里，更早的已完成轮次归档到磁盘，需要时再取回。这样既能保留完整对话，又不必一直占着全部上下文。同时他们缩小了安装包，并修了启动时对大型可执行文件做哈希带来的等待。",
+    "效果怎样": "在模拟 21 天使用的工作负载里，第 21 天内存是 <mark class=\"note-card-hl\">193.5 MB</mark>，而不是原来的 370.5 MB，而且不再继续增长。更重的四周运行峰值为 270.0 MB，结束时 174.9 MB。提示符重绘的 p95 从 276.9 毫秒降到 35.4 毫秒，约快 7.8 倍。作者还在 24 GB 的 MacBook Pro 上同时开着 15 个长会话。macOS 安装包下载从约 960 MB 降到 358.2 MB，安装体积从约 1.8 GB 降到 654.6 MB。",
+    "洞察与启发": "当 Agent 会话开始按天计算，CLI 就不再只是一个启动器，它的内存曲线和输入延迟会直接决定你能并开多少个有用的会话。",
+    "相关工作": "同一周腾讯 EROX 从沙箱和镜像分发一侧解决“工作区如何快速恢复”，Kiro 则从本机 CLI 一侧解决“会话如何长期开着”。两边都在处理长任务的状态成本。"
+  }
 }

@@ -1,7 +1,19 @@
 {
   "id": "https://github.com/milind-soni/OpenMausBot",
   "source": "cleaned/projects/github.com-milind-soni-OpenMausBot.json",
+  "title": "milind-soni / OpenMausBot",
+  "link": "https://github.com/milind-soni/OpenMausBot",
+  "lede": "开源的 Grok Bot 替代，机器人可以使用一台虚拟机。 当时的 weekly 快照写着 9,104 stars this week，星标 21900。",
+  "category": "开源",
+  "company": "milind-soni",
   "purpose": "开源的 Grok Bot 替代，机器人可以使用一台虚拟机。",
   "change": "当时的 weekly 快照写着 9,104 stars this week，星标 21900。",
-  "text": "#### [milind-soni / OpenMausBot](https://github.com/milind-soni/OpenMausBot)\n\n开源的 Grok Bot 替代，机器人可以使用一台虚拟机。\n\n当时的 weekly 快照写着 9,104 stars this week，星标 21900。\n"
+  "sections": {
+    "解决什么问题": "想要一个开源的 Grok Bot 替代。",
+    "如何解决": "OpenMausBot 是开源替代，机器人可以使用一台虚拟机。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "weekly 快照写着 9,104 stars this week、星标 21900，这个开源替代受到的关注不低。",
+    "相关工作": "本期正文没有列出相关工作。"
+  },
+  "stars": 21900
 }

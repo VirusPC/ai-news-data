@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-context-engineering-deep-agents-remember.json",
   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
   "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
-  "sentence": "长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。 订阅源里只有这些。",
+  "lede": "长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。 订阅源里只有这些。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context](https://www.langchain.com/blog/context-engineering-deep-agents-remember)\n\n长跑的 Agent 会因为上下文堆满而变差。卸载、摘要、skill、子 Agent 和记忆，是为了把窗口留给还在用的东西。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "长跑 Agent 的上下文会堆满，表现随之变差。",
+    "如何解决": "靠卸载、摘要、skill、子 Agent 和记忆这些手段，把窗口留给还在用的东西。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "上下文窗口是稀缺资源，这几件手段都为同一件事：把窗口留给还在用的东西。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

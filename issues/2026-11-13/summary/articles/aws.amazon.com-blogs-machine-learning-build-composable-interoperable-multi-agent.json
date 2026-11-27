@@ -3,14 +3,14 @@
   "source": "cleaned/articles/aws.amazon.com-blogs-machine-learning-build-composable-interoperable-multi-agent.json",
   "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
   "link": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
-  "sentence": "这篇用 A2A 把企业账号里的 LangChain 编排器和另一账号里的 Strands Agent 接起来，两边不共享密钥。",
+  "lede": "这篇用 A2A 把企业账号里的 LangChain 编排器和另一账号里的 Strands Agent 接起来，两边不共享密钥。",
   "category": "架构",
   "company": "AWS",
-  "text": "#### &lt;架构&gt;&lt;AWS&gt;[Build composable, interoperable multi-agent systems with A2A on AWS](https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/)\n\n这篇用 A2A 把企业账号里的 LangChain 编排器和另一账号里的 Strands Agent 接起来，两边不共享密钥。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>跨组织的 Agent 要互相发现、交任务，又不能绑死在同一个框架上，也不该为每个客户写一套对接。</p>\n<p><strong>如何解决：</strong>企业侧编排器和上下文 Agent 跑在 ECS Fargate 上，SaaS 侧合规 Agent 跑在对方账号的 AgentCore 上。启动时读取对方的 Agent Card，按其中的 skill 生成工具。认证用各自的 Cognito 用户池和双向 OAuth，入驻时只交换公开地址和 client id。企业侧上下文 Agent 用的是 a2a-sdk 1.2.2。</p>\n<p><strong>效果怎样：</strong>文中讲的是一套可部署的参考结构和端到端测试步骤，没有报一组业务指标。</p>\n<p><strong>洞察与启发：</strong>技能是注册上去的。已经在跑的 Agent 不用为了加一个技能而改掉。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "跨组织的 Agent 要互相发现、交任务，又不能绑死在同一个框架上，也不该为每个客户写一套对接。",
     "如何解决": "企业侧编排器和上下文 Agent 跑在 ECS Fargate 上，SaaS 侧合规 Agent 跑在对方账号的 AgentCore 上。启动时读取对方的 Agent Card，按其中的 skill 生成工具。认证用各自的 Cognito 用户池和双向 OAuth，入驻时只交换公开地址和 client id。企业侧上下文 Agent 用的是 a2a-sdk 1.2.2。",
     "效果怎样": "文中讲的是一套可部署的参考结构和端到端测试步骤，没有报一组业务指标。",
-    "洞察与启发": "技能是注册上去的。已经在跑的 Agent 不用为了加一个技能而改掉。"
+    "洞察与启发": "技能是注册上去的。已经在跑的 Agent 不用为了加一个技能而改掉。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

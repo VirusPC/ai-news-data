@@ -1,7 +1,19 @@
 {
   "id": "https://github.com/cloudflare/security-audit-skill",
   "source": "cleaned/projects/github.com-cloudflare-security-audit-skill.json",
+  "title": "cloudflare / security-audit-skill",
+  "link": "https://github.com/cloudflare/security-audit-skill",
+  "lede": "给编程 Agent 用的安全审计 skill，分阶段产出可机器读取、并经独立核验的发现。 当时的 weekly 快照写着 10,700 stars this week，星标 71435。",
+  "category": "开源",
+  "company": "cloudflare",
   "purpose": "给编程 Agent 用的安全审计 skill，分阶段产出可机器读取、并经独立核验的发现。",
   "change": "当时的 weekly 快照写着 10,700 stars this week，星标 71435。",
-  "text": "#### [cloudflare / security-audit-skill](https://github.com/cloudflare/security-audit-skill)\n\n给编程 Agent 用的安全审计 skill，分阶段产出可机器读取、并经独立核验的发现。\n\n当时的 weekly 快照写着 10,700 stars this week，星标 71435。\n"
+  "sections": {
+    "解决什么问题": "编程 Agent 的安全审计发现，需要可机器读取、可独立核验。",
+    "如何解决": "这个 skill 分阶段做安全审计，产出机器可读并经独立核验的发现。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "weekly 快照写着 10,700 stars this week、星标 71435；发现被要求机器可读、独立核验，先要经得起复查。",
+    "相关工作": "本期正文没有列出相关工作。"
+  },
+  "stars": 71435
 }

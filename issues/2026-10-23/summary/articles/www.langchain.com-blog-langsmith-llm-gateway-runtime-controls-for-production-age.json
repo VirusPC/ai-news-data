@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-langsmith-llm-gateway-runtime-controls-for-production-age.json",
   "title": "LangSmith LLM Gateway: Runtime Controls for Agents",
   "link": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
-  "sentence": "&lt;产品&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents) 一个网关管多家模型，在运行时限花费、做回退，并把敏感字段挡在模型外面。 完整总结 解决什么问题： 生产 Agent",
+  "lede": "一个网关管多家模型，在运行时限花费、做回退，并把敏感字段挡在模型外面。",
   "category": "产品",
   "company": "LangChain",
-  "text": "#### &lt;产品&gt;&lt;LangChain&gt;[LangSmith LLM Gateway: Runtime Controls for Agents](https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents)\n\n一个网关管多家模型，在运行时限花费、做回退，并把敏感字段挡在模型外面。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>生产 Agent 换供应商、限流和挡住密钥，不该散落在每次调用里。</p>\n<p><strong>如何解决：</strong>LLM Gateway 以公开测试提供统一入口、花费和速率限制、模型回退，以及把 PII 和密钥从请求里抹掉。</p>\n<p><strong>效果怎样：</strong>文中没有给出延迟或费用的对照数字。</p>\n<p><strong>洞察与启发：</strong>控制面放在运行时，而不是再包一层只能选一家模型的 SDK。</p>\n<p><strong>相关工作：</strong>Cursor 的 Agent SDK 管 Agent 怎么定义；这篇管模型调用怎么被拦住。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "生产 Agent 换供应商、限流和挡住密钥，不该散落在每次调用里。",
+    "如何解决": "LLM Gateway 以公开测试提供统一入口、花费和速率限制、模型回退，以及把 PII 和密钥从请求里抹掉。",
+    "效果怎样": "文中没有给出延迟或费用的对照数字。",
+    "洞察与启发": "控制面放在运行时，而不是再包一层只能选一家模型的 SDK。",
+    "相关工作": "Cursor 的 Agent SDK 管 Agent 怎么定义；这篇管模型调用怎么被拦住。"
+  }
 }

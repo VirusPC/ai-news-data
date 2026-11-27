@@ -3,14 +3,14 @@
   "source": "cleaned/articles/aws.amazon.com-blogs-machine-learning-introducing-the-web-search-api-on-amazon-b.json",
   "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
   "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
-  "sentence": "AgentCore 的 Web Search API 用一次 <mark>InvokeWebSearch</mark> 返回 Amazon 自己索引里的结果，不必先建 Gateway。",
+  "lede": "AgentCore 的 Web Search API 用一次 <mark class=\"note-card-hl\">InvokeWebSearch</mark> 返回 Amazon 自己索引里的结果，不必先建 Gateway。",
   "category": "产品",
   "company": "AWS",
-  "text": "#### &lt;产品&gt;&lt;AWS&gt;[Introducing the Web Search API on Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/)\n\nAgentCore 的 Web Search API 用一次 <mark>InvokeWebSearch</mark> 返回 Amazon 自己索引里的结果，不必先建 Gateway。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 要回答训练数据里没有的近事。原来的网页搜索走 AgentCore Gateway，适合平台组共享一套策略，对只想在自己的循环里调一次搜索的代码太重。</p>\n<p><strong>如何解决：</strong>调用 bedrock-agentcore 数据面的 InvokeWebSearch，用现有 IAM 和 SigV4 签名。可以按域名和发布时间过滤。查询留在 AWS 里，不发给第三方搜索引擎。Gateway 仍然是多数 Agent 负载的推荐入口，这条 API 是更低的一层。</p>\n<p><strong>效果怎样：</strong>博文给了一次调用的返回形状：标题、URL、摘录和发布时间。没有报一组检索质量数字。</p>\n<p><strong>洞察与启发：</strong>搜索不一定要先变成一个 MCP 工具，应用、自己写的循环和数据管道都可以直接调。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "Agent 要回答训练数据里没有的近事。原来的网页搜索走 AgentCore Gateway，适合平台组共享一套策略，对只想在自己的循环里调一次搜索的代码太重。",
     "如何解决": "调用 bedrock-agentcore 数据面的 InvokeWebSearch，用现有 IAM 和 SigV4 签名。可以按域名和发布时间过滤。查询留在 AWS 里，不发给第三方搜索引擎。Gateway 仍然是多数 Agent 负载的推荐入口，这条 API 是更低的一层。",
     "效果怎样": "博文给了一次调用的返回形状：标题、URL、摘录和发布时间。没有报一组检索质量数字。",
-    "洞察与启发": "搜索不一定要先变成一个 MCP 工具，应用、自己写的循环和数据管道都可以直接调。"
+    "洞察与启发": "搜索不一定要先变成一个 MCP 工具，应用、自己写的循环和数据管道都可以直接调。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

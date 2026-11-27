@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro-dev-blog-kirobench.json",
   "title": "Benchmarking coding agents on the work developers bring to Kiro",
   "link": "https://kiro.dev/blog/kirobench",
-  "sentence": "Kiro 用超过 300 个来自真实工作流的任务组成内部基准 KiroBench，用来看 Agent 改动有没有回退。",
+  "lede": "Kiro 介绍内部基准 <mark class=\"note-card-hl\">KiroBench</mark>：它包含 300 多个可运行任务，用来衡量编码 Agent 在开发者真正会交给 Kiro 的工作上表现如何。",
   "category": "实践",
   "company": "Kiro",
-  "text": "#### [Benchmarking coding agents on the work developers bring to Kiro](https://kiro.dev/blog/kirobench)\n\nKiro 介绍内部基准 <mark class=\"note-card-hl\">KiroBench</mark>：它包含 300 多个可运行任务，用来衡量编码 Agent 在开发者真正会交给 Kiro 的工作上表现如何。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>公开基准往往只覆盖软件工作的一个窄切片，很难反映开发者在 Kiro 里从提问、改功能、修 bug 到让项目构建起来的真实流程；而改工具、记忆、上下文或模型路由后又很难预估会不会回退。</p>\n<p><strong>如何解决：</strong>他们做成可运行环境加校验器的内部基准，任务覆盖功能开发、修 bug、重构、理解代码、写测试、环境配置和命令行工作。越来越多任务来自 Amazon 内部、模型未见过的工程工作。校验可以是基于结果的单元测试，也可以是按量表打分的模型评审。</p>\n<p><strong>效果怎样：</strong>官方把这套基准用于捕捉回归，并判断哪些改动真的让 Agent 变好。文中给出的规模是超过 <mark class=\"note-card-hl\">300</mark> 个任务，但没有公布各 Agent 的公开排行分数。</p>\n<p><strong>洞察与启发：</strong>要改进自己的编码 Agent，最有用的评测往往是“我们自己工作流里的任务”，而不是只盯着公开榜。代价是这套基准通常不可复现、也难以横向对比。</p>\n<p><strong>相关工作：</strong>文中对比了 DeepSWE、Terminal-Bench 等公开基准，承认它们有价值，但认为单独使用不足以覆盖真实使用面。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "公开基准往往只覆盖软件工作的一个窄切片，很难反映开发者在 Kiro 里从提问、改功能、修 bug 到让项目构建起来的真实流程；而改工具、记忆、上下文或模型路由后又很难预估会不会回退。",
+    "如何解决": "他们做成可运行环境加校验器的内部基准，任务覆盖功能开发、修 bug、重构、理解代码、写测试、环境配置和命令行工作。越来越多任务来自 Amazon 内部、模型未见过的工程工作。校验可以是基于结果的单元测试，也可以是按量表打分的模型评审。",
+    "效果怎样": "官方把这套基准用于捕捉回归，并判断哪些改动真的让 Agent 变好。文中给出的规模是超过 <mark class=\"note-card-hl\">300</mark> 个任务，但没有公布各 Agent 的公开排行分数。",
+    "洞察与启发": "要改进自己的编码 Agent，最有用的评测往往是“我们自己工作流里的任务”，而不是只盯着公开榜。代价是这套基准通常不可复现、也难以横向对比。",
+    "相关工作": "文中对比了 DeepSWE、Terminal-Bench 等公开基准，承认它们有价值，但认为单独使用不足以覆盖真实使用面。"
+  }
 }

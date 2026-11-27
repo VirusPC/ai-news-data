@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzk0OTYwNzc3NQ-mid-2247485884-idx-1-sn-d457981abe7db1f1.json",
   "title": "DeepSeek 开源推理框架：走向真正普惠的未来",
   "link": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-  "sentence": "&lt;开源&gt;&lt;DeepSeek&gt;  (https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836) 把内部推理框架 DeepInfer 开源，用来调度大规模调用时的算力和电耗。 完整总结",
+  "lede": "把内部推理框架 <mark class=\"note-card-hl\">DeepInfer</mark> 开源，用来调度大规模调用时的算力和电耗。",
   "category": "开源",
   "company": "DeepSeek",
-  "text": "#### &lt;开源&gt;&lt;DeepSeek&gt;[DeepSeek 开源推理框架：走向真正普惠的未来](https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836)\n\n把内部推理框架 <mark>DeepInfer</mark> 开源，用来调度大规模调用时的算力和电耗。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>模型能力之外，超大规模服务的成本和耗电取决于推理框架。</p>\n<p><strong>如何解决：</strong>在已开源的模型、TileLang 和算子库之外，公开 DeepInfer，并附上与官方 API 对齐的 token 编解码组件。</p>\n<p><strong>效果怎样：</strong>文中称已用它提供 V4.1 Flash 的高吞吐、低延迟服务。没有给出新的对照数字。</p>\n<p><strong>洞察与启发：</strong>开源的是调度层，不是再发一个聊天模型。</p>\n<p><strong>相关工作：</strong>同一窗口的 V4.1-Flash-1017 是它现在在跑的模型。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "模型能力之外，超大规模服务的成本和耗电取决于推理框架。",
+    "如何解决": "在已开源的模型、TileLang 和算子库之外，公开 DeepInfer，并附上与官方 API 对齐的 token 编解码组件。",
+    "效果怎样": "文中称已用它提供 V4.1 Flash 的高吞吐、低延迟服务。没有给出新的对照数字。",
+    "洞察与启发": "开源的是调度层，不是再发一个聊天模型。",
+    "相关工作": "同一窗口的 V4.1-Flash-1017 是它现在在跑的模型。"
+  }
 }

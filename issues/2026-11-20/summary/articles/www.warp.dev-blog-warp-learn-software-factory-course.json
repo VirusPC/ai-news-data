@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.warp.dev-blog-warp-learn-software-factory-course.json",
   "title": "Introducing Warp Learn: Build your first software factory",
   "link": "https://www.warp.dev/blog/warp-learn-software-factory-course",
-  "sentence": "&lt;实践&gt;&lt;Warp&gt;  (https://www.warp.dev/blog/warp-learn-software-factory-course) 一门免费动手课，教你用 Warp 做、量、改自己的 软件工厂 。 订阅源里只有这些，所以没有写完整总结。",
+  "lede": "一门免费动手课，教你用 Warp 做、量、改自己的<mark class=\"note-card-hl\">软件工厂</mark>。 订阅源里只有这些，所以没有写完整总结。",
   "category": "实践",
   "company": "Warp",
-  "text": "#### &lt;实践&gt;&lt;Warp&gt;[Introducing Warp Learn: Build your first software factory](https://www.warp.dev/blog/warp-learn-software-factory-course)\n\n一门免费动手课，教你用 Warp 做、量、改自己的<mark>软件工厂</mark>。\n\n订阅源里只有这些，所以没有写完整总结。\n\n"
+  "sections": {
+    "解决什么问题": "想建自己的软件工厂，但不知道怎么做、怎么量、怎么改。",
+    "如何解决": "Warp Learn 是一门免费动手课，带你做、量、改自己的软件工厂。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "课程围绕一个闭环：做、量、改，对象是软件工厂。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

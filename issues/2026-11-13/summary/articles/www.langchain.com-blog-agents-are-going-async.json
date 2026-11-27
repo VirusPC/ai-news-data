@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-agents-are-going-async.json",
   "title": "Agents Are Going Async",
   "link": "https://www.langchain.com/blog/agents-are-going-async",
-  "sentence": "异步子 Agent 让主 Agent 在后台工人跑长任务时仍然能响应，Deep Agents 里还要处理通知和批准。 订阅源里只有这些。",
+  "lede": "异步子 Agent 让主 Agent 在后台工人跑长任务时仍然能响应，Deep Agents 里还要处理通知和批准。 订阅源里只有这些。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Agents Are Going Async](https://www.langchain.com/blog/agents-are-going-async)\n\n异步子 Agent 让主 Agent 在后台工人跑长任务时仍然能响应，Deep Agents 里还要处理通知和批准。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "主 Agent 会被后台的长任务拖住，无法保持响应。",
+    "如何解决": "让子 Agent 异步跑：后台工人跑长任务时主 Agent 仍能响应，Deep Agents 里再处理通知和批准。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "长任务移到后台工人之后，主 Agent 的响应性要和通知、批准流程一起设计。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

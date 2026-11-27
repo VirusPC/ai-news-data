@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro-dev-blog-conductor-mode.json",
   "title": "Introducing conductor mode in Kiro Crew",
   "link": "https://kiro.dev/blog/conductor-mode",
-  "sentence": "Kiro Crew 的 conductor mode 用来并行推进同一功能的不同部分，并在审查原型时收回需求。",
+  "lede": "Kiro Crew 增加 <mark class=\"note-card-hl\">conductor mode</mark>，方便团队先写计划，再并行让 Agent 开发同一功能的不同部分，并在看过原型后改需求。",
   "category": "产品",
   "company": "Kiro",
-  "text": "#### [Introducing conductor mode in Kiro Crew](https://kiro.dev/blog/conductor-mode)\n\nKiro Crew 增加 <mark class=\"note-card-hl\">conductor mode</mark>，方便团队先写计划，再并行让 Agent 开发同一功能的不同部分，并在看过原型后改需求。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>用多个 Agent 同时做同一功能时，计划、原型和需求修改很容易各走各的，人很难把并行工作重新收拢。</p>\n<p><strong>如何解决：</strong>conductor mode 让团队先从计划出发，把功能拆开并行开发，再在审查原型和试用过程中改需求。Kiro 团队用它开发“让 Agent 驱动浏览器窗口”的能力时，又把范围扩到更多浏览器控件、聊天里的实时视图，以及对成品的测试功能。</p>\n<p><strong>效果怎样：</strong>这是产品能力和工作方式的介绍，没有单独公布基准分数。文中给出的实例是：他们自己用这套并行方式，把浏览器使用从最初设想扩展成更完整的控件、实时预览和测试能力。</p>\n<p><strong>洞察与启发：</strong>并行 Agent 要能用起来，缺的往往不是再多一个工人，而是一个能改需求、看原型、把分叉收回来的指挥层。</p>\n<p><strong>相关工作：</strong>同一周 Cognition 用 Org Charts 在一块画布上查看多个 Devin Bot 的进展，关心的也是“多人/多 Agent 并行时如何总览”，只是产品形态不同。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "用多个 Agent 同时做同一功能时，计划、原型和需求修改很容易各走各的，人很难把并行工作重新收拢。",
+    "如何解决": "conductor mode 让团队先从计划出发，把功能拆开并行开发，再在审查原型和试用过程中改需求。Kiro 团队用它开发“让 Agent 驱动浏览器窗口”的能力时，又把范围扩到更多浏览器控件、聊天里的实时视图，以及对成品的测试功能。",
+    "效果怎样": "这是产品能力和工作方式的介绍，没有单独公布基准分数。文中给出的实例是：他们自己用这套并行方式，把浏览器使用从最初设想扩展成更完整的控件、实时预览和测试能力。",
+    "洞察与启发": "并行 Agent 要能用起来，缺的往往不是再多一个工人，而是一个能改需求、看原型、把分叉收回来的指挥层。",
+    "相关工作": "同一周 Cognition 用 Org Charts 在一块画布上查看多个 Devin Bot 的进展，关心的也是“多人/多 Agent 并行时如何总览”，只是产品形态不同。"
+  }
 }

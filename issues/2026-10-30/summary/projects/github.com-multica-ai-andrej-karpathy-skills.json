@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/multica-ai/andrej-karpathy-skills",
   "source": "cleaned/projects/github.com-multica-ai-andrej-karpathy-skills.json",
+  "title": "multica-ai/andrej-karpathy-skills",
+  "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "lede": "一份从 Karpathy 对 LLM 写代码的观察整理出来的 CLAUDE.md。 来源里只有这些。",
+  "category": "开源",
+  "company": "multica-ai",
   "purpose": "multica-ai/andrej-karpathy-skills",
   "change": "见本期正文。",
-  "text": "#### [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)\n\n一份从 Karpathy 对 LLM 写代码的观察整理出来的 CLAUDE.md。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "需要一份材料汇总 Karpathy 对 LLM 写代码的观察。",
+    "如何解决": "把 Karpathy 对 LLM 写代码的观察整理成一份 CLAUDE.md。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "一份 CLAUDE.md 就把 Karpathy 对 LLM 写代码的观察沉淀成了可复用的上下文。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

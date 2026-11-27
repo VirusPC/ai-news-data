@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/cloudflare/security-audit-skill",
   "source": "cleaned/projects/github.com-cloudflare-security-audit-skill.json",
+  "title": "cloudflare/security-audit-skill",
+  "link": "https://github.com/cloudflare/security-audit-skill",
+  "lede": "给编码 Agent 用的分阶段安全审计。发现要能被机器再核一遍。 来源里只有这些。",
+  "category": "开源",
+  "company": "cloudflare",
   "purpose": "cloudflare/security-audit-skill",
   "change": "见本期正文。",
-  "text": "#### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)\n\n给编码 Agent 用的分阶段安全审计。发现要能被机器再核一遍。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 做安全审计时，发现需要能被机器再核一遍。",
+    "如何解决": "这个 skill 给编码 Agent 分阶段做安全审计，并让发现能被机器再核一遍。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "审计发现被做成机器可复核的形式，而不是只给人看。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

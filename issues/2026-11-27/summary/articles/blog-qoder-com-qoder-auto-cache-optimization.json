@@ -3,8 +3,14 @@
   "source": "cleaned/articles/blog-qoder-com-qoder-auto-cache-optimization.json",
   "title": "Same Credits, Nearly Double the Tasks: A Technical Breakdown of Qoder’s Durability Optimization",
   "link": "https://blog.qoder.com/qoder-auto-cache-optimization",
-  "sentence": "Qoder 用分层系统提示、亲和路由和父子会话继承提高缓存命中，让同样的 Credits 能完成更多任务。",
+  "lede": "Qoder 介绍 Auto 档的耐久性优化：用分层系统提示、亲和路由和父子会话继承提高缓存命中，让同样的 Credits 能做完接近 <mark class=\"note-card-hl\">两倍</mark> 的任务。",
   "category": "产品",
   "company": "Qoder",
-  "text": "#### [Same Credits, Nearly Double the Tasks: A Technical Breakdown of Qoder’s Durability Optimization](https://blog.qoder.com/qoder-auto-cache-optimization)\n\nQoder 介绍 Auto 档的耐久性优化：用分层系统提示、亲和路由和父子会话继承提高缓存命中，让同样的 Credits 能做完接近 <mark class=\"note-card-hl\">两倍</mark> 的任务。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 每个任务都要反复带上系统提示和会话上下文，缓存命中上不去时，同样的 Credits 很快就会被耗完，长任务也更难持续。</p>\n<p><strong>如何解决：</strong>这篇技术拆解把改进放在缓存命中上：系统提示分层，便于复用公共部分；按缓存寿命做亲和路由，让后续请求尽量打到还有效的缓存；再用父子会话继承，把可复用的上下文传到后续会话，而不是每次从零开始。</p>\n<p><strong>效果怎样：</strong>官方描述是缓存命中提高后，Auto 单任务 Credits 消耗下降约 41%，同样配额大约能从 10 个任务做到 17 个。更完整的分项数字写在同期另一篇用量公告里。标题中的“接近两倍”按 10 提到 17 题来理解，是同一方向上的产品结果。</p>\n<p><strong>洞察与启发：</strong>积分变便宜，不一定来自改价，也可以来自把提示词和会话写成更容易命中缓存的结构。</p>\n<p><strong>相关工作：</strong>同期 Qoder 另文给出 41% 的分项测量；AWS 也在同一窗口介绍分布式 KV cache 技能，不过对象是自托管推理，而不是 Qoder Auto 的产品积分。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 每个任务都要反复带上系统提示和会话上下文，缓存命中上不去时，同样的 Credits 很快就会被耗完，长任务也更难持续。",
+    "如何解决": "这篇技术拆解把改进放在缓存命中上：系统提示分层，便于复用公共部分；按缓存寿命做亲和路由，让后续请求尽量打到还有效的缓存；再用父子会话继承，把可复用的上下文传到后续会话，而不是每次从零开始。",
+    "效果怎样": "官方描述是缓存命中提高后，Auto 单任务 Credits 消耗下降约 41%，同样配额大约能从 10 个任务做到 17 个。更完整的分项数字写在同期另一篇用量公告里。标题中的“接近两倍”按 10 提到 17 题来理解，是同一方向上的产品结果。",
+    "洞察与启发": "积分变便宜，不一定来自改价，也可以来自把提示词和会话写成更容易命中缓存的结构。",
+    "相关工作": "同期 Qoder 另文给出 41% 的分项测量；AWS 也在同一窗口介绍分布式 KV cache 技能，不过对象是自托管推理，而不是 Qoder Auto 的产品积分。"
+  }
 }

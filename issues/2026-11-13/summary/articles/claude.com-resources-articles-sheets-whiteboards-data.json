@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-sheets-whiteboards-data.json",
   "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
   "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
-  "sentence": "Claude 里可以直接用白板头脑风暴、做表格，并分享 <mark>数据</mark>。 订阅源里只有这些。",
+  "lede": "Claude 里可以直接用白板头脑风暴、做表格，并分享 <mark class=\"note-card-hl\">数据</mark>。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Introducing Claude Whiteboards, Claude Sheets, and Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)\n\nClaude 里可以直接用白板头脑风暴、做表格，并分享 <mark>数据</mark>。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "白板、表格和数据分享要在 Claude 里直接完成。",
+    "如何解决": "Claude 里现在可以直接用白板头脑风暴、做表格，并分享 <mark class=\"note-card-hl\">数据</mark>。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "头脑风暴、做表格、分享数据都能在 Claude 里直接完成。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

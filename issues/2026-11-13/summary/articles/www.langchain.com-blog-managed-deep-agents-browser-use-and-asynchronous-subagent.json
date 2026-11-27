@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-managed-deep-agents-browser-use-and-asynchronous-subagent.json",
   "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
   "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
-  "sentence": "Managed Deep Agents v0.10 加上浏览器，让 Agent 能上没有 API 的网站，并在要登录时把窗口交给人；同时加上异步子 Agent。 订阅源里只有这些。",
+  "lede": "Managed Deep Agents v0.10 加上浏览器，让 Agent 能上没有 API 的网站，并在要登录时把窗口交给人；同时加上异步子 Agent。 订阅源里只有这些。",
   "category": "产品",
   "company": "LangChain",
-  "text": "#### &lt;产品&gt;&lt;LangChain&gt;[Managed Deep Agents v0.10: Browser Use and Async Subagents](https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents)\n\nManaged Deep Agents v0.10 加上浏览器，让 Agent 能上没有 API 的网站，并在要登录时把窗口交给人；同时加上异步子 Agent。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "Agent 去不了没有 API 的网站，登录这种环节也缺人交接。",
+    "如何解决": "v0.10 给 Managed Deep Agents 加上浏览器和异步子 Agent：能上没有 API 的网站，要登录时把窗口交给人。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "没有 API 的网站和登录窗口这类最后一公里，由浏览器能力和人来补位。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

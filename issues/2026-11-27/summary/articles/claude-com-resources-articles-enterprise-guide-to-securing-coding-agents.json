@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude-com-resources-articles-enterprise-guide-to-securing-coding-agents.json",
   "title": "The enterprise guide to securing coding agents",
   "link": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
-  "sentence": "Anthropic 为企业扩大 Claude Code 给出分层安全指南，并用 Salesforce 的结果说明规模化后的风险和控制。",
+  "lede": "Anthropic 发布面向安全和工程负责人的指南，讨论在扩大 Claude Code 时如何理解并限制编码 Agent 的风险。",
   "category": "实践",
   "company": "Anthropic",
-  "text": "#### [The enterprise guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)\n\nAnthropic 发布面向安全和工程负责人的指南，讨论在扩大 Claude Code 时如何理解并限制编码 Agent 的风险。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 已经在很多企业里写代码、开 PR，甚至参与测试和合并；规模变大后，提示注入和权限滥用会成为安全和工程负责人必须面对的问题。</p>\n<p><strong>如何解决：</strong>指南主张用分层控制来约束风险，例如经过核对的权限和有边界的身份，而不是只靠一条总开关。它面向正在把 Claude Code 标准化到工程组织中的安全与技术负责人，讨论如何在加快交付的同时把风险框住。</p>\n<p><strong>效果怎样：</strong>文中引用 Salesforce 在工程组织中标准化 Claude Code 后的结果：每位开发者合并的 pull request 增加 <mark class=\"note-card-hl\">79%</mark>，总事件数减少 5%。这是被引用的客户数字，用来说明规模化既带来收益也必须配套控制，而不是这份指南本身的对照实验。</p>\n<p><strong>洞察与启发：</strong>编码 Agent 的安全问题，会随着它从“写几行建议”变成“开 PR 并可能合并”而改变性质。控制要跟权限和审批一起设计，不能等事故发生再补。</p>\n<p><strong>相关工作：</strong>Claude Ship 同期把按策略批准写进产品；Bedrock Trusted Access 和 LangSmith Tool Gateway 则分别从模型访问和工具调用补企业控制。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 已经在很多企业里写代码、开 PR，甚至参与测试和合并；规模变大后，提示注入和权限滥用会成为安全和工程负责人必须面对的问题。",
+    "如何解决": "指南主张用分层控制来约束风险，例如经过核对的权限和有边界的身份，而不是只靠一条总开关。它面向正在把 Claude Code 标准化到工程组织中的安全与技术负责人，讨论如何在加快交付的同时把风险框住。",
+    "效果怎样": "文中引用 Salesforce 在工程组织中标准化 Claude Code 后的结果：每位开发者合并的 pull request 增加 <mark class=\"note-card-hl\">79%</mark>，总事件数减少 5%。这是被引用的客户数字，用来说明规模化既带来收益也必须配套控制，而不是这份指南本身的对照实验。",
+    "洞察与启发": "编码 Agent 的安全问题，会随着它从“写几行建议”变成“开 PR 并可能合并”而改变性质。控制要跟权限和审批一起设计，不能等事故发生再补。",
+    "相关工作": "Claude Ship 同期把按策略批准写进产品；Bedrock Trusted Access 和 LangSmith Tool Gateway 则分别从模型访问和工具调用补企业控制。"
+  }
 }

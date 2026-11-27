@@ -3,8 +3,14 @@
   "source": "cleaned/articles/huggingface-co-blog-harness-adapters-at-scale.json",
   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
-  "sentence": "Hugging Face 介绍 harness adapter：把喜欢的模型适配到目标 Agent harness，以改进效果和成本。",
+  "lede": "Hugging Face 介绍 harness adapter：把选定模型适配到你正在用的 Agent harness，目标是同时改进效果和成本。",
   "category": "实践",
   "company": "Hugging Face",
-  "text": "#### [Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale)\n\nHugging Face 介绍 harness adapter：把选定模型适配到你正在用的 Agent harness，目标是同时改进效果和成本。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>同一个模型换到不同的编码或评测 harness 里，工具协议、提示格式和回合结构都不一样，直接套用常常又贵又不够稳。</p>\n<p><strong>如何解决：</strong>官方方案是训练或合并面向目标 harness 的 adapter，让模型去适应当前工具环境和交互格式，而不是为每个 harness 重新做完整训练。页面是动态渲染的，清洗到的订阅正文很短；更深的训练设置和合并步骤以原文为准，这里不补充未核对的实现细节。</p>\n<p><strong>效果怎样：</strong>标题和导语把收益写成提高性能并降低成本，但在已核对的可见正文里没有找到可引用的具体分数或降本数字，因此这里不做数值断言。</p>\n<p><strong>洞察与启发：</strong>模型本身强还不够，它和 harness 的接口也对效果和费用有影响。用 adapter 适配工作环境，是一条比换底座更轻的调整路径。</p>\n<p><strong>相关工作：</strong>KiroBench 同期强调要用自己的工作流来评测 Agent；两者都提醒：离开具体 harness 谈模型好坏，容易看错对象。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "同一个模型换到不同的编码或评测 harness 里，工具协议、提示格式和回合结构都不一样，直接套用常常又贵又不够稳。",
+    "如何解决": "官方方案是训练或合并面向目标 harness 的 adapter，让模型去适应当前工具环境和交互格式，而不是为每个 harness 重新做完整训练。页面是动态渲染的，清洗到的订阅正文很短；更深的训练设置和合并步骤以原文为准，这里不补充未核对的实现细节。",
+    "效果怎样": "标题和导语把收益写成提高性能并降低成本，但在已核对的可见正文里没有找到可引用的具体分数或降本数字，因此这里不做数值断言。",
+    "洞察与启发": "模型本身强还不够，它和 harness 的接口也对效果和费用有影响。用 adapter 适配工作环境，是一条比换底座更轻的调整路径。",
+    "相关工作": "KiroBench 同期强调要用自己的工作流来评测 Agent；两者都提醒：离开具体 harness 谈模型好坏，容易看错对象。"
+  }
 }

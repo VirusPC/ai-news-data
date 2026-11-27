@@ -1,6 +1,9 @@
 {
   "id": "Gemini Omni 1.2 Flash",
   "source": "cleaned/models/Gemini-Omni-1.2-Flash.json",
+  "title": "Gemini Omni 1.2 Flash",
+  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "lede": "Gemini Omni 1.2 Flash：相对 Omni 1.1 的视频价格下降。",
   "price": {
     "text": "暂无"
   },
@@ -10,5 +13,18 @@
   "effect": {
     "text": "暂无"
   },
-  "text": "#### [Gemini Omni 1.2 Flash](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 5 日发布。</li>\n<li><strong>定位</strong> 相对 Omni 1.1 的视频价格下降。</li>\n<li><strong>可用</strong> 720p 视频是每秒 <mark class=\"note-card-hl\">0.07 美元</mark>，比 1.1 低 30%。token 单价和速度名次没有写。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\">Gemini Omni 1.2 Flash</a></p>\n</aside>\n\n"
+  "points": [
+    {
+      "label": "上线",
+      "text": "11 月 5 日发布。"
+    },
+    {
+      "label": "定位",
+      "text": "相对 Omni 1.1 的视频价格下降。"
+    },
+    {
+      "label": "可用",
+      "text": "720p 视频是每秒 <mark class=\"note-card-hl\">0.07 美元</mark>，比 1.1 低 30%。token 单价和速度名次没有写。"
+    }
+  ]
 }

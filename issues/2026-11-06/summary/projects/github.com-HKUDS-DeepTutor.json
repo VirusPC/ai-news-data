@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/HKUDS/DeepTutor",
   "source": "cleaned/projects/github.com-HKUDS-DeepTutor.json",
+  "title": "HKUDS/DeepTutor",
+  "link": "https://github.com/HKUDS/DeepTutor",
+  "lede": "面向长期个人辅导的 DeepTutor。简介里有项目页。 来源里只有这些。",
+  "category": "开源",
+  "company": "HKUDS",
   "purpose": "HKUDS/DeepTutor",
   "change": "见本期正文。",
-  "text": "#### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)\n\n面向长期个人辅导的 DeepTutor。简介里有项目页。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "长期个人辅导需要一个专门的 DeepTutor。",
+    "如何解决": "HKUDS 的 DeepTutor 面向长期个人辅导，简介里附有项目页。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "长期个人辅导被做成一个单独的项目，简介里直接给出项目页。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

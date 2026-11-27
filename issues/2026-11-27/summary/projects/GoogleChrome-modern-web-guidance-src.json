@@ -1,7 +1,20 @@
 {
   "id": "https://github.com/GoogleChrome/modern-web-guidance-src",
   "source": "cleaned/projects/GoogleChrome-modern-web-guidance-src.json",
+  "title": "modern-web-guidance-src",
+  "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+  "lede": "Modern Web Guidance 由 Chrome、Edge、Firefox 和 MDN 等团队共同维护，把现代 Web 实践直接送进编码 Agent 的上下文，本周周榜排在 <mark class=\"note-card-hl\">第 3</mark>。",
+  "category": "开源",
+  "company": "GoogleChrome",
   "purpose": "把现代 Web 平台实践和浏览器兼容数据写成技能，避免编码 Agent 退回过时的前端写法。",
   "change": "本周周榜第三；窗口内没有新的 GitHub Release，最近可核验发布是 2026-10-14。",
-  "text": "#### [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) 11321 stars Apache-2.0\n\nModern Web Guidance 由 Chrome、Edge、Firefox 和 MDN 等团队共同维护，把现代 Web 实践直接送进编码 Agent 的上下文，本周周榜排在 <mark class=\"note-card-hl\">第 3</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 的训练数据里有大量过时前端代码，常会为已经有原生 API 的任务写出臃肿的 JavaScript。</p>\n<p><strong>如何解决：</strong>它提供可安装的技能和 CLI：用 search / retrieve 取指南，用 legacy-scan 扫仓库里的旧模式，再把经过校准的指南注入 Agent 上下文。源仓库还包含撰写、校准和评测这些指南的代码。</p>\n<p><strong>效果怎样：</strong>项目目标是让 Agent 转向现代浏览器 API，而不是默认抄旧模式。清洗时核验到 <mark class=\"note-card-hl\">11321</mark> stars，许可证 Apache-2.0；窗口结束日前最近的 Release 是 2026-10-14 的 audit-data。</p>\n<p><strong>洞察与启发：</strong>与其指望模型自己“想起”新 API，不如在上下文里提供经过评测的当代写法，专门对抗训练数据里的旧模式。</p>\n<p><strong>相关工作：</strong>这和各类框架自己的 Agent 技能、以及 Stitch Skills 这类设计技能库是并行路线：一个补平台知识，一个补设计工作流。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 的训练数据里有大量过时前端代码，常会为已经有原生 API 的任务写出臃肿的 JavaScript。",
+    "如何解决": "它提供可安装的技能和 CLI：用 search / retrieve 取指南，用 legacy-scan 扫仓库里的旧模式，再把经过校准的指南注入 Agent 上下文。源仓库还包含撰写、校准和评测这些指南的代码。",
+    "效果怎样": "项目目标是让 Agent 转向现代浏览器 API，而不是默认抄旧模式。清洗时核验到 <mark class=\"note-card-hl\">11321</mark> stars，许可证 Apache-2.0；窗口结束日前最近的 Release 是 2026-10-14 的 audit-data。",
+    "洞察与启发": "与其指望模型自己“想起”新 API，不如在上下文里提供经过评测的当代写法，专门对抗训练数据里的旧模式。",
+    "相关工作": "这和各类框架自己的 Agent 技能、以及 Stitch Skills 这类设计技能库是并行路线：一个补平台知识，一个补设计工作流。"
+  },
+  "stars": 11321,
+  "license": "Apache-2.0"
 }

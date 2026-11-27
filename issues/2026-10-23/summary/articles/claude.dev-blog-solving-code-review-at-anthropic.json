@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.dev-blog-solving-code-review-at-anthropic.json",
   "title": "How the Claude Code team does code review",
   "link": "https://claude.dev/blog/solving-code-review-at-anthropic",
-  "sentence": "&lt;实践&gt;&lt;Anthropic&gt;  (https://claude.dev/blog/solving-code-review-at-anthropic/) 覆盖和深度够了之后，优化的是 人还要看多久 ，同时不让回滚和事故变多。 完整总结 解决什么问题： Agent 写出的变更量，人按原来的方式逐行看不完。 如何解决： 先把覆盖和评审做深",
+  "lede": "覆盖和深度够了之后，优化的是<mark class=\"note-card-hl\">人还要看多久</mark>，同时不让回滚和事故变多。",
   "category": "实践",
   "company": "Anthropic",
-  "text": "#### &lt;实践&gt;&lt;Anthropic&gt;[How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/)\n\n覆盖和深度够了之后，优化的是<mark>人还要看多久</mark>，同时不让回滚和事故变多。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 写出的变更量，人按原来的方式逐行看不完。</p>\n<p><strong>如何解决：</strong>先把覆盖和评审做深，再把人的时间压到不增加 revert 和事故的下限。</p>\n<p><strong>效果怎样：</strong>这是团队自己的流程说明，没有新的事故率数字。</p>\n<p><strong>洞察与启发：</strong>评审缺的是人的注意力，不是再接一个评审模型。</p>\n<p><strong>相关工作：</strong>子 Agent 那篇是在减循环里的角色；这篇是在减人还要看的部分。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "Agent 写出的变更量，人按原来的方式逐行看不完。",
+    "如何解决": "先把覆盖和评审做深，再把人的时间压到不增加 revert 和事故的下限。",
+    "效果怎样": "这是团队自己的流程说明，没有新的事故率数字。",
+    "洞察与启发": "评审缺的是人的注意力，不是再接一个评审模型。",
+    "相关工作": "子 Agent 那篇是在减循环里的角色；这篇是在减人还要看的部分。"
+  }
 }

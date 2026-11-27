@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-claude-meetings.json",
   "title": "Introducing Claude Meetings",
   "link": "https://claude.com/resources/articles/claude-meetings",
-  "sentence": "Claude Meetings 把 Claude 加进视频会议，人还在说话的时候，工作就可以先动起来。 订阅源里只有这些。",
+  "lede": "Claude Meetings 把 Claude 加进视频会议，人还在说话的时候，工作就可以先动起来。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Introducing Claude Meetings](https://claude.com/resources/articles/claude-meetings)\n\nClaude Meetings 把 Claude 加进视频会议，人还在说话的时候，工作就可以先动起来。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "视频会议里，工作总要等人把话说完才能动。",
+    "如何解决": "把 Claude 加进视频会议，让工作在会议进行中就先动起来。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "会议本身变成工作发生的场所：人还在说，Claude 已经在动。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

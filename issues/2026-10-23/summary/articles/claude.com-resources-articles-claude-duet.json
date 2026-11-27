@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-claude-duet.json",
   "title": "Introducing Claude Duet",
   "link": "https://claude.com/resources/articles/claude-duet",
-  "sentence": "&lt;产品&gt;&lt;Anthropic&gt;  (https://claude.com/resources/articles/claude-duet) 研究预览里的主动 Agent：人离开之后它还接着做，动手前先问你。 完整总结 解决什么问题： 对话式助手要等人开口，做不了会自己找上来的长任务。 如何解决： Duet 把需要人看的事送过来，完成交代",
+  "lede": "研究预览里的主动 Agent：人离开之后它还接着做，动手前先问你。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Introducing Claude Duet](https://claude.com/resources/articles/claude-duet)\n\n研究预览里的主动 Agent：人离开之后它还接着做，动手前先问你。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>对话式助手要等人开口，做不了会自己找上来的长任务。</p>\n<p><strong>如何解决：</strong>Duet 把需要人看的事送过来，完成交代的任务，离开期间继续，执行前再确认。</p>\n<p><strong>效果怎样：</strong>先对美国的 Pro、Max、Ultra 开候补。没有公开的任务成绩。</p>\n<p><strong>洞察与启发：</strong>主动和确认是一起设计的。</p>\n<p><strong>相关工作：</strong>代码评审文把人的时间当成稀缺资源，Duet 是产品侧的同一判断。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "对话式助手要等人开口，做不了会自己找上来的长任务。",
+    "如何解决": "Duet 把需要人看的事送过来，完成交代的任务，离开期间继续，执行前再确认。",
+    "效果怎样": "先对美国的 Pro、Max、Ultra 开候补。没有公开的任务成绩。",
+    "洞察与启发": "主动和确认是一起设计的。",
+    "相关工作": "代码评审文把人的时间当成稀缺资源，Duet 是产品侧的同一判断。"
+  }
 }

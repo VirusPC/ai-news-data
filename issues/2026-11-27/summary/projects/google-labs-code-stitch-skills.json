@@ -1,7 +1,20 @@
 {
   "id": "https://github.com/google-labs-code/stitch-skills",
   "source": "cleaned/projects/google-labs-code-stitch-skills.json",
+  "title": "stitch-skills",
+  "link": "https://github.com/google-labs-code/stitch-skills",
+  "lede": "Google Stitch 的这组技能按 Agent Skills 开放标准打包，可装进 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent，本周周榜排在 <mark class=\"note-card-hl\">第 2</mark>。",
+  "category": "开源",
+  "company": "google-labs-code",
   "purpose": "一组遵循 Agent Skills 开放标准的技能和插件，让编码 Agent 经 Stitch MCP 做设计和构建。",
   "change": "本周周榜第二；仓库在 2026-05-18 有过 v1.0 发布。",
-  "text": "#### [stitch-skills](https://github.com/google-labs-code/stitch-skills) 13390 stars Apache-2.0\n\nGoogle Stitch 的这组技能按 Agent Skills 开放标准打包，可装进 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent，本周周榜排在 <mark class=\"note-card-hl\">第 2</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>设计和搭建界面时，编码 Agent 往往缺少一套可复用、可安装的 Stitch 工作流，用户只能在各工具里分别配置。</p>\n<p><strong>如何解决：</strong>仓库提供 stitch-design、stitch-build、stitch-utilities 等插件，走 Codex marketplace 或 npx plugins 装到 Claude Code、Cursor 等工作区，并与 Stitch MCP 服务器配合。</p>\n<p><strong>效果怎样：</strong>官方把这组技能写成可跨多种编码 Agent 复用的标准技能包。清洗时核验到 <mark class=\"note-card-hl\">13390</mark> stars，许可证 Apache-2.0；窗口结束日及之前最近的 Release 仍是 2026-05-18 的 v1.0。</p>\n<p><strong>洞察与启发：</strong>把设计系统能力做成符合开放标准的技能包，比只提供一个专用对话框更容易进到开发者已经在用的 Agent 里。</p>\n<p><strong>相关工作：</strong>同一周还有 Modern Web Guidance 等面向编码 Agent 的技能库，方向类似，但对象是现代 Web 平台实践，而不是 Stitch 设计工作流。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "设计和搭建界面时，编码 Agent 往往缺少一套可复用、可安装的 Stitch 工作流，用户只能在各工具里分别配置。",
+    "如何解决": "仓库提供 stitch-design、stitch-build、stitch-utilities 等插件，走 Codex marketplace 或 npx plugins 装到 Claude Code、Cursor 等工作区，并与 Stitch MCP 服务器配合。",
+    "效果怎样": "官方把这组技能写成可跨多种编码 Agent 复用的标准技能包。清洗时核验到 <mark class=\"note-card-hl\">13390</mark> stars，许可证 Apache-2.0；窗口结束日及之前最近的 Release 仍是 2026-05-18 的 v1.0。",
+    "洞察与启发": "把设计系统能力做成符合开放标准的技能包，比只提供一个专用对话框更容易进到开发者已经在用的 Agent 里。",
+    "相关工作": "同一周还有 Modern Web Guidance 等面向编码 Agent 的技能库，方向类似，但对象是现代 Web 平台实践，而不是 Stitch 设计工作流。"
+  },
+  "stars": 13390,
+  "license": "Apache-2.0"
 }

@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/php/php-src",
   "source": "cleaned/projects/github.com-php-php-src.json",
+  "title": "php/php-src",
+  "link": "https://github.com/php/php-src",
+  "lede": "PHP 解释器本身。 来源里只有这些。",
+  "category": "开源",
+  "company": "php",
   "purpose": "php/php-src",
   "change": "见本期正文。",
-  "text": "#### [php/php-src](https://github.com/php/php-src)\n\nPHP 解释器本身。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "这一条是 PHP 解释器本身，来源里没有写它要解决什么问题。",
+    "如何解决": "来源里只有一句：PHP 解释器本身。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "归档里只有 PHP 解释器本身这一句，没有更多可展开的。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

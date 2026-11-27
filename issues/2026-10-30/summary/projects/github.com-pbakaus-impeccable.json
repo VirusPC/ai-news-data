@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/pbakaus/impeccable",
   "source": "cleaned/projects/github.com-pbakaus-impeccable.json",
+  "title": "pbakaus/impeccable",
+  "link": "https://github.com/pbakaus/impeccable",
+  "lede": "给编码 Agent 的设计词表，用来在合入前抓住 AI 味的界面。 来源里只有这些。",
+  "category": "开源",
+  "company": "pbakaus",
   "purpose": "pbakaus/impeccable",
   "change": "见本期正文。",
-  "text": "#### [pbakaus/impeccable](https://github.com/pbakaus/impeccable)\n\n给编码 Agent 的设计词表，用来在合入前抓住 AI 味的界面。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "AI 生成的界面有一股 AI 味，要在合入前抓住。",
+    "如何解决": "给编码 Agent 一份设计词表，在合入前用它来抓 AI 味的界面。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "审美问题被翻译成词表，编码 Agent 合入前就能自查界面。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

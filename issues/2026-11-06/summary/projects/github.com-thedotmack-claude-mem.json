@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/thedotmack/claude-mem",
   "source": "cleaned/projects/github.com-thedotmack-claude-mem.json",
+  "title": "thedotmack/claude-mem",
+  "link": "https://github.com/thedotmack/claude-mem",
+  "lede": "把 Agent 每次会话做了什么压成记忆，下次再注回去。 来源里只有这些。",
+  "category": "开源",
+  "company": "thedotmack",
   "purpose": "thedotmack/claude-mem",
   "change": "见本期正文。",
-  "text": "#### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)\n\n把 Agent 每次会话做了什么压成记忆，下次再注回去。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Agent 每次会话做过什么，下次开工时要带得上。",
+    "如何解决": "claude-mem 把每次会话的内容压成记忆，下次再注回去。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "会话记忆被压缩后再注回，让下一次会话接得上前一次。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

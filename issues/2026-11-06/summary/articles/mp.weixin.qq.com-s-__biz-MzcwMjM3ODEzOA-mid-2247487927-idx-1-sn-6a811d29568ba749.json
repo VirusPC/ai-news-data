@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-MzcwMjM3ODEzOA-mid-2247487927-idx-1-sn-6a811d29568ba749.json",
   "title": "Kimi Hosted Agents 正式发布：Harness as a Service",
   "link": "https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c",
-  "sentence": "&lt;产品&gt;&lt;Kimi&gt;  (https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c) 把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。 完整总结 ",
+  "lede": "把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。",
   "category": "产品",
   "company": "Kimi",
-  "text": "#### &lt;产品&gt;&lt;Kimi&gt;[Kimi Hosted Agents 正式发布：Harness as a Service](https://mp.weixin.qq.com/s?__biz=MzcwMjM3ODEzOA==&mid=2247487927&idx=1&sn=6a811d29568ba749ef866f908d1b8d1c)\n\n把跑 Agent 的 Harness 做成云上的服务，企业不用自己养一套运行环境。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>上生产要先花几个月做执行环境、会话、工具、权限和中断恢复，上线后还得继续养。</p>\n<p><strong>如何解决：</strong>Hosted Agents 提供 7×24 的托管环境、独立沙箱、网络边界、可中止的会话和审计导出。</p>\n<p><strong>效果怎样：</strong>文中没有给出迁过去之后少花了多少周。开始用的地址写在 platform.kimi.com。</p>\n<p><strong>洞察与启发：</strong>卖的是运行底座，不是再发一个模型。</p>\n<p><strong>相关工作：</strong>词云里的 Deep Agents 是另一家把 harness 托管出去的做法。Kiro 用 Lean 证明自己的 harness，是同一层问题的另一端。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "上生产要先花几个月做执行环境、会话、工具、权限和中断恢复，上线后还得继续养。",
+    "如何解决": "Hosted Agents 提供 7×24 的托管环境、独立沙箱、网络边界、可中止的会话和审计导出。",
+    "效果怎样": "文中没有给出迁过去之后少花了多少周。开始用的地址写在 platform.kimi.com。",
+    "洞察与启发": "卖的是运行底座，不是再发一个模型。",
+    "相关工作": "词云里的 Deep Agents 是另一家把 harness 托管出去的做法。Kiro 用 Lean 证明自己的 harness，是同一层问题的另一端。"
+  }
 }

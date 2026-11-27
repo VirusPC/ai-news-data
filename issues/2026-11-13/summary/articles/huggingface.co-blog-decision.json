@@ -3,10 +3,9 @@
   "source": "cleaned/articles/huggingface.co-blog-decision.json",
   "title": "Decision Models in Hugging Face",
   "link": "https://huggingface.co/blog/decision",
-  "sentence": "Hugging Face 把决策模型做成 decision pipeline：给定状态和候选，直接返回选项和概率，而不是生成一段 JSON。",
+  "lede": "Hugging Face 把决策模型做成 decision pipeline：给定状态和候选，直接返回选项和概率，而不是生成一段 JSON。",
   "category": "模型",
   "company": "Hugging Face",
-  "text": "#### &lt;模型&gt;&lt;Hugging Face&gt;[Decision Models in Hugging Face](https://huggingface.co/blog/decision)\n\nHugging Face 把决策模型做成 decision pipeline：给定状态和候选，直接返回选项和概率，而不是生成一段 JSON。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>客服分流、紧急程度、是不是在要退款，这类判断不一定需要模型逐 token 写出答案。生成 JSON 仍然可能写出结构之外的东西。</p>\n<p><strong>如何解决：</strong>decision pipeline 接收 state 和带类型的问题，对应用已经认识的答案打概率。文中的例子用 autotrust/GEV-26B-Decide，在「重复扣款想退款」上把 department 判成 billing。TypeSafe 的 Jev 被当作 System One，也就是快的那一种判断。</p>\n<p><strong>效果怎样：</strong>示例输出里 billing 的 confidence 约 0.997。这是博文里的一次调用，不是一篇榜单。</p>\n<p><strong>洞察与启发：</strong>应用要的是候选上的分布，不是一段还得再解析的文字。</p>\n<p><strong>相关工作：</strong>淘小蜜那篇也在用读候选 logits 的方式做分流，并提醒社区实现不能反推 Jev 的内部结构。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "客服分流、紧急程度、是不是在要退款，这类判断不一定需要模型逐 token 写出答案。生成 JSON 仍然可能写出结构之外的东西。",
     "如何解决": "decision pipeline 接收 state 和带类型的问题，对应用已经认识的答案打概率。文中的例子用 autotrust/GEV-26B-Decide，在「重复扣款想退款」上把 department 判成 billing。TypeSafe 的 Jev 被当作 System One，也就是快的那一种判断。",

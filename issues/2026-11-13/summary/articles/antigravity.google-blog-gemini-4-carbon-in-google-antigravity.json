@@ -3,14 +3,14 @@
   "source": "cleaned/articles/antigravity.google-blog-gemini-4-carbon-in-google-antigravity.json",
   "title": "Gemini 4 Carbon and /swarm",
   "link": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity",
-  "sentence": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent，Gemini 4 Carbon 适合当协调和对抗验证的那一档。",
+  "lede": "Antigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent，Gemini 4 Carbon 适合当协调和对抗验证的那一档。",
   "category": "产品",
   "company": "Google",
-  "text": "#### &lt;产品&gt;&lt;Google&gt;[Gemini 4 Carbon and /swarm](https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity)\n\nAntigravity 的 /swarm 用共享消息板把规划、实现和验证拆成并行 Agent，Gemini 4 Carbon 适合当协调和对抗验证的那一档。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>单 Agent 扛得住范围清楚的任务，一改到几十个文件和测试集就断；动态子 Agent 仍要一个协调者读完每一步。</p>\n<p><strong>如何解决：</strong>协调者在互相隔离的 git worktree 里拉起专职工人，另有专门跑测试、挑 diff 的对抗验证者。大家往同一块只追加的消息板写，空闲时不耗 token。侧栏有 Board、名单和过程回放。不同角色可以钉不同模型。</p>\n<p><strong>效果怎样：</strong>文中没有给一组对外的成功率，写的是 Google 内部五周试用，用来做多包迁移、跨子系统排障和架构重做，并提醒并行会更快吃掉额度。</p>\n<p><strong>洞察与启发：</strong>多 Agent 不该靠一层层转述，上下文会在链上变差；共享一块板，比把每一步都收回到一个协调者窗口里更稳。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "单 Agent 扛得住范围清楚的任务，一改到几十个文件和测试集就断；动态子 Agent 仍要一个协调者读完每一步。",
     "如何解决": "协调者在互相隔离的 git worktree 里拉起专职工人，另有专门跑测试、挑 diff 的对抗验证者。大家往同一块只追加的消息板写，空闲时不耗 token。侧栏有 Board、名单和过程回放。不同角色可以钉不同模型。",
     "效果怎样": "文中没有给一组对外的成功率，写的是 Google 内部五周试用，用来做多包迁移、跨子系统排障和架构重做，并提醒并行会更快吃掉额度。",
-    "洞察与启发": "多 Agent 不该靠一层层转述，上下文会在链上变差；共享一块板，比把每一步都收回到一个协调者窗口里更稳。"
+    "洞察与启发": "多 Agent 不该靠一层层转述，上下文会在链上变差；共享一块板，比把每一步都收回到一个协调者窗口里更稳。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

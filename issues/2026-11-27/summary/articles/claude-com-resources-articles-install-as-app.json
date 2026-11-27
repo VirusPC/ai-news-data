@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude-com-resources-articles-install-as-app.json",
   "title": "Turn artifacts into Mac and Windows apps",
   "link": "https://claude.com/resources/articles/install-as-app",
-  "sentence": "Claude 的 artifact 现在可以安装成 Mac 和 Windows 桌面应用，并在系统里单独打开。",
+  "lede": "Claude for Mac 和 Windows 开始测试“<mark class=\"note-card-hl\">Install as app</mark>”：常用的 artifact 可以像普通桌面应用一样打开，并在得到许可后使用电脑。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### [Turn artifacts into Mac and Windows apps](https://claude.com/resources/articles/install-as-app)\n\nClaude for Mac 和 Windows 开始测试“<mark class=\"note-card-hl\">Install as app</mark>”：常用的 artifact 可以像普通桌面应用一样打开，并在得到许可后使用电脑。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人们已经把 artifact 当成日常工具来用，例如会议准备页或发货追踪，但它们仍困在 Claude 窗口里，不能像普通应用那样开窗、提醒或被分享。</p>\n<p><strong>如何解决：</strong>用户可以把 artifact 安装成带图标、独立窗口的 Mac 或 Windows 应用，使用 Claude 和已有连接器，并在底层 artifact 被编辑后自动更新。应用与电脑交互前必须先获得许可，权限由用户逐项选择；Team 和 Enterprise 管理员可以开关应用权限和完全访问。对 Claude 的请求计入当前方案用量。</p>\n<p><strong>效果怎样：</strong>功能仍在测试，面向 Claude for Mac 和 Windows。官方没有给出安装量或性能数字，强调的是工作流变化：常用工具可以出现在程序坞或系统托盘里，并在需要注意时发出通知。</p>\n<p><strong>洞察与启发：</strong>当 artifact 从“一次输出”变成“每天要用的工具”，安装成系统应用是自然的下一步，关键约束是权限和自动更新，而不是再做一个应用商店。</p>\n<p><strong>相关工作：</strong>同一周 nod 等本机个人 Agent 也在强调“给助手一台电脑，并在行动前询问”，和 Claude 把 artifact 装进操作系统是同一类“走出聊天窗口”的产品动作。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "人们已经把 artifact 当成日常工具来用，例如会议准备页或发货追踪，但它们仍困在 Claude 窗口里，不能像普通应用那样开窗、提醒或被分享。",
+    "如何解决": "用户可以把 artifact 安装成带图标、独立窗口的 Mac 或 Windows 应用，使用 Claude 和已有连接器，并在底层 artifact 被编辑后自动更新。应用与电脑交互前必须先获得许可，权限由用户逐项选择；Team 和 Enterprise 管理员可以开关应用权限和完全访问。对 Claude 的请求计入当前方案用量。",
+    "效果怎样": "功能仍在测试，面向 Claude for Mac 和 Windows。官方没有给出安装量或性能数字，强调的是工作流变化：常用工具可以出现在程序坞或系统托盘里，并在需要注意时发出通知。",
+    "洞察与启发": "当 artifact 从“一次输出”变成“每天要用的工具”，安装成系统应用是自然的下一步，关键约束是权限和自动更新，而不是再做一个应用商店。",
+    "相关工作": "同一周 nod 等本机个人 Agent 也在强调“给助手一台电脑，并在行动前询问”，和 Claude 把 artifact 装进操作系统是同一类“走出聊天窗口”的产品动作。"
+  }
 }

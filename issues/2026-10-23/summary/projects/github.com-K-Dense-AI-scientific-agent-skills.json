@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "source": "cleaned/projects/github.com-K-Dense-AI-scientific-agent-skills.json",
+  "title": "K-Dense-AI/scientific-agent-skills",
+  "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "lede": "给 Agent 用的科学技能库。简介写有 177 个可直接用的技能。 来源里只有这些。",
+  "category": "开源",
+  "company": "K-Dense-AI",
   "purpose": "K-Dense-AI/scientific-agent-skills",
   "change": "见本期正文。",
-  "text": "#### [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)\n\n给 Agent 用的科学技能库。简介写有 177 个可直接用的技能。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Agent 要做科学场景的活，需要现成的技能可用。",
+    "如何解决": "仓库按科学场景整理出 177 个可直接上手的技能。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "科学技能被整成库，Agent 可以直接按简介取用这 177 个。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

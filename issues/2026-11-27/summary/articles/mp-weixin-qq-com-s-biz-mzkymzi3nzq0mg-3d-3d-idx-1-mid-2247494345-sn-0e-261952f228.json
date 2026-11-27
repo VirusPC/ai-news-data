@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mzkymzi3nzq0mg-3d-3d-idx-1-mid-2247494345-sn-0e-261952f228.json",
   "title": "GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜",
   "link": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73",
-  "sentence": "智谱发布采用 Loop Transformer 的旗舰模型 GLM-5.4，先对 Coding Plan 用户开放。",
+  "lede": "智谱把已预训练基座里的 28 层改成两轮循环，发布旗舰模型 <mark class=\"note-card-hl\">GLM-5.4</mark>，并把它定位成“泛 Coding”的开启。",
   "category": "模型",
   "company": "GLM",
-  "text": "#### [GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜](https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73)\n\n智谱把已预训练基座里的 28 层改成两轮循环，发布旗舰模型 <mark class=\"note-card-hl\">GLM-5.4</mark>，并把它定位成“泛 Coding”的开启。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只靠继续堆参数，很难在可控成本下把长程推理和编码能力再往上推；同时国内团队还缺一款能在真实编程场景里站得住的旗舰编码模型。</p>\n<p><strong>如何解决：</strong>GLM-5.4 采用 Loop Transformer，让一组共享权重的层循环执行，在参数量不变时做更深的推理。官方同时强调系统提示词、工具调用和产品形态要一起改，并先向 GLM Coding Plan 全量用户开放，登陆 ZCode、Trae、WorkBuddy、Qoder 等平台。API 要等安全评估后开放，权重计划负责任开源。</p>\n<p><strong>效果怎样：</strong>官方称智能水平达到 2-3T 级模型，并在 200 个真实编程场景评测中认为体感仍是最强的国产编码模型；在 GPQA、MMLU-Pro 上平均输出长度下降 <mark class=\"note-card-hl\">10%–14%</mark>。产品速度方面，官方给出非高峰最高 200 token/s、高峰 70-80 token/s。本期 Artificial Analysis 目录尚未收录该模型，也还没有可核验的官方 API 定价。</p>\n<p><strong>洞察与启发：</strong>把循环深度用在已经预训练好的基座上，是一条和“只做更大稠密模型”不同的旗舰路线；产品是否先对 Coding Plan 开放，也说明编码工作流被当成了这代模型的主战场。</p>\n<p><strong>相关工作：</strong>同一窗口里，Thinking Machines Lab 的 Inkling 2 Mini 也在中间层做循环，但目标是本地部署的小激活 MoE，而不是云端旗舰编码模型。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "只靠继续堆参数，很难在可控成本下把长程推理和编码能力再往上推；同时国内团队还缺一款能在真实编程场景里站得住的旗舰编码模型。",
+    "如何解决": "GLM-5.4 采用 Loop Transformer，让一组共享权重的层循环执行，在参数量不变时做更深的推理。官方同时强调系统提示词、工具调用和产品形态要一起改，并先向 GLM Coding Plan 全量用户开放，登陆 ZCode、Trae、WorkBuddy、Qoder 等平台。API 要等安全评估后开放，权重计划负责任开源。",
+    "效果怎样": "官方称智能水平达到 2-3T 级模型，并在 200 个真实编程场景评测中认为体感仍是最强的国产编码模型；在 GPQA、MMLU-Pro 上平均输出长度下降 <mark class=\"note-card-hl\">10%–14%</mark>。产品速度方面，官方给出非高峰最高 200 token/s、高峰 70-80 token/s。本期 Artificial Analysis 目录尚未收录该模型，也还没有可核验的官方 API 定价。",
+    "洞察与启发": "把循环深度用在已经预训练好的基座上，是一条和“只做更大稠密模型”不同的旗舰路线；产品是否先对 Coding Plan 开放，也说明编码工作流被当成了这代模型的主战场。",
+    "相关工作": "同一窗口里，Thinking Machines Lab 的 Inkling 2 Mini 也在中间层做循环，但目标是本地部署的小激活 MoE，而不是云端旗舰编码模型。"
+  }
 }

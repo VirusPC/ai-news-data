@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro.dev-blog-software-factory-stability.json",
   "title": "Keeping a software factory stable at 1,000 PRs a week",
   "link": "https://kiro.dev/blog/software-factory-stability",
-  "sentence": "&lt;架构&gt;&lt;AWS&gt;  (https://kiro.dev/blog/software-factory-stability) 同一套工厂要在每周大约一千个 PR 的量级上还稳得住。 订阅源里只有这些。",
+  "lede": "同一套工厂要在每周大约一千个 PR 的量级上还稳得住。 订阅源里只有这些。",
   "category": "架构",
   "company": "AWS",
-  "text": "#### &lt;架构&gt;&lt;AWS&gt;[Keeping a software factory stable at 1,000 PRs a week](https://kiro.dev/blog/software-factory-stability)\n\n同一套工厂要在每周大约一千个 PR 的量级上还稳得住。\n\n订阅源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "软件工厂要扛住每周约一千个 PR 的量级。",
+    "如何解决": "同一套工厂按每周大约一千个 PR 的量级来保持稳定。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "稳定性要按同一套工厂、每周约一千个 PR 的量级来衡量。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

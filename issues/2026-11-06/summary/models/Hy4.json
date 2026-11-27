@@ -1,6 +1,9 @@
 {
   "id": "腾讯混元 Hy4",
   "source": "cleaned/models/Hy4.json",
+  "title": "腾讯混元 Hy4",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33",
+  "lede": "腾讯混元 Hy4：相对 Hy4 preview 扩大了预训练和后训练，加上视觉理解和电脑操作。",
   "price": {
     "text": "暂无"
   },
@@ -10,5 +13,22 @@
   "effect": {
     "text": "暂无"
   },
-  "text": "#### [腾讯混元 Hy4](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 11 月 4 日发布。权重说将于近期开源，并写系统卡。</li>\n<li><strong>定位</strong> 相对 Hy4 preview 扩大了预训练和后训练，加上视觉理解和电脑操作。</li>\n<li><strong>成绩</strong> WorkBuddy 评测里平均效果 <mark class=\"note-card-hl\">83.18</mark> 分，任务通过率 96.15%。这是他们自己的办公场景表。</li>\n<li><strong>可用</strong> 单价和速度名次没有写。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808030&idx=1&sn=b1a1332f38f89c2d4cc91899900ddf33\">腾讯混元发布 Hy4</a></p>\n</aside>\n\n"
+  "points": [
+    {
+      "label": "上线",
+      "text": "11 月 4 日发布。权重说将于近期开源，并写系统卡。"
+    },
+    {
+      "label": "定位",
+      "text": "相对 Hy4 preview 扩大了预训练和后训练，加上视觉理解和电脑操作。"
+    },
+    {
+      "label": "成绩",
+      "text": "WorkBuddy 评测里平均效果 <mark class=\"note-card-hl\">83.18</mark> 分，任务通过率 96.15%。这是他们自己的办公场景表。"
+    },
+    {
+      "label": "可用",
+      "text": "单价和速度名次没有写。"
+    }
+  ]
 }

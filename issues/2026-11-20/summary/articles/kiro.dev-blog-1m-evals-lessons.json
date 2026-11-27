@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro.dev-blog-1m-evals-lessons.json",
   "title": "Lessons learned from one million evaluations",
   "link": "https://kiro.dev/blog/1m-evals-lessons",
-  "sentence": "&lt;实践&gt;&lt;AWS&gt;  (https://kiro.dev/blog/1m-evals-lessons) 固定题集加二元通过率会饱和，通过了也 不等于客户体验好 。 完整总结 解决什么问题： 编码 Agent 的评测常常是一套固定任务、只看过没过。模型变强以后，剩下的差距可能是基准噪声。工具调用失败、变慢、变贵，都可能不影响通过率。 如",
+  "lede": "固定题集加二元通过率会饱和，通过了也<mark class=\"note-card-hl\">不等于客户体验好</mark>。",
   "category": "实践",
   "company": "AWS",
-  "text": "#### &lt;实践&gt;&lt;AWS&gt;[Lessons learned from one million evaluations](https://kiro.dev/blog/1m-evals-lessons)\n\n固定题集加二元通过率会饱和，通过了也<mark>不等于客户体验好</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 的评测常常是一套固定任务、只看过没过。模型变强以后，剩下的差距可能是基准噪声。工具调用失败、变慢、变贵，都可能不影响通过率。</p>\n<p><strong>如何解决：</strong>Kiro 把场景按真实用量的任务、领域和语言补齐，来源包括自己写的、其他团队的和公开基准。每次除了通过率，还看延迟、token、工具失败，以及用模型给代码质量和语气打分。再拿调查和用户原话核对，数据和故事不一致时先听故事。</p>\n<p><strong>效果怎样：</strong>一次模型上线在公开基准上正常，内部试用却更差，后来发现工具描述让新模型大量用错参数。文章用这个例子说明为什么要改评测，没有另给总成绩。</p>\n<p><strong>洞察与启发：</strong>固定题集只看过没过，模型变强以后剩下的差距可能只是基准噪声。通过了，仍可能更慢、更贵，或把工具用错。</p>\n<p><strong>相关工作：</strong>Anthropic 同期强调端到端和性质测试，都是不满足于二元通过。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 的评测常常是一套固定任务、只看过没过。模型变强以后，剩下的差距可能是基准噪声。工具调用失败、变慢、变贵，都可能不影响通过率。",
+    "如何解决": "Kiro 把场景按真实用量的任务、领域和语言补齐，来源包括自己写的、其他团队的和公开基准。每次除了通过率，还看延迟、token、工具失败，以及用模型给代码质量和语气打分。再拿调查和用户原话核对，数据和故事不一致时先听故事。",
+    "效果怎样": "一次模型上线在公开基准上正常，内部试用却更差，后来发现工具描述让新模型大量用错参数。文章用这个例子说明为什么要改评测，没有另给总成绩。",
+    "洞察与启发": "固定题集只看过没过，模型变强以后剩下的差距可能只是基准噪声。通过了，仍可能更慢、更贵，或把工具用错。",
+    "相关工作": "Anthropic 同期强调端到端和性质测试，都是不满足于二元通过。"
+  }
 }

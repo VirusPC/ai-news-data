@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.warp.dev-blog-7-ways-to-build-a-software-factory.json",
   "title": "7 core components for building a software factory",
   "link": "https://www.warp.dev/blog/7-ways-to-build-a-software-factory",
-  "sentence": "&lt;架构&gt;&lt;Warp&gt;  (https://www.warp.dev/blog/7-ways-to-build-a-software-factory) 软件工厂被定义成把大家的 Agent 收成同一套 ，而不是每人一份本机配置。 完整总结 解决什么问题： Agent 的跑法如果停在个人电脑上，安全和效果都没法当团队系统来改。 如何解决：",
+  "lede": "软件工厂被定义成把大家的 Agent <mark class=\"note-card-hl\">收成同一套</mark>，而不是每人一份本机配置。",
   "category": "架构",
   "company": "Warp",
-  "text": "#### &lt;架构&gt;&lt;Warp&gt;[7 core components for building a software factory](https://www.warp.dev/blog/7-ways-to-build-a-software-factory)\n\n软件工厂被定义成把大家的 Agent <mark>收成同一套</mark>，而不是每人一份本机配置。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 的跑法如果停在个人电脑上，安全和效果都没法当团队系统来改。</p>\n<p><strong>如何解决：</strong>像约定 CI 一样约定 Agent 怎么跑，把定义放在一处。</p>\n<p><strong>效果怎样：</strong>文中列的收益是安全管理、ROI 和团队一起改效率，没有统一的加速比。</p>\n<p><strong>洞察与启发：</strong>工厂是运行约定，不是再买一个编码插件。</p>\n<p><strong>相关工作：</strong>词云里的 software factory 来自这篇和 Kiro 那篇同时出现。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "Agent 的跑法如果停在个人电脑上，安全和效果都没法当团队系统来改。",
+    "如何解决": "像约定 CI 一样约定 Agent 怎么跑，把定义放在一处。",
+    "效果怎样": "文中列的收益是安全管理、ROI 和团队一起改效率，没有统一的加速比。",
+    "洞察与启发": "工厂是运行约定，不是再买一个编码插件。",
+    "相关工作": "词云里的 software factory 来自这篇和 Kiro 那篇同时出现。"
+  }
 }

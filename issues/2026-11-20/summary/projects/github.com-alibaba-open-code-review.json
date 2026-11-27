@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/alibaba/open-code-review",
   "source": "cleaned/projects/github.com-alibaba-open-code-review.json",
+  "title": "alibaba/open-code-review",
+  "link": "https://github.com/alibaba/open-code-review",
+  "lede": "代码评审工具，确定流程加上 LLM Agent，<mark class=\"note-card-hl\">按行评论</mark>，规则覆盖空指针、线程安全、XSS 和 SQL 注入，接口兼容 OpenAI 和 Anthropic。",
+  "category": "开源",
+  "company": "alibaba",
   "purpose": "alibaba/open-code-review",
   "change": "见本期正文。",
-  "text": "#### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)\n\n代码评审工具，确定流程加上 LLM Agent，<mark>按行评论</mark>，规则覆盖空指针、线程安全、XSS 和 SQL 注入，接口兼容 OpenAI 和 Anthropic。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只看 diff 的评审容易停在表面，通用 Agent 又容易又吵又贵。</p>\n<p><strong>如何解决：</strong>它读 Git diff，把改动交给可配置的模型。Agent 能读整个文件、搜索代码库、看其他改动，再按行写出评论。规则覆盖空指针、线程安全和注入。接口兼容 OpenAI 和 Anthropic。除了 diff，也可以整文件扫描没有像样 diff 的目录。</p>\n<p><strong>效果怎样：</strong>仓库说明写，和通用 Agent 用同一个模型时，它的精度更高、用掉的 token 大约是九分之一，召回更低，这是有意少报噪声。它还写到在阿里内部用了两年。具体数字以仓库说明为准。</p>\n<p><strong>洞察与启发：</strong>通用 Agent 用同一个模型也能评审，但更吵。少报噪声是有意用召回换精度，不是没找到问题。</p>\n<p><strong>相关工作：</strong>这和本期 Kiro 对评测饱和的复盘、Anthropic 的验证闭环是同一类：过了不等于有用。Plannotator 把人的评论送回 Agent，这里是模型按行先写出评论。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "只看 diff 的评审容易停在表面，通用 Agent 又容易又吵又贵。",
+    "如何解决": "它读 Git diff，把改动交给可配置的模型。Agent 能读整个文件、搜索代码库、看其他改动，再按行写出评论。规则覆盖空指针、线程安全和注入。接口兼容 OpenAI 和 Anthropic。除了 diff，也可以整文件扫描没有像样 diff 的目录。",
+    "效果怎样": "仓库说明写，和通用 Agent 用同一个模型时，它的精度更高、用掉的 token 大约是九分之一，召回更低，这是有意少报噪声。它还写到在阿里内部用了两年。具体数字以仓库说明为准。",
+    "洞察与启发": "通用 Agent 用同一个模型也能评审，但更吵。少报噪声是有意用召回换精度，不是没找到问题。",
+    "相关工作": "这和本期 Kiro 对评测饱和的复盘、Anthropic 的验证闭环是同一类：过了不等于有用。Plannotator 把人的评论送回 Agent，这里是模型按行先写出评论。"
+  }
 }
