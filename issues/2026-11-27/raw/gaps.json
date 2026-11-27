@@ -1,0 +1,40 @@
+{
+  "gaps": [
+    {
+      "path": "projects/releases.json",
+      "reason": "这期没有单独的仓库发布记录来源，不编空列表"
+    },
+    {
+      "path": "articles/feeds.json#aws-ml",
+      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#meituan-tech",
+      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#baoyu",
+      "reason": "主源停更（最新条目早于约一个月），无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#jxnl",
+      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#qwen-ai-platform",
+      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#sankalp",
+      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#zed",
+      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai",
+      "reason": "主源和备源 meta-ai-rsshub 均停更，本期没有 Meta AI 的 feed 条目；feeds.json 的 sources 只保留已决定采用的源。脚本不抓列表页，本期未补列表页"
+    }
+  ]
+}

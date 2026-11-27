@@ -1,0 +1,15 @@
+{
+  "id": "https://kiro.dev/blog/kiro-for-vs-code",
+  "source": "cleaned/articles/kiro-dev-blog-kiro-for-vs-code.json",
+  "title": "Introducing Kiro for VS Code",
+  "link": "https://kiro.dev/blog/kiro-for-vs-code",
+  "sentence": "Kiro for VS Code 正式发布，作为原生扩展提供 spec、steering、MCP 和记忆，并与 Kiro IDE 共用 .kiro 目录。",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### [Introducing Kiro for VS Code](https://kiro.dev/blog/kiro-for-vs-code)\n\nKiro for VS Code 正式发布，作为原生扩展提供 spec、steering、MCP 和记忆，并与 Kiro IDE <mark>共用 .kiro 目录</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队以 VS Code 为标准，不能为了试一个 Agent 换编辑器。</p>\n<p><strong>如何解决：</strong>在 VS Code Marketplace 或 Open VSX 安装，登录即用，不改套餐和计费；已有的 specs、steering、skills、hooks、powers 和 MCP 配置不用改，spec 在两个编辑器之间双向打开，回答时会显示引用了哪些 steering 文件。</p>\n<p><strong>效果怎样：</strong>覆盖 macOS、Windows 和 Linux，适用所有 Kiro 套餐；文章没有给量化数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "很多团队以 VS Code 为标准，不能为了试一个 Agent 换编辑器。",
+    "如何解决": "在 VS Code Marketplace 或 Open VSX 安装，登录即用，不改套餐和计费；已有的 specs、steering、skills、hooks、powers 和 MCP 配置不用改，spec 在两个编辑器之间双向打开，回答时会显示引用了哪些 steering 文件。",
+    "效果怎样": "覆盖 macOS、Windows 和 Linux，适用所有 Kiro 套餐；文章没有给量化数字。"
+  }
+}

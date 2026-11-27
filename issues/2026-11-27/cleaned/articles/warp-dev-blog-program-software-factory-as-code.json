@@ -1,0 +1,10 @@
+{
+  "id": "https://www.warp.dev/blog/program-software-factory-as-code",
+  "title": "How to build a software factory you'll actually use",
+  "date": "2026-11-24",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Warp",
+  "category": "博客",
+  "url": "https://www.warp.dev/blog",
+  "text": "Learn how to program a software factory as code: define agent workflows as blueprints, add triage and specs, verify with computer use, and score merge risk."
+}

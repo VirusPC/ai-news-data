@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/google-labs-code/stitch-skills",
+  "source": "cleaned/projects/google-labs-code-stitch-skills.json",
+  "purpose": "Google Stitch 设计工具的 Agent Skills 集合",
+  "change": "进入 GitHub Trending 每周总榜，本周第 2 名（按榜单原始顺序）。",
+  "text": "#### [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)\n\nGoogle Stitch 设计工具的 Agent Skills 集合。按 <mark>Agent Skills</mark> 开放标准写成的一组 skill 和插件，配合 Stitch MCP 服务器使用。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>给 Stitch MCP 服务器配套的 skills。</p>\n<p><strong>如何解决：</strong>按 Agent Skills 开放标准写成的一组 skill 和插件，配合 Stitch MCP 服务器使用。</p>\n<p><strong>补充：</strong>可用于 Codex、Antigravity、Gemini CLI、Claude Code、Cursor，OpenCode 需手动安装。（星标 13297，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "date": "2026-11-26",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
+  "text": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference"
+}

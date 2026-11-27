@@ -1,0 +1,15 @@
+{
+  "id": "https://www.langchain.com/blog/the-agent-lake",
+  "source": "cleaned/articles/langchain-com-blog-the-agent-lake.json",
+  "title": "The Agent Lake",
+  "link": "https://www.langchain.com/blog/the-agent-lake",
+  "sentence": "LangChain 把 LangSmith 的架构概括成 Agent Lake：一份存放 Agent trace 的共享数据，加上各种分析它的智能计算。",
+  "category": "架构",
+  "company": "LangChain",
+  "text": "#### [The Agent Lake](https://www.langchain.com/blog/the-agent-lake)\n\nLangChain 把 LangSmith 的架构概括成 <mark>Agent Lake</mark>：一份存放 Agent trace 的共享数据，加上各种分析它的智能计算。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent trace 越来越长、越来越多，靠人逐条看来调试已经撑不住。</p>\n<p><strong>如何解决：</strong>作者认为需要两样东西：为 trace 优化的数据库（已发布 SmithDB）和能处理非结构化推理的「智能计算」，二者合起来像传统数据湖，LangChain 称之为 agent lake。</p>\n<p><strong>效果怎样：</strong>文章是架构主张，没有给对比数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "Agent trace 越来越长、越来越多，靠人逐条看来调试已经撑不住。",
+    "如何解决": "作者认为需要两样东西：为 trace 优化的数据库（已发布 SmithDB）和能处理非结构化推理的「智能计算」，二者合起来像传统数据湖，LangChain 称之为 agent lake。",
+    "效果怎样": "文章是架构主张，没有给对比数字。"
+  }
+}

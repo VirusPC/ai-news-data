@@ -1,0 +1,10 @@
+{
+  "id": "https://www.philschmid.de/gemini-4-neon-context-engineering",
+  "title": "How my context engineering changed for Gemini 4 Neon",
+  "date": "2026-11-25",
+  "source": "raw/articles/feeds.json",
+  "publisher": "philschmid",
+  "category": "博客",
+  "url": "https://www.philschmid.de/",
+  "text": "After weeks of running evals and building daily with Gemini 4 Neon, I realized that many of the guardrails, skills, and rules I wrote for older models were slowing it down. Here are 5 things I changed."
+}

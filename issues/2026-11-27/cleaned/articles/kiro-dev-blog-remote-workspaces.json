@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/remote-workspaces",
+  "title": "Remote workspaces bring the IDE to where your code and compute already live",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "The workspace no longer has to live directly on your laptop. Starting today, Kiro IDE opens Kiro cloud sessions, runs inside a dev container locally or on a remote host, and connects to machines your team already owns. Wherever the work runs, the full IDE comes with it, so editing files and running terminal commands work the same way they do locally."
+}

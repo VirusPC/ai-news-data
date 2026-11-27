@@ -1,0 +1,15 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+  "source": "cleaned/articles/mp-weixin-qq-com-s-biz-MzI1MzYzMjE0MQ-3D-3D-idx-2-mid-2247524676-sn-d75e8a013600.json",
+  "title": "一个向量库，两种检索：VikingDB 关键词检索实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+  "sentence": "字节 VikingDB 在同一个库里同时支持向量检索和关键词检索，解决错误码、型号这类只差一个字符的查询被向量检索排错的问题。",
+  "category": "实践",
+  "company": "字节",
+  "text": "#### [一个向量库，两种检索：VikingDB 关键词检索实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c)\n\n字节 VikingDB 在同一个库里同时支持向量检索和<mark>关键词检索</mark>，解决错误码、型号这类只差一个字符的查询被向量检索排错的问题。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>向量检索按语义相似度排序，查「0xC000021A 蓝屏」时可能把只差一个字符的 0xC000021E 手册排在前面，用户会被带偏排查方向。</p>\n<p><strong>如何解决：</strong>VikingDB 支持同库内向量检索和关键词检索；关键词检索写入和查询共用同一个文本解析器，做归一化、分词和停用词过滤，用倒排索引匹配词项再打分。</p>\n<p><strong>效果怎样：</strong>关键词检索已在数十种内外部检索场景稳定运行，并为 OpenViking、Viking 知识库等平台提供基础检索能力；文章没有给对比数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "向量检索按语义相似度排序，查「0xC000021A 蓝屏」时可能把只差一个字符的 0xC000021E 手册排在前面，用户会被带偏排查方向。",
+    "如何解决": "VikingDB 支持同库内向量检索和关键词检索；关键词检索写入和查询共用同一个文本解析器，做归一化、分词和停用词过滤，用倒排索引匹配词项再打分。",
+    "效果怎样": "关键词检索已在数十种内外部检索场景稳定运行，并为 OpenViking、Viking 知识库等平台提供基础检索能力；文章没有给对比数字。"
+  }
+}

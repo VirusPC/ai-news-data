@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/kirobench",
+  "title": "Benchmarking coding agents on the work developers bring to Kiro",
+  "date": "2026-11-26",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "Developers use Kiro for everything from a quick question to work that spans many files and many rounds of conversation: adding a feature, tracking down a bug in an unfamiliar codebase, or getting a project to build. We needed a way to measure agents across all of these use cases, so that we could build an agent that meets developers’ needs in real workflows."
+}

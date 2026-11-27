@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/kiro-for-vs-code",
+  "title": "Introducing Kiro for VS Code",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "Today, we’re launching Kiro for VS Code, generally available on macOS, Windows, and Linux. Install it from the VS Code Marketplace or Open VSX, sign in, and build with the Kiro agent without leaving the editor you already use. It works with every Kiro plan, with no change to your plan or billing."
+}

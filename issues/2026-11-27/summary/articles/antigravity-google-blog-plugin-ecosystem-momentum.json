@@ -1,0 +1,15 @@
+{
+  "id": "https://antigravity.google/blog/plugin-ecosystem-momentum",
+  "source": "cleaned/articles/antigravity-google-blog-plugin-ecosystem-momentum.json",
+  "title": "Expanding the Antigravity Plugin Ecosystem",
+  "link": "https://antigravity.google/blog/plugin-ecosystem-momentum",
+  "sentence": "Antigravity 插件市场又添了一批合作方和 Google 自家插件，集中在可观测与事故响应、基础设施与质量门、知识工作三类。",
+  "category": "产品",
+  "company": "Google",
+  "text": "#### [Expanding the Antigravity Plugin Ecosystem](https://antigravity.google/blog/plugin-ecosystem-momentum)\n\nAntigravity <mark>插件市场</mark>又添了一批合作方和 Google 自家插件，集中在可观测与事故响应、基础设施与质量门、知识工作三类。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 要进入真实工程流程，需要直接连到日志、部署、测试和办公系统。</p>\n<p><strong>如何解决：</strong>新增插件包括 Better Stack、Grafana Cloud、incident.io、Arize AX（可观测、事故响应与评测），Cloudflare、Clerk、Neo4j、SonarQube（部署、认证、图查询与静态安全分析），ClickUp、Docusign、Granola、Tavily 等（任务、签署、会议与检索），Gmail 并入 Google Workspace。</p>\n<p><strong>效果怎样：</strong>文章是上新清单，没有使用数据。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "Agent 要进入真实工程流程，需要直接连到日志、部署、测试和办公系统。",
+    "如何解决": "新增插件包括 Better Stack、Grafana Cloud、incident.io、Arize AX（可观测、事故响应与评测），Cloudflare、Clerk、Neo4j、SonarQube（部署、认证、图查询与静态安全分析），ClickUp、Docusign、Granola、Tavily 等（任务、签署、会议与检索），Gmail 并入 Google Workspace。",
+    "效果怎样": "文章是上新清单，没有使用数据。"
+  }
+}
