@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/meta/astryx",
-  "source": "cleaned/projects/meta-astryx.json",
-  "purpose": "Meta 开源的、为 Agent 协作准备好的设计系统",
-  "change": "进入 GitHub Trending 每周总榜，本周第 10 名（按榜单原始顺序）。",
-  "text": "#### [meta/astryx](https://github.com/meta/astryx)\n\nMeta 开源的、为 Agent 协作准备好的设计系统。Astryx 在 Meta 内部成长了八年，是公司内使用最多、规模最大的设计系统，现在开源并面向「<mark>人和 Agent 一起做</mark>」的方式。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>可完全定制，基于 React 19+ 和 StyleX。</p>\n<p><strong>如何解决：</strong>Astryx 在 Meta 内部成长了八年，是公司内使用最多、规模最大的设计系统，现在开源并面向「人和 Agent 一起做」的方式。</p>\n<p><strong>补充：</strong>目前是 Beta。（星标 33358，许可 MIT，数据来自 GitHub）</p>\n</details>\n\n"
-}

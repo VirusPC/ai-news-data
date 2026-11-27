@@ -1,16 +1,16 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.10"
+    "version": "0.0.11"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
-    "commit": "05cd1373b8208a9fcf0b97b52df37edd26e8fead",
+    "commit": "397929991a9238bdd530ad088f04bb6dbe59c25f",
     "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
-    "raw": 90,
-    "selected": 25
+    "raw": 112,
+    "selected": 29
   },
   "window": {
     "issue": "2026-11-27",
@@ -21,12 +21,12 @@
     "categories": [
       {
         "title": "模型榜单",
-        "count": 831,
+        "count": 832,
         "publishers": [
           {
             "name": "Artificial Analysis",
             "url": "https://artificialanalysis.ai/leaderboards/models",
-            "count": 766
+            "count": 767
           },
           {
             "name": "LLM Arena",
@@ -53,7 +53,7 @@
       },
       {
         "title": "博客",
-        "count": 68,
+        "count": 89,
         "publishers": [
           {
             "name": "Anthropic",
@@ -118,7 +118,7 @@
           {
             "name": "AWS",
             "url": "https://aws.amazon.com/blogs/machine-learning/",
-            "count": 0
+            "count": 10
           },
           {
             "name": "sankalp",
@@ -204,12 +204,22 @@
             "name": "MiniMax",
             "url": "https://www.minimax.io/blog",
             "count": 2
+          },
+          {
+            "name": "DataCamp AI",
+            "url": "https://www.datacamp.com/blog/category/ai",
+            "count": 7
+          },
+          {
+            "name": "Qoder",
+            "url": "https://qoder.com/blog",
+            "count": 4
           }
         ]
       },
       {
         "title": "国内互联网",
-        "count": 22,
+        "count": 23,
         "publishers": [
           {
             "name": "字节跳动",
@@ -239,7 +249,7 @@
           {
             "name": "美团",
             "url": "https://tech.meituan.com/",
-            "count": 0
+            "count": 1
           },
           {
             "name": "千问",
@@ -269,9 +279,9 @@
       "boards": [
         "Artificial Analysis",
         "LLM Arena",
-        "OpenRouter 应用用量",
+        "OpenRouter 本周用量",
         "OpenRouter 编程用量",
-        "OpenRouter 本周用量"
+        "OpenRouter 应用用量"
       ],
       "cards": [
         "Inkling 2 Mini",
@@ -281,17 +291,11 @@
     {
       "title": "项目开源",
       "cards": [
-        "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "https://github.com/GoogleChrome/modern-web-guidance-src",
-        "https://github.com/ag-ui-protocol/ag-ui",
-        "https://github.com/alibaba/open-code-review",
         "https://github.com/backnotprop/plannotator",
-        "https://github.com/dream-num/univer",
         "https://github.com/google-labs-code/stitch-skills",
-        "https://github.com/kajisho5/ffmpeg-skill",
-        "https://github.com/meta/astryx",
-        "https://github.com/mvanhorn/last30days-skill",
-        "https://github.com/n8n-io/nod"
+        "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "https://github.com/n8n-io/nod",
+        "https://github.com/alibaba/open-code-review"
       ]
     },
     {
@@ -306,22 +310,24 @@
         {
           "title": "国外模型厂",
           "cards": [
-            "https://www.anthropic.com/research/migrating-api-to-rust",
-            "https://claude.com/resources/articles/install-as-app",
             "https://claude.com/resources/articles/introducing-claude-ship",
+            "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
             "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-            "https://openai.com/index/introducing-shirudo",
-            "https://antigravity.google/blog/mcp-apps-in-antigravity",
-            "https://antigravity.google/blog/plugin-ecosystem-momentum",
-            "https://www.philschmid.de/gemini-4-neon-context-engineering"
+            "https://claude.com/resources/articles/install-as-app"
           ]
         },
         {
           "title": "国内非模型厂",
           "cards": [
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547154&idx=1&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547174&idx=1&sn=b171682af05838ea8214918446403e69",
             "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
             "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
-            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c"
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808323&idx=1&sn=efa282d3273912ecf90ce04af25cfe6f",
+            "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607882&idx=1&sn=29dc274865dbd06fd48a35d98aff7593",
+            "https://blog.qoder.com/qoder-auto-usage-41",
+            "https://blog.qoder.com/qoder-auto-cache-optimization"
           ]
         },
         {
@@ -333,24 +339,24 @@
             "https://www.warp.dev/blog/program-software-factory-as-code",
             "https://huggingface.co/blog/harness-adapters-at-scale",
             "https://huggingface.co/blog/inkling2mini",
-            "https://kiro.dev/blog/agents-run-for-days",
-            "https://kiro.dev/blog/conductor-mode",
-            "https://kiro.dev/blog/kiro-for-vs-code",
-            "https://kiro.dev/blog/kirobench",
-            "https://kiro.dev/blog/remote-workspaces",
+            "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+            "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
             "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
-            "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review"
+            "https://kiro.dev/blog/kiro-for-vs-code",
+            "https://kiro.dev/blog/conductor-mode",
+            "https://kiro.dev/blog/private-networks",
+            "https://kiro.dev/blog/agents-run-for-days",
+            "https://www.philschmid.de/gemini-4-neon-context-engineering",
+            "https://kiro.dev/blog/kirobench"
           ]
         }
       ]
     },
     {
-      "title": "精选推文",
-      "cards": []
+      "title": "精选推文"
     },
     {
-      "title": "精选播客",
-      "cards": []
+      "title": "精选播客"
     }
   ]
 }

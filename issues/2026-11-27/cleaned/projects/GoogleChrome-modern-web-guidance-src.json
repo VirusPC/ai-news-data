@@ -4,7 +4,7 @@
   "publisher": "GitHub",
   "category": "GitHub Trending",
   "url": "https://github.com/trending?since=weekly",
-  "stars": 11263,
+  "released": "2026-10-14",
   "license": "Apache-2.0",
-  "released": null
+  "stars": 11321
 }

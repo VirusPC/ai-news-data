@@ -5,10 +5,10 @@
     "text": "暂无"
   },
   "speed": {
-    "text": "暂无"
+    "text": "非高峰最高 200 token/s，高峰 70-80 token/s"
   },
   "effect": {
     "text": "暂无"
   },
-  "text": "#### [GLM-5.4：瞄向泛 Coding](https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 智谱 11 月 23 日发布，向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder 等；API 待安全评估后开放。</li>\n<li><strong>定位</strong> 首个采用 Loop Transformer 的旗舰，GLM-5 基座的 28 层循环两轮，官方称智能水平达到 <mark class=\"note-card-hl\">2-3T 级</mark>模型。</li>\n<li><strong>成绩</strong> 官方称在 200 个真实场景编程评测里是体感最强的国产编码模型；非高峰最高约 <mark class=\"note-card-hl\">200 token/s</mark>，高峰 70–80 token/s。</li>\n<li><strong>可用</strong> Coding Plan 用户可用，V2/V3/团队版额度提升到 1.5 倍；权重计划以负责任的方式开源，暂无第三方实测。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73\">GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜</a></p>\n</aside>\n\n<br/>\n\n"
+  "text": "#### [GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜](https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73)\n\n智谱发布旗舰模型 <mark class=\"note-card-hl\">GLM-5.4</mark>：把已预训练基座中的 28 层改为两轮循环的 Loop Transformer，并把它定位为“泛 Coding”的开启。\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 2026-11-23 在智谱公众号发布，即日起向 GLM Coding Plan 全量用户开放，并登陆 ZCode、Trae、WorkBuddy、Qoder 等平台。</li>\n<li><strong>定位</strong> 官方称这是第一代采用 Loop Transformer 的旗舰，希望用循环深度提升长程推理，而不是只靠堆参数。</li>\n<li><strong>成绩</strong> 官方写到在 200 个真实编程场景评测中，体感仍是最强的国产编码模型；在 GPQA、MMLU-Pro 上平均输出长度下降 <mark class=\"note-card-hl\">10%–14%</mark>。本期 Artificial Analysis 目录尚未收录该模型。</li>\n<li><strong>可用或实测</strong> 官方给出非高峰最高 <mark class=\"note-card-hl\">200 token/s</mark>、高峰 70-80 token/s 的产品速度；API 要等安全评估后开放，权重计划负责任开源，本期没有可核验的官方 API 定价。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73\">GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜</a></p>\n</aside>\n"
 }

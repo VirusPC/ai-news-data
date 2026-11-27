@@ -2,39 +2,31 @@
   "gaps": [
     {
       "path": "projects/releases.json",
-      "reason": "这期没有单独的仓库发布记录来源，不编空列表"
-    },
-    {
-      "path": "articles/feeds.json#aws-ml",
-      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#meituan-tech",
-      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#baoyu",
-      "reason": "主源停更（最新条目早于约一个月），无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#jxnl",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+      "reason": "没有单独的仓库发布记录来源，不编空发布列表。"
     },
     {
       "path": "articles/feeds.json#qwen-ai-platform",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#sankalp",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#zed",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+      "reason": "主源 wechat2rss 已 stopped（最新条目 2026-07-20），meta 没有 listUrls，无法走列表页退路。与上一期 2026-11-20 连续两期主源失败，建议换源。"
     },
     {
       "path": "articles/feeds.json#meta-ai",
-      "reason": "主源和备源 meta-ai-rsshub 均停更，本期没有 Meta AI 的 feed 条目；feeds.json 的 sources 只保留已决定采用的源。脚本不抓列表页，本期未补列表页"
+      "reason": "主源 feed_meta_ai.xml 与备源 meta-ai-rsshub 均 stopped（最新分别 2026-07-27、2026-07-26）。列表页 https://ai.meta.com/blog/ 返回 HTTP 400，无法核对本窗口是否有新文。与上一期 2026-11-20 连续两期主源和备源都失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#codebuddy",
+      "reason": "无原生 feed。列表页 https://www.codebuddy.ai/blog 本次 TLS 连接失败（SSL unexpected eof），无法打开列表页核对本窗口是否有新文。"
+    },
+    {
+      "path": "articles/feeds.json#roocode",
+      "reason": "无原生 feed。列表页 https://roocode.com/blog 跳转到产品首页 https://roomote.dev/，看不到博客文章入口，无法核对本窗口是否有新文。"
+    },
+    {
+      "path": "articles/feeds.json#zed",
+      "reason": "主源 zed.dev/blog.rss 已 stopped（最新 2026-09-16）。列表页 https://zed.dev/blog 已打开，窗口 2026-11-20 至 2026-11-26 内无新文。与上一期 2026-11-20 连续两期主源失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#jxnl",
+      "reason": "主源 feed_rss_created.xml 已 stopped（最新 2026-07-05）。列表页 https://jxnl.co/writing/ 已打开，窗口 2026-11-20 至 2026-11-26 内无新文。与上一期 2026-11-20 连续两期主源失败，建议换源。"
     }
   ]
 }

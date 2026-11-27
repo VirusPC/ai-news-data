@@ -1,6 +1,6 @@
 {
   "name": "cleaned",
   "skill": "weekly-ai-blogs-digest",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "path": "skills/managed/weekly-ai-blogs-digest/references/clean/clean.md"
 }

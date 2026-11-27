@@ -1,20 +1,20 @@
 {
   "gaps": [
     {
-      "path": "articles/*",
-      "reason": "90 篇候选里只精选 25 篇；多数订阅源只有简介，只抓了入选的主要文章页，没有逐篇核对全部候选的全文。Cognition 的推文只有一句，卡片只留这一句。"
+      "path": "summary/models/Inkling-2-Mini.json",
+      "reason": "官方介绍未给出 API 定价，OpenRouter 官方标准档也没有可用延迟，价格和速度只能写暂无。"
     },
     {
-      "path": "models/GLM-5.4",
-      "reason": "价格、速度和智力指数暂无：发布原文没有单价，Artificial Analysis 与 OpenRouter 没有这个模型。"
+      "path": "summary/models/GLM-5.4.json",
+      "reason": "API 尚未开放、本期 Artificial Analysis 目录未收录，因此没有可核验的官方 API 定价和智力指数，效果写暂无；速度采用官方产品声明。"
     },
     {
-      "path": "models/Inkling 2 Mini",
-      "reason": "速度暂无：OpenRouter 官方端点目录里没有这个模型的端点。价格用 Artificial Analysis 列价。"
+      "path": "summary/articles/huggingface-co-blog-harness-adapters-at-scale.json",
+      "reason": "官方页面为动态渲染，已核对照到的可见正文没有给出可引用的效果或降本数字。"
     },
     {
-      "path": "articles/feeds#sources",
-      "reason": "aws-ml、meituan-tech 抓取报错；baoyu、jxnl、qwen-ai-platform、sankalp、zed 及 Meta AI 主备源停更；均无可用备源，本期没有这些发布方的条目。"
+      "path": "summary/articles/x-com-cognition-status-2125659035231780966.json",
+      "reason": "来源是一条产品公告帖，只能根据帖文本身写 Org Charts 的能力，没有更长的技术说明或量化结果。"
     }
   ]
 }

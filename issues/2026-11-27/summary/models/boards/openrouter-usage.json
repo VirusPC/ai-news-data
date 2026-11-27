@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 本周用量",
   "source": "cleaned/models/boards/openrouter-usage.json",
-  "caption": "按 token 用量排名的日用量榜：DeepSeek V4.1 Flash 1017 升到第一，Hy4 flash 退到第二。用量不是质量榜。",
+  "caption": "这是 token 用量榜，不是质量榜。DeepSeek V4.1 Flash 1017 取代 Hy4 flash，成为用量第一。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

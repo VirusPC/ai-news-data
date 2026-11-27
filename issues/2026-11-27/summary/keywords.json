@@ -1,43 +1,53 @@
 {
   "keywords": [
     {
-      "name": "改动怎么验证",
+      "name": "coding agents",
+      "weight": 2.8,
+      "targets": [
+        "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+        "https://kiro.dev/blog/kirobench"
+      ],
+      "theme": true
+    },
+    {
+      "name": "工作流收拢",
       "weight": 5,
       "targets": [
-        "https://www.anthropic.com/research/migrating-api-to-rust",
-        "https://kiro.dev/blog/kirobench",
         "https://claude.com/resources/articles/introducing-claude-ship",
+        "https://kiro.dev/blog/conductor-mode",
+        "https://x.com/cognition/status/2125659035231780966",
+        "https://www.warp.dev/blog/program-software-factory-as-code",
+        "https://github.com/backnotprop/plannotator",
         "https://github.com/alibaba/open-code-review"
       ]
     },
     {
-      "name": "工具接口",
+      "name": "上下文复用",
       "weight": 5,
       "targets": [
-        "https://antigravity.google/blog/mcp-apps-in-antigravity",
-        "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-        "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "https://github.com/ag-ui-protocol/ag-ui",
-        "https://huggingface.co/blog/harness-adapters-at-scale"
-      ]
-    },
-    {
-      "name": "用循环换深度",
-      "weight": 5,
-      "targets": [
-        "Inkling 2 Mini",
-        "GLM-5.4"
-      ]
-    },
-    {
-      "name": "长任务底座",
-      "weight": 5,
-      "targets": [
+        "https://blog.qoder.com/qoder-auto-usage-41",
+        "https://blog.qoder.com/qoder-auto-cache-optimization",
         "https://kiro.dev/blog/agents-run-for-days",
         "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+        "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+      ]
+    },
+    {
+      "name": "信任边界",
+      "weight": 5,
+      "targets": [
         "https://www.langchain.com/blog/langsmith-tool-gateway",
         "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
-        "https://github.com/n8n-io/nod"
+        "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+        "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents"
+      ]
+    },
+    {
+      "name": "循环深度",
+      "weight": 5,
+      "targets": [
+        "GLM-5.4",
+        "Inkling 2 Mini"
       ]
     },
     {
@@ -51,16 +61,18 @@
     },
     {
       "name": "Inkling 2 Mini",
-      "weight": 2.2,
+      "weight": 3.6,
       "targets": [
         "https://huggingface.co/blog/inkling2mini",
+        "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73",
         "Inkling 2 Mini"
       ]
     },
     {
       "name": "Claude Ship",
-      "weight": 1.4,
+      "weight": 2.2,
       "targets": [
+        "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
         "https://claude.com/resources/articles/introducing-claude-ship"
       ]
     }

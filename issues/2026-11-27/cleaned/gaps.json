@@ -1,16 +1,28 @@
 {
   "gaps": [
     {
-      "path": "projects/*#released",
-      "reason": "GitHub Trending 与 API 只给仓库创建时间，没有发布时间，不猜测，released 为 null"
+      "path": "projects/tradermonty-claude-trading-skills.json#released",
+      "reason": "tradermonty/claude-trading-skills 在窗口结束日 2026-11-26 及之前没有可核验的 GitHub Release，released 留空，不把仓库创建日或窗口之后的发布写成当期发布。"
     },
     {
-      "path": "models/Inkling 2 Mini#speed",
-      "reason": "OpenRouter 官方端点目录没有该模型的端点，速度暂无"
+      "path": "models/Inkling-2-Mini.json#price",
+      "reason": "官方介绍面向本地开权部署，未给出 API 输入/输出价；OpenRouter 官方标准档也没有可用报价。input/output 留空。Artificial Analysis 目录价仅用于脚本算出的 price.rank（rank_value 0.4125），不把该目录价写成官方发布价。"
     },
     {
-      "path": "models/GLM-5.4#price",
-      "reason": "发布原文没有单价，API 尚未开放，Artificial Analysis 与 OpenRouter 均无此模型，价格、速度、智力指数暂无"
+      "path": "models/Inkling-2-Mini.json#speed",
+      "reason": "OpenRouter 官方标准档端点没有 Inkling 2 Mini 的 latency / throughput，官方公告也未给出 API 延迟，speed.rank 为 null。"
+    },
+    {
+      "path": "models/GLM-5.4.json#price",
+      "reason": "官方公告写明 API 将在完成安全评估后开放，未公布输入/输出价；本期 OpenRouter 官方端点目录也没有 GLM-5.4。"
+    },
+    {
+      "path": "models/GLM-5.4.json#intelligence",
+      "reason": "本期 aa-language-models.json 中没有 GLM-5.4 或其变体，智力指数与名次留空。"
+    },
+    {
+      "path": "models/GLM-5.4.json#speed",
+      "reason": "官方只给出非高峰最高 200 token/s、高峰 70-80 token/s 的产品速度，不是 OpenRouter 官方标准档 latency；端点目录无 GLM-5.4，speed.rank 为 null。"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 编程用量",
   "source": "cleaned/models/boards/openrouter-programming.json",
-  "caption": "编程用量按 token 计，不是质量榜：Hy4 flash 以 33.34 万亿 token 排第一，DeepSeek V4.1 Flash 1017 第二。",
+  "caption": "这是编程相关的 token 用量，不是质量榜。Hy4 flash 进入榜单并升至第一，上一期的第一 DeepSeek V4.1 Flash 1017 退到第二。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

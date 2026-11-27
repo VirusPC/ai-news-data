@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547174&idx=1&sn=b171682af05838ea8214918446403e69",
+  "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mzaxndewnjk5oq-3d-3d-idx-1-mid-2650547174-sn-b1-b26660ac31.json",
+  "title": "如何搭建一个端到端业务需求专家 Agent",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547174&idx=1&sn=b171682af05838ea8214918446403e69",
+  "sentence": "淘宝团队搭了一套从需求澄清到结项沉淀的业务需求专家 Agent，人只在关键门禁确认。",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### [如何搭建一个端到端业务需求专家 Agent](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547174&idx=1&sn=b171682af05838ea8214918446403e69)\n\n淘宝团队介绍一套已在真实需求上跑通的业务需求专家 Agent：用四层架构和三道质量门禁，把从进入到结项的串联交给 Agent，人只在关键节点确认。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>AI 写代码本身已不是最大瓶颈；从 PRD 到上线还要经过澄清、方案、实现、CR、验收、发布和结项，真正贵的是这些环节的串联和上下文切换。</p>\n<p><strong>如何解决：</strong>系统分成上下文输入、业务专家编排、工具执行和反馈学习四层，并设置需求澄清、技术方案、内部质量三道门禁。实现用 TDD 驱动，要求反馈留痕，并在真实环境验收；结项时把过程经验蒸馏进长期知识。落地时他们选用 Multica，因为独立 issue 工作区能隔离上下文，Agent 与 skill 绑定后不必每次手工拼装。</p>\n<p><strong>效果怎样：</strong>文章强调这套闭环已在真实业务需求上跑通，能减少重复性串联，使每个需求成为下一次交付的知识积累。它同时承认首次接入成本偏高，尤其是鉴权和运行时初始化，集团内不少工具还只支持网页登录，对 Agent 沙箱不够友好。文中没有给出统一的工期缩短百分比。</p>\n<p><strong>洞察与启发：</strong>把人从“每个环节都亲自串一遍”改成“只在门禁确认”，关键不是再写一句总提示词，而是把状态、工具和反馈写成可回收的流程。</p>\n<p><strong>相关工作：</strong>同一团队的 LLM Wiki 实践为这套 Agent 提供可版本管理的业务知识；CodeBuddy 同期文章则用 grilling 和 ADR 在腾讯侧做类似的需求澄清与决策留存。</p>\n</details>\n"
+}

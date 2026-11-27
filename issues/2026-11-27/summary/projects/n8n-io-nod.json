@@ -1,7 +1,7 @@
 {
   "id": "https://github.com/n8n-io/nod",
   "source": "cleaned/projects/n8n-io-nod.json",
-  "purpose": "n8n 的开源个人 Agent",
-  "change": "进入 GitHub Trending 每周总榜，本周第 4 名（按榜单原始顺序）。",
-  "text": "#### [n8n-io/nod](https://github.com/n8n-io/nod)\n\nn8n 的开源个人 Agent。Nod 是一个<mark>有自己电脑</mark>的个人 Agent，在真实网站上追发票、准备会议材料、取消试用，动手前会询问；运行在本机，模型自选。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>在你自己的电脑上替你做事，动手前先问。</p>\n<p><strong>如何解决：</strong>Nod 是一个有自己电脑的个人 Agent，在真实网站上追发票、准备会议材料、取消试用，动手前会询问；运行在本机，模型自选。</p>\n<p><strong>补充：</strong>支持 macOS 14+，Windows 11 和 Linux x64 为预览版；免费开源。（星标 4015，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
+  "purpose": "开源的本机个人 Agent，能在真实网站上办事，并在行动前询问用户。",
+  "change": "本周周榜第四，窗口结束日前最近的 Release 是 2026-11-26 的 nod-v0.9.8。",
+  "text": "#### [nod](https://github.com/n8n-io/nod) 4095 stars Apache-2.0\n\nn8n 开源的 nod 是跑在本机、可自选模型的个人 Agent，能在真实网页上处理发票、通话准备和取消试用等事务，本周周榜排在 <mark class=\"note-card-hl\">第 4</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多人需要的不是写代码的 Agent，而是能在真实网站上替自己跑腿、同时又留在自己电脑和自己选的模型上的助手。</p>\n<p><strong>如何解决：</strong>nod 在用户机器上运行，给 Agent 一台可用的电脑环境，去完成催发票、准备会议、取消试用等网页任务，并在行动前先询问。仓库说明强调它由 n8n 出品，且开源。</p>\n<p><strong>效果怎样：</strong>项目把自己定位成带真实浏览器动手能力的个人 Agent，而不是又一个聊天窗口。清洗时核验到 <mark class=\"note-card-hl\">4095</mark> stars，许可证 Apache-2.0，窗口结束日前最近的 Release 是 2026-11-26 的 nod-v0.9.8。</p>\n<p><strong>洞察与启发：</strong>“给 Agent 一台电脑，并在行动前确认”把个人助手从问答推进到可审计的操作，适合本机隐私和模型自选的场景。</p>\n<p><strong>相关工作：</strong>浏览器操作类助手和云端 Computer-use Agent 在做类似的事，但 nod 强调开源、本机运行和用户自选模型。</p>\n</details>\n"
 }

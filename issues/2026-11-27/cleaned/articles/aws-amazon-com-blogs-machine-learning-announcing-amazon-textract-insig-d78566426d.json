@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+  "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "AWS",
+  "category": "博客",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "text": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required."
+}

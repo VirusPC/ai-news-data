@@ -1,46 +1,72 @@
 {
+  "id": "Inkling 2 Mini",
   "name": "Inkling 2 Mini",
   "release_url": "https://huggingface.co/blog/inkling2mini",
   "openrouter_slug": "thinkingmachines/inkling-2-mini",
+  "released": "2026-11-20",
   "price": {
-    "input": 0.15,
-    "output": 0.5,
+    "input": null,
+    "output": null,
     "unit": "USD per million tokens",
-    "source": "artificial_analysis",
+    "source": "official_article_missing",
+    "source_url": "https://huggingface.co/blog/inkling2mini",
+    "source_quote": "Official announcement presents a local / open-weight model and does not list API input or output prices.",
+    "provider": null,
     "rank": 25,
-    "rank_of": 142,
+    "rank_of": 143,
     "rank_metric": "blended_input_plus_3_output_over_4",
     "rank_source": "artificial_analysis",
     "rank_value": 0.4125,
-    "rank_variant": "Inkling 2 Mini",
-    "note": "发布原文没有给单价；OpenRouter 官方端点目录里没有这个模型的端点，改用 Artificial Analysis 列出的价格。"
+    "rank_variant": "Inkling 2 Mini"
   },
   "speed": {
     "latency_s": null,
     "throughput_tps": null,
+    "source": "openrouter_official_standard",
+    "note": "OpenRouter 官方标准档端点没有可用的 latency / throughput；公告面向本地部署，未给出 API 延迟。",
     "rank": null,
     "rank_of": null,
-    "note": "OpenRouter 官方端点目录没有这个模型的端点，暂无。AA 全提供商中位数备选：输出 142.3 token/s，首个答案 token 16.37 秒。",
-    "speed_median_aa": {
-      "throughput_tps": 142.3,
-      "time_to_first_answer_token_s": 16.37,
-      "source": "aa_free_performance"
-    }
+    "rank_metric": "latency_p50_s",
+    "rank_source": "openrouter_official_standard"
   },
   "aa": {
     "intelligence_index": 20.1,
-    "rank": 110,
-    "rank_of": 156,
+    "rank": 111,
+    "rank_of": 157,
     "variant": "Inkling 2 Mini",
     "aa_slug": "inkling-2-mini",
+    "rank_method": "competition（同分同名次，下一有效名次跳过）",
+    "catalog_size": 767,
+    "scored_models": 157,
     "intelligence_index_version": 5,
     "tier": "free",
     "source": "Artificial Analysis",
-    "fetched_at": "2026-11-27T09:27:48+08:00"
+    "fetched_at": "2026-11-27T15:45:44+08:00",
+    "coding_index": null
   },
-  "id": "Inkling 2 Mini",
-  "source": "raw/models/aa-language-models.json",
+  "best_for": {
+    "text": "面向本地部署的小尺寸多模态模型：约 26B 物理参数、每 token 3B 激活，支持 100 万 token 上下文，适合本地编码和知识工作。",
+    "source": "release_article",
+    "source_url": "https://huggingface.co/blog/inkling2mini",
+    "source_quote": "It's a multimodal Mixture-of-Experts with ~26B physical total and 3B active parameters per token. ... It supports a 1M-token context size ... designed for local AI setups."
+  },
+  "source": "raw/articles/feeds.json",
   "publisher": "Hugging Face",
   "category": "博客",
-  "url": "https://huggingface.co/blog"
+  "url": "https://huggingface.co/blog",
+  "intelligence": {
+    "intelligence_index": 20.1,
+    "rank": 111,
+    "rank_of": 157,
+    "variant": "Inkling 2 Mini",
+    "aa_slug": "inkling-2-mini",
+    "rank_method": "competition（同分同名次，下一有效名次跳过）",
+    "catalog_size": 767,
+    "scored_models": 157,
+    "intelligence_index_version": 5,
+    "tier": "free",
+    "source": "Artificial Analysis",
+    "fetched_at": "2026-11-27T15:45:44+08:00",
+    "coding_index": null
+  }
 }

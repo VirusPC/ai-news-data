@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/ag-ui-protocol/ag-ui",
-  "source": "cleaned/projects/ag-ui-protocol-ag-ui.json",
-  "purpose": "把 Agent 接进前端应用的开放协议 AG-UI",
-  "change": "进入 GitHub Trending 每周总榜，本周第 9 名（按榜单原始顺序）。",
-  "text": "#### [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)\n\n把 Agent 接进前端应用的开放协议 AG-UI。Agent 会流式输出 token、中途调工具、更新共享状态、等待人和派生子 Agent，各框架做法不一；AG-UI 用<mark>统一的事件协议</mark>取代这些各自为政的做法。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>用基于事件的轻量协议统一 Agent 与用户界面的连接。</p>\n<p><strong>如何解决：</strong>Agent 会流式输出 token、中途调工具、更新共享状态、等待人和派生子 Agent，各框架做法不一；AG-UI 用统一的事件协议取代这些各自为政的做法。</p>\n<p><strong>补充：</strong>这是一个开放协议，连接任意 Agent 与任意应用。（星标 21843，许可 MIT，数据来自 GitHub）</p>\n</details>\n\n"
-}

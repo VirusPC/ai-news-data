@@ -3,13 +3,8 @@
   "source": "cleaned/articles/warp-dev-blog-program-software-factory-as-code.json",
   "title": "How to build a software factory you'll actually use",
   "link": "https://www.warp.dev/blog/program-software-factory-as-code",
-  "sentence": "Warp 说明如何把「软件工厂」从积压工单自动化，做成团队愿意审 PR 的云端流水线。",
+  "sentence": "Warp 主张把软件工厂写成可版本管理的蓝图，而不是一条没人敢审的自动刷 PR 流水线。",
   "category": "实践",
   "company": "Warp",
-  "text": "#### [How to build a software factory you'll actually use](https://www.warp.dev/blog/program-software-factory-as-code)\n\nWarp 说明如何把「<mark>软件工厂</mark>」从积压工单自动化，做成团队愿意审 PR 的云端流水线。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队只盯着自动化循环，结果得到一个不被信任的黑盒，或没人读的 PR。</p>\n<p><strong>如何解决：</strong>把团队写 Agent 代码的知识集中到云端，写成可度量、可改进的分步流程：先用 blueprint 写实现流水线并挂上积压工单，再让开发者在分诊和写 spec 处判断需求，给 Agent 一台电脑自己验证，最后评估合并风险以便分配评审精力。</p>\n<p><strong>效果怎样：</strong>文章是方法说明，没有给量化结果。</p>\n</details>\n\n",
-  "sections": {
-    "解决什么问题": "很多团队只盯着自动化循环，结果得到一个不被信任的黑盒，或没人读的 PR。",
-    "如何解决": "把团队写 Agent 代码的知识集中到云端，写成可度量、可改进的分步流程：先用 blueprint 写实现流水线并挂上积压工单，再让开发者在分诊和写 spec 处判断需求，给 Agent 一台电脑自己验证，最后评估合并风险以便分配评审精力。",
-    "效果怎样": "文章是方法说明，没有给量化结果。"
-  }
+  "text": "#### [How to build a software factory you'll actually use](https://www.warp.dev/blog/program-software-factory-as-code)\n\nWarp 把软件工厂定义成云端的自动化循环：编排 Agent 持续写出更好的软件，并强调要用蓝图把流程变成团队愿意审阅的东西。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队一上来就用 Agent 去刷待办，结果得到一个不敢信的黑盒，或者一台没人愿意读的“slop cannon”式 PR 生成器。</p>\n<p><strong>如何解决：</strong>文章主张先把实现流水线写成蓝图，再挂上待办看它表现如何；让开发者介入需求分诊和规格撰写；给 Agent 一台可验证结果的电脑；再评估合并风险，好一眼看出哪些 PR 需要最仔细的审阅。步骤可以从 Markdown skill 开始，再译成 Warp Factories 的 YAML，用明确的输入输出、分阶段 worker 和独立沙箱来管上下文。</p>\n<p><strong>效果怎样：</strong>这是方法文章，配有他们的软件工厂课程，但没有给出“合并率提高多少”之类的统一数字。衡量标准被写成：你是否愿意审这些 PR，以及流程能不能被团队和 Agent 一起改进。</p>\n<p><strong>洞察与启发：</strong>软件工厂能不能用，关键不在自动化循环转得有多快，而在知识是不是被集中、流程是不是可以度量。先追求流速，很容易得到没人读的 PR。</p>\n<p><strong>相关工作：</strong>Kiro conductor mode 和 Cognition Org Charts 也在处理多 Agent 并行时的指挥和总览；Warp 更强调把流水线本身当成可版本管理的代码。</p>\n</details>\n"
 }

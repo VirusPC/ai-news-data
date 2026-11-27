@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
+  "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mzg4ntcznzg2oa-3d-3d-idx-1-mid-2247512957-sn-e0-622ba959cd.json",
+  "title": "智能体身份与授权：智能体生态的信任底座",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
+  "sentence": "阿里把智能体的身份与授权写成生态信任底座，用来约束 Agent 以谁的名义调用工具。",
+  "category": "架构",
+  "company": "阿里",
+  "text": "#### [智能体身份与授权：智能体生态的信任底座](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024)\n\n阿里讨论智能体生态里的信任底座：先弄清 Agent 以谁的身份行动，再决定它能调用哪些工具、经过谁批准。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>当 Agent 开始替人调用内部系统和外部工具时，如果没有独立的身份和授权模型，就很难回答它到底在以谁的名义做事，出了问题也无法追责或收束权限。</p>\n<p><strong>如何解决：</strong>文章把身份与授权从应用里抽出来，作为智能体生态的基础能力：明确 Agent 自身身份、所代理的用户身份，以及工具调用时的授权和审批路径，避免每个应用各自发明一套临时凭证。</p>\n<p><strong>效果怎样：</strong>这是一篇架构与方法阐述，重点在提出信任底座应包含哪些部分，而不是给出上线后的事故下降百分比。能确认的是：身份、授权和追责被当成 Agent 生态的前置条件，而不是事后补丁。</p>\n<p><strong>洞察与启发：</strong>Agent 一进入生产，权限问题就会从“这个人能不能点这个按钮”变成“这个代理者在这段任务里能用谁的权限”。把身份做成底座，比给每个 Agent 发一张万能密钥更可审计。</p>\n<p><strong>相关工作：</strong>同一周 LangSmith Tool Gateway 也把工具调用映射到“以用户身份”或“以 Agent 身份”，并配合策略和审批；Amazon Bedrock Trusted Access API 则从云上模型调用一侧补企业控制。</p>\n</details>\n"
+}

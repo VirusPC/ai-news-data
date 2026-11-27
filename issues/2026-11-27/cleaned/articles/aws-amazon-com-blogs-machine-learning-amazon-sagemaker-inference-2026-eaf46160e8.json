@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+  "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "AWS",
+  "category": "博客",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "text": "This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year’s total to 26."
+}
