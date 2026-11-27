@@ -1,0 +1,15 @@
+{
+  "id": "https://claude.com/resources/articles/introducing-claude-ship",
+  "source": "cleaned/articles/claude-com-resources-articles-introducing-claude-ship.json",
+  "title": "Introducing Claude Ship",
+  "link": "https://claude.com/resources/articles/introducing-claude-ship",
+  "sentence": "Anthropic 推出 Claude Ship 测试版：在已有 Code Review 之外加入 PR Steward 和 Claude Approvals，让 PR 的修复和批准也交给 Claude。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### [Introducing Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)\n\nAnthropic 推出 Claude Ship 测试版：在已有 Code Review 之外加入 <mark>PR Steward 和 Claude Approvals</mark>，让 PR 的修复和批准也交给 Claude。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>开发者用 Agent 写代码的速度，被开 PR 之后的评审、修复和找人批准拖慢。</p>\n<p><strong>如何解决：</strong>Code Review 多角度评审并对发现做对抗式验证；PR Steward 在 CI 失败、合并冲突和评审意见出现时介入修复，每次推送后说明改了什么、怎么撤销，但不批准也不合并；Claude Approvals 按团队写在仓库里的批准策略决定哪些改动可自动批准，更像一个更聪明的 CODEOWNERS。</p>\n<p><strong>效果怎样：</strong>Claude Code 团队称，6 月到 9 月合并的 PR 增加了一倍多，被回滚的比例下降了 40% 以上。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "开发者用 Agent 写代码的速度，被开 PR 之后的评审、修复和找人批准拖慢。",
+    "如何解决": "Code Review 多角度评审并对发现做对抗式验证；PR Steward 在 CI 失败、合并冲突和评审意见出现时介入修复，每次推送后说明改了什么、怎么撤销，但不批准也不合并；Claude Approvals 按团队写在仓库里的批准策略决定哪些改动可自动批准，更像一个更聪明的 CODEOWNERS。",
+    "效果怎样": "Claude Code 团队称，6 月到 9 月合并的 PR 增加了一倍多，被回滚的比例下降了 40% 以上。"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "https://openai.com/index/introducing-shirudo",
+  "source": "cleaned/articles/openai-com-index-introducing-shirudo.json",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "link": "https://openai.com/index/introducing-shirudo",
+  "sentence": "OpenAI 与 Cisco 发布开源运行时 Shirudo，用 eBPF 在不重启服务的情况下给运行中的 Linux 系统加临时防护。",
+  "category": "开源",
+  "company": "OpenAI",
+  "text": "#### [OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo)\n\nOpenAI 与 Cisco 发布开源运行时 Shirudo，用 eBPF 在<mark>不重启服务</mark>的情况下给运行中的 Linux 系统加临时防护。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>补丁测试和部署可能要几天到几周，期间攻击和正常请求可能用同一个 Linux 操作，直接封掉会让服务下线。</p>\n<p><strong>如何解决：</strong>团队先测试一个称为 shield 的临时防护能否拦住漏洞行为同时放过正常请求，运营者批准后可在服务运行时部署，底层用 eBPF。</p>\n<p><strong>效果怎样：</strong>在受控测试里，Codex 生成的 shield 拦下了针对运行中 Elasticsearch 服务的 Java4Shell 攻击尝试，且无需重启。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "补丁测试和部署可能要几天到几周，期间攻击和正常请求可能用同一个 Linux 操作，直接封掉会让服务下线。",
+    "如何解决": "团队先测试一个称为 shield 的临时防护能否拦住漏洞行为同时放过正常请求，运营者批准后可在服务运行时部署，底层用 eBPF。",
+    "效果怎样": "在受控测试里，Codex 生成的 shield 拦下了针对运行中 Elasticsearch 服务的 Java4Shell 攻击尝试，且无需重启。"
+  }
+}

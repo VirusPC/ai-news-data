@@ -1,0 +1,16 @@
+{
+  "id": "Inkling 2 Mini",
+  "source": "cleaned/models/Inkling-2-Mini.json",
+  "price": {
+    "text": "输入 0.15、输出 0.5 美元/百万 token（Artificial Analysis 列价）",
+    "rank": 25
+  },
+  "speed": {
+    "text": "暂无"
+  },
+  "effect": {
+    "text": "智能指数 20.1",
+    "rank": 110
+  },
+  "text": "#### [Inkling 2 Mini 发布](https://huggingface.co/blog/inkling2mini)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> Thinking Machines 11 月 20 日发布，Hugging Face 同步介绍，已支持 transformers、llama.cpp、MLX 和 SGLang。</li>\n<li><strong>定位</strong> 约 26B 总参数、<mark class=\"note-card-hl\">3B 激活</mark>的多模态 MoE，中间 12 层循环三次，1M token 上下文，面向本地部署。</li>\n<li><strong>成绩</strong> 官方称在 Gemma 4 31B 等四个对手的 48 项基准里领先 <mark class=\"note-card-hl\">32 项</mark>；Hugging Face 的体验测试里至少与 Qwen 3.8 27B 相当。</li>\n<li><strong>可用</strong> 权重在 Hugging Face，另有一份可变循环次数的研究版本；暂无第三方实测。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://huggingface.co/blog/inkling2mini\">Welcome Inkling 2 Mini</a></p>\n</aside>\n\n<br/>\n\n"
+}

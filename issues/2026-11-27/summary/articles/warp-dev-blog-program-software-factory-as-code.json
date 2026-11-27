@@ -1,0 +1,15 @@
+{
+  "id": "https://www.warp.dev/blog/program-software-factory-as-code",
+  "source": "cleaned/articles/warp-dev-blog-program-software-factory-as-code.json",
+  "title": "How to build a software factory you'll actually use",
+  "link": "https://www.warp.dev/blog/program-software-factory-as-code",
+  "sentence": "Warp 说明如何把「软件工厂」从积压工单自动化，做成团队愿意审 PR 的云端流水线。",
+  "category": "实践",
+  "company": "Warp",
+  "text": "#### [How to build a software factory you'll actually use](https://www.warp.dev/blog/program-software-factory-as-code)\n\nWarp 说明如何把「<mark>软件工厂</mark>」从积压工单自动化，做成团队愿意审 PR 的云端流水线。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队只盯着自动化循环，结果得到一个不被信任的黑盒，或没人读的 PR。</p>\n<p><strong>如何解决：</strong>把团队写 Agent 代码的知识集中到云端，写成可度量、可改进的分步流程：先用 blueprint 写实现流水线并挂上积压工单，再让开发者在分诊和写 spec 处判断需求，给 Agent 一台电脑自己验证，最后评估合并风险以便分配评审精力。</p>\n<p><strong>效果怎样：</strong>文章是方法说明，没有给量化结果。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "很多团队只盯着自动化循环，结果得到一个不被信任的黑盒，或没人读的 PR。",
+    "如何解决": "把团队写 Agent 代码的知识集中到云端，写成可度量、可改进的分步流程：先用 blueprint 写实现流水线并挂上积压工单，再让开发者在分诊和写 spec 处判断需求，给 Agent 一台电脑自己验证，最后评估合并风险以便分配评审精力。",
+    "效果怎样": "文章是方法说明，没有给量化结果。"
+  }
+}

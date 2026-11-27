@@ -1,0 +1,10 @@
+{
+  "id": "https://www.anthropic.com/research/migrating-api-to-rust",
+  "title": "Migrating our Messages API to Rust",
+  "date": "2026-11-25",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://www.anthropic.com/engineering",
+  "text": "How we migrated our Messages API from Python to Rust."
+}

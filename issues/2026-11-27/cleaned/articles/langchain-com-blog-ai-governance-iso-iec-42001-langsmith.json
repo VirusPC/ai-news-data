@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+  "title": "How We Achieved ISO 42001 with LangSmith",
+  "date": "2026-11-25",
+  "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
+  "text": "LangChain earned ISO/IEC 42001 certification, the international standard for AI management systems, using LangSmith. Learn how."
+}

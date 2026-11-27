@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/kajisho5/ffmpeg-skill",
+  "source": "cleaned/projects/kajisho5-ffmpeg-skill.json",
+  "purpose": "编码 Agent 的本地视频编辑器",
+  "change": "进入 GitHub Trending 每周总榜，本周第 14 名（按榜单原始顺序）。",
+  "text": "#### [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)\n\n编码 Agent 的本地视频编辑器。让 Claude Code、Cursor、Codex 或任意 MCP 客户端用<mark>本地 FFmpeg</mark> 剪辑视频并检查自己的输出：剪切、字幕、改画幅、响度、各平台导出。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>42 个 FFmpeg 工具，带机器可读契约和 MCP 服务器。</p>\n<p><strong>如何解决：</strong>让 Claude Code、Cursor、Codex 或任意 MCP 客户端用本地 FFmpeg 剪辑视频并检查自己的输出：剪切、字幕、改画幅、响度、各平台导出。</p>\n<p><strong>补充：</strong>不用云、不要 API Key，只用 Python 标准库。（星标 11540，许可 MIT，数据来自 GitHub）</p>\n</details>\n\n"
+}

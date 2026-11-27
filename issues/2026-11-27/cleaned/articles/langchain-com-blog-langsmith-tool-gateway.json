@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
+  "text": "LangSmith Tool Gateway, now in Public Beta, handles credentials, identity, and access for every agent tool call, with policies, approvals, and traces."
+}

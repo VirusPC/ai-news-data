@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/software-factory-human-attention",
+  "title": "Building a software factory around human attention",
+  "date": "2026-11-25",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "Our journey to automate with agents started with one agent on one task in someone’s session. Now we’re moving toward agents working autonomously across the whole software development lifecycle, from triage and exploration through design, implementation, release and monitoring. Many teams building with agents are heading the same way, and people have started calling where it leads a software factory. There’s no settled definition, and no single setup fits every team. The bottlenecks they hit are much the same, though, so we’re sharing ours."
+}

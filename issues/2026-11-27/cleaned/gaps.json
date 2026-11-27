@@ -1,0 +1,16 @@
+{
+  "gaps": [
+    {
+      "path": "projects/*#released",
+      "reason": "GitHub Trending 与 API 只给仓库创建时间，没有发布时间，不猜测，released 为 null"
+    },
+    {
+      "path": "models/Inkling 2 Mini#speed",
+      "reason": "OpenRouter 官方端点目录没有该模型的端点，速度暂无"
+    },
+    {
+      "path": "models/GLM-5.4#price",
+      "reason": "发布原文没有单价，API 尚未开放，Artificial Analysis 与 OpenRouter 均无此模型，价格、速度、智力指数暂无"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "skill": {
+    "name": "weekly-ai-blogs-digest",
+    "version": "0.0.10"
+  },
+  "routine": {
+    "repo": "VirusPC/edges-brain-viruspc",
+    "commit": "05cd1373b8208a9fcf0b97b52df37edd26e8fead",
+    "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
+  },
+  "articles_coverage": {
+    "raw": 90,
+    "selected": 25
+  },
+  "window": {
+    "issue": "2026-11-27",
+    "since": "2026-11-20",
+    "until": "2026-11-26"
+  },
+  "sources": {
+    "categories": [
+      {
+        "title": "模型榜单",
+        "count": 831,
+        "publishers": [
+          {
+            "name": "Artificial Analysis",
+            "url": "https://artificialanalysis.ai/leaderboards/models",
+            "count": 766
+          },
+          {
+            "name": "LLM Arena",
+            "url": "https://arena.ai/",
+            "count": 20
+          },
+          {
+            "name": "OpenRouter",
+            "url": "https://openrouter.ai/rankings",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "title": "GitHub Trending",
+        "count": 14,
+        "publishers": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/trending?since=weekly",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "title": "博客",
+        "count": 68,
+        "publishers": [
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news",
+            "count": 9
+          },
+          {
+            "name": "OpenAI",
+            "url": "https://openai.com/news/",
+            "count": 12
+          },
+          {
+            "name": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/",
+            "count": 5
+          },
+          {
+            "name": "Meta",
+            "url": "https://ai.meta.com/blog/",
+            "count": 0
+          },
+          {
+            "name": "xAI",
+            "url": "https://x.ai/news",
+            "count": 0
+          },
+          {
+            "name": "Manus",
+            "url": "https://manus.im/blog",
+            "count": 0
+          },
+          {
+            "name": "Cursor",
+            "url": "https://cursor.com/blog",
+            "count": 0
+          },
+          {
+            "name": "Cognition",
+            "url": "https://cognition.com/blog",
+            "count": 3
+          },
+          {
+            "name": "DeepSeek",
+            "url": "https://www.deepseek.com/",
+            "count": 0
+          },
+          {
+            "name": "LangChain",
+            "url": "https://www.langchain.com/blog",
+            "count": 6
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 1
+          },
+          {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog",
+            "count": 9
+          },
+          {
+            "name": "AWS",
+            "url": "https://aws.amazon.com/blogs/machine-learning/",
+            "count": 0
+          },
+          {
+            "name": "sankalp",
+            "url": "https://sankalp.bearblog.dev/",
+            "count": 0
+          },
+          {
+            "name": "Amp",
+            "url": "https://ampcode.com/chronicle",
+            "count": 1
+          },
+          {
+            "name": "Lovable",
+            "url": "https://lovable.dev/blog",
+            "count": 1
+          },
+          {
+            "name": "Kiro",
+            "url": "https://kiro.dev/blog/",
+            "count": 8
+          },
+          {
+            "name": "philschmid",
+            "url": "https://www.philschmid.de/",
+            "count": 2
+          },
+          {
+            "name": "goose",
+            "url": "https://goose-docs.ai/blog/",
+            "count": 0
+          },
+          {
+            "name": "Zed",
+            "url": "https://zed.dev/blog",
+            "count": 0
+          },
+          {
+            "name": "CodeRabbit",
+            "url": "https://www.coderabbit.ai/blog",
+            "count": 4
+          },
+          {
+            "name": "Warp",
+            "url": "https://www.warp.dev/blog",
+            "count": 1
+          },
+          {
+            "name": "月之暗面",
+            "url": "https://www.kimi.com/blog/",
+            "count": 2
+          },
+          {
+            "name": "智谱",
+            "url": "https://www.zhipuai.cn/zh/research",
+            "count": 1
+          },
+          {
+            "name": "StepFun",
+            "url": "https://www.stepfun.com/news",
+            "count": 0
+          },
+          {
+            "name": "Massively Parallel Procrastination",
+            "url": "https://blog.fsck.com/",
+            "count": 0
+          },
+          {
+            "name": "宝玉",
+            "url": "https://baoyu.io/",
+            "count": 0
+          },
+          {
+            "name": "Jason Liu",
+            "url": "https://jxnl.co/writing/",
+            "count": 0
+          },
+          {
+            "name": "Armin Ronacher",
+            "url": "https://lucumr.pocoo.org/",
+            "count": 1
+          },
+          {
+            "name": "MiniMax",
+            "url": "https://www.minimax.io/blog",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "title": "国内互联网",
+        "count": 22,
+        "publishers": [
+          {
+            "name": "字节跳动",
+            "url": "https://www.bytedance.com/",
+            "count": 4
+          },
+          {
+            "name": "百度",
+            "url": "https://cloud.baidu.com/",
+            "count": 1
+          },
+          {
+            "name": "大淘宝",
+            "url": "https://developer.alibaba.com/",
+            "count": 3
+          },
+          {
+            "name": "快手",
+            "url": "https://developer.kuaishou.com/",
+            "count": 2
+          },
+          {
+            "name": "支付宝",
+            "url": "https://open.alipay.com/",
+            "count": 4
+          },
+          {
+            "name": "美团",
+            "url": "https://tech.meituan.com/",
+            "count": 0
+          },
+          {
+            "name": "千问",
+            "url": "https://qwen.ai/",
+            "count": 0
+          },
+          {
+            "name": "腾讯",
+            "url": "https://cloud.tencent.com/developer",
+            "count": 5
+          },
+          {
+            "name": "阿里",
+            "url": "https://developer.aliyun.com/",
+            "count": 3
+          }
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "title": "本周概览"
+    },
+    {
+      "title": "模型进展",
+      "boards": [
+        "Artificial Analysis",
+        "LLM Arena",
+        "OpenRouter 应用用量",
+        "OpenRouter 编程用量",
+        "OpenRouter 本周用量"
+      ],
+      "cards": [
+        "Inkling 2 Mini",
+        "GLM-5.4"
+      ]
+    },
+    {
+      "title": "项目开源",
+      "cards": [
+        "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "https://github.com/ag-ui-protocol/ag-ui",
+        "https://github.com/alibaba/open-code-review",
+        "https://github.com/backnotprop/plannotator",
+        "https://github.com/dream-num/univer",
+        "https://github.com/google-labs-code/stitch-skills",
+        "https://github.com/kajisho5/ffmpeg-skill",
+        "https://github.com/meta/astryx",
+        "https://github.com/mvanhorn/last30days-skill",
+        "https://github.com/n8n-io/nod"
+      ]
+    },
+    {
+      "title": "精选文章",
+      "groups": [
+        {
+          "title": "国内模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73"
+          ]
+        },
+        {
+          "title": "国外模型厂",
+          "cards": [
+            "https://www.anthropic.com/research/migrating-api-to-rust",
+            "https://claude.com/resources/articles/install-as-app",
+            "https://claude.com/resources/articles/introducing-claude-ship",
+            "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+            "https://openai.com/index/introducing-shirudo",
+            "https://antigravity.google/blog/mcp-apps-in-antigravity",
+            "https://antigravity.google/blog/plugin-ecosystem-momentum",
+            "https://www.philschmid.de/gemini-4-neon-context-engineering"
+          ]
+        },
+        {
+          "title": "国内非模型厂",
+          "cards": [
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c"
+          ]
+        },
+        {
+          "title": "国外非模型厂",
+          "cards": [
+            "https://x.com/cognition/status/2125659035231780966",
+            "https://www.langchain.com/blog/langsmith-tool-gateway",
+            "https://www.langchain.com/blog/the-agent-lake",
+            "https://www.warp.dev/blog/program-software-factory-as-code",
+            "https://huggingface.co/blog/harness-adapters-at-scale",
+            "https://huggingface.co/blog/inkling2mini",
+            "https://kiro.dev/blog/agents-run-for-days",
+            "https://kiro.dev/blog/conductor-mode",
+            "https://kiro.dev/blog/kiro-for-vs-code",
+            "https://kiro.dev/blog/kirobench",
+            "https://kiro.dev/blog/remote-workspaces",
+            "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+            "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "精选推文",
+      "cards": []
+    },
+    {
+      "title": "精选播客",
+      "cards": []
+    }
+  ]
+}

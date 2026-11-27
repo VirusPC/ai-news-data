@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/GoogleChrome/modern-web-guidance-src",
+  "source": "cleaned/projects/GoogleChrome-modern-web-guidance-src.json",
+  "purpose": "让编码 Agent 用上现代 Web 写法的 skill 源码",
+  "change": "进入 GitHub Trending 每周总榜，本周第 3 名（按榜单原始顺序）。",
+  "text": "#### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)\n\n让编码 Agent 用上现代 Web 写法的 skill 源码。这是 Modern Web Guidance 的源码仓库，含 skill 的编写、校准和评测代码与文档，把 Web 平台经验、最佳实践和浏览器<mark>兼容数据</mark>放进 Agent 的上下文。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>把 Web 最佳实践和浏览器兼容数据做成 skill。</p>\n<p><strong>如何解决：</strong>这是 Modern Web Guidance 的源码仓库，含 skill 的编写、校准和评测代码与文档，把 Web 平台经验、最佳实践和浏览器兼容数据放进 Agent 的上下文。</p>\n<p><strong>补充：</strong>目的是让 Agent 少用过时的旧写法。仓库说明里没有另给对比成绩。（星标 11263，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
+}

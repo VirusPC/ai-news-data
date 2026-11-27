@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/unfamiliar-codebase",
+  "title": "How to use a coding agent in an unfamiliar codebase",
+  "date": "2026-11-25",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "Your first ticket on a new team is to send an email when an invoice payment fails. Sounds small. The repository is three years old, runs to more than 200 files, and none of it is yours. Before you can write the handler you need to find where billing events enter the system, and work out how retries avoid sending the same customer two emails."
+}

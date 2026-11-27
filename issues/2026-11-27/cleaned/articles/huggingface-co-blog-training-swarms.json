@@ -1,0 +1,10 @@
+{
+  "id": "https://huggingface.co/blog/training-swarms",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "date": "2026-11-26",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog",
+  "text": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems"
+}

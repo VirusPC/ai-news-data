@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/the-agent-lake",
+  "title": "The Agent Lake",
+  "date": "2026-11-26",
+  "source": "raw/articles/feeds.json",
+  "publisher": "LangChain",
+  "category": "博客",
+  "url": "https://www.langchain.com/blog",
+  "text": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models."
+}

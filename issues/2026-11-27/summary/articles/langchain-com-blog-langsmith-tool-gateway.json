@@ -1,0 +1,15 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "source": "cleaned/articles/langchain-com-blog-langsmith-tool-gateway.json",
+  "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+  "link": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "sentence": "LangSmith Tool Gateway 公开测试版上线，统一管理 Agent 调用工具时的凭据、身份和访问，并写入 trace 供审计。",
+  "category": "产品",
+  "company": "LangChain",
+  "text": "#### [LangSmith Tool Gateway: Secure, governed tool use for agents](https://www.langchain.com/blog/langsmith-tool-gateway)\n\nLangSmith Tool Gateway 公开测试版上线，统一管理 Agent 调用工具时的<mark>凭据、身份和访问</mark>，并写入 trace 供审计。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 按计划或事件主动跑长任务后，团队要控制每个 Agent 能调哪些工具、以谁的身份行动，并留下每一步记录。</p>\n<p><strong>如何解决：</strong>Tool Gateway 是 LangSmith Agent Platform 上的托管工具层，和管理模型调用的 LLM Gateway 并列，提供工具使用策略、身份管理，并在 Agent trace 里记录调用信息。</p>\n<p><strong>效果怎样：</strong>文章没有给量化数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "Agent 按计划或事件主动跑长任务后，团队要控制每个 Agent 能调哪些工具、以谁的身份行动，并留下每一步记录。",
+    "如何解决": "Tool Gateway 是 LangSmith Agent Platform 上的托管工具层，和管理模型调用的 LLM Gateway 并列，提供工具使用策略、身份管理，并在 Agent trace 里记录调用信息。",
+    "效果怎样": "文章没有给量化数字。"
+  }
+}

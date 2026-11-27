@@ -1,0 +1,15 @@
+{
+  "id": "https://kiro.dev/blog/remote-workspaces",
+  "source": "cleaned/articles/kiro-dev-blog-remote-workspaces.json",
+  "title": "Remote workspaces bring the IDE to where your code and compute already live",
+  "link": "https://kiro.dev/blog/remote-workspaces",
+  "sentence": "Kiro IDE 现在可以连到云会话、dev container 或团队自己的机器，完整 IDE 跟着工作区走。",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### [Remote workspaces bring the IDE to where your code and compute already live](https://kiro.dev/blog/remote-workspaces)\n\nKiro IDE 现在可以连到云会话、dev container 或团队自己的机器，<mark>完整 IDE 跟着工作区走</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>此前要么完整 IDE 在本机，要么 Agent 在别处跑，两者不能同时拥有；构建变重、本地工具链漂移时更明显。</p>\n<p><strong>如何解决：</strong>提供三种位置：Kiro 托管的云会话、本机或远程主机上的 dev container（由仓库里的 devcontainer.json 定义）、团队已有的机器，编辑文件和终端命令的用法与本地一致。</p>\n<p><strong>效果怎样：</strong>文章按适用场景对比三种方式，没有给性能数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "此前要么完整 IDE 在本机，要么 Agent 在别处跑，两者不能同时拥有；构建变重、本地工具链漂移时更明显。",
+    "如何解决": "提供三种位置：Kiro 托管的云会话、本机或远程主机上的 dev container（由仓库里的 devcontainer.json 定义）、团队已有的机器，编辑文件和终端命令的用法与本地一致。",
+    "效果怎样": "文章按适用场景对比三种方式，没有给性能数字。"
+  }
+}

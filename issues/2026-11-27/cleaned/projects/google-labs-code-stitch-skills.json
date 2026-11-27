@@ -1,0 +1,10 @@
+{
+  "id": "https://github.com/google-labs-code/stitch-skills",
+  "source": "raw/projects/github-trending.json",
+  "publisher": "GitHub",
+  "category": "GitHub Trending",
+  "url": "https://github.com/trending?since=weekly",
+  "stars": 13297,
+  "license": "Apache-2.0",
+  "released": null
+}

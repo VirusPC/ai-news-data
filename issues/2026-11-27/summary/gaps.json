@@ -1,0 +1,20 @@
+{
+  "gaps": [
+    {
+      "path": "articles/*",
+      "reason": "90 篇候选里只精选 25 篇；多数订阅源只有简介，只抓了入选的主要文章页，没有逐篇核对全部候选的全文。Cognition 的推文只有一句，卡片只留这一句。"
+    },
+    {
+      "path": "models/GLM-5.4",
+      "reason": "价格、速度和智力指数暂无：发布原文没有单价，Artificial Analysis 与 OpenRouter 没有这个模型。"
+    },
+    {
+      "path": "models/Inkling 2 Mini",
+      "reason": "速度暂无：OpenRouter 官方端点目录里没有这个模型的端点。价格用 Artificial Analysis 列价。"
+    },
+    {
+      "path": "articles/feeds#sources",
+      "reason": "aws-ml、meituan-tech 抓取报错；baoyu、jxnl、qwen-ai-platform、sankalp、zed 及 Meta AI 主备源停更；均无可用备源，本期没有这些发布方的条目。"
+    }
+  ]
+}

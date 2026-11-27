@@ -1,0 +1,10 @@
+{
+  "id": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
+  "title": "🎙️ New multilingual capabilities are here for Qwen-Audio-3.1! Especially for Chinese dialects. We ...",
+  "date": "2026-11-26",
+  "source": "raw/articles/feeds.json",
+  "publisher": "千问",
+  "category": "博客",
+  "url": "https://qwen.ai/research",
+  "text": "🎙️ New multilingual capabilities are here for Qwen-Audio-3.1! Especially for Chinese dialects. We previously released the Qwen-Audio-3.1 series of speech foundation models. Today, we are bringing the enhanced multilingual capabilities, with a strong focus on Chinese dialects. Our multilingual upgrades: - ASR: 59 languages, 8 Chinese dialects. - TTS: 65 languages, 6 Chinese dialects. - Realtime: 53 languages, 6 Chinese dialects. Key highlights: - Enhanced Chinese dialect recognition and synthesis. - Broader language coverage across all modalities. Qwen-Audio-3.1 is now available. Give it a try! 🥳 - Qwen-Audio-3.1-ASRqwencloud.com/models/qwen-au…ai - Qwen-Audio-3.1-TTSqwencloud.com/models/qwen-au…Gl - Qwen-Audio-3.1-Realtimeqwencloud.com/models/qwen-au…eE 💬136🔄107❤️1126👀118240📊329 ⚡ Powered by xgo.ing"
+}

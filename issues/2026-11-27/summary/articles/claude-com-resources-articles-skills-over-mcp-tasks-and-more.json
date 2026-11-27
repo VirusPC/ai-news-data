@@ -1,0 +1,15 @@
+{
+  "id": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+  "source": "cleaned/articles/claude-com-resources-articles-skills-over-mcp-tasks-and-more.json",
+  "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+  "link": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+  "sentence": "MCP 服务器现在可以在 Claude 里随工具一起发布 skill，Tasks 和 Elicitation 也已正式可用。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)\n\nMCP 服务器现在可以在 Claude 里<mark>随工具一起发布 skill</mark>，Tasks 和 Elicitation 也已正式可用。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>工具名和描述只说明服务器能做什么，没讲具体场景该怎么用；长耗时、需要用户确认的操作也不好交给服务器。</p>\n<p><strong>如何解决：</strong>Skills over MCP 公开测试版让服务器把 skill 与工具一起发布，Claude 只在需要时加载，随服务器更新；Tasks 让服务器后台跑长任务，Elicitation 让服务器中途向用户要确认，文件上传稍后推出。</p>\n<p><strong>效果怎样：</strong>文章给出的用法有 Shopify 帮 Claude 设计和更新网店、HubSpot 做客户上手、ZoomInfo 用 Tasks 做更深的账户研究；没有给量化数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "工具名和描述只说明服务器能做什么，没讲具体场景该怎么用；长耗时、需要用户确认的操作也不好交给服务器。",
+    "如何解决": "Skills over MCP 公开测试版让服务器把 skill 与工具一起发布，Claude 只在需要时加载，随服务器更新；Tasks 让服务器后台跑长任务，Elicitation 让服务器中途向用户要确认，文件上传稍后推出。",
+    "效果怎样": "文章给出的用法有 Shopify 帮 Claude 设计和更新网店、HubSpot 做客户上手、ZoomInfo 用 Tasks 做更深的账户研究；没有给量化数字。"
+  }
+}

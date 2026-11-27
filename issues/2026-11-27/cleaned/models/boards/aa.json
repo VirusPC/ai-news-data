@@ -1,0 +1,70 @@
+{
+  "id": "Artificial Analysis",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "Artificial Analysis",
+  "category": "模型榜单",
+  "url": "https://artificialanalysis.ai/leaderboards/models",
+  "publish_date": null,
+  "items": [
+    {
+      "name": "Claude Fable 5.2 (Max, Default Fallback)",
+      "value": 64.8
+    },
+    {
+      "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+      "value": 62.2
+    },
+    {
+      "name": "GPT-6.2 Astra (Max)",
+      "value": 62.2
+    },
+    {
+      "name": "Claude Fable 5.2 (High, Default Fallback)",
+      "value": 61.9
+    },
+    {
+      "name": "GPT-6.2 Astra (Xhigh)",
+      "value": 61.8
+    },
+    {
+      "name": "Gemini 4 Neon (Xhigh)",
+      "value": 61.5
+    },
+    {
+      "name": "GPT-6.2 Astra (High)",
+      "value": 60.3
+    },
+    {
+      "name": "Gemini 4 Carbon (High)",
+      "value": 60.1
+    },
+    {
+      "name": "Gemini 4 Neon (High)",
+      "value": 59.8
+    },
+    {
+      "name": "Claude Opus 5.5 (Max, Default Fallback)",
+      "value": 59.1
+    },
+    {
+      "name": "Gemini 4 Carbon (Medium)",
+      "value": 58.4
+    },
+    {
+      "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "value": 57.5
+    },
+    {
+      "name": "GPT-6.2 Sol (Max)",
+      "value": 57.3
+    },
+    {
+      "name": "GPT-6.2 Astra (Medium)",
+      "value": 57
+    },
+    {
+      "name": "GPT-6 Astra (Max)",
+      "value": 56.9
+    }
+  ]
+}

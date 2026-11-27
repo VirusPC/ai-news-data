@@ -1,0 +1,16 @@
+{
+  "id": "https://www.anthropic.com/research/migrating-api-to-rust",
+  "source": "cleaned/articles/anthropic-com-research-migrating-api-to-rust.json",
+  "title": "Migrating our Messages API to Rust",
+  "link": "https://www.anthropic.com/research/migrating-api-to-rust",
+  "sentence": "Anthropic 把 Messages API 从 Python 迁到 Rust，让线上 API 自己当验证器，并自动派 Agent 修差异，最终每个请求少用约 70% 的 CPU。",
+  "category": "实践",
+  "company": "Anthropic",
+  "text": "#### [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust)\n\nAnthropic 把 Messages API 从 Python 迁到 Rust，让线上 API 自己当验证器，并自动派 Agent 修差异，最终每个请求<mark>少用约 70% 的 CPU</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>线上系统迁移没有现成的正确性判据：Python API 迁移期间还在改，Claude 对同一请求的回复不确定，团队又不能读客户请求。</p>\n<p><strong>如何解决：</strong>把生产里的 Messages API 本身当验证器，在真实流量上比对 Rust 与 Python 的差异；Agent 在沙箱里复现差异并改 Rust，修复经 PR 评审才进入外层循环，外层再对比有无该修复的构建，记忆循环把评审结论记给后续 Agent。</p>\n<p><strong>效果怎样：</strong>Rust 版 API 每个请求约少用 70% 的 CPU，首 token 中位时间约缩短 20%，迁移期间没有停服，也没有冻结功能开发。</p>\n<p><strong>洞察与启发：</strong>验证器只能说输出是否一致，不能说修法值不值得上线：有 Agent 想把 web search 工具描述拷进文件让提示词对上，被工程师否决，因为 Rust 上线前仍要调用那个服务。人工评审因此留在内外循环之间。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "线上系统迁移没有现成的正确性判据：Python API 迁移期间还在改，Claude 对同一请求的回复不确定，团队又不能读客户请求。",
+    "如何解决": "把生产里的 Messages API 本身当验证器，在真实流量上比对 Rust 与 Python 的差异；Agent 在沙箱里复现差异并改 Rust，修复经 PR 评审才进入外层循环，外层再对比有无该修复的构建，记忆循环把评审结论记给后续 Agent。",
+    "效果怎样": "Rust 版 API 每个请求约少用 70% 的 CPU，首 token 中位时间约缩短 20%，迁移期间没有停服，也没有冻结功能开发。",
+    "洞察与启发": "验证器只能说输出是否一致，不能说修法值不值得上线：有 Agent 想把 web search 工具描述拷进文件让提示词对上，被工程师否决，因为 Rust 上线前仍要调用那个服务。人工评审因此留在内外循环之间。"
+  }
+}

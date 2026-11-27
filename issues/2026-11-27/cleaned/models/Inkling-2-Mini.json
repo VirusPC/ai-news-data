@@ -1,0 +1,46 @@
+{
+  "name": "Inkling 2 Mini",
+  "release_url": "https://huggingface.co/blog/inkling2mini",
+  "openrouter_slug": "thinkingmachines/inkling-2-mini",
+  "price": {
+    "input": 0.15,
+    "output": 0.5,
+    "unit": "USD per million tokens",
+    "source": "artificial_analysis",
+    "rank": 25,
+    "rank_of": 142,
+    "rank_metric": "blended_input_plus_3_output_over_4",
+    "rank_source": "artificial_analysis",
+    "rank_value": 0.4125,
+    "rank_variant": "Inkling 2 Mini",
+    "note": "发布原文没有给单价；OpenRouter 官方端点目录里没有这个模型的端点，改用 Artificial Analysis 列出的价格。"
+  },
+  "speed": {
+    "latency_s": null,
+    "throughput_tps": null,
+    "rank": null,
+    "rank_of": null,
+    "note": "OpenRouter 官方端点目录没有这个模型的端点，暂无。AA 全提供商中位数备选：输出 142.3 token/s，首个答案 token 16.37 秒。",
+    "speed_median_aa": {
+      "throughput_tps": 142.3,
+      "time_to_first_answer_token_s": 16.37,
+      "source": "aa_free_performance"
+    }
+  },
+  "aa": {
+    "intelligence_index": 20.1,
+    "rank": 110,
+    "rank_of": 156,
+    "variant": "Inkling 2 Mini",
+    "aa_slug": "inkling-2-mini",
+    "intelligence_index_version": 5,
+    "tier": "free",
+    "source": "Artificial Analysis",
+    "fetched_at": "2026-11-27T09:27:48+08:00"
+  },
+  "id": "Inkling 2 Mini",
+  "source": "raw/models/aa-language-models.json",
+  "publisher": "Hugging Face",
+  "category": "博客",
+  "url": "https://huggingface.co/blog"
+}

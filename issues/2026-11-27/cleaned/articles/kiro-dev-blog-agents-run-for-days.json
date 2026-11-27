@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/agents-run-for-days",
+  "title": "Your agents run for days: now Kiro CLI keeps up",
+  "date": "2026-11-23",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Kiro",
+  "category": "博客",
+  "url": "https://kiro.dev/blog/",
+  "text": "I spend a lot of my day as a developer working with CLI agents."
+}

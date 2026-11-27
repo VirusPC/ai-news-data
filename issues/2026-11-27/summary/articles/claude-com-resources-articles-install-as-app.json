@@ -1,0 +1,15 @@
+{
+  "id": "https://claude.com/resources/articles/install-as-app",
+  "source": "cleaned/articles/claude-com-resources-articles-install-as-app.json",
+  "title": "Turn artifacts into Mac and Windows apps",
+  "link": "https://claude.com/resources/articles/install-as-app",
+  "sentence": "Claude 的 artifact 现在可以一键装成 Mac 和 Windows 桌面应用，权限分三档，测试版面向所有套餐。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### [Turn artifacts into Mac and Windows apps](https://claude.com/resources/articles/install-as-app)\n\nClaude 的 artifact 现在可以<mark>一键装成 Mac 和 Windows 桌面应用</mark>，权限分三档，测试版面向所有套餐。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>在 Claude 里做好的 artifact 只能待在网页里，没法像普通桌面软件一样常驻使用。</p>\n<p><strong>如何解决：</strong>在分享菜单里选「Install as app」，不用打包和签名，直接使用 Claude 账号。权限分默认（只能做浏览器里能做的事）、应用权限（置顶窗口、全局快捷键、通知）和完整电脑访问三档，每次更新后重新询问。</p>\n<p><strong>效果怎样：</strong>文章只给出展示用的小应用，没有性能数字。完整访问只能给自己做的应用，或 Team 和 Enterprise 里同组织的人做的应用；Anthropic 不审核应用。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "在 Claude 里做好的 artifact 只能待在网页里，没法像普通桌面软件一样常驻使用。",
+    "如何解决": "在分享菜单里选「Install as app」，不用打包和签名，直接使用 Claude 账号。权限分默认（只能做浏览器里能做的事）、应用权限（置顶窗口、全局快捷键、通知）和完整电脑访问三档，每次更新后重新询问。",
+    "效果怎样": "文章只给出展示用的小应用，没有性能数字。完整访问只能给自己做的应用，或 Team 和 Enterprise 里同组织的人做的应用；Anthropic 不审核应用。"
+  }
+}

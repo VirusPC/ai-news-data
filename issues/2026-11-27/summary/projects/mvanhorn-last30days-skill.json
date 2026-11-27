@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/mvanhorn/last30days-skill",
+  "source": "cleaned/projects/mvanhorn-last30days-skill.json",
+  "purpose": "跨平台调研一个话题的 Agent skill",
+  "change": "进入 GitHub Trending 每周总榜，本周第 6 名（按榜单原始顺序）。",
+  "text": "#### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)\n\n跨平台调研一个话题的 Agent skill。作为 skill 在 Agent 里调用 /last30days，用<mark>点赞数、投票数和真实下注金额</mark>而不是编辑来给内容排序，README 对应当前 v4 流程。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>在 Reddit、X、YouTube、HN、Polymarket 和网页上检索，再合成有出处的总结。</p>\n<p><strong>如何解决：</strong>作为 skill 在 Agent 里调用 /last30days，用点赞数、投票数和真实下注金额而不是编辑来给内容排序，README 对应当前 v4 流程。</p>\n<p><strong>补充：</strong>适用于 Claude Code 等 Agent。（星标 75775，许可 MIT，数据来自 GitHub）</p>\n</details>\n\n"
+}

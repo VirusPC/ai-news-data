@@ -1,0 +1,15 @@
+{
+  "id": "https://kiro.dev/blog/conductor-mode",
+  "source": "cleaned/articles/kiro-dev-blog-conductor-mode.json",
+  "title": "Introducing conductor mode in Kiro Crew",
+  "link": "https://kiro.dev/blog/conductor-mode",
+  "sentence": "Kiro Crew 加入 conductor 模式：把目标交给默认 Agent，由它协调多个 worker Agent，人在一个聊天和一块看板里把关。",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### [Introducing conductor mode in Kiro Crew](https://kiro.dev/blog/conductor-mode)\n\nKiro Crew 加入 <mark>conductor 模式</mark>：把目标交给默认 Agent，由它协调多个 worker Agent，人在一个聊天和一块看板里把关。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>一个功能拆在多个聊天会话里做，后加的能力需要其他会话的上下文，人要自己来回协调。</p>\n<p><strong>如何解决：</strong>conductor 由默认 Kiro Crew Agent 和全局记忆驱动，把目标拆给 worker Agent，读它们的报告并检查结果；它介于单次聊天和长期负责的 Kiro bot 之间。</p>\n<p><strong>效果怎样：</strong>团队拿一批自家仓库的工单试跑，规则是 conductor 自己不写代码。一次它看到主分支没有失败就断言是 worker 的改动出错，但主分支没跑同样的测试，后来才纠正。文章没有给量化数字。</p>\n</details>\n\n",
+  "sections": {
+    "解决什么问题": "一个功能拆在多个聊天会话里做，后加的能力需要其他会话的上下文，人要自己来回协调。",
+    "如何解决": "conductor 由默认 Kiro Crew Agent 和全局记忆驱动，把目标拆给 worker Agent，读它们的报告并检查结果；它介于单次聊天和长期负责的 Kiro bot 之间。",
+    "效果怎样": "团队拿一批自家仓库的工单试跑，规则是 conductor 自己不写代码。一次它看到主分支没有失败就断言是 worker 的改动出错，但主分支没跑同样的测试，后来才纠正。文章没有给量化数字。"
+  }
+}

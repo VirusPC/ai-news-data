@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+  "title": "The enterprise guide to securing coding agents",
+  "date": "2026-11-23",
+  "source": "raw/articles/feeds.json",
+  "publisher": "Anthropic",
+  "category": "博客",
+  "url": "https://claude.com/resources/articles",
+  "text": "How security and technical leaders can understand and bound risk as they scale Claude Code"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://openai.com/index/introducing-shirudo",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "date": "2026-11-23",
+  "source": "raw/articles/feeds.json",
+  "publisher": "OpenAI",
+  "category": "博客",
+  "url": "https://openai.com/news/",
+  "text": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
+}
