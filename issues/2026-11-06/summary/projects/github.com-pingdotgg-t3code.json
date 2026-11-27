@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/pingdotgg/t3code",
   "source": "cleaned/projects/github.com-pingdotgg-t3code.json",
+  "title": "pingdotgg/t3code",
+  "link": "https://github.com/pingdotgg/t3code",
+  "lede": "这一条在归档榜上没有简介。 来源里只有这些。",
+  "category": "开源",
+  "company": "pingdotgg",
   "purpose": "pingdotgg/t3code",
   "change": "见本期正文。",
-  "text": "#### [pingdotgg/t3code](https://github.com/pingdotgg/t3code)\n\n这一条在归档榜上没有简介。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "这一条在归档榜上没有简介，来源里只有这些。",
+    "如何解决": "归档榜里没有给这条写简介，材料只有这些。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "归档榜上这一条没有简介，来源里只有这些。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

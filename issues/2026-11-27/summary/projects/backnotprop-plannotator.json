@@ -1,7 +1,20 @@
 {
   "id": "https://github.com/backnotprop/plannotator",
   "source": "cleaned/projects/backnotprop-plannotator.json",
+  "title": "plannotator",
+  "link": "https://github.com/backnotprop/plannotator",
+  "lede": "Plannotator 是一个本地浏览器审阅面，用来批注 Agent 给出的计划、页面和代码，并把意见一次送回 Agent；本周周榜排在 <mark class=\"note-card-hl\">第 1</mark>。",
+  "category": "开源",
+  "company": "backnotprop",
   "purpose": "给编码 Agent 提供本地浏览器里的审阅和批注层，把计划、页面和 diff 上的反馈一次送回 Agent。",
   "change": "本周周榜第一，并在 2026-11-26 发布 v0.29.5。",
-  "text": "#### [plannotator](https://github.com/backnotprop/plannotator) 15309 stars Apache-2.0\n\nPlannotator 是一个本地浏览器审阅面，用来批注 Agent 给出的计划、页面和代码，并把意见一次送回 Agent；本周周榜排在 <mark class=\"note-card-hl\">第 1</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>多 Agent 并行工作时，决策、原型、计划和 diff 散落各处，人很难保持在回路里，反馈也很难准确回到那个 Agent。</p>\n<p><strong>如何解决：</strong>它在本地打开浏览器界面，对接 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Amp 等编码 Agent，以及部分个人助手。用户可以批注计划、规格、HTML 和 PR diff，再把评论送回 Agent；大改动还能让 Agent 把 diff 分成章节，重要的先行。</p>\n<p><strong>效果怎样：</strong>仓库介绍强调 Inbox 是人与多 Agent 之间缺失的那一层审阅面。清洗时核验到 <mark class=\"note-card-hl\">15309</mark> stars，许可证 Apache-2.0，窗口结束日及之前最近的 Release 是 2026-11-26 的 v0.29.5。</p>\n<p><strong>洞察与启发：</strong>把“看结果、写意见、送回 Agent”收成一个本地审阅层，比只在聊天窗口里来回贴补丁更接近团队已有的代码审阅习惯。</p>\n<p><strong>相关工作：</strong>同类需求也出现在各家 Agent 自己的 diff 视图和 PR 机器人里，但那些界面通常绑在单一工具链上，而不是一个可插到多种 Agent 的本地审阅面。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "多 Agent 并行工作时，决策、原型、计划和 diff 散落各处，人很难保持在回路里，反馈也很难准确回到那个 Agent。",
+    "如何解决": "它在本地打开浏览器界面，对接 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Amp 等编码 Agent，以及部分个人助手。用户可以批注计划、规格、HTML 和 PR diff，再把评论送回 Agent；大改动还能让 Agent 把 diff 分成章节，重要的先行。",
+    "效果怎样": "仓库介绍强调 Inbox 是人与多 Agent 之间缺失的那一层审阅面。清洗时核验到 <mark class=\"note-card-hl\">15309</mark> stars，许可证 Apache-2.0，窗口结束日及之前最近的 Release 是 2026-11-26 的 v0.29.5。",
+    "洞察与启发": "把“看结果、写意见、送回 Agent”收成一个本地审阅层，比只在聊天窗口里来回贴补丁更接近团队已有的代码审阅习惯。",
+    "相关工作": "同类需求也出现在各家 Agent 自己的 diff 视图和 PR 机器人里，但那些界面通常绑在单一工具链上，而不是一个可插到多种 Agent 的本地审阅面。"
+  },
+  "stars": 15309,
+  "license": "Apache-2.0"
 }

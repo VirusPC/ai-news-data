@@ -1,6 +1,9 @@
 {
   "id": "MiniMax M3.1 Flash（开源）",
   "source": "cleaned/models/MiniMax-M3.1-Flash.json",
+  "title": "MiniMax M3.1 Flash 开源权重",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+  "lede": "MiniMax M3.1 Flash 开源权重：上一窗口已经更新的 Flash，这一窗口放出可部署的权重。",
   "price": {
     "text": "暂无"
   },
@@ -10,5 +13,22 @@
   "effect": {
     "text": "暂无"
   },
-  "text": "#### [MiniMax M3.1 Flash 开源权重](https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208)\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><svg class=\"info-card-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 6h13\"></path><path d=\"M8 12h13\"></path><path d=\"M8 18h13\"></path><path d=\"M3 6h.01\"></path><path d=\"M3 12h.01\"></path><path d=\"M3 18h.01\"></path></svg><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 10 月 23 日公开权重，总参数 428B，激活 23B。</li>\n<li><strong>定位</strong> 上一窗口已经更新的 Flash，这一窗口放出可部署的权重。</li>\n<li><strong>成绩</strong> 文中称上线 72 小时真实用户处理超过 <mark class=\"note-card-hl\">100 万亿</mark> token。</li>\n<li><strong>可用</strong> 单价和速度名次没有写。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ==&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208\">MiniMax M3.1 Flash 开源</a></p>\n</aside>\n\n"
+  "points": [
+    {
+      "label": "上线",
+      "text": "10 月 23 日公开权重，总参数 428B，激活 23B。"
+    },
+    {
+      "label": "定位",
+      "text": "上一窗口已经更新的 Flash，这一窗口放出可部署的权重。"
+    },
+    {
+      "label": "成绩",
+      "text": "文中称上线 72 小时真实用户处理超过 <mark class=\"note-card-hl\">100 万亿</mark> token。"
+    },
+    {
+      "label": "可用",
+      "text": "单价和速度名次没有写。"
+    }
+  ]
 }

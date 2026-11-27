@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro-dev-blog-kiro-for-vs-code.json",
   "title": "Introducing Kiro for VS Code",
   "link": "https://kiro.dev/blog/kiro-for-vs-code",
-  "sentence": "Kiro 在 VS Code 和 Open VSX 上正式提供扩展，可在现有编辑器里使用 Kiro Agent。",
+  "lede": "Kiro 宣布 <mark class=\"note-card-hl\">Kiro for VS Code</mark> 在 macOS、Windows 和 Linux 正式可用，可从 VS Code Marketplace 或 Open VSX 安装。",
   "category": "产品",
   "company": "Kiro",
-  "text": "#### [Introducing Kiro for VS Code](https://kiro.dev/blog/kiro-for-vs-code)\n\nKiro 宣布 <mark class=\"note-card-hl\">Kiro for VS Code</mark> 在 macOS、Windows 和 Linux 正式可用，可从 VS Code Marketplace 或 Open VSX 安装。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>已经习惯 VS Code 的开发者不希望为了用 Kiro Agent 再换一套编辑器。</p>\n<p><strong>如何解决：</strong>官方提供 VS Code 扩展，在现有编辑器里登录并使用 Kiro Agent。它适用于所有 Kiro 方案，官方写明不改计划和计费。</p>\n<p><strong>效果怎样：</strong>这是正式上市公告，没有另给性能或采用数字。能确认的是平台覆盖 macOS、Windows、Linux，以及安装渠道是 VS Code Marketplace 与 Open VSX。</p>\n<p><strong>洞察与启发：</strong>编码 Agent 要进入日常工作，先出现在开发者已经打开的编辑器里，往往比再做一个独立 IDE 更有效。</p>\n<p><strong>相关工作：</strong>各家编码 Agent 都在做编辑器插件；同一周 Claude、Qoder 和 Cursor 生态也在往已有工作区里塞技能和工具，方向一致。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "已经习惯 VS Code 的开发者不希望为了用 Kiro Agent 再换一套编辑器。",
+    "如何解决": "官方提供 VS Code 扩展，在现有编辑器里登录并使用 Kiro Agent。它适用于所有 Kiro 方案，官方写明不改计划和计费。",
+    "效果怎样": "这是正式上市公告，没有另给性能或采用数字。能确认的是平台覆盖 macOS、Windows、Linux，以及安装渠道是 VS Code Marketplace 与 Open VSX。",
+    "洞察与启发": "编码 Agent 要进入日常工作，先出现在开发者已经打开的编辑器里，往往比再做一个独立 IDE 更有效。",
+    "相关工作": "各家编码 Agent 都在做编辑器插件；同一周 Claude、Qoder 和 Cursor 生态也在往已有工作区里塞技能和工具，方向一致。"
+  }
 }

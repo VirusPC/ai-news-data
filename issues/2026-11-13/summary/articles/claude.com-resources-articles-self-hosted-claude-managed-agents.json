@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-self-hosted-claude-managed-agents.json",
   "title": "Operate Claude Managed Agents inside your security perimeter",
   "link": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
-  "sentence": "自托管的 Claude Managed Agents 让 Agent、凭证和会话历史留在你自己的云或机房里，请求发到哪里也由你定。 订阅源里只有这些。",
+  "lede": "自托管的 Claude Managed Agents 让 Agent、凭证和会话历史留在你自己的云或机房里，请求发到哪里也由你定。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Operate Claude Managed Agents inside your security perimeter](https://claude.com/resources/articles/self-hosted-claude-managed-agents)\n\n自托管的 Claude Managed Agents 让 Agent、凭证和会话历史留在你自己的云或机房里，请求发到哪里也由你定。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "Agent、凭证和会话历史要留在自己的云或机房里。",
+    "如何解决": "自托管的 Claude Managed Agents 把这些留在你自己的环境里，请求发到哪里也由你定。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "托管也可以不把数据交出去：Agent、凭证和会话历史都留在自己的云或机房。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

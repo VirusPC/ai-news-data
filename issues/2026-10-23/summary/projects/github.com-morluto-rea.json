@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/morluto/rea",
   "source": "cleaned/projects/github.com-morluto-rea.json",
+  "title": "morluto/rea",
+  "link": "https://github.com/morluto/rea",
+  "lede": "用 Agent 做逆向，从应用行为一直拆到<mark class=\"note-card-hl\">原生二进制</mark>。 来源里只有这些。",
+  "category": "开源",
+  "company": "morluto",
   "purpose": "morluto/rea",
   "change": "见本期正文。",
-  "text": "#### [morluto/rea](https://github.com/morluto/rea)\n\n用 Agent 做逆向，从应用行为一直拆到<mark>原生二进制</mark>。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "逆向分析要从应用行为一路拆到底层。",
+    "如何解决": "由 Agent 来拆，从应用行为一直拆到<mark class=\"note-card-hl\">原生二进制</mark>。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "逆向这条链可以交给 Agent，从应用行为一直追到原生二进制。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

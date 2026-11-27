@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-interactive-connectors-full-tool.json",
   "title": "Your apps can now open in Claude, and Claude can work in them",
   "link": "https://claude.com/resources/articles/interactive-connectors-full-tool",
-  "sentence": "合作方可以把自己的应用嵌进 Claude，人和 Claude 在同一块屏幕里干活，不用来回切 tab。 订阅源里只有这些。",
+  "lede": "合作方可以把自己的应用嵌进 Claude，人和 Claude 在同一块屏幕里干活，不用来回切 tab。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Your apps can now open in Claude, and Claude can work in them](https://claude.com/resources/articles/interactive-connectors-full-tool)\n\n合作方可以把自己的应用嵌进 Claude，人和 Claude 在同一块屏幕里干活，不用来回切 tab。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "人和 Claude 干活要来回切 tab。",
+    "如何解决": "合作方把自己的应用嵌进 Claude，两边在同一块屏幕里协作。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "应用嵌进 Claude 之后，人和 Agent 共用一块屏幕，不用再切来切去。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

@@ -3,14 +3,14 @@
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512488-idx-1-sn-8a921e6683912e7b.json",
   "title": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布",
   "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
-  "sentence": "Qwen4-Max 预览版登上阿里 Token Plan，Qwen Code 1.0 Preview 同时开源，用<mark>事件</mark>把 Agent 接进已有产品。",
+  "lede": "Qwen4-Max 预览版登上阿里 Token Plan，Qwen Code 1.0 Preview 同时开源，用<mark class=\"note-card-hl\">事件</mark>把 Agent 接进已有产品。",
   "category": "模型",
   "company": "阿里",
-  "text": "#### &lt;模型&gt;&lt;阿里&gt;[Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58)\n\nQwen4-Max 预览版登上阿里 Token Plan，Qwen Code 1.0 Preview 同时开源，用<mark>事件</mark>把 Agent 接进已有产品。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>模型会规划、执行和改计划，但要进真实应用，还得有东西接收外界变化、调工具、管任务。</p>\n<p><strong>如何解决：</strong>Qwen Code 1.0 Preview 把 Qoder 和 Qwen Code 的 Harness 合在一起开源。用户要求、工具结果和系统反馈作为事件进入对应任务。千问办公、Qoder、千问 APP 和 QwenStudio 也接入了预览版。</p>\n<p><strong>效果怎样：</strong>公告没有给 token 单价，也没有给一组评测分数，只写在实际任务测试里看到了结果。</p>\n<p><strong>洞察与启发：</strong>一次执行的结果要成为下一步的依据，新反馈要接上已有进展，而不是每次把背景重讲一遍。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "模型会规划、执行和改计划，但要进真实应用，还得有东西接收外界变化、调工具、管任务。",
     "如何解决": "Qwen Code 1.0 Preview 把 Qoder 和 Qwen Code 的 Harness 合在一起开源。用户要求、工具结果和系统反馈作为事件进入对应任务。千问办公、Qoder、千问 APP 和 QwenStudio 也接入了预览版。",
     "效果怎样": "公告没有给 token 单价，也没有给一组评测分数，只写在实际任务测试里看到了结果。",
-    "洞察与启发": "一次执行的结果要成为下一步的依据，新反馈要接上已有进展，而不是每次把背景重讲一遍。"
+    "洞察与启发": "一次执行的结果要成为下一步的依据，新反馈要接上已有进展，而不是每次把背景重讲一遍。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

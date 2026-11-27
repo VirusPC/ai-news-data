@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-introducing-managed-deep-agents.json",
   "title": "Managed Deep Agents",
   "link": "https://www.langchain.com/blog/introducing-managed-deep-agents",
-  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/introducing-managed-deep-agents) Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。 完整总结 解决什么问题： 开源 harnes",
+  "lede": "Deep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Managed Deep Agents](https://www.langchain.com/blog/introducing-managed-deep-agents)\n\nDeep Agents 这套开源 harness 放到 LangSmith 上跑。你写 Agent 做什么，平台负责生产环境。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>开源 harness 还是要自己部署记忆、沙箱和日程。</p>\n<p><strong>如何解决：</strong>Agent 是一个项目目录。本地用 mda dev，上线用 mda deploy。持久记忆、沙箱和日程是加进项目的文件。</p>\n<p><strong>效果怎样：</strong>文中写公开测试在 LangSmith Cloud。没有迁徙耗时的数字。帖子在 11 月 2 日更新过。</p>\n<p><strong>洞察与启发：</strong>托管的是 harness，不是把 Agent 逻辑藏进一个只能点选的后台。</p>\n<p><strong>相关工作：</strong>Kimi Hosted Agents 是另一家的托管运行环境。主题词 Deep Agents 来自这一条和别的标题同时出现。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "开源 harness 还是要自己部署记忆、沙箱和日程。",
+    "如何解决": "Agent 是一个项目目录。本地用 mda dev，上线用 mda deploy。持久记忆、沙箱和日程是加进项目的文件。",
+    "效果怎样": "文中写公开测试在 LangSmith Cloud。没有迁徙耗时的数字。帖子在 11 月 2 日更新过。",
+    "洞察与启发": "托管的是 harness，不是把 Agent 逻辑藏进一个只能点选的后台。",
+    "相关工作": "Kimi Hosted Agents 是另一家的托管运行环境。主题词 Deep Agents 来自这一条和别的标题同时出现。"
+  }
 }

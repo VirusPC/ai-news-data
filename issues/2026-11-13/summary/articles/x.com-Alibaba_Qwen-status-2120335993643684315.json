@@ -3,8 +3,14 @@
   "source": "cleaned/articles/x.com-Alibaba_Qwen-status-2120335993643684315.json",
   "title": "Qwen4 is coming. Deeper knowledge. Richer world understanding. Stronger coding and agentic capabili...",
   "link": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
-  "sentence": "Qwen 说 Qwen4 要来了，Qwen4-Max 预览已经在阿里的 <mark>Token Plan</mark> 上，也能在 QwenWork、Qoder、千问 APP 和 QwenStudio 里提前用。 这条是发布预告，没有展开做法。",
+  "lede": "Qwen 说 Qwen4 要来了，Qwen4-Max 预览已经在阿里的 <mark class=\"note-card-hl\">Token Plan</mark> 上，也能在 QwenWork、Qoder、千问 APP 和 QwenStudio 里提前用。 这条是发布预告，没有展开做法。",
   "category": "模型",
   "company": "阿里",
-  "text": "#### &lt;模型&gt;&lt;阿里&gt;[Qwen4 is coming. Deeper knowledge. Richer world understanding. Stronger coding and agentic capabili...](https://x.com/Alibaba_Qwen/status/2120335993643684315)\n\nQwen 说 Qwen4 要来了，Qwen4-Max 预览已经在阿里的 <mark>Token Plan</mark> 上，也能在 QwenWork、Qoder、千问 APP 和 QwenStudio 里提前用。 这条是发布预告，没有展开做法。\n"
+  "sections": {
+    "解决什么问题": "Qwen4 还没正式发布，想提前用上它的能力。",
+    "如何解决": "Qwen4-Max 预览先上阿里的 <mark class=\"note-card-hl\">Token Plan</mark>，并开放 QwenWork、Qoder、千问 APP 和 QwenStudio 提前用。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "正式版未到，预览先铺到自家各端：Token Plan、QwenWork、Qoder、千问 APP、QwenStudio。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

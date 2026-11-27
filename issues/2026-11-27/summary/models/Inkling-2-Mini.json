@@ -1,6 +1,9 @@
 {
   "id": "Inkling 2 Mini",
   "source": "cleaned/models/Inkling-2-Mini.json",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "link": "https://huggingface.co/blog/inkling2mini",
+  "lede": "Thinking Machines Lab 发布面向本地部署的 <mark class=\"note-card-hl\">Inkling 2 Mini</mark>：约 26B 物理参数、每 token 3B 激活的多模态 MoE，中间层循环三轮，上下文 100 万 token。",
   "price": {
     "text": "暂无"
   },
@@ -11,5 +14,22 @@
     "text": "20.1",
     "rank": 111
   },
-  "text": "#### [Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup](https://huggingface.co/blog/inkling2mini)\n\nThinking Machines Lab 发布面向本地部署的 <mark class=\"note-card-hl\">Inkling 2 Mini</mark>：约 26B 物理参数、每 token 3B 激活的多模态 MoE，中间层循环三轮，上下文 100 万 token。\n\n<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> 2026-11-20，Hugging Face 官方介绍，面向本地与开权部署。</li>\n<li><strong>定位</strong> 比 Inkling 2 Small 更小的本地模型，官方 vibe test 认为至少可比 <mark class=\"note-card-hl\">Qwen 3.8 27B</mark>。</li>\n<li><strong>成绩</strong> 公告称它在 Artificial Analysis Intelligence Index v5 的同档对比中处于前列；本期免费接口里该模型智力指数为 <mark class=\"note-card-hl\">20.1</mark>，在 157 个有分数的模型中排第 111。</li>\n<li><strong>可用或实测</strong> 官方提供 Transformers、llama.cpp、MLX 支持，SGLang 在发布当日即可用于机房部署。公告未给出 API 定价，OpenRouter 官方标准档也没有可用延迟。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://huggingface.co/blog/inkling2mini\">Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup</a></p>\n</aside>\n"
+  "points": [
+    {
+      "label": "上线",
+      "text": "2026-11-20，Hugging Face 官方介绍，面向本地与开权部署。"
+    },
+    {
+      "label": "定位",
+      "text": "比 Inkling 2 Small 更小的本地模型，官方 vibe test 认为至少可比 <mark class=\"note-card-hl\">Qwen 3.8 27B</mark>。"
+    },
+    {
+      "label": "成绩",
+      "text": "公告称它在 Artificial Analysis Intelligence Index v5 的同档对比中处于前列；本期免费接口里该模型智力指数为 <mark class=\"note-card-hl\">20.1</mark>，在 157 个有分数的模型中排第 111。"
+    },
+    {
+      "label": "可用或实测",
+      "text": "官方提供 Transformers、llama.cpp、MLX 支持，SGLang 在发布当日即可用于机房部署。公告未给出 API 定价，OpenRouter 官方标准档也没有可用延迟。"
+    }
+  ]
 }

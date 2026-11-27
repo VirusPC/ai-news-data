@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mjm5odywmji2ma-3d-3d-idx-1-mid-2649808258-sn-49-9d1d2d9b58.json",
   "title": "50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题",
   "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
-  "sentence": "腾讯 EROX 用按需加载、预取和 P2P 分发，让 50GB 级 Agent 工作区可以秒级重新访问。",
+  "lede": "腾讯介绍 EROX：用按需加载、热点预取和 P2P 分发，让 <mark class=\"note-card-hl\">50GB</mark> 级 Agent 工作区可以秒级重新访问，从而解决会话恢复太慢的问题。",
   "category": "架构",
   "company": "腾讯",
-  "text": "#### [50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3)\n\n腾讯介绍 EROX：用按需加载、热点预取和 P2P 分发，让 <mark class=\"note-card-hl\">50GB</mark> 级 Agent 工作区可以秒级重新访问，从而解决会话恢复太慢的问题。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 沙箱一旦休眠或换节点，几十 GB 的工作区如果要整份重新拉取，冷启动会很慢，也很难在多节点之间复用已经下来的数据。</p>\n<p><strong>如何解决：</strong>EROX 按完整镜像的逻辑布局填充节点缓存，访问时再按需加载，并用热点预取把启动真正用到的数据先送到节点。数据就绪后可切到本地直读，不必重新挂载。多节点读取同一镜像或快照时，优先走 P2P，未命中再回源。文件级路径还可借助 fanotify 在访问时填充数据。</p>\n<p><strong>效果怎样：</strong>相对全量拉取，冷启动缩减 <mark class=\"note-card-hl\">50%+</mark>；对 10G+ 的大镜像，启动热点预取命中率做到 100%。产品层面，官方把目标写成 50GB 工作区的秒级可访问，并强调快照分发同样适用沙箱休眠后的恢复。</p>\n<p><strong>洞察与启发：</strong>长任务 Agent 的恢复速度，常常不取决于模型，而取决于工作区是不是必须整份搬动。按需加载加预取，是把“磁盘状态”当成可恢复的一等资源。</p>\n<p><strong>相关工作：</strong>Kiro CLI 同期在本机压缩长会话内存；EROX 处理的是云端沙箱和镜像分发。两者都在回答“Agent 跑很久之后，状态怎么还在”。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "Agent 沙箱一旦休眠或换节点，几十 GB 的工作区如果要整份重新拉取，冷启动会很慢，也很难在多节点之间复用已经下来的数据。",
+    "如何解决": "EROX 按完整镜像的逻辑布局填充节点缓存，访问时再按需加载，并用热点预取把启动真正用到的数据先送到节点。数据就绪后可切到本地直读，不必重新挂载。多节点读取同一镜像或快照时，优先走 P2P，未命中再回源。文件级路径还可借助 fanotify 在访问时填充数据。",
+    "效果怎样": "相对全量拉取，冷启动缩减 <mark class=\"note-card-hl\">50%+</mark>；对 10G+ 的大镜像，启动热点预取命中率做到 100%。产品层面，官方把目标写成 50GB 工作区的秒级可访问，并强调快照分发同样适用沙箱休眠后的恢复。",
+    "洞察与启发": "长任务 Agent 的恢复速度，常常不取决于模型，而取决于工作区是不是必须整份搬动。按需加载加预取，是把“磁盘状态”当成可恢复的一等资源。",
+    "相关工作": "Kiro CLI 同期在本机压缩长会话内存；EROX 处理的是云端沙箱和镜像分发。两者都在回答“Agent 跑很久之后，状态怎么还在”。"
+  }
 }

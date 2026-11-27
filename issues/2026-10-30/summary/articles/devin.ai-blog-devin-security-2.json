@@ -3,8 +3,14 @@
   "source": "cleaned/articles/devin.ai-blog-devin-security-2.json",
   "title": "Devin Security 2.0",
   "link": "https://devin.ai/blog/devin-security-2",
-  "sentence": "&lt;产品&gt;&lt;Cognition&gt;  (https://devin.ai/blog/devin-security-2) 扫描之后还要能排出该修什么，并自己开出可以审的 PR。 完整总结 解决什么问题： 漏洞发现变快，并不等于风险下降。 如何解决： 用前沿模型扫描，按代码、基础设施和威胁模型排序，再把修复变成 PR。 效果怎样： 文中另有面",
+  "lede": "扫描之后还要能排出该修什么，并自己开出可以审的 PR。",
   "category": "产品",
   "company": "Cognition",
-  "text": "#### &lt;产品&gt;&lt;Cognition&gt;[Devin Security 2.0](https://devin.ai/blog/devin-security-2)\n\n扫描之后还要能排出该修什么，并自己开出可以审的 PR。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>漏洞发现变快，并不等于风险下降。</p>\n<p><strong>如何解决：</strong>用前沿模型扫描，按代码、基础设施和威胁模型排序，再把修复变成 PR。</p>\n<p><strong>效果怎样：</strong>文中另有面向企业的额度，用来配 Claude Mythos 做扫描。没有公开的修复率。</p>\n<p><strong>洞察与启发：</strong>安全产品被写成扫描、排序、修复三步，缺一步就不算做完。</p>\n<p><strong>相关工作：</strong>周榜上的 security-audit-skill 做的是审计技能，不是这条托管修复链。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "漏洞发现变快，并不等于风险下降。",
+    "如何解决": "用前沿模型扫描，按代码、基础设施和威胁模型排序，再把修复变成 PR。",
+    "效果怎样": "文中另有面向企业的额度，用来配 Claude Mythos 做扫描。没有公开的修复率。",
+    "洞察与启发": "安全产品被写成扫描、排序、修复三步，缺一步就不算做完。",
+    "相关工作": "周榜上的 security-audit-skill 做的是审计技能，不是这条托管修复链。"
+  }
 }

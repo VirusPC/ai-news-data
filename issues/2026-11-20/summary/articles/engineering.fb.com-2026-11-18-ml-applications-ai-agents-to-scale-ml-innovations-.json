@@ -3,8 +3,14 @@
   "source": "cleaned/articles/engineering.fb.com-2026-11-18-ml-applications-ai-agents-to-scale-ml-innovations-.json",
   "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
   "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models",
-  "sentence": "&lt;实践&gt;&lt;Meta&gt;  (https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/) 已验证的广告排序改法几乎不能直接抄到下一个模型，Agent 负责挑选、改写并 ",
+  "lede": "已验证的广告排序改法几乎不能直接抄到下一个模型，Agent 负责挑选、改写并<mark class=\"note-card-hl\">盯着训练</mark>。",
   "category": "实践",
   "company": "Meta",
-  "text": "#### &lt;实践&gt;&lt;Meta&gt;[How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models](https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/)\n\n已验证的广告排序改法几乎不能直接抄到下一个模型，Agent 负责挑选、改写并<mark>盯着训练</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>广告排序有很多模型，结构、数据和上线限制各不相同。在一个模型上验证过的改法，几乎不能原样抄到下一个。改法还有保质期，铺得慢，收益会被下一轮盖掉。人手改一个模型要很熟，每次尝试还要跑训练，算力也不够把所有组合都试一遍。</p>\n<p><strong>如何解决：</strong>先把模型收成少量可复用的模板。改法在模板上验证一次，就落到用这个模板的模型上；模板盖不住的，再按单个模型改。Agent 接还要判断的部分：按预期收益挑要试的组合，把改法改到它原先不是为之设计的模型上，并发起实验、盯多日训练、失败了再恢复。它们共用一份已有训练和结构的记录，不用每次从头试。收入最高的模型仍由熟这行的人来改。</p>\n<p><strong>效果怎样：</strong>文章估计，2026 年 3 月起 Agent 开始执行之后，它们承担了超过 60% 的这类铺开；和做同样工作的人比，工程产出约 3 倍，部分组合的训练算力中位数大约降到四分之一，到年底估计省下超过 4500 万美元算力。模板化的前两年是另一笔账：铺过 5000 多次组合，单模型的工程时间降了 92%。这些都是文章自己的估计。</p>\n<p><strong>洞察与启发：</strong>模板能自动铺的是已经定死的步骤。还要判断的是哪条改法值得铺到哪个模型、搜索要多宽、为什么没涨、失败了怎么收。Agent 接的是这一层。</p>\n<p><strong>相关工作：</strong>同期另有几篇把一整段工作交给 Agent，对象是编码和日常任务。这篇的对象是广告排序模型上的改法。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "广告排序有很多模型，结构、数据和上线限制各不相同。在一个模型上验证过的改法，几乎不能原样抄到下一个。改法还有保质期，铺得慢，收益会被下一轮盖掉。人手改一个模型要很熟，每次尝试还要跑训练，算力也不够把所有组合都试一遍。",
+    "如何解决": "先把模型收成少量可复用的模板。改法在模板上验证一次，就落到用这个模板的模型上；模板盖不住的，再按单个模型改。Agent 接还要判断的部分：按预期收益挑要试的组合，把改法改到它原先不是为之设计的模型上，并发起实验、盯多日训练、失败了再恢复。它们共用一份已有训练和结构的记录，不用每次从头试。收入最高的模型仍由熟这行的人来改。",
+    "效果怎样": "文章估计，2026 年 3 月起 Agent 开始执行之后，它们承担了超过 60% 的这类铺开；和做同样工作的人比，工程产出约 3 倍，部分组合的训练算力中位数大约降到四分之一，到年底估计省下超过 4500 万美元算力。模板化的前两年是另一笔账：铺过 5000 多次组合，单模型的工程时间降了 92%。这些都是文章自己的估计。",
+    "洞察与启发": "模板能自动铺的是已经定死的步骤。还要判断的是哪条改法值得铺到哪个模型、搜索要多宽、为什么没涨、失败了怎么收。Agent 接的是这一层。",
+    "相关工作": "同期另有几篇把一整段工作交给 Agent，对象是编码和日常任务。这篇的对象是广告排序模型上的改法。"
+  }
 }

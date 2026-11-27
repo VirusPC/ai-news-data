@@ -1,6 +1,9 @@
 {
   "id": "Gemini 4 Hydrogen",
   "source": "cleaned/models/Gemini-4-Hydrogen.json",
+  "title": "Gemini 4 Hydrogen and Orchestrator",
+  "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+  "lede": "Gemini 4 Hydrogen and Orchestrator：Antigravity 公告写 <mark class=\"note-card-hl\">11 月 12 日</mark>。Devin 博客写 11 月 11 日起可在 Devin 使用。都在这期窗口内。",
   "price": {
     "text": "暂无"
   },
@@ -10,5 +13,18 @@
   "effect": {
     "text": "暂无"
   },
-  "text": "<aside class=\"info-card\">\n<p class=\"info-card-label\"><span>发布要点</span></p>\n<ul>\n<li><strong>上线</strong> Antigravity 公告写 <mark class=\"note-card-hl\">11 月 12 日</mark>。Devin 博客写 11 月 11 日起可在 Devin 使用。都在这期窗口内。</li>\n<li><strong>价格</strong> 暂无。清洗记录里没有 token 单价。</li>\n<li><strong>速度</strong> 暂无。</li>\n</ul>\n<p class=\"info-card-note\">来源：<a href=\"https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity\">Gemini 4 Hydrogen and Orchestrator</a></p>\n</aside>\n"
+  "points": [
+    {
+      "label": "上线",
+      "text": "Antigravity 公告写 <mark class=\"note-card-hl\">11 月 12 日</mark>。Devin 博客写 11 月 11 日起可在 Devin 使用。都在这期窗口内。"
+    },
+    {
+      "label": "价格",
+      "text": "暂无。清洗记录里没有 token 单价。"
+    },
+    {
+      "label": "速度",
+      "text": "暂无。"
+    }
+  ]
 }

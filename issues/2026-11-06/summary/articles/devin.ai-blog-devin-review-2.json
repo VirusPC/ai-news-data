@@ -3,8 +3,14 @@
   "source": "cleaned/articles/devin.ai-blog-devin-review-2.json",
   "title": "Devin Review 2.0",
   "link": "https://devin.ai/blog/devin-review-2",
-  "sentence": "&lt;产品&gt;&lt;Cognition&gt;  (https://devin.ai/blog/devin-review-2) 和 Devin 一起写代码时，PR 评审默认走 Devin Review，单次费用被压到几毛美元。 完整总结 解决什么问题： 代码写得越快，评审越成为瓶颈。 如何解决： 把 Devin Review 设成和 Devin 协作",
+  "lede": "和 Devin 一起写代码时，PR 评审默认走 Devin Review，单次费用被压到几毛美元。",
   "category": "产品",
   "company": "Cognition",
-  "text": "#### &lt;产品&gt;&lt;Cognition&gt;[Devin Review 2.0](https://devin.ai/blog/devin-review-2)\n\n和 Devin 一起写代码时，PR 评审默认走 Devin Review，单次费用被压到几毛美元。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代码写得越快，评审越成为瓶颈。</p>\n<p><strong>如何解决：</strong>把 Devin Review 设成和 Devin 协作时的默认评审，并改成本结构。</p>\n<p><strong>效果怎样：</strong>文中称自 8 月以来单次 PR 评审成本降了 82%，一次大约 0.25 到 0.75 美元。修掉一个 bug 的客户平均成本约 2.25 美元。这是他们自己的账。</p>\n<p><strong>洞察与启发：</strong>评审被当成每条 PR 都跑得起的步骤，而不是贵的抽查。</p>\n<p><strong>相关工作：</strong>词云里的 Devin Review 2.0 就是这一条。SWE-2 Flash 是同一周的编码模型，不是这个评审器。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "代码写得越快，评审越成为瓶颈。",
+    "如何解决": "把 Devin Review 设成和 Devin 协作时的默认评审，并改成本结构。",
+    "效果怎样": "文中称自 8 月以来单次 PR 评审成本降了 82%，一次大约 0.25 到 0.75 美元。修掉一个 bug 的客户平均成本约 2.25 美元。这是他们自己的账。",
+    "洞察与启发": "评审被当成每条 PR 都跑得起的步骤，而不是贵的抽查。",
+    "相关工作": "词云里的 Devin Review 2.0 就是这一条。SWE-2 Flash 是同一周的编码模型，不是这个评审器。"
+  }
 }

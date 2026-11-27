@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-context-engineering-starts-with-retrieval.json",
   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
   "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
-  "sentence": "LangChain 认为 Agent 的上下文工程从检索开始：笨拙的搜索、过大的结果和过期数据都在浪费上下文。 订阅源里只有这些。",
+  "lede": "LangChain 认为 Agent 的上下文工程从检索开始：笨拙的搜索、过大的结果和过期数据都在浪费上下文。 订阅源里只有这些。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[Context Engineering (Agent Memory) for AI Agents Starts with Retrieval](https://www.langchain.com/blog/context-engineering-starts-with-retrieval)\n\nLangChain 认为 Agent 的上下文工程从检索开始：笨拙的搜索、过大的结果和过期数据都在浪费上下文。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "笨拙的搜索、过大的结果和过期数据都在浪费上下文。",
+    "如何解决": "LangChain 把上下文工程的起点放在检索上。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "上下文工程的第一公里是检索：搜不准、拿太多、用过期数据，后面都白搭。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

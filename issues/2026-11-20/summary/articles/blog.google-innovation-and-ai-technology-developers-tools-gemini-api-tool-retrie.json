@@ -3,8 +3,14 @@
   "source": "cleaned/articles/blog.google-innovation-and-ai-technology-developers-tools-gemini-api-tool-retrie.json",
   "title": "Introducing Tool Retrieval in the Gemini API",
   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-  "sentence": "&lt;架构&gt;&lt;Google&gt;  (https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/) 工具很多时，先只给名字和说明，要用再 加载参数模式 。 完整总结 解决什么问题： 每次请求都带上全部工具的参数模式，输",
+  "lede": "工具很多时，先只给名字和说明，要用再<mark class=\"note-card-hl\">加载参数模式</mark>。",
   "category": "架构",
   "company": "Google",
-  "text": "#### &lt;架构&gt;&lt;Google&gt;[Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)\n\n工具很多时，先只给名字和说明，要用再<mark>加载参数模式</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>每次请求都带上全部工具的参数模式，输入变长，选工具也更容易错。</p>\n<p><strong>如何解决：</strong>预览版在 Interactions API 里加 `tool_search`，把不常用的工具标成延后加载。模型仍看得到名字和说明，需要时再取出完整模式，同一次请求里完成调用。也可以改成客户端自己搜。常用工具仍可一开始就带上。</p>\n<p><strong>效果怎样：</strong>没有单独收费，省不省 token 取决于没加载的模式是否多于加载的。文章建议用自己的流量量。</p>\n<p><strong>洞察与启发：</strong>每轮都带上全部工具的参数模式，输入变长，选工具也更容易错。先只给名字和说明，要用再加载，省不省取决于没加载的是否多于加载的。</p>\n<p><strong>相关工作：</strong>它和 LangSmith 工具网关互补：一个管装进上下文，一个管谁能调。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "每次请求都带上全部工具的参数模式，输入变长，选工具也更容易错。",
+    "如何解决": "预览版在 Interactions API 里加 tool_search，把不常用的工具标成延后加载。模型仍看得到名字和说明，需要时再取出完整模式，同一次请求里完成调用。也可以改成客户端自己搜。常用工具仍可一开始就带上。",
+    "效果怎样": "没有单独收费，省不省 token 取决于没加载的模式是否多于加载的。文章建议用自己的流量量。",
+    "洞察与启发": "每轮都带上全部工具的参数模式，输入变长，选工具也更容易错。先只给名字和说明，要用再加载，省不省取决于没加载的是否多于加载的。",
+    "相关工作": "它和 LangSmith 工具网关互补：一个管装进上下文，一个管谁能调。"
+  }
 }

@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/anthropics/claude-plugins-official",
   "source": "cleaned/projects/github.com-anthropics-claude-plugins-official.json",
+  "title": "anthropics/claude-plugins-official",
+  "link": "https://github.com/anthropics/claude-plugins-official",
+  "lede": "Anthropic 维护的 Claude Code 插件目录。 来源里只有这些。",
+  "category": "开源",
+  "company": "anthropics",
   "purpose": "anthropics/claude-plugins-official",
   "change": "见本期正文。",
-  "text": "#### [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)\n\nAnthropic 维护的 Claude Code 插件目录。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Claude Code 的插件需要有一份目录。",
+    "如何解决": "这份目录由 Anthropic 维护，收录 Claude Code 插件。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "Claude Code 的插件有官方维护的目录可查。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

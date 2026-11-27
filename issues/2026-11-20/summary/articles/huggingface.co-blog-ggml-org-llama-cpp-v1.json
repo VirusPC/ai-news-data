@@ -3,8 +3,14 @@
   "source": "cleaned/articles/huggingface.co-blog-ggml-org-llama-cpp-v1.json",
   "title": "llama.cpp v1.0.0：本地 AI 生态更稳的底座",
   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-  "sentence": "&lt;开源&gt;&lt;Hugging Face&gt;  (https://huggingface.co/blog/ggml-org/llama-cpp-v1) llama.cpp 和 ggml 的库接口发布 v1.0.0，给下游一个灵活但 稳定的 API 。 完整总结 解决什么问题： 文章写这个项目已经做了三年半，很多下游应用依赖它的库接口。每多一个",
+  "lede": "llama.cpp 和 ggml 的库接口发布 v1.0.0，给下游一个灵活但<mark class=\"note-card-hl\">稳定的 API</mark>。",
   "category": "开源",
   "company": "Hugging Face",
-  "text": "#### &lt;开源&gt;&lt;Hugging Face&gt;[llama.cpp v1.0.0：本地 AI 生态更稳的底座](https://huggingface.co/blog/ggml-org/llama-cpp-v1)\n\nllama.cpp 和 ggml 的库接口发布 v1.0.0，给下游一个灵活但<mark>稳定的 API</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>文章写这个项目已经做了三年半，很多下游应用依赖它的库接口。每多一个接入，就多一批人要靠这个 API。接口要灵活，也要稳定。</p>\n<p><strong>如何解决：</strong>llama.cpp 和 ggml 的库一起发布 v1.0.0，分别是 libllama 和 libggml。以后 API 或 ABI 不兼容就升主版本。公开 C 接口的破坏性改动升主版本，向后兼容的功能和模型支持升次版本，不改接口的缺陷修复升补丁版本。</p>\n<p><strong>效果怎样：</strong>文章写目前支持 150 多种架构变体，以及主流的投机解码。预编译包覆盖 Linux、macOS、Windows、Android 和 iOS，也列出 Docker、Debian、Homebrew 等分发渠道。没有另报一组速度成绩。</p>\n<p><strong>洞察与启发：</strong>下游依赖的是库接口。灵活和稳定要同时有，不兼容就该用主版本标明，而不是让调用方事后才发现。</p>\n<p><strong>相关工作：</strong>同期 Hugging Face 把开源权重的调用接到 OpenRouter。这边是本地推理库的接口按主版本标明不兼容，那边是云上入口换了路由。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "文章写这个项目已经做了三年半，很多下游应用依赖它的库接口。每多一个接入，就多一批人要靠这个 API。接口要灵活，也要稳定。",
+    "如何解决": "llama.cpp 和 ggml 的库一起发布 v1.0.0，分别是 libllama 和 libggml。以后 API 或 ABI 不兼容就升主版本。公开 C 接口的破坏性改动升主版本，向后兼容的功能和模型支持升次版本，不改接口的缺陷修复升补丁版本。",
+    "效果怎样": "文章写目前支持 150 多种架构变体，以及主流的投机解码。预编译包覆盖 Linux、macOS、Windows、Android 和 iOS，也列出 Docker、Debian、Homebrew 等分发渠道。没有另报一组速度成绩。",
+    "洞察与启发": "下游依赖的是库接口。灵活和稳定要同时有，不兼容就该用主版本标明，而不是让调用方事后才发现。",
+    "相关工作": "同期 Hugging Face 把开源权重的调用接到 OpenRouter。这边是本地推理库的接口按主版本标明不兼容，那边是云上入口换了路由。"
+  }
 }

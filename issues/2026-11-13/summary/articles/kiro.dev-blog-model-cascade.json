@@ -3,13 +3,14 @@
   "source": "cleaned/articles/kiro.dev-blog-model-cascade.json",
   "title": "How Kiro Auto uses model cascading to match the model to the work",
   "link": "https://kiro.dev/blog/model-cascade",
-  "sentence": "Kiro Auto 用模型级联：会话先在起始模型上跑，后台独立检查觉得需要时，再交给更强的模型。内部评测里约五分之四的任务没有交接。",
+  "lede": "Kiro Auto 用模型级联：会话先在起始模型上跑，后台独立检查觉得需要时，再交给更强的模型。内部评测里约五分之四的任务没有交接。",
   "category": "架构",
   "company": "Kiro",
-  "text": "#### &lt;架构&gt;&lt;Kiro&gt;[How Kiro Auto uses model cascading to match the model to the work](https://kiro.dev/blog/model-cascade)\n\nKiro Auto 用模型级联：会话先在起始模型上跑，后台独立检查觉得需要时，再交给更强的模型。内部评测里约五分之四的任务没有交接。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>全程用最强模型太贵，全程用轻模型又接不住难的那段。</p>\n<p><strong>如何解决：</strong>每个会话从起始模型开始。另有一次独立检查在后台看工作，需要时再把会话交给更强的模型。</p>\n<p><strong>效果怎样：</strong>在 DeepSWE v1.1 的内部评测里，级联接近单独使用更强模型的成绩，大约五分之四的任务没有发生交接。</p>\n</details>\n",
   "sections": {
     "解决什么问题": "全程用最强模型太贵，全程用轻模型又接不住难的那段。",
     "如何解决": "每个会话从起始模型开始。另有一次独立检查在后台看工作，需要时再把会话交给更强的模型。",
-    "效果怎样": "在 DeepSWE v1.1 的内部评测里，级联接近单独使用更强模型的成绩，大约五分之四的任务没有发生交接。"
+    "效果怎样": "在 DeepSWE v1.1 的内部评测里，级联接近单独使用更强模型的成绩，大约五分之四的任务没有发生交接。",
+    "洞察与启发": "省钱的关键在于大多数会话不必升级：约五分之四的任务没有交接，成绩仍接近单独使用更强模型。",
+    "相关工作": "本期正文没有列出相关工作。"
   }
 }

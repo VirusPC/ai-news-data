@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp.weixin.qq.com-s-__biz-Mzg4NTczNzg2OA-mid-2247512538-idx-1-sn-e647beb5607a2116.json",
   "title": "淘宝闪购本体平台：让人与 AI Agent 共用一份实时可信的业务知识",
   "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719",
-  "sentence": "&lt;实践&gt;&lt;阿里&gt;  (https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719) 用本体把指标口径收成一份，人和 Agent 看同一份 已确认的定义 。 完整总结 解决什么问题： ",
+  "lede": "用本体把指标口径收成一份，人和 Agent 看同一份<mark class=\"note-card-hl\">已确认的定义</mark>。",
   "category": "实践",
   "company": "阿里",
-  "text": "#### &lt;实践&gt;&lt;阿里&gt;[淘宝闪购本体平台：让人与 AI Agent 共用一份实时可信的业务知识](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512538&idx=1&sn=e647beb5607a2116473bddad4cb04719)\n\n用本体把指标口径收成一份，人和 Agent 看同一份<mark>已确认的定义</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>同一指标可以有多种算法。人能找人确认，Agent 只能猜。还要知道哪一版由谁确认、变更有没有留下。</p>\n<p><strong>如何解决：</strong>定义以一份库为事实来源，草稿要查重并走确认。查询限制在当前场景里，回答带上版本和确认人。取数仍留在业务系统。</p>\n<p><strong>效果怎样：</strong>已发布的版本，人和 Agent 读到同一份。文章写他们自己的回放里，口头叫法仍要回本体核对。这不代表通用查询表现。</p>\n<p><strong>洞察与启发：</strong>同一指标有多种算法时，人能找人确认，Agent 只能猜。口径若没有确认过的版本，回答再顺也不可用。</p>\n<p><strong>相关工作：</strong>下一篇用这份已确认的口径给写 SQL 提供输入。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "同一指标可以有多种算法。人能找人确认，Agent 只能猜。还要知道哪一版由谁确认、变更有没有留下。",
+    "如何解决": "定义以一份库为事实来源，草稿要查重并走确认。查询限制在当前场景里，回答带上版本和确认人。取数仍留在业务系统。",
+    "效果怎样": "已发布的版本，人和 Agent 读到同一份。文章写他们自己的回放里，口头叫法仍要回本体核对。这不代表通用查询表现。",
+    "洞察与启发": "同一指标有多种算法时，人能找人确认，Agent 只能猜。口径若没有确认过的版本，回答再顺也不可用。",
+    "相关工作": "下一篇用这份已确认的口径给写 SQL 提供输入。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-building-agents-when-to-fold-subagents-into-your-m.json",
   "title": "Building agents: When to fold subagents into your main agent loop",
   "link": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-  "sentence": "&lt;架构&gt;&lt;Anthropic&gt;  (https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) 子 Agent 少一些，把上下文和工具 逐步展开 ，质量和延迟可以一起好。 完整总结 解决什",
+  "lede": "子 Agent 少一些，把上下文和工具<mark class=\"note-card-hl\">逐步展开</mark>，质量和延迟可以一起好。",
   "category": "架构",
   "company": "Anthropic",
-  "text": "#### &lt;架构&gt;&lt;Anthropic&gt;[Building agents: When to fold subagents into your main agent loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)\n\n子 Agent 少一些，把上下文和工具<mark>逐步展开</mark>，质量和延迟可以一起好。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>主循环里堆太多子 Agent，成本和延迟上去，质量却不一定更好。</p>\n<p><strong>如何解决：</strong>用一份迁移流程判断哪些子 Agent 该折回主循环，并带一个可试的 demo。</p>\n<p><strong>效果怎样：</strong>文中的主张是质量和成本、延迟可以同时改善。没有统一的百分比。</p>\n<p><strong>洞察与启发：</strong>子 Agent 是结构选择，不是默认越多越好。</p>\n<p><strong>相关工作：</strong>同期的 Claude Code 评审文也在省人的注意力，而不是再加一层 Agent。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "主循环里堆太多子 Agent，成本和延迟上去，质量却不一定更好。",
+    "如何解决": "用一份迁移流程判断哪些子 Agent 该折回主循环，并带一个可试的 demo。",
+    "效果怎样": "文中的主张是质量和成本、延迟可以同时改善。没有统一的百分比。",
+    "洞察与启发": "子 Agent 是结构选择，不是默认越多越好。",
+    "相关工作": "同期的 Claude Code 评审文也在省人的注意力，而不是再加一层 Agent。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mzaxndewnjk5oq-3d-3d-idx-1-mid-2650547154-sn-0d-9f6dc72b00.json",
   "title": "基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践",
   "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547154&idx=1&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
-  "sentence": "淘宝直播互动团队用 LLM Wiki、OKF 与 Git 给编码 Agent 做可版本管理的知识库。",
+  "lede": "淘宝直播互动团队把 <mark class=\"note-card-hl\">LLM Wiki</mark>、OKF 和 Git 拼成一套给编码 Agent 用的知识库，用来承接团队里原本只存在于人口头的业务知识。",
   "category": "实践",
   "company": "阿里",
-  "text": "#### [基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650547154&idx=1&sn=0de514e7cac1b4e3fe62a89b2a073c2a)\n\n淘宝直播互动团队把 <mark class=\"note-card-hl\">LLM Wiki</mark>、OKF 和 Git 拼成一套给编码 Agent 用的知识库，用来承接团队里原本只存在于人口头的业务知识。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 进入业务仓库后，最缺的往往不是代码本身，而是分散在文档、群消息和老员工脑子里的业务约定；这些知识难以检索，也难以随仓库一起演进。</p>\n<p><strong>如何解决：</strong>他们用 LLM Wiki 来组织和生成面向 Agent 的知识页面，用 OKF 约定知识对象的结构，再用 Git 做版本管理和评审，让知识更新走和代码类似的变更流程，而不是另开一份容易过期的文档站。</p>\n<p><strong>效果怎样：</strong>这是一篇落地实践，重点在方法和系统形态，而不是给出统一的效率百分比。能确认的是：知识被写成 Agent 可读取、可评审、可回滚的仓库内容，从而进入日常 AI Coding 流程。</p>\n<p><strong>洞察与启发：</strong>给 Agent 用的知识库如果不能走 Git，很快就会和代码分叉。把知识当成要评审的变更，比只做一次“文档向量化”更接近工程习惯。</p>\n<p><strong>相关工作：</strong>同一团队稍后还写了端到端业务需求专家 Agent，把知识库之后的需求澄清到结项也串起来；两者是同一条组织知识链路上的前后段。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "编码 Agent 进入业务仓库后，最缺的往往不是代码本身，而是分散在文档、群消息和老员工脑子里的业务约定；这些知识难以检索，也难以随仓库一起演进。",
+    "如何解决": "他们用 LLM Wiki 来组织和生成面向 Agent 的知识页面，用 OKF 约定知识对象的结构，再用 Git 做版本管理和评审，让知识更新走和代码类似的变更流程，而不是另开一份容易过期的文档站。",
+    "效果怎样": "这是一篇落地实践，重点在方法和系统形态，而不是给出统一的效率百分比。能确认的是：知识被写成 Agent 可读取、可评审、可回滚的仓库内容，从而进入日常 AI Coding 流程。",
+    "洞察与启发": "给 Agent 用的知识库如果不能走 Git，很快就会和代码分叉。把知识当成要评审的变更，比只做一次“文档向量化”更接近工程习惯。",
+    "相关工作": "同一团队稍后还写了端到端业务需求专家 Agent，把知识库之后的需求澄清到结项也串起来；两者是同一条组织知识链路上的前后段。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-how-we-optimized-browser-use-for-deep-agents.json",
   "title": "How We Optimized Browser Use for Deep Agents",
   "link": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
-  "sentence": "LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 <mark>Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。 订阅源里只有这些。",
+  "lede": "LangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 <mark class=\"note-card-hl\">Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。 订阅源里只有这些。",
   "category": "实践",
   "company": "LangChain",
-  "text": "#### &lt;实践&gt;&lt;LangChain&gt;[How We Optimized Browser Use for Deep Agents](https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents)\n\nLangChain 比较了七套浏览器工具，给 Deep Agents 选了 Browserbase 的 <mark>Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "Deep Agents 需要一套合适的浏览器工具。",
+    "如何解决": "先比较七套浏览器工具，选定 Browserbase 的 <mark class=\"note-card-hl\">Stagehand</mark>，再用 LangSmith 的轨迹和评测去调。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "工具选型靠对比加实测：七套里选出 Stagehand，再用轨迹和评测持续调。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/x.com-DeepSeekHarness-status-2117256196227019194.json",
   "title": "Your Harness. You Define It. Meet Creator Mode in DeepSeek Harness. Turn ideas i…",
   "link": "https://x.com/DeepSeekHarness/status/2117256196227019194",
-  "sentence": "补录。DeepSeek Harness 的 <mark>Creator Mode</mark> 让人把自己的想法做成可复用的插件。 这是补录，日期仍是原发日。 订阅源里只有这些。",
+  "lede": "补录。DeepSeek Harness 的 <mark class=\"note-card-hl\">Creator Mode</mark> 让人把自己的想法做成可复用的插件。 这是补录，日期仍是原发日。 订阅源里只有这些。",
   "category": "产品",
   "company": "DeepSeek",
-  "text": "#### &lt;产品&gt;&lt;DeepSeek&gt;[Your Harness. You Define It. Meet Creator Mode in DeepSeek Harness. Turn ideas i…](https://x.com/DeepSeekHarness/status/2117256196227019194)\n\n补录。DeepSeek Harness 的 <mark>Creator Mode</mark> 让人把自己的想法做成可复用的插件。 这是补录，日期仍是原发日。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "人有想法，但缺一条把想法变成可复用插件的路。",
+    "如何解决": "本期介绍了 DeepSeek Harness 的 <mark class=\"note-card-hl\">Creator Mode</mark>，用来把自己的想法做成可复用的插件。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "插件不再只靠官方：Creator Mode 把造插件的能力交给用户自己。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

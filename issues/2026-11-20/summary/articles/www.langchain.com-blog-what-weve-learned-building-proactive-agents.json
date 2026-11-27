@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-what-weve-learned-building-proactive-agents.json",
   "title": "What We've Learned Building Proactive Agents",
   "link": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
-  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/what-weve-learned-building-proactive-agents) 主动 Agent 在后台朝目标推进，记忆和复核界面决定它 什么时候来打扰你 。 完整总结 解决什么问题： Agent 已经能像新同事一样从清清楚楚的",
+  "lede": "主动 Agent 在后台朝目标推进，记忆和复核界面决定它<mark class=\"note-card-hl\">什么时候来打扰你</mark>。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[What We've Learned Building Proactive Agents](https://www.langchain.com/blog/what-weve-learned-building-proactive-agents)\n\n主动 Agent 在后台朝目标推进，记忆和复核界面决定它<mark>什么时候来打扰你</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 已经能像新同事一样从清清楚楚的小任务走到开放目标，但每次来问都占掉你的注意力。</p>\n<p><strong>如何解决：</strong>触发可以是外部事件、人定的日程，或 Agent 自己定的跟进。LangChain 内部用销售 Agent 和工程 Agent 试。记忆来自过去的先例、当下的修改和事后的结果。复核要快，并且出现在人已经在用的 Slack 里。</p>\n<p><strong>效果怎样：</strong>文章认为记忆加上少而准的打扰，能让它越来越少犯已改过的错。没有单独的总成绩。</p>\n<p><strong>洞察与启发：</strong>主动来问会占掉注意力。记什么、什么已过期，比再多发一条提醒更能决定它会不会重复已改过的错。</p>\n<p><strong>相关工作：</strong>Anthropic 的常驻 Agent 把收件箱和发件箱拆开，这篇讲的是发件箱里该放什么。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "Agent 已经能像新同事一样从清清楚楚的小任务走到开放目标，但每次来问都占掉你的注意力。",
+    "如何解决": "触发可以是外部事件、人定的日程，或 Agent 自己定的跟进。LangChain 内部用销售 Agent 和工程 Agent 试。记忆来自过去的先例、当下的修改和事后的结果。复核要快，并且出现在人已经在用的 Slack 里。",
+    "效果怎样": "文章认为记忆加上少而准的打扰，能让它越来越少犯已改过的错。没有单独的总成绩。",
+    "洞察与启发": "主动来问会占掉注意力。记什么、什么已过期，比再多发一条提醒更能决定它会不会重复已改过的错。",
+    "相关工作": "Anthropic 的常驻 Agent 把收件箱和发件箱拆开，这篇讲的是发件箱里该放什么。"
+  }
 }

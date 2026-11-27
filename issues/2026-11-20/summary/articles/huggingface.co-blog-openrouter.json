@@ -3,8 +3,14 @@
   "source": "cleaned/articles/huggingface.co-blog-openrouter.json",
   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
   "link": "https://huggingface.co/blog/openrouter",
-  "sentence": "&lt;产品&gt;&lt;Hugging Face&gt;  (https://huggingface.co/blog/openrouter) Hub 上的开源权重模型改由 OpenRouter 选提供商 ，仍用 Hugging Face 的 token 调用。 完整总结 解决什么问题： 以前一次请求只选一个提供商，失败就把错误返回来。 如何解决： 语言请",
+  "lede": "Hub 上的开源权重模型改由 <mark class=\"note-card-hl\">OpenRouter 选提供商</mark>，仍用 Hugging Face 的 token 调用。",
   "category": "产品",
   "company": "Hugging Face",
-  "text": "#### &lt;产品&gt;&lt;Hugging Face&gt;[Hugging Face and OpenRouter join forces to make open-weight models easy to run](https://huggingface.co/blog/openrouter)\n\nHub 上的开源权重模型改由 <mark>OpenRouter 选提供商</mark>，仍用 Hugging Face 的 token 调用。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>以前一次请求只选一个提供商，失败就把错误返回来。</p>\n<p><strong>如何解决：</strong>语言请求改走 OpenRouter，按当时的价格、速度和可靠性挑选，失败就在同一次调用里换下一家。对话可以留在已有缓存的那一家。模型名加后缀仍可指定最快、最便宜或某一家。图像、视频、音频不走这条路由。账单仍是提供商的价格，Hugging Face 不加价。不能再拿自己的提供商密钥走这些语言模型。</p>\n<p><strong>效果怎样：</strong>文章引用了 OpenRouter 上开源权重占比和路由改版后的错误、延迟变化，数字以原文为准，这里不转述。</p>\n<p><strong>洞察与启发：</strong>一次请求只绑一家提供商，失败就把错误直接返回来。换下一家若能留在同一次调用里，调用方就不必自己重试。</p>\n<p><strong>相关工作：</strong>这和本期 OpenRouter 用量图是同一条路由，只是 Hugging Face 把调用入口接了过去。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "以前一次请求只选一个提供商，失败就把错误返回来。",
+    "如何解决": "语言请求改走 OpenRouter，按当时的价格、速度和可靠性挑选，失败就在同一次调用里换下一家。对话可以留在已有缓存的那一家。模型名加后缀仍可指定最快、最便宜或某一家。图像、视频、音频不走这条路由。账单仍是提供商的价格，Hugging Face 不加价。不能再拿自己的提供商密钥走这些语言模型。",
+    "效果怎样": "文章引用了 OpenRouter 上开源权重占比和路由改版后的错误、延迟变化，数字以原文为准，这里不转述。",
+    "洞察与启发": "一次请求只绑一家提供商，失败就把错误直接返回来。换下一家若能留在同一次调用里，调用方就不必自己重试。",
+    "相关工作": "这和本期 OpenRouter 用量图是同一条路由，只是 Hugging Face 把调用入口接了过去。"
+  }
 }

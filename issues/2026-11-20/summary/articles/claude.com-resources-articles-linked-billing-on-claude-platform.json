@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-linked-billing-on-claude-platform.json",
   "title": "Linked billing on the Claude Platform",
   "link": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
-  "sentence": "&lt;产品&gt;&lt;Anthropic&gt;  (https://claude.com/resources/articles/linked-billing-on-claude-platform) Claude Platform 的 关联计费 。 订阅源里只有这些，所以没有写完整总结。",
+  "lede": "Claude Platform 的<mark class=\"note-card-hl\">关联计费</mark>。 订阅源里只有这些，所以没有写完整总结。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Linked billing on the Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)\n\nClaude Platform 的<mark>关联计费</mark>。\n\n订阅源里只有这些，所以没有写完整总结。\n\n"
+  "sections": {
+    "解决什么问题": "订阅源里只有一句：Claude Platform 的关联计费。",
+    "如何解决": "订阅源只说了 Claude Platform 的<mark class=\"note-card-hl\">关联计费</mark>，没有展开做法。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "能确认的只有名称：Claude Platform 的关联计费。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

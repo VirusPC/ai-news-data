@@ -3,8 +3,14 @@
   "source": "cleaned/articles/lucumr.pocoo.org-2026-10-29-qwen3-custom-voices.json",
   "title": "Custom voices with Qwen3-TTS",
   "link": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices",
-  "sentence": "&lt;实践&gt;&lt;lucumr&gt;  (https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/) 用 Qwen3-TTS 的声纹向量做旁白，避开每家都一样的默认音色。 完整总结 解决什么问题： 做游戏旁白时，不想用所有人都在用的那套合成声。 如何解决： 选用带 voice embeddi",
+  "lede": "用 Qwen3-TTS 的声纹向量做旁白，避开每家都一样的默认音色。",
   "category": "实践",
   "company": "lucumr",
-  "text": "#### &lt;实践&gt;&lt;lucumr&gt;[Custom voices with Qwen3-TTS](https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/)\n\n用 Qwen3-TTS 的声纹向量做旁白，避开每家都一样的默认音色。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>做游戏旁白时，不想用所有人都在用的那套合成声。</p>\n<p><strong>如何解决：</strong>选用带 voice embedding 的 Qwen3-TTS，并记下实际能调出的用法。</p>\n<p><strong>效果怎样：</strong>这是一篇用法笔记，没有评测表。</p>\n<p><strong>相关工作：</strong>词云里的 Qwen3-TTS 就是这篇在讲的模型，不是新的权重发布。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "做游戏旁白时，不想用所有人都在用的那套合成声。",
+    "如何解决": "选用带 voice embedding 的 Qwen3-TTS，并记下实际能调出的用法。",
+    "效果怎样": "这是一篇用法笔记，没有评测表。",
+    "洞察与启发": "音色也是产品感的一部分：用 voice embedding 调出专属旁白，就避开了人人都一样的默认合成声。",
+    "相关工作": "词云里的 Qwen3-TTS 就是这篇在讲的模型，不是新的权重发布。"
+  }
 }

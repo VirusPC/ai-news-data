@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.anthropic.com-claude-fable-and-mythos-5-2.json",
   "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-  "sentence": "Claude Fable 5.2 和 Claude Mythos 5.2 面向艰难的技术工作，把编程、金融和科学的标尺往前推了一截。 订阅源里只有这些。",
+  "lede": "Claude Fable 5.2 和 Claude Mythos 5.2 面向艰难的技术工作，把编程、金融和科学的标尺往前推了一截。 订阅源里只有这些。",
   "category": "模型",
   "company": "Anthropic",
-  "text": "#### &lt;模型&gt;&lt;Anthropic&gt;[Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)\n\nClaude Fable 5.2 和 Claude Mythos 5.2 面向艰难的技术工作，把编程、金融和科学的标尺往前推了一截。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "艰难的技术工作需要更强的模型，编程、金融和科学的标尺要往前推。",
+    "如何解决": "Claude Fable 5.2 和 Claude Mythos 5.2 面向这些工作发布。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "一次发布两个模型，标尺同时推向编程、金融和科学。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

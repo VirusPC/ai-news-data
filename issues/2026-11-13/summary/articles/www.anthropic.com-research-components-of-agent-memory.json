@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.anthropic.com-research-components-of-agent-memory.json",
   "title": "The components of agent memory",
   "link": "https://www.anthropic.com/research/components-of-agent-memory",
-  "sentence": "Claude 要在还不知道下一步是什么的时候，先决定什么值得记住；<mark>dreaming</mark> 用来整理记忆并改错。 订阅源里只有这些。",
+  "lede": "Claude 要在还不知道下一步是什么的时候，先决定什么值得记住；<mark class=\"note-card-hl\">dreaming</mark> 用来整理记忆并改错。 订阅源里只有这些。",
   "category": "架构",
   "company": "Anthropic",
-  "text": "#### &lt;架构&gt;&lt;Anthropic&gt;[The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory)\n\nClaude 要在还不知道下一步是什么的时候，先决定什么值得记住；<mark>dreaming</mark> 用来整理记忆并改错。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "在还不知道下一步是什么的时候，就要先决定什么值得记住。",
+    "如何解决": "先由 Claude 决定什么值得记住，再用 <mark class=\"note-card-hl\">dreaming</mark> 整理记忆并改错。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "记忆分两层：写入前先做取舍，写入后靠 dreaming 整理和改错。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

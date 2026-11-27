@@ -3,8 +3,14 @@
   "source": "cleaned/articles/lovable.dev-blog-introducing-drafts.json",
   "title": "Lovable Drafts",
   "link": "https://lovable.dev/blog/introducing-drafts",
-  "sentence": "&lt;产品&gt;&lt;Lovable&gt;  (https://lovable.dev/blog/introducing-drafts) 可以复制整个应用并行试想法， 线上版本保持不动 。 完整总结 解决什么问题： 想试另一种做法时，会碰到正在线上跑的应用。 如何解决： 新建草稿会复制设计，需要时连同数据库。每个草稿有自己的对话和预览。接受以后再发布",
+  "lede": "可以复制整个应用并行试想法，<mark class=\"note-card-hl\">线上版本保持不动</mark>。",
   "category": "产品",
   "company": "Lovable",
-  "text": "#### &lt;产品&gt;&lt;Lovable&gt;[Lovable Drafts](https://lovable.dev/blog/introducing-drafts)\n\n可以复制整个应用并行试想法，<mark>线上版本保持不动</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>想试另一种做法时，会碰到正在线上跑的应用。</p>\n<p><strong>如何解决：</strong>新建草稿会复制设计，需要时连同数据库。每个草稿有自己的对话和预览。接受以后再发布才上线。试的数据留在草稿里，接受或删除时清掉。接受后、发布前还可以从历史撤回。</p>\n<p><strong>效果怎样：</strong>文章用销售工具和多国市场的例子说明可以并排试，没有报一组使用量。</p>\n<p><strong>洞察与启发：</strong>想试另一种做法时，会碰到正在线上跑的应用。草稿把试的数据和线上分开，接受以后还要再发布才上线。</p>\n<p><strong>相关工作：</strong>这和 Devin Apps 一样，都是让人在不影响正式环境的副本里看 Agent 做出的东西。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "想试另一种做法时，会碰到正在线上跑的应用。",
+    "如何解决": "新建草稿会复制设计，需要时连同数据库。每个草稿有自己的对话和预览。接受以后再发布才上线。试的数据留在草稿里，接受或删除时清掉。接受后、发布前还可以从历史撤回。",
+    "效果怎样": "文章用销售工具和多国市场的例子说明可以并排试，没有报一组使用量。",
+    "洞察与启发": "想试另一种做法时，会碰到正在线上跑的应用。草稿把试的数据和线上分开，接受以后还要再发布才上线。",
+    "相关工作": "这和 Devin Apps 一样，都是让人在不影响正式环境的副本里看 Agent 做出的东西。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/langchain-com-blog-the-agent-lake.json",
   "title": "The Agent Lake",
   "link": "https://www.langchain.com/blog/the-agent-lake",
-  "sentence": "LangChain 提出 Agent Lake：用专为轨迹设计的数据库和智能计算，把 Agent 轨迹变成持续改进的原料。",
+  "lede": "LangChain 把 Agent 的轨迹看成系统记录，并提出 <mark class=\"note-card-hl\">Agent Lake</mark>：既要有适合轨迹的数据库，也要有能查询这些非结构化推理的智能计算。",
   "category": "产品",
   "company": "LangChain",
-  "text": "#### [The Agent Lake](https://www.langchain.com/blog/the-agent-lake)\n\nLangChain 把 Agent 的轨迹看成系统记录，并提出 <mark class=\"note-card-hl\">Agent Lake</mark>：既要有适合轨迹的数据库，也要有能查询这些非结构化推理的智能计算。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent 轨迹里有用户意图、行动路径和最终结果，手工点开调试在轨迹变长、数量变多后就无法扩展，也就没法用这些记录持续改 Agent。</p>\n<p><strong>如何解决：</strong>他们把问题拆成两块：一块是为轨迹优化的数据库，已经推出的 SmithDB 承担这一层；另一块是针对非结构化推理轨迹的“智能计算”，用来查询和加工这些记录，而不只是把它们当日志展示。</p>\n<p><strong>效果怎样：</strong>文章把 Agent Lake 定位为连续改进的基础设施，而不是一次性发布的榜单成绩。能确认的是 SmithDB 已上线，智能计算仍在加强，目标是让生产中的轨迹规模化地回流到改进流程。</p>\n<p><strong>洞察与启发：</strong>当 Agent 开始在生产里大规模跑起来，轨迹就不再只是调试截图，而应变成和数据湖类似的系统记录：先存得下，再算得动。</p>\n<p><strong>相关工作：</strong>同一周 LangSmith Tool Gateway 补的是工具治理；Agent Lake 补的是事后如何用轨迹改进 Agent，两者分别对应运行时和控制面。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "Agent 轨迹里有用户意图、行动路径和最终结果，手工点开调试在轨迹变长、数量变多后就无法扩展，也就没法用这些记录持续改 Agent。",
+    "如何解决": "他们把问题拆成两块：一块是为轨迹优化的数据库，已经推出的 SmithDB 承担这一层；另一块是针对非结构化推理轨迹的“智能计算”，用来查询和加工这些记录，而不只是把它们当日志展示。",
+    "效果怎样": "文章把 Agent Lake 定位为连续改进的基础设施，而不是一次性发布的榜单成绩。能确认的是 SmithDB 已上线，智能计算仍在加强，目标是让生产中的轨迹规模化地回流到改进流程。",
+    "洞察与启发": "当 Agent 开始在生产里大规模跑起来，轨迹就不再只是调试截图，而应变成和数据湖类似的系统记录：先存得下，再算得动。",
+    "相关工作": "同一周 LangSmith Tool Gateway 补的是工具治理；Agent Lake 补的是事后如何用轨迹改进 Agent，两者分别对应运行时和控制面。"
+  }
 }

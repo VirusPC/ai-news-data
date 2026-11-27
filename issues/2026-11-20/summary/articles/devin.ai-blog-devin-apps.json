@@ -3,8 +3,14 @@
   "source": "cleaned/articles/devin.ai-blog-devin-apps.json",
   "title": "Introducing Devin Apps",
   "link": "https://devin.ai/blog/devin-apps",
-  "sentence": "&lt;产品&gt;&lt;Cognition&gt;  (https://devin.ai/blog/devin-apps) Devin 在自己的 云电脑 上托管私有网页应用，团队用链接打开。 完整总结 解决什么问题： 内部小工具往往要单独找地方托管，还接不上已有的代码和集成。 如何解决： 你描述要什么，Devin 在自己的机器上建好并给一个稳定链接。应用",
+  "lede": "Devin 在自己的<mark class=\"note-card-hl\">云电脑</mark>上托管私有网页应用，团队用链接打开。",
   "category": "产品",
   "company": "Cognition",
-  "text": "#### &lt;产品&gt;&lt;Cognition&gt;[Introducing Devin Apps](https://devin.ai/blog/devin-apps)\n\nDevin 在自己的<mark>云电脑</mark>上托管私有网页应用，团队用链接打开。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>内部小工具往往要单独找地方托管，还接不上已有的代码和集成。</p>\n<p><strong>如何解决：</strong>你描述要什么，Devin 在自己的机器上建好并给一个稳定链接。应用能用已有的 MCP、集成和代码库。机器空闲就休眠，有人打开再醒。更新不换网址，新版本起不来就继续用上一版。</p>\n<p><strong>效果怎样：</strong>适合内部工具、仪表盘和预发副本，不适合高流量的正式服务。</p>\n<p><strong>洞察与启发：</strong>内部小工具难的往往不是再做一遍，而是单独找地方托管，还接不上已有的代码。链接稳定、新版本起不来就留上一版，试错才不会碰到线上。</p>\n<p><strong>相关工作：</strong>它把 Devin Bot 守住的结果做成团队能打开的页面，而不是只留在会话里。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "内部小工具往往要单独找地方托管，还接不上已有的代码和集成。",
+    "如何解决": "你描述要什么，Devin 在自己的机器上建好并给一个稳定链接。应用能用已有的 MCP、集成和代码库。机器空闲就休眠，有人打开再醒。更新不换网址，新版本起不来就继续用上一版。",
+    "效果怎样": "适合内部工具、仪表盘和预发副本，不适合高流量的正式服务。",
+    "洞察与启发": "内部小工具难的往往不是再做一遍，而是单独找地方托管，还接不上已有的代码。链接稳定、新版本起不来就留上一版，试错才不会碰到线上。",
+    "相关工作": "它把 Devin Bot 守住的结果做成团队能打开的页面，而不是只留在会话里。"
+  }
 }

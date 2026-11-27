@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.dev-blog-safely-scaling-multi-agent-teams-with-fable-5-2.json",
   "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
   "link": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-  "sentence": "一支约 <mark>1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。 订阅源里只有这些。",
+  "lede": "一支约 <mark class=\"note-card-hl\">1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。 订阅源里只有这些。",
   "category": "架构",
   "company": "Anthropic",
-  "text": "#### &lt;架构&gt;&lt;Anthropic&gt;[Safely scaling multi-agent teams with Claude Fable 5.2](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)\n\n一支约 <mark>1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制，复现了费马大定理的形式化证明。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "要用一支大规模的 Agent 队伍复现费马大定理的形式化证明。",
+    "如何解决": "约 <mark class=\"note-card-hl\">1000</mark> 个 Agent 的队伍，用早期 Claude Fable 5.2、通用工具、共享数据库和分层安全控制来复现。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "约 1000 个 Agent 跑在通用工具和共享数据库上，靠分层安全控制约束，拿下的是形式化证明这种硬目标。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

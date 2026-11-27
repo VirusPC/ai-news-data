@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/ruvnet/ruflo",
   "source": "cleaned/projects/github.com-ruvnet-ruflo.json",
+  "title": "ruvnet/ruflo",
+  "link": "https://github.com/ruvnet/ruflo",
+  "lede": "协调多 Agent 工作流的 harness。简介称它是最早的那一版。 来源里只有这些。",
+  "category": "开源",
+  "company": "ruvnet",
   "purpose": "ruvnet/ruflo",
   "change": "见本期正文。",
-  "text": "#### [ruvnet/ruflo](https://github.com/ruvnet/ruflo)\n\n协调多 Agent 工作流的 harness。简介称它是最早的那一版。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "多 Agent 工作流需要一个 harness 来协调。",
+    "如何解决": "ruflo 做协调多 Agent 工作流的 harness，简介称它是最早的那一版。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "简介把 ruflo 称作协调多 Agent 工作流最早的那一版 harness。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/huggingface-co-blog-inkling2mini.json",
   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
   "link": "https://huggingface.co/blog/inkling2mini",
-  "sentence": "Thinking Machines Lab 发布面向本地部署的 Inkling 2 Mini，中间层循环三轮，上下文 100 万 token。",
+  "lede": "Thinking Machines Lab 在 Hugging Face 介绍了面向本地部署的 <mark class=\"note-card-hl\">Inkling 2 Mini</mark>：约 26B 物理参数、每 token 3B 激活的多模态 MoE。",
   "category": "模型",
   "company": "Hugging Face",
-  "text": "#### [Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup](https://huggingface.co/blog/inkling2mini)\n\nThinking Machines Lab 在 Hugging Face 介绍了面向本地部署的 <mark class=\"note-card-hl\">Inkling 2 Mini</mark>：约 26B 物理参数、每 token 3B 激活的多模态 MoE。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队想在本地跑多模态模型，又不希望把 Inkling 2 Small 那样的规模直接搬上个人或小规模机房。</p>\n<p><strong>如何解决：</strong>Inkling 2 Mini 用更小的 MoE 体量，中间层循环三轮，并提供 100 万 token 上下文。官方同时给出 Transformers、llama.cpp、MLX 支持，发布当日 SGLang 也可用于机房部署。</p>\n<p><strong>效果怎样：</strong>官方 vibe test 认为它至少可比 Qwen 3.8 27B，并称在 Artificial Analysis Intelligence Index v5 的同档对比中处于前列。本期免费接口里，该模型智力指数为 <mark class=\"note-card-hl\">20.1</mark>，在 157 个有分数的模型中排第 111。公告未给出 API 定价，OpenRouter 官方标准档也没有可用延迟。</p>\n<p><strong>洞察与启发：</strong>本地模型把“循环层 + 小激活 MoE”当作降低部署门槛的手段，和云端旗舰用 Loop 换深度，是同一类想法的两种落点。</p>\n<p><strong>相关工作：</strong>同期 GLM-5.4 把 Loop Transformer 用在旗舰编码模型上；两者都在讲循环深度，但服务对象分别是本地部署和云端产品。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "很多团队想在本地跑多模态模型，又不希望把 Inkling 2 Small 那样的规模直接搬上个人或小规模机房。",
+    "如何解决": "Inkling 2 Mini 用更小的 MoE 体量，中间层循环三轮，并提供 100 万 token 上下文。官方同时给出 Transformers、llama.cpp、MLX 支持，发布当日 SGLang 也可用于机房部署。",
+    "效果怎样": "官方 vibe test 认为它至少可比 Qwen 3.8 27B，并称在 Artificial Analysis Intelligence Index v5 的同档对比中处于前列。本期免费接口里，该模型智力指数为 <mark class=\"note-card-hl\">20.1</mark>，在 157 个有分数的模型中排第 111。公告未给出 API 定价，OpenRouter 官方标准档也没有可用延迟。",
+    "洞察与启发": "本地模型把“循环层 + 小激活 MoE”当作降低部署门槛的手段，和云端旗舰用 Loop 换深度，是同一类想法的两种落点。",
+    "相关工作": "同期 GLM-5.4 把 Loop Transformer 用在旗舰编码模型上；两者都在讲循环深度，但服务对象分别是本地部署和云端产品。"
+  }
 }

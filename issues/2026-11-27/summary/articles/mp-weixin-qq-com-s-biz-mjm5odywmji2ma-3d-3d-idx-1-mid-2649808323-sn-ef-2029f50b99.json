@@ -3,8 +3,14 @@
   "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mjm5odywmji2ma-3d-3d-idx-1-mid-2649808323-sn-ef-2029f50b99.json",
   "title": "CodeBuddy 三位一体 AI 全栈开发落地实践",
   "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808323&idx=1&sn=efa282d3273912ecf90ce04af25cfe6f",
-  "sentence": "腾讯用 CodeBuddy 把需求grilling、ADR 和曳光弹式全栈开发收成一套可落地的技能组合。",
+  "lede": "腾讯分享 CodeBuddy 的全栈落地：先用 grilling 把需求问清楚，再用 ADR 留下判断，然后用一条最薄的真实路径把前后端贯穿起来。",
   "category": "实践",
   "company": "腾讯",
-  "text": "#### [CodeBuddy 三位一体 AI 全栈开发落地实践](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808323&idx=1&sn=efa282d3273912ecf90ce04af25cfe6f)\n\n腾讯分享 CodeBuddy 的全栈落地：先用 grilling 把需求问清楚，再用 ADR 留下判断，然后用一条最薄的真实路径把前后端贯穿起来。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>把含糊需求直接交给编码 Agent，容易出现零散问答、过早陷入没有依据的细节，以及前后端各自做完却要等到联调才发现对不上。</p>\n<p><strong>如何解决：</strong>requirements-grilling Skill 把澄清写成约定：事实查代码，需要取舍的问人，说不清的用样例或原型比较，缺少领域依据的明确记下，并保存决定、来源和下游影响。随后用 domain-decisions Skill 把术语写入 CONTEXT.md，把重要选择写入 ADR。behavior-spec Skill 再把已确认要求整理成带验收编号的行为规格。第一条开发任务采用 Tracer Bullet：先贯通“配置任务到页面查看”这条最薄的完整路径，再沿它扩展。</p>\n<p><strong>效果怎样：</strong>这是方法与案例文章，重点展示技能如何串起来，而不是给出工期缩短的统一百分比。能确认的是他们已经用这套方法处理需要在请求前挂载故障拦截的平台能力，并为此留下了可复查的 ADR。</p>\n<p><strong>洞察与启发：</strong>全栈 Agent 要能落地，先要会提问和留判断，再追求一次把前后端打通。没有规格和 ADR，联调失败时很难回到当初为什么这么做。</p>\n<p><strong>相关工作：</strong>淘宝的需求专家 Agent 也把澄清、方案和结项沉淀写成门禁；两边都把“先问清楚再实现”做成可重复的技能流。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "把含糊需求直接交给编码 Agent，容易出现零散问答、过早陷入没有依据的细节，以及前后端各自做完却要等到联调才发现对不上。",
+    "如何解决": "requirements-grilling Skill 把澄清写成约定：事实查代码，需要取舍的问人，说不清的用样例或原型比较，缺少领域依据的明确记下，并保存决定、来源和下游影响。随后用 domain-decisions Skill 把术语写入 CONTEXT.md，把重要选择写入 ADR。behavior-spec Skill 再把已确认要求整理成带验收编号的行为规格。第一条开发任务采用 Tracer Bullet：先贯通“配置任务到页面查看”这条最薄的完整路径，再沿它扩展。",
+    "效果怎样": "这是方法与案例文章，重点展示技能如何串起来，而不是给出工期缩短的统一百分比。能确认的是他们已经用这套方法处理需要在请求前挂载故障拦截的平台能力，并为此留下了可复查的 ADR。",
+    "洞察与启发": "全栈 Agent 要能落地，先要会提问和留判断，再追求一次把前后端打通。没有规格和 ADR，联调失败时很难回到当初为什么这么做。",
+    "相关工作": "淘宝的需求专家 Agent 也把澄清、方案和结项沉淀写成门禁；两边都把“先问清楚再实现”做成可重复的技能流。"
+  }
 }

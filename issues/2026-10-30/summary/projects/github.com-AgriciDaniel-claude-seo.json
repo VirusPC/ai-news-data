@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/AgriciDaniel/claude-seo",
   "source": "cleaned/projects/github.com-AgriciDaniel-claude-seo.json",
+  "title": "AgriciDaniel/claude-seo",
+  "link": "https://github.com/AgriciDaniel/claude-seo",
+  "lede": "给 Claude Code 用的 SEO 技能。简介写有 26 个子技能和 19 个子 Agent。 来源里只有这些。",
+  "category": "开源",
+  "company": "AgriciDaniel",
   "purpose": "AgriciDaniel/claude-seo",
   "change": "见本期正文。",
-  "text": "#### [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)\n\n给 Claude Code 用的 SEO 技能。简介写有 26 个子技能和 19 个子 Agent。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Claude Code 要做 SEO 相关的活，需要对应的技能。",
+    "如何解决": "这个 skill 给 Claude Code 提供 SEO 能力，简介写有 26 个子技能和 19 个子 Agent。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "SEO 场景被拆成 26 个子技能和 19 个子 Agent，颗粒度很细。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

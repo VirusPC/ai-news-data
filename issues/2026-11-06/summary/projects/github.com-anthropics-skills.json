@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/anthropics/skills",
   "source": "cleaned/projects/github.com-anthropics-skills.json",
+  "title": "anthropics/skills",
+  "link": "https://github.com/anthropics/skills",
+  "lede": "Agent Skills 的公开仓库。 来源里只有这些。",
+  "category": "开源",
+  "company": "anthropics",
   "purpose": "anthropics/skills",
   "change": "见本期正文。",
-  "text": "#### [anthropics/skills](https://github.com/anthropics/skills)\n\nAgent Skills 的公开仓库。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Agent Skills 需要一份公开仓库来存放。",
+    "如何解决": "anthropics/skills 这份公开仓库承载 Agent Skills。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "Agent Skills 以一个公开仓库的形式存在，人人可见。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

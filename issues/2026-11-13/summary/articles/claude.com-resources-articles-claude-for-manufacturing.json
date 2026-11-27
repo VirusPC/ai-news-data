@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.com-resources-articles-claude-for-manufacturing.json",
   "title": "Introducing Claude for Manufacturing",
   "link": "https://claude.com/resources/articles/claude-for-manufacturing",
-  "sentence": "Claude for Manufacturing 用 <mark>17</mark> 个 skill 和 4 个连接器，帮制造企业从现有系统里起草报价、质量报告和供应商请求。 订阅源里只有这些。",
+  "lede": "Claude for Manufacturing 用 <mark class=\"note-card-hl\">17</mark> 个 skill 和 4 个连接器，帮制造企业从现有系统里起草报价、质量报告和供应商请求。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Introducing Claude for Manufacturing](https://claude.com/resources/articles/claude-for-manufacturing)\n\nClaude for Manufacturing 用 <mark>17</mark> 个 skill 和 4 个连接器，帮制造企业从现有系统里起草报价、质量报告和供应商请求。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "制造企业要从现有系统里起草报价、质量报告和供应商请求。",
+    "如何解决": "Claude for Manufacturing 用 <mark class=\"note-card-hl\">17</mark> 个 skill 和 4 个连接器来做这件事。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "制造场景被拆成 17 个 skill 和 4 个连接器，对接的是企业已有系统。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

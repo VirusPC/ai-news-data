@@ -1,7 +1,18 @@
 {
   "id": "https://github.com/Nutlope/hallmark",
   "source": "cleaned/projects/github.com-Nutlope-hallmark.json",
+  "title": "Nutlope/hallmark",
+  "link": "https://github.com/Nutlope/hallmark",
+  "lede": "给 Claude Code、Cursor 和 Codex 用的反 AI 味设计技能。 来源里只有这些。",
+  "category": "开源",
+  "company": "Nutlope",
   "purpose": "Nutlope/hallmark",
   "change": "见本期正文。",
-  "text": "#### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)\n\n给 Claude Code、Cursor 和 Codex 用的反 AI 味设计技能。\n\n来源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "AI 味的设计问题在多个编码工具里都存在。",
+    "如何解决": "hallmark 做成设计技能，同时给 Claude Code、Cursor 和 Codex 用。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "反 AI 味的设计能力被做成一份跨工具的技能，而不是某个编辑器独有。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

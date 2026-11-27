@@ -3,8 +3,14 @@
   "source": "cleaned/articles/philschmid-de-gemini-4-neon-context-engineering.json",
   "title": "How my context engineering changed for Gemini 4 Neon",
   "link": "https://www.philschmid.de/gemini-4-neon-context-engineering",
-  "sentence": "Philipp Schmid 为 Gemini 4 Neon 删掉过时的硬性规则，把工具约定收回清晰接口，减少互相冲突的上下文。",
+  "lede": "Philipp Schmid 在日常使用 <mark class=\"note-card-hl\">Gemini 4 Neon</mark> 做评测和开发后发现，以前为旧模型写的许多护栏、技能和规则反而在拖慢它，于是改了 5 件事。",
   "category": "实践",
   "company": "philschmid",
-  "text": "#### [How my context engineering changed for Gemini 4 Neon](https://www.philschmid.de/gemini-4-neon-context-engineering)\n\nPhilipp Schmid 在日常使用 <mark class=\"note-card-hl\">Gemini 4 Neon</mark> 做评测和开发后发现，以前为旧模型写的许多护栏、技能和规则反而在拖慢它，于是改了 5 件事。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>面向旧模型的系统指令、项目规则和当前请求经常互相冲突，模型会花额外思考 token 去调解，甚至优先遵守更旧的禁令，而不是用户现在的请求。</p>\n<p><strong>如何解决：</strong>他删掉僵硬的代码风格禁令，改成“跟随周围代码的风格和注释密度”这类判断提示，把用户级 GEMINI.md 收成一屏：只保留批准、来源核对、长任务监控和回复格式等少数习惯，任务相关内容放到技能里。工具规则也只在清晰的接口里写一次，不再在系统提示里重复一遍。</p>\n<p><strong>效果怎样：</strong>作者说去掉臃肿的禁令列表后，减少了浪费的思考过程，并提高了准确性；旧模型上那些只读调试禁令也不总是真能管住编辑范围。这是个人实践总结，没有给出公开基准上的分数变化。</p>\n<p><strong>洞察与启发：</strong>模型变强之后，上下文工程的工作往往是做减法：把互相打架的旧规则清掉，比继续叠新技能更重要。</p>\n<p><strong>相关工作：</strong>Qoder 和 Kiro 同期也在谈上下文压缩、按需加载技能和工具说明；方向都是让当前任务只带上必要的规则，而不是把历史护栏全塞进去。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "面向旧模型的系统指令、项目规则和当前请求经常互相冲突，模型会花额外思考 token 去调解，甚至优先遵守更旧的禁令，而不是用户现在的请求。",
+    "如何解决": "他删掉僵硬的代码风格禁令，改成“跟随周围代码的风格和注释密度”这类判断提示，把用户级 GEMINI.md 收成一屏：只保留批准、来源核对、长任务监控和回复格式等少数习惯，任务相关内容放到技能里。工具规则也只在清晰的接口里写一次，不再在系统提示里重复一遍。",
+    "效果怎样": "作者说去掉臃肿的禁令列表后，减少了浪费的思考过程，并提高了准确性；旧模型上那些只读调试禁令也不总是真能管住编辑范围。这是个人实践总结，没有给出公开基准上的分数变化。",
+    "洞察与启发": "模型变强之后，上下文工程的工作往往是做减法：把互相打架的旧规则清掉，比继续叠新技能更重要。",
+    "相关工作": "Qoder 和 Kiro 同期也在谈上下文压缩、按需加载技能和工具说明；方向都是让当前任务只带上必要的规则，而不是把历史护栏全塞进去。"
+  }
 }

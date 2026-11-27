@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.langchain.com-blog-design-agent.json",
   "title": "How We Built Our Design Agent",
   "link": "https://www.langchain.com/blog/design-agent",
-  "sentence": "&lt;架构&gt;&lt;LangChain&gt;  (https://www.langchain.com/blog/design-agent) 设计 Agent 要拿到设计师的原则和反馈理由，并且每条 Slack 线程有自己的沙箱。 完整总结 解决什么问题： 模型已经能写界面代码，但写出来不像这个团队的设计。 如何解决： 把设计原则、反 AI 味的约束",
+  "lede": "设计 Agent 要拿到设计师的原则和反馈理由，并且每条 Slack 线程有自己的沙箱。",
   "category": "架构",
   "company": "LangChain",
-  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[How We Built Our Design Agent](https://www.langchain.com/blog/design-agent)\n\n设计 Agent 要拿到设计师的原则和反馈理由，并且每条 Slack 线程有自己的沙箱。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>模型已经能写界面代码，但写出来不像这个团队的设计。</p>\n<p><strong>如何解决：</strong>把设计原则、反 AI 味的约束和反馈理由交给 Agent。每条线程一个沙箱，跨视频、图像和画布，并检查自己的渲染。</p>\n<p><strong>效果怎样：</strong>文中没有给出采纳率。</p>\n<p><strong>洞察与启发：</strong>补模型短板的规则会过期，模型变强之后要删。</p>\n<p><strong>相关工作：</strong>同一周的 OpenWiki 文解决记忆有没有证据；这篇解决品味从哪来。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "模型已经能写界面代码，但写出来不像这个团队的设计。",
+    "如何解决": "把设计原则、反 AI 味的约束和反馈理由交给 Agent。每条线程一个沙箱，跨视频、图像和画布，并检查自己的渲染。",
+    "效果怎样": "文中没有给出采纳率。",
+    "洞察与启发": "补模型短板的规则会过期，模型变强之后要删。",
+    "相关工作": "同一周的 OpenWiki 文解决记忆有没有证据；这篇解决品味从哪来。"
+  }
 }

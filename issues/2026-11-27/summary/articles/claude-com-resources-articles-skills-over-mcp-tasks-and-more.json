@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude-com-resources-articles-skills-over-mcp-tasks-and-more.json",
   "title": "MCP servers can now ship skills, run tasks, and more with Claude",
   "link": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-  "sentence": "MCP 服务器现在可以通过 Skills over MCP 把技能和工具一起交给 Claude，并处理更长的交互式任务。",
+  "lede": "Anthropic 把 <mark class=\"note-card-hl\">Skills over MCP</mark> 推进到 Claude 的公开测试：服务器可以在提供工具的同时发布技能，并承接更长的交互式工作。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### [MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)\n\nAnthropic 把 <mark class=\"note-card-hl\">Skills over MCP</mark> 推进到 Claude 的公开测试：服务器可以在提供工具的同时发布技能，并承接更长的交互式工作。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只靠工具名称和描述，Claude 很难掌握某个 MCP 服务器在具体业务里该怎么用；长任务、中途问人和传文件也缺少正式协议。</p>\n<p><strong>如何解决：</strong>Skills over MCP 让服务器把最佳实践、分步工作流或针对账户的 playbook 和工具一起发布，Claude 只在需要时加载技能。与此同时，Tasks 和 Elicitation 正式可用，File Uploads 即将推出，服务器可以在后台跑任务、向用户确认，并交换文件。Shopify、HubSpot、Atlassian、Carta 等被用作示例。</p>\n<p><strong>效果怎样：</strong>Skills over MCP 已在 Claude 和 Claude Code 公开测试，Pro、Max、Ultra 默认打开，Team 需管理员开启，Enterprise 即将提供。官方把这次更新概括为：Claude 可以更像和另一个 Agent 协作那样，向服务器学习、委派，并在过程中交换输入和文件。尚未给出统一的量化效果数字。</p>\n<p><strong>洞察与启发：</strong>把“怎么用这组工具”写成随服务器更新的技能，比让每个用户自己装一份说明更接近生产环境里的连接方式。</p>\n<p><strong>相关工作：</strong>同一周 LangSmith 发布 Tool Gateway，强调工具的集中注册、工具包和按需搜索；方向都是减少每个 Agent 重复配置工具，但一条线长在 MCP 技能与任务协议，一条线长在治理与身份。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "只靠工具名称和描述，Claude 很难掌握某个 MCP 服务器在具体业务里该怎么用；长任务、中途问人和传文件也缺少正式协议。",
+    "如何解决": "Skills over MCP 让服务器把最佳实践、分步工作流或针对账户的 playbook 和工具一起发布，Claude 只在需要时加载技能。与此同时，Tasks 和 Elicitation 正式可用，File Uploads 即将推出，服务器可以在后台跑任务、向用户确认，并交换文件。Shopify、HubSpot、Atlassian、Carta 等被用作示例。",
+    "效果怎样": "Skills over MCP 已在 Claude 和 Claude Code 公开测试，Pro、Max、Ultra 默认打开，Team 需管理员开启，Enterprise 即将提供。官方把这次更新概括为：Claude 可以更像和另一个 Agent 协作那样，向服务器学习、委派，并在过程中交换输入和文件。尚未给出统一的量化效果数字。",
+    "洞察与启发": "把“怎么用这组工具”写成随服务器更新的技能，比让每个用户自己装一份说明更接近生产环境里的连接方式。",
+    "相关工作": "同一周 LangSmith 发布 Tool Gateway，强调工具的集中注册、工具包和按需搜索；方向都是减少每个 Agent 重复配置工具，但一条线长在 MCP 技能与任务协议，一条线长在治理与身份。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/kiro.dev-blog-harness-properties-in-lean.json",
   "title": "Kiro proves properties of its own harness in Lean",
   "link": "https://kiro.dev/blog/harness-properties-in-lean",
-  "sentence": "&lt;实践&gt;&lt;AWS&gt;  (https://kiro.dev/blog/harness-properties-in-lean) 让 Kiro 把一部分自己的代码做成 Lean 模型，证明一些性质，再拿去对真实代码。 完整总结 解决什么问题： Agent harness 的性质如果只靠口说，藏着的 bug 不会自己露出来。 如何解决： 自动",
+  "lede": "让 Kiro 把一部分自己的代码做成 Lean 模型，证明一些性质，再拿去对真实代码。",
   "category": "实践",
   "company": "AWS",
-  "text": "#### &lt;实践&gt;&lt;AWS&gt;[Kiro proves properties of its own harness in Lean](https://kiro.dev/blog/harness-properties-in-lean)\n\n让 Kiro 把一部分自己的代码做成 Lean 模型，证明一些性质，再拿去对真实代码。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Agent harness 的性质如果只靠口说，藏着的 bug 不会自己露出来。</p>\n<p><strong>如何解决：</strong>自动把部分代码建模成 Lean，证明定理，再对 TypeScript、Rust 或 Python 核对。</p>\n<p><strong>效果怎样：</strong>先在 Kiro 自己身上跑：96 个候选性质里证明了 70 个，18 个在模型里被证伪并能在代码里复现。</p>\n<p><strong>洞察与启发：</strong>证伪和证明一样算结果。被证伪的那 18 个才是抓到的问题。</p>\n<p><strong>相关工作：</strong>Kimi 把 harness 托管出去；Kiro 这篇是在证明自己这份 harness 的性质。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "Agent harness 的性质如果只靠口说，藏着的 bug 不会自己露出来。",
+    "如何解决": "自动把部分代码建模成 Lean，证明定理，再对 TypeScript、Rust 或 Python 核对。",
+    "效果怎样": "先在 Kiro 自己身上跑：96 个候选性质里证明了 70 个，18 个在模型里被证伪并能在代码里复现。",
+    "洞察与启发": "证伪和证明一样算结果。被证伪的那 18 个才是抓到的问题。",
+    "相关工作": "Kimi 把 harness 托管出去；Kiro 这篇是在证明自己这份 harness 的性质。"
+  }
 }

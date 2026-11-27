@@ -3,8 +3,14 @@
   "source": "cleaned/articles/cursor.com-blog-agent-sdk.json",
   "title": "Introducing the Agent SDK",
   "link": "https://cursor.com/blog/agent-sdk",
-  "sentence": "&lt;产品&gt;&lt;Cursor&gt;  (https://cursor.com/blog/agent-sdk) 用他们做 Bugbot 的那套框架，把 按事件干活 的 Agent 定义成代码。 完整总结 解决什么问题： 有用的 Agent 要贴着团队自己的流程，现成产品往往是别人的流程。 如何解决： Agent SDK 把评审、合规、事故调查这类",
+  "lede": "用他们做 Bugbot 的那套框架，把<mark class=\"note-card-hl\">按事件干活</mark>的 Agent 定义成代码。",
   "category": "产品",
   "company": "Cursor",
-  "text": "#### &lt;产品&gt;&lt;Cursor&gt;[Introducing the Agent SDK](https://cursor.com/blog/agent-sdk)\n\n用他们做 Bugbot 的那套框架，把<mark>按事件干活</mark>的 Agent 定义成代码。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>有用的 Agent 要贴着团队自己的流程，现成产品往往是别人的流程。</p>\n<p><strong>如何解决：</strong>Agent SDK 把评审、合规、事故调查这类由事件触发的 Agent 做成可连接工作现场的代码。</p>\n<p><strong>效果怎样：</strong>文中举的例子是他们自己的 Bugbot 和 Security。没有第三方成绩。</p>\n<p><strong>洞察与启发：</strong>托管 Agent 和自建框架被收成同一套 SDK。</p>\n<p><strong>相关工作：</strong>Kiro 同一窗口加上的记忆，解决的是重复解释上下文；这里解决的是谁来定义 Agent。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "有用的 Agent 要贴着团队自己的流程，现成产品往往是别人的流程。",
+    "如何解决": "Agent SDK 把评审、合规、事故调查这类由事件触发的 Agent 做成可连接工作现场的代码。",
+    "效果怎样": "文中举的例子是他们自己的 Bugbot 和 Security。没有第三方成绩。",
+    "洞察与启发": "托管 Agent 和自建框架被收成同一套 SDK。",
+    "相关工作": "Kiro 同一窗口加上的记忆，解决的是重复解释上下文；这里解决的是谁来定义 Agent。"
+  }
 }

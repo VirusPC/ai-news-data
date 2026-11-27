@@ -1,7 +1,20 @@
 {
   "id": "https://github.com/alibaba/open-code-review",
   "source": "cleaned/projects/alibaba-open-code-review.json",
+  "title": "open-code-review",
+  "link": "https://github.com/alibaba/open-code-review",
+  "lede": "阿里开源的 open-code-review 用确定性管道加 LLM Agent 做行级代码评审，并内置空指针、线程安全和注入类规则，本周周榜排在 <mark class=\"note-card-hl\">第 5</mark>。",
+  "category": "开源",
+  "company": "alibaba",
   "purpose": "把确定性规则管道和 LLM Agent 结合起来做代码评审，给出行级评论。",
   "change": "本周周榜第五，窗口结束日前最近的 Release 是 2026-11-26 的 v1.14.4。",
-  "text": "#### [open-code-review](https://github.com/alibaba/open-code-review) 56733 stars Apache-2.0\n\n阿里开源的 open-code-review 用确定性管道加 LLM Agent 做行级代码评审，并内置空指针、线程安全和注入类规则，本周周榜排在 <mark class=\"note-card-hl\">第 5</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只靠大模型做代码评审容易漏掉可机械检查的缺陷，也难以在大公司规模上保持稳定、可解释的评论。</p>\n<p><strong>如何解决：</strong>它采用混合架构：确定性规则管道先抓住 NPE、线程安全、XSS、SQL 注入等问题，再由 LLM Agent 补充审阅，并给出精确到行的评论。仓库说明它兼容 OpenAI 与 Anthropic 接口，并写明在阿里内部规模上使用过。</p>\n<p><strong>效果怎样：</strong>项目强调安全、速度和规模验证。清洗时核验到 <mark class=\"note-card-hl\">56733</mark> stars，许可证 Apache-2.0，窗口结束日前最近的 Release 是 2026-11-26 的 <mark class=\"note-card-hl\">v1.14.4</mark>。</p>\n<p><strong>洞察与启发：</strong>把能写死的规则先跑完，再让模型做需要判断的部分，比端到端只丢给 LLM 更容易得到可核对的行级意见。</p>\n<p><strong>相关工作：</strong>同一周还有 CodeRabbit 谈安全 harness 和各类 PR 机器人；这条线更强调开源的混合架构和内置多语言规则集。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "只靠大模型做代码评审容易漏掉可机械检查的缺陷，也难以在大公司规模上保持稳定、可解释的评论。",
+    "如何解决": "它采用混合架构：确定性规则管道先抓住 NPE、线程安全、XSS、SQL 注入等问题，再由 LLM Agent 补充审阅，并给出精确到行的评论。仓库说明它兼容 OpenAI 与 Anthropic 接口，并写明在阿里内部规模上使用过。",
+    "效果怎样": "项目强调安全、速度和规模验证。清洗时核验到 <mark class=\"note-card-hl\">56733</mark> stars，许可证 Apache-2.0，窗口结束日前最近的 Release 是 2026-11-26 的 v1.14.4。",
+    "洞察与启发": "把能写死的规则先跑完，再让模型做需要判断的部分，比端到端只丢给 LLM 更容易得到可核对的行级意见。",
+    "相关工作": "同一周还有 CodeRabbit 谈安全 harness 和各类 PR 机器人；这条线更强调开源的混合架构和内置多语言规则集。"
+  },
+  "stars": 56733,
+  "license": "Apache-2.0"
 }

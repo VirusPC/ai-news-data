@@ -3,8 +3,14 @@
   "source": "cleaned/articles/claude.dev-blog-which-claude-model-should-you-build-with.json",
   "title": "Which Claude model should you build with?",
   "link": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-  "sentence": "做产品时要在 Claude Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间，按任务、成本和 <mark>effort</mark> 来选。 订阅源里只有这些。",
+  "lede": "做产品时要在 Claude Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间，按任务、成本和 <mark class=\"note-card-hl\">effort</mark> 来选。 订阅源里只有这些。",
   "category": "产品",
   "company": "Anthropic",
-  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Which Claude model should you build with?](https://claude.dev/blog/which-claude-model-should-you-build-with/)\n\n做产品时要在 Claude Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间，按任务、成本和 <mark>effort</mark> 来选。 订阅源里只有这些。\n"
+  "sections": {
+    "解决什么问题": "做产品时在四个 Claude 模型之间难以取舍。",
+    "如何解决": "按任务、成本和 <mark class=\"note-card-hl\">effort</mark>，在 Fable 5.2、Opus 5.5、Sonnet 5.5 和 Haiku 5.5 之间做选择。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "选型维度是任务、成本和 effort 三条线，四个模型各就各位。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }

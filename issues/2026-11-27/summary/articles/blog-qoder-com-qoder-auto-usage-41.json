@@ -3,8 +3,14 @@
   "source": "cleaned/articles/blog-qoder-com-qoder-auto-usage-41.json",
   "title": "Your Credits Go Further: Qoder Auto Cuts Per-Task Usage by 41%",
   "link": "https://blog.qoder.com/qoder-auto-usage-41",
-  "sentence": "Qoder Auto 单任务 Credits 从 4.43 降到 2.6，降幅约 41%，同样额度大约能做 1.7 倍任务。",
+  "lede": "Qoder 宣布 Auto 档单任务 Credits 用量从 4.43 降到 2.6，降幅约 <mark class=\"note-card-hl\">41.3%</mark>，同样额度大约能完成 1.7 倍任务。",
   "category": "产品",
   "company": "Qoder",
-  "text": "#### [Your Credits Go Further: Qoder Auto Cuts Per-Task Usage by 41%](https://blog.qoder.com/qoder-auto-usage-41)\n\nQoder 宣布 Auto 档单任务 Credits 用量从 4.43 降到 2.6，降幅约 <mark class=\"note-card-hl\">41.3%</mark>，同样额度大约能完成 1.7 倍任务。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>用户常常在积分刷新之前就把 Credits 用完；只换模型不够，还要把每次调用变轻、减少重复劳动。</p>\n<p><strong>如何解决：</strong>模型侧把共享提示和个性化内容拆开以提高 prompt cache 命中，再按缓存寿命做亲和路由。Agent harness 侧则减少重复读写、在压缩上下文时保留已读文件和进度、并行互不依赖的工具调用、用 CodeMode 批量编排工具，并按需加载 MCP 和 Skill 说明。官方提醒这些分项实验会重叠，不能简单加总。</p>\n<p><strong>效果怎样：</strong>单任务 Credits 从 4.43 降到 2.6，约 <mark class=\"note-card-hl\">41.3%</mark>；同样额度大约可做 1.7 倍任务。若以前能用约 15 天，在任务类型和强度相近时约可撑到 26 天。Auto 用量乘数从 0.5x 降到 0.3x，Fast 从 0.8x 降到 0.6x，2026-11-18 起对全产品生效。单轮任务时长从 118 秒降到 86 秒，约 27.1%。官方还称用户纠正率仍低。分项上，共享缓存约提升 6% 积分效率，亲和路由对部分模型约 4%；读取返回文本量约降 26%，内部评测中任务时长约降 20%，适合的场景下模型调用次数和 token 约降 30%，按需加载使每轮 Credits 约降 19%。</p>\n<p><strong>洞察与启发：</strong>把积分效率写成可观测的产品指标，并且同时看纠正率，比只宣布“更便宜”更有用：省下来的额度要能继续把任务做完，而不是换来更多返工。</p>\n<p><strong>相关工作：</strong>同一窗口的耐久性优化文章解释了分层提示和会话继承；AWS 的分布式 KV caching 技能则把类似的“少重复计算上下文”做到自托管推理上。</p>\n</details>\n"
+  "sections": {
+    "解决什么问题": "用户常常在积分刷新之前就把 Credits 用完；只换模型不够，还要把每次调用变轻、减少重复劳动。",
+    "如何解决": "模型侧把共享提示和个性化内容拆开以提高 prompt cache 命中，再按缓存寿命做亲和路由。Agent harness 侧则减少重复读写、在压缩上下文时保留已读文件和进度、并行互不依赖的工具调用、用 CodeMode 批量编排工具，并按需加载 MCP 和 Skill 说明。官方提醒这些分项实验会重叠，不能简单加总。",
+    "效果怎样": "单任务 Credits 从 4.43 降到 2.6，约 <mark class=\"note-card-hl\">41.3%</mark>；同样额度大约可做 1.7 倍任务。若以前能用约 15 天，在任务类型和强度相近时约可撑到 26 天。Auto 用量乘数从 0.5x 降到 0.3x，Fast 从 0.8x 降到 0.6x，2026-11-18 起对全产品生效。单轮任务时长从 118 秒降到 86 秒，约 27.1%。官方还称用户纠正率仍低。分项上，共享缓存约提升 6% 积分效率，亲和路由对部分模型约 4%；读取返回文本量约降 26%，内部评测中任务时长约降 20%，适合的场景下模型调用次数和 token 约降 30%，按需加载使每轮 Credits 约降 19%。",
+    "洞察与启发": "把积分效率写成可观测的产品指标，并且同时看纠正率，比只宣布“更便宜”更有用：省下来的额度要能继续把任务做完，而不是换来更多返工。",
+    "相关工作": "同一窗口的耐久性优化文章解释了分层提示和会话继承；AWS 的分布式 KV caching 技能则把类似的“少重复计算上下文”做到自托管推理上。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/www.warp.dev-blog-software-factory-adoption-challenges.json",
   "title": "Overcoming challenges in software factory adoption",
   "link": "https://www.warp.dev/blog/software-factory-adoption-challenges",
-  "sentence": "&lt;实践&gt;&lt;Warp&gt;  (https://www.warp.dev/blog/software-factory-adoption-challenges) 软件工厂难推，是因为这个词像流水线，也因为 Agent 要从个人电脑挪到 团队共用环境 。 完整总结 解决什么问题： 开发者听到工厂会以为自己不再做有意思的工程。另一头，每人自选模型",
+  "lede": "软件工厂难推，是因为这个词像流水线，也因为 Agent 要从个人电脑挪到<mark class=\"note-card-hl\">团队共用环境</mark>。",
   "category": "实践",
   "company": "Warp",
-  "text": "#### &lt;实践&gt;&lt;Warp&gt;[Overcoming challenges in software factory adoption](https://www.warp.dev/blog/software-factory-adoption-challenges)\n\n软件工厂难推，是因为这个词像流水线，也因为 Agent 要从个人电脑挪到<mark>团队共用环境</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>开发者听到工厂会以为自己不再做有意思的工程。另一头，每人自选模型和 skill 的做法，到了账单和安全上就不可控。</p>\n<p><strong>如何解决：</strong>把工作说成设计工厂，而不是站在产线上。工厂产出的仍是给客户的软件，只是吞吐、成本和质量要一起看。Agent 的行为放到云端、写成团队能改的配置，而不是留在每个人的笔记本上。作者建议承认迁移会暂时变慢，但长期不维持上百套个人环境。</p>\n<p><strong>效果怎样：</strong>文章是观点，没有报一组采用数据。</p>\n<p><strong>洞察与启发：</strong>听到工厂会以为自己不再做有意思的工程。另一头，每人自选模型和 skill，到了账单和安全上就不可控。</p>\n<p><strong>相关工作：</strong>这是上一篇「工厂工程」在团队里会碰到的阻力。</p>\n</details>\n\n"
+  "sections": {
+    "解决什么问题": "开发者听到工厂会以为自己不再做有意思的工程。另一头，每人自选模型和 skill 的做法，到了账单和安全上就不可控。",
+    "如何解决": "把工作说成设计工厂，而不是站在产线上。工厂产出的仍是给客户的软件，只是吞吐、成本和质量要一起看。Agent 的行为放到云端、写成团队能改的配置，而不是留在每个人的笔记本上。作者建议承认迁移会暂时变慢，但长期不维持上百套个人环境。",
+    "效果怎样": "文章是观点，没有报一组采用数据。",
+    "洞察与启发": "听到工厂会以为自己不再做有意思的工程。另一头，每人自选模型和 skill，到了账单和安全上就不可控。",
+    "相关工作": "这是上一篇「工厂工程」在团队里会碰到的阻力。"
+  }
 }

@@ -3,8 +3,14 @@
   "source": "cleaned/articles/antigravity.google-blog-gemini-4-argon-trillion-edge-graphs-and-tpu-kernels.json",
   "title": "How Gemini 4 Argon upleveled agents on Antigravity",
   "link": "https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels",
-  "sentence": "&lt;架构&gt;&lt;Google&gt;  (https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels) Argon 被写进 Antigravity 的 Agent，用来处理万亿边的图和定制 TPU kernel。 订阅源里只有这些。",
+  "lede": "Argon 被写进 Antigravity 的 Agent，用来处理万亿边的图和定制 TPU kernel。 订阅源里只有这些。",
   "category": "架构",
   "company": "Google",
-  "text": "#### &lt;架构&gt;&lt;Google&gt;[How Gemini 4 Argon upleveled agents on Antigravity](https://antigravity.google/blog/gemini-4-argon-trillion-edge-graphs-and-tpu-kernels)\n\nArgon 被写进 Antigravity 的 Agent，用来处理万亿边的图和定制 TPU kernel。\n\n订阅源里只有这些。\n\n"
+  "sections": {
+    "解决什么问题": "Antigravity 的 Agent 要处理万亿边的图和定制 TPU kernel。",
+    "如何解决": "把 Argon 写进 Agent，让它承担万亿边图和定制 TPU kernel 这类负载。",
+    "效果怎样": "材料里没有给出可核验的效果数据。",
+    "洞察与启发": "Argon 被直接写进 Agent，处理的是万亿边图和定制 TPU kernel 这样的任务。",
+    "相关工作": "本期正文没有列出相关工作。"
+  }
 }
