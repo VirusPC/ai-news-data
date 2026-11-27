@@ -1,0 +1,10 @@
+{
+  "id": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+  "source": "cleaned/articles/coderabbit-ai-blog-how-we-build-a-security-harness-that-finds-real-vul-b21659afe4.json",
+  "title": "How We Built a Security Harness That Finds Real Vulnerabilities",
+  "link": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+  "sentence": "CodeRabbit 把安全扫描做成带地图和证据标准的 harness，避免 Agent 在一条线索上耗尽上下文。",
+  "category": "实践",
+  "company": "CodeRabbit",
+  "text": "#### [How We Built a Security Harness That Finds Real Vulnerabilities](https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities)\n\nCodeRabbit 把安全扫描看成映射和搜索问题：由 harness 决定去哪里看、记录看过什么，并规定一条发现要达到怎样的证据标准。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>编码 Agent 很容易顺着一条安全线索把上下文和预算用完，仓库里没被走到的部分反而更危险；同时，随手给出的“可能有漏洞”又缺少可核验的证据。</p>\n<p><strong>如何解决：</strong>他们做了一套安全 harness：先给仓库做映射，再按计划调查，记录已经检查过的区域，并对发现设置证据标准，经过复核后再报告。目标是把 2027 年可能进入日常交付的安全 Agent，先约束成可审计的搜索过程，而不是一次漫无目的的扫描。</p>\n<p><strong>效果怎样：</strong>文章重点讲方法和工作流，而不是公布查获漏洞的数量或召回率。能确认的是：harness 把“去哪看、看过什么、怎样算找到了”从模型一次发挥里抽了出来。</p>\n<p><strong>洞察与启发：</strong>安全 Agent 的质量，往往不在它能不能讲出一种漏洞，而在它有没有系统地把仓库走完，并且每条发现都能留下证据。</p>\n<p><strong>相关工作：</strong>同一周阿里 open-code-review 用确定性规则加 LLM 做行级评论，侧重可重复的代码缺陷；CodeRabbit 这篇更强调安全搜索的覆盖和证据链。</p>\n</details>\n"
+}

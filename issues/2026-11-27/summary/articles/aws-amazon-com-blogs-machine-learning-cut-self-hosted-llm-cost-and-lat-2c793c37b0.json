@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+  "source": "cleaned/articles/aws-amazon-com-blogs-machine-learning-cut-self-hosted-llm-cost-and-lat-2c793c37b0.json",
+  "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+  "link": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+  "sentence": "AWS 用 Agent Toolkit 里的分布式 KV cache 技能，帮助自托管 LLM 少重复计算上下文。",
+  "category": "实践",
+  "company": "AWS",
+  "text": "#### [Cut self-hosted LLM cost and latency with the distributed KV caching agent skill](https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/)\n\nAWS 介绍 Agent Toolkit 中的分布式 KV caching 技能：用 Amazon ElastiCache 做分布式缓存，最多可把推理成本降约 40%，把首 token 时间降约 <mark class=\"note-card-hl\">80%</mark>。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>自托管 LLM 如果每一轮都把同一段上下文重新算一遍，GPU 时间和费用会被重复计算吃掉，对话越长越明显。</p>\n<p><strong>如何解决：</strong>他们把分布式 KV cache 做成编码 Agent 可调用的技能：由 Agent 评估并配置缓存，把已计算的键值状态放到 Amazon ElastiCache，供后续轮次复用，而不必每次在 GPU 上重算。</p>\n<p><strong>效果怎样：</strong>官方给出的上限是：推理成本最多下降约 <mark class=\"note-card-hl\">40%</mark>，time to first token 最多下降约 80%。具体收益仍取决于负载和复用率，文中是以可达到的改善来表述，而不是保证每一场景都同幅下降。</p>\n<p><strong>洞察与启发：</strong>对自托管推理来说，省钱常常来自少算已经算过的上下文，而不是马上换更小的模型。把这件事做成 Agent 技能，说明缓存配置本身也开始被纳入编码工作流。</p>\n<p><strong>相关工作：</strong>Qoder 同期用 prompt cache 和亲和路由提高产品积分效率；两者都在打“重复上下文”的成本，只是分别作用于应用层积分和自托管推理。</p>\n</details>\n"
+}

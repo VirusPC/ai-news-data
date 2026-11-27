@@ -1,0 +1,10 @@
+{
+  "id": "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+  "source": "cleaned/articles/tech-meituan-com-2026-11-26-agent-rsi-practice-in-meituan-html.json",
+  "title": "从模仿到自我纠错：Keeta客服模型的RSI实践",
+  "link": "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+  "sentence": "美团 Keeta 客服模型用递归自我改进，在约束下把线上表现逐步追平甚至局部超过强模型。",
+  "category": "实践",
+  "company": "美团",
+  "text": "#### [从模仿到自我纠错：Keeta客服模型的RSI实践](https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html)\n\n美团介绍 Keeta 客服模型的递归自我改进实践：不是让模型在同一套考题上刷分，而是在约束下把失败案例变成下一轮可保留的能力。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>客服场景里，直接用线上强模型成本高；若不加约束地做自我改进，系统又容易只学会在当前考卷上拿高分，换一批题或看 Bad Case 就会掉下来。</p>\n<p><strong>如何解决：</strong>他们采用带约束的递归自我改进：每轮主要学习上一版的失败类型，而不是无限制地改自身。文章用公开研究里的反例说明风险——不加约束的版本在演化集上可到 92.8，换一批题平均分却从 43.6 掉到 40.3，Token 还从 2.42M 升到 3.80M。Keeta 的迭代则把标准写成跨轮可成长、单轮冻结，避免一次试验改穿全部行为。</p>\n<p><strong>效果怎样：</strong>早期 Demo 的同批样本评估中，分镜视频评分提升 7.5%，综合视频可用率从 92% 到 100%。到 V5，综合分 <mark class=\"note-card-hl\">96.07</mark>，只比线上强模型低 0.03，高于全部参比模型；巡检 Bad Case 率低于线上强模型和全部参比；模拟通过率 94.10%，比线上强模型低 2.7 个百分点。早期版本线上满意度落后 3.13 到 8.02 个百分点，V4、V5 的差值分别是 +0.34 和 +1.73 个百分点。同规模未经任务训练的模型模拟通过率不到 80%，说明能力主要来自后训练。</p>\n<p><strong>洞察与启发：</strong>自我改进如果没有约束，学会的可能只是“在这场考试里拿分”。把可成长的范围限制在跨轮，并盯住 Bad Case 和线上满意度，比单看演化集分数更接近生产。</p>\n<p><strong>相关工作：</strong>文中引用了递归自我改进的相关论文；同一窗口百度 Loopy 也在讲带约束的循环自我改进，不过对象是 AIGC 视频生产，而不是客服模型。</p>\n</details>\n"
+}

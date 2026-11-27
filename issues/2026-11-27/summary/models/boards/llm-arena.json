@@ -1,7 +1,7 @@
 {
   "id": "LLM Arena",
   "source": "cleaned/models/boards/llm-arena.json",
-  "caption": "Arena 榜发布日从 11 月 18 日换成 11 月 22 日：前五名顺序不变，Claude Fable 5.2（Max）新进前 15，Muse Spark 1.1 掉出。",
+  "caption": "榜单由上一期的 2026-11-18 换成 2026-11-22。首位仍是 Gemini 4 Carbon (High)；Claude Fable 5.2 (Max) 进入 Top 15，Muse Spark 1.1 离开。窗口内没有新发布且进入这张 Top 15 的模型。",
   "highlights": [],
   "arena_publish_date": "2026-11-22",
   "items": [

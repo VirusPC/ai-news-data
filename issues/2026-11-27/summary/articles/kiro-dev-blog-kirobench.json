@@ -3,14 +3,8 @@
   "source": "cleaned/articles/kiro-dev-blog-kirobench.json",
   "title": "Benchmarking coding agents on the work developers bring to Kiro",
   "link": "https://kiro.dev/blog/kirobench",
-  "sentence": "Kiro 介绍自建的 KiroBench：300 多个可运行任务，每个都有验证器，越来越多任务来自亚马逊的内部工程工作。",
+  "sentence": "Kiro 用超过 300 个来自真实工作流的任务组成内部基准 KiroBench，用来看 Agent 改动有没有回退。",
   "category": "实践",
-  "company": "AWS",
-  "text": "#### [Benchmarking coding agents on the work developers bring to Kiro](https://kiro.dev/blog/kirobench)\n\nKiro 介绍自建的 KiroBench：<mark>300 多个可运行任务</mark>，每个都有验证器，越来越多任务来自亚马逊的内部工程工作。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>DeepSWE、Terminal-Bench 这类公开基准只覆盖软件工作的一小块，也不能反映 Kiro 用户的真实用法，改工具、记忆或模型路由后的回归很难预判。</p>\n<p><strong>如何解决：</strong>任务覆盖功能开发、修 bug、重构、代码理解、写测试、环境搭建和命令行；每个任务是可运行环境加验证器，一部分基于测试，一部分由语言模型按评分表判定。内部会话变成任务要经过重建环境、写指令、造检查和模拟用户四步，并做基线、一致性等检查。</p>\n<p><strong>效果怎样：</strong>文章讲的是方法，没有给出具体模型成绩。</p>\n<p><strong>洞察与启发：</strong>题目看起来难不等于任务本身是对的，有问题的任务环境能构建、检查能跑，但分数是错的，所以要逐个任务做检查。</p>\n</details>\n\n",
-  "sections": {
-    "解决什么问题": "DeepSWE、Terminal-Bench 这类公开基准只覆盖软件工作的一小块，也不能反映 Kiro 用户的真实用法，改工具、记忆或模型路由后的回归很难预判。",
-    "如何解决": "任务覆盖功能开发、修 bug、重构、代码理解、写测试、环境搭建和命令行；每个任务是可运行环境加验证器，一部分基于测试，一部分由语言模型按评分表判定。内部会话变成任务要经过重建环境、写指令、造检查和模拟用户四步，并做基线、一致性等检查。",
-    "效果怎样": "文章讲的是方法，没有给出具体模型成绩。",
-    "洞察与启发": "题目看起来难不等于任务本身是对的，有问题的任务环境能构建、检查能跑，但分数是错的，所以要逐个任务做检查。"
-  }
+  "company": "Kiro",
+  "text": "#### [Benchmarking coding agents on the work developers bring to Kiro](https://kiro.dev/blog/kirobench)\n\nKiro 介绍内部基准 <mark class=\"note-card-hl\">KiroBench</mark>：它包含 300 多个可运行任务，用来衡量编码 Agent 在开发者真正会交给 Kiro 的工作上表现如何。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>公开基准往往只覆盖软件工作的一个窄切片，很难反映开发者在 Kiro 里从提问、改功能、修 bug 到让项目构建起来的真实流程；而改工具、记忆、上下文或模型路由后又很难预估会不会回退。</p>\n<p><strong>如何解决：</strong>他们做成可运行环境加校验器的内部基准，任务覆盖功能开发、修 bug、重构、理解代码、写测试、环境配置和命令行工作。越来越多任务来自 Amazon 内部、模型未见过的工程工作。校验可以是基于结果的单元测试，也可以是按量表打分的模型评审。</p>\n<p><strong>效果怎样：</strong>官方把这套基准用于捕捉回归，并判断哪些改动真的让 Agent 变好。文中给出的规模是超过 <mark class=\"note-card-hl\">300</mark> 个任务，但没有公布各 Agent 的公开排行分数。</p>\n<p><strong>洞察与启发：</strong>要改进自己的编码 Agent，最有用的评测往往是“我们自己工作流里的任务”，而不是只盯着公开榜。代价是这套基准通常不可复现、也难以横向对比。</p>\n<p><strong>相关工作：</strong>文中对比了 DeepSWE、Terminal-Bench 等公开基准，承认它们有价值，但认为单独使用不足以覆盖真实使用面。</p>\n</details>\n"
 }

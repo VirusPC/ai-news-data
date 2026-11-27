@@ -1,7 +1,7 @@
 {
   "id": "Artificial Analysis",
   "source": "cleaned/models/boards/aa.json",
-  "caption": "Artificial Analysis 智能指数 Top 15：前三名没变，Claude Fable 5.2（Max）从 64.6 升到 64.8，榜上没有窗口内新发布的模型。",
+  "caption": "与上一期相比，Top 15 的名单和名次都没有变化，各模型智力指数只有小数点后的小幅变动。窗口内没有新进入 Top 15 的模型。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [

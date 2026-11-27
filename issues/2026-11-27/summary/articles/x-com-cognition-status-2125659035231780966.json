@@ -3,8 +3,8 @@
   "source": "cleaned/articles/x-com-cognition-status-2125659035231780966.json",
   "title": "Introducing Org Charts ▪️ One canvas for all your Devin Bots ▪️ View progress across outcomes and g...",
   "link": "https://x.com/cognition/status/2125659035231780966",
-  "sentence": "Devin Bots 上线 Org Charts：一块画布展示所有 Devin Bot，按目标看进度和需要人处理的事项。",
+  "sentence": "Cognition 推出 Org Charts：在一块画布上查看所有 Devin Bot 的进展和结果。",
   "category": "产品",
   "company": "Cognition",
-  "text": "#### [Introducing Org Charts ▪️ One canvas for all your Devin Bots ▪️ View progress across outcomes and g...](https://x.com/cognition/status/2125659035231780966)\n\nDevin Bots 上线 <mark>Org Charts</mark>：一块画布展示所有 Devin Bot，按目标看进度和需要人处理的事项。\n\n<p>订阅源里只有这一句，没有更多内容。</p>\n\n"
+  "text": "#### [Introducing Org Charts ▪️ One canvas for all your Devin Bots ▪️ View progress across outcomes and g...](https://x.com/cognition/status/2125659035231780966)\n\nCognition 发布 <mark class=\"note-card-hl\">Org Charts</mark>：用一块画布汇总所有 Devin Bot，查看它们在各项目结果和组别上的进展。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>当团队同时跑多个 Devin Bot 时，进展散落在各自会话里，很难在同一处看到哪些结果已经推进、哪些组还停留在中途。</p>\n<p><strong>如何解决：</strong>Org Charts 提供一块总览画布，把各个 Devin Bot 放在一起，按结果和组别查看进度。目前能依据的是这条产品公告帖，没有更长的技术说明。</p>\n<p><strong>效果怎样：</strong>公告只说明能力，没有给出采用量或完成率等数字。能确认的是产品形态：一块画布，而不是再开一个聊天列表。</p>\n<p><strong>洞察与启发：</strong>多 Bot 并行之后，首先缺的是一张组织图，而不是再多一个可以说话的 Agent。</p>\n<p><strong>相关工作：</strong>Kiro Crew 的 conductor mode 用指挥模式收回并行开发；Warp 的软件工厂则用蓝图和风险视图管理多阶段 Agent。它们都在补“总览和收拢”。</p>\n</details>\n"
 }

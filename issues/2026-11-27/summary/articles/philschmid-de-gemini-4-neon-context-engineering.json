@@ -3,13 +3,8 @@
   "source": "cleaned/articles/philschmid-de-gemini-4-neon-context-engineering.json",
   "title": "How my context engineering changed for Gemini 4 Neon",
   "link": "https://www.philschmid.de/gemini-4-neon-context-engineering",
-  "sentence": "Philipp Schmid 换用 Gemini 4 Neon 后删掉了旧模型时代写的严格规则，用户级 GEMINI.md 缩到一屏。",
+  "sentence": "Philipp Schmid 为 Gemini 4 Neon 删掉过时的硬性规则，把工具约定收回清晰接口，减少互相冲突的上下文。",
   "category": "实践",
-  "company": "Google",
-  "text": "#### [How my context engineering changed for Gemini 4 Neon](https://www.philschmid.de/gemini-4-neon-context-engineering)\n\nPhilipp Schmid 换用 Gemini 4 Neon 后删掉了旧模型时代写的<mark>严格规则</mark>，用户级 GEMINI.md 缩到一屏。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>为旧模型积累的规则、skill 和护栏会互相冲突，Gemini 4 Neon 花额外思考 token 去调和，还常常遵循更早的规则而不是当前请求。</p>\n<p><strong>如何解决：</strong>删除死板的代码风格禁令，改成「与周围代码的风格、命名和注释密度保持一致」这类判断提示，只留审批、来源核对、长任务的硬安全限制和少量格式偏好。</p>\n<p><strong>效果怎样：</strong>作者称这样减少了浪费的思考并提高了准确率。</p>\n</details>\n\n",
-  "sections": {
-    "解决什么问题": "为旧模型积累的规则、skill 和护栏会互相冲突，Gemini 4 Neon 花额外思考 token 去调和，还常常遵循更早的规则而不是当前请求。",
-    "如何解决": "删除死板的代码风格禁令，改成「与周围代码的风格、命名和注释密度保持一致」这类判断提示，只留审批、来源核对、长任务的硬安全限制和少量格式偏好。",
-    "效果怎样": "作者称这样减少了浪费的思考并提高了准确率。"
-  }
+  "company": "philschmid",
+  "text": "#### [How my context engineering changed for Gemini 4 Neon](https://www.philschmid.de/gemini-4-neon-context-engineering)\n\nPhilipp Schmid 在日常使用 <mark class=\"note-card-hl\">Gemini 4 Neon</mark> 做评测和开发后发现，以前为旧模型写的许多护栏、技能和规则反而在拖慢它，于是改了 5 件事。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>面向旧模型的系统指令、项目规则和当前请求经常互相冲突，模型会花额外思考 token 去调解，甚至优先遵守更旧的禁令，而不是用户现在的请求。</p>\n<p><strong>如何解决：</strong>他删掉僵硬的代码风格禁令，改成“跟随周围代码的风格和注释密度”这类判断提示，把用户级 GEMINI.md 收成一屏：只保留批准、来源核对、长任务监控和回复格式等少数习惯，任务相关内容放到技能里。工具规则也只在清晰的接口里写一次，不再在系统提示里重复一遍。</p>\n<p><strong>效果怎样：</strong>作者说去掉臃肿的禁令列表后，减少了浪费的思考过程，并提高了准确性；旧模型上那些只读调试禁令也不总是真能管住编辑范围。这是个人实践总结，没有给出公开基准上的分数变化。</p>\n<p><strong>洞察与启发：</strong>模型变强之后，上下文工程的工作往往是做减法：把互相打架的旧规则清掉，比继续叠新技能更重要。</p>\n<p><strong>相关工作：</strong>Qoder 和 Kiro 同期也在谈上下文压缩、按需加载技能和工具说明；方向都是让当前任务只带上必要的规则，而不是把历史护栏全塞进去。</p>\n</details>\n"
 }

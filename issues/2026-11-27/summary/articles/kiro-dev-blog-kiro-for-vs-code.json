@@ -3,13 +3,8 @@
   "source": "cleaned/articles/kiro-dev-blog-kiro-for-vs-code.json",
   "title": "Introducing Kiro for VS Code",
   "link": "https://kiro.dev/blog/kiro-for-vs-code",
-  "sentence": "Kiro for VS Code 正式发布，作为原生扩展提供 spec、steering、MCP 和记忆，并与 Kiro IDE 共用 .kiro 目录。",
+  "sentence": "Kiro 在 VS Code 和 Open VSX 上正式提供扩展，可在现有编辑器里使用 Kiro Agent。",
   "category": "产品",
-  "company": "AWS",
-  "text": "#### [Introducing Kiro for VS Code](https://kiro.dev/blog/kiro-for-vs-code)\n\nKiro for VS Code 正式发布，作为原生扩展提供 spec、steering、MCP 和记忆，并与 Kiro IDE <mark>共用 .kiro 目录</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>很多团队以 VS Code 为标准，不能为了试一个 Agent 换编辑器。</p>\n<p><strong>如何解决：</strong>在 VS Code Marketplace 或 Open VSX 安装，登录即用，不改套餐和计费；已有的 specs、steering、skills、hooks、powers 和 MCP 配置不用改，spec 在两个编辑器之间双向打开，回答时会显示引用了哪些 steering 文件。</p>\n<p><strong>效果怎样：</strong>覆盖 macOS、Windows 和 Linux，适用所有 Kiro 套餐；文章没有给量化数字。</p>\n</details>\n\n",
-  "sections": {
-    "解决什么问题": "很多团队以 VS Code 为标准，不能为了试一个 Agent 换编辑器。",
-    "如何解决": "在 VS Code Marketplace 或 Open VSX 安装，登录即用，不改套餐和计费；已有的 specs、steering、skills、hooks、powers 和 MCP 配置不用改，spec 在两个编辑器之间双向打开，回答时会显示引用了哪些 steering 文件。",
-    "效果怎样": "覆盖 macOS、Windows 和 Linux，适用所有 Kiro 套餐；文章没有给量化数字。"
-  }
+  "company": "Kiro",
+  "text": "#### [Introducing Kiro for VS Code](https://kiro.dev/blog/kiro-for-vs-code)\n\nKiro 宣布 <mark class=\"note-card-hl\">Kiro for VS Code</mark> 在 macOS、Windows 和 Linux 正式可用，可从 VS Code Marketplace 或 Open VSX 安装。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>已经习惯 VS Code 的开发者不希望为了用 Kiro Agent 再换一套编辑器。</p>\n<p><strong>如何解决：</strong>官方提供 VS Code 扩展，在现有编辑器里登录并使用 Kiro Agent。它适用于所有 Kiro 方案，官方写明不改计划和计费。</p>\n<p><strong>效果怎样：</strong>这是正式上市公告，没有另给性能或采用数字。能确认的是平台覆盖 macOS、Windows、Linux，以及安装渠道是 VS Code Marketplace 与 Open VSX。</p>\n<p><strong>洞察与启发：</strong>编码 Agent 要进入日常工作，先出现在开发者已经打开的编辑器里，往往比再做一个独立 IDE 更有效。</p>\n<p><strong>相关工作：</strong>各家编码 Agent 都在做编辑器插件；同一周 Claude、Qoder 和 Cursor 生态也在往已有工作区里塞技能和工具，方向一致。</p>\n</details>\n"
 }

@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607882&idx=1&sn=29dc274865dbd06fd48a35d98aff7593",
+  "source": "cleaned/articles/mp-weixin-qq-com-s-biz-mzg5mju0nti5oq-3d-3d-idx-1-mid-2247607882-sn-29-3b0e71976b.json",
+  "title": "AIGC原生视频的双螺旋 Loop Engineering 实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607882&idx=1&sn=29dc274865dbd06fd48a35d98aff7593",
+  "sentence": "百度用带约束的 Loop Engineering 做 AIGC 视频，避免自我改进只在原试卷上刷分。",
+  "category": "实践",
+  "company": "百度",
+  "text": "#### [AIGC原生视频的双螺旋 Loop Engineering 实践](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607882&idx=1&sn=29dc274865dbd06fd48a35d98aff7593)\n\n百度介绍 AIGC 原生视频的双螺旋 Loop Engineering：允许系统跨轮成长，但单轮之内冻结标准，避免自我改进变成刷题。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>视频生成如果让系统无约束地根据反馈改自己，容易在当前那批样本上把分数刷很高，换一批题或看真实可用性时就会掉下来，还可能消耗更多 Token。</p>\n<p><strong>如何解决：</strong>他们采用带约束的循环工程：标准可以跨轮成长，单轮之内一字不改。文中用公开研究的消融说明风险——去掉全部约束的版本在演化集上高达 92.8，分布外平均分却从 43.6 降到 40.3，每次试验 Token 从 2.42M 升到 3.80M。Loopy 把裁判和规则写成系统的一部分，而不是让模型自己改评分标准。</p>\n<p><strong>效果怎样：</strong>在早期 Demo 的同批样本评估中，分镜视频评分提升 <mark class=\"note-card-hl\">7.5%</mark>，综合视频可用率从 92% 提升到 100%。文章同时用上述反例说明：分数变高并不等于系统真的更强。</p>\n<p><strong>洞察与启发：</strong>自我改进要先保住“谁来当裁判”。如果系统和评分标准一起改，表面上的提升可能只是更会应付这张卷子。</p>\n<p><strong>相关工作：</strong>美团 Keeta 同期也在讲带约束的递归自我改进，对象是客服模型；两边都把“跨轮成长、单轮冻结”当成防止刷题的关键约束。</p>\n</details>\n"
+}

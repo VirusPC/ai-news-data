@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+  "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+  "date": "2026-11-24",
+  "source": "raw/articles/feeds.json",
+  "publisher": "AWS",
+  "category": "博客",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "text": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic’s Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models."
+}

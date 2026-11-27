@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+  "source": "cleaned/articles/aws-amazon-com-blogs-machine-learning-introducing-the-amazon-bedrock-t-8850a44a23.json",
+  "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+  "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+  "sentence": "Amazon Bedrock 新增 Trusted Access API，为 Claude 模型接入企业级保障和数据控制。",
+  "category": "产品",
+  "company": "AWS",
+  "text": "#### [Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models](https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/)\n\nAWS 发布 Amazon Bedrock <mark class=\"note-card-hl\">Trusted Access API</mark>，并把 Anthropic 的 Enterprise Frontier Safeguards 与 Enterprise Data Controls 带到 Claude 模型上。\n\n<details>\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>企业要把 Claude 接到内部系统时，通常还需要可审计的访问路径，以及针对前沿模型的安全和数据控制，而不是只拿到一个普通的模型端点。</p>\n<p><strong>如何解决：</strong>Bedrock 提供 Trusted Access API，作为企业调用这些模型的受控入口，并叠上 Anthropic 的企业前沿保障和企业数据控制，让访问策略和数据约束可以跟模型调用一起生效。</p>\n<p><strong>效果怎样：</strong>这是能力发布公告，清洗到的正文较短，没有另给延迟或采用数字。能确认的是：企业现在可以经 Bedrock 使用这套专为 Claude 提供的保障和数据控制，而不是在应用里临时拼接。</p>\n<p><strong>洞察与启发：</strong>模型能力进企业，往往要先补“谁能调用、数据如何被约束”。API 一旦叫 Trusted Access，说明信任已经被当成产品接口，而不是文档里的保证。</p>\n<p><strong>相关工作：</strong>Kiro 同期让云会话接入企业 VPC；LangSmith Tool Gateway 和阿里的身份与授权文章则从工具和 Agent 身份一侧讨论类似边界。</p>\n</details>\n"
+}

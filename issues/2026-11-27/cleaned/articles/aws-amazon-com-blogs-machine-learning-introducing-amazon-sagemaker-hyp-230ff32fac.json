@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+  "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "AWS",
+  "category": "博客",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "text": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink."
+}

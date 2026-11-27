@@ -1,0 +1,10 @@
+{
+  "id": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+  "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+  "date": "2026-11-20",
+  "source": "raw/articles/feeds.json",
+  "publisher": "AWS",
+  "category": "博客",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "text": "Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers."
+}

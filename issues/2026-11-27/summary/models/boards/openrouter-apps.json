@@ -1,7 +1,7 @@
 {
   "id": "OpenRouter 应用用量",
   "source": "cleaned/models/boards/openrouter-apps.json",
-  "caption": "应用用量榜：Hermes Agent 仍第一，Claude Code 第二，pi 从 4.92 升到 6.44。用量按 token 计。",
+  "caption": "前四名仍是 Hermes Agent、Claude Code、Kilo Code 和 pi；Portkey AI 升到第五。HighLevel 和 Nous Research API 新进榜，Freebuff 与 Minds by Authentic Intelligence 离开。",
   "highlights": [],
   "arena_publish_date": null,
   "items": [
