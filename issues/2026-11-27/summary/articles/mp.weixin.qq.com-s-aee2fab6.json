@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ%3D%3D&idx=1&mid=2247607882&sn=29dc274865dbd06fd48a35d98aff7593",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-aee2fab6.json",
+  "title": "AIGC原生视频的双螺旋 Loop Engineering 实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ%3D%3D&idx=1&mid=2247607882&sn=29dc274865dbd06fd48a35d98aff7593",
+  "sentence": "Loopy 把修产线的代理和写标准的代理拆开，标准可以跨轮变，但单轮之内不许改。",
+  "category": "实践",
+  "company": "百度",
+  "text": "#### &lt;实践&gt;&lt;百度&gt;[AIGC原生视频的双螺旋 Loop Engineering 实践](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ%3D%3D&idx=1&mid=2247607882&sn=29dc274865dbd06fd48a35d98aff7593)\n\nLoopy 把修产线的代理和写标准的代理拆开，标准可以跨轮变，但<mark>单轮之内</mark>不许改。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>真实的视频好坏没有固定考卷。标准常常是看到坏片子才补上的。如果修产线的代理也能改裁判，最省事的修复就是把标准放宽。</p>\n<p><strong>如何解决：</strong>基于 Hermes Agent 的 Loopy 做成两条螺旋。效果螺旋在冻结的标准下修产线，标准螺旋从真实的好例子和坏例子长出下一版标准。两条螺旋共享证据，不共享写权限。</p>\n<p><strong>效果怎样：</strong>早期 Demo 的同批样本上，分镜视频评分提升 7.5%，综合可用率从 92% 到 100%。文中引用的不受约束自我改进实验，在演化题上拿到 92.8，换题后平均分从 43.6 掉到 40.3，token 还多花一半以上。</p>\n<p><strong>洞察与启发：</strong>裁判必须能成长，但成长不能发生在同一次修复里。否则系统学到的是如何通过这场考试。</p>\n<p><strong>相关工作：</strong>美团客服的递归改进把工具和 SOP 的错从模型的错里剔除，同样是怕改进学错对象。</p>\n</details>\n"
+}

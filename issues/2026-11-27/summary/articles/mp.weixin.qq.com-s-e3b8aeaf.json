@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-e3b8aeaf.json",
+  "title": "CodeBuddy 三位一体 AI 全栈开发落地实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f",
+  "sentence": "腾讯用 CodeBuddy 做强弱依赖分析时，先把“同一个接口”问成可执行的规则，再切片实现和验收。",
+  "category": "实践",
+  "company": "腾讯",
+  "text": "#### &lt;实践&gt;&lt;腾讯&gt;[CodeBuddy 三位一体 AI 全栈开发落地实践](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f)\n\n腾讯用 CodeBuddy 做强弱依赖分析时，先把“同一个接口”问成可执行的<mark>规则</mark>，再切片实现和验收。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>要判断接口挂了业务还能不能继续，过去得逐个注入故障、点页面、整理截图。接到已有平台上时，还得先搞清怎样才算同一个分析目标。</p>\n<p><strong>如何解决：</strong>requirements-grilling 做了 7 轮澄清，确认使用者、痛点、接口范围、校验、异常和证据。第四轮把识别规则收成 Method 加完整 URL。之后用切片开发、测试和验收检查这些能力是否真的接上页面。</p>\n<p><strong>效果怎样：</strong>文章记录的是这套问法怎样把模糊目标变成首版规则，没有给出上线后的故障发现率。</p>\n<p><strong>洞察与启发：</strong>“逐接口”这种词不先定义，后面的注入和报告都会把不同请求混成一个目标。澄清轮次要留下来源和未决项，不能只留在聊天里。</p>\n<p><strong>相关工作：</strong>淘天的需求专家 Agent 把澄清写成可评审的 requirements，并设成第一道质量门。两边都把提问收成产物。</p>\n</details>\n"
+}

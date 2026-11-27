@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-  "source": "cleaned/projects/ChromeDevTools-chrome-devtools-mcp.json",
-  "purpose": "让编码 Agent 控制和检查实时 Chrome 的 DevTools",
-  "change": "进入 GitHub Trending 每周总榜，本周第 7 名（按榜单原始顺序）。",
-  "text": "#### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)\n\n让编码 Agent 控制和检查实时 Chrome 的 DevTools。让 Antigravity、Claude、Cursor、Copilot 等编码 Agent <mark>控制并检查一个运行中的 Chrome</mark>，用于自动化、深度调试和性能分析。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>以 MCP 服务器和命令行两种形式提供。</p>\n<p><strong>如何解决：</strong>让 Antigravity、Claude、Cursor、Copilot 等编码 Agent 控制并检查一个运行中的 Chrome，用于自动化、深度调试和性能分析。</p>\n<p><strong>补充：</strong>同时提供 MCP 服务器和 CLI。（星标 59504，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
-}

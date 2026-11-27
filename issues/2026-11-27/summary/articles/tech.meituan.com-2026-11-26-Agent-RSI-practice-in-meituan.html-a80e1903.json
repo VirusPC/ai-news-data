@@ -1,0 +1,10 @@
+{
+  "id": "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+  "source": "cleaned/articles/tech.meituan.com-2026-11-26-Agent-RSI-practice-in-meituan.html-a80e1903.json",
+  "title": "从模仿到自我纠错：Keeta客服模型的RSI实践",
+  "link": "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+  "sentence": "客服模型要越用越准，难点不在再学一轮，而在分清错在谁，以及按哪一版规则算错。",
+  "category": "实践",
+  "company": "美团",
+  "text": "#### &lt;实践&gt;&lt;美团&gt;[从模仿到自我纠错：Keeta客服模型的RSI实践](https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html)\n\n客服模型要越用越准，难点不在再学一轮，而在分清<mark>错在谁</mark>，以及按哪一版规则算错。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>线上强模型能处理外卖售后这类多轮会话，但按调用计费，行为也改不到权重里。团队想用自研的中等规模模型接住流量，并让满意度不低于原来的强模型。</p>\n<p><strong>如何解决：</strong>闭环是上线、巡检、归因、按事发时的 SOP 构造修复、在线自蒸馏，再评估上线。归因把工具和 SOP 的问题剔掉，只让模型学自己的错。训练混合多个 SOP 版本，让模型照着输入里的规则办事。特权信息是巡检给出的归因。</p>\n<p><strong>效果怎样：</strong>五轮迭代后，31B 模型的 Bad Case 率降到线上强模型的一半以下，线上满意度小幅超过线上强模型。论文名为 CARE。</p>\n<p><strong>洞察与启发：</strong>一次蒸馏盖不住长尾。规则本身还在变，所以修复样本必须绑在出事时的那一版 SOP 上，否则模型会把后来的规则学成当时的正确答案。</p>\n<p><strong>相关工作：</strong>百度 Loopy 把同一类担心落到视频产线：负责修复的代理不能改裁判。两边都在防止自我改进学到放宽标准。</p>\n</details>\n"
+}

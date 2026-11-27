@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/backnotprop/plannotator",
-  "source": "cleaned/projects/backnotprop-plannotator.json",
-  "purpose": "给编码 Agent 做评审与批注的工作区",
-  "change": "进入 GitHub Trending 每周总榜，本周第 1 名（按榜单原始顺序）。",
-  "text": "#### [backnotprop/plannotator](https://github.com/backnotprop/plannotator)\n\n给编码 Agent 做评审与批注的工作区。Plannotator 把计划、规格、Markdown、HTML 等产物和 PR diff 放进一个评审界面，<mark>反馈一键发回 Agent</mark>，还新增了 Inbox，集中呈现需要人来决定的事项。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>对计划、规格和 diff 做批注，一键把反馈送回 Agent。</p>\n<p><strong>如何解决：</strong>Plannotator 把计划、规格、Markdown、HTML 等产物和 PR diff 放进一个评审界面，反馈一键发回 Agent，还新增了 Inbox，集中呈现需要人来决定的事项。</p>\n<p><strong>补充：</strong>支持 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Amp、Pi 等编码 Agent，也能接 Grok Bot、Hermes、OpenClaw 这类个人助手。（星标 15263，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
-}

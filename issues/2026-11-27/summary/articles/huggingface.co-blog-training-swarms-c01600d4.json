@@ -1,0 +1,10 @@
+{
+  "id": "https://huggingface.co/blog/training-swarms",
+  "source": "cleaned/articles/huggingface.co-blog-training-swarms-c01600d4.json",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "link": "https://huggingface.co/blog/training-swarms",
+  "sentence": "这篇把多代理先收成一个可核对的小实验：四个代理、同一模型，先问合作是不是只是多花了预算。",
+  "category": "架构",
+  "company": "Hugging Face",
+  "text": "#### &lt;架构&gt;&lt;Hugging Face&gt;[Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms)\n\n这篇把多代理先收成一个可核对的小实验：四个代理、同一模型，先问合作是不是只是<mark>多花了预算</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>群体代理很容易被说成更强，但多几个代理同时意味着更多上下文和更多 token。不把预算对齐，就分不清是合作有用，还是只是多试了几次。</p>\n<p><strong>如何解决：</strong>作者从四个共享同一模型的代理、一个可以核对对错的任务做起，并比较独立尝试和会通信的队伍。文中强调信用分配、队友同时在学习，以及消息会改变别人看到的世界。配套例子可以在 Hugging Face Jobs 上重跑，文中写大约五小时、两张 H200，大约 50 美元。</p>\n<p><strong>效果怎样：</strong>文章引用的外部结果包括：Navier-Stokes 那个大规模群体里，合作贡献被估计为不到 10%；漏洞实验里协同代理找到更多问题，但按目录和 token 对齐后差不多。本篇自己的数值结果留在后续实验，不在这里改写。</p>\n<p><strong>洞察与启发：</strong>代理数量被当成和 token、模型大小并列的一个缩放维度。加代理可能有帮助，也可能把本想省下的预算吃掉。</p>\n<p><strong>相关工作：</strong>同一周的 harness adapter 讨论的是把模型训到某一套代理框架上。一个问要不要加代理，一个问模型是否真的适合它所在的框架。</p>\n</details>\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://openai.com/index/introducing-shirudo",
+  "source": "cleaned/articles/openai.com-index-introducing-shirudo-1d0c151f.json",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "link": "https://openai.com/index/introducing-shirudo",
+  "sentence": "Shirudo 是 OpenAI 和 Cisco 一起放出的开源 Linux 运行时，用来在补丁还没铺完时先保住正在跑的系统。",
+  "category": "产品",
+  "company": "OpenAI",
+  "text": "#### &lt;产品&gt;&lt;OpenAI&gt;[OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo)\n\nShirudo 是 OpenAI 和 Cisco 一起放出的开源 Linux <mark>运行时</mark>，用来在补丁还没铺完时先保住正在跑的系统。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>漏洞公开之后，补丁要逐台铺开，中间这段时间运行中的系统仍然暴露着。</p>\n<p><strong>如何解决：</strong>原文把 Shirudo 定义成开源 Linux 运行时，让团队在推出补丁的同时保护正在运行的系统。订阅摘要没有展开内核机制或部署步骤。</p>\n<p><strong>效果怎样：</strong>这期材料没有给出部署规模、拦截次数或性能开销，不能补数字。</p>\n<p><strong>洞察与启发：</strong>保护点放在运行时，而不是等所有主机都升级完。它和模型侧防止能力抽取是两条线：一个看主机，一个看模型接口。</p>\n<p><strong>相关工作：</strong>同一天 OpenAI 还发了对抗蒸馏的分层做法。代码侧则有 CodeRabbit 的安全搜索骨架，关心的是仓库里哪些路径还没被看过。</p>\n</details>\n"
+}

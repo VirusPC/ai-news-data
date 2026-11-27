@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=2&mid=2649808258&sn=5ac2a5154f7b50cbda4ca96997130515",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-e8662f82.json",
+  "title": "CubeSandbox v0.8.0 发布：跨机流动再进化，调度可定制，运行可观测",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=2&mid=2649808258&sn=5ac2a5154f7b50cbda4ca96997130515",
+  "sentence": "v0.8.0 让沙箱跨机暂停不再只靠一种存储后端，并把调度和恢复从平台手里拿回沙箱自己。",
+  "category": "产品",
+  "company": "腾讯",
+  "text": "#### &lt;产品&gt;&lt;腾讯&gt;[CubeSandbox v0.8.0 发布：跨机流动再进化，调度可定制，运行可观测](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=2&mid=2649808258&sn=5ac2a5154f7b50cbda4ca96997130515)\n\nv0.8.0 让沙箱跨机暂停不再只靠一种存储后端，并把调度和<mark>恢复</mark>从平台手里拿回沙箱自己。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>v0.7.0 已能在 A 节点暂停、B 节点恢复，但跨机仍绑在 S3vol 上，调度策略改不了，日志还散在各台机器上，沙箱里的进程崩了也要上层来拉。</p>\n<p><strong>如何解决：</strong>这一版存储后端增加 JuiceFS 预览，模板可以跨节点共享，元数据可选 Redis、MySQL 或 TiKV。调度策略改成插件。运行状态统一采集。异常恢复交回沙箱自身，并补上沙箱之间的通信，E2B 兼容性继续增强。</p>\n<p><strong>效果怎样：</strong>文章写这一版有 8 项核心特性，128 个拉取请求。正文一处写 48 位贡献者，后文写 46 位，两数都留在原文里，不另选一个。没有给出恢复时延的新基准。</p>\n<p><strong>洞察与启发：</strong>跨机流动要同时动存储、调度和观测。只换快照后端，装箱策略和故障恢复仍然是平台里的黑盒。</p>\n<p><strong>相关工作：</strong>EROX 关心 50GB 工作区如何按需到达。v0.8.0 关心沙箱作为整体如何暂停、恢复和被观察。</p>\n</details>\n"
+}

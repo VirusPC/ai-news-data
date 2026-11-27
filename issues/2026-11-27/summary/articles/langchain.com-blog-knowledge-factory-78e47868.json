@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/knowledge-factory",
+  "source": "cleaned/articles/langchain.com-blog-knowledge-factory-78e47868.json",
+  "title": "How to build a knowledge factory for AI agents",
+  "link": "https://www.langchain.com/blog/knowledge-factory",
+  "sentence": "知识工厂让代理自己标出公司知识的缺口，由一个整理代理在后台补上。",
+  "category": "实践",
+  "company": "LangChain",
+  "text": "#### &lt;实践&gt;&lt;LangChain&gt;[How to build a knowledge factory for AI agents](https://www.langchain.com/blog/knowledge-factory)\n\n知识工厂让代理自己标出公司知识的缺口，由一个<mark>整理代理</mark>在后台补上。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代理用的公司知识会过时。靠人想起哪一页该更新，更新速度赶不上代理的提问。</p>\n<p><strong>如何解决：</strong>LangChain 的做法是：使用中的代理标出缺了什么，整理代理在后台把缺口补进知识。摘要没有写审核是否必须人工点头。</p>\n<p><strong>效果怎样：</strong>这篇没有给出补齐条数或错误回答下降的比例。</p>\n<p><strong>洞察与启发：</strong>知识更新被做成一条后台产线，而不是每次对话结束时的手工笔记。</p>\n<p><strong>相关工作：</strong>淘宝直播把知识写成有版本的 wiki。Agent Lake 保留的是轨迹，不是公司事实本身。</p>\n</details>\n"
+}

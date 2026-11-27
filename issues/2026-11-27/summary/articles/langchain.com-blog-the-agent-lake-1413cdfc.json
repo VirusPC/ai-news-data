@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/the-agent-lake",
+  "source": "cleaned/articles/langchain.com-blog-the-agent-lake-1413cdfc.json",
+  "title": "The Agent Lake",
+  "link": "https://www.langchain.com/blog/the-agent-lake",
+  "sentence": "Agent Lake 把代理产生的每条轨迹留下，再从里面挑出值得修和值得拿去微调的那些。",
+  "category": "架构",
+  "company": "LangChain",
+  "text": "#### &lt;架构&gt;&lt;LangChain&gt;[The Agent Lake](https://www.langchain.com/blog/the-agent-lake)\n\nAgent Lake 把代理产生的每条<mark>轨迹</mark>留下，再从里面挑出值得修和值得拿去微调的那些。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代理每天产生大量轨迹，全看不完，丢掉又不知道问题出在哪一次调用。</p>\n<p><strong>如何解决：</strong>LangSmith 的 Agent Lake 保存轨迹，并在规模上找出高信号的那些，再变成修复和微调数据。订阅摘要没有写采样规则。</p>\n<p><strong>效果怎样：</strong>材料没有给出轨迹规模或从中修掉的缺陷数。</p>\n<p><strong>洞察与启发：</strong>轨迹如果只是日志，就不会进入下一版模型。要有一层专门把高信号样本挑出来。</p>\n<p><strong>相关工作：</strong>知识工厂补的是代理发现的知识缺口。Tool Gateway 则给每一次工具调用留下凭据、审批和轨迹。</p>\n</details>\n"
+}

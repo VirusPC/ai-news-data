@@ -1,0 +1,10 @@
+{
+  "id": "https://x.com/cognition/status/2125659035231780966",
+  "source": "cleaned/articles/x.com-cognition-status-2125659035231780966-56777408.json",
+  "title": "Introducing Org Charts ▪️ One canvas for all your Devin Bots ▪️ View progress across outcomes and g...",
+  "link": "https://x.com/cognition/status/2125659035231780966",
+  "sentence": "Devin 把多个 Bot 收进一张组织图，用来看目标和还要人出手的地方。",
+  "category": "产品",
+  "company": "Cognition",
+  "text": "#### &lt;产品&gt;&lt;Cognition&gt;[Introducing Org Charts ▪️ One canvas for all your Devin Bots ▪️ View progress across outcomes and g...](https://x.com/cognition/status/2125659035231780966)\n\nDevin 把多个 Bot 收进一张<mark>组织图</mark>，用来看目标和还要人出手的地方。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>Bot 一多，进度散在各自的会话里，看不出哪一件事卡住、哪一件事要人处理。</p>\n<p><strong>如何解决：</strong>Org Charts 是一张画布，汇总 Devin Bots，按结果和目标看进度，并标出需要注意和行动的项。公告写明当天已经在 Devin Bots 里可用。</p>\n<p><strong>效果怎样：</strong>这则公告没有给出接入的 Bot 数量或节省的查看时间。</p>\n<p><strong>洞察与启发：</strong>多个代理并行之后，缺的界面不是再开一个聊天，而是一张能把目标和例外放在一起的图。</p>\n<p><strong>相关工作：</strong>Kiro 的 conductor 模式也在把并行的代理工作收成一个人能改需求、看原型的过程。Plannotator 则把计划和 diff 上的批注送回代理。</p>\n</details>\n"
+}

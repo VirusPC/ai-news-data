@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/private-networks",
+  "source": "cleaned/articles/kiro.dev-blog-private-networks-afb5c4d9.json",
+  "title": "Kiro cloud sessions now reach private networks",
+  "link": "https://kiro.dev/blog/private-networks",
+  "sentence": "云端会话可以挂进管理员登记的 VPC，从而碰到没有公网地址的依赖和构建机。",
+  "category": "产品",
+  "company": "Kiro",
+  "text": "#### &lt;产品&gt;&lt;Kiro&gt;[Kiro cloud sessions now reach private networks](https://kiro.dev/blog/private-networks)\n\n云端会话可以挂进管理员登记的 <mark>VPC</mark>，从而碰到没有公网地址的依赖和构建机。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>以前云端会话只能上公网和 Kiro 自己的服务，装不了内部包，也跑不了对着内网数据库的集成测试。</p>\n<p><strong>如何解决：</strong>管理员登记一次 VPC，之后新建的云端会话自动加入。除 Kiro 自己的流量外，出口走这张 VPC，因此也能决定代理能不能上公网。文章写明这项连接面向使用 IAM Identity Center 的企业方案。</p>\n<p><strong>效果怎样：</strong>没有写出已经接入的网络数量。能确认的是接入粒度是整张 VPC，而不是每个会话单独开口。</p>\n<p><strong>洞察与启发：</strong>云端代理的网络边界应该落在客户的网络里。否则私有依赖要么被暴露，要么代理根本做不了集成测试。</p>\n<p><strong>相关工作：</strong>VS Code 扩展把代理带进本地编辑器。需要内网的那部分工作，仍然要靠这种云端会话进 VPC。</p>\n</details>\n"
+}

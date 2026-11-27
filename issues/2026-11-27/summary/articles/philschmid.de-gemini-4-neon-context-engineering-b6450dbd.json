@@ -1,0 +1,10 @@
+{
+  "id": "https://www.philschmid.de/gemini-4-neon-context-engineering",
+  "source": "cleaned/articles/philschmid.de-gemini-4-neon-context-engineering-b6450dbd.json",
+  "title": "How my context engineering changed for Gemini 4 Neon",
+  "link": "https://www.philschmid.de/gemini-4-neon-context-engineering",
+  "sentence": "为旧模型写的防护、技能和规则，放在 Gemini 4 Neon 上会把它拖慢。",
+  "category": "实践",
+  "company": "philschmid",
+  "text": "#### &lt;实践&gt;&lt;philschmid&gt;[How my context engineering changed for Gemini 4 Neon](https://www.philschmid.de/gemini-4-neon-context-engineering)\n\n为旧模型写的防护、技能和规则，放在 Gemini 4 Neon 上会把它<mark>拖慢</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>上下文里堆着上一代模型需要的约束。更强的模型不一定需要同样多的扶手，扶手会变成额外的弯路。</p>\n<p><strong>如何解决：</strong>作者在连续几周的评测和日常使用之后，改了五处上下文工程。订阅摘要没有列出这五处的名称，不能在这里编。</p>\n<p><strong>效果怎样：</strong>文章的判断是旧规则会拖慢 Neon。没有给出延迟或任务成功率的对照。</p>\n<p><strong>洞察与启发：</strong>技能和规则是有模型代际的。换模型时要删掉只为弥补上一代缺陷而写的约束，而不是无限累加。</p>\n<p><strong>相关工作：</strong>框架适配器从训练侧让模型贴住框架。这篇从提示和技能侧说明，上下文本身也要跟着模型换。</p>\n</details>\n"
+}

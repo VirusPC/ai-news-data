@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+  "source": "cleaned/articles/claude.com-resources-articles-skills-over-mcp-tasks-and-more-44f76c8b.json",
+  "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+  "link": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+  "sentence": "MCP 服务器现在可以连同技能一起发布，并在 Claude 还在做别的事时把长任务放在后台。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)\n\nMCP 服务器现在可以连同<mark>技能</mark>一起发布，并在 Claude 还在做别的事时把长任务放在后台。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>工具名和描述只能告诉模型服务器能做什么，盖不住具体流程；过去一次工具调用还得做完，Claude 才能继续。</p>\n<p><strong>如何解决：</strong>Skills over MCP 进入公开测试，服务器把技能和工具一起发布，Claude 只在用到时加载。Tasks 和 Elicitation 转为正式可用：服务器可以后台跑长时间操作或整段代理循环，也可以中途用表单或链接向用户确认。File Uploads 即将推出，用来传文件而不把文件塞进上下文。</p>\n<p><strong>效果怎样：</strong>文中举例：Shopify 用技能帮 Claude 改商店，HubSpot 做客户开通，ZoomInfo 用 Tasks 做更深的客户研究，Supabase 在付费或破坏性 SQL 前用 Elicitation 确认。技能默认对 Pro、Max、Ultra 打开，Team 要管理员开启。</p>\n<p><strong>洞察与启发：</strong>这些能力写在开放的 MCP 规范和扩展里，不只能在 Claude 里用。服务器作者可以同时发工具和用法，用户不用再另装一份说明。</p>\n<p><strong>相关工作：</strong>Claude Code 2.1.332 把这类技能显示进命令菜单。Google Antigravity 同一周加上了 MCP Apps，让工具结果可以画出界面。</p>\n</details>\n"
+}

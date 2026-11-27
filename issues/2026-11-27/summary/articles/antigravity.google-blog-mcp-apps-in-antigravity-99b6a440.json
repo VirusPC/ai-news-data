@@ -1,0 +1,10 @@
+{
+  "id": "https://antigravity.google/blog/mcp-apps-in-antigravity",
+  "source": "cleaned/articles/antigravity.google-blog-mcp-apps-in-antigravity-99b6a440.json",
+  "title": "Bringing MCP Apps to Antigravity",
+  "link": "https://antigravity.google/blog/mcp-apps-in-antigravity",
+  "sentence": "Antigravity 让 MCP 工具在文字结果旁边直接画出界面，图表和结构化结果不必再靠模型转述。",
+  "category": "产品",
+  "company": "Google",
+  "text": "#### &lt;产品&gt;&lt;Google&gt;[Bringing MCP Apps to Antigravity](https://antigravity.google/blog/mcp-apps-in-antigravity)\n\nAntigravity 让 MCP 工具在文字结果旁边直接画出<mark>界面</mark>，图表和结构化结果不必再靠模型转述。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>工具调用的返回通常是文字或原始 JSON，图、时间序列和文件格式都要模型再讲一遍，既占上下文，也容易讲歪。</p>\n<p><strong>如何解决：</strong>11 月 24 日的文章宣布支持 MCP Apps（SEP-1865，io.modelcontextprotocol/ui）。工具声明界面资源后，结果可以嵌在对话里，也可以用 Antigravity 扩展开到侧栏、左侧全页，或替换特定扩展名的文件查看器。标准 MCP Apps 不改代码就能用。</p>\n<p><strong>效果怎样：</strong>文中说明侧栏最多保持 5 个隐藏标签在内存里，重复调用会更新同一标签，而不是再堆一张卡片。文件视图拿到的是不透明的 antigravity-file URI，本地保存只对磁盘上的本地文件开放。没有采用率数字。</p>\n<p><strong>洞察与启发：</strong>工具作者开始要决定结果出现在哪一层：聊天气泡、持久侧栏，还是某种文件的查看器。界面变成协议的一部分，不再是客户端的私货。</p>\n<p><strong>相关工作：</strong>同一周 Claude 让 MCP 服务器附带技能、后台任务和中途确认。一边补用法和长任务，一边补结果怎么被看见。</p>\n</details>\n"
+}

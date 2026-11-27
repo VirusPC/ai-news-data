@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/kiro-for-vs-code",
+  "source": "cleaned/articles/kiro.dev-blog-kiro-for-vs-code-2be590e3.json",
+  "title": "Introducing Kiro for VS Code",
+  "link": "https://kiro.dev/blog/kiro-for-vs-code",
+  "sentence": "Kiro 的代理进了 VS Code，macOS、Windows 和 Linux 上都能装，而且不改现有套餐。",
+  "category": "产品",
+  "company": "Kiro",
+  "text": "#### &lt;产品&gt;&lt;Kiro&gt;[Introducing Kiro for VS Code](https://kiro.dev/blog/kiro-for-vs-code)\n\nKiro 的代理进了 VS Code，macOS、Windows 和 Linux 上都能装，而且<mark>不改</mark>现有套餐。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>已经习惯某套编辑器的人，不会为了一个代理再换一套完整环境。</p>\n<p><strong>如何解决：</strong>11 月 20 日宣布 Kiro for VS Code 正式可用。从 VS Code Marketplace 或 Open VSX 安装，登录后在原编辑器里用 Kiro 代理。文章写明适用于每一种 Kiro 方案，套餐和账单不变。</p>\n<p><strong>效果怎样：</strong>公告没有写安装量。能确认的是三个桌面系统都可用，安装来源有两处市场。</p>\n<p><strong>洞察与启发：</strong>代理产品的分发开始贴着现成编辑器走。换环境的成本如果高于试一次代理的意愿，功能就到不了人手里。</p>\n<p><strong>相关工作：</strong>同一天的私有网络能力解决云端会话进不了内网。编辑器扩展解决的是人在哪里工作，网络接入解决的是代码和构建在哪里。</p>\n</details>\n"
+}

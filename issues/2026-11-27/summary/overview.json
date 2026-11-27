@@ -1,18 +1,14 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.10"
+    "version": "0.0.11"
   },
   "themes": [
     {
       "kind": "model",
-      "tag": "用循环换深度",
-      "text": "模型这周都在不加参数、多算几轮上做文章。Inkling 2 Mini 让 24 层里中间 12 层循环三次，约 26B 总参数、3B 激活，面向本地部署，官方称 48 项基准领先 32 项。GLM-5.4 把 28 层循环两轮，官方称智能水平达到 2-3T 级，非高峰最高约 200 token/s，API 要等安全评估后开放。",
+      "tag": "计算深度",
+      "text": "这一周模型侧新的旗舰是 GLM-5.4。智谱没有只靠把参数再堆大，而是把已经训完的基座改成循环结构：750B 里的 28 层做两轮循环，再用门控写回、共享键值缓存和复用稀疏索引，把多想一轮的成本压住。文中把它放进泛 Coding，例子从编程评测延伸到用代码处理视频和机械建模。深度和参数被写成一起走的两条路，循环负责必须沿长因果链推演的任务。同架构的小模型对比里，训练计算量只多约一成，输出反而更短。",
       "refs": [
-        {
-          "id": "Inkling 2 Mini",
-          "label": "Inkling 2 Mini"
-        },
         {
           "id": "GLM-5.4",
           "label": "GLM-5.4"
@@ -21,20 +17,20 @@
     },
     {
       "kind": "other",
-      "tag": "改动怎么验证",
-      "text": "改动能不能放心合并，是这周几处共同的问题。Anthropic 把 Messages API 迁到 Rust 时，让线上 API 自己当验证器，每个请求少用约 70% 的 CPU。KiroBench 用 300 多个带验证器的任务衡量 Agent。Claude Ship 让 Claude 按仓库里的策略批准 PR。open-code-review 用确定性流水线加 LLM 做逐行评论。",
+      "tag": "交付闭环",
+      "text": "好几条线都在把代理从写完代码接到后面的交付。Introducing Claude Ship 把评审、修拉取请求和按仓库策略批准接在一起。CodeBuddy 三位一体 AI 全栈开发落地实践先把强弱依赖问成可执行规则，再切片实现和验收。如何搭建一个端到端业务需求专家 Agent 用澄清、方案和内部质量三道门走到结项。open-code-review 则把内部评审循环做成能翻仓库的命令行。人被留在确认和标准上，而不是留在来回搬运上下文。",
       "refs": [
         {
-          "id": "https://www.anthropic.com/research/migrating-api-to-rust",
-          "label": "Messages API 迁到 Rust"
-        },
-        {
-          "id": "https://kiro.dev/blog/kirobench",
-          "label": "KiroBench"
-        },
-        {
           "id": "https://claude.com/resources/articles/introducing-claude-ship",
-          "label": "Claude Ship"
+          "label": "Introducing Claude Ship"
+        },
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f",
+          "label": "CodeBuddy 三位一体 AI 全栈开发落地实践"
+        },
+        {
+          "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69",
+          "label": "如何搭建一个端到端业务需求专家 Agent"
         },
         {
           "id": "https://github.com/alibaba/open-code-review",
@@ -44,55 +40,51 @@
     },
     {
       "kind": "other",
-      "tag": "长任务底座",
-      "text": "Agent 一跑几天，底层要先扛得住。Kiro CLI 把旧轮次归档到磁盘，模拟 21 天后内存为 193.5 MB，不再增长。腾讯 EROX 让 50 GB 工作区在同地域节点 320 毫秒内可访问。LangSmith Tool Gateway 管工具调用的凭据与身份，阿里则把智能体身份与授权的 DTR 规范草案推进到 OAuth 工作组。n8n 的 nod 是在本机运行的开源个人 Agent。",
+      "tag": "审阅界面",
+      "text": "代理一多，缺的是人还能插手的界面，而不是再开一个聊天。plannotator 在本地把计划和 diff 的批注送回代理。stitch-skills 与 modern-web-guidance-src 把设计和 Web 平台知识收成可安装的技能。nod 在本机操作真实网站之前先请示。Bringing MCP Apps to Antigravity 让工具结果直接画出界面。这些界面决定人看见什么、在哪一步能改口。",
       "refs": [
         {
-          "id": "https://kiro.dev/blog/agents-run-for-days",
-          "label": "Kiro CLI"
+          "id": "https://github.com/backnotprop/plannotator",
+          "label": "plannotator"
         },
         {
-          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
-          "label": "腾讯 EROX"
+          "id": "https://github.com/google-labs-code/stitch-skills",
+          "label": "stitch-skills"
         },
         {
-          "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
-          "label": "LangSmith Tool Gateway"
-        },
-        {
-          "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
-          "label": "阿里"
+          "id": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "label": "modern-web-guidance-src"
         },
         {
           "id": "https://github.com/n8n-io/nod",
           "label": "nod"
+        },
+        {
+          "id": "https://antigravity.google/blog/mcp-apps-in-antigravity",
+          "label": "Bringing MCP Apps to Antigravity"
         }
       ]
     },
     {
       "kind": "other",
-      "tag": "工具接口",
-      "text": "工具和 Agent 之间的接口在变厚。Antigravity 支持 MCP Apps，工具结果可渲染成交互界面。Claude 里 MCP 服务器可以随工具发布 skill。chrome-devtools-mcp 让 Agent 控制并检查实时 Chrome，AG-UI 用事件协议把 Agent 接进前端。Hugging Face 为每个 harness 训 LoRA，Qwen3.8-27B 在 Terminal-Bench 2.1 上从 39% 提到 55%。",
+      "tag": "状态延续",
+      "text": "长会话真正难搬的是状态和知识，不是进程本身。50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题把工作区按需送到下一台机器。一个向量库，两种检索：VikingDB 关键词检索实践提醒名称和编号不能只靠语义。基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践把跨仓经验收成可核对的结构。The Agent Lake 则把轨迹留下，再挑出值得修的那些。没有这层，下一轮还是从零开始。",
       "refs": [
         {
-          "id": "https://antigravity.google/blog/mcp-apps-in-antigravity",
-          "label": "MCP Apps"
+          "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+          "label": "50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题"
         },
         {
-          "id": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-          "label": "随工具发布 skill"
+          "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+          "label": "一个向量库，两种检索：VikingDB 关键词检索实践"
         },
         {
-          "id": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-          "label": "chrome-devtools-mcp"
+          "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+          "label": "基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践"
         },
         {
-          "id": "https://github.com/ag-ui-protocol/ag-ui",
-          "label": "AG-UI"
-        },
-        {
-          "id": "https://huggingface.co/blog/harness-adapters-at-scale",
-          "label": "为每个 harness 训 LoRA"
+          "id": "https://www.langchain.com/blog/the-agent-lake",
+          "label": "The Agent Lake"
         }
       ]
     }

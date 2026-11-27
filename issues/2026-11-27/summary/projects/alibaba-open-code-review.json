@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/alibaba/open-code-review",
-  "source": "cleaned/projects/alibaba-open-code-review.json",
-  "purpose": "阿里开源的 AI 代码评审命令行工具",
-  "change": "进入 GitHub Trending 每周总榜，本周第 5 名（按榜单原始顺序）。",
-  "text": "#### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)\n\n阿里开源的 AI 代码评审命令行工具。混合架构：<mark>确定性流水线</mark>加 LLM Agent，逐行评论，内置多语言规则集（空指针、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic 接口。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>确定性流程加 LLM Agent，给出逐行评论。</p>\n<p><strong>如何解决：</strong>混合架构：确定性流水线加 LLM Agent，逐行评论，内置多语言规则集（空指针、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic 接口。</p>\n<p><strong>补充：</strong>源自阿里集团内部的官方 AI 代码评审工具。（星标 56656，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
-}

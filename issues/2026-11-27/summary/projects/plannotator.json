@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/backnotprop/plannotator",
+  "source": "cleaned/projects/plannotator.json",
+  "purpose": "多代理同时做计划、原型和代码时，审阅如果留在聊天里，意见到不了代理下一步要读的位置。",
+  "change": "仓库把自己定义成代理和人之间缺掉的那层审阅，没有公布任务完成率。当前 GitHub 星标是 15304，许可证 Apache-2.0。",
+  "text": "#### [plannotator](https://github.com/backnotprop/plannotator) 15304 stars Apache-2.0\n\n编程代理给出计划和 diff 之后，还缺一块能<mark>批注</mark>并把意见送回去的本地界面。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>多代理同时做计划、原型和代码时，审阅如果留在聊天里，意见到不了代理下一步要读的位置。</p>\n<p><strong>如何解决：</strong>Plannotator 是本地浏览器里的审阅面，通过插件、钩子和命令接进 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Droid、Amp、Pi 等。代理提出决策、计划或做完一步时打开页面，人在计划、规格、HTML 或 diff 上批注，再把反馈发回代理。Inbox 也覆盖一部分个人助理。</p>\n<p><strong>效果怎样：</strong>仓库把自己定义成代理和人之间缺掉的那层审阅，没有公布任务完成率。当前 GitHub 星标是 15304，许可证 Apache-2.0。</p>\n<p><strong>洞察与启发：</strong>代理越能并行，越需要一个不属于任何一个聊天线程的收件箱。批注对象是计划和产物，不只是最后一段代码。</p>\n<p><strong>相关工作：</strong>本周 Claude Ship 处理拉取请求的评审和批准，Kiro conductor 处理并行功能的计划。Plannotator 站在这些代理的外侧，专门收人的标记。</p>\n</details>\n"
+}

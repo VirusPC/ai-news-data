@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/n8n-io/nod",
-  "source": "cleaned/projects/n8n-io-nod.json",
-  "purpose": "n8n 的开源个人 Agent",
-  "change": "进入 GitHub Trending 每周总榜，本周第 4 名（按榜单原始顺序）。",
-  "text": "#### [n8n-io/nod](https://github.com/n8n-io/nod)\n\nn8n 的开源个人 Agent。Nod 是一个<mark>有自己电脑</mark>的个人 Agent，在真实网站上追发票、准备会议材料、取消试用，动手前会询问；运行在本机，模型自选。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>在你自己的电脑上替你做事，动手前先问。</p>\n<p><strong>如何解决：</strong>Nod 是一个有自己电脑的个人 Agent，在真实网站上追发票、准备会议材料、取消试用，动手前会询问；运行在本机，模型自选。</p>\n<p><strong>补充：</strong>支持 macOS 14+，Windows 11 和 Linux x64 为预览版；免费开源。（星标 4015，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
-}

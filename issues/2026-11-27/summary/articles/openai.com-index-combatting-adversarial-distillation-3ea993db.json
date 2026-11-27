@@ -1,0 +1,10 @@
+{
+  "id": "https://openai.com/index/combatting-adversarial-distillation",
+  "source": "cleaned/articles/openai.com-index-combatting-adversarial-distillation-3ea993db.json",
+  "title": "Combatting adversarial distillation",
+  "link": "https://openai.com/index/combatting-adversarial-distillation",
+  "sentence": "OpenAI 用训练、防护、发现和处置四层，对付从接口里抽走能力的蒸馏。",
+  "category": "模型",
+  "company": "OpenAI",
+  "text": "#### &lt;模型&gt;&lt;OpenAI&gt;[Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation)\n\nOpenAI 用训练、防护、发现和处置四层，对付从接口里<mark>抽走能力</mark>的蒸馏。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>有人会通过大量调用，把模型能力蒸馏进别的系统。单靠一个过滤规则盖不住这种抽取。</p>\n<p><strong>如何解决：</strong>原文把做法分成四层：模型训练、防护措施、检测，以及发现之后的处置。订阅摘要没有列出具体阈值或检测特征。</p>\n<p><strong>效果怎样：</strong>材料里没有给出拦截比例或误报。只能确认这是一套分层策略，而不是单一开关。</p>\n<p><strong>洞察与启发：</strong>能力抽取被当成要持续对付的行为，所以检测和处置跟训练放在一起，而不是等模型发布后再补一篇政策。</p>\n<p><strong>相关工作：</strong>Shirudo 处理的是主机还没打完补丁的窗口。两篇都在 11 月 23 日前后出现，一个在模型接口，一个在系统运行时。</p>\n</details>\n"
+}

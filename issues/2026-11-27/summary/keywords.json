@@ -1,67 +1,73 @@
 {
   "keywords": [
     {
-      "name": "改动怎么验证",
+      "name": "计算深度",
       "weight": 5,
       "targets": [
-        "https://www.anthropic.com/research/migrating-api-to-rust",
-        "https://kiro.dev/blog/kirobench",
-        "https://claude.com/resources/articles/introducing-claude-ship",
-        "https://github.com/alibaba/open-code-review"
-      ]
-    },
-    {
-      "name": "工具接口",
-      "weight": 5,
-      "targets": [
-        "https://antigravity.google/blog/mcp-apps-in-antigravity",
-        "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-        "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "https://github.com/ag-ui-protocol/ag-ui",
-        "https://huggingface.co/blog/harness-adapters-at-scale"
-      ]
-    },
-    {
-      "name": "用循环换深度",
-      "weight": 5,
-      "targets": [
-        "Inkling 2 Mini",
         "GLM-5.4"
       ]
     },
     {
-      "name": "长任务底座",
+      "name": "交付闭环",
       "weight": 5,
       "targets": [
-        "https://kiro.dev/blog/agents-run-for-days",
-        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
-        "https://www.langchain.com/blog/langsmith-tool-gateway",
-        "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
-        "https://github.com/n8n-io/nod"
+        "https://claude.com/resources/articles/introducing-claude-ship",
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f",
+        "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69",
+        "https://github.com/alibaba/open-code-review"
+      ]
+    },
+    {
+      "name": "审阅界面",
+      "weight": 5,
+      "targets": [
+        "https://github.com/backnotprop/plannotator",
+        "https://github.com/google-labs-code/stitch-skills",
+        "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "https://github.com/n8n-io/nod",
+        "https://antigravity.google/blog/mcp-apps-in-antigravity"
+      ]
+    },
+    {
+      "name": "状态延续",
+      "weight": 5,
+      "targets": [
+        "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+        "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+        "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+        "https://www.langchain.com/blog/the-agent-lake"
+      ]
+    },
+    {
+      "name": "Claude Ship",
+      "weight": 4.2,
+      "targets": [
+        "https://claude.com/resources/articles/introducing-claude-ship",
+        "https://www.warp.dev/blog/program-software-factory-as-code",
+        "https://github.com/backnotprop/plannotator"
       ]
     },
     {
       "name": "GLM-5.4",
       "weight": 3.6,
       "targets": [
-        "https://huggingface.co/blog/inkling2mini",
-        "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73",
+        "https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol",
+        "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73",
         "GLM-5.4"
       ]
     },
     {
-      "name": "Inkling 2 Mini",
-      "weight": 2.2,
+      "name": "不用自建后端",
+      "weight": 1.4,
       "targets": [
-        "https://huggingface.co/blog/inkling2mini",
-        "Inkling 2 Mini"
+        "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5"
       ]
     },
     {
-      "name": "Claude Ship",
+      "name": "前端页面也能接入云端数据了",
       "weight": 1.4,
       "targets": [
-        "https://claude.com/resources/articles/introducing-claude-ship"
+        "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5"
       ]
     }
   ]

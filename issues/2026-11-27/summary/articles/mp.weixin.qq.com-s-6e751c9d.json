@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547166&sn=bde8139cdeb253d696b9aa289b06ac96",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-6e751c9d.json",
+  "title": "当设计经验开始自我进化：TaoDesign 的探索与实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547166&sn=bde8139cdeb253d696b9aa289b06ac96",
+  "sentence": "TaoDesign 放弃了从设计稿再转一层的插件，改成浏览器里的工作台，让设计约束跟着稿子交给研发。",
+  "category": "产品",
+  "company": "阿里",
+  "text": "#### &lt;产品&gt;&lt;阿里&gt;[当设计经验开始自我进化：TaoDesign 的探索与实践](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547166&sn=bde8139cdeb253d696b9aa289b06ac96)\n\nTaoDesign 放弃了从设计稿再转一层的插件，改成浏览器里的<mark>工作台</mark>，让设计约束跟着稿子交给研发。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>体验设计要反复做相似页面，交接时状态、跳转和异常路径又经常说丢，下游只能再问一遍。</p>\n<p><strong>如何解决：</strong>团队先用 MasterGo 插件生稿，发现跨表示层有损耗，于是自建以浏览器为画板的工作台。架构分客户端、服务端和云端沙箱。源码编辑优先用确定性补丁，代理只做兜底，并有异步快照回滚。设计经验被收成视觉规范、复用结构、静态资源和业务知识，用图和批注带着多状态，经 MCP 交给研发。</p>\n<p><strong>效果怎样：</strong>文章把目标说成减少重复制作和返工澄清，没有给出节省的人时或一次通过率。</p>\n<p><strong>洞察与启发：</strong>生成界面如果还要翻译成另一套表示，约束会在翻译里丢掉。直接改源码，并让补丁优先于自由发挥，是为了把控制权留在设计师手里。</p>\n<p><strong>相关工作：</strong>业务需求专家 Agent 在研发链路上做同样的事：上下文和确认留在可追溯的产物里，而不是留在对话里。</p>\n</details>\n"
+}

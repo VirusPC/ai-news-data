@@ -1,0 +1,10 @@
+{
+  "id": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "source": "cleaned/articles/langchain.com-blog-langsmith-tool-gateway-48de2ffa.json",
+  "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+  "link": "https://www.langchain.com/blog/langsmith-tool-gateway",
+  "sentence": "Tool Gateway 把每次工具调用的凭据、身份和审批收到一个公开测试的入口里。",
+  "category": "产品",
+  "company": "LangChain",
+  "text": "#### &lt;产品&gt;&lt;LangChain&gt;[LangSmith Tool Gateway: Secure, governed tool use for agents](https://www.langchain.com/blog/langsmith-tool-gateway)\n\nTool Gateway 把每次工具调用的凭据、身份和<mark>审批</mark>收到一个公开测试的入口里。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代理要调用工具时，密钥、代表谁调用、能不能调用，如果散在各个工具里，就没法统一撤销或复查。</p>\n<p><strong>如何解决：</strong>LangSmith Tool Gateway 处于公开测试，负责每次工具调用的凭据、身份和访问，并带上策略、审批和轨迹。</p>\n<p><strong>效果怎样：</strong>公告没有写已经接入的工具数或拦截次数。</p>\n<p><strong>洞察与启发：</strong>工具调用被当成要治理的动作，而不是模型顺便发出的一次 HTTP。轨迹和审批放在同一处，事后才能对上是谁允许的。</p>\n<p><strong>相关工作：</strong>阿里参与的 Deferred Token Response 把委托和令牌写进 OAuth 草案。网关是产品，DTR 是规范。</p>\n</details>\n"
+}

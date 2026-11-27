@@ -65,6 +65,26 @@
     {
       "name": "Muse Spark 1.2 (xHigh)",
       "value": 1492.76
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "value": 1491.25
+    },
+    {
+      "name": "Gemini 4 Hydrogen (High)",
+      "value": 1490.14
+    },
+    {
+      "name": "Gemini 3.7 Flash (High)",
+      "value": 1489.7
+    },
+    {
+      "name": "Claude Opus 5 (High)",
+      "value": 1489.67
+    },
+    {
+      "name": "Muse Spark",
+      "value": 1489.43
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "https://www.warp.dev/blog/program-software-factory-as-code",
+  "source": "cleaned/articles/warp.dev-blog-program-software-factory-as-code-ee0f26cb.json",
+  "title": "How to build a software factory you'll actually use",
+  "link": "https://www.warp.dev/blog/program-software-factory-as-code",
+  "sentence": "Warp 把软件工厂写成蓝图：代理流程、分诊、规格、计算机操作验证和合并风险都进代码。",
+  "category": "实践",
+  "company": "Warp",
+  "text": "#### &lt;实践&gt;&lt;Warp&gt;[How to build a software factory you'll actually use](https://www.warp.dev/blog/program-software-factory-as-code)\n\nWarp 把软件工厂写成<mark>蓝图</mark>：代理流程、分诊、规格、计算机操作验证和合并风险都进代码。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>口头上的代理流程换一个人或换一次会话就走样，也没法复查为什么这次合并被当成有风险。</p>\n<p><strong>如何解决：</strong>文章要讲的是把工厂写成代码：用蓝图定义代理工作流，加上分诊和规格，用计算机操作做验证，并给合并风险打分。摘要停在这个范围，没有展开评分公式。</p>\n<p><strong>效果怎样：</strong>材料没有给出采用这套蓝图后的合并速度或回退率。</p>\n<p><strong>洞察与启发：</strong>工厂如果不能提交进仓库，就还是一套口口相传的习惯。验证和风险分要和流程定义放在一起。</p>\n<p><strong>相关工作：</strong>Claude Ship 用仓库里的策略文件决定谁可以批准。Kiro 的 conductor 则把计划和原型复核放进同一次功能开发。</p>\n</details>\n"
+}

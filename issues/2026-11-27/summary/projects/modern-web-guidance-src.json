@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/GoogleChrome/modern-web-guidance-src",
+  "source": "cleaned/projects/modern-web-guidance-src.json",
+  "purpose": "训练语料里旧代码很多，代理会用一大段 JavaScript 完成现在已经有原生能力的事。就算它知道某个 API 存在，也常常缺少能用的现代写法。",
+  "change": "README 没有给出扫描后少写了多少遗留代码。当前星标 11311，许可证 Apache-2.0。",
+  "text": "#### [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) 11311 stars Apache-2.0\n\n这套技能把现行的 Web 平台做法塞进编码代理，免得它继续写出<mark>过时</mark>的脚本。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>训练语料里旧代码很多，代理会用一大段 JavaScript 完成现在已经有原生能力的事。就算它知道某个 API 存在，也常常缺少能用的现代写法。</p>\n<p><strong>如何解决：</strong>Modern Web Guidance 把平台知识、实践和浏览器兼容数据做成技能。源仓库负责编写、校准和评估，由 Chrome、Edge、Firefox 和 MDN 一起维护。安装命令是 npx modern-web-guidance@latest install，需要 Node.js 22 或更新。也可以不安装，直接 search、retrieve，或对代码库做 legacy-scan。</p>\n<p><strong>效果怎样：</strong>README 没有给出扫描后少写了多少遗留代码。当前星标 11311，许可证 Apache-2.0。</p>\n<p><strong>洞察与启发：</strong>纠正代理的办法可以是一份带评估的技能库，而不是再写一条“请使用现代 API”的系统提示。检索和扫描分开，人可以先查一条指导，再扫整个仓库。</p>\n<p><strong>相关工作：</strong>Stitch 的技能包教代理怎么做设计。这一套教代理怎么写现在的 Web。两边都是把专业知识从模型权重里挪到可更新的技能。</p>\n</details>\n"
+}

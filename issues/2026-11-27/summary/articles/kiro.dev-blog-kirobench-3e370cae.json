@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/kirobench",
+  "source": "cleaned/articles/kiro.dev-blog-kirobench-3e370cae.json",
+  "title": "Benchmarking coding agents on the work developers bring to Kiro",
+  "link": "https://kiro.dev/blog/kirobench",
+  "sentence": "Kiro 要量的不是一道题，而是开发者真正拿来的那些活：小问题、跨很多文件的功能，以及把项目跑起来。",
+  "category": "实践",
+  "company": "Kiro",
+  "text": "#### &lt;实践&gt;&lt;Kiro&gt;[Benchmarking coding agents on the work developers bring to Kiro](https://kiro.dev/blog/kirobench)\n\nKiro 要量的不是一道题，而是开发者真正拿来的那些活：小问题、跨很多文件的功能，以及把项目<mark>跑起来</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>如果评测只覆盖单一题型，就不知道代理能不能应付多轮、不熟悉的代码库，或一个还编不过的项目。</p>\n<p><strong>如何解决：</strong>Kirobench 用来衡量代理在这些真实用法上的表现，服务的是把代理做成能接住日常工作，而不是只刷一个固定集合。摘要没有列出题目数量或对照模型。</p>\n<p><strong>效果怎样：</strong>这篇导语没有公布分数。</p>\n<p><strong>洞察与启发：</strong>评测集合如果和用户实际丢给代理的任务脱节，产品改动就会优化错方向。</p>\n<p><strong>相关工作：</strong>群体代理那篇强调预算要对齐。Kiro 这篇强调任务类型要覆盖真实用法。两件事都是为了不让一个好看的总分代替现场表现。</p>\n</details>\n"
+}

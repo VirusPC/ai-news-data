@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-757212be.json",
+  "title": "GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73",
+  "sentence": "智谱把旗舰押在循环深度上：同一组权重多跑几轮，而不是只靠把参数再堆大。",
+  "category": "模型",
+  "company": "GLM",
+  "text": "#### &lt;模型&gt;&lt;GLM&gt;[GLM-5.4：瞄向泛Coding，首个Loop Transformer带来的惊喜](https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73)\n\n智谱把旗舰押在<mark>循环深度</mark>上：同一组权重多跑几轮，而不是只靠把参数再堆大。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>长链推理任务要更多有效计算，只加参数解决不了。智谱认为大型软件工程、网络安全、3D 和物理控制都要沿多步因果链推演。</p>\n<p><strong>如何解决：</strong>GLM-5.4 是第一代采用 Loop Transformer 的旗舰。它不从头预训练，而是把已经训完的 GLM-5 基座改造成循环结构：750B 基座里的 28 层做两轮循环。三处配套是门控渐进更新、跨轮共享 KV 再加滑窗，以及第二轮复用第一轮的稀疏注意力索引。</p>\n<p><strong>效果怎样：</strong>文中称智能水平达到 2-3T 级模型，并做了 200 个真实场景编程评测。同架构 30B 对比里，参数量相同、训练计算量大约增加 10%；GPQA 和 MMLU-Pro 上平均输出长度下降 10% 到 14%。非高峰速度最高 200 token/s，高峰 70 到 80 token/s。</p>\n<p><strong>洞察与启发：</strong>一部分推理从输出的思维链挪到了循环本身的额外深度里。循环轮数会放大显存和检索成本，所以他们把多一轮的代价压成一个窗口的 KV，而不是再存一整份上下文。</p>\n<p><strong>相关工作：</strong>即日起向 GLM Coding Plan 全量用户开放，并上线 ZCode、Trae、WorkBuddy、Qoder 等平台。API 等安全评估后开放，权重计划开源。Coding Plan 相关版本额度提到 1.5 倍。</p>\n</details>\n"
+}

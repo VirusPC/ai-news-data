@@ -1,0 +1,10 @@
+{
+  "id": "https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol",
+  "source": "cleaned/articles/coderabbit.ai-blog-fable-5-2-vs-gpt-6-2-astra-sol-9bbf6c0f.json",
+  "title": "Fable 5.2 vs Astra and Sol: choosing a model for real coding work",
+  "link": "https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol",
+  "sentence": "CodeRabbit 把 11 月上旬到的 Fable 5.2、Astra 和 Sol 放进同一类编码任务里比较，而不是只看榜单名次。",
+  "category": "模型",
+  "company": "CodeRabbit",
+  "text": "#### &lt;模型&gt;&lt;CodeRabbit&gt;[Fable 5.2 vs Astra and Sol: choosing a model for real coding work](https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol)\n\nCodeRabbit 把 11 月上旬到的 Fable 5.2、Astra 和 Sol 放进同一类<mark>编码任务</mark>里比较，而不是只看榜单名次。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>三款模型在大约一周内先后发布，榜单接近时，仍不知道它们做同一件编码工作时会走出怎样不同的过程。</p>\n<p><strong>如何解决：</strong>文章先让其中两个做同一个小型游戏开发任务，看做出了什么、怎么做完。再拿 CodeRabbit 自己的内部结果比较三者。Fable 5.2 的发布日在文中写为 11 月 9 日，Astra 和 Sol 在八天后。</p>\n<p><strong>效果怎样：</strong>订阅正文的开头没有给出三者的最终名次或分数。这期不把没读到的胜负写进来。</p>\n<p><strong>洞察与启发：</strong>模型选择要看它如何完成一件具体的活，包括中间过程，而不只看发布周的总榜。这些模型发布日本身早于本周窗口。</p>\n<p><strong>相关工作：</strong>本周新的旗舰发布是 GLM-5.4 的 Loop Transformer。Arena 这份 11 月 22 日的榜把 Fable 5.2 (Max) 放进了前 15。</p>\n</details>\n"
+}

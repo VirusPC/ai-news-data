@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-529ac60c.json",
+  "title": "一个向量库，两种检索：VikingDB 关键词检索实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+  "sentence": "错误码这种只差一个字符的查询，语义相近不够，VikingDB 在同一个库里补上了关键词检索。",
+  "category": "架构",
+  "company": "字节",
+  "text": "#### &lt;架构&gt;&lt;字节&gt;[一个向量库，两种检索：VikingDB 关键词检索实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c)\n\n错误码这种只差一个字符的查询，语义相近不够，VikingDB 在同一个库里补上了<mark>关键词</mark>检索。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>向量检索会把都在讲蓝屏的文档排到一起。用户搜的是 0xC000021A，返回的第一条却可能是 0xC000021E，处理步骤完全是另一套。</p>\n<p><strong>如何解决：</strong>火山引擎 VikingDB 在同一库里同时提供向量检索和关键词检索。关键词路径解析词项、走倒排索引，再按文本相关性排序。文中的例子里，同时命中错误码和“蓝屏”的文档会排到只命中“蓝屏”的文档前面。</p>\n<p><strong>效果怎样：</strong>文章用这个错误码例子说明排序差异，并说库可以承载万亿级向量、毫秒级响应。没有给出这次关键词路径上线后的点击或误召回比例。</p>\n<p><strong>洞察与启发：</strong>名称、型号和编号不该只靠语义向量。差一个字符可能就是另一个对象，检索得保留词项匹配。</p>\n<p><strong>相关工作：</strong>淘宝直播的知识库走的是另一条路：把业务编成可核对的 wiki，而不是在向量结果上再加一路关键词。</p>\n</details>\n"
+}

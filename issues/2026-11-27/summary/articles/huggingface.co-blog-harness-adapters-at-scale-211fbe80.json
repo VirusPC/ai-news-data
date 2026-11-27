@@ -1,0 +1,10 @@
+{
+  "id": "https://huggingface.co/blog/harness-adapters-at-scale",
+  "source": "cleaned/articles/huggingface.co-blog-harness-adapters-at-scale-211fbe80.json",
+  "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+  "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+  "sentence": "模型通常对着通用表现训练，套进具体的代理框架之后还有一层可以单独训的适配。",
+  "category": "架构",
+  "company": "Hugging Face",
+  "text": "#### &lt;架构&gt;&lt;Hugging Face&gt;[Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale)\n\n模型通常对着通用表现训练，套进具体的代理<mark>框架</mark>之后还有一层可以单独训的适配。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>同一个模型放进不同的代理框架和任务分布，表现和成本都不是框架作者已经调好的。</p>\n<p><strong>如何解决：</strong>文章的做法是针对目标框架和任务分布做强化学习，训练一个框架适配器。文中以 Qwen3.8-27B 为例，并讨论在 Hugging Face 上生成任务、用短训练检查过滤，以及把多个适配器合成一个。</p>\n<p><strong>效果怎样：</strong>导语的结论是：这样训出来的模型在目标框架和任务上更准，也更省。页面摘录没有保留可引用的对照分数，这里不补分数。</p>\n<p><strong>洞察与启发：</strong>框架不是透明的外壳。工具格式、停止方式和上下文安排都会改变模型该怎么行动，这些差异可以单独训练，而不是只靠提示词补。</p>\n<p><strong>相关工作：</strong>群体代理那篇问的是加代理值不值。适配器问的是，决定用这个框架之后，模型本身还能不能更贴这个框架。</p>\n</details>\n"
+}

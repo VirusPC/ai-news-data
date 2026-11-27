@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/n8n-io/nod",
+  "source": "cleaned/projects/nod.json",
+  "purpose": "催发票、准备通话、取消试用这类事发生在真实网站上，聊天机器人既碰不到页面，也不该擅自行动。",
+  "change": "README 目录里有测量一节，这期没有把没核对过的基准数字写进卡片。当前星标 4085，许可证 Apache-2.0。",
+  "text": "#### [nod](https://github.com/n8n-io/nod) 4085 stars Apache-2.0\n\nNod 是跑在你自己机器上的个人代理，做完网页上的事之前会先<mark>请示</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>催发票、准备通话、取消试用这类事发生在真实网站上，聊天机器人既碰不到页面，也不该擅自行动。</p>\n<p><strong>如何解决：</strong>n8n 的 Nod 自带一台计算机，用你选择的模型，在本机运行。README 写它会在代表你行动之前先问。桌面端覆盖 macOS 14 及以上，Windows 11 和 Linux x64 仍是预览，状态标成 research preview。可以用 ChatGPT Plus 或 Pro，或自备密钥。</p>\n<p><strong>效果怎样：</strong>README 目录里有测量一节，这期没有把没核对过的基准数字写进卡片。当前星标 4085，许可证 Apache-2.0。</p>\n<p><strong>洞察与启发：</strong>个人代理如果要操作真实网站，行动前的确认得是产品的一部分，不能只写在提示词里。计算放在本机，是为了让页面和登录状态留在用户这边。</p>\n<p><strong>相关工作：</strong>Plannotator 也把人留在回路里，但它批注的是计划和 diff。Nod 要人确认的是对外部网站的动作。</p>\n</details>\n"
+}

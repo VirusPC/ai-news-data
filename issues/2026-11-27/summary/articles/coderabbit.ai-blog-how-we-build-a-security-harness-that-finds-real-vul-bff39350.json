@@ -1,0 +1,10 @@
+{
+  "id": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+  "source": "cleaned/articles/coderabbit.ai-blog-how-we-build-a-security-harness-that-finds-real-vul-bff39350.json",
+  "title": "How We Built a Security Harness That Finds Real Vulnerabilities",
+  "link": "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+  "sentence": "安全代理会顺着一条线索把预算花光。这个骨架先记录哪些地方还没看，再决定下一次往哪走。",
+  "category": "实践",
+  "company": "CodeRabbit",
+  "text": "#### &lt;实践&gt;&lt;CodeRabbit&gt;[How We Built a Security Harness That Finds Real Vulnerabilities](https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities)\n\n安全代理会顺着一条线索把预算花光。这个骨架先记录<mark>哪些地方还没看</mark>，再决定下一次往哪走。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代码越堆越多，一次安全扫描如果耗尽上下文和预算，仓库里没被走到的部分就没有记录。没被看过的代码仍然要有人负责。</p>\n<p><strong>如何解决：</strong>CodeRabbit 把安全扫描当成地图和搜索。骨架决定往哪看，记下已经检查过的范围，并规定一条发现要达到什么程度才算数。</p>\n<p><strong>效果怎样：</strong>导语没有给出这套骨架上线后的漏洞数或漏报率。</p>\n<p><strong>洞察与启发：</strong>没有覆盖记录的扫描，无法区分“这里是安全的”和“这里还没去”。预算要用在没看过的区域，而不是最容易展开的那条线索。</p>\n<p><strong>相关工作：</strong>OpenAI 的对抗蒸馏保护的是模型能力不被抽走。这边保护的是代码仓库里还没被看过的路径。</p>\n</details>\n"
+}

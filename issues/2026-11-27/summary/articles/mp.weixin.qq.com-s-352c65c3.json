@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-352c65c3.json",
+  "title": "基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+  "sentence": "直播互动团队用 wiki、知识表达和 Git 把跨仓经验收成代理能按需取用的上下文，而不是再堆一个向量库。",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### &lt;实践&gt;&lt;阿里&gt;[基于 LLM Wiki、OKF 与 Git 的Agent知识库：淘宝直播互动团队的AI Coding实践](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a)\n\n直播互动团队用 wiki、知识表达和 Git 把跨仓经验收成代理能<mark>按需取用</mark>的上下文，而不是再堆一个向量库。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>复杂业务编码里，传统向量知识库把知识切碎，检索相关但接不起跨端、跨仓的业务约束。</p>\n<p><strong>如何解决：</strong>LiveX Wiki 用大模型把业务理解编纂成 wiki，用 OKF 组织表达，用 Git 管版本。结构是域、场景、知识三层。消费时用层次索引和 Agentic Search，按需取，并回源核对。更新也走模型和 Git。</p>\n<p><strong>效果怎样：</strong>导语说明这是针对碎片化和低相关性的方案。材料摘录里没有给出命中率或缺陷下降的数字，这里不补。</p>\n<p><strong>洞察与启发：</strong>编码代理缺的常常不是更多相似片段，而是一条能核对回来的业务结构。版本留在 Git 里，知识变更才和代码变更一样可审。</p>\n<p><strong>相关工作：</strong>需求专家 Agent 把稳定知识在结项时蒸馏进长期 wiki。LangChain 的知识工厂则让代理标出缺口，由另一个代理在后台补。</p>\n</details>\n"
+}

@@ -1,27 +1,10 @@
 {
-  "name": "GLM-5.4",
-  "release_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73",
-  "openrouter_slug": null,
-  "price": {
-    "note": "发布原文没有给单价；API 完成安全评估后才开放，暂无",
-    "rank": null,
-    "rank_of": null
-  },
-  "speed": {
-    "throughput_tps": null,
-    "latency_s": null,
-    "rank": null,
-    "rank_of": null,
-    "note": "官方称非高峰最高约 200 token/s、高峰 70–80 token/s；不在 OpenRouter 官方端点目录里，暂无可核验的端点实测"
-  },
-  "aa": {
-    "intelligence_index": null,
-    "rank": null,
-    "note": "Artificial Analysis 免费接口里没有 GLM-5.4，暂无"
-  },
   "id": "GLM-5.4",
+  "name": "GLM-5.4",
   "source": "raw/articles/feeds.json",
   "publisher": "智谱",
   "category": "博客",
-  "url": "https://www.zhipuai.cn/zh/research"
+  "url": "https://www.zhipuai.cn/zh/research",
+  "released": "2026-11-23",
+  "release_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73"
 }

@@ -1,0 +1,10 @@
+{
+  "id": "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review",
+  "source": "cleaned/articles/coderabbit.ai-blog-your-jira-ticket-belongs-in-the-code-review-2b4b2de8.json",
+  "title": "Your Jira ticket belongs in the code review",
+  "link": "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review",
+  "sentence": "评审如果只看见 diff，就看不见当初约定的验收。CodeRabbit 把关联的 工单拉进同一次检查。",
+  "category": "产品",
+  "company": "CodeRabbit",
+  "text": "#### &lt;产品&gt;&lt;CodeRabbit&gt;[Your Jira ticket belongs in the code review](https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review)\n\n评审如果只看见 diff，就看不见当初约定的验收。CodeRabbit 把关联的 <mark>工单</mark>拉进同一次检查。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>拉取请求有两半：代码，以及代码本来该完成的事。后者在工单的验收标准和评论里，评审的人和代理通常只看着 diff。</p>\n<p><strong>如何解决：</strong>接上 Jira 之后，CodeRabbit 把关联问题拉进评审，让查缺陷的同一次检查也对照当初要做的事。</p>\n<p><strong>效果怎样：</strong>文章说明的是这道连接，没有给出因此少漏掉的需求数。</p>\n<p><strong>洞察与启发：</strong>代理评审会放大“只看 diff”的习惯。验收标准如果不在同一次上下文里，模型会把能跑的改动当成做对了的改动。</p>\n<p><strong>相关工作：</strong>安全骨架关心仓库里哪些路径还没被看过。工单集成关心的是看过的代码是否对得上要做的事。</p>\n</details>\n"
+}

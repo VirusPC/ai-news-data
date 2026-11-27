@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-08a059cc.json",
+  "title": "如何搭建一个端到端业务需求专家 Agent",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69",
+  "sentence": "淘天这套系统把需求从进入到结项串成闭环，人只在质量门上确认，而不是在每个工具之间来回搬运上下文。",
+  "category": "实践",
+  "company": "阿里",
+  "text": "#### &lt;实践&gt;&lt;阿里&gt;[如何搭建一个端到端业务需求专家 Agent](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69)\n\n淘天这套系统把需求从进入到结项串成闭环，人只在<mark>质量门</mark>上确认，而不是在每个工具之间来回搬运上下文。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>写代码已经不是最贵的一段。贵的是澄清、方案、实现、评审、验收、发布和结项之间的串联，上下文和反馈散落在聊天和各个平台里。</p>\n<p><strong>如何解决：</strong>四层是上下文、编排、工具和反馈。三道质量门是需求澄清、技术方案和内部质量。实现用先写测试再写代码，并用 git pre-push 钩子卡住检查，而不是只靠提示词。过程材料先留在项目记忆的分支上，结项后才把稳定知识蒸馏进长期 wiki。</p>\n<p><strong>效果怎样：</strong>文章说这条链路已经在真实业务需求上跑通澄清、方案、实现、验收到结项。同时写明还没有一套度量来证明每一轮提示词改动是变好还是变差，接入鉴权成本也仍然偏高。</p>\n<p><strong>洞察与启发：</strong>项目过程中的事实不直接升级成长期知识。没有这道筛选，一次需求里的噪声会污染下一个需求的起点。</p>\n<p><strong>相关工作：</strong>同团队的 LiveX Wiki 用另一套知识库给编码代理供上下文。美团客服模型则把线上错误归因后送回训练。</p>\n</details>\n"
+}

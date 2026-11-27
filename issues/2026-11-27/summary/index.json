@@ -1,16 +1,16 @@
 {
   "skill": {
     "name": "weekly-ai-blogs-digest",
-    "version": "0.0.10"
+    "version": "0.0.11"
   },
   "routine": {
     "repo": "VirusPC/edges-brain-viruspc",
-    "commit": "05cd1373b8208a9fcf0b97b52df37edd26e8fead",
+    "commit": "397929991a9238bdd530ad088f04bb6dbe59c25f",
     "path": ".edges/routines/weekly-ai-blogs-digest/INDEX.md"
   },
   "articles_coverage": {
-    "raw": 90,
-    "selected": 25
+    "raw": 102,
+    "selected": 34
   },
   "window": {
     "issue": "2026-11-27",
@@ -21,12 +21,12 @@
     "categories": [
       {
         "title": "模型榜单",
-        "count": 831,
+        "count": 20,
         "publishers": [
           {
             "name": "Artificial Analysis",
             "url": "https://artificialanalysis.ai/leaderboards/models",
-            "count": 766
+            "count": null
           },
           {
             "name": "LLM Arena",
@@ -36,7 +36,7 @@
           {
             "name": "OpenRouter",
             "url": "https://openrouter.ai/rankings",
-            "count": 45
+            "count": null
           }
         ]
       },
@@ -53,7 +53,7 @@
       },
       {
         "title": "博客",
-        "count": 68,
+        "count": 79,
         "publishers": [
           {
             "name": "Anthropic",
@@ -118,7 +118,7 @@
           {
             "name": "AWS",
             "url": "https://aws.amazon.com/blogs/machine-learning/",
-            "count": 0
+            "count": 11
           },
           {
             "name": "sankalp",
@@ -209,7 +209,7 @@
       },
       {
         "title": "国内互联网",
-        "count": 22,
+        "count": 23,
         "publishers": [
           {
             "name": "字节跳动",
@@ -239,7 +239,7 @@
           {
             "name": "美团",
             "url": "https://tech.meituan.com/",
-            "count": 0
+            "count": 1
           },
           {
             "name": "千问",
@@ -267,31 +267,20 @@
     {
       "title": "模型进展",
       "boards": [
-        "Artificial Analysis",
-        "LLM Arena",
-        "OpenRouter 应用用量",
-        "OpenRouter 编程用量",
-        "OpenRouter 本周用量"
+        "LLM Arena"
       ],
       "cards": [
-        "Inkling 2 Mini",
         "GLM-5.4"
       ]
     },
     {
       "title": "项目开源",
       "cards": [
-        "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "https://github.com/GoogleChrome/modern-web-guidance-src",
-        "https://github.com/ag-ui-protocol/ag-ui",
-        "https://github.com/alibaba/open-code-review",
         "https://github.com/backnotprop/plannotator",
-        "https://github.com/dream-num/univer",
         "https://github.com/google-labs-code/stitch-skills",
-        "https://github.com/kajisho5/ffmpeg-skill",
-        "https://github.com/meta/astryx",
-        "https://github.com/mvanhorn/last30days-skill",
-        "https://github.com/n8n-io/nod"
+        "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "https://github.com/n8n-io/nod",
+        "https://github.com/alibaba/open-code-review"
       ]
     },
     {
@@ -300,57 +289,64 @@
         {
           "title": "国内模型厂",
           "cards": [
-            "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg==&mid=2247494345&idx=1&sn=0ea26a769f134fefec42e33d59558c73"
+            "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&idx=1&mid=2247494345&sn=0ea26a769f134fefec42e33d59558c73"
           ]
         },
         {
           "title": "国外模型厂",
           "cards": [
-            "https://www.anthropic.com/research/migrating-api-to-rust",
-            "https://claude.com/resources/articles/install-as-app",
-            "https://claude.com/resources/articles/introducing-claude-ship",
+            "https://code.claude.com/docs/en/changelog",
             "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+            "https://claude.com/resources/articles/introducing-claude-ship",
             "https://openai.com/index/introducing-shirudo",
-            "https://antigravity.google/blog/mcp-apps-in-antigravity",
-            "https://antigravity.google/blog/plugin-ecosystem-momentum",
-            "https://www.philschmid.de/gemini-4-neon-context-engineering"
+            "https://openai.com/index/combatting-adversarial-distillation",
+            "https://antigravity.google/blog/mcp-apps-in-antigravity"
           ]
         },
         {
           "title": "国内非模型厂",
           "cards": [
-            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512957&idx=1&sn=e018f76617777f9304e13650b3381024",
-            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808258&idx=1&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
-            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524676&idx=2&sn=d75e8a013600c2a94fb64ae29fde4d7c"
+            "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA%3D%3D&idx=1&mid=2247512957&sn=e018f76617777f9304e13650b3381024",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547174&sn=b171682af05838ea8214918446403e69",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547166&sn=bde8139cdeb253d696b9aa289b06ac96",
+            "https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ%3D%3D&idx=1&mid=2650547154&sn=0de514e7cac1b4e3fe62a89b2a073c2a",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808323&sn=efa282d3273912ecf90ce04af25cfe6f",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+            "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=2&mid=2649808258&sn=5ac2a5154f7b50cbda4ca96997130515",
+            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=2&mid=2247524676&sn=d75e8a013600c2a94fb64ae29fde4d7c",
+            "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5",
+            "https://tech.meituan.com/2026/11/26/Agent-RSI-practice-in-meituan.html",
+            "https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ%3D%3D&idx=1&mid=2247607882&sn=29dc274865dbd06fd48a35d98aff7593"
           ]
         },
         {
           "title": "国外非模型厂",
           "cards": [
             "https://x.com/cognition/status/2125659035231780966",
-            "https://www.langchain.com/blog/langsmith-tool-gateway",
             "https://www.langchain.com/blog/the-agent-lake",
+            "https://www.langchain.com/blog/knowledge-factory",
+            "https://www.langchain.com/blog/langsmith-tool-gateway",
             "https://www.warp.dev/blog/program-software-factory-as-code",
+            "https://huggingface.co/blog/training-swarms",
             "https://huggingface.co/blog/harness-adapters-at-scale",
-            "https://huggingface.co/blog/inkling2mini",
-            "https://kiro.dev/blog/agents-run-for-days",
+            "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review",
+            "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
+            "https://coderabbit.ai/blog/fable-5-2-vs-gpt-6-2-astra-sol",
+            "https://kiro.dev/blog/kirobench",
             "https://kiro.dev/blog/conductor-mode",
             "https://kiro.dev/blog/kiro-for-vs-code",
-            "https://kiro.dev/blog/kirobench",
-            "https://kiro.dev/blog/remote-workspaces",
-            "https://coderabbit.ai/blog/how-we-build-a-security-harness-that-finds-real-vulnerabilities",
-            "https://coderabbit.ai/blog/your-jira-ticket-belongs-in-the-code-review"
+            "https://kiro.dev/blog/private-networks",
+            "https://www.philschmid.de/mcp-2027",
+            "https://www.philschmid.de/gemini-4-neon-context-engineering"
           ]
         }
       ]
     },
     {
-      "title": "精选推文",
-      "cards": []
+      "title": "精选推文"
     },
     {
-      "title": "精选播客",
-      "cards": []
+      "title": "精选播客"
     }
   ]
 }

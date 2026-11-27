@@ -2,39 +2,55 @@
   "gaps": [
     {
       "path": "projects/releases.json",
-      "reason": "这期没有单独的仓库发布记录来源，不编空列表"
+      "reason": "这期没有单独的仓库发布记录来源，不编空的发布列表。"
     },
     {
-      "path": "articles/feeds.json#aws-ml",
-      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
+      "path": "models/aa-language-models.json",
+      "reason": "本环境没有设置 AA_API_KEY 或 ARTIFICIAL_ANALYSIS_API_KEY，未请求 Artificial Analysis。不拿其他日期的快照充当这一期。"
     },
     {
-      "path": "articles/feeds.json#meituan-tech",
-      "reason": "主源抓取报错，无备源。脚本不抓列表页，本期未补列表页"
+      "path": "models/openrouter-rankings-daily.json",
+      "reason": "本环境没有设置 OPENROUTER_API_KEY，未请求日用量榜。不拿 2026-11-20 那期的用量充当 2026-11-20 至 2026-11-26。"
     },
     {
-      "path": "articles/feeds.json#baoyu",
-      "reason": "主源停更（最新条目早于约一个月），无备源。脚本不抓列表页，本期未补列表页"
+      "path": "models/openrouter-rankings-programming.json",
+      "reason": "本环境没有设置 OPENROUTER_API_KEY，未请求编程用量榜。"
     },
     {
-      "path": "articles/feeds.json#jxnl",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+      "path": "models/openrouter-app-rankings.json",
+      "reason": "本环境没有设置 OPENROUTER_API_KEY，未请求应用用量榜。"
     },
     {
-      "path": "articles/feeds.json#qwen-ai-platform",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#sankalp",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
-    },
-    {
-      "path": "articles/feeds.json#zed",
-      "reason": "主源停更，无备源。脚本不抓列表页，本期未补列表页"
+      "path": "models/openrouter-official-endpoints.json",
+      "reason": "没有可用的 Artificial Analysis 快照，也没有 OPENROUTER_API_KEY，未请求官方端点目录。速度排名因此没有端点延迟。"
     },
     {
       "path": "articles/feeds.json#meta-ai",
-      "reason": "主源和备源 meta-ai-rsshub 均停更，本期没有 Meta AI 的 feed 条目；feeds.json 的 sources 只保留已决定采用的源。脚本不抓列表页，本期未补列表页"
+      "reason": "主源 meta-ai 停更，最新条目 2026-07-27。备源 meta-ai-rsshub 同样停更，最新条目 2026-07-26。列表页 https://ai.meta.com/blog/ 在窗口 2026-11-20 至 2026-11-26 没有新文章。2026-11-13 与 2026-11-20 两期主源和备源都已失败，连续多期，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#meta-ai-rsshub",
+      "reason": "备源 meta-ai-rsshub 停更，最新条目 2026-07-26。主源也不可用，没有并进条目。连续多期停更，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#sankalp",
+      "reason": "主源 sankalp 停更，最新条目 2026-10-20。列表页 https://sankalp.bearblog.dev/ 在窗口内没有新文章。2026-11-20 期最新条目也是 2026-10-20，连续两期失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#zed",
+      "reason": "主源 zed 停更，最新条目 2026-09-16。列表页 https://zed.dev/blog 可见日期停在 2025-11，窗口内没有新文章。2026-11-13 与 2026-11-20 都已停更，连续多期，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#baoyu",
+      "reason": "主源 baoyu 停更，最新条目 2026-10-20。列表页 https://baoyu.io/ 在窗口内没有新文章。2026-11-20 期最新条目也是 2026-10-20，连续两期失败，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#jxnl",
+      "reason": "主源 jxnl 停更，最新条目 2026-07-05。列表页 https://jxnl.co/writing/ 在窗口内没有新文章。2026-11-13 与 2026-11-20 都已停更，连续多期，建议换源。"
+    },
+    {
+      "path": "articles/feeds.json#qwen-ai-platform",
+      "reason": "主源 qwen-ai-platform 停更，最新条目 2026-07-20。meta 没有 listUrls。2026-11-13 与 2026-11-20 都已停更，连续多期，建议换源。"
     }
   ]
 }

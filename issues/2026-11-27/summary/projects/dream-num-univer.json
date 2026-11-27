@@ -1,7 +1,0 @@
-{
-  "id": "https://github.com/dream-num/univer",
-  "source": "cleaned/projects/dream-num-univer.json",
-  "purpose": "给产品和 Agent 接入办公能力的 Univer Office SDK",
-  "change": "进入 GitHub Trending 每周总榜，本周第 13 名（按榜单原始顺序）。",
-  "text": "#### [dream-num/univer](https://github.com/dream-num/univer)\n\n给产品和 Agent 接入办公能力的 Univer Office SDK。先从开源的 Sheets 和 Docs 起步，再接到自己的应用或 Agent，让办公能力<mark>同时服务人和 AI Agent</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>提供编辑、计算、协作和文件处理，核心可扩展且开源。</p>\n<p><strong>如何解决：</strong>先从开源的 Sheets 和 Docs 起步，再接到自己的应用或 Agent，让办公能力同时服务人和 AI Agent。</p>\n<p><strong>补充：</strong>核心开源。（星标 31971，许可 Apache-2.0，数据来自 GitHub）</p>\n</details>\n\n"
-}

@@ -1,0 +1,10 @@
+{
+  "id": "https://claude.com/resources/articles/introducing-claude-ship",
+  "source": "cleaned/articles/claude.com-resources-articles-introducing-claude-ship-e277391e.json",
+  "title": "Introducing Claude Ship",
+  "link": "https://claude.com/resources/articles/introducing-claude-ship",
+  "sentence": "Claude Ship 把评审、修拉取请求和按策略批准接成一段，人只决定哪些改动必须亲自点头。",
+  "category": "产品",
+  "company": "Anthropic",
+  "text": "#### &lt;产品&gt;&lt;Anthropic&gt;[Introducing Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)\n\nClaude Ship 把评审、修拉取请求和按策略<mark>批准</mark>接成一段，人只决定哪些改动必须亲自点头。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>代理写代码变快之后，打开拉取请求、等评审、回来修、再找人批准，仍把人从下一件事里拽回来。</p>\n<p><strong>如何解决：</strong>它由已经正式可用的 Code Review，加上测试中的 PR Steward 和 Claude Approvals 组成。Code Review 从多个角度审，并做对抗式核验。PR Steward 处理失败的检查、冲突和评审意见，但不批准或合并。Claude Approvals 读仓库里的策略文件，决定例行改动能不能自己过。</p>\n<p><strong>效果怎样：</strong>文中写 Claude Code 团队在把评审当作多层流程之一时，6 月到 9 月合并的拉取请求增加了一倍多，回退比例下降超过 40%。开发者可以用 /ship；管理员按仓库打开，并建议先用只观察模式。</p>\n<p><strong>洞察与启发：</strong>批准策略被写成仓库里的文件，信号可以包括评审发现或自然语言分类器。它更像一份会判断的 CODEOWNERS，而不是又一个固定规则表。</p>\n<p><strong>相关工作：</strong>符合条件的企业组织可以领取至少 1 万美元额度，领取后 30 天内使用，领取截止 2027 年 1 月 15 日。这是原文里的额度，不是模型价格。</p>\n</details>\n"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/alibaba/open-code-review",
+  "source": "cleaned/projects/open-code-review.json",
+  "purpose": "只看 diff 的评审缺少周围文件。没有 diff 的目录，例如要审计的旧代码，也需要一条能整文件看的路径。",
+  "change": "项目自述过去两年服务了数万开发者，并找出过数百万代码缺陷。这是仓库自己的说法。当前星标 56721，许可证 Apache-2.0。",
+  "text": "#### [open-code-review](https://github.com/alibaba/open-code-review) 56721 stars Apache-2.0\n\n阿里把内部用了两年的代码评审助手开源成命令行，代理可以读 diff，也可以<mark>翻仓库</mark>。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>只看 diff 的评审缺少周围文件。没有 diff 的目录，例如要审计的旧代码，也需要一条能整文件看的路径。</p>\n<p><strong>如何解决：</strong>Open Code Review 配置一个模型端点即可运行。它读取 Git diff，由带工具的代理读全文、搜索仓库、查看其他改动文件，再写出带到行号的意见。ocr scan 用来审没有有效 diff 的整份文件或目录。README 说它源自阿里内部的正式评审助手。</p>\n<p><strong>效果怎样：</strong>项目自述过去两年服务了数万开发者，并找出过数百万代码缺陷。这是仓库自己的说法。当前星标 56721，许可证 Apache-2.0。</p>\n<p><strong>洞察与启发：</strong>评审代理需要工具，不是把 diff 贴进一次对话。整库扫描和增量评审是两种入口，不该互相代替。</p>\n<p><strong>相关工作：</strong>CodeRabbit 本周把工单和安全搜索补进评审。Open Code Review 把阿里内部的评审循环本身开了出来。</p>\n</details>\n"
+}

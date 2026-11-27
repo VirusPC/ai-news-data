@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-55423bee.json",
+  "title": "50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3",
+  "sentence": "代理沙箱真正慢的往往不是把进程拉起来，而是把工作区再搬到下一台机器上。",
+  "category": "架构",
+  "company": "腾讯",
+  "text": "#### &lt;架构&gt;&lt;腾讯&gt;[50GB工作区秒级可访问，腾讯EROX破解Agent恢复难题](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&idx=1&mid=2649808258&sn=4954a3eef1bc7617fc57abd0fafbd0c3)\n\n代理沙箱真正慢的往往不是把进程拉起来，而是把<mark>工作区</mark>再搬到下一台机器上。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>有状态的长会话要跨节点延续依赖、任务和等待中的上下文。计算可以重建，数据不行。4000 台沙箱各挂 50GB 工作区时，全量拷贝会把启动从秒拖到分钟。</p>\n<p><strong>如何解决：</strong>TencentOS EROX 把内核直挂、按需拉取、P2P、增量快照和节点侧降本串成一条数据面，用来加速镜像启动和快照分发。</p>\n<p><strong>效果怎样：</strong>文章给出的结果是 50GB 工作区 1 秒就绪，冷启动缩减 50% 以上。核心说法是读到就能启动，状态可以复制。</p>\n<p><strong>洞察与启发：</strong>休眠和唤醒解决的是空等的 CPU。代理还要把磁盘和内存里的状态带到下一台机器，数据面得单独设计。</p>\n<p><strong>相关工作：</strong>CubeSandbox v0.8.0 补的是跨机暂停恢复的存储后端和调度。一个讲数据何时到位，一个讲沙箱如何在节点之间搬家。</p>\n</details>\n"
+}

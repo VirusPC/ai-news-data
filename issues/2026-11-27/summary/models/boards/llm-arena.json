@@ -1,7 +1,7 @@
 {
   "id": "LLM Arena",
   "source": "cleaned/models/boards/llm-arena.json",
-  "caption": "Arena 榜发布日从 11 月 18 日换成 11 月 22 日：前五名顺序不变，Claude Fable 5.2（Max）新进前 15，Muse Spark 1.1 掉出。",
+  "caption": "榜单发布日是 2026-11-22，上一期页面采用的是 2026-11-18 那一份。上一期前 15 里没有 Claude Fable 5.2 (Max)，这一份前 15 里有它。前四名仍是 Gemini 4 Carbon (High)、Gemini 4 Argon (High)、Gemini 4 Neon (High) 和 Muse Wonder (Max)。",
   "highlights": [],
   "arena_publish_date": "2026-11-22",
   "items": [

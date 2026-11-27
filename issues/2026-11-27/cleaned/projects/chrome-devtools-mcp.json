@@ -1,0 +1,10 @@
+{
+  "id": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "source": "raw/projects/github-trending.json",
+  "publisher": "GitHub",
+  "category": "GitHub Trending",
+  "url": "https://github.com/trending?since=weekly",
+  "stars": 59537,
+  "license": "Apache-2.0",
+  "released": null
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://kiro.dev/blog/conductor-mode",
+  "source": "cleaned/articles/kiro.dev-blog-conductor-mode-84836a14.json",
+  "title": "Introducing conductor mode in Kiro Crew",
+  "link": "https://kiro.dev/blog/conductor-mode",
+  "sentence": "Conductor 模式把同一次功能里并行的代理收成一份可以改的计划，再对着原型和测试结果往下收。",
+  "category": "产品",
+  "company": "Kiro",
+  "text": "#### &lt;产品&gt;&lt;Kiro&gt;[Introducing conductor mode in Kiro Crew](https://kiro.dev/blog/conductor-mode)\n\nConductor 模式把同一次功能里并行的代理收成一份可以改的<mark>计划</mark>，再对着原型和测试结果往下收。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>一个功能拆给多个代理并行做之后，需求和体验是在看原型、做测试时才改清楚的，不能在第一份计划里冻结。</p>\n<p><strong>如何解决：</strong>Kiro Crew 的工程团队从计划开始，边看原型边改需求。他们正在做的浏览器操作功能，就在自己的试用里加上了更多浏览器控制、聊天里的实时画面，以及做完之后的测试动作。</p>\n<p><strong>效果怎样：</strong>文章描述的是这个模式如何伴随浏览器操作功能一起长出来，没有给出并行代理的数量或周期缩短。</p>\n<p><strong>洞察与启发：</strong>指挥者要改的是计划和验收，不是替每个代理重写实现。原型和测试是计划的下一版输入。</p>\n<p><strong>相关工作：</strong>Devin 的组织图把多个 Bot 的目标放在一张画布上。Plannotator 则把对计划和 diff 的批注直接送回代理。</p>\n</details>\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA%3D%3D&idx=1&mid=2247512957&sn=e018f76617777f9304e13650b3381024",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-44ed0539.json",
+  "title": "智能体身份与授权：智能体生态的信任底座",
+  "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA%3D%3D&idx=1&mid=2247512957&sn=e018f76617777f9304e13650b3381024",
+  "sentence": "智能体开始自己执行动作之后，要先回答谁在行动、能做什么、权限怎么传下去。",
+  "category": "架构",
+  "company": "阿里",
+  "text": "#### &lt;架构&gt;&lt;阿里&gt;[智能体身份与授权：智能体生态的信任底座](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA%3D%3D&idx=1&mid=2247512957&sn=e018f76617777f9304e13650b3381024)\n\n智能体开始自己执行动作之后，要先回答<mark>谁在行动</mark>、能做什么、权限怎么传下去。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>人和应用的账号体系不够用。智能体由人或组织发起，却会自己拆目标、选工具，还可能把一个任务的权限用到另一个任务上。</p>\n<p><strong>如何解决：</strong>阿里把身份、动态令牌、最小授权、链式委托、审计和运行隔离写成治理原则，并和业界一起起草 Deferred Token Response。文章写明这份草案已经被 OAuth 工作组采纳。目标是让行动对得上用户意图，同时保护链路上的资源和动作。</p>\n<p><strong>效果怎样：</strong>这期文章给出的是规范被工作组采纳，没有给出线上拦截次数或事故下降比例。</p>\n<p><strong>洞察与启发：</strong>令牌要能推迟、能限定在这一次委托里，并留下可还原的责任链。否则一个智能体的记忆、文件和令牌会被另一个智能体复用。</p>\n<p><strong>相关工作：</strong>LangSmith Tool Gateway 在产品侧做每次工具调用的凭据和审批。DTR 把同一问题推进到 OAuth 草案。</p>\n</details>\n"
+}

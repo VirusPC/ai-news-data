@@ -1,0 +1,10 @@
+{
+  "id": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5",
+  "source": "cleaned/articles/mp.weixin.qq.com-s-85b1b23b.json",
+  "title": "不用自建后端，前端页面也能接入云端数据了：Pages Data SDK 正式上线",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5",
+  "sentence": "页面已经由代理生成并部署之后，Pages Data SDK 补的是云端数据，而且不把凭证放进页面代码。",
+  "category": "产品",
+  "company": "字节",
+  "text": "#### &lt;产品&gt;&lt;字节&gt;[不用自建后端，前端页面也能接入云端数据了：Pages Data SDK 正式上线](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ%3D%3D&idx=1&mid=2247524676&sn=d3c8dba365471f3ed41af535bebbead5)\n\n页面已经由代理生成并部署之后，Pages Data SDK 补的是<mark>云端数据</mark>，而且不把凭证放进页面代码。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>换一台设备打开，浏览器本地的数据就没了。为了共享再搭数据库和接口，又和快速做出一个可用应用相反。</p>\n<p><strong>如何解决：</strong>IGA Pages 是火山引擎的 Web 应用托管。Data SDK 让页面项目直接做云端数据的增删改查。请求打到项目自己的服务端接口，由服务端调用 SDK，应用代码不持有凭证。</p>\n<p><strong>效果怎样：</strong>文章举了两类用法：个人数据跨设备延续，以及老师更新作业、各家庭看到同一份内容但答题留在本地。没有公布接入数量。</p>\n<p><strong>洞察与启发：</strong>生成式工具会把页面和接口写出来，存储和分发仍要有一个不把密钥交到浏览器里的默认路径。</p>\n<p><strong>相关工作：</strong>这和代理沙箱里的状态问题相邻：EROX 搬的是工作区，Data SDK 搬的是页面背后那份要跨设备看见的数据。</p>\n</details>\n"
+}

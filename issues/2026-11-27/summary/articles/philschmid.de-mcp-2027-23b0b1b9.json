@@ -1,0 +1,10 @@
+{
+  "id": "https://www.philschmid.de/mcp-2027",
+  "source": "cleaned/articles/philschmid.de-mcp-2027-23b0b1b9.json",
+  "title": "Why I'm Bullish on MCP for 2027",
+  "link": "https://www.philschmid.de/mcp-2027",
+  "sentence": "Philipp Schmid 认为 MCP 挨过批评之后，正在变成代理框架的集成层，而不只是一串工具名。",
+  "category": "架构",
+  "company": "philschmid",
+  "text": "#### &lt;架构&gt;&lt;philschmid&gt;[Why I'm Bullish on MCP for 2027](https://www.philschmid.de/mcp-2027)\n\nPhilipp Schmid 认为 MCP 挨过批评之后，正在变成代理框架的<mark>集成层</mark>，而不只是一串工具名。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>早期 MCP 被批评，是因为它停在工具清单上，接不住代码执行、类型化输出、多模态和长期事件。</p>\n<p><strong>如何解决：</strong>文章点名的变化包括 Code Mode、带类型的 outputSchema、原生多模态、放进 MCP 的 Agent Skills、常开的 MCP Events，以及 MCP Apps。</p>\n<p><strong>效果怎样：</strong>这是一篇判断，没有实验数字。</p>\n<p><strong>洞察与启发：</strong>协议如果同时长出技能、事件和界面，客户端就不必为每一种工具结果再发明一种私有展示。</p>\n<p><strong>相关工作：</strong>Antigravity 本周落地的是 MCP Apps。Claude 落地的是技能、Tasks 和 Elicitation。这篇把它们看成同一层集成能力。</p>\n</details>\n"
+}

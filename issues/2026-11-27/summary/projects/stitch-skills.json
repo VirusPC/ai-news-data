@@ -1,0 +1,7 @@
+{
+  "id": "https://github.com/google-labs-code/stitch-skills",
+  "source": "cleaned/projects/stitch-skills.json",
+  "purpose": "设计工具如果只有一个 MCP 服务器，代理仍不知道在什么步骤该用哪一类设计动作。",
+  "change": "README 给出的是安装方式和插件划分，没有使用量。当前星标 13385，许可证 Apache-2.0。",
+  "text": "#### [stitch-skills](https://github.com/google-labs-code/stitch-skills) 13385 stars Apache-2.0\n\n这是一套给 Google Stitch 用的代理<mark>技能</mark>，按设计、构建和工具分成可单独安装的插件。\n\n<details class=\"article-more\">\n<summary>完整总结</summary>\n<p><strong>解决什么问题：</strong>设计工具如果只有一个 MCP 服务器，代理仍不知道在什么步骤该用哪一类设计动作。</p>\n<p><strong>如何解决：</strong>仓库按 Agent Skills 规范组织，兼容 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 和手动安装的 OpenCode。插件分成 stitch-design、stitch-build 和 stitch-utilities。Codex 可以通过插件市场安装，并可用稀疏检出只拉需要的目录。</p>\n<p><strong>效果怎样：</strong>README 给出的是安装方式和插件划分，没有使用量。当前星标 13385，许可证 Apache-2.0。</p>\n<p><strong>洞察与启发：</strong>技能开始按设计、构建、工具这种工作阶段分包，而不是把一个产品的全部提示塞进同一个目录。</p>\n<p><strong>相关工作：</strong>Chrome 的 modern-web-guidance 也是把专业知识做成代理技能，只是领域换成了 Web 平台。Claude 本周则让 MCP 服务器自己携带技能。</p>\n</details>\n"
+}
